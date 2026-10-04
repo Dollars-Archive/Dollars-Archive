@@ -58,10 +58,10 @@ eve-rebirth-terror-kr-patch:
   summary: |-
     1.4.0 : 실행 파일 패치·번역 데이터를 통합 적용하도록 개선.
   summary_source: https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/releases/tag/v1.4.0
-  cover: https://cdn.suruga-ya.jp/database/pics_webp/game/107002578.jpg.webp
-  cover_source: https://www.suruga-ya.jp/product/detail/107002578
-  cover_type: Box - Front (PS4 standard edition)
-  cover_caption: PS4판 표지
+  nintendo_art_page: https://w.atwiki.jp/switchsoft/pages/2072.html
+  cover_source: https://store-jp.nintendo.com/item/software/D70010000022322
+  cover_type: Nintendo eShop artwork
+  cover_caption: Switch eShop
   cover_region: Japan
   title: EVE rebirth terror
   original: EVE rebirth terror

@@ -39,6 +39,31 @@ def parse_front_cover(page: str) -> dict | None:
                 parser.candidates[0] if parser.candidates else None)
 
 
+class NintendoEshopParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.candidates = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag != "img":
+            return
+        attrs = dict(attrs)
+        for key in ("src", "data-src"):
+            url = attrs.get(key, "")
+            parsed = urlparse(url)
+            if parsed.scheme == "https" and parsed.hostname == "img-eshop.cdn.nintendo.net":
+                if url not in self.candidates:
+                    self.candidates.append(url)
+
+
+def parse_nintendo_eshop_art(page: str) -> dict | None:
+    parser = NintendoEshopParser()
+    parser.feed(page)
+    if not parser.candidates:
+        return None
+    return {"source_image": parser.candidates[0], "image_type": "Nintendo eShop artwork", "region": "Japan"}
+
+
 class CoverFetcher:
     def __init__(self):
         self.last_request = None
@@ -78,13 +103,14 @@ def plan_covers(root: Path, data: dict, metadata: dict, refresh=False, fetch=Non
             raise ValueError("잘못된 표지 저장소 이름")
         meta = metadata.get(repo, {})
         manual = meta.get("cover", "")
-        source = meta.get("cover_source", "") if manual else meta.get("launchbox_url", "")
-        source = source or meta.get("launchbox_url", "")
+        nintendo_page = meta.get("nintendo_art_page", "")
+        source = meta.get("cover_source", "") if (manual or nintendo_page) else meta.get("launchbox_url", "")
+        source = source or meta.get("launchbox_url", "") or nintendo_page
         patch.update(cover=None, cover_source=source or None, cover_revision=None)
         relative = f"covers/{repo}.webp"
         destination = root / "docs" / relative
         cached = previous.get(repo, {})
-        identity = manual or source
+        identity = manual or nintendo_page or source
         if destination.exists() and not refresh and cached.get("input") == identity:
             patch["cover"] = relative
             patch["cover_revision"] = hashlib.sha256(destination.read_bytes()).hexdigest()[:12]
@@ -104,6 +130,16 @@ def plan_covers(root: Path, data: dict, metadata: dict, refresh=False, fetch=Non
                     if not path.is_relative_to(allowed):
                         raise ValueError("수동 표지는 docs/covers 안에 있어야 합니다.")
                     content = path.read_bytes()
+            elif nintendo_page:
+                parsed = urlparse(nintendo_page)
+                if parsed.scheme != "https" or not parsed.hostname:
+                    raise ValueError("Nintendo eShop 이미지 탐색 페이지는 공개 HTTPS URL이어야 합니다.")
+                details = parse_nintendo_eshop_art(fetch(nintendo_page).decode("utf-8"))
+                if not details:
+                    raise ValueError("Nintendo eShop 이미지를 찾지 못했습니다.")
+                details["image_type"] = meta.get("cover_type", details["image_type"])
+                details["region"] = meta.get("cover_region", details["region"])
+                content = fetch(details["source_image"])
             else:
                 parsed = urlparse(source)
                 if parsed.scheme != "https" or parsed.hostname != "gamesdb.launchbox-app.com" or not re.fullmatch(r"/games/details/\d+-[a-z0-9-]+/?", parsed.path):
@@ -113,7 +149,7 @@ def plan_covers(root: Path, data: dict, metadata: dict, refresh=False, fetch=Non
                     raise ValueError("Box - Front 표지가 없습니다.")
                 content = fetch(details["source_image"])
             outputs[destination] = thumbnail(content)
-            provenance[repo] = {"input": identity, "source_page": source or None, **details, "fetched_at": data["generated_at"]}
+            provenance[repo] = {"input": identity, "source_page": source or None, "discovery_page": nintendo_page or None, **details, "fetched_at": data["generated_at"]}
             patch["cover"] = relative
             patch["cover_revision"] = hashlib.sha256(outputs[destination]).hexdigest()[:12]
         except Exception as exc:

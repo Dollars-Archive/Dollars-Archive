@@ -11,6 +11,8 @@ from scripts import build_hub as hub
 
 PAGE = 'https://gamesdb.launchbox-app.com/games/details/123-example'
 IMAGE = 'https://images.launchbox-app.com/front.jpg'
+NINTENDO_PAGE = 'https://example.com/switch-store-mirror'
+NINTENDO_IMAGE = 'https://img-eshop.cdn.nintendo.net/i/00000000000000/0123456789abcdef.jpg'
 
 
 def front(region='Japan', kind='Box - Front', url=IMAGE):
@@ -43,6 +45,36 @@ class CoverTests(unittest.TestCase):
         self.assertEqual(covers.parse_front_cover(front('North America'))['region'], 'North America')
         self.assertIsNone(covers.parse_front_cover('<html>changed markup</html>'))
         self.assertIsNone(covers.parse_front_cover(front(url='https://other.example/front.jpg')))
+
+    def test_nintendo_eshop_art_uses_official_cdn_only(self):
+        page = (
+            '<img src="https://other.example/not-it.jpg">'
+            f'<img src="{NINTENDO_IMAGE}">'
+            '<img data-src="https://img-eshop.cdn.nintendo.net/i/second.jpg">'
+        )
+        details = covers.parse_nintendo_eshop_art(page)
+        self.assertEqual(details['source_image'], NINTENDO_IMAGE)
+        self.assertEqual(details['image_type'], 'Nintendo eShop artwork')
+        self.assertIsNone(covers.parse_nintendo_eshop_art('<img src="https://other.example/nope.jpg">'))
+
+    def test_nintendo_art_page_fetches_store_art_and_links_official_source(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            source = 'https://store-jp.nintendo.com/item/software/D70010000022322'
+            fetch = Mock(side_effect=[f'<img src="{NINTENDO_IMAGE}">'.encode(), picture()])
+            data = catalogue()
+            outputs = covers.plan_covers(root, data, {'example': {
+                'nintendo_art_page': NINTENDO_PAGE,
+                'cover_source': source,
+                'cover_type': 'Nintendo eShop artwork',
+                'cover_region': 'Japan',
+            }}, fetch=fetch)
+            self.assertEqual(fetch.call_args_list[0].args[0], NINTENDO_PAGE)
+            self.assertEqual(fetch.call_args_list[1].args[0], NINTENDO_IMAGE)
+            self.assertEqual(data['patches'][0]['cover_source'], source)
+            provenance = json.loads(outputs[root / 'docs/data/covers.json'])
+            self.assertEqual(provenance['example']['source_image'], NINTENDO_IMAGE)
+            self.assertEqual(provenance['example']['discovery_page'], NINTENDO_PAGE)
 
     def test_resize_preserves_ratio(self):
         with Image.open(io.BytesIO(covers.thumbnail(picture()))) as image:
