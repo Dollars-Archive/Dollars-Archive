@@ -180,7 +180,7 @@ class HubTests(unittest.TestCase):
             root = Path(temp)
             data = self.catalogue()
             hub.apply_outputs(hub.planned_outputs(root, data))
-            original = {p: p.read_bytes() for p in [root / "README.md", root / "docs/data/patches.json"]}
+            original = {p: p.read_bytes() for p in hub.planned_outputs(root, data)}
             data["generated_at"] = "2026-10-06T16:00:00Z"
             outputs = hub.planned_outputs(root, data)
             self.assertEqual(outputs, original)

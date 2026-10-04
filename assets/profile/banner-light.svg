@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="240" viewBox="0 0 960 240" role="img" aria-label="Dollars Archive 한글패치">
+<rect width="960" height="240" rx="18" fill="#F2F3F6"/>
+<path d="M754 0h188q18 0 18 18v222H842L700 0" fill="#E4E9FC"/>
+<path d="M826 0L960 212M870 0l90 142M914 0l46 72" stroke="#2648D8" opacity=".12" stroke-width="2"/>
+<rect x="28" y="48" width="104" height="144" rx="20" fill="#18202E"/>
+<path d="M52 76h27c41 0 41 88 0 88H52z" fill="#F2F3F6"/>
+<path d="M67 90h11c25 0 25 60 0 60H67z" fill="#FFD93D"/>
+<text x="160" y="63" fill="#2648D8" font-family="Consolas,monospace" font-size="12" letter-spacing="2">FAN TRANSLATION / KOREAN PATCHES</text>
+<text x="157" y="115" fill="#18202E" font-family="Arial,sans-serif" font-weight="800" font-size="45" letter-spacing="-1">DOLLARS ARCHIVE</text>
+<text x="160" y="151" fill="#5E6676" font-family="sans-serif" font-size="18">콘솔·PC 게임을 한국어로 만나는 곳</text>
+<path d="M160 172h36" stroke="#2648D8" stroke-width="3"/>
+<text x="160" y="201" fill="#5E6676" font-family="Consolas,monospace" font-size="12" letter-spacing="1">DREAMCAST / PLAYSTATION / SWITCH / PC</text>
+</svg>

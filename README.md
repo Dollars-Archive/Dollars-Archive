@@ -1,32 +1,31 @@
-# Dollars Archive
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/banner-dark.svg"><img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/banner-light.svg" alt="Dollars Archive — 콘솔·PC 한글패치" width="100%"></picture>
 
-콘솔·PC 게임의 비공식 한글패치를 만들고 제작 기록을 정리합니다.
+<p align="center">직접 만든 한글패치와 제작 기록을 모았습니다.<br>지원 판본과 설치 방법은 각 패치의 안내를 확인해 주세요.</p>
 
-각 패치의 지원 판본과 설치 방법은 해당 저장소와 릴리스 안내를 확인해 주세요.
-
-허브 관리 방법은 [관리 안내](CONTRIBUTING.md)를 참고하세요.
-
+<p align="center"><a href="https://dollars-archive.github.io/Dollars-Archive/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/hub-link-dark.svg"><img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/hub-link-light.svg" alt="한글패치 허브 열기 — 기종·시리즈 필터와 검색" width="100%"></picture></a></p>
 
 <!-- KR-PATCH-HUB:START -->
-## 한글패치
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/summary-dark.svg"><img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/summary-light.svg" alt="한글패치 8개 · 배포 7 · 작업 중 1 · 다운로드 463회" width="100%"></picture>
 
-한글패치 8개 · 배포 7 · 작업 중 1 · 다운로드 463회 · [한글패치 허브](<https://dollars-archive.github.io/Dollars-Archive/>)
+## 한글패치 컬렉션
 
-| 게임 | 기종 | 상태 | 최신 버전 | 다운로드 | 링크 |
-| --- | --- | --- | --- | ---: | --- |
-| EVE ZERO | Dreamcast | 배포 | v1.0 | 1 | [저장소](<https://github.com/Dollars-Archive/eve-zero-kr-patch>) · [릴리스](<https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/tag/v1.0>) |
-| 이브 뉴 제네레이션 | PS2 | 배포 | v1.0 | 159 | [저장소](<https://github.com/Dollars-Archive/eve-new-generation-kr-patch>) · [릴리스](<https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/tag/v1.0>) |
-| 티어즈 투 티아라 2 | PS3 | 배포 | v1.0 | 198 | [저장소](<https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch>) · [릴리스](<https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/tag/v1.0>) |
-| 가디언 엔젤 | PS2 | 작업 중 | — | 0 | [저장소](<https://github.com/Dollars-Archive/Guardian-Angel-Korean-Localization>) |
-| EVE rebirth terror | Switch | 배포 | v1.4.0 | 25 | [저장소](<https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch>) · [릴리스](<https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/releases/tag/v1.4.0>) · [설치 가이드](<https://dollars-archive.github.io/eve-rebirth-terror-kr-patch/>) |
-| EVE ghost enemies | Switch | 배포 | v1.2.0 | 22 | [저장소](<https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch>) · [릴리스](<https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/releases/tag/v1.2.0>) · [설치 가이드](<https://dollars-archive.github.io/eve-ghost-enemies-kr-patch/>) |
-| 이상한 환상향 -Lotus Labyrinth R- | Switch | 배포 | v1.0 | 27 | [저장소](<https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch>) · [릴리스](<https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/releases/tag/v1.0>) · [설치 가이드](<https://dollars-archive.github.io/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/>) |
-| 이상한 환상향 TOD -RELOADED- | PC / Switch | 배포 | v1.0 | 31 | [저장소](<https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch>) · [릴리스](<https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/v1.0>) · [설치 가이드](<https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/>) |
+한글패치 8개 · 배포 7 · 작업 중 1 · 다운로드 463회 · [검색·기종 필터로 찾아보기 →](<https://dollars-archive.github.io/Dollars-Archive/>)
 
-### 관련 저장소
+| 게임 | 기종 | 상태 | 버전 | 다운로드 | 바로가기 |
+| :--- | :---: | :---: | :---: | ---: | :--- |
+| **EVE ZERO** | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-dc.svg" alt="Dreamcast" height="22"> | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-released.svg" alt="배포" height="22"> | [v1.0](<https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/tag/v1.0>) | **1** | [저장소](<https://github.com/Dollars-Archive/eve-zero-kr-patch>) · [릴리스](<https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/tag/v1.0>) |
+| **이브 뉴 제네레이션** | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-ps2.svg" alt="PS2" height="22"> | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-released.svg" alt="배포" height="22"> | [v1.0](<https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/tag/v1.0>) | **159** | [저장소](<https://github.com/Dollars-Archive/eve-new-generation-kr-patch>) · [릴리스](<https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/tag/v1.0>) |
+| **티어즈 투 티아라 2** | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-ps3.svg" alt="PS3" height="22"> | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-released.svg" alt="배포" height="22"> | [v1.0](<https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/tag/v1.0>) | **198** | [저장소](<https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch>) · [릴리스](<https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/tag/v1.0>) |
+| **가디언 엔젤** | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-ps2.svg" alt="PS2" height="22"> | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-wip.svg" alt="작업 중" height="22"> | — | **0** | [저장소](<https://github.com/Dollars-Archive/Guardian-Angel-Korean-Localization>) |
+| **EVE rebirth terror** | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-switch.svg" alt="Switch" height="22"> | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-released.svg" alt="배포" height="22"> | [v1.4.0](<https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/releases/tag/v1.4.0>) | **25** | [저장소](<https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch>) · [릴리스](<https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/releases/tag/v1.4.0>) · [설치 가이드](<https://dollars-archive.github.io/eve-rebirth-terror-kr-patch/>) |
+| **EVE ghost enemies** | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-switch.svg" alt="Switch" height="22"> | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-released.svg" alt="배포" height="22"> | [v1.2.0](<https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/releases/tag/v1.2.0>) | **22** | [저장소](<https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch>) · [릴리스](<https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/releases/tag/v1.2.0>) · [설치 가이드](<https://dollars-archive.github.io/eve-ghost-enemies-kr-patch/>) |
+| **이상한 환상향 -Lotus Labyrinth R-** | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-switch.svg" alt="Switch" height="22"> | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-released.svg" alt="배포" height="22"> | [v1.0](<https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/releases/tag/v1.0>) | **27** | [저장소](<https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch>) · [릴리스](<https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/releases/tag/v1.0>) · [설치 가이드](<https://dollars-archive.github.io/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/>) |
+| **이상한 환상향 TOD -RELOADED-** | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-pc.svg" alt="PC" height="22"> <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-switch.svg" alt="Switch" height="22"> | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-released.svg" alt="배포" height="22"> | [v1.0](<https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/v1.0>) | **31** | [저장소](<https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch>) · [릴리스](<https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/v1.0>) · [설치 가이드](<https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/>) |
+
+### 제작 기록과 아카이브
 
 - [제작 기술 노트 아카이브](<https://dollars-archive.github.io/Dollars-Archive-kr-localization-archive/>)
 - [한글화 후보 발굴 아카이브](<https://dollars-archive.github.io/Game-Localization-Discovery-Archive/>)
 
-자동 갱신: 2026-10-04 (KST)
+<sub>자동 갱신: 2026-10-04 (KST) · 다운로드는 패치 첨부파일 기준</sub>
 <!-- KR-PATCH-HUB:END -->

@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import base64
 import difflib
+import html
 import json
 import os
 import re
@@ -281,9 +282,35 @@ def md_link(label: str, url: str) -> str:
     return f"[{md(label)}](<{url.replace('<', '%3C').replace('>', '%3E')}>)"
 
 
+ASSET_URL = f"https://raw.githubusercontent.com/{OWNER}/{OWNER}/main/assets/profile/"
+
+
+def themed_image(name: str, alt: str) -> str:
+    return f'<picture><source media="(prefers-color-scheme: dark)" srcset="{ASSET_URL}{name}-dark.svg"><img src="{ASSET_URL}{name}-light.svg" alt="{html.escape(alt, quote=True)}" width="100%"></picture>'
+
+
+def badge(kind: str, label: str) -> str:
+    return f'<img src="{ASSET_URL}badge-{kind}.svg" alt="{html.escape(label, quote=True)}" height="22">'
+
+
+def summary_svg(summary: dict, dark: bool = False) -> bytes:
+    bg, ink, muted, line = ("#171C27", "#E6E9F0", "#98A0B0", "#2A3140") if dark else ("#FFFFFF", "#18202E", "#5E6676", "#DADDE5")
+    colors = ["#7C98FF", "#5CCB91", "#F0B45A", "#A8B0BE"] if dark else ["#2648D8", "#1E7F4F", "#9A5B00", "#5B6472"]
+    fields = [("total", "한글패치"), ("released", "배포 중"), ("wip", "작업 중"), ("downloads", "다운로드")]
+    parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="960" height="118" viewBox="0 0 960 118" role="img" aria-label="한글패치 현황"><rect x="1" y="1" width="958" height="116" rx="14" fill="{bg}" stroke="{line}"/>']
+    for index, (key, label) in enumerate(fields):
+        x = 26 + index * 240
+        if index:
+            parts.append(f'<path d="M{index * 240} 25v68" stroke="{line}"/>')
+        parts.extend([f'<rect x="{x}" y="25" width="4" height="14" rx="2" fill="{colors[index]}"/>', f'<text x="{x + 14}" y="37" fill="{muted}" font-family="sans-serif" font-size="14">{label}</text>', f'<text x="{x}" y="88" fill="{ink}" font-family="Arial,sans-serif" font-size="36" font-weight="700">{summary[key]:,}</text>'])
+    parts.append("</svg>\n")
+    return "".join(parts).encode("utf-8")
+
+
 def readme_section(data: dict) -> bytes:
     s = data["summary"]
-    lines = ["", "## 한글패치", "", f"한글패치 {s['total']}개 · 배포 {s['released']} · 작업 중 {s['wip']} · 다운로드 {s['downloads']:,}회 · {md_link('한글패치 허브', HUB_URL)}", "", "| 게임 | 기종 | 상태 | 최신 버전 | 다운로드 | 링크 |", "| --- | --- | --- | --- | ---: | --- |"]
+    summary_label = f"한글패치 {s['total']}개 · 배포 {s['released']} · 작업 중 {s['wip']} · 다운로드 {s['downloads']:,}회"
+    lines = ["", themed_image("summary", summary_label), "", "## 한글패치 컬렉션", "", f"{summary_label} · {md_link('검색·기종 필터로 찾아보기 →', HUB_URL)}", "", "| 게임 | 기종 | 상태 | 버전 | 다운로드 | 바로가기 |", "| :--- | :---: | :---: | :---: | ---: | :--- |"]
     for p in data["patches"]:
         latest = p["latest_release"]
         links = [md_link("저장소", p["url"])]
@@ -293,13 +320,16 @@ def readme_section(data: dict) -> bytes:
             links.append(md_link("릴리스", p["url"] + "/releases"))
         if p["guide_url"]:
             links.append(md_link("설치 가이드", p["guide_url"]))
-        lines.append(f"| {md(p['title'])} | {md(' / '.join(p['platforms']) or '미입력')} | {STATUS_LABELS[p['status']]} | {md(latest['tag']) if latest else '—'} | {p['downloads']:,} | {' · '.join(links)} |")
+        platform_kinds = {"Dreamcast": "dc", "PS2": "ps2", "PS3": "ps3", "PSP": "psp", "Vita": "vita", "PS Vita": "vita", "Switch": "switch", "PC": "pc"}
+        platforms = " ".join(badge(platform_kinds[plat], plat) if plat in platform_kinds else md(plat) for plat in p["platforms"]) or "미입력"
+        version = md_link(latest["tag"], latest["url"]) if latest else "—"
+        lines.append(f"| **{md(p['title'])}** | {platforms} | {badge(p['status'], STATUS_LABELS[p['status']])} | {version} | **{p['downloads']:,}** | {' · '.join(links)} |")
     if data["related"]:
-        lines.extend(["", "### 관련 저장소", ""])
+        lines.extend(["", "### 제작 기록과 아카이브", ""])
         for r in data["related"]:
             lines.append(f"- {md_link(r['title'], r['url'])}" + (f" — {md(r['desc'])}" if r["desc"] else ""))
     date = iso_time(data["generated_at"]).astimezone(KST).strftime("%Y-%m-%d")
-    lines.extend(["", f"자동 갱신: {date} (KST)", ""])
+    lines.extend(["", f"<sub>자동 갱신: {date} (KST) · 다운로드는 패치 첨부파일 기준</sub>", ""])
     return "\n".join(lines).encode("utf-8")
 
 
@@ -324,7 +354,12 @@ def planned_outputs(root: Path, data: dict) -> dict[Path, bytes]:
             # Retain the actual generation time, including across midnight in KST.
             data = {**data, "generated_at": old["generated_at"]}
     original = readme_path.read_bytes() if readme_path.exists() else b""
-    return {json_path: (json.dumps(data, ensure_ascii=False, indent=2) + "\n").encode("utf-8"), readme_path: update_readme(original, data)}
+    return {
+        json_path: (json.dumps(data, ensure_ascii=False, indent=2) + "\n").encode("utf-8"),
+        readme_path: update_readme(original, data),
+        root / "assets/profile/summary-light.svg": summary_svg(data["summary"]),
+        root / "assets/profile/summary-dark.svg": summary_svg(data["summary"], dark=True),
+    }
 
 
 def apply_outputs(outputs: dict[Path, bytes]) -> list[Path]:
