@@ -13,10 +13,10 @@ function ledgerTotal(repo,assets,previous={}){
   }
   return Object.values(records).reduce((total,a)=>total+a.carried+a.last_count,0);
 }
-async function fetchAssets(repo,{fetcher=root.fetch,storage=null,now=Date.now(),minAt=0}={}){
+async function fetchAssets(repo,{fetcher=root.fetch,storage=null,now=Date.now(),minAt=0,force=false}={}){
   if(!/^[A-Za-z0-9_.-]+$/.test(repo))throw new Error("Invalid repository");
   const key=`da-downloads:v1:${repo}`;
-  try{const cache=JSON.parse(storage?.getItem(key)||"null");if(cache&&cache.at>=minAt&&now-cache.at>=0&&now-cache.at<TTL&&validAssets(cache.assets))return cache}catch(e){}
+  try{const cache=JSON.parse(storage?.getItem(key)||"null");if(!force&&cache&&cache.at>=minAt&&now-cache.at>=0&&now-cache.at<TTL&&validAssets(cache.assets))return cache}catch(e){}
   const assets=[],seen=new Set();
   const path=`/repos/Dollars-Archive/${repo}/releases`;
   let url=`https://api.github.com${path}?per_page=100`;
@@ -24,7 +24,7 @@ async function fetchAssets(repo,{fetcher=root.fetch,storage=null,now=Date.now(),
     const parsed=new URL(url);
     if(parsed.origin!=="https://api.github.com"||parsed.pathname!==path||seen.has(url)||seen.size>=20)throw new Error("Invalid pagination");
     seen.add(url);
-    const response=await fetcher(url,{headers:{Accept:"application/vnd.github+json"},credentials:"omit",signal:AbortSignal.timeout(15000)});
+    const response=await fetcher(url,{headers:{Accept:"application/vnd.github+json"},credentials:"omit",cache:force?"no-store":"default",signal:AbortSignal.timeout(15000)});
     if(!response.ok)throw new Error("GitHub unavailable");
     const releases=await response.json();if(!Array.isArray(releases))throw new Error("Invalid releases");
     for(const release of releases){
@@ -38,13 +38,13 @@ async function fetchAssets(repo,{fetcher=root.fetch,storage=null,now=Date.now(),
   const result={at:now,assets};try{storage?.setItem(key,JSON.stringify(result))}catch(e){}
   return result;
 }
-async function refresh(patches,{fetcher=root.fetch,storage=null,now=Date.now(),minAt=0}={}){
+async function refresh(patches,{fetcher=root.fetch,storage=null,now=Date.now(),minAt=0,force=false}={}){
   let cursor=0;const results=[];
   async function worker(){
     while(cursor<patches.length){
       const patch=patches[cursor++];
       try{
-        const result=await fetchAssets(patch.repo,{fetcher,storage,now,minAt});
+        const result=await fetchAssets(patch.repo,{fetcher,storage,now,minAt,force});
         patch.downloads=ledgerTotal(patch.repo,result.assets,patch.download_ledger||{});
         patch.downloads_current=result.assets.reduce((sum,a)=>sum+a.downloads,0);
         patch.downloads_carried=patch.downloads-patch.downloads_current;

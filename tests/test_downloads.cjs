@@ -35,6 +35,27 @@ test('a newer collected ledger invalidates older cached counts',async()=>{
   assert.equal(requests,2);assert.equal(result.assets[0].downloads,11);
 });
 
+test('forced reload bypasses session and HTTP caches and stores fresh counts',async()=>{
+  let requests=0;const cache=storage(),modes=[];
+  const fetcher=async(url,options)=>{requests++;modes.push(options.cache);return response([release('v1.0',requests===1?10:12)])};
+  await live.fetchAssets('game',{fetcher,storage:cache,now:1000});
+  const p=patch();
+  await live.refresh([p],{fetcher,storage:cache,now:2000,force:true});
+  assert.equal(requests,2);assert.equal(p.downloads,12);assert.equal(modes[1],'no-store');
+  assert.equal((await live.fetchAssets('game',{fetcher,storage:cache,now:3000})).assets[0].downloads,12);
+  assert.equal(requests,2);
+});
+
+test('failed forced reload retains collected counts and the valid cache',async()=>{
+  const cache=storage();
+  await live.fetchAssets('game',{fetcher:async()=>response([release()]),storage:cache,now:1000});
+  const p=patch(),old=JSON.stringify(p);
+  const results=await live.refresh([p],{fetcher:async()=>({ok:false,status:403}),storage:cache,now:2000,force:true});
+  assert.equal(results.length,0);assert.equal(JSON.stringify(p),old);
+  const cached=await live.fetchAssets('game',{fetcher:async()=>{throw new Error('must use cache')},storage:cache,now:3000});
+  assert.equal(cached.assets[0].downloads,10);
+});
+
 test('pagination includes prereleases and excludes draft and tool releases',async()=>{
   const calls=[];
   const fetcher=async url=>{calls.push(url);return calls.length===1?response([release(),release('trainer-v1.0',999),{...release('v2.0',999),draft:true}],'<https://api.github.com/repos/Dollars-Archive/game/releases?per_page=100&page=2>; rel="next"'):response([{...release('v2.0-beta',2,2),prerelease:true}])};

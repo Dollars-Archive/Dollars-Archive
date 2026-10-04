@@ -242,13 +242,14 @@ async function load(){
 async function refreshDownloads(){
   try{
     let storage=null;try{storage=sessionStorage}catch(e){}
-    const results=await PatchDownloads.refresh(DATA,{storage,minAt:DOWNLOAD_SNAPSHOT_AT});
+    const force=globalThis.performance?.getEntriesByType?.("navigation")?.[0]?.type==="reload"||globalThis.performance?.navigation?.type===1;
+    const results=await PatchDownloads.refresh(DATA,{storage,minAt:DOWNLOAD_SNAPSHOT_AT,force});
     if(!results.length)return;
     document.getElementById("s-dl").textContent=fmt(DATA.reduce((sum,p)=>sum+p.downloads,0));
     render();
     const at=new Date(Math.min(...results.map(r=>r.at))).toLocaleTimeString("ko-KR",{timeZone:"Asia/Seoul",hour:"2-digit",minute:"2-digit",hour12:false});
     const kind=results.length===DATA.length?"실시간":"일부 최신·일부 수집값";
-    document.getElementById("footer").textContent=`다운로드 수: ${kind} (${at} KST 기준, 10분 캐시) · ${FOOTER}`;
+    document.getElementById("footer").textContent=`다운로드 수: ${kind} (${at} KST 기준, ${force?"새로 조회":"10분 캐시"}) · ${FOOTER}`;
   }catch(e){/* Download refresh must not affect filters or the collected catalogue. */}
 }
 document.getElementById("q").addEventListener("input",render);

@@ -3,11 +3,11 @@ const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 const root=path.resolve(__dirname,'..');
 const html=fs.readFileSync(path.join(root,'docs/index.html'),'utf8');
 const script=html.match(/<script>([\s\S]*?)<\/script>/)[1];
-function page(refresh){
+function page(refresh,navigationType="navigate"){
   const nodes=new Map();
   function node(id){if(!nodes.has(id))nodes.set(id,{value:'',innerHTML:'',textContent:'',parentElement:{},querySelectorAll:()=>[],addEventListener:()=>{},appendChild:()=>{}});return nodes.get(id)}
   const data=JSON.parse(fs.readFileSync(path.join(root,'docs/data/patches.json'),'utf8'));
-  const context={URL,console,sessionStorage:{},localStorage:{getItem:()=>null},document:{getElementById:node,querySelectorAll:()=>[],createElement:()=>({setAttribute:()=>{},addEventListener:()=>{}})},fetch:()=>new Promise(()=>{}),PatchDownloads:{refresh},data};
+  const context={URL,console,performance:{getEntriesByType:()=>[{type:navigationType}]},sessionStorage:{},localStorage:{getItem:()=>null},document:{getElementById:node,querySelectorAll:()=>[],createElement:()=>({setAttribute:()=>{},addEventListener:()=>{}})},fetch:()=>new Promise(()=>{}),PatchDownloads:{refresh},data};
   vm.createContext(context);vm.runInContext(script,context);vm.runInContext('applyData(data)',context);
   return {context,node,data};
 }
@@ -34,9 +34,17 @@ test('live counts update footer and summary while using ledger freshness',async(
   const old=data.summary.downloads;
   await vm.runInContext('refreshDownloads()',context);
   assert.equal(options.minAt,Date.parse(data.generated_at));
+  assert.equal(options.force,false);
   assert.equal(node('s-dl').textContent,(old+1).toLocaleString('ko-KR'));
   assert(node('footer').textContent.includes('실시간'));
   assert(node('footer').textContent.includes('누적 집계 시작일'));
+});
+test('browser reload forces a fresh query and labels it correctly',async()=>{
+  let options;
+  const {context,node}=page(async(patches,opts)=>{options=opts;return patches.map(p=>({repo:p.repo,at:Date.now()}))},'reload');
+  await vm.runInContext('refreshDownloads()',context);
+  assert.equal(options.force,true);
+  assert(node('footer').textContent.includes('새로 조회'));
 });
 test('partial refresh identifies mixed data instead of claiming all live',async()=>{
   const {context,node}=page(async patches=>[{repo:patches[0].repo,at:Date.now()}]);
