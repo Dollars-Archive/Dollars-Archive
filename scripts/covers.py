@@ -76,7 +76,9 @@ def plan_covers(root: Path, data: dict, metadata: dict, refresh=False, fetch=Non
         if not re.fullmatch(r"[A-Za-z0-9_.-]+", repo) or repo in {".", ".."}:
             raise ValueError("잘못된 표지 저장소 이름")
         meta = metadata.get(repo, {})
-        manual, source = meta.get("cover", ""), meta.get("launchbox_url", "")
+        manual = meta.get("cover", "")
+        source = meta.get("cover_source", "") if manual else meta.get("launchbox_url", "")
+        source = source or meta.get("launchbox_url", "")
         patch.update(cover=None, cover_source=source or None)
         relative = f"covers/{repo}.webp"
         destination = root / "docs" / relative
@@ -91,7 +93,7 @@ def plan_covers(root: Path, data: dict, metadata: dict, refresh=False, fetch=Non
             continue
         try:
             if manual:
-                details = {"source_image": manual, "image_type": "Box - Front", "region": "manual"}
+                details = {"source_image": manual, "image_type": meta.get("cover_type", "Box - Front"), "region": meta.get("cover_region", "manual")}
                 if manual.startswith("https://"):
                     content = fetch(manual)
                 else:

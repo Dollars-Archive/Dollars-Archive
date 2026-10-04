@@ -23,8 +23,10 @@ import yaml
 
 if __package__:
     from .covers import plan_covers
+    from .downloads import plan_downloads
 else:
     from covers import plan_covers
+    from downloads import plan_downloads
 
 OWNER = "Dollars-Archive"
 API = "https://api.github.com"
@@ -194,6 +196,8 @@ def patch_warnings(patch: dict, readme: str, has_metadata: bool, now: datetime) 
         result.append(warning(repo, "readme-no-release-link", "배포 상태인데 README에 /releases 링크가 없습니다."))
     if not patch["description"].strip():
         result.append(warning(repo, "no-description", "저장소 description이 비어 있습니다."))
+    if any(a.get("created_at") and a.get("release_published_at") and iso_time(a["created_at"]) - iso_time(a["release_published_at"]) > timedelta(days=1) for a in patch["assets"]):
+        result.append(warning(repo, "asset-reuploaded", "릴리스 공개보다 하루 넘게 늦게 생성된 첨부파일이 있습니다."))
     return result
 
 
@@ -206,7 +210,7 @@ def build_patch(repo: dict, meta: dict, releases: list[dict], check_guide) -> di
     assets = []
     for release in patches:
         for asset in sorted(release.get("assets", []), key=lambda a: a["name"]):
-            assets.append({"name": asset["name"], "tag": release["tag_name"], "url": asset["browser_download_url"], "downloads": asset.get("download_count", 0)})
+            assets.append({"name": asset["name"], "tag": release["tag_name"], "url": asset["browser_download_url"], "downloads": asset.get("download_count", 0), "asset_id": asset.get("id"), "created_at": asset.get("created_at"), "release_published_at": release.get("published_at")})
     guide = meta.get("guide_url", "")
     status = check_guide(guide or f"https://dollars-archive.github.io/{repo['name']}/")
     if not guide and status == 200:
@@ -336,13 +340,16 @@ def readme_section(data: dict) -> bytes:
             cover = f'<a href="{html.escape(source, quote=True)}">{image}</a>' if source and public_http_url(source) else image
         lines.append(f"| {cover} | **{md(p['title'])}** | {platforms} | {badge(p['status'], STATUS_LABELS[p['status']])} | {version} | **{p['downloads']:,}** | {' · '.join(links)} |")
     if any(p.get("cover_source") for p in data["patches"]):
-        lines.extend(["", "<sub>표지 출처: LaunchBox Games Database · 표지를 누르면 해당 게임의 출처 페이지가 열립니다.</sub>"])
+        lines.extend(["", "<sub>이미지 출처: LaunchBox Games Database · 4Gamer(El Dia 제공 자료) · 이미지를 누르면 출처 페이지가 열립니다.</sub>"])
     if data["related"]:
         lines.extend(["", "### 제작 기록과 아카이브", ""])
         for r in data["related"]:
             lines.append(f"- {md_link(r['title'], r['url'])}" + (f" — {md(r['desc'])}" if r["desc"] else ""))
     date = iso_time(data["generated_at"]).astimezone(KST).strftime("%Y-%m-%d")
     lines.extend(["", f"<sub>자동 갱신: {date} (KST) · 다운로드는 패치 첨부파일 기준</sub>", ""])
+    if data.get("ledger_started_at"):
+        started = iso_time(data["ledger_started_at"]).astimezone(KST).strftime("%Y-%m-%d")
+        lines.extend([f"<sub>누적 집계 시작일: {started} (KST) · 매시간 갱신 · 집계 시작 전 삭제된 다운로드는 포함하지 않습니다.</sub>", ""])
     return "\n".join(lines).encode("utf-8")
 
 
@@ -404,9 +411,10 @@ def main(argv=None, client=None, now=None, check_guide=guide_status) -> int:
         root = args.root.resolve()
         metadata = load_metadata(root / "patches.yml")
         data = collect(client or GitHubClient(), metadata, now or datetime.now(timezone.utc), check_guide)
+        download_outputs = plan_downloads(root, data)
         cover_outputs = plan_covers(root, data, metadata, args.refresh_covers)
         # All API collection and generation must succeed before any output is touched.
-        outputs = {**cover_outputs, **planned_outputs(root, data)}
+        outputs = {**download_outputs, **cover_outputs, **planned_outputs(root, data)}
         changed = [p for p, content in outputs.items() if not p.exists() or p.read_bytes() != content]
         print(json.dumps(data["summary"], ensure_ascii=False))
         for w in data["warnings"]:

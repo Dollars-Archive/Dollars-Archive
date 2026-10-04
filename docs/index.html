@@ -138,14 +138,17 @@ footer{font-size:12px;color:var(--muted)}
     <div class="side" id="related"></div>
   </section>
 
-  <div class="small">표지 출처: LaunchBox Games Database · 표지를 누르면 출처 페이지가 열립니다.</div>
+  <div class="small">이미지 출처: LaunchBox Games Database · 4Gamer(El Dia 제공 자료) · 이미지를 누르면 출처 페이지가 열립니다.</div>
   <footer id="footer">다운로드 수는 패치 릴리스 첨부파일 기준이며 부가 도구는 제외합니다.</footer>
 </div>
 
+<script src="downloads.js"></script>
 <script>
 "use strict";
 const GH="https://github.com/Dollars-Archive/";
 let DATA=[];
+let FOOTER="";
+let DOWNLOAD_SNAPSHOT_AT=0;
 const state={plat:"전체",series:"전체",sort:"최근 작업"};
 const SORTS=["최근 작업","다운로드","원작 발매일"];
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -160,7 +163,7 @@ function coverMarkup(d){
   if(!/^covers\/[A-Za-z0-9_.-]+\.webp$/.test(d.cover||""))return `<div class="cover" aria-label="${esc(d.title)} 표지 없음">${esc(label)}</div>`;
   const source=safeUrl(d.cover_source);
   const body=`<img src="${esc(d.cover)}" alt="${esc(d.title)} 표지" loading="lazy" decoding="async" width="88" height="112"><span class="cover-fallback" aria-hidden="true">${esc(label)}</span>`;
-  return source?`<a class="cover" href="${esc(source)}" target="_blank" rel="noopener" title="LaunchBox 표지 출처">${body}</a>`:`<div class="cover">${body}</div>`;
+  return source?`<a class="cover" href="${esc(source)}" target="_blank" rel="noopener" title="이미지 출처">${body}</a>`:`<div class="cover">${body}</div>`;
 }
 function save(){try{localStorage.setItem("da-krp",JSON.stringify(state))}catch(e){}}
 try{const s=JSON.parse(localStorage.getItem("da-krp")||"null");if(s)for(const k of Object.keys(state))if(typeof s[k]==="string")state[k]=s[k]}catch(e){}
@@ -210,10 +213,13 @@ function applyData(data){
   for(const p of data.patches)if(!Array.isArray(p.platforms)||!Array.isArray(p.tools)||!Array.isArray(p.assets)||typeof p.pushed_at!=="string")throw new Error("패치 정보 형식 오류");
   const generated=new Date(data.generated_at);if(Number.isNaN(generated.getTime()))throw new Error("갱신 날짜 오류");
   DATA=data.patches;
+  DOWNLOAD_SNAPSHOT_AT=generated.getTime();
   for(const [id,key] of [["s-total","total"],["s-rel","released"],["s-wip","wip"],["s-dl","downloads"]])document.getElementById(id).textContent=fmt(data.summary[key]);
   const kst=generated.toLocaleString("ko-KR",{timeZone:"Asia/Seoul",hour12:false});
   document.getElementById("snap").textContent=`한글패치 ${fmt(data.summary.total)}개 · GitHub 공개 저장소 기준`;
-  document.getElementById("footer").textContent=`자동 갱신: ${kst} (KST) · 다운로드 수는 패치 릴리스 첨부파일 기준이며 부가 도구는 제외합니다.`;
+  const started=data.ledger_started_at?new Date(data.ledger_started_at).toLocaleDateString("ko-KR",{timeZone:"Asia/Seoul"}):"";
+  FOOTER=`누적 집계 시작일: ${started||"미기록"} · 패치 첨부파일 기준(부가 도구 제외)`;
+  document.getElementById("footer").textContent=`다운로드 수: ${kst} (KST) 수집값 · ${FOOTER}`;
   const R=document.getElementById("related");R.parentElement.hidden=!data.related.length;
   R.innerHTML=data.related.map(r=>{const u=safeUrl(r.url);return u?`<a class="card" href="${esc(u)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc(r.desc||r.repo)}</span></a>`:""}).join("");
   chips("f-plat",["전체",...new Set(DATA.flatMap(d=>d.platforms))],"plat");
@@ -225,12 +231,25 @@ async function load(){
     const response=await fetch('data/patches.json',{cache:"no-cache"});
     if(!response.ok)throw new Error(`HTTP ${response.status}`);
     applyData(await response.json());
+    void refreshDownloads();
   }catch(e){
     document.getElementById("snap").textContent="목록을 불러오지 못했습니다.";
     document.getElementById("list").innerHTML=`<div class="empty">한글패치 목록을 불러오지 못했습니다. 잠시 후 새로고침하거나 ${link("GitHub 프로필",GH)}에서 확인해 주세요.</div>`;
     document.querySelectorAll(".stats,.controls,#related").forEach(el=>el.hidden=true);
     document.getElementById("related").parentElement.hidden=true;
   }
+}
+async function refreshDownloads(){
+  try{
+    let storage=null;try{storage=sessionStorage}catch(e){}
+    const results=await PatchDownloads.refresh(DATA,{storage,minAt:DOWNLOAD_SNAPSHOT_AT});
+    if(!results.length)return;
+    document.getElementById("s-dl").textContent=fmt(DATA.reduce((sum,p)=>sum+p.downloads,0));
+    render();
+    const at=new Date(Math.min(...results.map(r=>r.at))).toLocaleTimeString("ko-KR",{timeZone:"Asia/Seoul",hour:"2-digit",minute:"2-digit",hour12:false});
+    const kind=results.length===DATA.length?"실시간":"일부 최신·일부 수집값";
+    document.getElementById("footer").textContent=`다운로드 수: ${kind} (${at} KST 기준, 10분 캐시) · ${FOOTER}`;
+  }catch(e){/* Download refresh must not affect filters or the collected catalogue. */}
 }
 document.getElementById("q").addEventListener("input",render);
 load();
