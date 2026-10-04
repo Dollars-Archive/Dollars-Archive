@@ -1,0 +1,61 @@
+name: Update Korean patch hub
+
+on:
+  schedule:
+    - cron: '17 21 * * *'
+  workflow_dispatch:
+  repository_dispatch:
+    types: [kr-patch-updated]
+  push:
+    branches: [main]
+    paths:
+      - patches.yml
+      - scripts/**
+      - tests/**
+      - requirements.txt
+      - docs/index.html
+      - .github/workflows/update-hub.yml
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: kr-patch-hub
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install YAML reader
+        run: python -m pip install -r requirements.txt
+      - name: Test collection and generation rules
+        run: python -m unittest discover -s tests -v
+      - name: Collect and build
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/build_hub.py
+      - name: Commit changed data
+        shell: bash
+        run: |
+          git add README.md docs/data/patches.json
+          if git diff --cached --quiet; then
+            echo "No data changes; no commit."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore(hub): 한글패치 목록 자동 갱신'
+          git push origin HEAD:main
+      - name: Request Pages build after successful collection
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST repos/${{ github.repository }}/pages/builds --jq '.status'

@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dollars Archive 한글패치</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;600;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap">
+<style>
+/* Layout: 카탈로그 인덱스 — 요약 줄 → 필터 → 패치 행(디스크 라벨처럼 제품번호를 앞세움) → 관련 저장소 */
+:root{
+  --bg:#F2F3F6; --surface:#FFFFFF; --ink:#18202E; --muted:#5E6676; --line:#DADDE5;
+  --accent:#2648D8; --accent-soft:#E4E9FC;
+  --ok:#1E7F4F; --ok-soft:#DFF2E7; --wip:#9A5B00; --wip-soft:#FBEFD9;
+  --ps:#2B57C9; --sw:#D43B2F; --dc:#E07B18; --pc:#5B6472;
+  --f-display:"Gothic A1","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0F131B; --surface:#171C27; --ink:#E6E9F0; --muted:#98A0B0; --line:#2A3140;
+  --accent:#7C98FF; --accent-soft:#1E2747;
+  --ok:#5CCB91; --ok-soft:#173326; --wip:#F0B45A; --wip-soft:#3A2B12;
+  --ps:#7C9BFF; --sw:#FF7A6E; --dc:#F5A55A; --pc:#A8B0BE; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0F131B; --surface:#171C27; --ink:#E6E9F0; --muted:#98A0B0; --line:#2A3140;
+  --accent:#7C98FF; --accent-soft:#1E2747;
+  --ok:#5CCB91; --ok-soft:#173326; --wip:#F0B45A; --wip-soft:#3A2B12;
+  --ps:#7C9BFF; --sw:#FF7A6E; --dc:#F5A55A; --pc:#A8B0BE; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.55}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:20px;padding-block:36px 64px;display:flex;flex-direction:column;gap:28px}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+
+header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;color:var(--muted);text-transform:uppercase}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(28px,5vw,40px);line-height:1.15;margin:4px 0 0;text-wrap:balance;letter-spacing:-.01em}
+.snap{font-size:13px;color:var(--muted)}
+
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border:1px solid var(--line);border-radius:10px;background:var(--surface);overflow:hidden}
+.stat{padding:16px 18px;border-right:1px solid var(--line);min-width:0}
+.stat:last-child{border-right:0}
+.stat b{display:block;font-family:var(--f-display);font-weight:800;font-size:28px;font-variant-numeric:tabular-nums;line-height:1.1}
+.stat span{font-size:13px;color:var(--muted)}
+@media (max-width:620px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid var(--line)}}
+
+.controls{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center}
+.group{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.group > .lbl{font-size:12px;color:var(--muted);margin-right:4px;letter-spacing:.04em}
+.chip{font:inherit;font-size:13px;padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.search{font:inherit;font-size:14px;padding:7px 12px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);min-width:0;width:220px;max-width:100%}
+
+.list{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:10px;background:var(--surface);overflow:hidden}
+.row{display:grid;grid-template-columns:92px minmax(0,1fr) 150px 120px;gap:18px;padding:18px 20px;border-bottom:1px solid var(--line);align-items:start}
+.row:last-child{border-bottom:0}
+.plat{display:flex;flex-direction:column;gap:6px}
+.pbadge{font-family:var(--f-mono);font-size:11px;font-weight:500;padding:3px 7px;border-radius:4px;color:#fff;text-align:center;letter-spacing:.02em}
+.pbadge.ps{background:var(--ps)} .pbadge.sw{background:var(--sw)} .pbadge.dc{background:var(--dc)} .pbadge.pc{background:var(--pc)}
+.pbadge.neutral{background:var(--pc)}
+.row,.side .card{overflow-wrap:anywhere}
+.tools,.assets{display:flex;flex-direction:column;gap:4px;margin-top:6px}
+.preview{border:1px solid var(--wip);padding:10px 14px;border-radius:8px;color:var(--wip)}
+.snap{max-width:100%;overflow-wrap:anywhere}
+:root[data-theme="dark"] .pbadge{color:#0F131B}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .pbadge{color:#0F131B}}
+.main{min-width:0;display:flex;flex-direction:column;gap:4px}
+.title{font-family:var(--f-display);font-weight:800;font-size:18px;line-height:1.3}
+.orig{font-size:13px;color:var(--muted)}
+.meta{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:13px;color:var(--muted);margin-top:4px}
+.mono{font-family:var(--f-mono);font-size:12px;color:var(--ink)}
+.links{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px;margin-top:6px}
+.status{display:flex;flex-direction:column;gap:6px;align-items:flex-start}
+.pill{font-size:12px;font-weight:600;padding:3px 9px;border-radius:999px}
+.pill.ok{background:var(--ok-soft);color:var(--ok)} .pill.wip{background:var(--wip-soft);color:var(--wip)}
+.ver{font-family:var(--f-mono);font-size:13px}
+.small{font-size:12px;color:var(--muted)}
+.dl{text-align:right;display:flex;flex-direction:column;gap:6px;align-items:flex-end}
+.dl b{font-family:var(--f-display);font-weight:800;font-size:22px;font-variant-numeric:tabular-nums;line-height:1}
+.bar{width:100%;height:4px;background:var(--line);border-radius:2px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--accent)}
+@media (max-width:760px){
+  .row{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px 14px}
+  .plat{flex-direction:row;flex-wrap:wrap;grid-column:1 / -1}
+  .main{grid-column:1 / -1}
+  .status{flex-direction:row;flex-wrap:wrap;align-items:center}
+  .dl{align-items:flex-end}
+}
+.empty{padding:28px 20px;color:var(--muted);text-align:center}
+
+h2{font-family:var(--f-display);font-weight:800;font-size:18px;margin:0}
+.side{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:620px){.side{grid-template-columns:1fr}}
+.side a.card{display:flex;flex-direction:column;gap:4px;padding:16px 18px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);min-width:0}
+.side a.card:hover{text-decoration:none;border-color:var(--accent)}
+.side .card b{font-weight:600}
+.side .card span{font-size:13px;color:var(--muted)}
+footer{font-size:12px;color:var(--muted)}
+@media (prefers-reduced-motion:no-preference){.chip,.side a.card{transition:background .15s,border-color .15s,color .15s}}
+</style>
+</head><body>
+
+<div class="wrap">
+  <header>
+    <div>
+      <div class="eyebrow">github.com/Dollars-Archive</div>
+      <h1>Dollars Archive 한글패치</h1>
+    </div>
+    <div class="snap" id="snap">목록을 불러오는 중…</div>
+  </header>
+
+  <section class="stats" aria-label="요약">
+    <div class="stat"><b id="s-total">—</b><span>한글패치 프로젝트</span></div>
+    <div class="stat"><b id="s-rel">—</b><span>배포 중</span></div>
+    <div class="stat"><b id="s-wip">—</b><span>작업 중</span></div>
+    <div class="stat"><b id="s-dl">—</b><span>패치 첨부파일 다운로드 합계</span></div>
+  </section>
+
+
+  <section class="controls" aria-label="필터">
+    <div class="group" id="f-plat"><span class="lbl">기종</span></div>
+    <div class="group" id="f-series"><span class="lbl">시리즈</span></div>
+    <div class="group" id="f-sort"><span class="lbl">정렬</span></div>
+    <input class="search" id="q" type="search" placeholder="제목·제품번호 검색" aria-label="제목 또는 제품번호 검색">
+  </section>
+
+  <section class="list" id="list" aria-live="polite"><div class="empty">한글패치 목록을 불러오는 중입니다.</div></section>
+
+  <section style="display:flex;flex-direction:column;gap:12px">
+    <h2>관련 저장소</h2>
+    <div class="side" id="related"></div>
+  </section>
+
+  <footer id="footer">다운로드 수는 패치 릴리스 첨부파일 기준이며 부가 도구는 제외합니다.</footer>
+</div>
+
+<script>
+"use strict";
+const GH="https://github.com/Dollars-Archive/";
+let DATA=[];
+const state={plat:"전체",series:"전체",sort:"최근 작업"};
+const SORTS=["최근 작업","다운로드","원작 발매일"];
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmt=n=>Number(n||0).toLocaleString("ko-KR");
+const date=s=>s?String(s).slice(0,10).replaceAll("-","."):"미입력";
+const labels={released:"배포 중",wip:"작업 중",paused:"중단"};
+const platformClass=p=>["PS2","PS3","PSP","Vita","PS Vita","PS4","PS5"].includes(p)?"ps":p==="Switch"?"sw":p==="Dreamcast"?"dc":p==="PC"?"pc":"neutral";
+function safeUrl(s){try{const u=new URL(s);return ["https:","http:"].includes(u.protocol)&&!u.username&&!u.password?u.href:""}catch(e){return ""}}
+function link(label,url){const u=safeUrl(url);return u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(label)}</a>`:esc(label)}
+function save(){try{localStorage.setItem("da-krp",JSON.stringify(state))}catch(e){}}
+try{const s=JSON.parse(localStorage.getItem("da-krp")||"null");if(s)for(const k of Object.keys(state))if(typeof s[k]==="string")state[k]=s[k]}catch(e){}
+function chips(id,opts,key){
+  const g=document.getElementById(id);g.querySelectorAll(".chip").forEach(c=>c.remove());
+  if(!opts.includes(state[key]))state[key]=opts[0];
+  for(const o of opts){
+    const b=document.createElement("button");b.className="chip";b.type="button";b.textContent=o;
+    b.setAttribute("aria-pressed",String(state[key]===o));
+    b.addEventListener("click",()=>{state[key]=o;g.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",String(c.textContent===o)));save();render();});g.appendChild(b);
+  }
+}
+function render(){
+  const q=document.getElementById("q").value.trim().toLowerCase();
+  let rows=DATA.filter(d=>(state.plat==="전체"||d.platforms.includes(state.plat))&&(state.series==="전체"||d.series===state.series)&&(!q||[d.title,d.original,d.product_id,d.repo].join(" ").toLowerCase().includes(q)));
+  if(state.sort==="다운로드")rows.sort((a,b)=>b.downloads-a.downloads||a.repo.localeCompare(b.repo));
+  else if(state.sort==="원작 발매일")rows.sort((a,b)=>(a.release_jp||"9999").localeCompare(b.release_jp||"9999")||a.repo.localeCompare(b.repo));
+  else rows.sort((a,b)=>b.pushed_at.localeCompare(a.pushed_at)||a.repo.localeCompare(b.repo));
+  const L=document.getElementById("list");
+  if(!rows.length){L.innerHTML='<div class="empty">조건에 맞는 패치가 없습니다. 필터를 바꿔 보세요.</div>';return}
+  const maxDl=Math.max(1,...DATA.map(d=>d.downloads));
+  L.innerHTML=rows.map(d=>`
+  <article class="row" data-repo="${esc(d.repo)}">
+    <div class="plat">${d.platforms.length?d.platforms.map(p=>`<span class="pbadge ${platformClass(p)}">${esc(p)}</span>`).join(""):'<span class="small">기종 미입력</span>'}<span class="small">${esc(d.series)}</span></div>
+    <div class="main">
+      <div class="title">${esc(d.title)}</div>
+      ${d.original?`<div class="orig">${esc(d.original)}</div>`:""}
+      <div class="meta">${d.genre?`<span>${esc(d.genre)}</span>`:""}${d.release_jp?`<span>원작 ${date(d.release_jp)}</span>`:""}${d.product_id?`<span class="mono">${esc(d.product_id)}</span>`:""}${d.base_update?`<span>기준 ${esc(d.base_update)}</span>`:""}</div>
+      ${d.note?`<div class="small">${esc(d.note)}</div>`:""}
+      <div class="links">${link("저장소",d.url)}${d.latest_release?link("릴리스",d.latest_release.url):d.status==="released"?link("릴리스",d.url+"/releases"):""}${d.guide_url?link("설치 가이드",d.guide_url):""}</div>
+      ${d.tools.length?`<div class="tools small"><span>부가 도구</span>${d.tools.map(t=>link(t.name+" ("+t.tag+")",t.url)).join("")}</div>`:""}
+    </div>
+    <div class="status">
+      <span class="pill ${d.status==="released"?"ok":"wip"}">${labels[d.status]||esc(d.status)}</span>
+      ${d.latest_release?`<span class="ver">${esc(d.latest_release.tag)}</span><span class="small">${date(d.latest_release.published_at)} 배포</span>`:`<span class="small">${d.status==="released"?"정식 패치 릴리스 없음":"릴리스 없음"}</span>`}
+      <span class="small">최근 푸시 ${date(d.pushed_at)}</span>
+    </div>
+    <div class="dl"><b>${fmt(d.downloads)}</b><span class="small">다운로드</span>
+      ${d.assets.length?`<div class="assets small">${d.assets.map(a=>`<span>${link(a.name,a.url)} · ${fmt(a.downloads)}회 <span>(${esc(a.tag)})</span></span>`).join("")}</div>`:`<span class="small">${d.latest_release&&d.latest_release.asset_count===0?"첨부파일 없음":"—"}</span>`}
+      <div class="bar" aria-hidden="true"><i style="width:${Math.min(100,d.downloads/maxDl*100).toFixed(0)}%"></i></div>
+    </div>
+  </article>`).join("");
+}
+function applyData(data){
+  if(!data||!Array.isArray(data.patches)||!Array.isArray(data.related)||!Array.isArray(data.warnings)||!data.summary)throw new Error("목록 형식 오류");
+  for(const p of data.patches)if(!Array.isArray(p.platforms)||!Array.isArray(p.tools)||!Array.isArray(p.assets)||typeof p.pushed_at!=="string")throw new Error("패치 정보 형식 오류");
+  const generated=new Date(data.generated_at);if(Number.isNaN(generated.getTime()))throw new Error("갱신 날짜 오류");
+  DATA=data.patches;
+  for(const [id,key] of [["s-total","total"],["s-rel","released"],["s-wip","wip"],["s-dl","downloads"]])document.getElementById(id).textContent=fmt(data.summary[key]);
+  const kst=generated.toLocaleString("ko-KR",{timeZone:"Asia/Seoul",hour12:false});
+  document.getElementById("snap").textContent=`한글패치 ${fmt(data.summary.total)}개 · GitHub 공개 저장소 기준`;
+  document.getElementById("footer").textContent=`자동 갱신: ${kst} (KST) · 다운로드 수는 패치 릴리스 첨부파일 기준이며 부가 도구는 제외합니다.`;
+  const R=document.getElementById("related");R.parentElement.hidden=!data.related.length;
+  R.innerHTML=data.related.map(r=>{const u=safeUrl(r.url);return u?`<a class="card" href="${esc(u)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc(r.desc||r.repo)}</span></a>`:""}).join("");
+  chips("f-plat",["전체",...new Set(DATA.flatMap(d=>d.platforms))],"plat");
+  chips("f-series",["전체",...new Set(DATA.map(d=>d.series))],"series");
+  chips("f-sort",SORTS,"sort");render();
+}
+async function load(){
+  try{
+    const response=await fetch('data/patches.json',{cache:"no-cache"});
+    if(!response.ok)throw new Error(`HTTP ${response.status}`);
+    applyData(await response.json());
+  }catch(e){
+    document.getElementById("snap").textContent="목록을 불러오지 못했습니다.";
+    document.getElementById("list").innerHTML=`<div class="empty">한글패치 목록을 불러오지 못했습니다. 잠시 후 새로고침하거나 ${link("GitHub 프로필",GH)}에서 확인해 주세요.</div>`;
+    document.querySelectorAll(".stats,.controls,#related").forEach(el=>el.hidden=true);
+    document.getElementById("related").parentElement.hidden=true;
+  }
+}
+document.getElementById("q").addEventListener("input",render);
+load();
+</script>
+</body></html>

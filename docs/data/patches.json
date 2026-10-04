@@ -1,0 +1,384 @@
+{
+  "generated_at": "2026-10-04T12:08:53Z",
+  "summary": {
+    "total": 8,
+    "released": 7,
+    "wip": 1,
+    "downloads": 463
+  },
+  "patches": [
+    {
+      "repo": "eve-zero-kr-patch",
+      "title": "EVE ZERO",
+      "original": "EVE ZERO 完全版 ark of the matter",
+      "series": "EVE",
+      "platforms": [
+        "Dreamcast"
+      ],
+      "genre": "어드벤처",
+      "release_jp": "2001-03-22",
+      "product_id": "T-39802M",
+      "base_update": "",
+      "note": "",
+      "status": "released",
+      "description": "EVE ZERO (Dreamcast) Korean Translation Patch / 한국어 패치",
+      "pushed_at": "2026-10-04T11:15:22Z",
+      "stars": 0,
+      "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch",
+      "has_pages": false,
+      "topics": [
+        "dreamcast",
+        "korean-translation",
+        "kr-patch"
+      ],
+      "guide_url": "",
+      "guide_status": null,
+      "latest_release": {
+        "tag": "v1.0",
+        "name": "EVE ZERO 한국어 패치 v1.0",
+        "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/tag/v1.0",
+        "published_at": "2026-10-04T09:52:01Z",
+        "asset_count": 1
+      },
+      "downloads": 1,
+      "assets": [
+        {
+          "name": "EVE_ZERO_Korean_Patch_v1.0.zip",
+          "tag": "v1.0",
+          "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/download/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip",
+          "downloads": 1
+        }
+      ],
+      "tools": []
+    },
+    {
+      "repo": "eve-new-generation-kr-patch",
+      "title": "이브 뉴 제네레이션",
+      "original": "EVE new generation / イブ・ニュージェネレーション",
+      "series": "EVE",
+      "platforms": [
+        "PS2"
+      ],
+      "genre": "멀티사이트 미스터리 ADV / 비주얼노벨",
+      "release_jp": "2006-08-31",
+      "product_id": "SLPM-66338",
+      "base_update": "VER 1.01",
+      "note": "",
+      "status": "released",
+      "description": "EVE new generation (PlayStation 2) Korean Translation Patch / 한국어 패치",
+      "pushed_at": "2026-10-04T10:53:38Z",
+      "stars": 1,
+      "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch",
+      "has_pages": false,
+      "topics": [
+        "korean-translation",
+        "kr-patch",
+        "ps2"
+      ],
+      "guide_url": "",
+      "guide_status": null,
+      "latest_release": {
+        "tag": "v1.0",
+        "name": "EVE new generation 한국어 패치 v1.0",
+        "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/tag/v1.0",
+        "published_at": "2026-10-04T09:23:46Z",
+        "asset_count": 1
+      },
+      "downloads": 159,
+      "assets": [
+        {
+          "name": "EVE_NG_v1.0.zip",
+          "tag": "v1.0",
+          "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.0/EVE_NG_v1.0.zip",
+          "downloads": 159
+        }
+      ],
+      "tools": []
+    },
+    {
+      "repo": "tears-to-tiara-2-kr-patch",
+      "title": "티어즈 투 티아라 2",
+      "original": "ティアーズ・トゥ・ティアラⅡ 覇王の末裔",
+      "series": "기타",
+      "platforms": [
+        "PS3"
+      ],
+      "genre": "RPG",
+      "release_jp": "2013-10-31",
+      "product_id": "BLJM61076",
+      "base_update": "공식 Ver.1.02",
+      "note": "",
+      "status": "released",
+      "description": "PS3용 『Tears to Tiara II』 비공식 한국어 패치",
+      "pushed_at": "2026-10-04T05:31:04Z",
+      "stars": 1,
+      "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch",
+      "has_pages": false,
+      "topics": [
+        "korean-translation",
+        "kr-patch",
+        "ps3"
+      ],
+      "guide_url": "",
+      "guide_status": null,
+      "latest_release": {
+        "tag": "v1.0",
+        "name": "티어즈 투 티아라 2 한국어 패치 v1.0",
+        "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/tag/v1.0",
+        "published_at": "2026-09-27T00:38:38Z",
+        "asset_count": 1
+      },
+      "downloads": 198,
+      "assets": [
+        {
+          "name": "TTT2_KR_Patcher_v1.0.zip",
+          "tag": "v1.0",
+          "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/download/v1.0/TTT2_KR_Patcher_v1.0.zip",
+          "downloads": 198
+        }
+      ],
+      "tools": []
+    },
+    {
+      "repo": "Guardian-Angel-Korean-Localization",
+      "title": "가디언 엔젤",
+      "original": "ガーディアンエンジェル / Guardian Angel",
+      "series": "기타",
+      "platforms": [
+        "PS2"
+      ],
+      "genre": "시간축·다중시점 SF 미스터리 / 추리 어드벤처",
+      "release_jp": "2003-02-27",
+      "product_id": "SLPS-25214",
+      "base_update": "",
+      "note": "초기 분석·준비 단계",
+      "status": "wip",
+      "description": "PlayStation 2용 미스터리 어드벤처 게임 『Guardian Angel』의 비공식 한국어화 프로젝트입니다. 사건으로 육체를 잃고 수호천사가 된 사립탐정 에릭이 딸 에스텔과 주변 인물들에게 영감을 주며, 시간과 공간을 넘나들어 사건의 진상을 추적하는 작품입니다. 게임 내 대사와 시스템 텍스트를 한국어로 번역하는 것을 목표로 합니다.",
+      "pushed_at": "2026-10-01T01:07:50Z",
+      "stars": 0,
+      "url": "https://github.com/Dollars-Archive/Guardian-Angel-Korean-Localization",
+      "has_pages": false,
+      "topics": [
+        "korean-translation",
+        "kr-patch",
+        "ps2"
+      ],
+      "guide_url": "",
+      "guide_status": null,
+      "latest_release": null,
+      "downloads": 0,
+      "assets": [],
+      "tools": []
+    },
+    {
+      "repo": "eve-rebirth-terror-kr-patch",
+      "title": "EVE rebirth terror",
+      "original": "EVE rebirth terror",
+      "series": "EVE",
+      "platforms": [
+        "Switch"
+      ],
+      "genre": "커맨드 선택식 어드벤처",
+      "release_jp": "2020-02-27",
+      "product_id": "01008BA00F172000",
+      "base_update": "공식 Ver.1.0.2",
+      "note": "",
+      "status": "released",
+      "description": "EVE rebirth terror Korean Translation Patch",
+      "pushed_at": "2026-09-30T14:22:09Z",
+      "stars": 0,
+      "url": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch",
+      "has_pages": true,
+      "topics": [
+        "korean-translation",
+        "kr-patch",
+        "nintendo-switch"
+      ],
+      "guide_url": "https://dollars-archive.github.io/eve-rebirth-terror-kr-patch/",
+      "guide_status": 200,
+      "latest_release": {
+        "tag": "v1.4.0",
+        "name": "EVE rebirth terror 한국어 패치 v1.4.0",
+        "url": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/releases/tag/v1.4.0",
+        "published_at": "2026-09-11T08:15:19Z",
+        "asset_count": 1
+      },
+      "downloads": 25,
+      "assets": [
+        {
+          "name": "EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
+          "tag": "v1.4.0",
+          "url": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/releases/download/v1.4.0/EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
+          "downloads": 25
+        }
+      ],
+      "tools": []
+    },
+    {
+      "repo": "eve-ghost-enemies-kr-patch",
+      "title": "EVE ghost enemies",
+      "original": "EVE ghost enemies",
+      "series": "EVE",
+      "platforms": [
+        "Switch"
+      ],
+      "genre": "커맨드 선택식 어드벤처",
+      "release_jp": "2022-06-30",
+      "product_id": "01007BE0160D6000",
+      "base_update": "공식 Ver.1.02 (RomForge 표시 1.01)",
+      "note": "",
+      "status": "released",
+      "description": "EVE ghost enemies 한국어 패치",
+      "pushed_at": "2026-09-30T14:21:23Z",
+      "stars": 0,
+      "url": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch",
+      "has_pages": true,
+      "topics": [
+        "korean-translation",
+        "kr-patch",
+        "nintendo-switch"
+      ],
+      "guide_url": "https://dollars-archive.github.io/eve-ghost-enemies-kr-patch/",
+      "guide_status": 200,
+      "latest_release": {
+        "tag": "v1.2.0",
+        "name": "EVE ghost enemies 한국어 패치 v1.2.0",
+        "url": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/releases/tag/v1.2.0",
+        "published_at": "2026-09-11T08:15:29Z",
+        "asset_count": 1
+      },
+      "downloads": 22,
+      "assets": [
+        {
+          "name": "EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
+          "tag": "v1.2.0",
+          "url": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/releases/download/v1.2.0/EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
+          "downloads": 22
+        }
+      ],
+      "tools": []
+    },
+    {
+      "repo": "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch",
+      "title": "이상한 환상향 -Lotus Labyrinth R-",
+      "original": "不思議の幻想郷 -ロータスラビリンスR-",
+      "series": "동방",
+      "platforms": [
+        "Switch"
+      ],
+      "genre": "다인원 던전 탐색 RPG",
+      "release_jp": "2021-09-30",
+      "product_id": "0100A7A015E4C000",
+      "base_update": "공식 Ver.1.0.1 (1.01)",
+      "note": "",
+      "status": "released",
+      "description": "이상한 환상향 -Lotus Labyrinth R- PC / Nintendo Switch 비공식 한국어 패치 프로젝트",
+      "pushed_at": "2026-09-30T14:14:48Z",
+      "stars": 0,
+      "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch",
+      "has_pages": true,
+      "topics": [
+        "korean-translation",
+        "kr-patch",
+        "nintendo-switch"
+      ],
+      "guide_url": "https://dollars-archive.github.io/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/",
+      "guide_status": 200,
+      "latest_release": {
+        "tag": "v1.0",
+        "name": "이상한 환상향 -Lotus Labyrinth R- 한국어 패치 v1.0",
+        "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/releases/tag/v1.0",
+        "published_at": "2026-09-25T12:30:12Z",
+        "asset_count": 1
+      },
+      "downloads": 27,
+      "assets": [
+        {
+          "name": "_LLR_Switch_._v1.0.zip",
+          "tag": "v1.0",
+          "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/releases/download/v1.0/_LLR_Switch_._v1.0.zip",
+          "downloads": 27
+        }
+      ],
+      "tools": []
+    },
+    {
+      "repo": "touhou-genso-wanderer-reloaded-kr-patch",
+      "title": "이상한 환상향 TOD -RELOADED-",
+      "original": "不思議の幻想郷TOD -RELOADED-",
+      "series": "동방",
+      "platforms": [
+        "PC",
+        "Switch"
+      ],
+      "genre": "던전 RPG",
+      "release_jp": "2017-12-21",
+      "product_id": "01004E900B082000",
+      "base_update": "PC: 패처 지원 원본 / Nintendo Switch: 공식 Ver.1.0.3",
+      "note": "원작 발매일은 Switch판 기준. Steam판: 2018-10-25",
+      "status": "released",
+      "description": "Touhou Genso Wanderer Reloaded 한국어 패치 제작 및 공개 작업일지",
+      "pushed_at": "2026-09-30T13:53:36Z",
+      "stars": 0,
+      "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch",
+      "has_pages": true,
+      "topics": [
+        "korean-translation",
+        "kr-patch",
+        "nintendo-switch",
+        "pc"
+      ],
+      "guide_url": "https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/",
+      "guide_status": 200,
+      "latest_release": {
+        "tag": "v1.0",
+        "name": "이상한 환상향 TOD -RELOADED- 한국어 패치 v1.0",
+        "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/v1.0",
+        "published_at": "2026-09-25T10:23:29Z",
+        "asset_count": 2
+      },
+      "downloads": 31,
+      "assets": [
+        {
+          "name": "TODR_PC_v1.0.zip",
+          "tag": "v1.0",
+          "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/download/v1.0/TODR_PC_v1.0.zip",
+          "downloads": 9
+        },
+        {
+          "name": "TODR_Switch_v1.0.zip",
+          "tag": "v1.0",
+          "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/download/v1.0/TODR_Switch_v1.0.zip",
+          "downloads": 22
+        }
+      ],
+      "tools": []
+    }
+  ],
+  "related": [
+    {
+      "repo": "Dollars-Archive-kr-localization-archive",
+      "title": "제작 기술 노트 아카이브",
+      "url": "https://dollars-archive.github.io/Dollars-Archive-kr-localization-archive/",
+      "desc": ""
+    },
+    {
+      "repo": "Game-Localization-Discovery-Archive",
+      "title": "한글화 후보 발굴 아카이브",
+      "url": "https://dollars-archive.github.io/Game-Localization-Discovery-Archive/",
+      "desc": ""
+    }
+  ],
+  "warnings": [
+    {
+      "repo": "Dollars-Archive-kr-localization-archive",
+      "type": "no-description",
+      "message": "관련 저장소 description이 비어 있습니다."
+    },
+    {
+      "repo": "Game-Localization-Discovery-Archive",
+      "type": "no-description",
+      "message": "관련 저장소 description이 비어 있습니다."
+    }
+  ]
+}
