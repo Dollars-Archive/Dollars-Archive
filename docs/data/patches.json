@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-04T12:08:53Z",
+  "generated_at": "2026-10-04T12:18:12Z",
   "summary": {
     "total": 8,
     "released": 7,
     "wip": 1,
-    "downloads": 463
+    "downloads": 477
   },
   "patches": [
     {
@@ -84,13 +84,13 @@
         "published_at": "2026-10-04T09:23:46Z",
         "asset_count": 1
       },
-      "downloads": 159,
+      "downloads": 173,
       "assets": [
         {
           "name": "EVE_NG_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.0/EVE_NG_v1.0.zip",
-          "downloads": 159
+          "downloads": 173
         }
       ],
       "tools": []
