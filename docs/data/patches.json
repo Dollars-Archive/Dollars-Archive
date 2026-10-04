@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-04T13:03:00Z",
+  "generated_at": "2026-10-04T13:06:39Z",
   "summary": {
     "total": 8,
     "released": 7,
     "wip": 1,
-    "downloads": 652
+    "downloads": 658
   },
   "patches": [
     {
@@ -211,13 +211,13 @@
         "published_at": "2026-09-11T08:15:19Z",
         "asset_count": 1
       },
-      "downloads": 32,
+      "downloads": 34,
       "assets": [
         {
           "name": "EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
           "tag": "v1.4.0",
           "url": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/releases/download/v1.4.0/EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
-          "downloads": 32
+          "downloads": 34
         }
       ],
       "tools": [],
@@ -257,13 +257,13 @@
         "published_at": "2026-09-11T08:15:29Z",
         "asset_count": 1
       },
-      "downloads": 29,
+      "downloads": 32,
       "assets": [
         {
           "name": "EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
           "tag": "v1.2.0",
           "url": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/releases/download/v1.2.0/EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
-          "downloads": 29
+          "downloads": 32
         }
       ],
       "tools": [],
@@ -351,7 +351,7 @@
         "published_at": "2026-09-25T10:23:29Z",
         "asset_count": 2
       },
-      "downloads": 44,
+      "downloads": 45,
       "assets": [
         {
           "name": "TODR_PC_v1.0.zip",
@@ -363,7 +363,7 @@
           "name": "TODR_Switch_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/download/v1.0/TODR_Switch_v1.0.zip",
-          "downloads": 29
+          "downloads": 30
         }
       ],
       "tools": [],
