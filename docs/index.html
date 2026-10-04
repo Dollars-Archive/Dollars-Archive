@@ -195,7 +195,7 @@ function render(){
     <div class="main">
       <div class="title">${esc(d.title)}</div>
       ${d.original?`<div class="orig">${esc(d.original)}</div>`:""}
-      ${d.summary?`<div class="patch-summary">${d.summary.split("\n").filter(Boolean).map(line=>`<p>${esc(line)}</p>`).join("")}${d.summary_source?`<span class="small">${link("패치 내용 자세히",d.summary_source)}</span>`:""}</div>`:""}
+      ${d.summary?`<div class="patch-summary">${d.summary.split("\n").filter(Boolean).map(line=>`<p>${esc(line)}</p>`).join("")}</div>`:""}
       <div class="meta">${d.genre?`<span>${esc(d.genre)}</span>`:""}${d.release_jp?`<span>원작 ${date(d.release_jp)}</span>`:""}${d.product_id?`<span class="mono">${esc(d.product_id)}</span>`:""}${d.base_update?`<span>기준 ${esc(d.base_update)}</span>`:""}</div>
       ${d.note?`<div class="small">${esc(d.note)}</div>`:""}
       <div class="links">${link("저장소",d.url)}${d.latest_release?link("릴리스",d.latest_release.url):d.status==="released"?link("릴리스",d.url+"/releases"):""}${d.guide_url?link("설치 가이드",d.guide_url):""}</div>

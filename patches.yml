@@ -2,9 +2,7 @@
 # 날짜와 제품번호는 문자열로 유지합니다. 플랫폼·시리즈는 자유롭게 추가할 수 있습니다.
 eve-zero-kr-patch:
   summary: |-
-    스토리 대사·이벤트·메뉴·시스템·조사/이동/대화 선택 메뉴 한국어화.
-    Dreamcast 일본판 완전판 T-39802M 전용. 원본 Disc 1·2의 CUE/BIN 필요.
-    Windows 패처로 새 한글판 CUE/BIN을 생성합니다.
+    1.0 : 대사·이벤트·메뉴·시스템·조사/행동 메뉴 한국어화.
   summary_source: https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/tag/v1.0
   launchbox_url: https://gamesdb.launchbox-app.com/games/details/124529-eve-zero-kanzenban-ark-of-the-matter
   title: EVE ZERO
@@ -19,9 +17,7 @@ eve-zero-kr-patch:
 
 eve-new-generation-kr-patch:
   summary: |-
-    대사·이벤트 38,093행, 메뉴·시스템·조사/이동/대화 선택 메뉴 한국어화.
-    선택 이미지·GPS 메뉴·주의문·세이브 화면 반영. 일부 원문·단서 병기는 유지.
-    일본판 SLPM-66338 / VER 1.01 전용. Windows 패처로 새 ISO를 생성합니다.
+    1.0 : 대사·이벤트·메뉴·시스템·선택 이미지 한국어화.
   summary_source: https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/tag/v1.0
   launchbox_url: https://gamesdb.launchbox-app.com/games/details/130464-eve-new-generation
   title: 이브 뉴 제네레이션
@@ -37,9 +33,7 @@ eve-new-generation-kr-patch:
 
 tears-to-tiara-2-kr-patch:
   summary: |-
-    대사·이벤트·주요 메뉴/UI 한국어화. 튜토리얼 이미지 58종·챕터 타이틀 13종 반영.
-    전투 스크립트·조건 표시와 전투 결과 화면을 수정했습니다.
-    일본판 BLJM61076 원본 ISO와 공식 Ver.1.02 PKG 필요. 게임 폴더 등록·한글 PKG 설치.
+    1.0 : 대사·메뉴/UI·튜토리얼·챕터 타이틀 한국어화 및 전투 화면 수정.
   summary_source: https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/tag/v1.0
   launchbox_url: https://gamesdb.launchbox-app.com/games/details/25025-tears-to-tiara-ii-heir-of-the-overlord
   title: 티어즈 투 티아라 2
@@ -55,9 +49,7 @@ tears-to-tiara-2-kr-patch:
 
 Guardian-Angel-Korean-Localization:
   summary: |-
-    초기 분석·한글화 준비 단계. 타이틀 화면과 주인공 이름 한글 입력 반영.
-    스토리 대사·이벤트·시스템/UI 번역과 재삽입, 실플레이 검수를 진행할 예정입니다.
-    일본판 SLPS-25214 대상. 정식 패치 릴리스는 아직 없습니다.
+    작업 중 : 타이틀 화면·주인공 이름 한글화.
   summary_source: https://github.com/Dollars-Archive/Guardian-Angel-Korean-Localization#한국어화-범위
   launchbox_url: https://gamesdb.launchbox-app.com/games/details/375952-guardian-angel
   title: 가디언 엔젤
@@ -72,9 +64,7 @@ Guardian-Angel-Korean-Localization:
 
 eve-rebirth-terror-kr-patch:
   summary: |-
-    스토리 대사·이벤트 번역과 검수, 타이틀 메뉴·조사/행동 메뉴·지도 장소명 한국어화.
-    실행 파일 패치와 번역 데이터를 통합해 적용합니다. Switch 실기 작동 확인.
-    기존 모드를 비운 뒤 새 결과를 설치하세요. 자세한 준비·경로는 설치 가이드 참고.
+    1.4.0 : 실행 파일 패치·번역 데이터를 통합 적용하도록 개선.
   summary_source: https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/releases/tag/v1.4.0
   cover: https://cdn.suruga-ya.jp/database/pics_webp/game/107002578.jpg.webp
   cover_source: https://www.suruga-ya.jp/product/detail/107002578
@@ -95,9 +85,7 @@ eve-rebirth-terror-kr-patch:
 
 eve-ghost-enemies-kr-patch:
   summary: |-
-    스토리 대사·이벤트 번역과 검수, 타이틀 메뉴·조사/행동 메뉴·지도 장소명 한국어화.
-    저장·불러오기 오류와 세이브 목록 이동 시 멈춤 수정. 저장·삭제·복사 등 문구 번역.
-    EVE ghost enemies 본편 대상. 동봉된 DESIRE remaster는 한글화 대상에서 제외됩니다.
+    1.2.0 : 저장·불러오기 오류와 세이브 목록 멈춤 수정, 시스템 문구 번역.
   summary_source: https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/releases/tag/v1.2.0
   launchbox_url: https://gamesdb.launchbox-app.com/games/details/374995-eve-ghost-enemies
   title: EVE ghost enemies
@@ -114,9 +102,7 @@ eve-ghost-enemies-kr-patch:
 
 touhou-genso-wanderer-lotus-labyrinth-r-kr-patch:
   summary: |-
-    대사·이벤트·메뉴/UI·아이템·장비·스킬·도감과 주요 명칭 한국어화.
-    한글 폰트·튜토리얼·이미지 반영. 설치 시 대체 배경 또는 원본 배경 선택 가능.
-    Switch 공식 v1.0.1 대상. 패처 결과의 atmosphere 폴더를 SD 카드에 설치합니다.
+    1.0 : 대사·이벤트·메뉴/UI·아이템·장비·스킬·도감과 주요 명칭 한국어화.
   summary_source: https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/releases/tag/v1.0
   launchbox_url: https://gamesdb.launchbox-app.com/games/details/420705-touhou-genso-wanderer-lotus-labyrinth-r
   title: 이상한 환상향 -Lotus Labyrinth R-
@@ -133,9 +119,7 @@ touhou-genso-wanderer-lotus-labyrinth-r-kr-patch:
 
 touhou-genso-wanderer-reloaded-kr-patch:
   summary: |-
-    대사·이벤트·메뉴/UI·아이템·스킬·도감·주요 명칭과 동영상 자막 한국어화.
-    튜토리얼·이벤트 이미지 및 용어·줄바꿈 보정. 대체 배경 또는 원본 배경 선택 가능.
-    Steam PC / Switch 공식 v1.0.3 지원. 플랫폼별 패키지와 설치 가이드를 확인하세요.
+    1.0 : 대사·메뉴/UI·아이템·도감·주요 명칭·동영상 자막 한국어화.
   summary_source: https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/v1.0
   launchbox_url: https://gamesdb.launchbox-app.com/games/details/114795-touhou-genso-wanderer-reloaded
   title: 이상한 환상향 TOD -RELOADED-

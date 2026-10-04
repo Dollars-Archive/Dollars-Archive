@@ -347,7 +347,7 @@ def readme_section(data: dict) -> bytes:
                 cover += f'<br><sub>{html.escape(p["cover_caption"])}</sub>'
         title = f"**{md(p['title'])}**"
         if p.get("summary"):
-            title += f'<br><sub>{html.escape(p["summary"].splitlines()[0]).replace("|", "&#124;")}</sub>'
+            title += "".join(f'<br><sub>{html.escape(line).replace("|", "&#124;")}</sub>' for line in p["summary"].splitlines() if line.strip())
         lines.append(f"| {cover} | {title} | {platforms} | {badge(p['status'], STATUS_LABELS[p['status']])} | {version} | **{p['downloads']:,}** | {' · '.join(links)} |")
     if any(p.get("cover_source") for p in data["patches"]):
         lines.extend(["", "<sub>앞표지 출처: LaunchBox Games Database · 駿河屋 · 이미지를 누르면 출처 페이지가 열립니다.</sub>"])
