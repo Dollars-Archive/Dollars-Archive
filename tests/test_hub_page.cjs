@@ -23,6 +23,16 @@ test('collected page renders all covers and filters before API replies',()=>{
   assert.equal((node('list').innerHTML.match(/class="row"/g)||[]).length,data.patches.filter(p=>p.series==='동방').length);
   assert(node('footer').textContent.includes('수집값'));
 });
+test('card metadata stays compact and uniform',()=>{
+  const {context,node}=page(async()=>[]);
+  vm.runInContext('data.patches[0].genre="SHOULD-NOT-SHOW";data.patches[0].note="NOTE-SHOULD-NOT-SHOW";data.patches[0].release_jp="2001-03-22";data.patches[0].product_id="TEST-ID";data.patches[0].base_update="Ver.9.9";applyData(data)',context);
+  const out=node('list').innerHTML;
+  assert(out.includes('발매 2001.03.22'));
+  assert(out.includes('ID <span class="mono">TEST-ID</span>'));
+  assert(out.includes('기준 Ver.9.9'));
+  assert(!out.includes('SHOULD-NOT-SHOW'));
+  assert(!out.includes('NOTE-SHOULD-NOT-SHOW'));
+});
 test('summary text and source links cannot inject markup',()=>{
   const {context,node}=page(async()=>[]);
   vm.runInContext('data.patches[0].summary="<script>bad</script>\\n대사·메뉴 번역";data.patches[0].summary_source="javascript:alert(1)";applyData(data)',context);

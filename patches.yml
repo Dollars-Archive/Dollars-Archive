@@ -9,11 +9,9 @@ eve-zero-kr-patch:
   original: EVE ZERO 完全版 ark of the matter
   series: EVE
   platforms: [Dreamcast]
-  genre: 어드벤처
   release_jp: "2001-03-22"
   product_id: "T-39802M"
   status: auto
-  note: ""
 
 eve-new-generation-kr-patch:
   summary: |-
@@ -24,12 +22,10 @@ eve-new-generation-kr-patch:
   original: EVE new generation / イブ・ニュージェネレーション
   series: EVE
   platforms: [PS2]
-  genre: 멀티사이트 미스터리 ADV / 비주얼노벨
   release_jp: "2006-08-31"
   product_id: "SLPM-66338"
-  base_update: VER 1.01
+  base_update: Ver.1.01
   status: auto
-  note: ""
 
 tears-to-tiara-2-kr-patch:
   summary: |-
@@ -40,12 +36,10 @@ tears-to-tiara-2-kr-patch:
   original: ティアーズ・トゥ・ティアラⅡ 覇王の末裔
   series: 기타
   platforms: [PS3]
-  genre: RPG
   release_jp: "2013-10-31"
   product_id: "BLJM61076"
-  base_update: 공식 Ver.1.02
+  base_update: Ver.1.02
   status: auto
-  note: ""
 
 Guardian-Angel-Korean-Localization:
   summary: |-
@@ -56,11 +50,9 @@ Guardian-Angel-Korean-Localization:
   original: ガーディアンエンジェル / Guardian Angel
   series: 기타
   platforms: [PS2]
-  genre: 시간축·다중시점 SF 미스터리 / 추리 어드벤처
   release_jp: "2003-02-27"
   product_id: "SLPS-25214"
   status: auto
-  note: 초기 분석·준비 단계
 
 eve-rebirth-terror-kr-patch:
   summary: |-
@@ -75,13 +67,11 @@ eve-rebirth-terror-kr-patch:
   original: EVE rebirth terror
   series: EVE
   platforms: [Switch]
-  genre: 커맨드 선택식 어드벤처
   release_jp: "2020-02-27"
   product_id: "01008BA00F172000"
-  base_update: 공식 Ver.1.0.2
+  base_update: Ver.1.0.2
   guide_url: https://dollars-archive.github.io/eve-rebirth-terror-kr-patch/
   status: auto
-  note: ""
 
 eve-ghost-enemies-kr-patch:
   summary: |-
@@ -92,13 +82,12 @@ eve-ghost-enemies-kr-patch:
   original: EVE ghost enemies
   series: EVE
   platforms: [Switch]
-  genre: 커맨드 선택식 어드벤처
   release_jp: "2022-06-30"
   product_id: "01007BE0160D6000"
-  base_update: 공식 Ver.1.02 (RomForge 표시 1.01)
+  # RomForge 표기상 1.01이지만 지원 원본은 Ver.1.02.
+  base_update: Ver.1.02
   guide_url: https://dollars-archive.github.io/eve-ghost-enemies-kr-patch/
   status: auto
-  note: ""
 
 touhou-genso-wanderer-lotus-labyrinth-r-kr-patch:
   summary: |-
@@ -109,13 +98,11 @@ touhou-genso-wanderer-lotus-labyrinth-r-kr-patch:
   original: 不思議の幻想郷 -ロータスラビリンスR-
   series: 동방
   platforms: [Switch]
-  genre: 다인원 던전 탐색 RPG
   release_jp: "2021-09-30"
   product_id: "0100A7A015E4C000"
-  base_update: 공식 Ver.1.0.1 (1.01)
+  base_update: Ver.1.0.1
   guide_url: https://dollars-archive.github.io/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/
   status: auto
-  note: ""
 
 touhou-genso-wanderer-reloaded-kr-patch:
   summary: |-
@@ -126,11 +113,9 @@ touhou-genso-wanderer-reloaded-kr-patch:
   original: 不思議の幻想郷TOD -RELOADED-
   series: 동방
   platforms: [PC, Switch]
-  genre: 던전 RPG
   release_jp: "2017-12-21"
   product_id: "01004E900B082000"
-  base_update: "PC: 패처 지원 원본 / Nintendo Switch: 공식 Ver.1.0.3"
+  base_update: "PC 패처 지원 원본 / Switch Ver.1.0.3"
   guide_url: https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/
   status: auto
-  note: "원작 발매일은 Switch판 기준. Steam판: 2018-10-25"
 
