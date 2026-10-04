@@ -54,7 +54,12 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(28px,5vw,40px);l
 .list{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:10px;background:var(--surface);overflow:hidden}
 .row{display:grid;grid-template-columns:92px minmax(0,1fr) 150px 120px;gap:18px;padding:18px 20px;border-bottom:1px solid var(--line);align-items:start}
 .row:last-child{border-bottom:0}
-.plat{display:flex;flex-direction:column;gap:6px}
+.plat{display:flex;flex-direction:column;gap:8px}
+.cover{display:flex;align-items:center;justify-content:center;width:88px;height:112px;border:1px solid var(--line);border-radius:4px;background:var(--bg);overflow:hidden;color:var(--muted);font-family:var(--f-mono);font-size:12px;position:relative}
+.cover img{width:100%;height:100%;object-fit:contain}
+.cover-fallback{display:none}
+.cover.failed img{display:none}
+.cover.failed .cover-fallback{display:block}
 .pbadge{font-family:var(--f-mono);font-size:11px;font-weight:500;padding:3px 7px;border-radius:4px;color:#fff;text-align:center;letter-spacing:.02em}
 .pbadge.ps{background:var(--ps)} .pbadge.sw{background:var(--sw)} .pbadge.dc{background:var(--dc)} .pbadge.pc{background:var(--pc)}
 .pbadge.neutral{background:var(--pc)}
@@ -80,9 +85,11 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(28px,5vw,40px);l
 .bar{width:100%;height:4px;background:var(--line);border-radius:2px;overflow:hidden}
 .bar i{display:block;height:100%;background:var(--accent)}
 @media (max-width:760px){
-  .row{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px 14px}
-  .plat{flex-direction:row;flex-wrap:wrap;grid-column:1 / -1}
-  .main{grid-column:1 / -1}
+  .row{grid-template-columns:80px minmax(0,1fr);gap:10px 14px}
+  .status,.dl{grid-column:1 / -1}
+  .plat{flex-direction:column;grid-column:1;grid-row:1}
+  .cover{width:64px;height:82px}
+  .main{grid-column:2;grid-row:1}
   .status{flex-direction:row;flex-wrap:wrap;align-items:center}
   .dl{align-items:flex-end}
 }
@@ -131,6 +138,7 @@ footer{font-size:12px;color:var(--muted)}
     <div class="side" id="related"></div>
   </section>
 
+  <div class="small">표지 출처: LaunchBox Games Database · 표지를 누르면 출처 페이지가 열립니다.</div>
   <footer id="footer">다운로드 수는 패치 릴리스 첨부파일 기준이며 부가 도구는 제외합니다.</footer>
 </div>
 
@@ -147,6 +155,13 @@ const labels={released:"배포 중",wip:"작업 중",paused:"중단"};
 const platformClass=p=>["PS2","PS3","PSP","Vita","PS Vita","PS4","PS5"].includes(p)?"ps":p==="Switch"?"sw":p==="Dreamcast"?"dc":p==="PC"?"pc":"neutral";
 function safeUrl(s){try{const u=new URL(s);return ["https:","http:"].includes(u.protocol)&&!u.username&&!u.password?u.href:""}catch(e){return ""}}
 function link(label,url){const u=safeUrl(url);return u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(label)}</a>`:esc(label)}
+function coverMarkup(d){
+  const label=d.platforms.map(p=>p==="Dreamcast"?"DC":p==="Switch"?"SW":p).join(" / ")||"—";
+  if(!/^covers\/[A-Za-z0-9_.-]+\.webp$/.test(d.cover||""))return `<div class="cover" aria-label="${esc(d.title)} 표지 없음">${esc(label)}</div>`;
+  const source=safeUrl(d.cover_source);
+  const body=`<img src="${esc(d.cover)}" alt="${esc(d.title)} 표지" loading="lazy" decoding="async" width="88" height="112"><span class="cover-fallback" aria-hidden="true">${esc(label)}</span>`;
+  return source?`<a class="cover" href="${esc(source)}" target="_blank" rel="noopener" title="LaunchBox 표지 출처">${body}</a>`:`<div class="cover">${body}</div>`;
+}
 function save(){try{localStorage.setItem("da-krp",JSON.stringify(state))}catch(e){}}
 try{const s=JSON.parse(localStorage.getItem("da-krp")||"null");if(s)for(const k of Object.keys(state))if(typeof s[k]==="string")state[k]=s[k]}catch(e){}
 function chips(id,opts,key){
@@ -169,7 +184,7 @@ function render(){
   const maxDl=Math.max(1,...DATA.map(d=>d.downloads));
   L.innerHTML=rows.map(d=>`
   <article class="row" data-repo="${esc(d.repo)}">
-    <div class="plat">${d.platforms.length?d.platforms.map(p=>`<span class="pbadge ${platformClass(p)}">${esc(p)}</span>`).join(""):'<span class="small">기종 미입력</span>'}<span class="small">${esc(d.series)}</span></div>
+    <div class="plat">${d.platforms.length?d.platforms.map(p=>`<span class="pbadge ${platformClass(p)}">${esc(p)}</span>`).join(""):'<span class="small">기종 미입력</span>'}${coverMarkup(d)}</div>
     <div class="main">
       <div class="title">${esc(d.title)}</div>
       ${d.original?`<div class="orig">${esc(d.original)}</div>`:""}
@@ -188,6 +203,7 @@ function render(){
       <div class="bar" aria-hidden="true"><i style="width:${Math.min(100,d.downloads/maxDl*100).toFixed(0)}%"></i></div>
     </div>
   </article>`).join("");
+  L.querySelectorAll(".cover img").forEach(img=>{const fail=()=>img.parentElement.classList.add("failed");img.addEventListener("error",fail,{once:true});if(img.complete&&!img.naturalWidth)fail();});
 }
 function applyData(data){
   if(!data||!Array.isArray(data.patches)||!Array.isArray(data.related)||!Array.isArray(data.warnings)||!data.summary)throw new Error("목록 형식 오류");

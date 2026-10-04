@@ -1,6 +1,7 @@
 # 게임 정보만 관리합니다. 버전·다운로드·최근 작업일은 GitHub에서 수집합니다.
 # 날짜와 제품번호는 문자열로 유지합니다. 플랫폼·시리즈는 자유롭게 추가할 수 있습니다.
 eve-zero-kr-patch:
+  launchbox_url: https://gamesdb.launchbox-app.com/games/details/124529-eve-zero-kanzenban-ark-of-the-matter
   title: EVE ZERO
   original: EVE ZERO 完全版 ark of the matter
   series: EVE
@@ -12,6 +13,7 @@ eve-zero-kr-patch:
   note: ""
 
 eve-new-generation-kr-patch:
+  launchbox_url: https://gamesdb.launchbox-app.com/games/details/130464-eve-new-generation
   title: 이브 뉴 제네레이션
   original: EVE new generation / イブ・ニュージェネレーション
   series: EVE
@@ -24,6 +26,7 @@ eve-new-generation-kr-patch:
   note: ""
 
 tears-to-tiara-2-kr-patch:
+  launchbox_url: https://gamesdb.launchbox-app.com/games/details/25025-tears-to-tiara-ii-heir-of-the-overlord
   title: 티어즈 투 티아라 2
   original: ティアーズ・トゥ・ティアラⅡ 覇王の末裔
   series: 기타
@@ -36,6 +39,7 @@ tears-to-tiara-2-kr-patch:
   note: ""
 
 Guardian-Angel-Korean-Localization:
+  launchbox_url: https://gamesdb.launchbox-app.com/games/details/375952-guardian-angel
   title: 가디언 엔젤
   original: ガーディアンエンジェル / Guardian Angel
   series: 기타
@@ -47,6 +51,7 @@ Guardian-Angel-Korean-Localization:
   note: 초기 분석·준비 단계
 
 eve-rebirth-terror-kr-patch:
+  launchbox_url: "" # 해당 Switch판 페이지를 찾으면 입력합니다.
   title: EVE rebirth terror
   original: EVE rebirth terror
   series: EVE
@@ -60,6 +65,7 @@ eve-rebirth-terror-kr-patch:
   note: ""
 
 eve-ghost-enemies-kr-patch:
+  launchbox_url: https://gamesdb.launchbox-app.com/games/details/374995-eve-ghost-enemies
   title: EVE ghost enemies
   original: EVE ghost enemies
   series: EVE
@@ -73,6 +79,7 @@ eve-ghost-enemies-kr-patch:
   note: ""
 
 touhou-genso-wanderer-lotus-labyrinth-r-kr-patch:
+  launchbox_url: https://gamesdb.launchbox-app.com/games/details/420705-touhou-genso-wanderer-lotus-labyrinth-r
   title: 이상한 환상향 -Lotus Labyrinth R-
   original: 不思議の幻想郷 -ロータスラビリンスR-
   series: 동방
@@ -86,6 +93,7 @@ touhou-genso-wanderer-lotus-labyrinth-r-kr-patch:
   note: ""
 
 touhou-genso-wanderer-reloaded-kr-patch:
+  launchbox_url: https://gamesdb.launchbox-app.com/games/details/114795-touhou-genso-wanderer-reloaded
   title: 이상한 환상향 TOD -RELOADED-
   original: 不思議の幻想郷TOD -RELOADED-
   series: 동방

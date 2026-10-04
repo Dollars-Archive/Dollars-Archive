@@ -75,3 +75,13 @@ Pages의 소스는 `main`의 `/docs`이며 주소는 `https://dollars-archive.gi
 ## 관리 경고
 
 최신 정식 패치 릴리스에 첨부파일이 없을 때, 작업 중 상태가 30일 넘게 푸시되지 않았을 때, 메타데이터·topic·description이 없을 때, 설치 가이드가 HTTP 200이 아닐 때, 배포 상태 README에 `/releases` 링크가 없을 때 경고를 수집합니다. 관련 아카이브의 빈 description도 수집합니다. 사용자 요청에 따라 공개 허브와 프로필 README에는 관리 경고를 표시하지 않으며, JSON과 실행 로그에서만 확인할 수 있습니다. 패치 저장소의 코드·README·릴리스·설정은 수정하지 않습니다.
+
+## 게임 표지
+
+`patches.yml`의 해당 게임에 `launchbox_url: https://gamesdb.launchbox-app.com/games/details/...` 한 줄을 추가합니다. 다음 자동 실행에서 Japan 앞표지를 우선 선택하고, 없으면 같은 게임·기종의 다른 지역 앞표지를 선택합니다. 발견하지 못한 게임이나 앞표지는 비워 두며 스크린샷·재구성 표지로 대체하지 않습니다.
+
+표지는 `docs/covers/<repo>.webp`에 가로 최대 320px로 저장합니다. 출처 페이지·이미지·종류·지역·최초 수집 시각은 `docs/data/covers.json`에서 확인합니다. 출처가 같은 캐시 파일은 다시 요청하지 않습니다. 다시 받으려면 `python scripts/build_hub.py --refresh-covers`를 실행합니다.
+
+수동 표지는 `cover: docs/covers/custom.webp` 또는 HTTPS 이미지 주소로 지정할 수 있으며 LaunchBox 선택보다 우선합니다. 수동 파일도 작은 앞표지만 사용하세요. 표지 실패는 목록 수집을 중단하지 않으며 기존 캐시를 사용할 수 있으면 유지합니다. 표지 경고도 공개 화면에는 표시하지 않습니다. `--dry-run`·`--check`는 이미지도 저장하지 않습니다.
+
+현재 EVE rebirth terror의 Switch 상세 페이지는 찾지 못했습니다. 티어즈 투 티아라 2와 TOD Reloaded는 각각 PS3·Switch 북미 앞표지를 사용하며 일본판 지원 여부는 기존 패치 설명을 확인하세요.

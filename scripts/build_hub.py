@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the profile and patch catalogue. PyYAML is the sole non-stdlib dependency."""
+"""Build the profile, patch catalogue and cached front-cover thumbnails."""
 
 from __future__ import annotations
 
@@ -20,6 +20,11 @@ from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
 import yaml
+
+if __package__:
+    from .covers import plan_covers
+else:
+    from covers import plan_covers
 
 OWNER = "Dollars-Archive"
 API = "https://api.github.com"
@@ -310,7 +315,7 @@ def summary_svg(summary: dict, dark: bool = False) -> bytes:
 def readme_section(data: dict) -> bytes:
     s = data["summary"]
     summary_label = f"한글패치 {s['total']}개 · 배포 {s['released']} · 작업 중 {s['wip']} · 다운로드 {s['downloads']:,}회"
-    lines = ["", themed_image("summary", summary_label), "", "## 한글패치 컬렉션", "", f"{summary_label} · {md_link('검색·기종 필터로 찾아보기 →', HUB_URL)}", "", "| 게임 | 기종 | 상태 | 버전 | 다운로드 | 바로가기 |", "| :--- | :---: | :---: | :---: | ---: | :--- |"]
+    lines = ["", themed_image("summary", summary_label), "", "## 한글패치 컬렉션", "", f"{summary_label} · {md_link('검색·기종 필터로 찾아보기 →', HUB_URL)}", "", "| 표지 | 게임 | 기종 | 상태 | 버전 | 다운로드 | 바로가기 |", "| :---: | :--- | :---: | :---: | :---: | ---: | :--- |"]
     for p in data["patches"]:
         latest = p["latest_release"]
         links = [md_link("저장소", p["url"])]
@@ -323,7 +328,15 @@ def readme_section(data: dict) -> bytes:
         platform_kinds = {"Dreamcast": "dc", "PS2": "ps2", "PS3": "ps3", "PSP": "psp", "Vita": "vita", "PS Vita": "vita", "Switch": "switch", "PC": "pc"}
         platforms = " ".join(badge(platform_kinds[plat], plat) if plat in platform_kinds else md(plat) for plat in p["platforms"]) or "미입력"
         version = md_link(latest["tag"], latest["url"]) if latest else "—"
-        lines.append(f"| **{md(p['title'])}** | {platforms} | {badge(p['status'], STATUS_LABELS[p['status']])} | {version} | **{p['downloads']:,}** | {' · '.join(links)} |")
+        cover = ""
+        if p.get("cover"):
+            image_url = f"https://raw.githubusercontent.com/{OWNER}/{OWNER}/main/docs/{p['cover']}"
+            image = f'<img src="{html.escape(image_url, quote=True)}" width="48" alt="{html.escape(p["title"], quote=True)} 표지">'
+            source = p.get("cover_source")
+            cover = f'<a href="{html.escape(source, quote=True)}">{image}</a>' if source and public_http_url(source) else image
+        lines.append(f"| {cover} | **{md(p['title'])}** | {platforms} | {badge(p['status'], STATUS_LABELS[p['status']])} | {version} | **{p['downloads']:,}** | {' · '.join(links)} |")
+    if any(p.get("cover_source") for p in data["patches"]):
+        lines.extend(["", "<sub>표지 출처: LaunchBox Games Database · 표지를 누르면 해당 게임의 출처 페이지가 열립니다.</sub>"])
     if data["related"]:
         lines.extend(["", "### 제작 기록과 아카이브", ""])
         for r in data["related"]:
@@ -382,6 +395,7 @@ def apply_outputs(outputs: dict[Path, bytes]) -> list[Path]:
 def main(argv=None, client=None, now=None, check_guide=guide_status) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1], help="허브 저장소 루트")
+    parser.add_argument("--refresh-covers", action="store_true", help="저장한 표지를 출처에서 다시 수집")
     modes = parser.add_mutually_exclusive_group()
     modes.add_argument("--dry-run", action="store_true", help="파일을 쓰지 않고 요약·경고·README diff 출력")
     modes.add_argument("--check", action="store_true", help="생성 결과가 다르면 exit 1, 파일은 쓰지 않음")
@@ -390,8 +404,9 @@ def main(argv=None, client=None, now=None, check_guide=guide_status) -> int:
         root = args.root.resolve()
         metadata = load_metadata(root / "patches.yml")
         data = collect(client or GitHubClient(), metadata, now or datetime.now(timezone.utc), check_guide)
+        cover_outputs = plan_covers(root, data, metadata, args.refresh_covers)
         # All API collection and generation must succeed before any output is touched.
-        outputs = planned_outputs(root, data)
+        outputs = {**cover_outputs, **planned_outputs(root, data)}
         changed = [p for p, content in outputs.items() if not p.exists() or p.read_bytes() != content]
         print(json.dumps(data["summary"], ensure_ascii=False))
         for w in data["warnings"]:

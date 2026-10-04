@@ -14,6 +14,7 @@ on:
       - tests/**
       - requirements.txt
       - docs/index.html
+      - docs/covers/**
       - assets/profile/**
       - .github/workflows/update-hub.yml
 
@@ -36,7 +37,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install YAML reader
+      - name: Install build dependencies
         run: python -m pip install -r requirements.txt
       - name: Test collection and generation rules
         run: python -m unittest discover -s tests -v
@@ -47,7 +48,7 @@ jobs:
       - name: Commit changed data
         shell: bash
         run: |
-          git add README.md docs/data/patches.json assets/profile/summary-light.svg assets/profile/summary-dark.svg
+          git add README.md docs/data/patches.json docs/data/covers.json docs/covers assets/profile/summary-light.svg assets/profile/summary-dark.svg
           if git diff --cached --quiet; then
             echo "No data changes; no commit."
             exit 0

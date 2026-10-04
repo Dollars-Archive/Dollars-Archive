@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-04T12:18:12Z",
+  "generated_at": "2026-10-04T13:03:00Z",
   "summary": {
     "total": 8,
     "released": 7,
     "wip": 1,
-    "downloads": 477
+    "downloads": 652
   },
   "patches": [
     {
@@ -23,7 +23,7 @@
       "status": "released",
       "description": "EVE ZERO (Dreamcast) Korean Translation Patch / 한국어 패치",
       "pushed_at": "2026-10-04T11:15:22Z",
-      "stars": 0,
+      "stars": 1,
       "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch",
       "has_pages": false,
       "topics": [
@@ -40,16 +40,18 @@
         "published_at": "2026-10-04T09:52:01Z",
         "asset_count": 1
       },
-      "downloads": 1,
+      "downloads": 63,
       "assets": [
         {
           "name": "EVE_ZERO_Korean_Patch_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/download/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip",
-          "downloads": 1
+          "downloads": 63
         }
       ],
-      "tools": []
+      "tools": [],
+      "cover": "covers/eve-zero-kr-patch.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/124529-eve-zero-kanzenban-ark-of-the-matter"
     },
     {
       "repo": "eve-new-generation-kr-patch",
@@ -84,16 +86,18 @@
         "published_at": "2026-10-04T09:23:46Z",
         "asset_count": 1
       },
-      "downloads": 173,
+      "downloads": 228,
       "assets": [
         {
           "name": "EVE_NG_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.0/EVE_NG_v1.0.zip",
-          "downloads": 173
+          "downloads": 228
         }
       ],
-      "tools": []
+      "tools": [],
+      "cover": "covers/eve-new-generation-kr-patch.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/130464-eve-new-generation"
     },
     {
       "repo": "tears-to-tiara-2-kr-patch",
@@ -128,16 +132,18 @@
         "published_at": "2026-09-27T00:38:38Z",
         "asset_count": 1
       },
-      "downloads": 198,
+      "downloads": 223,
       "assets": [
         {
           "name": "TTT2_KR_Patcher_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/download/v1.0/TTT2_KR_Patcher_v1.0.zip",
-          "downloads": 198
+          "downloads": 223
         }
       ],
-      "tools": []
+      "tools": [],
+      "cover": "covers/tears-to-tiara-2-kr-patch.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/25025-tears-to-tiara-ii-heir-of-the-overlord"
     },
     {
       "repo": "Guardian-Angel-Korean-Localization",
@@ -168,7 +174,9 @@
       "latest_release": null,
       "downloads": 0,
       "assets": [],
-      "tools": []
+      "tools": [],
+      "cover": "covers/Guardian-Angel-Korean-Localization.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/375952-guardian-angel"
     },
     {
       "repo": "eve-rebirth-terror-kr-patch",
@@ -203,16 +211,18 @@
         "published_at": "2026-09-11T08:15:19Z",
         "asset_count": 1
       },
-      "downloads": 25,
+      "downloads": 32,
       "assets": [
         {
           "name": "EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
           "tag": "v1.4.0",
           "url": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/releases/download/v1.4.0/EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
-          "downloads": 25
+          "downloads": 32
         }
       ],
-      "tools": []
+      "tools": [],
+      "cover": null,
+      "cover_source": null
     },
     {
       "repo": "eve-ghost-enemies-kr-patch",
@@ -247,16 +257,18 @@
         "published_at": "2026-09-11T08:15:29Z",
         "asset_count": 1
       },
-      "downloads": 22,
+      "downloads": 29,
       "assets": [
         {
           "name": "EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
           "tag": "v1.2.0",
           "url": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/releases/download/v1.2.0/EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
-          "downloads": 22
+          "downloads": 29
         }
       ],
-      "tools": []
+      "tools": [],
+      "cover": "covers/eve-ghost-enemies-kr-patch.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/374995-eve-ghost-enemies"
     },
     {
       "repo": "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch",
@@ -291,16 +303,18 @@
         "published_at": "2026-09-25T12:30:12Z",
         "asset_count": 1
       },
-      "downloads": 27,
+      "downloads": 33,
       "assets": [
         {
           "name": "_LLR_Switch_._v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/releases/download/v1.0/_LLR_Switch_._v1.0.zip",
-          "downloads": 27
+          "downloads": 33
         }
       ],
-      "tools": []
+      "tools": [],
+      "cover": "covers/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/420705-touhou-genso-wanderer-lotus-labyrinth-r"
     },
     {
       "repo": "touhou-genso-wanderer-reloaded-kr-patch",
@@ -337,22 +351,24 @@
         "published_at": "2026-09-25T10:23:29Z",
         "asset_count": 2
       },
-      "downloads": 31,
+      "downloads": 44,
       "assets": [
         {
           "name": "TODR_PC_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/download/v1.0/TODR_PC_v1.0.zip",
-          "downloads": 9
+          "downloads": 15
         },
         {
           "name": "TODR_Switch_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/download/v1.0/TODR_Switch_v1.0.zip",
-          "downloads": 22
+          "downloads": 29
         }
       ],
-      "tools": []
+      "tools": [],
+      "cover": "covers/touhou-genso-wanderer-reloaded-kr-patch.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/114795-touhou-genso-wanderer-reloaded"
     }
   ],
   "related": [
@@ -374,6 +390,11 @@
       "repo": "Dollars-Archive-kr-localization-archive",
       "type": "no-description",
       "message": "관련 저장소 description이 비어 있습니다."
+    },
+    {
+      "repo": "eve-rebirth-terror-kr-patch",
+      "type": "missing-launchbox",
+      "message": "표지 출처가 없어 표지를 비워 둡니다."
     },
     {
       "repo": "Game-Localization-Discovery-Archive",

@@ -1,0 +1,58 @@
+{
+  "eve-zero-kr-patch": {
+    "input": "https://gamesdb.launchbox-app.com/games/details/124529-eve-zero-kanzenban-ark-of-the-matter",
+    "source_page": "https://gamesdb.launchbox-app.com/games/details/124529-eve-zero-kanzenban-ark-of-the-matter",
+    "source_image": "https://images.launchbox-app.com//f0f60d96-80fa-41fe-9024-2d4545554d65.jpg",
+    "image_type": "Box - Front",
+    "region": "Japan",
+    "fetched_at": "2026-10-04T13:03:00Z"
+  },
+  "eve-new-generation-kr-patch": {
+    "input": "https://gamesdb.launchbox-app.com/games/details/130464-eve-new-generation",
+    "source_page": "https://gamesdb.launchbox-app.com/games/details/130464-eve-new-generation",
+    "source_image": "https://images.launchbox-app.com//02fc5c40-107f-463b-9cc3-e75b0d4b7259.jpg",
+    "image_type": "Box - Front",
+    "region": "Japan",
+    "fetched_at": "2026-10-04T13:03:00Z"
+  },
+  "tears-to-tiara-2-kr-patch": {
+    "input": "https://gamesdb.launchbox-app.com/games/details/25025-tears-to-tiara-ii-heir-of-the-overlord",
+    "source_page": "https://gamesdb.launchbox-app.com/games/details/25025-tears-to-tiara-ii-heir-of-the-overlord",
+    "source_image": "https://images.launchbox-app.com//1ce5ea26-b7ef-48e6-bda6-f347e0deefc6.jpg",
+    "image_type": "Box - Front",
+    "region": "North America",
+    "fetched_at": "2026-10-04T13:03:00Z"
+  },
+  "Guardian-Angel-Korean-Localization": {
+    "input": "https://gamesdb.launchbox-app.com/games/details/375952-guardian-angel",
+    "source_page": "https://gamesdb.launchbox-app.com/games/details/375952-guardian-angel",
+    "source_image": "https://images.launchbox-app.com//ec87ad33-2718-4e65-8be5-524c39735009.jpg",
+    "image_type": "Box - Front",
+    "region": "Japan",
+    "fetched_at": "2026-10-04T13:03:00Z"
+  },
+  "eve-ghost-enemies-kr-patch": {
+    "input": "https://gamesdb.launchbox-app.com/games/details/374995-eve-ghost-enemies",
+    "source_page": "https://gamesdb.launchbox-app.com/games/details/374995-eve-ghost-enemies",
+    "source_image": "https://images.launchbox-app.com//749b129a-d451-45fd-9cda-af7570374c1b.jpg",
+    "image_type": "Box - Front",
+    "region": "Japan",
+    "fetched_at": "2026-10-04T13:03:00Z"
+  },
+  "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch": {
+    "input": "https://gamesdb.launchbox-app.com/games/details/420705-touhou-genso-wanderer-lotus-labyrinth-r",
+    "source_page": "https://gamesdb.launchbox-app.com/games/details/420705-touhou-genso-wanderer-lotus-labyrinth-r",
+    "source_image": "https://images.launchbox-app.com//75c28939-b567-40ef-8d66-e442d32f85fa.jpg",
+    "image_type": "Box - Front",
+    "region": "Japan",
+    "fetched_at": "2026-10-04T13:03:00Z"
+  },
+  "touhou-genso-wanderer-reloaded-kr-patch": {
+    "input": "https://gamesdb.launchbox-app.com/games/details/114795-touhou-genso-wanderer-reloaded",
+    "source_page": "https://gamesdb.launchbox-app.com/games/details/114795-touhou-genso-wanderer-reloaded",
+    "source_image": "https://images.launchbox-app.com//c65f6db6-2401-4003-8d1c-6429b52e2898.jpg",
+    "image_type": "Box - Front",
+    "region": "North America",
+    "fetched_at": "2026-10-04T13:03:00Z"
+  }
+}
