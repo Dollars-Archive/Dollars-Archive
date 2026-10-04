@@ -226,6 +226,9 @@ def build_patch(repo: dict, meta: dict, releases: list[dict], check_guide) -> di
         "product_id": meta.get("product_id", ""),
         "base_update": meta.get("base_update", ""),
         "note": meta.get("note", ""),
+        "summary": meta.get("summary", ""),
+        "summary_source": meta.get("summary_source", ""),
+        "cover_caption": meta.get("cover_caption", ""),
         "status": resolve_status(meta, patches),
         "description": repo.get("description") or "",
         "pushed_at": repo["pushed_at"],
@@ -335,12 +338,19 @@ def readme_section(data: dict) -> bytes:
         cover = ""
         if p.get("cover"):
             image_url = f"https://raw.githubusercontent.com/{OWNER}/{OWNER}/main/docs/{p['cover']}"
+            if p.get("cover_revision"):
+                image_url += "?v=" + p["cover_revision"]
             image = f'<img src="{html.escape(image_url, quote=True)}" width="48" alt="{html.escape(p["title"], quote=True)} 표지">'
             source = p.get("cover_source")
             cover = f'<a href="{html.escape(source, quote=True)}">{image}</a>' if source and public_http_url(source) else image
-        lines.append(f"| {cover} | **{md(p['title'])}** | {platforms} | {badge(p['status'], STATUS_LABELS[p['status']])} | {version} | **{p['downloads']:,}** | {' · '.join(links)} |")
+            if p.get("cover_caption"):
+                cover += f'<br><sub>{html.escape(p["cover_caption"])}</sub>'
+        title = f"**{md(p['title'])}**"
+        if p.get("summary"):
+            title += f'<br><sub>{html.escape(p["summary"].splitlines()[0]).replace("|", "&#124;")}</sub>'
+        lines.append(f"| {cover} | {title} | {platforms} | {badge(p['status'], STATUS_LABELS[p['status']])} | {version} | **{p['downloads']:,}** | {' · '.join(links)} |")
     if any(p.get("cover_source") for p in data["patches"]):
-        lines.extend(["", "<sub>이미지 출처: LaunchBox Games Database · 4Gamer(El Dia 제공 자료) · 이미지를 누르면 출처 페이지가 열립니다.</sub>"])
+        lines.extend(["", "<sub>앞표지 출처: LaunchBox Games Database · 駿河屋 · 이미지를 누르면 출처 페이지가 열립니다.</sub>"])
     if data["related"]:
         lines.extend(["", "### 제작 기록과 아카이브", ""])
         for r in data["related"]:

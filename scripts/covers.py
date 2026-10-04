@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import io
+import hashlib
 import json
 import re
 import time
@@ -79,13 +80,14 @@ def plan_covers(root: Path, data: dict, metadata: dict, refresh=False, fetch=Non
         manual = meta.get("cover", "")
         source = meta.get("cover_source", "") if manual else meta.get("launchbox_url", "")
         source = source or meta.get("launchbox_url", "")
-        patch.update(cover=None, cover_source=source or None)
+        patch.update(cover=None, cover_source=source or None, cover_revision=None)
         relative = f"covers/{repo}.webp"
         destination = root / "docs" / relative
         cached = previous.get(repo, {})
         identity = manual or source
         if destination.exists() and not refresh and cached.get("input") == identity:
             patch["cover"] = relative
+            patch["cover_revision"] = hashlib.sha256(destination.read_bytes()).hexdigest()[:12]
             provenance[repo] = cached
             continue
         if not identity:
@@ -113,11 +115,13 @@ def plan_covers(root: Path, data: dict, metadata: dict, refresh=False, fetch=Non
             outputs[destination] = thumbnail(content)
             provenance[repo] = {"input": identity, "source_page": source or None, **details, "fetched_at": data["generated_at"]}
             patch["cover"] = relative
+            patch["cover_revision"] = hashlib.sha256(outputs[destination]).hexdigest()[:12]
         except Exception as exc:
             # A cover must not prevent patch metadata and download counts updating.
             data["warnings"].append({"repo": repo, "type": "cover-fetch-failed", "message": f"표지 수집 실패 ({type(exc).__name__}); 표지를 비워 둡니다."})
             if destination.exists() and cached.get("input") == identity:
                 patch["cover"] = relative
+                patch["cover_revision"] = hashlib.sha256(destination.read_bytes()).hexdigest()[:12]
                 provenance[repo] = cached
     data["warnings"].sort(key=lambda w: (w["repo"].lower(), w["type"]))
     outputs[provenance_path] = (json.dumps(provenance, ensure_ascii=False, indent=2) + "\n").encode("utf-8")

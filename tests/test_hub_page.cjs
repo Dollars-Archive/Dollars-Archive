@@ -15,12 +15,19 @@ test('collected page renders all covers and filters before API replies',()=>{
   const {context,node,data}=page(async()=>[]);
   assert.equal((node('list').innerHTML.match(/class="row"/g)||[]).length,data.patches.length);
   assert.equal((node('list').innerHTML.match(/loading="lazy"/g)||[]).length,data.patches.filter(p=>p.cover).length);
+  assert.equal((node('list').innerHTML.match(/class="patch-summary"/g)||[]).length,data.patches.filter(p=>p.summary).length);
   assert(!node('list').innerHTML.includes('<span class="small">EVE</span>'));
   vm.runInContext('state.plat="Dreamcast";render()',context);
   assert.equal((node('list').innerHTML.match(/class="row"/g)||[]).length,data.patches.filter(p=>p.platforms.includes('Dreamcast')).length);
   vm.runInContext('state.plat="전체";state.series="동방";render()',context);
   assert.equal((node('list').innerHTML.match(/class="row"/g)||[]).length,data.patches.filter(p=>p.series==='동방').length);
   assert(node('footer').textContent.includes('수집값'));
+});
+test('summary text and source links cannot inject markup',()=>{
+  const {context,node}=page(async()=>[]);
+  vm.runInContext('data.patches[0].summary="<script>bad</script>\\n대사·메뉴 번역";data.patches[0].summary_source="javascript:alert(1)";applyData(data)',context);
+  assert(node('list').innerHTML.includes('&lt;script&gt;bad&lt;/script&gt;'));
+  assert(!node('list').innerHTML.includes('href="javascript:'));
 });
 test('blocked API retains page, counts and collected footer',async()=>{
   const {context,node}=page(async()=>[]);

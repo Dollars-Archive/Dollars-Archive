@@ -3,7 +3,7 @@
     "eve-ghost-enemies-kr-patch/v1.2.0/EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip": {
       "asset_id": 588172077,
       "carried": 0,
-      "last_count": 35,
+      "last_count": 49,
       "name": "EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
       "removed": false,
       "repo": "eve-ghost-enemies-kr-patch",
@@ -12,7 +12,7 @@
     "eve-new-generation-kr-patch/v1.0/EVE_NG_v1.0.zip": {
       "asset_id": 609571381,
       "carried": 0,
-      "last_count": 256,
+      "last_count": 345,
       "name": "EVE_NG_v1.0.zip",
       "removed": false,
       "repo": "eve-new-generation-kr-patch",
@@ -21,7 +21,7 @@
     "eve-rebirth-terror-kr-patch/v1.4.0/EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip": {
       "asset_id": 588103948,
       "carried": 0,
-      "last_count": 37,
+      "last_count": 53,
       "name": "EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
       "removed": false,
       "repo": "eve-rebirth-terror-kr-patch",
@@ -30,7 +30,7 @@
     "eve-zero-kr-patch/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip": {
       "asset_id": 609739492,
       "carried": 0,
-      "last_count": 94,
+      "last_count": 208,
       "name": "EVE_ZERO_Korean_Patch_v1.0.zip",
       "removed": false,
       "repo": "eve-zero-kr-patch",
@@ -39,7 +39,7 @@
     "tears-to-tiara-2-kr-patch/v1.0/TTT2_KR_Patcher_v1.0.zip": {
       "asset_id": 609346501,
       "carried": 0,
-      "last_count": 233,
+      "last_count": 274,
       "name": "TTT2_KR_Patcher_v1.0.zip",
       "removed": false,
       "repo": "tears-to-tiara-2-kr-patch",
@@ -48,7 +48,7 @@
     "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/v1.0/_LLR_Switch_._v1.0.zip": {
       "asset_id": 609359818,
       "carried": 0,
-      "last_count": 36,
+      "last_count": 42,
       "name": "_LLR_Switch_._v1.0.zip",
       "removed": false,
       "repo": "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch",
@@ -57,7 +57,7 @@
     "touhou-genso-wanderer-reloaded-kr-patch/v1.0/TODR_PC_v1.0.zip": {
       "asset_id": 609378040,
       "carried": 0,
-      "last_count": 18,
+      "last_count": 20,
       "name": "TODR_PC_v1.0.zip",
       "removed": false,
       "repo": "touhou-genso-wanderer-reloaded-kr-patch",
@@ -66,7 +66,7 @@
     "touhou-genso-wanderer-reloaded-kr-patch/v1.0/TODR_Switch_v1.0.zip": {
       "asset_id": 609356044,
       "carried": 0,
-      "last_count": 33,
+      "last_count": 39,
       "name": "TODR_Switch_v1.0.zip",
       "removed": false,
       "repo": "touhou-genso-wanderer-reloaded-kr-patch",

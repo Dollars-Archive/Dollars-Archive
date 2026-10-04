@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-04T13:48:26Z",
+  "generated_at": "2026-10-04T16:12:31Z",
   "summary": {
     "total": 8,
     "released": 7,
     "wip": 1,
-    "downloads": 742
+    "downloads": 1030
   },
   "patches": [
     {
@@ -20,6 +20,9 @@
       "product_id": "T-39802M",
       "base_update": "",
       "note": "",
+      "summary": "스토리 대사·이벤트·메뉴·시스템·조사/이동/대화 선택 메뉴 한국어화.\nDreamcast 일본판 완전판 T-39802M 전용. 원본 Disc 1·2의 CUE/BIN 필요.\nWindows 패처로 새 한글판 CUE/BIN을 생성합니다.",
+      "summary_source": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/tag/v1.0",
+      "cover_caption": "",
       "status": "released",
       "description": "EVE ZERO (Dreamcast) Korean Translation Patch / 한국어 패치",
       "pushed_at": "2026-10-04T11:15:22Z",
@@ -40,20 +43,20 @@
         "published_at": "2026-10-04T09:52:01Z",
         "asset_count": 1
       },
-      "downloads": 94,
+      "downloads": 208,
       "assets": [
         {
           "name": "EVE_ZERO_Korean_Patch_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/download/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip",
-          "downloads": 94,
+          "downloads": 208,
           "asset_id": 609739492,
           "created_at": "2026-10-04T11:43:49Z",
           "release_published_at": "2026-10-04T09:52:01Z"
         }
       ],
       "tools": [],
-      "downloads_current": 94,
+      "downloads_current": 208,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-zero-kr-patch/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip": {
@@ -61,13 +64,14 @@
           "tag": "v1.0",
           "name": "EVE_ZERO_Korean_Patch_v1.0.zip",
           "asset_id": 609739492,
-          "last_count": 94,
+          "last_count": 208,
           "carried": 0,
           "removed": false
         }
       },
       "cover": "covers/eve-zero-kr-patch.webp",
-      "cover_source": "https://gamesdb.launchbox-app.com/games/details/124529-eve-zero-kanzenban-ark-of-the-matter"
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/124529-eve-zero-kanzenban-ark-of-the-matter",
+      "cover_revision": "a63ff59b4983"
     },
     {
       "repo": "eve-new-generation-kr-patch",
@@ -82,6 +86,9 @@
       "product_id": "SLPM-66338",
       "base_update": "VER 1.01",
       "note": "",
+      "summary": "대사·이벤트 38,093행, 메뉴·시스템·조사/이동/대화 선택 메뉴 한국어화.\n선택 이미지·GPS 메뉴·주의문·세이브 화면 반영. 일부 원문·단서 병기는 유지.\n일본판 SLPM-66338 / VER 1.01 전용. Windows 패처로 새 ISO를 생성합니다.",
+      "summary_source": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/tag/v1.0",
+      "cover_caption": "",
       "status": "released",
       "description": "EVE new generation (PlayStation 2) Korean Translation Patch / 한국어 패치",
       "pushed_at": "2026-10-04T10:53:38Z",
@@ -102,20 +109,20 @@
         "published_at": "2026-10-04T09:23:46Z",
         "asset_count": 1
       },
-      "downloads": 256,
+      "downloads": 345,
       "assets": [
         {
           "name": "EVE_NG_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.0/EVE_NG_v1.0.zip",
-          "downloads": 256,
+          "downloads": 345,
           "asset_id": 609571381,
           "created_at": "2026-10-04T09:55:30Z",
           "release_published_at": "2026-10-04T09:23:46Z"
         }
       ],
       "tools": [],
-      "downloads_current": 256,
+      "downloads_current": 345,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-new-generation-kr-patch/v1.0/EVE_NG_v1.0.zip": {
@@ -123,13 +130,14 @@
           "tag": "v1.0",
           "name": "EVE_NG_v1.0.zip",
           "asset_id": 609571381,
-          "last_count": 256,
+          "last_count": 345,
           "carried": 0,
           "removed": false
         }
       },
       "cover": "covers/eve-new-generation-kr-patch.webp",
-      "cover_source": "https://gamesdb.launchbox-app.com/games/details/130464-eve-new-generation"
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/130464-eve-new-generation",
+      "cover_revision": "c2999e87c5ff"
     },
     {
       "repo": "tears-to-tiara-2-kr-patch",
@@ -144,6 +152,9 @@
       "product_id": "BLJM61076",
       "base_update": "공식 Ver.1.02",
       "note": "",
+      "summary": "대사·이벤트·주요 메뉴/UI 한국어화. 튜토리얼 이미지 58종·챕터 타이틀 13종 반영.\n전투 스크립트·조건 표시와 전투 결과 화면을 수정했습니다.\n일본판 BLJM61076 원본 ISO와 공식 Ver.1.02 PKG 필요. 게임 폴더 등록·한글 PKG 설치.",
+      "summary_source": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/tag/v1.0",
+      "cover_caption": "",
       "status": "released",
       "description": "PS3용 『Tears to Tiara II』 비공식 한국어 패치",
       "pushed_at": "2026-10-04T05:31:04Z",
@@ -164,20 +175,20 @@
         "published_at": "2026-09-27T00:38:38Z",
         "asset_count": 1
       },
-      "downloads": 233,
+      "downloads": 274,
       "assets": [
         {
           "name": "TTT2_KR_Patcher_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/download/v1.0/TTT2_KR_Patcher_v1.0.zip",
-          "downloads": 233,
+          "downloads": 274,
           "asset_id": 609346501,
           "created_at": "2026-10-04T07:16:59Z",
           "release_published_at": "2026-09-27T00:38:38Z"
         }
       ],
       "tools": [],
-      "downloads_current": 233,
+      "downloads_current": 274,
       "downloads_carried": 0,
       "download_ledger": {
         "tears-to-tiara-2-kr-patch/v1.0/TTT2_KR_Patcher_v1.0.zip": {
@@ -185,13 +196,14 @@
           "tag": "v1.0",
           "name": "TTT2_KR_Patcher_v1.0.zip",
           "asset_id": 609346501,
-          "last_count": 233,
+          "last_count": 274,
           "carried": 0,
           "removed": false
         }
       },
       "cover": "covers/tears-to-tiara-2-kr-patch.webp",
-      "cover_source": "https://gamesdb.launchbox-app.com/games/details/25025-tears-to-tiara-ii-heir-of-the-overlord"
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/25025-tears-to-tiara-ii-heir-of-the-overlord",
+      "cover_revision": "99ae968d8eac"
     },
     {
       "repo": "Guardian-Angel-Korean-Localization",
@@ -206,6 +218,9 @@
       "product_id": "SLPS-25214",
       "base_update": "",
       "note": "초기 분석·준비 단계",
+      "summary": "초기 분석·한글화 준비 단계. 타이틀 화면과 주인공 이름 한글 입력 반영.\n스토리 대사·이벤트·시스템/UI 번역과 재삽입, 실플레이 검수를 진행할 예정입니다.\n일본판 SLPS-25214 대상. 정식 패치 릴리스는 아직 없습니다.",
+      "summary_source": "https://github.com/Dollars-Archive/Guardian-Angel-Korean-Localization#한국어화-범위",
+      "cover_caption": "",
       "status": "wip",
       "description": "PlayStation 2용 미스터리 어드벤처 게임 『Guardian Angel』의 비공식 한국어화 프로젝트입니다. 사건으로 육체를 잃고 수호천사가 된 사립탐정 에릭이 딸 에스텔과 주변 인물들에게 영감을 주며, 시간과 공간을 넘나들어 사건의 진상을 추적하는 작품입니다. 게임 내 대사와 시스템 텍스트를 한국어로 번역하는 것을 목표로 합니다.",
       "pushed_at": "2026-10-01T01:07:50Z",
@@ -227,7 +242,8 @@
       "downloads_carried": 0,
       "download_ledger": {},
       "cover": "covers/Guardian-Angel-Korean-Localization.webp",
-      "cover_source": "https://gamesdb.launchbox-app.com/games/details/375952-guardian-angel"
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/375952-guardian-angel",
+      "cover_revision": "e7bc3b2e946d"
     },
     {
       "repo": "eve-rebirth-terror-kr-patch",
@@ -242,6 +258,9 @@
       "product_id": "01008BA00F172000",
       "base_update": "공식 Ver.1.0.2",
       "note": "",
+      "summary": "스토리 대사·이벤트 번역과 검수, 타이틀 메뉴·조사/행동 메뉴·지도 장소명 한국어화.\n실행 파일 패치와 번역 데이터를 통합해 적용합니다. Switch 실기 작동 확인.\n기존 모드를 비운 뒤 새 결과를 설치하세요. 자세한 준비·경로는 설치 가이드 참고.",
+      "summary_source": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/releases/tag/v1.4.0",
+      "cover_caption": "PS4판 표지",
       "status": "released",
       "description": "EVE rebirth terror Korean Translation Patch",
       "pushed_at": "2026-09-30T14:22:09Z",
@@ -262,20 +281,20 @@
         "published_at": "2026-09-11T08:15:19Z",
         "asset_count": 1
       },
-      "downloads": 37,
+      "downloads": 53,
       "assets": [
         {
           "name": "EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
           "tag": "v1.4.0",
           "url": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/releases/download/v1.4.0/EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
-          "downloads": 37,
+          "downloads": 53,
           "asset_id": 588103948,
           "created_at": "2026-09-25T10:18:59Z",
           "release_published_at": "2026-09-11T08:15:19Z"
         }
       ],
       "tools": [],
-      "downloads_current": 37,
+      "downloads_current": 53,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-rebirth-terror-kr-patch/v1.4.0/EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip": {
@@ -283,13 +302,14 @@
           "tag": "v1.4.0",
           "name": "EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
           "asset_id": 588103948,
-          "last_count": 37,
+          "last_count": 53,
           "carried": 0,
           "removed": false
         }
       },
       "cover": "covers/eve-rebirth-terror-kr-patch.webp",
-      "cover_source": "https://www.4gamer.net/games/497/G049731/20200220037/"
+      "cover_source": "https://www.suruga-ya.jp/product/detail/107002578",
+      "cover_revision": "b73834f16b6d"
     },
     {
       "repo": "eve-ghost-enemies-kr-patch",
@@ -304,6 +324,9 @@
       "product_id": "01007BE0160D6000",
       "base_update": "공식 Ver.1.02 (RomForge 표시 1.01)",
       "note": "",
+      "summary": "스토리 대사·이벤트 번역과 검수, 타이틀 메뉴·조사/행동 메뉴·지도 장소명 한국어화.\n저장·불러오기 오류와 세이브 목록 이동 시 멈춤 수정. 저장·삭제·복사 등 문구 번역.\nEVE ghost enemies 본편 대상. 동봉된 DESIRE remaster는 한글화 대상에서 제외됩니다.",
+      "summary_source": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/releases/tag/v1.2.0",
+      "cover_caption": "",
       "status": "released",
       "description": "EVE ghost enemies 한국어 패치",
       "pushed_at": "2026-09-30T14:21:23Z",
@@ -324,20 +347,20 @@
         "published_at": "2026-09-11T08:15:29Z",
         "asset_count": 1
       },
-      "downloads": 35,
+      "downloads": 49,
       "assets": [
         {
           "name": "EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
           "tag": "v1.2.0",
           "url": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/releases/download/v1.2.0/EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
-          "downloads": 35,
+          "downloads": 49,
           "asset_id": 588172077,
           "created_at": "2026-09-25T10:59:39Z",
           "release_published_at": "2026-09-11T08:15:29Z"
         }
       ],
       "tools": [],
-      "downloads_current": 35,
+      "downloads_current": 49,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-ghost-enemies-kr-patch/v1.2.0/EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip": {
@@ -345,13 +368,14 @@
           "tag": "v1.2.0",
           "name": "EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
           "asset_id": 588172077,
-          "last_count": 35,
+          "last_count": 49,
           "carried": 0,
           "removed": false
         }
       },
       "cover": "covers/eve-ghost-enemies-kr-patch.webp",
-      "cover_source": "https://gamesdb.launchbox-app.com/games/details/374995-eve-ghost-enemies"
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/374995-eve-ghost-enemies",
+      "cover_revision": "b1ec897bac8d"
     },
     {
       "repo": "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch",
@@ -366,6 +390,9 @@
       "product_id": "0100A7A015E4C000",
       "base_update": "공식 Ver.1.0.1 (1.01)",
       "note": "",
+      "summary": "대사·이벤트·메뉴/UI·아이템·장비·스킬·도감과 주요 명칭 한국어화.\n한글 폰트·튜토리얼·이미지 반영. 설치 시 대체 배경 또는 원본 배경 선택 가능.\nSwitch 공식 v1.0.1 대상. 패처 결과의 atmosphere 폴더를 SD 카드에 설치합니다.",
+      "summary_source": "https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/releases/tag/v1.0",
+      "cover_caption": "",
       "status": "released",
       "description": "이상한 환상향 -Lotus Labyrinth R- PC / Nintendo Switch 비공식 한국어 패치 프로젝트",
       "pushed_at": "2026-09-30T14:14:48Z",
@@ -386,20 +413,20 @@
         "published_at": "2026-09-25T12:30:12Z",
         "asset_count": 1
       },
-      "downloads": 36,
+      "downloads": 42,
       "assets": [
         {
           "name": "_LLR_Switch_._v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/releases/download/v1.0/_LLR_Switch_._v1.0.zip",
-          "downloads": 36,
+          "downloads": 42,
           "asset_id": 609359818,
           "created_at": "2026-10-04T07:27:45Z",
           "release_published_at": "2026-09-25T12:30:12Z"
         }
       ],
       "tools": [],
-      "downloads_current": 36,
+      "downloads_current": 42,
       "downloads_carried": 0,
       "download_ledger": {
         "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/v1.0/_LLR_Switch_._v1.0.zip": {
@@ -407,13 +434,14 @@
           "tag": "v1.0",
           "name": "_LLR_Switch_._v1.0.zip",
           "asset_id": 609359818,
-          "last_count": 36,
+          "last_count": 42,
           "carried": 0,
           "removed": false
         }
       },
       "cover": "covers/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch.webp",
-      "cover_source": "https://gamesdb.launchbox-app.com/games/details/420705-touhou-genso-wanderer-lotus-labyrinth-r"
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/420705-touhou-genso-wanderer-lotus-labyrinth-r",
+      "cover_revision": "81a8e66a552c"
     },
     {
       "repo": "touhou-genso-wanderer-reloaded-kr-patch",
@@ -429,6 +457,9 @@
       "product_id": "01004E900B082000",
       "base_update": "PC: 패처 지원 원본 / Nintendo Switch: 공식 Ver.1.0.3",
       "note": "원작 발매일은 Switch판 기준. Steam판: 2018-10-25",
+      "summary": "대사·이벤트·메뉴/UI·아이템·스킬·도감·주요 명칭과 동영상 자막 한국어화.\n튜토리얼·이벤트 이미지 및 용어·줄바꿈 보정. 대체 배경 또는 원본 배경 선택 가능.\nSteam PC / Switch 공식 v1.0.3 지원. 플랫폼별 패키지와 설치 가이드를 확인하세요.",
+      "summary_source": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/v1.0",
+      "cover_caption": "",
       "status": "released",
       "description": "Touhou Genso Wanderer Reloaded 한국어 패치 제작 및 공개 작업일지",
       "pushed_at": "2026-09-30T13:53:36Z",
@@ -450,13 +481,13 @@
         "published_at": "2026-09-25T10:23:29Z",
         "asset_count": 2
       },
-      "downloads": 51,
+      "downloads": 59,
       "assets": [
         {
           "name": "TODR_PC_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/download/v1.0/TODR_PC_v1.0.zip",
-          "downloads": 18,
+          "downloads": 20,
           "asset_id": 609378040,
           "created_at": "2026-10-04T07:40:11Z",
           "release_published_at": "2026-09-25T10:23:29Z"
@@ -465,14 +496,14 @@
           "name": "TODR_Switch_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/download/v1.0/TODR_Switch_v1.0.zip",
-          "downloads": 33,
+          "downloads": 39,
           "asset_id": 609356044,
           "created_at": "2026-10-04T07:24:53Z",
           "release_published_at": "2026-09-25T10:23:29Z"
         }
       ],
       "tools": [],
-      "downloads_current": 51,
+      "downloads_current": 59,
       "downloads_carried": 0,
       "download_ledger": {
         "touhou-genso-wanderer-reloaded-kr-patch/v1.0/TODR_PC_v1.0.zip": {
@@ -480,7 +511,7 @@
           "tag": "v1.0",
           "name": "TODR_PC_v1.0.zip",
           "asset_id": 609378040,
-          "last_count": 18,
+          "last_count": 20,
           "carried": 0,
           "removed": false
         },
@@ -489,13 +520,14 @@
           "tag": "v1.0",
           "name": "TODR_Switch_v1.0.zip",
           "asset_id": 609356044,
-          "last_count": 33,
+          "last_count": 39,
           "carried": 0,
           "removed": false
         }
       },
       "cover": "covers/touhou-genso-wanderer-reloaded-kr-patch.webp",
-      "cover_source": "https://gamesdb.launchbox-app.com/games/details/114795-touhou-genso-wanderer-reloaded"
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/114795-touhou-genso-wanderer-reloaded",
+      "cover_revision": "69db0bbc25e9"
     }
   ],
   "related": [

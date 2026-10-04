@@ -140,6 +140,16 @@ class HubTests(unittest.TestCase):
         self.assertEqual(result[:len(prefix)], prefix)
         self.assertEqual(result[-len(suffix):], suffix)
 
+    def test_summary_and_cover_caption_are_safe_in_readme(self):
+        data = self.catalogue(metadata={'sample-kr-patch': {'title': '게임', 'summary': '대사 <script> | 번역\n두 번째 줄', 'summary_source': 'https://example.com/source', 'cover_caption': 'PS4판 표지'}})
+        p = data['patches'][0]
+        p.update(cover='covers/sample.webp', cover_revision='0123456789ab', cover_source='https://example.com/source')
+        section = hub.readme_section(data).decode()
+        self.assertIn('대사 &lt;script&gt; &#124; 번역', section)
+        self.assertNotIn('두 번째 줄', section)
+        self.assertIn('PS4판 표지', section)
+        self.assertIn('sample.webp?v=0123456789ab', section)
+
     def test_marker_append_preserves_original_and_invalid_markers_fail(self):
         old = b"user-authored text without newline"
         self.assertTrue(hub.update_readme(old, self.catalogue()).startswith(old))

@@ -84,7 +84,7 @@ Pages의 소스는 `main`의 `/docs`이며 주소는 `https://dollars-archive.gi
 
 수동 표지는 `cover: docs/covers/custom.webp` 또는 HTTPS 이미지 주소로 지정할 수 있으며 LaunchBox 선택보다 우선합니다. 수동 파일도 작은 앞표지만 사용하세요. 표지 실패는 목록 수집을 중단하지 않으며 기존 캐시를 사용할 수 있으면 유지합니다. 표지 경고도 공개 화면에는 표시하지 않습니다. `--dry-run`·`--check`는 이미지도 저장하지 않습니다.
 
-EVE rebirth terror는 Switch판 소개에 사용된 4Gamer의 El Dia 제공 이미지를 사용합니다. 다운로드 전용 Switch판의 홍보 이미지이며 PS4 패키지 표지가 아닙니다. `cover_source`, `cover_type`, `cover_region`으로 수동 이미지의 출처·종류·지역을 기록합니다. 티어즈 투 티아라 2와 TOD Reloaded는 각각 PS3·Switch 북미 앞표지를 사용하며 일본판 지원 여부는 기존 패치 설명을 확인하세요.
+EVE rebirth terror는 駿河屋에서 확인한 PS4 일본 일반판(PLJM-16333) 패키지 앞표지를 사용합니다. Switch판은 다운로드 전용이므로 화면에 PS4판 표지라고 명시하며, 패치 지원 기종은 Switch로 유지합니다. `cover_source`, `cover_type`, `cover_region`으로 수동 이미지의 출처·종류·지역을 기록합니다. 티어즈 투 티아라 2와 TOD Reloaded는 각각 PS3·Switch 북미 앞표지를 사용하며 일본판 지원 여부는 기존 패치 설명을 확인하세요.
 
 ## 다운로드 실시간 조회와 누적 장부
 
@@ -97,3 +97,11 @@ EVE rebirth terror는 Switch판 소개에 사용된 4Gamer의 El Dia 제공 이�
 `patches.json`에 저장소별 장부와 현재값·이월값을 넣어 페이지에서도 같은 계산을 적용합니다. 현재 첨부파일의 개별 수치는 GitHub 현재값이고 프로젝트·전체 합계는 보존된 누적값입니다. 첨부파일이 릴리스 공개보다 하루 넘게 늦게 생성되면 내부 `asset-reuploaded` 경고를 수집합니다.
 
 검증: `python -m unittest discover -s tests -v`와 `node --test tests/test_downloads.cjs`.
+
+## 앞표지 탐색과 카드 요약
+
+LaunchBox에서 못 찾으면 공식 사이트 → 판매점(Amazon·일본 게임 판매점) → 옥션·중고 판매처 → 다른 게임 데이터베이스까지 찾아봅니다. 가로 홍보 배너나 스크린샷으로 끝내지 않습니다. 다른 기종의 동일 게임 앞표지를 사용하는 예외는 `cover_caption`으로 명시하며 원래 게임의 패치 지원 정보는 유지합니다. 이 정책은 AGENTS.md에도 기록되어 있습니다.
+
+짧은 패치 설명은 `patches.yml`의 `summary: |-`에 2–3줄로 쓰고, 근거 README·릴리스 링크를 `summary_source`에 기록합니다. 허브는 전체 요약과 출처 링크를 표시하고 프로필 표는 첫 줄을 표시합니다. 새 릴리스에서 번역 범위나 적용 방법이 바뀌면 해당 요약도 확인해 갱신하세요.
+
+다운로드는 `^v\d` 태그의 초안이 아닌 릴리스 첨부파일을 집계합니다. `v1.0`은 포함되고 `eve-ng-v1.0`·`trainer-v1.0` 같은 태그는 포함되지 않습니다. 저장소 이름으로 게임을 구분하므로 패치 버전 태그에 게임 이름을 앞에 붙일 필요가 없습니다. 외부 배포 링크의 다운로드는 GitHub 집계에 포함되지 않습니다.

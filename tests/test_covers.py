@@ -65,10 +65,22 @@ class CoverTests(unittest.TestCase):
             forbidden.assert_not_called()
             self.assertEqual(hub.apply_outputs(again), [])
             self.assertEqual(second['patches'][0]['cover'], 'covers/example.webp')
+            self.assertEqual(second['patches'][0]['cover_revision'], data['patches'][0]['cover_revision'])
             self.assertEqual(json.loads(next(iter(again.values())))['example']['fetched_at'], data['generated_at'])
             refreshed = Mock(side_effect=[front().encode(), picture()])
             covers.plan_covers(root, catalogue(), {'example': {'launchbox_url': PAGE}}, refresh=True, fetch=refreshed)
             self.assertEqual(refreshed.call_count, 2)
+
+    def test_replaced_cover_changes_revision(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            first = catalogue()
+            hub.apply_outputs(covers.plan_covers(root, first, {'example': {'cover': IMAGE}}, fetch=Mock(return_value=picture())))
+            buffer = io.BytesIO()
+            Image.new('RGB', (300, 400), '#d4b567').save(buffer, 'PNG')
+            second = catalogue()
+            covers.plan_covers(root, second, {'example': {'cover': IMAGE + '?new'}}, fetch=Mock(return_value=buffer.getvalue()))
+            self.assertNotEqual(first['patches'][0]['cover_revision'], second['patches'][0]['cover_revision'])
 
     def test_manual_file_skips_launchbox(self):
         with tempfile.TemporaryDirectory() as directory:
