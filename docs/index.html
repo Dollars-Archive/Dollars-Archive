@@ -90,7 +90,6 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(28px,5vw,40px);l
 .scope-chip.done{background:var(--ok-soft);color:var(--ok)}
 .scope-chip.partial{background:var(--wip-soft);color:var(--wip)}
 .scope-chip.none{border-color:var(--line);color:var(--muted);opacity:.55}
-.scope-since{font:11px var(--f-mono);opacity:.7;margin-left:auto}
 .history{font-size:12px;margin:2px 0 5px;min-width:0}
 .history-latest{display:grid;grid-template-columns:4.5rem 3rem minmax(0,1fr);column-gap:8px;align-items:baseline}
 .history-latest>span:last-child{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -214,9 +213,8 @@ function scopeMarkup(d){
   return `<div class="scope" aria-label="현재 한국어화 범위">${Object.entries(SCOPE_NAMES).map(([key,name])=>{
     const item=d.scope?.[key]||{},status=["done","partial"].includes(item.state)?item.state:"none";
     const label=status==="done"?"✓":status==="partial"?"일부":"—";
-    const since=status==="done"&&item.since?item.since:"";
-    const title=since?`${name} — v${since}에서 추가`:item.status?`${name} — ${item.status}`:status==="none"?`${name} — 기록 없음`:`${name} ${label}`;
-    return `<span class="scope-chip ${status}" title="${esc(title)}"><span>${name} ${label}</span>${since?`<span class="scope-since">${esc(since)}</span>`:""}</span>`;
+    const title=item.status?`${name} — ${item.status}`:status==="none"?`${name} — 기록 없음`:`${name} ${label}`;
+    return `<span class="scope-chip ${status}" title="${esc(title)}"><span>${name} ${label}</span></span>`;
   }).join("")}</div>`;
 }
 function historyGroups(entry){

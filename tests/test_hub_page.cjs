@@ -64,11 +64,12 @@ test('multiple versions preview one category and expand all aligned rows',()=>{
   assert(out.includes('오류 A · 오류 B'));
   assert(out.includes('2026.10.05'));
 });
-test('later introduction has a suffix, baseline and partial chips do not',()=>{
+test('scope chips show status without introduction versions',()=>{
   const {context}=page(async()=>[]);
   const out=vm.runInContext('scopeMarkup({scope:{title:{state:"done",since:null},video:{state:"done",since:"1.1"},image:{state:"partial",since:null}}})',context);
-  assert.equal((out.match(/class="scope-since"/g)||[]).length,1);
-  assert(out.includes('v1.1에서 추가'));
+  assert(!out.includes('scope-since'));
+  assert(!out.includes('1.1'));
+  assert(out.includes('동영상 자막 ✓'));
   assert(out.includes('이미지 일부'));
 });
 test('README status tooltips distinguish unstarted, not applicable and unknown safely',()=>{
