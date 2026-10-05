@@ -13,6 +13,7 @@ eve-zero-kr-patch:
     - title
     - ui
     - dialogue
+    - image
     source: https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/tag/v1.0 ; https://github.com/Dollars-Archive/eve-zero-kr-patch/blob/main/README.md
   launchbox_url: https://gamesdb.launchbox-app.com/games/details/124529-eve-zero-kanzenban-ark-of-the-matter
   title: EVE ZERO
@@ -187,6 +188,7 @@ touhou-genso-wanderer-lotus-labyrinth-r-kr-patch:
     - title
     - ui
     - dialogue
+    - video
     - 아이템·장비·스킬·도감
     - 튜토리얼
     partial:
