@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-05T06:09:05Z",
+  "generated_at": "2026-10-05T06:27:48Z",
   "summary": {
     "total": 8,
     "released": 7,
     "wip": 1,
-    "downloads": 1457
+    "downloads": 1465
   },
   "patches": [
     {
@@ -28,7 +28,7 @@
       "cover_caption": "",
       "status": "released",
       "description": "EVE new generation (PlayStation 2) Korean Translation Patch / 한국어 패치",
-      "pushed_at": "2026-10-05T05:30:21Z",
+      "pushed_at": "2026-10-05T06:26:36Z",
       "stars": 1,
       "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch",
       "has_pages": false,
@@ -46,13 +46,13 @@
         "published_at": "2026-10-05T04:17:21Z",
         "asset_count": 1
       },
-      "downloads": 468,
+      "downloads": 471,
       "assets": [
         {
           "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.1/EVE_New_Generation_Korean_Patch_v1.1.zip",
-          "downloads": 7,
+          "downloads": 10,
           "asset_id": 611547873,
           "created_at": "2026-10-05T04:59:55Z",
           "release_published_at": "2026-10-05T04:17:21Z"
@@ -71,8 +71,8 @@
       "walkthroughs": [],
       "activity_at": "2026-10-05T05:30:21Z",
       "activity_exclusion": {
-        "ignored_pushed_at": "2026-10-05T03:27:57Z",
-        "previous_activity_at": "2026-10-04T10:53:38Z"
+        "ignored_pushed_at": "2026-10-05T06:26:36Z",
+        "previous_activity_at": "2026-10-05T05:30:21Z"
       },
       "scope": {
         "title": {
@@ -130,7 +130,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/blob/main/README.md",
-      "downloads_current": 468,
+      "downloads_current": 471,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-new-generation-kr-patch/v1.0/EVE_NG_v1.0.zip": {
@@ -147,7 +147,7 @@
           "tag": "v1.1",
           "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
           "asset_id": 611547873,
-          "last_count": 7,
+          "last_count": 10,
           "carried": 0,
           "removed": false
         }
@@ -177,7 +177,7 @@
       "cover_caption": "",
       "status": "released",
       "description": "EVE ZERO (Dreamcast) Korean Translation Patch / 한국어 패치",
-      "pushed_at": "2026-10-05T05:14:53Z",
+      "pushed_at": "2026-10-05T06:26:17Z",
       "stars": 2,
       "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch",
       "has_pages": false,
@@ -195,13 +195,13 @@
         "published_at": "2026-10-05T04:17:18Z",
         "asset_count": 1
       },
-      "downloads": 403,
+      "downloads": 408,
       "assets": [
         {
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/download/v1.1/EVE_ZERO_Korean_Patch_v1.1.zip",
-          "downloads": 14,
+          "downloads": 19,
           "asset_id": 611513419,
           "created_at": "2026-10-05T04:43:41Z",
           "release_published_at": "2026-10-05T04:17:18Z"
@@ -220,8 +220,8 @@
       "walkthroughs": [],
       "activity_at": "2026-10-05T05:14:53Z",
       "activity_exclusion": {
-        "ignored_pushed_at": "2026-10-05T03:27:52Z",
-        "previous_activity_at": "2026-10-04T11:15:22Z"
+        "ignored_pushed_at": "2026-10-05T06:26:17Z",
+        "previous_activity_at": "2026-10-05T05:14:53Z"
       },
       "scope": {
         "title": {
@@ -277,7 +277,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-zero-kr-patch/blob/main/README.md",
-      "downloads_current": 403,
+      "downloads_current": 408,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-zero-kr-patch/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip": {
@@ -294,7 +294,7 @@
           "tag": "v1.1",
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "asset_id": 611513419,
-          "last_count": 14,
+          "last_count": 19,
           "carried": 0,
           "removed": false
         }
@@ -324,7 +324,7 @@
       "cover_caption": "",
       "status": "released",
       "description": "PS3용 『Tears to Tiara II』 비공식 한국어 패치",
-      "pushed_at": "2026-10-05T05:13:08Z",
+      "pushed_at": "2026-10-05T06:26:37Z",
       "stars": 1,
       "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch",
       "has_pages": false,
@@ -367,8 +367,8 @@
       "walkthroughs": [],
       "activity_at": "2026-10-05T05:13:08Z",
       "activity_exclusion": {
-        "ignored_pushed_at": "2026-10-05T03:28:01Z",
-        "previous_activity_at": "2026-10-04T05:31:04Z"
+        "ignored_pushed_at": "2026-10-05T06:26:37Z",
+        "previous_activity_at": "2026-10-05T05:13:08Z"
       },
       "scope": {
         "title": {
@@ -481,7 +481,7 @@
       "cover_caption": "",
       "status": "released",
       "description": "이상한 환상향 -Lotus Labyrinth R- PC / Nintendo Switch 비공식 한국어 패치 프로젝트",
-      "pushed_at": "2026-10-05T05:11:54Z",
+      "pushed_at": "2026-10-05T06:26:42Z",
       "stars": 0,
       "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch",
       "has_pages": true,
@@ -515,8 +515,8 @@
       "walkthroughs": [],
       "activity_at": "2026-10-05T05:11:54Z",
       "activity_exclusion": {
-        "ignored_pushed_at": "2026-10-05T03:28:18Z",
-        "previous_activity_at": "2026-09-30T14:14:48Z"
+        "ignored_pushed_at": "2026-10-05T06:26:42Z",
+        "previous_activity_at": "2026-10-05T05:11:54Z"
       },
       "scope": {
         "title": {
@@ -603,7 +603,7 @@
       "cover_caption": "",
       "status": "released",
       "description": "Touhou Genso Wanderer Reloaded 한국어 패치 제작 및 공개 작업일지",
-      "pushed_at": "2026-10-05T05:10:01Z",
+      "pushed_at": "2026-10-05T06:26:43Z",
       "stars": 0,
       "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch",
       "has_pages": true,
@@ -647,8 +647,8 @@
       "walkthroughs": [],
       "activity_at": "2026-10-05T05:10:01Z",
       "activity_exclusion": {
-        "ignored_pushed_at": "2026-10-05T03:28:22Z",
-        "previous_activity_at": "2026-09-30T13:53:36Z"
+        "ignored_pushed_at": "2026-10-05T06:26:43Z",
+        "previous_activity_at": "2026-10-05T05:10:01Z"
       },
       "scope": {
         "title": {
@@ -742,7 +742,7 @@
       "cover_caption": "",
       "status": "wip",
       "description": "PlayStation 2용 미스터리 어드벤처 게임 『Guardian Angel』의 비공식 한국어화 프로젝트입니다. 사건으로 육체를 잃고 수호천사가 된 사립탐정 에릭이 딸 에스텔과 주변 인물들에게 영감을 주며, 시간과 공간을 넘나들어 사건의 진상을 추적하는 작품입니다. 게임 내 대사와 시스템 텍스트를 한국어로 번역하는 것을 목표로 합니다.",
-      "pushed_at": "2026-10-05T04:55:11Z",
+      "pushed_at": "2026-10-05T06:26:38Z",
       "stars": 0,
       "url": "https://github.com/Dollars-Archive/Guardian-Angel-Korean-Localization",
       "has_pages": false,
@@ -760,8 +760,8 @@
       "walkthroughs": [],
       "activity_at": "2026-10-05T04:55:11Z",
       "activity_exclusion": {
-        "ignored_pushed_at": "2026-10-05T03:28:05Z",
-        "previous_activity_at": "2026-10-01T01:07:50Z"
+        "ignored_pushed_at": "2026-10-05T06:26:38Z",
+        "previous_activity_at": "2026-10-05T04:55:11Z"
       },
       "scope": {
         "title": {
@@ -817,7 +817,7 @@
       "cover_caption": "",
       "status": "released",
       "description": "EVE ghost enemies 한국어 패치",
-      "pushed_at": "2026-10-05T03:51:25Z",
+      "pushed_at": "2026-10-05T06:26:41Z",
       "stars": 0,
       "url": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch",
       "has_pages": true,
@@ -851,8 +851,8 @@
       "walkthroughs": [],
       "activity_at": "2026-10-05T03:51:25Z",
       "activity_exclusion": {
-        "ignored_pushed_at": "2026-10-05T03:28:14Z",
-        "previous_activity_at": "2026-09-30T14:21:23Z"
+        "ignored_pushed_at": "2026-10-05T06:26:41Z",
+        "previous_activity_at": "2026-10-05T03:51:25Z"
       },
       "scope": {
         "title": {
@@ -941,7 +941,7 @@
       "cover_caption": "Switch eShop",
       "status": "released",
       "description": "EVE rebirth terror Korean Translation Patch",
-      "pushed_at": "2026-10-05T03:51:24Z",
+      "pushed_at": "2026-10-05T06:26:39Z",
       "stars": 0,
       "url": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch",
       "has_pages": true,
@@ -975,8 +975,8 @@
       "walkthroughs": [],
       "activity_at": "2026-10-05T03:51:24Z",
       "activity_exclusion": {
-        "ignored_pushed_at": "2026-10-05T03:28:10Z",
-        "previous_activity_at": "2026-09-30T14:22:09Z"
+        "ignored_pushed_at": "2026-10-05T06:26:39Z",
+        "previous_activity_at": "2026-10-05T03:51:24Z"
       },
       "scope": {
         "title": {
