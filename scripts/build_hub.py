@@ -296,6 +296,9 @@ def collect(client, metadata: dict, now: datetime, check_guide=guide_status) -> 
             activity = client.activity_date(repo) if hasattr(client, "activity_date") else repo["pushed_at"]
             published = (patch["latest_release"] or {}).get("published_at")
             patch["activity_at"] = max((value for value in (activity, published) if value), key=iso_time)
+            exclusion = getattr(client, 'activity_exclusions', {}).get(name)
+            if exclusion:
+                patch['activity_exclusion'] = {key: exclusion[key] for key in ('ignored_pushed_at', 'previous_activity_at')}
             tags = client.tags(name)
             release_keys = {version_key(r.get("tag_name")) for r in releases if not r.get("draft") and day(r.get("published_at"))}
             commit_dates = {}

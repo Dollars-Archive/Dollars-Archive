@@ -8,6 +8,28 @@ const response=(releases,link='')=>({ok:true,json:async()=>releases,headers:{get
 const storage=()=>{const data=new Map();return {getItem:k=>data.get(k)||null,setItem:(k,v)=>data.set(k,v)}};
 const patch=(repo='game')=>({repo,downloads:10,assets:[asset()],download_ledger:{[`${repo}/v1.0/patch.zip`]:{asset_id:1,last_count:10,carried:0,removed:false}}});
 
+test('README pushes refresh recent activity immediately on reload, including same-day changes',async()=>{
+  const p={...patch(),activity_at:'2026-10-05T01:00:00Z',latest_release:{published_at:'2026-10-04T00:00:00Z'}};
+  const cache=storage();let calls=0;const modes=[];
+  const fetcher=async(url,options)=>{calls++;modes.push(options.cache);return response([{name:'game',pushed_at:calls===1?'2026-10-05T02:00:00Z':'2026-10-05T03:00:00Z'}])};
+  await live.refreshActivity([p],{fetcher,storage:cache,now:1000});
+  assert.equal(p.activity_at,'2026-10-05T02:00:00Z');
+  await live.refreshActivity([p],{fetcher,storage:cache,now:2000});assert.equal(calls,1);
+  await live.refreshActivity([p],{fetcher,storage:cache,now:3000,force:true});
+  assert.equal(p.activity_at,'2026-10-05T03:00:00Z');assert.equal(modes[1],'no-store');
+});
+
+test('activity excludes recorded maintenance and preserves newer releases and failure fallback',async()=>{
+  const p={...patch(),activity_at:'2026-10-01T00:00:00Z',activity_exclusion:{ignored_pushed_at:'2026-10-05T00:00:00Z',previous_activity_at:'2026-10-01T00:00:00Z'}};
+  await live.refreshActivity([p],{fetcher:async()=>response([{name:'game',pushed_at:'2026-10-05T00:00:00Z'}])});
+  assert.equal(p.activity_at,'2026-10-01T00:00:00Z');
+  p.latest_release={published_at:'2026-10-06T00:00:00Z'};
+  await live.refreshActivity([p],{fetcher:async()=>response([{name:'game',pushed_at:'2026-10-05T01:00:00Z'}])});
+  assert.equal(p.activity_at,p.latest_release.published_at);
+  const old=JSON.stringify(p);
+  assert.deepEqual(await live.refreshActivity([p],{fetcher:async()=>({ok:false})}),[]);assert.equal(JSON.stringify(p),old);
+});
+
 test('new release refresh updates version, activity, files, history and video together',async()=>{
   const p={...patch(),status:'released',activity_at:'2026-10-04T00:00:00Z',scope:{video:{state:'none',since:null}},changelog:[{v:'1.0',added:['title']}]};
   const r={...release('v1.1',3,2),name:'patch v1.1',html_url:'https://github.com/Dollars-Archive/game/releases/tag/v1.1',published_at:'2026-10-05T04:17:00Z',body:'## v1.1 패치 내용\n- 오프닝 & 게임 내 영상 & 엔딩 자막 추가\n## v1.0 주요 반영 내용\n- 이미지 번역 추가'};

@@ -317,8 +317,9 @@ async function refreshDownloads(){
   try{
     let storage=null;try{storage=sessionStorage}catch(e){}
     const force=globalThis.performance?.getEntriesByType?.("navigation")?.[0]?.type==="reload"||globalThis.performance?.navigation?.type===1;
-    const results=await PatchDownloads.refresh(DATA,{storage,minAt:DOWNLOAD_SNAPSHOT_AT,force});
-    if(!results.length)return;
+    const options={storage,minAt:DOWNLOAD_SNAPSHOT_AT,force};
+    const [results,activity]=await Promise.all([PatchDownloads.refresh(DATA,options),PatchDownloads.refreshActivity?PatchDownloads.refreshActivity(DATA,options):Promise.resolve([])]);
+    if(!results.length){if(activity.length)render();return;}
     document.getElementById("s-dl").textContent=fmt(DATA.reduce((sum,p)=>sum+p.downloads,0));
     render();
     const at=new Date(Math.min(...results.map(r=>r.at))).toLocaleTimeString("ko-KR",{timeZone:"Asia/Seoul",hour:"2-digit",minute:"2-digit",hour12:false});

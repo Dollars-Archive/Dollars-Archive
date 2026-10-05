@@ -84,6 +84,40 @@ function releaseAdditions(release){
   const labels={title:/타이틀(?: 한글화)?/,ui:/메뉴[·/ ]*UI/i,dialogue:/대사(?: 전체)?\s*(?:추가|한글화|한국어화|완료)/,image:/이미지(?: 번역)?/,video:/(?:동영상|영상|오프닝|엔딩).*자막/};
   return Object.entries(labels).filter(([key,re])=>lines.some(l=>re.test(l))).map(([key])=>key);
 }
-root.PatchDownloads={fetchAssets,ledgerTotal,refresh,releaseAdditions,TTL};
+async function refreshActivity(patches,{fetcher=root.fetch,storage=null,now=Date.now(),minAt=0,force=false}={}){
+  try{
+    const key='da-activity:v1',path='/users/Dollars-Archive/repos';
+    let cached=null;try{cached=JSON.parse(storage?.getItem(key)||'null')}catch(e){}
+    let repos;
+    if(!force&&cached&&Array.isArray(cached.repos)&&cached.at>=minAt&&now-cached.at>=0&&now-cached.at<TTL)repos=cached.repos;
+    else{
+      repos=[];let url=`https://api.github.com${path}?per_page=100&type=owner`;const seen=new Set();
+      while(url){
+        const parsed=new URL(url);
+        if(parsed.origin!=='https://api.github.com'||parsed.pathname!==path||seen.has(url)||seen.size>=20)throw new Error('Invalid pagination');
+        seen.add(url);
+        const response=await fetcher(url,{headers:{Accept:'application/vnd.github+json'},credentials:'omit',cache:force?'no-store':'default',signal:AbortSignal.timeout(15000)});
+        if(!response.ok)throw new Error('GitHub unavailable');
+        const page=await response.json();
+        if(!Array.isArray(page)||page.some(r=>typeof r.name!=='string'||!Number.isFinite(Date.parse(r.pushed_at))))throw new Error('Invalid repository activity');
+        repos.push(...page.map(r=>({name:r.name,pushed_at:r.pushed_at})));
+        url=(response.headers.get('Link')||'').match(/<([^>]+)>;\s*rel="next"/)?.[1]||'';
+      }
+      try{storage?.setItem(key,JSON.stringify({at:now,repos}))}catch(e){}
+    }
+    const results=[];
+    for(const patch of patches){
+      const repo=repos.find(r=>r.name===patch.repo);if(!repo)continue;
+      const exclusion=patch.activity_exclusion;
+      const activity=exclusion?.ignored_pushed_at===repo.pushed_at?exclusion.previous_activity_at:repo.pushed_at;
+      const dates=[patch.activity_at,activity,patch.latest_release?.published_at].filter(v=>Number.isFinite(Date.parse(v)));
+      patch.pushed_at=repo.pushed_at;
+      patch.activity_at=dates.sort((a,b)=>Date.parse(b)-Date.parse(a))[0];
+      results.push({repo:patch.repo,at:now});
+    }
+    return results;
+  }catch(e){return []} // Preserve the catalogue when activity lookup is unavailable.
+}
+root.PatchDownloads={fetchAssets,ledgerTotal,refresh,refreshActivity,releaseAdditions,TTL};
 if(typeof module!=="undefined"&&module.exports)module.exports=root.PatchDownloads;
 })(globalThis);
