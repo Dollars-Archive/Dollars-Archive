@@ -1,12 +1,186 @@
 {
-  "generated_at": "2026-10-05T07:12:04Z",
+  "generated_at": "2026-10-05T08:52:34Z",
   "summary": {
     "total": 8,
     "released": 7,
     "wip": 1,
-    "downloads": 1492
+    "downloads": 1568
   },
   "patches": [
+    {
+      "repo": "tears-to-tiara-2-kr-patch",
+      "title": "티어즈 투 티아라 2",
+      "original": "ティアーズ・トゥ・ティアラⅡ 覇王の末裔",
+      "series": "기타",
+      "platforms": [
+        "PS3"
+      ],
+      "genre": "RPG",
+      "genre_full": "RPG",
+      "developer": "AQUAPLUS",
+      "publisher": "",
+      "playtime": "77–80시간",
+      "edition": "일본판 일반판",
+      "release_jp": "2013-10-31",
+      "product_id": "BLJM61076",
+      "base_update": "공식 Ver.1.02",
+      "note": "",
+      "cover_caption": "",
+      "status": "released",
+      "description": "PS3용 『Tears to Tiara II』 비공식 한국어 패치",
+      "pushed_at": "2026-10-05T08:27:44Z",
+      "stars": 1,
+      "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch",
+      "has_pages": false,
+      "topics": [
+        "korean-translation",
+        "kr-patch",
+        "ps3"
+      ],
+      "guide_url": "",
+      "guide_status": null,
+      "latest_release": {
+        "tag": "v1.1",
+        "name": "티어즈 투 티아라 2 한국어 패치 v1.1",
+        "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/tag/v1.1",
+        "published_at": "2026-10-05T04:17:16Z",
+        "asset_count": 1
+      },
+      "downloads": 358,
+      "assets": [
+        {
+          "name": "TTT2_KR_Patcher_v1.1.zip",
+          "tag": "v1.1",
+          "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/download/v1.1/TTT2_KR_Patcher_v1.1.zip",
+          "downloads": 35,
+          "asset_id": 611515859,
+          "created_at": "2026-10-05T04:44:48Z",
+          "release_published_at": "2026-10-05T04:17:16Z"
+        },
+        {
+          "name": "TTT2_KR_Patcher_v1.0.zip",
+          "tag": "v1.0",
+          "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/download/v1.0/TTT2_KR_Patcher_v1.0.zip",
+          "downloads": 323,
+          "asset_id": 609346501,
+          "created_at": "2026-10-04T07:16:59Z",
+          "release_published_at": "2026-09-27T00:38:38Z"
+        }
+      ],
+      "tools": [],
+      "walkthroughs": [
+        {
+          "id": "tears-to-tiara-2-complete",
+          "patch_repo": "tears-to-tiara-2-kr-patch",
+          "game": "티어즈 투 티아라 2",
+          "platforms": [
+            "PS3"
+          ],
+          "title": "티어즈 투 티아라 2 한국어 완전 공략집",
+          "category": "완전 공략",
+          "format": "HTML",
+          "url": "https://dollars-archive.github.io/Game-Walkthrough-Archive/guides/tears-to-tiara-2-kr-patch/tears-to-tiara-2-complete.html",
+          "source_url": "https://github.com/Dollars-Archive/Game-Walkthrough-Archive/blob/main/guides/tears-to-tiara-2-kr-patch/tears-to-tiara-2-complete.html",
+          "cover": "https://dollars-archive.github.io/Dollars-Archive/covers/tears-to-tiara-2-kr-patch.webp?v=99ae968d8eac",
+          "cover_source": "https://gamesdb.launchbox-app.com/games/details/25025-tears-to-tiara-ii-heir-of-the-overlord",
+          "updated_at": "2026-10-05T17:25:37+09:00"
+        }
+      ],
+      "activity_at": "2026-10-05T08:27:44Z",
+      "activity_exclusion": {
+        "ignored_pushed_at": "2026-10-05T06:26:37Z",
+        "previous_activity_at": "2026-10-05T05:13:08Z"
+      },
+      "scope": {
+        "title": {
+          "state": "done",
+          "since": null
+        },
+        "ui": {
+          "state": "done",
+          "since": null
+        },
+        "dialogue": {
+          "state": "done",
+          "since": null
+        },
+        "image": {
+          "state": "done",
+          "status": "완료",
+          "since": null
+        },
+        "video": {
+          "state": "done",
+          "since": "1.1"
+        }
+      },
+      "changelog": [
+        {
+          "v": "1.1",
+          "added": [
+            "video"
+          ],
+          "partial": [],
+          "improved": [],
+          "fixed": [],
+          "note": "",
+          "date": "2026-10-05",
+          "date_source": "release",
+          "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/tag/v1.1"
+        },
+        {
+          "v": "1.0",
+          "added": [
+            "title",
+            "ui",
+            "dialogue",
+            "튜토리얼",
+            "챕터 타이틀"
+          ],
+          "partial": [
+            "image"
+          ],
+          "improved": [
+            "대사 줄바꿈"
+          ],
+          "fixed": [
+            "전투 스크립트 구조",
+            "전투 조건 표시",
+            "전투 결과 화면"
+          ],
+          "note": "",
+          "date": "2026-09-27",
+          "date_source": "release",
+          "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/tag/v1.0"
+        }
+      ],
+      "metadata_source": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/blob/main/README.md",
+      "downloads_current": 358,
+      "downloads_carried": 0,
+      "download_ledger": {
+        "tears-to-tiara-2-kr-patch/v1.0/TTT2_KR_Patcher_v1.0.zip": {
+          "repo": "tears-to-tiara-2-kr-patch",
+          "tag": "v1.0",
+          "name": "TTT2_KR_Patcher_v1.0.zip",
+          "asset_id": 609346501,
+          "last_count": 323,
+          "carried": 0,
+          "removed": false
+        },
+        "tears-to-tiara-2-kr-patch/v1.1/TTT2_KR_Patcher_v1.1.zip": {
+          "repo": "tears-to-tiara-2-kr-patch",
+          "tag": "v1.1",
+          "name": "TTT2_KR_Patcher_v1.1.zip",
+          "asset_id": 611515859,
+          "last_count": 35,
+          "carried": 0,
+          "removed": false
+        }
+      },
+      "cover": "covers/tears-to-tiara-2-kr-patch.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/25025-tears-to-tiara-ii-heir-of-the-overlord",
+      "cover_revision": "99ae968d8eac"
+    },
     {
       "repo": "eve-new-generation-kr-patch",
       "title": "이브 뉴 제네레이션",
@@ -46,13 +220,13 @@
         "published_at": "2026-10-05T04:17:21Z",
         "asset_count": 1
       },
-      "downloads": 478,
+      "downloads": 504,
       "assets": [
         {
           "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.1/EVE_New_Generation_Korean_Patch_v1.1.zip",
-          "downloads": 17,
+          "downloads": 43,
           "asset_id": 611547873,
           "created_at": "2026-10-05T04:59:55Z",
           "release_published_at": "2026-10-05T04:17:21Z"
@@ -130,7 +304,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/blob/main/README.md",
-      "downloads_current": 478,
+      "downloads_current": 504,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-new-generation-kr-patch/v1.0/EVE_NG_v1.0.zip": {
@@ -147,7 +321,7 @@
           "tag": "v1.1",
           "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
           "asset_id": 611547873,
-          "last_count": 17,
+          "last_count": 43,
           "carried": 0,
           "removed": false
         }
@@ -195,13 +369,13 @@
         "published_at": "2026-10-05T04:17:18Z",
         "asset_count": 1
       },
-      "downloads": 416,
+      "downloads": 447,
       "assets": [
         {
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/download/v1.1/EVE_ZERO_Korean_Patch_v1.1.zip",
-          "downloads": 27,
+          "downloads": 58,
           "asset_id": 611513419,
           "created_at": "2026-10-05T04:43:41Z",
           "release_published_at": "2026-10-05T04:17:18Z"
@@ -277,7 +451,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-zero-kr-patch/blob/main/README.md",
-      "downloads_current": 416,
+      "downloads_current": 447,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-zero-kr-patch/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip": {
@@ -294,7 +468,7 @@
           "tag": "v1.1",
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "asset_id": 611513419,
-          "last_count": 27,
+          "last_count": 58,
           "carried": 0,
           "removed": false
         }
@@ -302,163 +476,6 @@
       "cover": "covers/eve-zero-kr-patch.webp",
       "cover_source": "https://gamesdb.launchbox-app.com/games/details/124529-eve-zero-kanzenban-ark-of-the-matter",
       "cover_revision": "a63ff59b4983"
-    },
-    {
-      "repo": "tears-to-tiara-2-kr-patch",
-      "title": "티어즈 투 티아라 2",
-      "original": "ティアーズ・トゥ・ティアラⅡ 覇王の末裔",
-      "series": "기타",
-      "platforms": [
-        "PS3"
-      ],
-      "genre": "RPG",
-      "genre_full": "RPG",
-      "developer": "AQUAPLUS",
-      "publisher": "",
-      "playtime": "77–80시간",
-      "edition": "일본판 일반판",
-      "release_jp": "2013-10-31",
-      "product_id": "BLJM61076",
-      "base_update": "공식 Ver.1.02",
-      "note": "",
-      "cover_caption": "",
-      "status": "released",
-      "description": "PS3용 『Tears to Tiara II』 비공식 한국어 패치",
-      "pushed_at": "2026-10-05T06:26:37Z",
-      "stars": 1,
-      "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch",
-      "has_pages": false,
-      "topics": [
-        "korean-translation",
-        "kr-patch",
-        "ps3"
-      ],
-      "guide_url": "",
-      "guide_status": null,
-      "latest_release": {
-        "tag": "v1.1",
-        "name": "티어즈 투 티아라 2 한국어 패치 v1.1",
-        "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/tag/v1.1",
-        "published_at": "2026-10-05T04:17:16Z",
-        "asset_count": 1
-      },
-      "downloads": 341,
-      "assets": [
-        {
-          "name": "TTT2_KR_Patcher_v1.1.zip",
-          "tag": "v1.1",
-          "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/download/v1.1/TTT2_KR_Patcher_v1.1.zip",
-          "downloads": 18,
-          "asset_id": 611515859,
-          "created_at": "2026-10-05T04:44:48Z",
-          "release_published_at": "2026-10-05T04:17:16Z"
-        },
-        {
-          "name": "TTT2_KR_Patcher_v1.0.zip",
-          "tag": "v1.0",
-          "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/download/v1.0/TTT2_KR_Patcher_v1.0.zip",
-          "downloads": 323,
-          "asset_id": 609346501,
-          "created_at": "2026-10-04T07:16:59Z",
-          "release_published_at": "2026-09-27T00:38:38Z"
-        }
-      ],
-      "tools": [],
-      "walkthroughs": [],
-      "activity_at": "2026-10-05T05:13:08Z",
-      "activity_exclusion": {
-        "ignored_pushed_at": "2026-10-05T06:26:37Z",
-        "previous_activity_at": "2026-10-05T05:13:08Z"
-      },
-      "scope": {
-        "title": {
-          "state": "done",
-          "since": null
-        },
-        "ui": {
-          "state": "done",
-          "since": null
-        },
-        "dialogue": {
-          "state": "done",
-          "since": null
-        },
-        "image": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "video": {
-          "state": "done",
-          "since": "1.1"
-        }
-      },
-      "changelog": [
-        {
-          "v": "1.1",
-          "added": [
-            "video"
-          ],
-          "partial": [],
-          "improved": [],
-          "fixed": [],
-          "note": "",
-          "date": "2026-10-05",
-          "date_source": "release",
-          "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/tag/v1.1"
-        },
-        {
-          "v": "1.0",
-          "added": [
-            "title",
-            "ui",
-            "dialogue",
-            "튜토리얼",
-            "챕터 타이틀"
-          ],
-          "partial": [
-            "image"
-          ],
-          "improved": [
-            "대사 줄바꿈"
-          ],
-          "fixed": [
-            "전투 스크립트 구조",
-            "전투 조건 표시",
-            "전투 결과 화면"
-          ],
-          "note": "",
-          "date": "2026-09-27",
-          "date_source": "release",
-          "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/tag/v1.0"
-        }
-      ],
-      "metadata_source": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/blob/main/README.md",
-      "downloads_current": 341,
-      "downloads_carried": 0,
-      "download_ledger": {
-        "tears-to-tiara-2-kr-patch/v1.0/TTT2_KR_Patcher_v1.0.zip": {
-          "repo": "tears-to-tiara-2-kr-patch",
-          "tag": "v1.0",
-          "name": "TTT2_KR_Patcher_v1.0.zip",
-          "asset_id": 609346501,
-          "last_count": 323,
-          "carried": 0,
-          "removed": false
-        },
-        "tears-to-tiara-2-kr-patch/v1.1/TTT2_KR_Patcher_v1.1.zip": {
-          "repo": "tears-to-tiara-2-kr-patch",
-          "tag": "v1.1",
-          "name": "TTT2_KR_Patcher_v1.1.zip",
-          "asset_id": 611515859,
-          "last_count": 18,
-          "carried": 0,
-          "removed": false
-        }
-      },
-      "cover": "covers/tears-to-tiara-2-kr-patch.webp",
-      "cover_source": "https://gamesdb.launchbox-app.com/games/details/25025-tears-to-tiara-ii-heir-of-the-overlord",
-      "cover_revision": "99ae968d8eac"
     },
     {
       "repo": "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch",
@@ -835,13 +852,13 @@
         "published_at": "2026-09-11T08:15:29Z",
         "asset_count": 1
       },
-      "downloads": 60,
+      "downloads": 61,
       "assets": [
         {
           "name": "EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
           "tag": "v1.2.0",
           "url": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/releases/download/v1.2.0/EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
-          "downloads": 60,
+          "downloads": 61,
           "asset_id": 588172077,
           "created_at": "2026-09-25T10:59:39Z",
           "release_published_at": "2026-09-11T08:15:29Z"
@@ -903,7 +920,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/blob/main/README.md",
-      "downloads_current": 60,
+      "downloads_current": 61,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-ghost-enemies-kr-patch/v1.2.0/EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip": {
@@ -911,7 +928,7 @@
           "tag": "v1.2.0",
           "name": "EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
           "asset_id": 588172077,
-          "last_count": 60,
+          "last_count": 61,
           "carried": 0,
           "removed": false
         }
@@ -959,13 +976,13 @@
         "published_at": "2026-09-11T08:15:19Z",
         "asset_count": 1
       },
-      "downloads": 67,
+      "downloads": 68,
       "assets": [
         {
           "name": "EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
           "tag": "v1.4.0",
           "url": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/releases/download/v1.4.0/EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
-          "downloads": 67,
+          "downloads": 68,
           "asset_id": 588103948,
           "created_at": "2026-09-25T10:18:59Z",
           "release_published_at": "2026-09-11T08:15:19Z"
@@ -1051,7 +1068,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/blob/main/README.md",
-      "downloads_current": 67,
+      "downloads_current": 68,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-rebirth-terror-kr-patch/v1.4.0/EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip": {
@@ -1059,7 +1076,7 @@
           "tag": "v1.4.0",
           "name": "EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
           "asset_id": 588103948,
-          "last_count": 67,
+          "last_count": 68,
           "carried": 0,
           "removed": false
         }

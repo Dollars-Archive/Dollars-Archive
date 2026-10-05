@@ -1,4 +1,12 @@
 {
+  "tears-to-tiara-2-kr-patch": {
+    "input": "https://gamesdb.launchbox-app.com/games/details/25025-tears-to-tiara-ii-heir-of-the-overlord",
+    "source_page": "https://gamesdb.launchbox-app.com/games/details/25025-tears-to-tiara-ii-heir-of-the-overlord",
+    "source_image": "https://images.launchbox-app.com//1ce5ea26-b7ef-48e6-bda6-f347e0deefc6.jpg",
+    "image_type": "Box - Front",
+    "region": "North America",
+    "fetched_at": "2026-10-04T13:03:00Z"
+  },
   "eve-new-generation-kr-patch": {
     "input": "https://gamesdb.launchbox-app.com/games/details/130464-eve-new-generation",
     "source_page": "https://gamesdb.launchbox-app.com/games/details/130464-eve-new-generation",
@@ -13,14 +21,6 @@
     "source_image": "https://images.launchbox-app.com//f0f60d96-80fa-41fe-9024-2d4545554d65.jpg",
     "image_type": "Box - Front",
     "region": "Japan",
-    "fetched_at": "2026-10-04T13:03:00Z"
-  },
-  "tears-to-tiara-2-kr-patch": {
-    "input": "https://gamesdb.launchbox-app.com/games/details/25025-tears-to-tiara-ii-heir-of-the-overlord",
-    "source_page": "https://gamesdb.launchbox-app.com/games/details/25025-tears-to-tiara-ii-heir-of-the-overlord",
-    "source_image": "https://images.launchbox-app.com//1ce5ea26-b7ef-48e6-bda6-f347e0deefc6.jpg",
-    "image_type": "Box - Front",
-    "region": "North America",
     "fetched_at": "2026-10-04T13:03:00Z"
   },
   "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch": {
