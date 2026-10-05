@@ -94,7 +94,8 @@ test('scope chips show status without introduction versions',()=>{
   assert(!out.includes('scope-since'));
   assert(!out.includes('1.1'));
   assert(out.includes('동영상 자막 ✓'));
-  assert(out.includes('이미지 일부'));
+  assert(out.includes('이미지 ✓'));
+  assert(!out.includes('이미지 일부'));
 });
 test('README status tooltips distinguish unstarted, not applicable and unknown safely',()=>{
   const {context}=page(async()=>[]);

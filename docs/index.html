@@ -213,9 +213,9 @@ function factsMarkup(d){
 }
 function scopeMarkup(d){
   return `<div class="scope" aria-label="현재 한국어화 범위">${Object.entries(SCOPE_NAMES).map(([key,name])=>{
-    const item=d.scope?.[key]||{},status=["done","partial"].includes(item.state)?item.state:"none";
+    const item=d.scope?.[key]||{},status=key==="image"&&item.state==="partial"?"done":["done","partial"].includes(item.state)?item.state:"none";
     const label=status==="done"?"✓":status==="partial"?"일부":"—";
-    const title=item.status?`${name} — ${item.status}`:status==="none"?`${name} — 기록 없음`:`${name} ${label}`;
+    const title=key==="image"&&status==="done"?`${name} ✓`:item.status?`${name} — ${item.status}`:status==="none"?`${name} — 기록 없음`:`${name} ${label}`;
     return `<span class="scope-chip ${status}" title="${esc(title)}"><span>${name} ${label}</span></span>`;
   }).join("")}${walkthroughMarkup(d)}</div>`;
 }
