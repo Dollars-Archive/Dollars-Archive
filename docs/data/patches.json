@@ -1,12 +1,159 @@
 {
-  "generated_at": "2026-10-05T05:27:00Z",
+  "generated_at": "2026-10-05T05:34:15Z",
   "summary": {
     "total": 8,
     "released": 7,
     "wip": 1,
-    "downloads": 1431
+    "downloads": 1435
   },
   "patches": [
+    {
+      "repo": "eve-new-generation-kr-patch",
+      "title": "이브 뉴 제네레이션",
+      "original": "EVE new generation / イブ・ニュージェネレーション",
+      "series": "EVE",
+      "platforms": [
+        "PS2"
+      ],
+      "genre": "멀티사이트 ADV",
+      "genre_full": "멀티사이트 미스터리 ADV / 비주얼노벨",
+      "developer": "Kadokawa Shoten 계열 제작",
+      "publisher": "Kadokawa Shoten",
+      "playtime": "약 14.5시간",
+      "edition": "PlayStation 2 일본판",
+      "release_jp": "2006-08-31",
+      "product_id": "SLPM-66338",
+      "base_update": "Ver.1.01",
+      "note": "",
+      "cover_caption": "",
+      "status": "released",
+      "description": "EVE new generation (PlayStation 2) Korean Translation Patch / 한국어 패치",
+      "pushed_at": "2026-10-05T05:30:21Z",
+      "stars": 1,
+      "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch",
+      "has_pages": false,
+      "topics": [
+        "korean-translation",
+        "kr-patch",
+        "ps2"
+      ],
+      "guide_url": "",
+      "guide_status": null,
+      "latest_release": {
+        "tag": "v1.1",
+        "name": "EVE New Generation 한국어 패치 v1.1",
+        "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/tag/v1.1",
+        "published_at": "2026-10-05T04:17:21Z",
+        "asset_count": 1
+      },
+      "downloads": 463,
+      "assets": [
+        {
+          "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
+          "tag": "v1.1",
+          "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.1/EVE_New_Generation_Korean_Patch_v1.1.zip",
+          "downloads": 2,
+          "asset_id": 611547873,
+          "created_at": "2026-10-05T04:59:55Z",
+          "release_published_at": "2026-10-05T04:17:21Z"
+        },
+        {
+          "name": "EVE_NG_v1.0.zip",
+          "tag": "v1.0",
+          "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.0/EVE_NG_v1.0.zip",
+          "downloads": 461,
+          "asset_id": 609571381,
+          "created_at": "2026-10-04T09:55:30Z",
+          "release_published_at": "2026-10-04T09:23:46Z"
+        }
+      ],
+      "tools": [],
+      "activity_at": "2026-10-05T05:30:21Z",
+      "activity_exclusion": {
+        "ignored_pushed_at": "2026-10-05T03:27:57Z",
+        "previous_activity_at": "2026-10-04T10:53:38Z"
+      },
+      "scope": {
+        "title": {
+          "state": "done",
+          "since": null
+        },
+        "ui": {
+          "state": "done",
+          "since": null
+        },
+        "dialogue": {
+          "state": "done",
+          "since": null
+        },
+        "image": {
+          "state": "partial",
+          "since": null
+        },
+        "video": {
+          "state": "done",
+          "since": "1.1"
+        }
+      },
+      "changelog": [
+        {
+          "v": "1.1",
+          "added": [
+            "video"
+          ],
+          "partial": [],
+          "improved": [],
+          "fixed": [],
+          "note": "",
+          "date": "2026-10-05",
+          "date_source": "release",
+          "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/tag/v1.1"
+        },
+        {
+          "v": "1.0",
+          "added": [
+            "title",
+            "ui",
+            "dialogue"
+          ],
+          "partial": [
+            "image"
+          ],
+          "improved": [],
+          "fixed": [],
+          "note": "",
+          "date": "2026-10-04",
+          "date_source": "release",
+          "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/tag/v1.0"
+        }
+      ],
+      "metadata_source": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/blob/main/README.md",
+      "downloads_current": 463,
+      "downloads_carried": 0,
+      "download_ledger": {
+        "eve-new-generation-kr-patch/v1.0/EVE_NG_v1.0.zip": {
+          "repo": "eve-new-generation-kr-patch",
+          "tag": "v1.0",
+          "name": "EVE_NG_v1.0.zip",
+          "asset_id": 609571381,
+          "last_count": 461,
+          "carried": 0,
+          "removed": false
+        },
+        "eve-new-generation-kr-patch/v1.1/EVE_New_Generation_Korean_Patch_v1.1.zip": {
+          "repo": "eve-new-generation-kr-patch",
+          "tag": "v1.1",
+          "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
+          "asset_id": 611547873,
+          "last_count": 2,
+          "carried": 0,
+          "removed": false
+        }
+      },
+      "cover": "covers/eve-new-generation-kr-patch.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/130464-eve-new-generation",
+      "cover_revision": "c2999e87c5ff"
+    },
     {
       "repo": "eve-zero-kr-patch",
       "title": "EVE ZERO",
@@ -46,13 +193,13 @@
         "published_at": "2026-10-05T04:17:18Z",
         "asset_count": 1
       },
-      "downloads": 391,
+      "downloads": 395,
       "assets": [
         {
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/download/v1.1/EVE_ZERO_Korean_Patch_v1.1.zip",
-          "downloads": 2,
+          "downloads": 6,
           "asset_id": 611513419,
           "created_at": "2026-10-05T04:43:41Z",
           "release_published_at": "2026-10-05T04:17:18Z"
@@ -69,6 +216,10 @@
       ],
       "tools": [],
       "activity_at": "2026-10-05T05:14:53Z",
+      "activity_exclusion": {
+        "ignored_pushed_at": "2026-10-05T03:27:52Z",
+        "previous_activity_at": "2026-10-04T11:15:22Z"
+      },
       "scope": {
         "title": {
           "state": "done",
@@ -123,7 +274,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-zero-kr-patch/blob/main/README.md",
-      "downloads_current": 391,
+      "downloads_current": 395,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-zero-kr-patch/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip": {
@@ -140,7 +291,7 @@
           "tag": "v1.1",
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "asset_id": 611513419,
-          "last_count": 2,
+          "last_count": 6,
           "carried": 0,
           "removed": false
         }
@@ -211,6 +362,10 @@
       ],
       "tools": [],
       "activity_at": "2026-10-05T05:13:08Z",
+      "activity_exclusion": {
+        "ignored_pushed_at": "2026-10-05T03:28:01Z",
+        "previous_activity_at": "2026-10-04T05:31:04Z"
+      },
       "scope": {
         "title": {
           "state": "done",
@@ -353,6 +508,10 @@
       ],
       "tools": [],
       "activity_at": "2026-10-05T05:11:54Z",
+      "activity_exclusion": {
+        "ignored_pushed_at": "2026-10-05T03:28:18Z",
+        "previous_activity_at": "2026-09-30T14:14:48Z"
+      },
       "scope": {
         "title": {
           "state": "done",
@@ -479,6 +638,10 @@
       ],
       "tools": [],
       "activity_at": "2026-10-05T05:10:01Z",
+      "activity_exclusion": {
+        "ignored_pushed_at": "2026-10-05T03:28:22Z",
+        "previous_activity_at": "2026-09-30T13:53:36Z"
+      },
       "scope": {
         "title": {
           "state": "done",
@@ -550,149 +713,6 @@
       "cover_revision": "69db0bbc25e9"
     },
     {
-      "repo": "eve-new-generation-kr-patch",
-      "title": "이브 뉴 제네레이션",
-      "original": "EVE new generation / イブ・ニュージェネレーション",
-      "series": "EVE",
-      "platforms": [
-        "PS2"
-      ],
-      "genre": "멀티사이트 ADV",
-      "genre_full": "멀티사이트 미스터리 ADV / 비주얼노벨",
-      "developer": "Kadokawa Shoten 계열 제작",
-      "publisher": "Kadokawa Shoten",
-      "playtime": "약 14.5시간",
-      "edition": "PlayStation 2 일본판",
-      "release_jp": "2006-08-31",
-      "product_id": "SLPM-66338",
-      "base_update": "Ver.1.01",
-      "note": "",
-      "cover_caption": "",
-      "status": "released",
-      "description": "EVE new generation (PlayStation 2) Korean Translation Patch / 한국어 패치",
-      "pushed_at": "2026-10-05T05:05:02Z",
-      "stars": 1,
-      "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch",
-      "has_pages": false,
-      "topics": [
-        "korean-translation",
-        "kr-patch",
-        "ps2"
-      ],
-      "guide_url": "",
-      "guide_status": null,
-      "latest_release": {
-        "tag": "v1.1",
-        "name": "EVE New Generation 한국어 패치 v1.1",
-        "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/tag/v1.1",
-        "published_at": "2026-10-05T04:17:21Z",
-        "asset_count": 1
-      },
-      "downloads": 463,
-      "assets": [
-        {
-          "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
-          "tag": "v1.1",
-          "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.1/EVE_New_Generation_Korean_Patch_v1.1.zip",
-          "downloads": 2,
-          "asset_id": 611547873,
-          "created_at": "2026-10-05T04:59:55Z",
-          "release_published_at": "2026-10-05T04:17:21Z"
-        },
-        {
-          "name": "EVE_NG_v1.0.zip",
-          "tag": "v1.0",
-          "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.0/EVE_NG_v1.0.zip",
-          "downloads": 461,
-          "asset_id": 609571381,
-          "created_at": "2026-10-04T09:55:30Z",
-          "release_published_at": "2026-10-04T09:23:46Z"
-        }
-      ],
-      "tools": [],
-      "activity_at": "2026-10-05T05:05:02Z",
-      "scope": {
-        "title": {
-          "state": "done",
-          "since": null
-        },
-        "ui": {
-          "state": "done",
-          "since": null
-        },
-        "dialogue": {
-          "state": "done",
-          "since": null
-        },
-        "image": {
-          "state": "partial",
-          "since": null
-        },
-        "video": {
-          "state": "done",
-          "since": "1.1"
-        }
-      },
-      "changelog": [
-        {
-          "v": "1.1",
-          "added": [
-            "video"
-          ],
-          "partial": [],
-          "improved": [],
-          "fixed": [],
-          "note": "",
-          "date": "2026-10-05",
-          "date_source": "release",
-          "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/tag/v1.1"
-        },
-        {
-          "v": "1.0",
-          "added": [
-            "title",
-            "ui",
-            "dialogue"
-          ],
-          "partial": [
-            "image"
-          ],
-          "improved": [],
-          "fixed": [],
-          "note": "",
-          "date": "2026-10-04",
-          "date_source": "release",
-          "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/tag/v1.0"
-        }
-      ],
-      "metadata_source": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/blob/main/README.md",
-      "downloads_current": 463,
-      "downloads_carried": 0,
-      "download_ledger": {
-        "eve-new-generation-kr-patch/v1.0/EVE_NG_v1.0.zip": {
-          "repo": "eve-new-generation-kr-patch",
-          "tag": "v1.0",
-          "name": "EVE_NG_v1.0.zip",
-          "asset_id": 609571381,
-          "last_count": 461,
-          "carried": 0,
-          "removed": false
-        },
-        "eve-new-generation-kr-patch/v1.1/EVE_New_Generation_Korean_Patch_v1.1.zip": {
-          "repo": "eve-new-generation-kr-patch",
-          "tag": "v1.1",
-          "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
-          "asset_id": 611547873,
-          "last_count": 2,
-          "carried": 0,
-          "removed": false
-        }
-      },
-      "cover": "covers/eve-new-generation-kr-patch.webp",
-      "cover_source": "https://gamesdb.launchbox-app.com/games/details/130464-eve-new-generation",
-      "cover_revision": "c2999e87c5ff"
-    },
-    {
       "repo": "Guardian-Angel-Korean-Localization",
       "title": "가디언 엔젤",
       "original": "ガーディアンエンジェル / Guardian Angel",
@@ -729,6 +749,10 @@
       "assets": [],
       "tools": [],
       "activity_at": "2026-10-05T04:55:11Z",
+      "activity_exclusion": {
+        "ignored_pushed_at": "2026-10-05T03:28:05Z",
+        "previous_activity_at": "2026-10-01T01:07:50Z"
+      },
       "scope": {
         "title": {
           "state": "done",
@@ -815,6 +839,10 @@
       ],
       "tools": [],
       "activity_at": "2026-10-05T03:51:25Z",
+      "activity_exclusion": {
+        "ignored_pushed_at": "2026-10-05T03:28:14Z",
+        "previous_activity_at": "2026-09-30T14:21:23Z"
+      },
       "scope": {
         "title": {
           "state": "done",
@@ -934,6 +962,10 @@
       ],
       "tools": [],
       "activity_at": "2026-10-05T03:51:24Z",
+      "activity_exclusion": {
+        "ignored_pushed_at": "2026-10-05T03:28:10Z",
+        "previous_activity_at": "2026-09-30T14:22:09Z"
+      },
       "scope": {
         "title": {
           "state": "done",
