@@ -1,5 +1,21 @@
 # 한글패치 허브 관리
 
+## 신규 저장소의 공략집 안내 자동 연결
+
+새 공개 한글패치 저장소를 생성하는 담당 GPT·Codex는 사용자가 별도로 요청하지 않아도 다음을 첫 커밋에 포함합니다.
+
+1. README 공통 템플릿의 공략집 안내와 마커를 유지하고 `REPOSITORY_NAME`을 실제 저장소 이름으로 바꿉니다.
+2. 공통 아카이브의 `templates/ensure_guide_registration.py`를 새 저장소의 `.github/scripts/ensure_guide_registration.py`로 복사합니다.
+3. `templates/guide-registration.yml`을 `.github/workflows/guide-registration.yml`로 복사합니다.
+4. 저장소 루트에서 `python .github/scripts/ensure_guide_registration.py --repo Dollars-Archive/실제저장소이름`을 실행하고 커밋·푸시합니다.
+
+이 워크플로는 기본 브랜치 푸시와 수동 실행 때 동작하며 README에 연결이 이미 있으면 파일 변경이나 커밋을 만들지 않습니다. 안내가 빠졌을 때만 기존 내용·그림·설치 정보를 보존하면서 안내를 추가합니다. 자기 저장소의 기본 `GITHUB_TOKEN`을 사용하므로 별도 PAT가 필요 없습니다. 저장소의 Actions 실행 및 Contents 쓰기 권한이 허용되어 있어야 합니다.
+
+새 저장소 생성 완료 조건에는 안내 URL 존재, 실제 patch_repo 이름, 자동 연결 워크플로 설치와 성공 확인이 포함됩니다. 사용자가 나중에 지침을 다시 첨부하게 하지 않습니다. 기존 8개 저장소에는 연결이 이미 있으므로 워크플로를 소급 설치하지 않습니다.
+
+허브는 `kr-patch` 저장소를 수집할 때 안내 누락을 내부 `walkthrough-registration-missing` 경고로 감지합니다. 허브 기본 토큰은 다른 저장소를 수정할 수 없으므로 누락 복원은 새 패치 저장소 자체의 워크플로가 담당합니다. 이 경고는 공개 화면에 표시하지 않습니다.
+
+
 ## 새 패치 추가
 
 1. 새 공개 저장소에 `kr-patch` topic을 붙입니다.

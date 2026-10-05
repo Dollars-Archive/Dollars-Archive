@@ -301,6 +301,8 @@ def collect(client, metadata: dict, now: datetime, check_guide=guide_status) -> 
         if "kr-patch" in topics:
             meta = metadata.get(name, {})
             releases, readme = client.releases(name), client.readme(name)
+            if 'https://github.com/Dollars-Archive/Game-Walkthrough-Archive/blob/main/REGISTER-GUIDE.md' not in readme:
+                warnings.append({'repo': name, 'type': 'walkthrough-registration-missing', 'message': '공략집 등록 지침 연결이 없습니다. 신규 생성 절차의 안내 자동 연결 워크플로를 설치하세요.'})
             readme_meta, readme_scope, form_warnings = parse_readme(name, readme)
             meta = {**meta, **readme_meta}
             warnings.extend(form_warnings)
