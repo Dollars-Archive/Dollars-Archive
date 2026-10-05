@@ -166,6 +166,17 @@ class GitHubClient:
     def tags(self, repo: str) -> list[dict]:
         return self.paginate(f"/repos/{OWNER}/{repo}/tags?per_page=100")
 
+    def walkthroughs(self) -> list[dict]:
+        data, _ = self.get(f'/repos/{OWNER}/Game-Walkthrough-Archive/contents/docs/data/guides.json', allow_404=True)
+        if data is None:
+            return []
+        catalogue = json.loads(base64.b64decode(data['content']).decode('utf-8'))
+        guides = catalogue.get('guides')
+        if not isinstance(guides, list) or any(not isinstance(g, dict) or not isinstance(g.get('patch_repo'), str)
+                or not isinstance(g.get('title'), str) or not public_http_url(g.get('url', '')) for g in guides):
+            raise BuildError('공략집 목록 형식이 잘못되었습니다.')
+        return guides
+
     def activity_date(self, repo: dict) -> str:
         """Exclude only a recorded maintenance push; subsequent pushes still count."""
         record = self.activity_exclusions.get(repo["name"])
@@ -280,6 +291,7 @@ def build_patch(repo: dict, meta: dict, releases: list[dict], check_guide) -> di
 
 def collect(client, metadata: dict, now: datetime, check_guide=guide_status) -> dict:
     patches, related, warnings = [], [], []
+    walkthroughs = client.walkthroughs() if hasattr(client, 'walkthroughs') else []
     repos = sorted(client.repositories(), key=lambda r: r["name"].lower())
     for repo in repos:
         # Defense in depth for fixtures and alternate clients.
@@ -293,6 +305,7 @@ def collect(client, metadata: dict, now: datetime, check_guide=guide_status) -> 
             meta = {**meta, **readme_meta}
             warnings.extend(form_warnings)
             patch = build_patch(repo, meta, releases, check_guide)
+            patch['walkthroughs'] = [g for g in walkthroughs if g['patch_repo'] == name]
             activity = client.activity_date(repo) if hasattr(client, "activity_date") else repo["pushed_at"]
             published = (patch["latest_release"] or {}).get("published_at")
             patch["activity_at"] = max((value for value in (activity, published) if value), key=iso_time)
@@ -331,6 +344,9 @@ def collect(client, metadata: dict, now: datetime, check_guide=guide_status) -> 
             if not repo.get("description"):
                 warnings.append(warning(name, "no-description", "관련 저장소 description이 비어 있습니다."))
     # Tie-breaking makes ordering reproducible even when API order changes.
+    if any(repo['name'] == 'Game-Walkthrough-Archive' for repo in repos):
+        related.append({'repo': 'Game-Walkthrough-Archive', 'title': '직접 제작한 공략집 모음',
+            'url': 'https://dollars-archive.github.io/Game-Walkthrough-Archive/', 'desc': 'Dollars Archive가 직접 작성한 게임 공략집'})
     patches.sort(key=lambda p: p["repo"].lower())
     patches.sort(key=lambda p: p["activity_at"], reverse=True)
     warnings.sort(key=lambda w: (w["repo"].lower(), w["type"]))
@@ -396,6 +412,10 @@ def readme_section(data: dict) -> bytes:
             links.append(md_link("릴리스", p["url"] + "/releases"))
         if p["guide_url"]:
             links.append(md_link("설치 가이드", p["guide_url"]))
+        guides = p.get('walkthroughs', [])
+        if guides:
+            url = guides[0]['url'] if len(guides) == 1 else 'https://dollars-archive.github.io/Game-Walkthrough-Archive/?game=' + quote(p['repo'])
+            links.append(md_link('공략집', url))
         platform_kinds = {"Dreamcast": "dc", "PS2": "ps2", "PS3": "ps3", "PSP": "psp", "Vita": "vita", "PS Vita": "vita", "Switch": "switch", "PC": "pc"}
         platforms = " ".join(badge(platform_kinds[plat], plat) if plat in platform_kinds else md(plat) for plat in p["platforms"]) or "미입력"
         version = md_link(latest["tag"], latest["url"]) if latest else "—"

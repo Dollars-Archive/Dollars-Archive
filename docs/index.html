@@ -85,11 +85,12 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(28px,5vw,40px);l
 .facts dt{font-size:12px;color:var(--muted);letter-spacing:.03em}
 .facts dd{margin:2px 0 0;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .facts .number{font-variant-numeric:tabular-nums}
-.scope{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:5px;width:100%;max-width:36rem;margin:8px 0}
+.scope{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:5px;width:100%;max-width:36rem;margin:8px 0}
 .scope-chip{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:2px 4px;padding:5px 3px;border:1px solid transparent;border-radius:5px;font-size:11px;line-height:1.5;text-align:center;min-width:0;word-break:keep-all}
 .scope-chip.done{background:var(--ok-soft);color:var(--ok)}
 .scope-chip.partial{background:var(--wip-soft);color:var(--wip)}
 .scope-chip.none{border-color:var(--line);color:var(--muted);opacity:.55}
+.scope-chip.walkthrough:hover{text-decoration:none;border-color:var(--ok)}
 .history{font-size:12px;margin:2px 0 5px;min-width:0}
 .history-latest{display:grid;grid-template-columns:4.5rem 3rem minmax(0,1fr);column-gap:8px;align-items:baseline}
 .history-latest>span:last-child{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -148,6 +149,7 @@ footer{font-size:12px;color:var(--muted)}
     <div>
       <div class="eyebrow">github.com/Dollars-Archive</div>
       <h1>Dollars Archive 한글패치</h1>
+      <div class="links"><a href="https://dollars-archive.github.io/Game-Walkthrough-Archive/">공략집 모음</a></div>
     </div>
     <div class="snap" id="snap">목록을 불러오는 중…</div>
   </header>
@@ -215,7 +217,17 @@ function scopeMarkup(d){
     const label=status==="done"?"✓":status==="partial"?"일부":"—";
     const title=item.status?`${name} — ${item.status}`:status==="none"?`${name} — 기록 없음`:`${name} ${label}`;
     return `<span class="scope-chip ${status}" title="${esc(title)}"><span>${name} ${label}</span></span>`;
-  }).join("")}</div>`;
+  }).join("")}${walkthroughMarkup(d)}</div>`;
+}
+const WALKTHROUGH_HOME="https://dollars-archive.github.io/Game-Walkthrough-Archive/";
+function walkthroughMarkup(d){
+  const guides=(d.walkthroughs||[]).filter(g=>safeUrl(g.url));
+  const url=guides.length===1?guides[0].url:WALKTHROUGH_HOME+"?game="+encodeURIComponent(d.repo);
+  return guides.length?`<a class="scope-chip done walkthrough" href="${esc(url)}" target="_blank" rel="noopener" title="직접 제작한 공략집 열기">공략집 ✓</a>`:'<span class="scope-chip none walkthrough">공략집 —</span>';
+}
+function releaseAssetsMarkup(d){
+  const assets=d.assets.filter(a=>a.tag===d.latest_release?.tag);
+  return assets.length?`<div class="assets small">${assets.map(a=>`<span>${link(a.name,a.url)} · ${fmt(a.downloads)}회 <span>(${esc(a.tag)})</span></span>`).join("")}</div>`:`<span class="small">${d.latest_release?"첨부파일 준비 중":"—"}</span>`;
 }
 function historyGroups(entry){
   return Object.entries(HISTORY_NAMES).flatMap(([key,label])=>Array.isArray(entry[key])&&entry[key].length?[{key,label,text:entry[key].map(value=>SCOPE_NAMES[value]||value).join(" · ")+(key==="added"&&entry.note?` (${entry.note})`:"")}]:[]);
@@ -275,7 +287,7 @@ function render(){
       <span class="small">최근 작업 ${date(d.activity_at||d.pushed_at)}</span>
     </div>
     <div class="dl"><b>${fmt(d.downloads)}</b><span class="small">다운로드</span>
-      ${d.assets.length?`<div class="assets small">${d.assets.map(a=>`<span>${link(a.name,a.url)} · ${fmt(a.downloads)}회 <span>(${esc(a.tag)})</span></span>`).join("")}</div>`:`<span class="small">${d.latest_release&&d.latest_release.asset_count===0?"첨부파일 없음":"—"}</span>`}
+      ${releaseAssetsMarkup(d)}
       <div class="bar" aria-hidden="true"><i style="width:${Math.min(100,d.downloads/maxDl*100).toFixed(0)}%"></i></div>
     </div>
   </article>`).join("");
@@ -306,12 +318,23 @@ async function load(){
     if(!response.ok)throw new Error(`HTTP ${response.status}`);
     applyData(await response.json());
     void refreshDownloads();
+    void refreshWalkthroughs();
   }catch(e){
     document.getElementById("snap").textContent="목록을 불러오지 못했습니다.";
     document.getElementById("list").innerHTML=`<div class="empty">한글패치 목록을 불러오지 못했습니다. 잠시 후 새로고침하거나 ${link("GitHub 프로필",GH)}에서 확인해 주세요.</div>`;
     document.querySelectorAll(".stats,.controls,#related").forEach(el=>el.hidden=true);
     document.getElementById("related").parentElement.hidden=true;
   }
+}
+async function refreshWalkthroughs(){
+  try{
+    const response=await fetch(WALKTHROUGH_HOME+'data/guides.json',{cache:'no-store',credentials:'omit'});
+    if(!response.ok)return;
+    const data=await response.json();
+    if(!Array.isArray(data.guides)||data.guides.some(g=>typeof g.patch_repo!=='string'||typeof g.title!=='string'||!safeUrl(g.url)))return;
+    for(const p of DATA)p.walkthroughs=data.guides.filter(g=>g.patch_repo===p.repo);
+    render();
+  }catch(e){/* Keep the last successfully collected guide links. */}
 }
 async function refreshDownloads(){
   try{

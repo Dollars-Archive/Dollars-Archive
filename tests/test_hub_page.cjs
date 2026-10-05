@@ -15,7 +15,7 @@ test('collected page renders all covers and filters before API replies',()=>{
   const {context,node,data}=page(async()=>[]);
   assert.equal((node('list').innerHTML.match(/class="row"/g)||[]).length,data.patches.length);
   assert.equal((node('list').innerHTML.match(/loading="lazy"/g)||[]).length,data.patches.filter(p=>p.cover).length);
-  assert.equal((node('list').innerHTML.match(/class="scope-chip /g)||[]).length,data.patches.length*5);
+  assert.equal((node('list').innerHTML.match(/class="scope-chip /g)||[]).length,data.patches.length*6);
   assert.equal((node('list').innerHTML.match(/class="facts"/g)||[]).length,data.patches.length);
   assert(!node('list').innerHTML.includes('patch-summary'));
   assert(!node('list').innerHTML.includes('<span class="small">EVE</span>'));
@@ -28,6 +28,30 @@ test('collected page renders all covers and filters before API replies',()=>{
 test('release buttons resolve latest even before catalogue refresh',()=>{
   const {node,data}=page(async()=>[]);
   for(const p of data.patches.filter(p=>p.latest_release))assert(node('list').innerHTML.includes(`href="${p.url}/releases/latest"`));
+});
+test('asset links show only the newest stable release and preserve accumulated downloads',()=>{
+  const {context}=page(async()=>[]);
+  const out=vm.runInContext('releaseAssetsMarkup({latest_release:{tag:"v1.1"},downloads:300,assets:[{tag:"v1.0",name:"OLD.zip",url:"https://github.com/old",downloads:298},{tag:"v1.1",name:"NEW.zip",url:"https://github.com/new",downloads:2}]})',context);
+  assert(out.includes('NEW.zip'));assert(!out.includes('OLD.zip'));
+  const pending=vm.runInContext('releaseAssetsMarkup({latest_release:{tag:"v1.2"},assets:[{tag:"v1.1",name:"OLD.zip",url:"https://github.com/old",downloads:300}]})',context);
+  assert(pending.includes('첨부파일 준비 중'));assert(!pending.includes('OLD.zip'));
+});
+test('guide chip is blank without a guide, direct for one guide and a game list for many',()=>{
+  const {context}=page(async()=>[]);
+  assert(vm.runInContext('walkthroughMarkup({repo:"game"})',context).includes('공략집 —'));
+  const single=vm.runInContext('walkthroughMarkup({repo:"game",walkthroughs:[{url:"https://dollars-archive.github.io/Game-Walkthrough-Archive/guides/a.html"}]})',context);
+  assert(single.includes('공략집 ✓'));assert(single.includes('/guides/a.html'));
+  const many=vm.runInContext('walkthroughMarkup({repo:"game",walkthroughs:[{url:"https://example.com/a"},{url:"https://example.com/b"}]})',context);
+  assert(many.includes('?game=game'));
+});
+test('new walkthrough catalogue updates the matching game chip on refresh',async()=>{
+  const {context,node,data}=page(async()=>[]);
+  const repo=data.patches[0].repo;
+  context.fetch=async()=>({ok:true,json:async()=>({guides:[{patch_repo:repo,title:'공략',url:'https://dollars-archive.github.io/Game-Walkthrough-Archive/guides/a.html'}]})});
+  await vm.runInContext('refreshWalkthroughs()',context);
+  assert(node('list').innerHTML.includes('/guides/a.html'));
+  assert.equal(data.patches[0].walkthroughs.length,1);
+  assert.equal(data.patches[1].walkthroughs.length,0);
 });
 test('four facts and edition details keep empty values and full tooltips',()=>{
   const {context,node}=page(async()=>[]);
@@ -53,7 +77,7 @@ test('one version has no history toggle, no versions shows pre-release',()=>{
   const {context,node}=page(async()=>[]);
   assert.equal(vm.runInContext('historyMarkup({changelog:[{v:"1.0",added:["ui"]}]})',context).includes('<details'),false);
   assert(vm.runInContext('historyMarkup({changelog:[]})',context).includes('배포 전'));
-  assert(vm.runInContext('scopeMarkup({})',context).match(/scope-chip none/g).length===5);
+  assert(vm.runInContext('scopeMarkup({})',context).match(/scope-chip none/g).length===6);
 });
 test('multiple versions preview one category and expand all aligned rows',()=>{
   const {context}=page(async()=>[]);
