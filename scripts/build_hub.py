@@ -25,10 +25,12 @@ if __package__:
     from .covers import plan_covers
     from .downloads import plan_downloads
     from .history import day, normalize_history, version_key
+    from .readme_metadata import parse_readme, merge_scope
 else:
     from covers import plan_covers
     from downloads import plan_downloads
     from history import day, normalize_history, version_key
+    from readme_metadata import parse_readme, merge_scope
 
 OWNER = "Dollars-Archive"
 API = "https://api.github.com"
@@ -213,7 +215,7 @@ def patch_warnings(patch: dict, readme: str, has_metadata: bool, now: datetime) 
     if sum(not patch.get(key, "").strip() for key in ("developer", "genre", "playtime")) >= 2:
         result.append(warning(repo, "missing-facts", "개발사·장르·플레이타임 중 2개 이상이 비어 있습니다."))
     if latest and not patch.get("changelog"):
-        result.append(warning(repo, "missing-scope", "버전 기록이 없어 한국어화 범위를 계산할 수 없습니다."))
+        result.append(warning(repo, "missing-scope", "릴리스의 버전별 변경 이력이 비어 있습니다."))
     return result
 
 
@@ -275,6 +277,9 @@ def collect(client, metadata: dict, now: datetime, check_guide=guide_status) -> 
         if "kr-patch" in topics:
             meta = metadata.get(name, {})
             releases, readme = client.releases(name), client.readme(name)
+            readme_meta, readme_scope, form_warnings = parse_readme(name, readme)
+            meta = {**meta, **readme_meta}
+            warnings.extend(form_warnings)
             patch = build_patch(repo, meta, releases, check_guide)
             tags = client.tags(name)
             release_keys = {version_key(r.get("tag_name")) for r in releases if not r.get("draft") and day(r.get("published_at"))}
@@ -289,8 +294,11 @@ def collect(client, metadata: dict, now: datetime, check_guide=guide_status) -> 
                 name, records, releases, tags, commit_dates,
                 (patch["latest_release"] or {}).get("tag"))
             warnings.extend(history_warnings)
+            patch["scope"] = merge_scope(patch["scope"], readme_scope)
+            if readme_meta or readme_scope:
+                patch["metadata_source"] = f"{repo['html_url']}/blob/{repo.get('default_branch') or 'main'}/README.md"
             patches.append(patch)
-            warnings.extend(patch_warnings(patch, readme, name in metadata, now))
+            warnings.extend(patch_warnings(patch, readme, name in metadata or bool(readme_meta), now))
         elif name.lower().endswith("-kr-patch") or "korean-localization" in name.lower():
             warnings.append(warning(name, "missing-topic", "패치 저장소로 보이지만 kr-patch topic이 없어 목록에서 제외했습니다."))
         if "kr-localization-archive" in topics and "kr-patch" not in topics:

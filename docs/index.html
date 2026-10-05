@@ -215,7 +215,7 @@ function scopeMarkup(d){
     const item=d.scope?.[key]||{},status=["done","partial"].includes(item.state)?item.state:"none";
     const label=status==="done"?"✓":status==="partial"?"일부":"—";
     const since=status==="done"&&item.since?item.since:"";
-    const title=since?`${name} — v${since}에서 추가`:status==="none"?`${name} — 기록 없음`:`${name} ${label}`;
+    const title=since?`${name} — v${since}에서 추가`:item.status?`${name} — ${item.status}`:status==="none"?`${name} — 기록 없음`:`${name} ${label}`;
     return `<span class="scope-chip ${status}" title="${esc(title)}"><span>${name} ${label}</span>${since?`<span class="scope-since">${esc(since)}</span>`:""}</span>`;
   }).join("")}</div>`;
 }

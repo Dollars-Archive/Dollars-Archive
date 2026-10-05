@@ -67,6 +67,14 @@ test('later introduction has a suffix, baseline and partial chips do not',()=>{
   assert(out.includes('v1.1에서 추가'));
   assert(out.includes('이미지 일부'));
 });
+test('README status tooltips distinguish unstarted, not applicable and unknown safely',()=>{
+  const {context}=page(async()=>[]);
+  const out=vm.runInContext('scopeMarkup({scope:{title:{state:"none",status:"미작업"},image:{state:"none",status:"해당 없음"},video:{state:"none",status:"확인 필요<script>"}}})',context);
+  assert(out.includes('타이틀 — 미작업'));
+  assert(out.includes('이미지 — 해당 없음'));
+  assert(out.includes('확인 필요&lt;script&gt;'));
+  assert(!out.includes('<script>'));
+});
 test('download rerender preserves an expanded history for the same game',()=>{
   const {context,node,data}=page(async()=>[]);
   const repo=data.patches[0].repo;

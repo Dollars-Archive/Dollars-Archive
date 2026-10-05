@@ -1,4 +1,6 @@
-# 게임 정보와 버전별 변경 내역을 관리합니다. 다운로드·배포일·최근 작업일은 GitHub에서 수집합니다.
+# 현재 게임 정보·한글화 범위는 각 저장소의 공통 README 양식에서 우선 읽습니다.
+# 이 파일에는 기존 정보의 호환용 값, 표지 출처, 버전별 변경 내역을 유지합니다.
+# 다운로드·배포일·최근 작업일은 GitHub에서 수집합니다.
 # 날짜와 제품번호는 문자열로 유지합니다. 플랫폼·시리즈는 자유롭게 추가할 수 있습니다.
 eve-zero-kr-patch:
   developer: C's Ware
@@ -233,4 +235,3 @@ touhou-genso-wanderer-reloaded-kr-patch:
   base_update: "PC 패처 지원 원본 / Switch Ver.1.0.3"
   guide_url: https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/
   status: auto
-
