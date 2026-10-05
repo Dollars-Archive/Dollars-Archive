@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T03:45:17Z",
+  "generated_at": "2026-10-05T03:51:36Z",
   "summary": {
     "total": 8,
     "released": 7,
@@ -7,6 +7,268 @@
     "downloads": 1389
   },
   "patches": [
+    {
+      "repo": "eve-ghost-enemies-kr-patch",
+      "title": "EVE ghost enemies",
+      "original": "EVE ghost enemies",
+      "series": "EVE",
+      "platforms": [
+        "Switch"
+      ],
+      "genre": "커맨드 선택식 ADV",
+      "genre_full": "커맨드 선택식 어드벤처",
+      "developer": "El Dia",
+      "publisher": "",
+      "playtime": "약 28.5시간",
+      "edition": "Nintendo Switch 일본판",
+      "release_jp": "2022-06-30",
+      "product_id": "01007BE0160D6000",
+      "base_update": "공식 Ver.1.02 (RomForge 표시 1.01)",
+      "note": "",
+      "cover_caption": "",
+      "status": "released",
+      "description": "EVE ghost enemies 한국어 패치",
+      "pushed_at": "2026-10-05T03:51:25Z",
+      "stars": 0,
+      "url": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch",
+      "has_pages": true,
+      "topics": [
+        "korean-translation",
+        "kr-patch",
+        "nintendo-switch"
+      ],
+      "guide_url": "https://dollars-archive.github.io/eve-ghost-enemies-kr-patch/",
+      "guide_status": 200,
+      "latest_release": {
+        "tag": "v1.2.0",
+        "name": "EVE ghost enemies 한국어 패치 v1.2.0",
+        "url": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/releases/tag/v1.2.0",
+        "published_at": "2026-09-11T08:15:29Z",
+        "asset_count": 1
+      },
+      "downloads": 59,
+      "assets": [
+        {
+          "name": "EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
+          "tag": "v1.2.0",
+          "url": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/releases/download/v1.2.0/EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
+          "downloads": 59,
+          "asset_id": 588172077,
+          "created_at": "2026-09-25T10:59:39Z",
+          "release_published_at": "2026-09-11T08:15:29Z"
+        }
+      ],
+      "tools": [],
+      "activity_at": "2026-10-05T03:51:25Z",
+      "scope": {
+        "title": {
+          "state": "done",
+          "status": "완료",
+          "since": null
+        },
+        "ui": {
+          "state": "done",
+          "status": "완료",
+          "since": null
+        },
+        "dialogue": {
+          "state": "done",
+          "status": "완료",
+          "since": null
+        },
+        "image": {
+          "state": "done",
+          "status": "완료",
+          "since": null
+        },
+        "video": {
+          "state": "done",
+          "status": "완료",
+          "since": null
+        }
+      },
+      "changelog": [
+        {
+          "v": "1.2.0",
+          "added": [
+            "title",
+            "ui",
+            "dialogue",
+            "저장·삭제·복사 문구"
+          ],
+          "partial": [],
+          "improved": [],
+          "fixed": [
+            "세이브 목록 멈춤",
+            "저장·불러오기 오류"
+          ],
+          "note": "",
+          "date": "2026-09-11",
+          "date_source": "release",
+          "url": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/releases/tag/v1.2.0"
+        }
+      ],
+      "metadata_source": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/blob/main/README.md",
+      "downloads_current": 59,
+      "downloads_carried": 0,
+      "download_ledger": {
+        "eve-ghost-enemies-kr-patch/v1.2.0/EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip": {
+          "repo": "eve-ghost-enemies-kr-patch",
+          "tag": "v1.2.0",
+          "name": "EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
+          "asset_id": 588172077,
+          "last_count": 59,
+          "carried": 0,
+          "removed": false
+        }
+      },
+      "cover": "covers/eve-ghost-enemies-kr-patch.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/374995-eve-ghost-enemies",
+      "cover_revision": "b1ec897bac8d"
+    },
+    {
+      "repo": "eve-rebirth-terror-kr-patch",
+      "title": "EVE rebirth terror",
+      "original": "EVE rebirth terror",
+      "series": "EVE",
+      "platforms": [
+        "Switch"
+      ],
+      "genre": "커맨드 선택식 ADV",
+      "genre_full": "커맨드 선택식 어드벤처",
+      "developer": "El Dia",
+      "publisher": "",
+      "playtime": "약 32시간",
+      "edition": "Nintendo Switch 일본판 (다운로드판)",
+      "release_jp": "2020-02-27",
+      "product_id": "01008BA00F172000",
+      "base_update": "공식 Ver.1.0.2",
+      "note": "",
+      "cover_caption": "Switch eShop",
+      "status": "released",
+      "description": "EVE rebirth terror Korean Translation Patch",
+      "pushed_at": "2026-10-05T03:51:24Z",
+      "stars": 0,
+      "url": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch",
+      "has_pages": true,
+      "topics": [
+        "korean-translation",
+        "kr-patch",
+        "nintendo-switch"
+      ],
+      "guide_url": "https://dollars-archive.github.io/eve-rebirth-terror-kr-patch/",
+      "guide_status": 200,
+      "latest_release": {
+        "tag": "v1.4.0",
+        "name": "EVE rebirth terror 한국어 패치 v1.4.0",
+        "url": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/releases/tag/v1.4.0",
+        "published_at": "2026-09-11T08:15:19Z",
+        "asset_count": 1
+      },
+      "downloads": 67,
+      "assets": [
+        {
+          "name": "EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
+          "tag": "v1.4.0",
+          "url": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/releases/download/v1.4.0/EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
+          "downloads": 67,
+          "asset_id": 588103948,
+          "created_at": "2026-09-25T10:18:59Z",
+          "release_published_at": "2026-09-11T08:15:19Z"
+        }
+      ],
+      "tools": [],
+      "activity_at": "2026-10-05T03:51:24Z",
+      "scope": {
+        "title": {
+          "state": "done",
+          "status": "완료",
+          "since": null
+        },
+        "ui": {
+          "state": "done",
+          "status": "완료",
+          "since": null
+        },
+        "dialogue": {
+          "state": "done",
+          "status": "완료",
+          "since": null
+        },
+        "image": {
+          "state": "done",
+          "status": "완료",
+          "since": null
+        },
+        "video": {
+          "state": "done",
+          "status": "완료",
+          "since": null
+        }
+      },
+      "changelog": [
+        {
+          "v": "1.4.0",
+          "added": [],
+          "partial": [],
+          "improved": [
+            "패치 적용 방식 통합"
+          ],
+          "fixed": [],
+          "note": "",
+          "date": "2026-09-11",
+          "date_source": "release",
+          "url": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/releases/tag/v1.4.0"
+        },
+        {
+          "v": "1.3.0",
+          "added": [],
+          "partial": [],
+          "improved": [],
+          "fixed": [],
+          "note": "",
+          "date": "2026-09-08",
+          "date_source": "tag",
+          "url": ""
+        },
+        {
+          "v": "1.1.0",
+          "added": [
+            "title",
+            "ui",
+            "dialogue",
+            "video",
+            "한글 폰트"
+          ],
+          "partial": [],
+          "improved": [
+            "대사 검수·수동 수정"
+          ],
+          "fixed": [],
+          "note": "",
+          "date": "2026-08-29",
+          "date_source": "tag",
+          "url": ""
+        }
+      ],
+      "metadata_source": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/blob/main/README.md",
+      "downloads_current": 67,
+      "downloads_carried": 0,
+      "download_ledger": {
+        "eve-rebirth-terror-kr-patch/v1.4.0/EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip": {
+          "repo": "eve-rebirth-terror-kr-patch",
+          "tag": "v1.4.0",
+          "name": "EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
+          "asset_id": 588103948,
+          "last_count": 67,
+          "carried": 0,
+          "removed": false
+        }
+      },
+      "cover": "covers/eve-rebirth-terror-kr-patch.webp",
+      "cover_source": "https://store-jp.nintendo.com/item/software/D70010000022322",
+      "cover_revision": "ca43be11d6df"
+    },
     {
       "repo": "eve-zero-kr-patch",
       "title": "EVE ZERO",
@@ -439,268 +701,6 @@
       "cover_revision": "e7bc3b2e946d"
     },
     {
-      "repo": "eve-rebirth-terror-kr-patch",
-      "title": "EVE rebirth terror",
-      "original": "EVE rebirth terror",
-      "series": "EVE",
-      "platforms": [
-        "Switch"
-      ],
-      "genre": "커맨드 선택식 ADV",
-      "genre_full": "커맨드 선택식 어드벤처",
-      "developer": "El Dia",
-      "publisher": "",
-      "playtime": "약 32시간",
-      "edition": "Nintendo Switch 일본판 (다운로드판)",
-      "release_jp": "2020-02-27",
-      "product_id": "01008BA00F172000",
-      "base_update": "공식 Ver.1.0.2",
-      "note": "",
-      "cover_caption": "Switch eShop",
-      "status": "released",
-      "description": "EVE rebirth terror Korean Translation Patch",
-      "pushed_at": "2026-10-05T03:28:10Z",
-      "stars": 0,
-      "url": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch",
-      "has_pages": true,
-      "topics": [
-        "korean-translation",
-        "kr-patch",
-        "nintendo-switch"
-      ],
-      "guide_url": "https://dollars-archive.github.io/eve-rebirth-terror-kr-patch/",
-      "guide_status": 200,
-      "latest_release": {
-        "tag": "v1.4.0",
-        "name": "EVE rebirth terror 한국어 패치 v1.4.0",
-        "url": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/releases/tag/v1.4.0",
-        "published_at": "2026-09-11T08:15:19Z",
-        "asset_count": 1
-      },
-      "downloads": 67,
-      "assets": [
-        {
-          "name": "EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
-          "tag": "v1.4.0",
-          "url": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/releases/download/v1.4.0/EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
-          "downloads": 67,
-          "asset_id": 588103948,
-          "created_at": "2026-09-25T10:18:59Z",
-          "release_published_at": "2026-09-11T08:15:19Z"
-        }
-      ],
-      "tools": [],
-      "activity_at": "2026-09-30T14:22:09Z",
-      "scope": {
-        "title": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "ui": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "dialogue": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "image": {
-          "state": "none",
-          "status": "확인 필요",
-          "since": null
-        },
-        "video": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        }
-      },
-      "changelog": [
-        {
-          "v": "1.4.0",
-          "added": [],
-          "partial": [],
-          "improved": [
-            "패치 적용 방식 통합"
-          ],
-          "fixed": [],
-          "note": "",
-          "date": "2026-09-11",
-          "date_source": "release",
-          "url": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/releases/tag/v1.4.0"
-        },
-        {
-          "v": "1.3.0",
-          "added": [],
-          "partial": [],
-          "improved": [],
-          "fixed": [],
-          "note": "",
-          "date": "2026-09-08",
-          "date_source": "tag",
-          "url": ""
-        },
-        {
-          "v": "1.1.0",
-          "added": [
-            "title",
-            "ui",
-            "dialogue",
-            "video",
-            "한글 폰트"
-          ],
-          "partial": [],
-          "improved": [
-            "대사 검수·수동 수정"
-          ],
-          "fixed": [],
-          "note": "",
-          "date": "2026-08-29",
-          "date_source": "tag",
-          "url": ""
-        }
-      ],
-      "metadata_source": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/blob/main/README.md",
-      "downloads_current": 67,
-      "downloads_carried": 0,
-      "download_ledger": {
-        "eve-rebirth-terror-kr-patch/v1.4.0/EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip": {
-          "repo": "eve-rebirth-terror-kr-patch",
-          "tag": "v1.4.0",
-          "name": "EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
-          "asset_id": 588103948,
-          "last_count": 67,
-          "carried": 0,
-          "removed": false
-        }
-      },
-      "cover": "covers/eve-rebirth-terror-kr-patch.webp",
-      "cover_source": "https://store-jp.nintendo.com/item/software/D70010000022322",
-      "cover_revision": "ca43be11d6df"
-    },
-    {
-      "repo": "eve-ghost-enemies-kr-patch",
-      "title": "EVE ghost enemies",
-      "original": "EVE ghost enemies",
-      "series": "EVE",
-      "platforms": [
-        "Switch"
-      ],
-      "genre": "커맨드 선택식 ADV",
-      "genre_full": "커맨드 선택식 어드벤처",
-      "developer": "El Dia",
-      "publisher": "",
-      "playtime": "약 28.5시간",
-      "edition": "Nintendo Switch 일본판",
-      "release_jp": "2022-06-30",
-      "product_id": "01007BE0160D6000",
-      "base_update": "공식 Ver.1.02 (RomForge 표시 1.01)",
-      "note": "",
-      "cover_caption": "",
-      "status": "released",
-      "description": "EVE ghost enemies 한국어 패치",
-      "pushed_at": "2026-10-05T03:28:14Z",
-      "stars": 0,
-      "url": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch",
-      "has_pages": true,
-      "topics": [
-        "korean-translation",
-        "kr-patch",
-        "nintendo-switch"
-      ],
-      "guide_url": "https://dollars-archive.github.io/eve-ghost-enemies-kr-patch/",
-      "guide_status": 200,
-      "latest_release": {
-        "tag": "v1.2.0",
-        "name": "EVE ghost enemies 한국어 패치 v1.2.0",
-        "url": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/releases/tag/v1.2.0",
-        "published_at": "2026-09-11T08:15:29Z",
-        "asset_count": 1
-      },
-      "downloads": 59,
-      "assets": [
-        {
-          "name": "EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
-          "tag": "v1.2.0",
-          "url": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/releases/download/v1.2.0/EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
-          "downloads": 59,
-          "asset_id": 588172077,
-          "created_at": "2026-09-25T10:59:39Z",
-          "release_published_at": "2026-09-11T08:15:29Z"
-        }
-      ],
-      "tools": [],
-      "activity_at": "2026-09-30T14:21:23Z",
-      "scope": {
-        "title": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "ui": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "dialogue": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "image": {
-          "state": "none",
-          "status": "확인 필요",
-          "since": null
-        },
-        "video": {
-          "state": "none",
-          "status": "확인 필요",
-          "since": null
-        }
-      },
-      "changelog": [
-        {
-          "v": "1.2.0",
-          "added": [
-            "title",
-            "ui",
-            "dialogue",
-            "저장·삭제·복사 문구"
-          ],
-          "partial": [],
-          "improved": [],
-          "fixed": [
-            "세이브 목록 멈춤",
-            "저장·불러오기 오류"
-          ],
-          "note": "",
-          "date": "2026-09-11",
-          "date_source": "release",
-          "url": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/releases/tag/v1.2.0"
-        }
-      ],
-      "metadata_source": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/blob/main/README.md",
-      "downloads_current": 59,
-      "downloads_carried": 0,
-      "download_ledger": {
-        "eve-ghost-enemies-kr-patch/v1.2.0/EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip": {
-          "repo": "eve-ghost-enemies-kr-patch",
-          "tag": "v1.2.0",
-          "name": "EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
-          "asset_id": 588172077,
-          "last_count": 59,
-          "carried": 0,
-          "removed": false
-        }
-      },
-      "cover": "covers/eve-ghost-enemies-kr-patch.webp",
-      "cover_source": "https://gamesdb.launchbox-app.com/games/details/374995-eve-ghost-enemies",
-      "cover_revision": "b1ec897bac8d"
-    },
-    {
       "repo": "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch",
       "title": "이상한 환상향 -Lotus Labyrinth R-",
       "original": "不思議の幻想郷 -ロータスラビリンスR-",
@@ -986,16 +986,6 @@
       "message": "릴리스 공개보다 하루 넘게 늦게 생성된 첨부파일이 있습니다."
     },
     {
-      "repo": "eve-ghost-enemies-kr-patch",
-      "type": "readme-form-invalid",
-      "message": "이미지 번역: 기존 자료만으로 완료 여부를 확인할 수 없습니다."
-    },
-    {
-      "repo": "eve-ghost-enemies-kr-patch",
-      "type": "readme-form-invalid",
-      "message": "동영상 자막: 기존 자료만으로 완료 여부를 확인할 수 없습니다."
-    },
-    {
       "repo": "eve-new-generation-kr-patch",
       "type": "readme-form-invalid",
       "message": "동영상 자막: 기존 자료만으로 완료 여부를 확인할 수 없습니다."
@@ -1009,11 +999,6 @@
       "repo": "eve-rebirth-terror-kr-patch",
       "type": "changelog-empty-entry",
       "message": "1.3.0: 변경 내용이 기록되어 있지 않습니다."
-    },
-    {
-      "repo": "eve-rebirth-terror-kr-patch",
-      "type": "readme-form-invalid",
-      "message": "이미지 번역: 기존 자료만으로 완료 여부를 확인할 수 없습니다."
     },
     {
       "repo": "eve-zero-kr-patch",
