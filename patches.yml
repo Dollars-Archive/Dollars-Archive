@@ -1,6 +1,8 @@
 # 게임 정보와 버전별 변경 내역을 관리합니다. 다운로드·배포일·최근 작업일은 GitHub에서 수집합니다.
 # 날짜와 제품번호는 문자열로 유지합니다. 플랫폼·시리즈는 자유롭게 추가할 수 있습니다.
 eve-zero-kr-patch:
+  developer: C's Ware
+  playtime: 약 46시간
   genre: 어드벤처
   genre_full: 어드벤처
   edition: Dreamcast 일본판
@@ -8,6 +10,7 @@ eve-zero-kr-patch:
   versions:
   - v: '1.0'
     added:
+    - title
     - ui
     - dialogue
     source: https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/tag/v1.0 ; https://github.com/Dollars-Archive/eve-zero-kr-patch/blob/main/README.md
@@ -31,6 +34,7 @@ eve-new-generation-kr-patch:
   versions:
   - v: '1.0'
     added:
+    - title
     - ui
     - dialogue
     partial:
@@ -47,6 +51,8 @@ eve-new-generation-kr-patch:
   status: auto
 
 tears-to-tiara-2-kr-patch:
+  developer: AQUAPLUS
+  playtime: 77–80시간
   genre: RPG
   genre_full: RPG
   edition: 일본판 일반판
@@ -96,6 +102,8 @@ Guardian-Angel-Korean-Localization:
   status: auto
 
 eve-rebirth-terror-kr-patch:
+  developer: El Dia
+  playtime: 약 32시간
   genre: 커맨드 선택식 ADV
   genre_full: 커맨드 선택식 어드벤처
   edition: Nintendo Switch 일본판 (다운로드판)
@@ -114,6 +122,7 @@ eve-rebirth-terror-kr-patch:
     - 대사 검수·수동 수정
     source: https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/blob/v1.1.0/RELEASE_NOTES_v1.1.0.md ; https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/blob/v1.1.0/README.md
     added:
+    - title
     - ui
     - dialogue
     - video
@@ -135,6 +144,8 @@ eve-rebirth-terror-kr-patch:
   status: auto
 
 eve-ghost-enemies-kr-patch:
+  developer: El Dia
+  playtime: 약 28.5시간
   genre: 커맨드 선택식 ADV
   genre_full: 커맨드 선택식 어드벤처
   edition: Nintendo Switch 일본판
@@ -164,6 +175,8 @@ eve-ghost-enemies-kr-patch:
   status: auto
 
 touhou-genso-wanderer-lotus-labyrinth-r-kr-patch:
+  developer: AQUASTYLE
+  playtime: 약 46시간
   genre: 다인원 던전 RPG
   genre_full: 다인원 던전 탐색 RPG
   edition: Nintendo Switch 일본판
@@ -171,6 +184,7 @@ touhou-genso-wanderer-lotus-labyrinth-r-kr-patch:
   versions:
   - v: '1.0'
     added:
+    - title
     - ui
     - dialogue
     - 아이템·장비·스킬·도감
@@ -190,6 +204,8 @@ touhou-genso-wanderer-lotus-labyrinth-r-kr-patch:
   status: auto
 
 touhou-genso-wanderer-reloaded-kr-patch:
+  developer: AQUASTYLE
+  playtime: 8.5–69.5시간
   genre: 던전 RPG
   genre_full: 던전 RPG
   edition: Steam판 / Nintendo Switch판
@@ -197,6 +213,7 @@ touhou-genso-wanderer-reloaded-kr-patch:
   versions:
   - v: '1.0'
     added:
+    - title
     - ui
     - dialogue
     - video
