@@ -24,12 +24,12 @@ import yaml
 if __package__:
     from .covers import plan_covers
     from .downloads import plan_downloads
-    from .history import day, normalize_history, version_key
+    from .history import day, normalize_history, version_key, release_additions
     from .readme_metadata import parse_readme, merge_scope
 else:
     from covers import plan_covers
     from downloads import plan_downloads
-    from history import day, normalize_history, version_key
+    from history import day, normalize_history, version_key, release_additions
     from readme_metadata import parse_readme, merge_scope
 
 OWNER = "Dollars-Archive"
@@ -310,6 +310,12 @@ def collect(client, metadata: dict, now: datetime, check_guide=guide_status) -> 
                 (patch["latest_release"] or {}).get("tag"))
             warnings.extend(history_warnings)
             patch["scope"] = merge_scope(patch["scope"], readme_scope)
+            # A newly published addition supersedes an older README's scope value.
+            latest_tag = (patch["latest_release"] or {}).get("tag")
+            latest_release = next((r for r in releases if r.get('tag_name') == latest_tag), {})
+            for key in release_additions(latest_release):
+                historical = next((e for e in reversed(patch['changelog']) if key in e['added']), None)
+                patch['scope'][key] = {'state': 'done', 'since': historical['v'] if historical and historical != patch['changelog'][-1] else None}
             if readme_meta or readme_scope:
                 patch["metadata_source"] = f"{repo['html_url']}/blob/{repo.get('default_branch') or 'main'}/README.md"
             patches.append(patch)
@@ -382,7 +388,7 @@ def readme_section(data: dict) -> bytes:
         latest = p["latest_release"]
         links = [md_link("저장소", p["url"])]
         if latest:
-            links.append(md_link("릴리스", latest["url"]))
+            links.append(md_link("릴리스", p["url"] + "/releases/latest"))
         elif p["status"] == "released":
             links.append(md_link("릴리스", p["url"] + "/releases"))
         if p["guide_url"]:

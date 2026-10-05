@@ -101,6 +101,10 @@ def parse_readme(repo, text):
                 warn(f"{heading}: 제목이 누락되거나 중복되었습니다. 기존 범위를 유지합니다.")
                 continue
             values = re.findall(r"^상태:\s*(.+?)\s*$", found[0], re.M)
+            values += re.findall(r'<!--\s*kr-patch:state:\s*(.+?)\s*-->', found[0])
+            if not values:
+                # Status lines are optional; do not restore public metadata removed by the owner.
+                continue
             if len(values) != 1 or values[0] not in STATES:
                 warn(f"{heading}: 상태를 완료·일부·미작업·해당 없음 중 하나로 입력합니다.")
                 continue

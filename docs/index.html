@@ -268,7 +268,7 @@ function render(){
       <div class="title">${esc(d.title)}</div>
       ${d.original?`<div class="orig">${esc(d.original)}</div>`:""}
       ${factsMarkup(d)}${scopeMarkup(d)}${historyMarkup(d)}
-      <div class="links">${link("저장소",d.url)}${d.latest_release?link("릴리스",d.latest_release.url):d.status==="released"?link("릴리스",d.url+"/releases"):""}${d.guide_url?link("설치 가이드",d.guide_url):""}${editionMarkup(d)}</div>
+      <div class="links">${link("저장소",d.url)}${d.latest_release?link("릴리스",d.url+"/releases/latest"):d.status==="released"?link("릴리스",d.url+"/releases"):""}${d.guide_url?link("설치 가이드",d.guide_url):""}${editionMarkup(d)}</div>
       ${d.tools.length?`<div class="tools small"><span>부가 도구</span>${d.tools.map(t=>link(t.name+" ("+t.tag+")",t.url)).join("")}</div>`:""}
     </div>
     <div class="status">

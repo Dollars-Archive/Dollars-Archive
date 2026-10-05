@@ -25,6 +25,10 @@ test('collected page renders all covers and filters before API replies',()=>{
   assert.equal((node('list').innerHTML.match(/class="row"/g)||[]).length,data.patches.filter(p=>p.series==='동방').length);
   assert(node('footer').textContent.includes('수집값'));
 });
+test('release buttons resolve latest even before catalogue refresh',()=>{
+  const {node,data}=page(async()=>[]);
+  for(const p of data.patches.filter(p=>p.latest_release))assert(node('list').innerHTML.includes(`href="${p.url}/releases/latest"`));
+});
 test('four facts and edition details keep empty values and full tooltips',()=>{
   const {context,node}=page(async()=>[]);
   vm.runInContext('data.patches[0].genre="RPG";data.patches[0].genre_full="전체 장르";data.patches[0].developer="개발사";data.patches[0].publisher="발매사";data.patches[0].playtime="";data.patches[0].note="NOTE-SHOULD-NOT-SHOW";data.patches[0].release_jp="2001-03-22";data.patches[0].product_id="TEST-ID";data.patches[0].base_update="Ver.9.9";applyData(data)',context);

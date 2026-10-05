@@ -8,6 +8,23 @@ const response=(releases,link='')=>({ok:true,json:async()=>releases,headers:{get
 const storage=()=>{const data=new Map();return {getItem:k=>data.get(k)||null,setItem:(k,v)=>data.set(k,v)}};
 const patch=(repo='game')=>({repo,downloads:10,assets:[asset()],download_ledger:{[`${repo}/v1.0/patch.zip`]:{asset_id:1,last_count:10,carried:0,removed:false}}});
 
+test('new release refresh updates version, activity, files, history and video together',async()=>{
+  const p={...patch(),status:'released',activity_at:'2026-10-04T00:00:00Z',scope:{video:{state:'none',since:null}},changelog:[{v:'1.0',added:['title']}]};
+  const r={...release('v1.1',3,2),name:'patch v1.1',html_url:'https://github.com/Dollars-Archive/game/releases/tag/v1.1',published_at:'2026-10-05T04:17:00Z',body:'## v1.1 패치 내용\n- 오프닝 & 게임 내 영상 & 엔딩 자막 추가\n## v1.0 주요 반영 내용\n- 이미지 번역 추가'};
+  r.assets[0].browser_download_url='https://github.com/Dollars-Archive/game/releases/download/v1.1/patch.zip';
+  await live.refresh([p],{fetcher:async()=>response([r]),force:true});
+  assert.equal(p.latest_release.tag,'v1.1');assert.equal(p.activity_at,r.published_at);
+  assert.equal(p.assets[0].tag,'v1.1');assert.equal(p.downloads,13);
+  assert.deepEqual(p.scope.video,{state:'done',since:'1.1'});assert.equal(p.scope.image,undefined);
+  assert.equal(p.changelog[0].v,'1.1');
+  await live.refresh([p],{fetcher:async()=>response([r]),force:true});
+  assert.equal(p.changelog.length,2);assert.equal(p.scope.video.since,'1.1');
+});
+
+test('planned additions and unrelated old sections are not inferred',()=>{
+  assert.deepEqual(live.releaseAdditions({tag_name:'v1.1',body:'## v1.1 패치 내용\n- 동영상 자막 추가 예정\n## v1.0 주요 반영 내용\n- 이미지 번역 추가'}),[]);
+});
+
 test('ledger preserves replaced, decreased, removed and returning assets',()=>{
   const p=patch();
   assert.equal(live.ledgerTotal('game',[asset(3,2)],p.download_ledger),13);

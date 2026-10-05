@@ -3,6 +3,25 @@ from scripts.history import CHIPS, normalize_history, version_key
 
 
 class HistoryTests(unittest.TestCase):
+    def test_versioned_intro_sentence_is_explicit_evidence(self):
+        from scripts.history import release_additions
+        self.assertEqual(release_additions({'tag_name':'v1.1','body':'# 게임 v1.1\nv1.1에는 오프닝 노래, 엔딩 초반 대사와 노래의 한국어 자막을 추가했습니다.\n## 설치\n설명'}), ['video'])
+    def test_release_addition_is_derived_without_manual_yaml_record(self):
+        release = {'tag_name':'v1.1','published_at':'2026-10-05T04:17:00Z','html_url':'https://example.com/v1.1',
+                   'body':'## v1.1 패치 내용\n- 오프닝 & 게임 내 영상 & 엔딩 자막 추가\n\n## v1.0 주요 반영 내용\n- 이미지 번역 추가'}
+        scope, log, warnings = self.history([{'v':'1.0','added':['title']}], [release], [{'name':'v1.0'},{'name':'v1.1'}], latest='v1.1')
+        self.assertEqual(scope['video'], {'state':'done','since':'1.1'})
+        self.assertEqual(scope['image']['state'], 'none')
+        self.assertEqual(log[0]['v'], '1.1')
+        self.assertFalse(warnings)
+
+    def test_planned_partial_and_prerelease_additions_do_not_check_scope(self):
+        for line in ['동영상 자막 추가 예정','동영상 자막 일부 추가','동영상 자막 미포함']:
+            scope,_,_ = self.history([], [{'tag_name':'v1.1','body':'## v1.1 패치 내용\n- '+line}])
+            self.assertEqual(scope['video']['state'], 'none')
+        scope,_,_ = self.history([], [{'tag_name':'v1.1','prerelease':True,'body':'## v1.1 패치 내용\n- 동영상 자막 추가'}])
+        self.assertEqual(scope['video']['state'],'none')
+
     def history(self, versions, releases=None, tags=None, dates=None, latest=None):
         if tags is None:
             tags = [{'name': 'v'+v['v']} for v in versions if isinstance(v, dict) and isinstance(v.get('v'), str)] if isinstance(versions, list) else []

@@ -46,6 +46,16 @@ def normalize_history(repo, versions, releases, tags, commit_dates=None, latest_
     if not isinstance(versions, list):
         warn("changelog-invalid", "versions는 버전 기록 목록이어야 합니다.")
         versions = []
+    versions = list(versions)
+    known = {version_key(v.get('v')) for v in versions if isinstance(v, dict)}
+    for release in releases:
+        key = version_key(release.get('tag_name'))
+        if release.get('draft') or release.get('prerelease') or key is None or key in known:
+            continue
+        added = release_additions(release)
+        if added:
+            versions.append({'v': release['tag_name'], 'added': added})
+            known.add(key)
     for item in versions:
         if not isinstance(item, dict) or version_key(item.get("v")) is None:
             warn("changelog-invalid", "숫자 버전 v가 없는 변경 기록을 제외했습니다.")
@@ -96,3 +106,20 @@ def normalize_history(repo, versions, releases, tags, commit_dates=None, latest_
             if chip in scope:
                 scope[chip] = {"state": "partial", "since": None}
     return scope, entries, warnings
+
+
+def release_additions(release):
+    """Only explicit additions in this release's own version section are evidence."""
+    tag = release.get('tag_name', '').removeprefix('v')
+    sections = re.split(r'^##\s+(.+?)\s*$', release.get('body') or '', flags=re.M)
+    text = '\n'.join(sections[i + 1] for i in range(1, len(sections), 2)
+                     if re.match(r'v?' + re.escape(tag) + r'(?:\s|$)', sections[i]))
+    text += '\n' + '\n'.join(line for line in sections[0].splitlines()
+                              if re.match(r'^v?' + re.escape(tag) + r'(?:에는|에서|\s)', line))
+    labels = {'title': r'타이틀(?: 한글화)?', 'ui': r'메뉴[·/ ]*UI',
+              'dialogue': r'대사(?: 전체)?\s*(?:추가|한글화|한국어화|완료)', 'image': r'이미지(?: 번역)?',
+              'video': r'(?:동영상|영상|오프닝|엔딩).*자막'}
+    lines = [line for line in text.splitlines() if (re.match(r'^\s*[-*]\s+', line) or re.match(r'^v?' + re.escape(tag) + r'(?:에는|에서|\s)', line))
+             and re.search(r'(?:추가|한글화|한국어화|완료)', line)
+             and not re.search(r'(?:예정|미완료|미작업|일부|미포함|제외)', line)]
+    return [key for key, pattern in labels.items() if any(re.search(pattern, line, re.I) for line in lines)]

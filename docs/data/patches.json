@@ -1,12 +1,767 @@
 {
-  "generated_at": "2026-10-05T03:51:36Z",
+  "generated_at": "2026-10-05T05:19:54Z",
   "summary": {
     "total": 8,
     "released": 7,
     "wip": 1,
-    "downloads": 1389
+    "downloads": 1429
   },
   "patches": [
+    {
+      "repo": "eve-zero-kr-patch",
+      "title": "EVE ZERO",
+      "original": "EVE ZERO 完全版 ark of the matter",
+      "series": "EVE",
+      "platforms": [
+        "Dreamcast"
+      ],
+      "genre": "어드벤처",
+      "genre_full": "어드벤처",
+      "developer": "C's Ware",
+      "publisher": "",
+      "playtime": "약 46시간",
+      "edition": "Dreamcast 일본판",
+      "release_jp": "2001-03-22",
+      "product_id": "T-39802M",
+      "base_update": "",
+      "note": "",
+      "cover_caption": "",
+      "status": "released",
+      "description": "EVE ZERO (Dreamcast) Korean Translation Patch / 한국어 패치",
+      "pushed_at": "2026-10-05T05:14:53Z",
+      "stars": 2,
+      "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch",
+      "has_pages": false,
+      "topics": [
+        "dreamcast",
+        "korean-translation",
+        "kr-patch"
+      ],
+      "guide_url": "",
+      "guide_status": null,
+      "latest_release": {
+        "tag": "v1.1",
+        "name": "EVE ZERO 한국어 패치 v1.1",
+        "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/tag/v1.1",
+        "published_at": "2026-10-05T04:17:18Z",
+        "asset_count": 1
+      },
+      "downloads": 391,
+      "assets": [
+        {
+          "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
+          "tag": "v1.1",
+          "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/download/v1.1/EVE_ZERO_Korean_Patch_v1.1.zip",
+          "downloads": 2,
+          "asset_id": 611513419,
+          "created_at": "2026-10-05T04:43:41Z",
+          "release_published_at": "2026-10-05T04:17:18Z"
+        },
+        {
+          "name": "EVE_ZERO_Korean_Patch_v1.0.zip",
+          "tag": "v1.0",
+          "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/download/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip",
+          "downloads": 389,
+          "asset_id": 609739492,
+          "created_at": "2026-10-04T11:43:49Z",
+          "release_published_at": "2026-10-04T09:52:01Z"
+        }
+      ],
+      "tools": [],
+      "activity_at": "2026-10-05T05:14:53Z",
+      "scope": {
+        "title": {
+          "state": "done",
+          "since": null
+        },
+        "ui": {
+          "state": "done",
+          "since": null
+        },
+        "dialogue": {
+          "state": "done",
+          "since": null
+        },
+        "image": {
+          "state": "done",
+          "since": null
+        },
+        "video": {
+          "state": "done",
+          "since": "1.1"
+        }
+      },
+      "changelog": [
+        {
+          "v": "1.1",
+          "added": [
+            "video"
+          ],
+          "partial": [],
+          "improved": [],
+          "fixed": [],
+          "note": "",
+          "date": "2026-10-05",
+          "date_source": "release",
+          "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/tag/v1.1"
+        },
+        {
+          "v": "1.0",
+          "added": [
+            "title",
+            "ui",
+            "dialogue",
+            "image"
+          ],
+          "partial": [],
+          "improved": [],
+          "fixed": [],
+          "note": "",
+          "date": "2026-10-04",
+          "date_source": "release",
+          "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/tag/v1.0"
+        }
+      ],
+      "metadata_source": "https://github.com/Dollars-Archive/eve-zero-kr-patch/blob/main/README.md",
+      "downloads_current": 391,
+      "downloads_carried": 0,
+      "download_ledger": {
+        "eve-zero-kr-patch/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip": {
+          "repo": "eve-zero-kr-patch",
+          "tag": "v1.0",
+          "name": "EVE_ZERO_Korean_Patch_v1.0.zip",
+          "asset_id": 609739492,
+          "last_count": 389,
+          "carried": 0,
+          "removed": false
+        },
+        "eve-zero-kr-patch/v1.1/EVE_ZERO_Korean_Patch_v1.1.zip": {
+          "repo": "eve-zero-kr-patch",
+          "tag": "v1.1",
+          "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
+          "asset_id": 611513419,
+          "last_count": 2,
+          "carried": 0,
+          "removed": false
+        }
+      },
+      "cover": "covers/eve-zero-kr-patch.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/124529-eve-zero-kanzenban-ark-of-the-matter",
+      "cover_revision": "a63ff59b4983"
+    },
+    {
+      "repo": "tears-to-tiara-2-kr-patch",
+      "title": "티어즈 투 티아라 2",
+      "original": "ティアーズ・トゥ・ティアラⅡ 覇王の末裔",
+      "series": "기타",
+      "platforms": [
+        "PS3"
+      ],
+      "genre": "RPG",
+      "genre_full": "RPG",
+      "developer": "AQUAPLUS",
+      "publisher": "",
+      "playtime": "77–80시간",
+      "edition": "일본판 일반판",
+      "release_jp": "2013-10-31",
+      "product_id": "BLJM61076",
+      "base_update": "공식 Ver.1.02",
+      "note": "",
+      "cover_caption": "",
+      "status": "released",
+      "description": "PS3용 『Tears to Tiara II』 비공식 한국어 패치",
+      "pushed_at": "2026-10-05T05:13:08Z",
+      "stars": 1,
+      "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch",
+      "has_pages": false,
+      "topics": [
+        "korean-translation",
+        "kr-patch",
+        "ps3"
+      ],
+      "guide_url": "",
+      "guide_status": null,
+      "latest_release": {
+        "tag": "v1.1",
+        "name": "티어즈 투 티아라 2 한국어 패치 v1.1",
+        "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/tag/v1.1",
+        "published_at": "2026-10-05T04:17:16Z",
+        "asset_count": 1
+      },
+      "downloads": 324,
+      "assets": [
+        {
+          "name": "TTT2_KR_Patcher_v1.1.zip",
+          "tag": "v1.1",
+          "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/download/v1.1/TTT2_KR_Patcher_v1.1.zip",
+          "downloads": 1,
+          "asset_id": 611515859,
+          "created_at": "2026-10-05T04:44:48Z",
+          "release_published_at": "2026-10-05T04:17:16Z"
+        },
+        {
+          "name": "TTT2_KR_Patcher_v1.0.zip",
+          "tag": "v1.0",
+          "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/download/v1.0/TTT2_KR_Patcher_v1.0.zip",
+          "downloads": 323,
+          "asset_id": 609346501,
+          "created_at": "2026-10-04T07:16:59Z",
+          "release_published_at": "2026-09-27T00:38:38Z"
+        }
+      ],
+      "tools": [],
+      "activity_at": "2026-10-05T05:13:08Z",
+      "scope": {
+        "title": {
+          "state": "done",
+          "since": null
+        },
+        "ui": {
+          "state": "done",
+          "since": null
+        },
+        "dialogue": {
+          "state": "done",
+          "since": null
+        },
+        "image": {
+          "state": "partial",
+          "since": null
+        },
+        "video": {
+          "state": "done",
+          "since": "1.1"
+        }
+      },
+      "changelog": [
+        {
+          "v": "1.1",
+          "added": [
+            "video"
+          ],
+          "partial": [],
+          "improved": [],
+          "fixed": [],
+          "note": "",
+          "date": "2026-10-05",
+          "date_source": "release",
+          "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/tag/v1.1"
+        },
+        {
+          "v": "1.0",
+          "added": [
+            "title",
+            "ui",
+            "dialogue",
+            "튜토리얼",
+            "챕터 타이틀"
+          ],
+          "partial": [
+            "image"
+          ],
+          "improved": [
+            "대사 줄바꿈"
+          ],
+          "fixed": [
+            "전투 스크립트 구조",
+            "전투 조건 표시",
+            "전투 결과 화면"
+          ],
+          "note": "",
+          "date": "2026-09-27",
+          "date_source": "release",
+          "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/tag/v1.0"
+        }
+      ],
+      "metadata_source": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/blob/main/README.md",
+      "downloads_current": 324,
+      "downloads_carried": 0,
+      "download_ledger": {
+        "tears-to-tiara-2-kr-patch/v1.0/TTT2_KR_Patcher_v1.0.zip": {
+          "repo": "tears-to-tiara-2-kr-patch",
+          "tag": "v1.0",
+          "name": "TTT2_KR_Patcher_v1.0.zip",
+          "asset_id": 609346501,
+          "last_count": 323,
+          "carried": 0,
+          "removed": false
+        },
+        "tears-to-tiara-2-kr-patch/v1.1/TTT2_KR_Patcher_v1.1.zip": {
+          "repo": "tears-to-tiara-2-kr-patch",
+          "tag": "v1.1",
+          "name": "TTT2_KR_Patcher_v1.1.zip",
+          "asset_id": 611515859,
+          "last_count": 1,
+          "carried": 0,
+          "removed": false
+        }
+      },
+      "cover": "covers/tears-to-tiara-2-kr-patch.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/25025-tears-to-tiara-ii-heir-of-the-overlord",
+      "cover_revision": "99ae968d8eac"
+    },
+    {
+      "repo": "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch",
+      "title": "이상한 환상향 -Lotus Labyrinth R-",
+      "original": "不思議の幻想郷 -ロータスラビリンスR-",
+      "series": "동방",
+      "platforms": [
+        "Switch"
+      ],
+      "genre": "다인원 던전 RPG",
+      "genre_full": "다인원 던전 탐색 RPG",
+      "developer": "AQUASTYLE",
+      "publisher": "",
+      "playtime": "약 46시간",
+      "edition": "Nintendo Switch 일본판",
+      "release_jp": "2021-09-30",
+      "product_id": "0100A7A015E4C000",
+      "base_update": "공식 Ver.1.0.1 (1.01)",
+      "note": "",
+      "cover_caption": "",
+      "status": "released",
+      "description": "이상한 환상향 -Lotus Labyrinth R- PC / Nintendo Switch 비공식 한국어 패치 프로젝트",
+      "pushed_at": "2026-10-05T05:11:54Z",
+      "stars": 0,
+      "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch",
+      "has_pages": true,
+      "topics": [
+        "korean-translation",
+        "kr-patch",
+        "nintendo-switch"
+      ],
+      "guide_url": "https://dollars-archive.github.io/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/",
+      "guide_status": 200,
+      "latest_release": {
+        "tag": "v1.0",
+        "name": "이상한 환상향 -Lotus Labyrinth R- 한국어 패치 v1.0",
+        "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/releases/tag/v1.0",
+        "published_at": "2026-09-25T12:30:12Z",
+        "asset_count": 1
+      },
+      "downloads": 52,
+      "assets": [
+        {
+          "name": "_LLR_Switch_._v1.0.zip",
+          "tag": "v1.0",
+          "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/releases/download/v1.0/_LLR_Switch_._v1.0.zip",
+          "downloads": 52,
+          "asset_id": 609359818,
+          "created_at": "2026-10-04T07:27:45Z",
+          "release_published_at": "2026-09-25T12:30:12Z"
+        }
+      ],
+      "tools": [],
+      "activity_at": "2026-10-05T05:11:54Z",
+      "scope": {
+        "title": {
+          "state": "done",
+          "since": null
+        },
+        "ui": {
+          "state": "done",
+          "since": null
+        },
+        "dialogue": {
+          "state": "done",
+          "since": null
+        },
+        "image": {
+          "state": "partial",
+          "since": null
+        },
+        "video": {
+          "state": "done",
+          "since": null
+        }
+      },
+      "changelog": [
+        {
+          "v": "1.0",
+          "added": [
+            "title",
+            "ui",
+            "dialogue",
+            "video",
+            "아이템·장비·스킬·도감",
+            "튜토리얼"
+          ],
+          "partial": [
+            "image"
+          ],
+          "improved": [],
+          "fixed": [],
+          "note": "",
+          "date": "2026-09-25",
+          "date_source": "release",
+          "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/releases/tag/v1.0"
+        }
+      ],
+      "metadata_source": "https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/blob/main/README.md",
+      "downloads_current": 52,
+      "downloads_carried": 0,
+      "download_ledger": {
+        "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/v1.0/_LLR_Switch_._v1.0.zip": {
+          "repo": "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch",
+          "tag": "v1.0",
+          "name": "_LLR_Switch_._v1.0.zip",
+          "asset_id": 609359818,
+          "last_count": 52,
+          "carried": 0,
+          "removed": false
+        }
+      },
+      "cover": "covers/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/420705-touhou-genso-wanderer-lotus-labyrinth-r",
+      "cover_revision": "81a8e66a552c"
+    },
+    {
+      "repo": "touhou-genso-wanderer-reloaded-kr-patch",
+      "title": "이상한 환상향 TOD -RELOADED-",
+      "original": "不思議の幻想郷TOD -RELOADED-",
+      "series": "동방",
+      "platforms": [
+        "PC",
+        "Switch"
+      ],
+      "genre": "던전 RPG",
+      "genre_full": "던전 RPG",
+      "developer": "AQUASTYLE",
+      "publisher": "",
+      "playtime": "8.5–69.5시간",
+      "edition": "Steam판 / Nintendo Switch판",
+      "release_jp": "2017-12-21",
+      "product_id": "01004E900B082000",
+      "base_update": "PC: 패처 지원 원본 / Nintendo Switch: 공식 Ver.1.0.3",
+      "note": "",
+      "cover_caption": "",
+      "status": "released",
+      "description": "Touhou Genso Wanderer Reloaded 한국어 패치 제작 및 공개 작업일지",
+      "pushed_at": "2026-10-05T05:10:01Z",
+      "stars": 0,
+      "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch",
+      "has_pages": true,
+      "topics": [
+        "korean-translation",
+        "kr-patch",
+        "nintendo-switch",
+        "pc"
+      ],
+      "guide_url": "https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/",
+      "guide_status": 200,
+      "latest_release": {
+        "tag": "v1.0",
+        "name": "이상한 환상향 TOD -RELOADED- 한국어 패치 v1.0",
+        "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/v1.0",
+        "published_at": "2026-09-25T10:23:29Z",
+        "asset_count": 2
+      },
+      "downloads": 75,
+      "assets": [
+        {
+          "name": "TODR_PC_v1.0.zip",
+          "tag": "v1.0",
+          "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/download/v1.0/TODR_PC_v1.0.zip",
+          "downloads": 26,
+          "asset_id": 609378040,
+          "created_at": "2026-10-04T07:40:11Z",
+          "release_published_at": "2026-09-25T10:23:29Z"
+        },
+        {
+          "name": "TODR_Switch_v1.0.zip",
+          "tag": "v1.0",
+          "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/download/v1.0/TODR_Switch_v1.0.zip",
+          "downloads": 49,
+          "asset_id": 609356044,
+          "created_at": "2026-10-04T07:24:53Z",
+          "release_published_at": "2026-09-25T10:23:29Z"
+        }
+      ],
+      "tools": [],
+      "activity_at": "2026-10-05T05:10:01Z",
+      "scope": {
+        "title": {
+          "state": "done",
+          "since": null
+        },
+        "ui": {
+          "state": "done",
+          "since": null
+        },
+        "dialogue": {
+          "state": "done",
+          "since": null
+        },
+        "image": {
+          "state": "partial",
+          "since": null
+        },
+        "video": {
+          "state": "done",
+          "since": null
+        }
+      },
+      "changelog": [
+        {
+          "v": "1.0",
+          "added": [
+            "title",
+            "ui",
+            "dialogue",
+            "video",
+            "아이템·스킬·도감"
+          ],
+          "partial": [
+            "image"
+          ],
+          "improved": [],
+          "fixed": [],
+          "note": "",
+          "date": "2026-09-25",
+          "date_source": "release",
+          "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/v1.0"
+        }
+      ],
+      "metadata_source": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/blob/main/README.md",
+      "downloads_current": 75,
+      "downloads_carried": 0,
+      "download_ledger": {
+        "touhou-genso-wanderer-reloaded-kr-patch/v1.0/TODR_PC_v1.0.zip": {
+          "repo": "touhou-genso-wanderer-reloaded-kr-patch",
+          "tag": "v1.0",
+          "name": "TODR_PC_v1.0.zip",
+          "asset_id": 609378040,
+          "last_count": 26,
+          "carried": 0,
+          "removed": false
+        },
+        "touhou-genso-wanderer-reloaded-kr-patch/v1.0/TODR_Switch_v1.0.zip": {
+          "repo": "touhou-genso-wanderer-reloaded-kr-patch",
+          "tag": "v1.0",
+          "name": "TODR_Switch_v1.0.zip",
+          "asset_id": 609356044,
+          "last_count": 49,
+          "carried": 0,
+          "removed": false
+        }
+      },
+      "cover": "covers/touhou-genso-wanderer-reloaded-kr-patch.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/114795-touhou-genso-wanderer-reloaded",
+      "cover_revision": "69db0bbc25e9"
+    },
+    {
+      "repo": "eve-new-generation-kr-patch",
+      "title": "이브 뉴 제네레이션",
+      "original": "EVE new generation / イブ・ニュージェネレーション",
+      "series": "EVE",
+      "platforms": [
+        "PS2"
+      ],
+      "genre": "멀티사이트 ADV",
+      "genre_full": "멀티사이트 미스터리 ADV / 비주얼노벨",
+      "developer": "Kadokawa Shoten 계열 제작",
+      "publisher": "Kadokawa Shoten",
+      "playtime": "약 14.5시간",
+      "edition": "PlayStation 2 일본판",
+      "release_jp": "2006-08-31",
+      "product_id": "SLPM-66338",
+      "base_update": "Ver.1.01",
+      "note": "",
+      "cover_caption": "",
+      "status": "released",
+      "description": "EVE new generation (PlayStation 2) Korean Translation Patch / 한국어 패치",
+      "pushed_at": "2026-10-05T05:05:02Z",
+      "stars": 1,
+      "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch",
+      "has_pages": false,
+      "topics": [
+        "korean-translation",
+        "kr-patch",
+        "ps2"
+      ],
+      "guide_url": "",
+      "guide_status": null,
+      "latest_release": {
+        "tag": "v1.1",
+        "name": "EVE New Generation 한국어 패치 v1.1",
+        "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/tag/v1.1",
+        "published_at": "2026-10-05T04:17:21Z",
+        "asset_count": 1
+      },
+      "downloads": 461,
+      "assets": [
+        {
+          "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
+          "tag": "v1.1",
+          "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.1/EVE_New_Generation_Korean_Patch_v1.1.zip",
+          "downloads": 0,
+          "asset_id": 611547873,
+          "created_at": "2026-10-05T04:59:55Z",
+          "release_published_at": "2026-10-05T04:17:21Z"
+        },
+        {
+          "name": "EVE_NG_v1.0.zip",
+          "tag": "v1.0",
+          "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.0/EVE_NG_v1.0.zip",
+          "downloads": 461,
+          "asset_id": 609571381,
+          "created_at": "2026-10-04T09:55:30Z",
+          "release_published_at": "2026-10-04T09:23:46Z"
+        }
+      ],
+      "tools": [],
+      "activity_at": "2026-10-05T05:05:02Z",
+      "scope": {
+        "title": {
+          "state": "done",
+          "since": null
+        },
+        "ui": {
+          "state": "done",
+          "since": null
+        },
+        "dialogue": {
+          "state": "done",
+          "since": null
+        },
+        "image": {
+          "state": "partial",
+          "since": null
+        },
+        "video": {
+          "state": "done",
+          "since": "1.1"
+        }
+      },
+      "changelog": [
+        {
+          "v": "1.1",
+          "added": [
+            "video"
+          ],
+          "partial": [],
+          "improved": [],
+          "fixed": [],
+          "note": "",
+          "date": "2026-10-05",
+          "date_source": "release",
+          "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/tag/v1.1"
+        },
+        {
+          "v": "1.0",
+          "added": [
+            "title",
+            "ui",
+            "dialogue"
+          ],
+          "partial": [
+            "image"
+          ],
+          "improved": [],
+          "fixed": [],
+          "note": "",
+          "date": "2026-10-04",
+          "date_source": "release",
+          "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/tag/v1.0"
+        }
+      ],
+      "metadata_source": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/blob/main/README.md",
+      "downloads_current": 461,
+      "downloads_carried": 0,
+      "download_ledger": {
+        "eve-new-generation-kr-patch/v1.0/EVE_NG_v1.0.zip": {
+          "repo": "eve-new-generation-kr-patch",
+          "tag": "v1.0",
+          "name": "EVE_NG_v1.0.zip",
+          "asset_id": 609571381,
+          "last_count": 461,
+          "carried": 0,
+          "removed": false
+        },
+        "eve-new-generation-kr-patch/v1.1/EVE_New_Generation_Korean_Patch_v1.1.zip": {
+          "repo": "eve-new-generation-kr-patch",
+          "tag": "v1.1",
+          "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
+          "asset_id": 611547873,
+          "last_count": 0,
+          "carried": 0,
+          "removed": false
+        }
+      },
+      "cover": "covers/eve-new-generation-kr-patch.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/130464-eve-new-generation",
+      "cover_revision": "c2999e87c5ff"
+    },
+    {
+      "repo": "Guardian-Angel-Korean-Localization",
+      "title": "가디언 엔젤",
+      "original": "ガーディアンエンジェル / Guardian Angel",
+      "series": "기타",
+      "platforms": [
+        "PS2"
+      ],
+      "genre": "SF 추리 ADV",
+      "genre_full": "시간축·다중시점 SF 미스터리 / 추리 어드벤처",
+      "developer": "Vridge",
+      "publisher": "Datam Polystar",
+      "playtime": "20–40시간",
+      "edition": "PlayStation 2 일본판",
+      "release_jp": "2003-02-27",
+      "product_id": "SLPS-25214",
+      "base_update": "",
+      "note": "",
+      "cover_caption": "",
+      "status": "wip",
+      "description": "PlayStation 2용 미스터리 어드벤처 게임 『Guardian Angel』의 비공식 한국어화 프로젝트입니다. 사건으로 육체를 잃고 수호천사가 된 사립탐정 에릭이 딸 에스텔과 주변 인물들에게 영감을 주며, 시간과 공간을 넘나들어 사건의 진상을 추적하는 작품입니다. 게임 내 대사와 시스템 텍스트를 한국어로 번역하는 것을 목표로 합니다.",
+      "pushed_at": "2026-10-05T04:55:11Z",
+      "stars": 0,
+      "url": "https://github.com/Dollars-Archive/Guardian-Angel-Korean-Localization",
+      "has_pages": false,
+      "topics": [
+        "korean-translation",
+        "kr-patch",
+        "ps2"
+      ],
+      "guide_url": "",
+      "guide_status": null,
+      "latest_release": null,
+      "downloads": 0,
+      "assets": [],
+      "tools": [],
+      "activity_at": "2026-10-05T04:55:11Z",
+      "scope": {
+        "title": {
+          "state": "done",
+          "status": "완료",
+          "since": null
+        },
+        "ui": {
+          "state": "none",
+          "since": null
+        },
+        "dialogue": {
+          "state": "none",
+          "since": null
+        },
+        "image": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        },
+        "video": {
+          "state": "none",
+          "since": null
+        }
+      },
+      "changelog": [],
+      "metadata_source": "https://github.com/Dollars-Archive/Guardian-Angel-Korean-Localization/blob/main/README.md",
+      "downloads_current": 0,
+      "downloads_carried": 0,
+      "download_ledger": {},
+      "cover": "covers/Guardian-Angel-Korean-Localization.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/375952-guardian-angel",
+      "cover_revision": "e7bc3b2e946d"
+    },
     {
       "repo": "eve-ghost-enemies-kr-patch",
       "title": "EVE ghost enemies",
@@ -268,696 +1023,6 @@
       "cover": "covers/eve-rebirth-terror-kr-patch.webp",
       "cover_source": "https://store-jp.nintendo.com/item/software/D70010000022322",
       "cover_revision": "ca43be11d6df"
-    },
-    {
-      "repo": "eve-zero-kr-patch",
-      "title": "EVE ZERO",
-      "original": "EVE ZERO 完全版 ark of the matter",
-      "series": "EVE",
-      "platforms": [
-        "Dreamcast"
-      ],
-      "genre": "어드벤처",
-      "genre_full": "어드벤처",
-      "developer": "C's Ware",
-      "publisher": "",
-      "playtime": "약 46시간",
-      "edition": "Dreamcast 일본판",
-      "release_jp": "2001-03-22",
-      "product_id": "T-39802M",
-      "base_update": "",
-      "note": "",
-      "cover_caption": "",
-      "status": "released",
-      "description": "EVE ZERO (Dreamcast) Korean Translation Patch / 한국어 패치",
-      "pushed_at": "2026-10-05T03:27:52Z",
-      "stars": 2,
-      "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch",
-      "has_pages": false,
-      "topics": [
-        "dreamcast",
-        "korean-translation",
-        "kr-patch"
-      ],
-      "guide_url": "",
-      "guide_status": null,
-      "latest_release": {
-        "tag": "v1.0",
-        "name": "EVE ZERO 한국어 패치 v1.0",
-        "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/tag/v1.0",
-        "published_at": "2026-10-04T09:52:01Z",
-        "asset_count": 1
-      },
-      "downloads": 372,
-      "assets": [
-        {
-          "name": "EVE_ZERO_Korean_Patch_v1.0.zip",
-          "tag": "v1.0",
-          "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/download/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip",
-          "downloads": 372,
-          "asset_id": 609739492,
-          "created_at": "2026-10-04T11:43:49Z",
-          "release_published_at": "2026-10-04T09:52:01Z"
-        }
-      ],
-      "tools": [],
-      "activity_at": "2026-10-04T11:15:22Z",
-      "scope": {
-        "title": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "ui": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "dialogue": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "image": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "video": {
-          "state": "none",
-          "status": "확인 필요",
-          "since": null
-        }
-      },
-      "changelog": [
-        {
-          "v": "1.0",
-          "added": [
-            "title",
-            "ui",
-            "dialogue",
-            "image"
-          ],
-          "partial": [],
-          "improved": [],
-          "fixed": [],
-          "note": "",
-          "date": "2026-10-04",
-          "date_source": "release",
-          "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/tag/v1.0"
-        }
-      ],
-      "metadata_source": "https://github.com/Dollars-Archive/eve-zero-kr-patch/blob/main/README.md",
-      "downloads_current": 372,
-      "downloads_carried": 0,
-      "download_ledger": {
-        "eve-zero-kr-patch/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip": {
-          "repo": "eve-zero-kr-patch",
-          "tag": "v1.0",
-          "name": "EVE_ZERO_Korean_Patch_v1.0.zip",
-          "asset_id": 609739492,
-          "last_count": 372,
-          "carried": 0,
-          "removed": false
-        }
-      },
-      "cover": "covers/eve-zero-kr-patch.webp",
-      "cover_source": "https://gamesdb.launchbox-app.com/games/details/124529-eve-zero-kanzenban-ark-of-the-matter",
-      "cover_revision": "a63ff59b4983"
-    },
-    {
-      "repo": "eve-new-generation-kr-patch",
-      "title": "이브 뉴 제네레이션",
-      "original": "EVE new generation / イブ・ニュージェネレーション",
-      "series": "EVE",
-      "platforms": [
-        "PS2"
-      ],
-      "genre": "멀티사이트 ADV",
-      "genre_full": "멀티사이트 미스터리 ADV / 비주얼노벨",
-      "developer": "Kadokawa Shoten 계열 제작",
-      "publisher": "Kadokawa Shoten",
-      "playtime": "약 14.5시간",
-      "edition": "PlayStation 2 일본판",
-      "release_jp": "2006-08-31",
-      "product_id": "SLPM-66338",
-      "base_update": "Ver.1.01",
-      "note": "",
-      "cover_caption": "",
-      "status": "released",
-      "description": "EVE new generation (PlayStation 2) Korean Translation Patch / 한국어 패치",
-      "pushed_at": "2026-10-05T03:27:57Z",
-      "stars": 1,
-      "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch",
-      "has_pages": false,
-      "topics": [
-        "korean-translation",
-        "kr-patch",
-        "ps2"
-      ],
-      "guide_url": "",
-      "guide_status": null,
-      "latest_release": {
-        "tag": "v1.0",
-        "name": "EVE new generation 한국어 패치 v1.0",
-        "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/tag/v1.0",
-        "published_at": "2026-10-04T09:23:46Z",
-        "asset_count": 1
-      },
-      "downloads": 449,
-      "assets": [
-        {
-          "name": "EVE_NG_v1.0.zip",
-          "tag": "v1.0",
-          "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.0/EVE_NG_v1.0.zip",
-          "downloads": 449,
-          "asset_id": 609571381,
-          "created_at": "2026-10-04T09:55:30Z",
-          "release_published_at": "2026-10-04T09:23:46Z"
-        }
-      ],
-      "tools": [],
-      "activity_at": "2026-10-04T10:53:38Z",
-      "scope": {
-        "title": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "ui": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "dialogue": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "image": {
-          "state": "partial",
-          "status": "일부",
-          "since": null
-        },
-        "video": {
-          "state": "none",
-          "status": "확인 필요",
-          "since": null
-        }
-      },
-      "changelog": [
-        {
-          "v": "1.0",
-          "added": [
-            "title",
-            "ui",
-            "dialogue"
-          ],
-          "partial": [
-            "image"
-          ],
-          "improved": [],
-          "fixed": [],
-          "note": "",
-          "date": "2026-10-04",
-          "date_source": "release",
-          "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/tag/v1.0"
-        }
-      ],
-      "metadata_source": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/blob/main/README.md",
-      "downloads_current": 449,
-      "downloads_carried": 0,
-      "download_ledger": {
-        "eve-new-generation-kr-patch/v1.0/EVE_NG_v1.0.zip": {
-          "repo": "eve-new-generation-kr-patch",
-          "tag": "v1.0",
-          "name": "EVE_NG_v1.0.zip",
-          "asset_id": 609571381,
-          "last_count": 449,
-          "carried": 0,
-          "removed": false
-        }
-      },
-      "cover": "covers/eve-new-generation-kr-patch.webp",
-      "cover_source": "https://gamesdb.launchbox-app.com/games/details/130464-eve-new-generation",
-      "cover_revision": "c2999e87c5ff"
-    },
-    {
-      "repo": "tears-to-tiara-2-kr-patch",
-      "title": "티어즈 투 티아라 2",
-      "original": "ティアーズ・トゥ・ティアラⅡ 覇王の末裔",
-      "series": "기타",
-      "platforms": [
-        "PS3"
-      ],
-      "genre": "RPG",
-      "genre_full": "RPG",
-      "developer": "AQUAPLUS",
-      "publisher": "",
-      "playtime": "77–80시간",
-      "edition": "일본판 일반판",
-      "release_jp": "2013-10-31",
-      "product_id": "BLJM61076",
-      "base_update": "공식 Ver.1.02",
-      "note": "",
-      "cover_caption": "",
-      "status": "released",
-      "description": "PS3용 『Tears to Tiara II』 비공식 한국어 패치",
-      "pushed_at": "2026-10-05T03:28:01Z",
-      "stars": 1,
-      "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch",
-      "has_pages": false,
-      "topics": [
-        "korean-translation",
-        "kr-patch",
-        "ps3"
-      ],
-      "guide_url": "",
-      "guide_status": null,
-      "latest_release": {
-        "tag": "v1.0",
-        "name": "티어즈 투 티아라 2 한국어 패치 v1.0",
-        "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/tag/v1.0",
-        "published_at": "2026-09-27T00:38:38Z",
-        "asset_count": 1
-      },
-      "downloads": 318,
-      "assets": [
-        {
-          "name": "TTT2_KR_Patcher_v1.0.zip",
-          "tag": "v1.0",
-          "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/download/v1.0/TTT2_KR_Patcher_v1.0.zip",
-          "downloads": 318,
-          "asset_id": 609346501,
-          "created_at": "2026-10-04T07:16:59Z",
-          "release_published_at": "2026-09-27T00:38:38Z"
-        }
-      ],
-      "tools": [],
-      "activity_at": "2026-10-04T05:31:04Z",
-      "scope": {
-        "title": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "ui": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "dialogue": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "image": {
-          "state": "partial",
-          "status": "일부",
-          "since": null
-        },
-        "video": {
-          "state": "none",
-          "status": "확인 필요",
-          "since": null
-        }
-      },
-      "changelog": [
-        {
-          "v": "1.0",
-          "added": [
-            "title",
-            "ui",
-            "dialogue",
-            "튜토리얼",
-            "챕터 타이틀"
-          ],
-          "partial": [
-            "image"
-          ],
-          "improved": [
-            "대사 줄바꿈"
-          ],
-          "fixed": [
-            "전투 스크립트 구조",
-            "전투 조건 표시",
-            "전투 결과 화면"
-          ],
-          "note": "",
-          "date": "2026-09-27",
-          "date_source": "release",
-          "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/tag/v1.0"
-        }
-      ],
-      "metadata_source": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/blob/main/README.md",
-      "downloads_current": 318,
-      "downloads_carried": 0,
-      "download_ledger": {
-        "tears-to-tiara-2-kr-patch/v1.0/TTT2_KR_Patcher_v1.0.zip": {
-          "repo": "tears-to-tiara-2-kr-patch",
-          "tag": "v1.0",
-          "name": "TTT2_KR_Patcher_v1.0.zip",
-          "asset_id": 609346501,
-          "last_count": 318,
-          "carried": 0,
-          "removed": false
-        }
-      },
-      "cover": "covers/tears-to-tiara-2-kr-patch.webp",
-      "cover_source": "https://gamesdb.launchbox-app.com/games/details/25025-tears-to-tiara-ii-heir-of-the-overlord",
-      "cover_revision": "99ae968d8eac"
-    },
-    {
-      "repo": "Guardian-Angel-Korean-Localization",
-      "title": "가디언 엔젤",
-      "original": "ガーディアンエンジェル / Guardian Angel",
-      "series": "기타",
-      "platforms": [
-        "PS2"
-      ],
-      "genre": "SF 추리 ADV",
-      "genre_full": "시간축·다중시점 SF 미스터리 / 추리 어드벤처",
-      "developer": "Vridge",
-      "publisher": "Datam Polystar",
-      "playtime": "20–40시간",
-      "edition": "PlayStation 2 일본판",
-      "release_jp": "2003-02-27",
-      "product_id": "SLPS-25214",
-      "base_update": "",
-      "note": "",
-      "cover_caption": "",
-      "status": "wip",
-      "description": "PlayStation 2용 미스터리 어드벤처 게임 『Guardian Angel』의 비공식 한국어화 프로젝트입니다. 사건으로 육체를 잃고 수호천사가 된 사립탐정 에릭이 딸 에스텔과 주변 인물들에게 영감을 주며, 시간과 공간을 넘나들어 사건의 진상을 추적하는 작품입니다. 게임 내 대사와 시스템 텍스트를 한국어로 번역하는 것을 목표로 합니다.",
-      "pushed_at": "2026-10-05T03:28:05Z",
-      "stars": 0,
-      "url": "https://github.com/Dollars-Archive/Guardian-Angel-Korean-Localization",
-      "has_pages": false,
-      "topics": [
-        "korean-translation",
-        "kr-patch",
-        "ps2"
-      ],
-      "guide_url": "",
-      "guide_status": null,
-      "latest_release": null,
-      "downloads": 0,
-      "assets": [],
-      "tools": [],
-      "activity_at": "2026-10-01T01:07:50Z",
-      "scope": {
-        "title": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "ui": {
-          "state": "partial",
-          "status": "일부",
-          "since": null
-        },
-        "dialogue": {
-          "state": "none",
-          "status": "미작업",
-          "since": null
-        },
-        "image": {
-          "state": "none",
-          "status": "미작업",
-          "since": null
-        },
-        "video": {
-          "state": "none",
-          "status": "확인 필요",
-          "since": null
-        }
-      },
-      "changelog": [],
-      "metadata_source": "https://github.com/Dollars-Archive/Guardian-Angel-Korean-Localization/blob/main/README.md",
-      "downloads_current": 0,
-      "downloads_carried": 0,
-      "download_ledger": {},
-      "cover": "covers/Guardian-Angel-Korean-Localization.webp",
-      "cover_source": "https://gamesdb.launchbox-app.com/games/details/375952-guardian-angel",
-      "cover_revision": "e7bc3b2e946d"
-    },
-    {
-      "repo": "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch",
-      "title": "이상한 환상향 -Lotus Labyrinth R-",
-      "original": "不思議の幻想郷 -ロータスラビリンスR-",
-      "series": "동방",
-      "platforms": [
-        "Switch"
-      ],
-      "genre": "다인원 던전 RPG",
-      "genre_full": "다인원 던전 탐색 RPG",
-      "developer": "AQUASTYLE",
-      "publisher": "",
-      "playtime": "약 46시간",
-      "edition": "Nintendo Switch 일본판",
-      "release_jp": "2021-09-30",
-      "product_id": "0100A7A015E4C000",
-      "base_update": "공식 Ver.1.0.1 (1.01)",
-      "note": "",
-      "cover_caption": "",
-      "status": "released",
-      "description": "이상한 환상향 -Lotus Labyrinth R- PC / Nintendo Switch 비공식 한국어 패치 프로젝트",
-      "pushed_at": "2026-10-05T03:28:18Z",
-      "stars": 0,
-      "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch",
-      "has_pages": true,
-      "topics": [
-        "korean-translation",
-        "kr-patch",
-        "nintendo-switch"
-      ],
-      "guide_url": "https://dollars-archive.github.io/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/",
-      "guide_status": 200,
-      "latest_release": {
-        "tag": "v1.0",
-        "name": "이상한 환상향 -Lotus Labyrinth R- 한국어 패치 v1.0",
-        "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/releases/tag/v1.0",
-        "published_at": "2026-09-25T12:30:12Z",
-        "asset_count": 1
-      },
-      "downloads": 51,
-      "assets": [
-        {
-          "name": "_LLR_Switch_._v1.0.zip",
-          "tag": "v1.0",
-          "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/releases/download/v1.0/_LLR_Switch_._v1.0.zip",
-          "downloads": 51,
-          "asset_id": 609359818,
-          "created_at": "2026-10-04T07:27:45Z",
-          "release_published_at": "2026-09-25T12:30:12Z"
-        }
-      ],
-      "tools": [],
-      "activity_at": "2026-09-30T14:14:48Z",
-      "scope": {
-        "title": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "ui": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "dialogue": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "image": {
-          "state": "partial",
-          "status": "일부",
-          "since": null
-        },
-        "video": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        }
-      },
-      "changelog": [
-        {
-          "v": "1.0",
-          "added": [
-            "title",
-            "ui",
-            "dialogue",
-            "video",
-            "아이템·장비·스킬·도감",
-            "튜토리얼"
-          ],
-          "partial": [
-            "image"
-          ],
-          "improved": [],
-          "fixed": [],
-          "note": "",
-          "date": "2026-09-25",
-          "date_source": "release",
-          "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/releases/tag/v1.0"
-        }
-      ],
-      "metadata_source": "https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/blob/main/README.md",
-      "downloads_current": 51,
-      "downloads_carried": 0,
-      "download_ledger": {
-        "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/v1.0/_LLR_Switch_._v1.0.zip": {
-          "repo": "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch",
-          "tag": "v1.0",
-          "name": "_LLR_Switch_._v1.0.zip",
-          "asset_id": 609359818,
-          "last_count": 51,
-          "carried": 0,
-          "removed": false
-        }
-      },
-      "cover": "covers/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch.webp",
-      "cover_source": "https://gamesdb.launchbox-app.com/games/details/420705-touhou-genso-wanderer-lotus-labyrinth-r",
-      "cover_revision": "81a8e66a552c"
-    },
-    {
-      "repo": "touhou-genso-wanderer-reloaded-kr-patch",
-      "title": "이상한 환상향 TOD -RELOADED-",
-      "original": "不思議の幻想郷TOD -RELOADED-",
-      "series": "동방",
-      "platforms": [
-        "PC",
-        "Switch"
-      ],
-      "genre": "던전 RPG",
-      "genre_full": "던전 RPG",
-      "developer": "AQUASTYLE",
-      "publisher": "",
-      "playtime": "8.5–69.5시간",
-      "edition": "Steam판 / Nintendo Switch판",
-      "release_jp": "2017-12-21",
-      "product_id": "01004E900B082000",
-      "base_update": "PC: 패처 지원 원본 / Nintendo Switch: 공식 Ver.1.0.3",
-      "note": "",
-      "cover_caption": "",
-      "status": "released",
-      "description": "Touhou Genso Wanderer Reloaded 한국어 패치 제작 및 공개 작업일지",
-      "pushed_at": "2026-10-05T03:28:22Z",
-      "stars": 0,
-      "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch",
-      "has_pages": true,
-      "topics": [
-        "korean-translation",
-        "kr-patch",
-        "nintendo-switch",
-        "pc"
-      ],
-      "guide_url": "https://dollars-archive.github.io/touhou-genso-wanderer-reloaded-kr-patch/",
-      "guide_status": 200,
-      "latest_release": {
-        "tag": "v1.0",
-        "name": "이상한 환상향 TOD -RELOADED- 한국어 패치 v1.0",
-        "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/v1.0",
-        "published_at": "2026-09-25T10:23:29Z",
-        "asset_count": 2
-      },
-      "downloads": 73,
-      "assets": [
-        {
-          "name": "TODR_PC_v1.0.zip",
-          "tag": "v1.0",
-          "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/download/v1.0/TODR_PC_v1.0.zip",
-          "downloads": 25,
-          "asset_id": 609378040,
-          "created_at": "2026-10-04T07:40:11Z",
-          "release_published_at": "2026-09-25T10:23:29Z"
-        },
-        {
-          "name": "TODR_Switch_v1.0.zip",
-          "tag": "v1.0",
-          "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/download/v1.0/TODR_Switch_v1.0.zip",
-          "downloads": 48,
-          "asset_id": 609356044,
-          "created_at": "2026-10-04T07:24:53Z",
-          "release_published_at": "2026-09-25T10:23:29Z"
-        }
-      ],
-      "tools": [],
-      "activity_at": "2026-09-30T13:53:36Z",
-      "scope": {
-        "title": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "ui": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "dialogue": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "image": {
-          "state": "partial",
-          "status": "일부",
-          "since": null
-        },
-        "video": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        }
-      },
-      "changelog": [
-        {
-          "v": "1.0",
-          "added": [
-            "title",
-            "ui",
-            "dialogue",
-            "video",
-            "아이템·스킬·도감"
-          ],
-          "partial": [
-            "image"
-          ],
-          "improved": [],
-          "fixed": [],
-          "note": "",
-          "date": "2026-09-25",
-          "date_source": "release",
-          "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/tag/v1.0"
-        }
-      ],
-      "metadata_source": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/blob/main/README.md",
-      "downloads_current": 73,
-      "downloads_carried": 0,
-      "download_ledger": {
-        "touhou-genso-wanderer-reloaded-kr-patch/v1.0/TODR_PC_v1.0.zip": {
-          "repo": "touhou-genso-wanderer-reloaded-kr-patch",
-          "tag": "v1.0",
-          "name": "TODR_PC_v1.0.zip",
-          "asset_id": 609378040,
-          "last_count": 25,
-          "carried": 0,
-          "removed": false
-        },
-        "touhou-genso-wanderer-reloaded-kr-patch/v1.0/TODR_Switch_v1.0.zip": {
-          "repo": "touhou-genso-wanderer-reloaded-kr-patch",
-          "tag": "v1.0",
-          "name": "TODR_Switch_v1.0.zip",
-          "asset_id": 609356044,
-          "last_count": 48,
-          "carried": 0,
-          "removed": false
-        }
-      },
-      "cover": "covers/touhou-genso-wanderer-reloaded-kr-patch.webp",
-      "cover_source": "https://gamesdb.launchbox-app.com/games/details/114795-touhou-genso-wanderer-reloaded",
-      "cover_revision": "69db0bbc25e9"
     }
   ],
   "related": [
@@ -986,11 +1051,6 @@
       "message": "릴리스 공개보다 하루 넘게 늦게 생성된 첨부파일이 있습니다."
     },
     {
-      "repo": "eve-new-generation-kr-patch",
-      "type": "readme-form-invalid",
-      "message": "동영상 자막: 기존 자료만으로 완료 여부를 확인할 수 없습니다."
-    },
-    {
       "repo": "eve-rebirth-terror-kr-patch",
       "type": "asset-reuploaded",
       "message": "릴리스 공개보다 하루 넘게 늦게 생성된 첨부파일이 있습니다."
@@ -1003,7 +1063,12 @@
     {
       "repo": "eve-zero-kr-patch",
       "type": "readme-form-invalid",
-      "message": "동영상 자막: 기존 자료만으로 완료 여부를 확인할 수 없습니다."
+      "message": "메뉴·UI: 제목이 누락되거나 중복되었습니다. 기존 범위를 유지합니다."
+    },
+    {
+      "repo": "eve-zero-kr-patch",
+      "type": "readme-form-invalid",
+      "message": "이미지 번역: 제목이 누락되거나 중복되었습니다. 기존 범위를 유지합니다."
     },
     {
       "repo": "Game-Localization-Discovery-Archive",
@@ -1011,19 +1076,9 @@
       "message": "관련 저장소 description이 비어 있습니다."
     },
     {
-      "repo": "Guardian-Angel-Korean-Localization",
-      "type": "readme-form-invalid",
-      "message": "동영상 자막: 기존 자료만으로 완료 여부를 확인할 수 없습니다."
-    },
-    {
       "repo": "tears-to-tiara-2-kr-patch",
       "type": "asset-reuploaded",
       "message": "릴리스 공개보다 하루 넘게 늦게 생성된 첨부파일이 있습니다."
-    },
-    {
-      "repo": "tears-to-tiara-2-kr-patch",
-      "type": "readme-form-invalid",
-      "message": "동영상 자막: 기존 자료만으로 완료 여부를 확인할 수 없습니다."
     },
     {
       "repo": "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch",
@@ -1031,9 +1086,39 @@
       "message": "릴리스 공개보다 하루 넘게 늦게 생성된 첨부파일이 있습니다."
     },
     {
+      "repo": "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch",
+      "type": "readme-form-invalid",
+      "message": "동영상 자막: 제목이 누락되거나 중복되었습니다. 기존 범위를 유지합니다."
+    },
+    {
       "repo": "touhou-genso-wanderer-reloaded-kr-patch",
       "type": "asset-reuploaded",
       "message": "릴리스 공개보다 하루 넘게 늦게 생성된 첨부파일이 있습니다."
+    },
+    {
+      "repo": "touhou-genso-wanderer-reloaded-kr-patch",
+      "type": "readme-form-invalid",
+      "message": "타이틀 한글화: 제목이 누락되거나 중복되었습니다. 기존 범위를 유지합니다."
+    },
+    {
+      "repo": "touhou-genso-wanderer-reloaded-kr-patch",
+      "type": "readme-form-invalid",
+      "message": "메뉴·UI: 제목이 누락되거나 중복되었습니다. 기존 범위를 유지합니다."
+    },
+    {
+      "repo": "touhou-genso-wanderer-reloaded-kr-patch",
+      "type": "readme-form-invalid",
+      "message": "대사: 제목이 누락되거나 중복되었습니다. 기존 범위를 유지합니다."
+    },
+    {
+      "repo": "touhou-genso-wanderer-reloaded-kr-patch",
+      "type": "readme-form-invalid",
+      "message": "이미지 번역: 제목이 누락되거나 중복되었습니다. 기존 범위를 유지합니다."
+    },
+    {
+      "repo": "touhou-genso-wanderer-reloaded-kr-patch",
+      "type": "readme-form-invalid",
+      "message": "동영상 자막: 제목이 누락되거나 중복되었습니다. 기존 범위를 유지합니다."
     }
   ],
   "ledger_started_at": "2026-10-04T13:21:03Z"
