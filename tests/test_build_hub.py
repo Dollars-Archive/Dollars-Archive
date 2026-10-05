@@ -36,6 +36,12 @@ class FixtureClient:
     def readme(self, name):
         return self.readme_text
 
+    def tags(self, name):
+        return [{"name": r["tag_name"], "commit": {"sha": "fixture"}} for r in self.release_data if not r.get("draft")]
+
+    def tag_date(self, name, sha):
+        return "2026-09-30T16:00:00Z"
+
 
 class HubTests(unittest.TestCase):
     def catalogue(self, client=None, metadata=None, guide=lambda u: 404):
@@ -140,13 +146,14 @@ class HubTests(unittest.TestCase):
         self.assertEqual(result[:len(prefix)], prefix)
         self.assertEqual(result[-len(suffix):], suffix)
 
-    def test_summary_and_cover_caption_are_safe_in_readme(self):
-        data = self.catalogue(metadata={'sample-kr-patch': {'title': '게임', 'summary': '1.0 : 대사 <script> | 번역\n1.1 : 두 번째 줄', 'summary_source': 'https://example.com/source', 'cover_caption': 'PS4판 표지'}})
+    def test_profile_excludes_history_and_escapes_genre_and_caption(self):
+        data = self.catalogue(metadata={'sample-kr-patch': {'title': '게임', 'summary': '1.0 : 요약', 'genre': '<script> | RPG', 'genre_full': '전체 장르 설명', 'cover_caption': 'PS4판 표지'}})
         p = data['patches'][0]
         p.update(cover='covers/sample.webp', cover_revision='0123456789ab', cover_source='https://example.com/source')
         section = hub.readme_section(data).decode()
-        self.assertIn('대사 &lt;script&gt; &#124; 번역', section)
-        self.assertIn('1.1 : 두 번째 줄', section)
+        self.assertIn('&lt;script&gt; &#124; RPG', section)
+        self.assertNotIn('1.0 : 요약', section)
+        self.assertEqual(p['genre_full'], '전체 장르 설명')
         self.assertIn('PS4판 표지', section)
         self.assertIn('sample.webp?v=0123456789ab', section)
 
@@ -180,6 +187,28 @@ class HubTests(unittest.TestCase):
         client = hub.GitHubClient()
         with patch.object(client, "get", side_effect=[([{"page": 1}], "https://api.github.com/next"), ([{"page": 2}], None)]):
             self.assertEqual(client.paginate("/first"), [{"page": 1}, {"page": 2}])
+
+    def test_history_integration_facts_and_missing_history_warnings(self):
+        data = self.catalogue(metadata={'sample-kr-patch': {'versions': [{'v': '1.0', 'added': ['ui']}], 'genre': 'RPG'}})
+        self.assertEqual(data['patches'][0]['scope']['ui']['state'], 'done')
+        self.assertIn('missing-facts', self.types(data))
+        self.assertNotIn('changelog-missing', self.types(data))
+        self.assertIn('missing-scope', self.types(self.catalogue()))
+        self.assertNotIn('missing-facts', self.types(self.catalogue(metadata={'sample-kr-patch': {'developer': '제작사', 'genre': 'RPG'}})))
+
+    def test_bad_versions_do_not_block_metadata_loading(self):
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / 'patches.yml'
+            path.write_text('sample-kr-patch:\n  versions: wrong\n', encoding='utf-8')
+            data = self.catalogue(metadata=hub.load_metadata(path))
+            self.assertIn('changelog-invalid', self.types(data))
+
+    def test_deleted_release_gets_tag_commit_date(self):
+        client = FixtureClient()
+        client.tags = lambda name: [{'name': 'v0.9', 'commit': {'sha': 'old'}}, {'name': 'v1.0', 'commit': {'sha': 'current'}}]
+        data = self.catalogue(client, {'sample-kr-patch': {'versions': [{'v': '1.0', 'added': ['ui']}, {'v': '0.9', 'fixed': ['버그 수정']}]}})
+        self.assertEqual(data['patches'][0]['changelog'][1]['date'], '2026-10-01')
+        self.assertEqual(data['patches'][0]['changelog'][1]['date_source'], 'tag')
 
     def test_credentials_never_sent_to_external_host(self):
         with self.assertRaises(hub.BuildError):

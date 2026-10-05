@@ -15,7 +15,9 @@ test('collected page renders all covers and filters before API replies',()=>{
   const {context,node,data}=page(async()=>[]);
   assert.equal((node('list').innerHTML.match(/class="row"/g)||[]).length,data.patches.length);
   assert.equal((node('list').innerHTML.match(/loading="lazy"/g)||[]).length,data.patches.filter(p=>p.cover).length);
-  assert.equal((node('list').innerHTML.match(/class="patch-summary"/g)||[]).length,data.patches.filter(p=>p.summary).length);
+  assert.equal((node('list').innerHTML.match(/class="scope-chip /g)||[]).length,data.patches.length*5);
+  assert.equal((node('list').innerHTML.match(/class="facts"/g)||[]).length,data.patches.length);
+  assert(!node('list').innerHTML.includes('patch-summary'));
   assert(!node('list').innerHTML.includes('<span class="small">EVE</span>'));
   vm.runInContext('state.plat="Dreamcast";render()',context);
   assert.equal((node('list').innerHTML.match(/class="row"/g)||[]).length,data.patches.filter(p=>p.platforms.includes('Dreamcast')).length);
@@ -23,21 +25,57 @@ test('collected page renders all covers and filters before API replies',()=>{
   assert.equal((node('list').innerHTML.match(/class="row"/g)||[]).length,data.patches.filter(p=>p.series==='동방').length);
   assert(node('footer').textContent.includes('수집값'));
 });
-test('card metadata stays compact and uniform',()=>{
+test('four facts and edition details keep empty values and full tooltips',()=>{
   const {context,node}=page(async()=>[]);
-  vm.runInContext('data.patches[0].genre="SHOULD-NOT-SHOW";data.patches[0].note="NOTE-SHOULD-NOT-SHOW";data.patches[0].release_jp="2001-03-22";data.patches[0].product_id="TEST-ID";data.patches[0].base_update="Ver.9.9";applyData(data)',context);
+  vm.runInContext('data.patches[0].genre="RPG";data.patches[0].genre_full="전체 장르";data.patches[0].developer="개발사";data.patches[0].publisher="발매사";data.patches[0].playtime="";data.patches[0].note="NOTE-SHOULD-NOT-SHOW";data.patches[0].release_jp="2001-03-22";data.patches[0].product_id="TEST-ID";data.patches[0].base_update="Ver.9.9";applyData(data)',context);
   const out=node('list').innerHTML;
-  assert(out.includes('발매 2001.03.22'));
-  assert(out.includes('ID <span class="mono">TEST-ID</span>'));
-  assert(out.includes('기준 Ver.9.9'));
-  assert(!out.includes('SHOULD-NOT-SHOW'));
+  assert(out.includes('<dt>발매</dt>'));
+  assert(out.includes('2001.03.22'));
+  assert(out.includes('<dd class="mono">TEST-ID</dd>'));
+  assert(out.includes('<dd>Ver.9.9</dd>'));
+  assert(out.includes('title="전체 장르">RPG'));
+  assert(out.includes('title="개발 개발사 / 발매 발매사"'));
+  assert(out.includes('<dt>플레이타임</dt><dd class="number" title="—">—</dd>'));
   assert(!out.includes('NOTE-SHOULD-NOT-SHOW'));
 });
-test('summary text and source links cannot inject markup',()=>{
+test('history, scope and facts cannot inject markup or unsafe release URLs',()=>{
   const {context,node}=page(async()=>[]);
-  vm.runInContext('data.patches[0].summary="<script>bad</script>\\n대사·메뉴 번역";data.patches[0].summary_source="javascript:alert(1)";applyData(data)',context);
+  vm.runInContext('data.patches[0].changelog=[{v:"1.0",url:"javascript:alert(1)",added:["<script>bad</script>"]}];data.patches[0].developer="<img src=x>";data.patches[0].scope={video:{state:"done",since:"<script>"}};applyData(data)',context);
   assert(node('list').innerHTML.includes('&lt;script&gt;bad&lt;/script&gt;'));
   assert(!node('list').innerHTML.includes('href="javascript:'));
+  assert(!node('list').innerHTML.includes('<img src=x>'));
+});
+test('one version has no history toggle, no versions shows pre-release',()=>{
+  const {context,node}=page(async()=>[]);
+  assert.equal(vm.runInContext('historyMarkup({changelog:[{v:"1.0",added:["ui"]}]})',context).includes('<details'),false);
+  assert(vm.runInContext('historyMarkup({changelog:[]})',context).includes('배포 전'));
+  assert(vm.runInContext('scopeMarkup({})',context).match(/scope-chip none/g).length===5);
+});
+test('multiple versions preview one category and expand all aligned rows',()=>{
+  const {context}=page(async()=>[]);
+  const out=vm.runInContext('historyMarkup({changelog:[{v:"1.1",date:"2026-10-05",added:["video"],fixed:["오류 A","오류 B"]},{v:"1.0",date:"2026-10-01",added:["ui"]}]})',context);
+  assert(out.includes('변경 이력 (2)'));
+  assert(out.includes('외 2건'));
+  assert(out.includes('동영상 자막'));
+  assert(out.includes('오류 A · 오류 B'));
+  assert(out.includes('2026.10.05'));
+});
+test('later introduction has a suffix, baseline and partial chips do not',()=>{
+  const {context}=page(async()=>[]);
+  const out=vm.runInContext('scopeMarkup({scope:{title:{state:"done",since:null},video:{state:"done",since:"1.1"},image:{state:"partial",since:null}}})',context);
+  assert.equal((out.match(/class="scope-since"/g)||[]).length,1);
+  assert(out.includes('v1.1에서 추가'));
+  assert(out.includes('이미지 일부'));
+});
+test('download rerender preserves an expanded history for the same game',()=>{
+  const {context,node,data}=page(async()=>[]);
+  const repo=data.patches[0].repo;
+  const old={dataset:{section:'history'},closest:()=>({dataset:{repo}})};
+  const restored={...old,open:false},other={dataset:{section:'edition'},closest:old.closest,open:false};
+  node('list').querySelectorAll=selector=>selector==='.row details[open]'?[old]:selector==='.row details'?[restored,other]:[];
+  vm.runInContext('render()',context);
+  assert.equal(restored.open,true);
+  assert.equal(other.open,false);
 });
 test('blocked API retains page, counts and collected footer',async()=>{
   const {context,node}=page(async()=>[]);

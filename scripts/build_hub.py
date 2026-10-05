@@ -24,9 +24,11 @@ import yaml
 if __package__:
     from .covers import plan_covers
     from .downloads import plan_downloads
+    from .history import day, normalize_history, version_key
 else:
     from covers import plan_covers
     from downloads import plan_downloads
+    from history import day, normalize_history, version_key
 
 OWNER = "Dollars-Archive"
 API = "https://api.github.com"
@@ -69,7 +71,10 @@ def load_metadata(path: Path) -> dict:
         if not isinstance(item, dict):
             raise BuildError(f"{repo}: 메타데이터는 매핑이어야 합니다.")
         for key, value in item.items():
-            if key == "platforms":
+            if key == "versions":
+                # History validation is nonfatal and reported per entry later.
+                continue
+            elif key == "platforms":
                 if not isinstance(value, list) or not all(isinstance(p, str) and p for p in value):
                     raise BuildError(f"{repo}: platforms는 문자열 목록이어야 합니다.")
             elif not isinstance(value, str):
@@ -155,6 +160,13 @@ class GitHubClient:
         except (KeyError, ValueError, UnicodeError) as exc:
             raise BuildError(f"{repo}: README 응답을 해석할 수 없습니다.") from exc
 
+    def tags(self, repo: str) -> list[dict]:
+        return self.paginate(f"/repos/{OWNER}/{repo}/tags?per_page=100")
+
+    def tag_date(self, repo: str, sha: str) -> str:
+        data, _ = self.get(f"/repos/{OWNER}/{repo}/commits/{sha}", allow_404=True)
+        return ((data or {}).get("commit", {}).get("committer", {}).get("date") or "")
+
 
 def guide_status(url: str) -> int | None:
     # Never forward the GitHub credential to Pages or other guide hosts.
@@ -198,6 +210,10 @@ def patch_warnings(patch: dict, readme: str, has_metadata: bool, now: datetime) 
         result.append(warning(repo, "no-description", "저장소 description이 비어 있습니다."))
     if any(a.get("created_at") and a.get("release_published_at") and iso_time(a["created_at"]) - iso_time(a["release_published_at"]) > timedelta(days=1) for a in patch["assets"]):
         result.append(warning(repo, "asset-reuploaded", "릴리스 공개보다 하루 넘게 늦게 생성된 첨부파일이 있습니다."))
+    if sum(not patch.get(key, "").strip() for key in ("developer", "genre", "playtime")) >= 2:
+        result.append(warning(repo, "missing-facts", "개발사·장르·플레이타임 중 2개 이상이 비어 있습니다."))
+    if latest and not patch.get("changelog"):
+        result.append(warning(repo, "missing-scope", "버전 기록이 없어 한국어화 범위를 계산할 수 없습니다."))
     return result
 
 
@@ -222,12 +238,15 @@ def build_patch(repo: dict, meta: dict, releases: list[dict], check_guide) -> di
         "series": meta.get("series") or "기타",
         "platforms": meta.get("platforms") or [],
         "genre": meta.get("genre", ""),
+        "genre_full": meta.get("genre_full") or meta.get("genre", ""),
+        "developer": meta.get("developer", ""),
+        "publisher": meta.get("publisher", ""),
+        "playtime": meta.get("playtime", ""),
+        "edition": meta.get("edition", ""),
         "release_jp": meta.get("release_jp", ""),
         "product_id": meta.get("product_id", ""),
         "base_update": meta.get("base_update", ""),
         "note": meta.get("note", ""),
-        "summary": meta.get("summary", ""),
-        "summary_source": meta.get("summary_source", ""),
         "cover_caption": meta.get("cover_caption", ""),
         "status": resolve_status(meta, patches),
         "description": repo.get("description") or "",
@@ -257,6 +276,19 @@ def collect(client, metadata: dict, now: datetime, check_guide=guide_status) -> 
             meta = metadata.get(name, {})
             releases, readme = client.releases(name), client.readme(name)
             patch = build_patch(repo, meta, releases, check_guide)
+            tags = client.tags(name)
+            release_keys = {version_key(r.get("tag_name")) for r in releases if not r.get("draft") and day(r.get("published_at"))}
+            commit_dates = {}
+            records = meta.get("versions", [])
+            documented = {version_key(e.get("v")) for e in records if isinstance(e, dict)} if isinstance(records, list) else set()
+            for tag in tags:
+                key = version_key(tag.get("name"))
+                if key is not None and key in documented and key not in release_keys:
+                    commit_dates[tag["name"]] = client.tag_date(name, tag["commit"]["sha"])
+            patch["scope"], patch["changelog"], history_warnings = normalize_history(
+                name, records, releases, tags, commit_dates,
+                (patch["latest_release"] or {}).get("tag"))
+            warnings.extend(history_warnings)
             patches.append(patch)
             warnings.extend(patch_warnings(patch, readme, name in metadata, now))
         elif name.lower().endswith("-kr-patch") or "korean-localization" in name.lower():
@@ -322,7 +354,7 @@ def summary_svg(summary: dict, dark: bool = False) -> bytes:
 def readme_section(data: dict) -> bytes:
     s = data["summary"]
     summary_label = f"한글패치 {s['total']}개 · 배포 {s['released']} · 작업 중 {s['wip']} · 다운로드 {s['downloads']:,}회"
-    lines = ["", themed_image("summary", summary_label), "", "## 한글패치 컬렉션", "", f"{summary_label} · {md_link('검색·기종 필터로 찾아보기 →', HUB_URL)}", "", "| 표지 | 게임 | 기종 | 상태 | 버전 | 다운로드 | 바로가기 |", "| :---: | :--- | :---: | :---: | :---: | ---: | :--- |"]
+    lines = ["", themed_image("summary", summary_label), "", "## 한글패치 컬렉션", "", f"{summary_label} · {md_link('검색·기종 필터로 찾아보기 →', HUB_URL)}", "", "| 표지 | 게임 | 기종 | 장르 | 상태 | 버전 | 다운로드 | 바로가기 |", "| :---: | :--- | :---: | :--- | :---: | :---: | ---: | :--- |"]
     for p in data["patches"]:
         latest = p["latest_release"]
         links = [md_link("저장소", p["url"])]
@@ -346,9 +378,7 @@ def readme_section(data: dict) -> bytes:
             if p.get("cover_caption"):
                 cover += f'<br><sub>{html.escape(p["cover_caption"])}</sub>'
         title = f"**{md(p['title'])}**"
-        if p.get("summary"):
-            title += "".join(f'<br><sub>{html.escape(line).replace("|", "&#124;")}</sub>' for line in p["summary"].splitlines() if line.strip())
-        lines.append(f"| {cover} | {title} | {platforms} | {badge(p['status'], STATUS_LABELS[p['status']])} | {version} | **{p['downloads']:,}** | {' · '.join(links)} |")
+        lines.append(f"| {cover} | {title} | {platforms} | {md(p.get('genre') or '—')} | {badge(p['status'], STATUS_LABELS[p['status']])} | {version} | **{p['downloads']:,}** | {' · '.join(links)} |")
     if any(p.get("cover_source") for p in data["patches"]):
         lines.extend(["", "<sub>앞표지 출처: LaunchBox Games Database · 駿河屋 · 이미지를 누르면 출처 페이지가 열립니다.</sub>"])
     if data["related"]:
