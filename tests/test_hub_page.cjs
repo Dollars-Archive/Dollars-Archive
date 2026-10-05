@@ -40,9 +40,9 @@ test('guide chip is blank without a guide, direct for one guide and a game list 
   const {context}=page(async()=>[]);
   assert(vm.runInContext('walkthroughMarkup({repo:"game"})',context).includes('공략집 —'));
   const single=vm.runInContext('walkthroughMarkup({repo:"game",walkthroughs:[{url:"https://dollars-archive.github.io/Game-Walkthrough-Archive/guides/a.html"}]})',context);
-  assert(single.includes('공략집 ✓'));assert(single.includes('/guides/a.html'));
+  assert(single.includes('공략집 ✓'));assert(single.includes('/guides/a.html'));assert(single.includes(' download '));assert(!single.includes('target="_blank"'));
   const many=vm.runInContext('walkthroughMarkup({repo:"game",walkthroughs:[{url:"https://example.com/a"},{url:"https://example.com/b"}]})',context);
-  assert(many.includes('?game=game'));
+  assert(many.includes('?game=game'));assert(many.includes('target="_blank"'));
 });
 test('new walkthrough catalogue updates the matching game chip on refresh',async()=>{
   const {context,node,data}=page(async()=>[]);

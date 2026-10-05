@@ -222,8 +222,10 @@ function scopeMarkup(d){
 const WALKTHROUGH_HOME="https://dollars-archive.github.io/Game-Walkthrough-Archive/";
 function walkthroughMarkup(d){
   const guides=(d.walkthroughs||[]).filter(g=>safeUrl(g.url));
-  const url=guides.length===1?guides[0].url:WALKTHROUGH_HOME+"?game="+encodeURIComponent(d.repo);
-  return guides.length?`<a class="scope-chip done walkthrough" href="${esc(url)}" target="_blank" rel="noopener" title="직접 제작한 공략집 열기">공략집 ✓</a>`:'<span class="scope-chip none walkthrough">공략집 —</span>';
+  if(!guides.length)return '<span class="scope-chip none walkthrough">공략집 —</span>';
+  if(guides.length===1)return `<a class="scope-chip done walkthrough" href="${esc(guides[0].url)}" download title="직접 제작한 공략집 다운로드">공략집 ✓</a>`;
+  const url=WALKTHROUGH_HOME+"?game="+encodeURIComponent(d.repo);
+  return `<a class="scope-chip done walkthrough" href="${esc(url)}" target="_blank" rel="noopener" title="직접 제작한 공략집 목록 열기">공략집 ✓</a>`;
 }
 function releaseAssetsMarkup(d){
   const assets=d.assets.filter(a=>a.tag===d.latest_release?.tag);
