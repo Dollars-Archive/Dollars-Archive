@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-05T00:51:29Z",
+  "generated_at": "2026-10-05T01:02:39Z",
   "summary": {
     "total": 8,
     "released": 7,
     "wip": 1,
-    "downloads": 1284
+    "downloads": 1292
   },
   "patches": [
     {
@@ -46,13 +46,13 @@
         "published_at": "2026-10-04T09:52:01Z",
         "asset_count": 1
       },
-      "downloads": 321,
+      "downloads": 325,
       "assets": [
         {
           "name": "EVE_ZERO_Korean_Patch_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/download/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip",
-          "downloads": 321,
+          "downloads": 325,
           "asset_id": 609739492,
           "created_at": "2026-10-04T11:43:49Z",
           "release_published_at": "2026-10-04T09:52:01Z"
@@ -98,7 +98,7 @@
           "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/tag/v1.0"
         }
       ],
-      "downloads_current": 321,
+      "downloads_current": 325,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-zero-kr-patch/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip": {
@@ -106,7 +106,7 @@
           "tag": "v1.0",
           "name": "EVE_ZERO_Korean_Patch_v1.0.zip",
           "asset_id": 609739492,
-          "last_count": 321,
+          "last_count": 325,
           "carried": 0,
           "removed": false
         }
@@ -154,13 +154,13 @@
         "published_at": "2026-10-04T09:23:46Z",
         "asset_count": 1
       },
-      "downloads": 421,
+      "downloads": 424,
       "assets": [
         {
           "name": "EVE_NG_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.0/EVE_NG_v1.0.zip",
-          "downloads": 421,
+          "downloads": 424,
           "asset_id": 609571381,
           "created_at": "2026-10-04T09:55:30Z",
           "release_published_at": "2026-10-04T09:23:46Z"
@@ -208,7 +208,7 @@
           "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/tag/v1.0"
         }
       ],
-      "downloads_current": 421,
+      "downloads_current": 424,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-new-generation-kr-patch/v1.0/EVE_NG_v1.0.zip": {
@@ -216,7 +216,7 @@
           "tag": "v1.0",
           "name": "EVE_NG_v1.0.zip",
           "asset_id": 609571381,
-          "last_count": 421,
+          "last_count": 424,
           "carried": 0,
           "removed": false
         }
@@ -264,13 +264,13 @@
         "published_at": "2026-09-27T00:38:38Z",
         "asset_count": 1
       },
-      "downloads": 306,
+      "downloads": 307,
       "assets": [
         {
           "name": "TTT2_KR_Patcher_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/download/v1.0/TTT2_KR_Patcher_v1.0.zip",
-          "downloads": 306,
+          "downloads": 307,
           "asset_id": 609346501,
           "created_at": "2026-10-04T07:16:59Z",
           "release_published_at": "2026-09-27T00:38:38Z"
@@ -326,7 +326,7 @@
           "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/tag/v1.0"
         }
       ],
-      "downloads_current": 306,
+      "downloads_current": 307,
       "downloads_carried": 0,
       "download_ledger": {
         "tears-to-tiara-2-kr-patch/v1.0/TTT2_KR_Patcher_v1.0.zip": {
@@ -334,7 +334,7 @@
           "tag": "v1.0",
           "name": "TTT2_KR_Patcher_v1.0.zip",
           "asset_id": 609346501,
-          "last_count": 306,
+          "last_count": 307,
           "carried": 0,
           "removed": false
         }
