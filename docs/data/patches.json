@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T06:03:30Z",
+  "generated_at": "2026-10-05T06:09:05Z",
   "summary": {
     "total": 8,
     "released": 7,
@@ -88,7 +88,8 @@
           "since": null
         },
         "image": {
-          "state": "partial",
+          "state": "done",
+          "status": "완료",
           "since": null
         },
         "video": {
@@ -383,7 +384,8 @@
           "since": null
         },
         "image": {
-          "state": "partial",
+          "state": "done",
+          "status": "완료",
           "since": null
         },
         "video": {
@@ -530,7 +532,8 @@
           "since": null
         },
         "image": {
-          "state": "partial",
+          "state": "done",
+          "status": "완료",
           "since": null
         },
         "video": {
@@ -661,7 +664,8 @@
           "since": null
         },
         "image": {
-          "state": "partial",
+          "state": "done",
+          "status": "완료",
           "since": null
         },
         "video": {
