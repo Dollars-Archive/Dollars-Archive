@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-05T00:22:35Z",
+  "generated_at": "2026-10-05T00:51:29Z",
   "summary": {
     "total": 8,
     "released": 7,
     "wip": 1,
-    "downloads": 1274
+    "downloads": 1284
   },
   "patches": [
     {
@@ -17,9 +17,9 @@
       ],
       "genre": "어드벤처",
       "genre_full": "어드벤처",
-      "developer": "",
+      "developer": "C's Ware",
       "publisher": "",
-      "playtime": "",
+      "playtime": "약 46시간",
       "edition": "Dreamcast 일본판",
       "release_jp": "2001-03-22",
       "product_id": "T-39802M",
@@ -46,13 +46,13 @@
         "published_at": "2026-10-04T09:52:01Z",
         "asset_count": 1
       },
-      "downloads": 315,
+      "downloads": 321,
       "assets": [
         {
           "name": "EVE_ZERO_Korean_Patch_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/download/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip",
-          "downloads": 315,
+          "downloads": 321,
           "asset_id": 609739492,
           "created_at": "2026-10-04T11:43:49Z",
           "release_published_at": "2026-10-04T09:52:01Z"
@@ -61,7 +61,7 @@
       "tools": [],
       "scope": {
         "title": {
-          "state": "none",
+          "state": "done",
           "since": null
         },
         "ui": {
@@ -85,6 +85,7 @@
         {
           "v": "1.0",
           "added": [
+            "title",
             "ui",
             "dialogue"
           ],
@@ -97,7 +98,7 @@
           "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/tag/v1.0"
         }
       ],
-      "downloads_current": 315,
+      "downloads_current": 321,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-zero-kr-patch/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip": {
@@ -105,7 +106,7 @@
           "tag": "v1.0",
           "name": "EVE_ZERO_Korean_Patch_v1.0.zip",
           "asset_id": 609739492,
-          "last_count": 315,
+          "last_count": 321,
           "carried": 0,
           "removed": false
         }
@@ -153,13 +154,13 @@
         "published_at": "2026-10-04T09:23:46Z",
         "asset_count": 1
       },
-      "downloads": 419,
+      "downloads": 421,
       "assets": [
         {
           "name": "EVE_NG_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.0/EVE_NG_v1.0.zip",
-          "downloads": 419,
+          "downloads": 421,
           "asset_id": 609571381,
           "created_at": "2026-10-04T09:55:30Z",
           "release_published_at": "2026-10-04T09:23:46Z"
@@ -168,7 +169,7 @@
       "tools": [],
       "scope": {
         "title": {
-          "state": "none",
+          "state": "done",
           "since": null
         },
         "ui": {
@@ -192,6 +193,7 @@
         {
           "v": "1.0",
           "added": [
+            "title",
             "ui",
             "dialogue"
           ],
@@ -206,7 +208,7 @@
           "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/tag/v1.0"
         }
       ],
-      "downloads_current": 419,
+      "downloads_current": 421,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-new-generation-kr-patch/v1.0/EVE_NG_v1.0.zip": {
@@ -214,7 +216,7 @@
           "tag": "v1.0",
           "name": "EVE_NG_v1.0.zip",
           "asset_id": 609571381,
-          "last_count": 419,
+          "last_count": 421,
           "carried": 0,
           "removed": false
         }
@@ -233,9 +235,9 @@
       ],
       "genre": "RPG",
       "genre_full": "RPG",
-      "developer": "",
+      "developer": "AQUAPLUS",
       "publisher": "",
-      "playtime": "",
+      "playtime": "77–80시간",
       "edition": "일본판 일반판",
       "release_jp": "2013-10-31",
       "product_id": "BLJM61076",
@@ -262,13 +264,13 @@
         "published_at": "2026-09-27T00:38:38Z",
         "asset_count": 1
       },
-      "downloads": 305,
+      "downloads": 306,
       "assets": [
         {
           "name": "TTT2_KR_Patcher_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/download/v1.0/TTT2_KR_Patcher_v1.0.zip",
-          "downloads": 305,
+          "downloads": 306,
           "asset_id": 609346501,
           "created_at": "2026-10-04T07:16:59Z",
           "release_published_at": "2026-09-27T00:38:38Z"
@@ -324,7 +326,7 @@
           "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/tag/v1.0"
         }
       ],
-      "downloads_current": 305,
+      "downloads_current": 306,
       "downloads_carried": 0,
       "download_ledger": {
         "tears-to-tiara-2-kr-patch/v1.0/TTT2_KR_Patcher_v1.0.zip": {
@@ -332,7 +334,7 @@
           "tag": "v1.0",
           "name": "TTT2_KR_Patcher_v1.0.zip",
           "asset_id": 609346501,
-          "last_count": 305,
+          "last_count": 306,
           "carried": 0,
           "removed": false
         }
@@ -417,9 +419,9 @@
       ],
       "genre": "커맨드 선택식 ADV",
       "genre_full": "커맨드 선택식 어드벤처",
-      "developer": "",
+      "developer": "El Dia",
       "publisher": "",
-      "playtime": "",
+      "playtime": "약 32시간",
       "edition": "Nintendo Switch 일본판 (다운로드판)",
       "release_jp": "2020-02-27",
       "product_id": "01008BA00F172000",
@@ -446,13 +448,13 @@
         "published_at": "2026-09-11T08:15:19Z",
         "asset_count": 1
       },
-      "downloads": 63,
+      "downloads": 64,
       "assets": [
         {
           "name": "EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
           "tag": "v1.4.0",
           "url": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/releases/download/v1.4.0/EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
-          "downloads": 63,
+          "downloads": 64,
           "asset_id": 588103948,
           "created_at": "2026-09-25T10:18:59Z",
           "release_published_at": "2026-09-11T08:15:19Z"
@@ -461,7 +463,7 @@
       "tools": [],
       "scope": {
         "title": {
-          "state": "none",
+          "state": "done",
           "since": null
         },
         "ui": {
@@ -509,6 +511,7 @@
         {
           "v": "1.1.0",
           "added": [
+            "title",
             "ui",
             "dialogue",
             "video",
@@ -525,7 +528,7 @@
           "url": ""
         }
       ],
-      "downloads_current": 63,
+      "downloads_current": 64,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-rebirth-terror-kr-patch/v1.4.0/EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip": {
@@ -533,7 +536,7 @@
           "tag": "v1.4.0",
           "name": "EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
           "asset_id": 588103948,
-          "last_count": 63,
+          "last_count": 64,
           "carried": 0,
           "removed": false
         }
@@ -552,9 +555,9 @@
       ],
       "genre": "커맨드 선택식 ADV",
       "genre_full": "커맨드 선택식 어드벤처",
-      "developer": "",
+      "developer": "El Dia",
       "publisher": "",
-      "playtime": "",
+      "playtime": "약 28.5시간",
       "edition": "Nintendo Switch 일본판",
       "release_jp": "2022-06-30",
       "product_id": "01007BE0160D6000",
@@ -664,9 +667,9 @@
       ],
       "genre": "다인원 던전 RPG",
       "genre_full": "다인원 던전 탐색 RPG",
-      "developer": "",
+      "developer": "AQUASTYLE",
       "publisher": "",
-      "playtime": "",
+      "playtime": "약 46시간",
       "edition": "Nintendo Switch 일본판",
       "release_jp": "2021-09-30",
       "product_id": "0100A7A015E4C000",
@@ -708,7 +711,7 @@
       "tools": [],
       "scope": {
         "title": {
-          "state": "none",
+          "state": "done",
           "since": null
         },
         "ui": {
@@ -732,6 +735,7 @@
         {
           "v": "1.0",
           "added": [
+            "title",
             "ui",
             "dialogue",
             "아이템·장비·스킬·도감",
@@ -776,9 +780,9 @@
       ],
       "genre": "던전 RPG",
       "genre_full": "던전 RPG",
-      "developer": "",
+      "developer": "AQUASTYLE",
       "publisher": "",
-      "playtime": "",
+      "playtime": "8.5–69.5시간",
       "edition": "Steam판 / Nintendo Switch판",
       "release_jp": "2017-12-21",
       "product_id": "01004E900B082000",
@@ -830,7 +834,7 @@
       "tools": [],
       "scope": {
         "title": {
-          "state": "none",
+          "state": "done",
           "since": null
         },
         "ui": {
@@ -854,6 +858,7 @@
         {
           "v": "1.0",
           "added": [
+            "title",
             "ui",
             "dialogue",
             "video",
@@ -923,11 +928,6 @@
       "message": "릴리스 공개보다 하루 넘게 늦게 생성된 첨부파일이 있습니다."
     },
     {
-      "repo": "eve-ghost-enemies-kr-patch",
-      "type": "missing-facts",
-      "message": "개발사·장르·플레이타임 중 2개 이상이 비어 있습니다."
-    },
-    {
       "repo": "eve-rebirth-terror-kr-patch",
       "type": "asset-reuploaded",
       "message": "릴리스 공개보다 하루 넘게 늦게 생성된 첨부파일이 있습니다."
@@ -936,16 +936,6 @@
       "repo": "eve-rebirth-terror-kr-patch",
       "type": "changelog-empty-entry",
       "message": "1.3.0: 변경 내용이 기록되어 있지 않습니다."
-    },
-    {
-      "repo": "eve-rebirth-terror-kr-patch",
-      "type": "missing-facts",
-      "message": "개발사·장르·플레이타임 중 2개 이상이 비어 있습니다."
-    },
-    {
-      "repo": "eve-zero-kr-patch",
-      "type": "missing-facts",
-      "message": "개발사·장르·플레이타임 중 2개 이상이 비어 있습니다."
     },
     {
       "repo": "Game-Localization-Discovery-Archive",
@@ -958,29 +948,14 @@
       "message": "릴리스 공개보다 하루 넘게 늦게 생성된 첨부파일이 있습니다."
     },
     {
-      "repo": "tears-to-tiara-2-kr-patch",
-      "type": "missing-facts",
-      "message": "개발사·장르·플레이타임 중 2개 이상이 비어 있습니다."
-    },
-    {
       "repo": "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch",
       "type": "asset-reuploaded",
       "message": "릴리스 공개보다 하루 넘게 늦게 생성된 첨부파일이 있습니다."
     },
     {
-      "repo": "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch",
-      "type": "missing-facts",
-      "message": "개발사·장르·플레이타임 중 2개 이상이 비어 있습니다."
-    },
-    {
       "repo": "touhou-genso-wanderer-reloaded-kr-patch",
       "type": "asset-reuploaded",
       "message": "릴리스 공개보다 하루 넘게 늦게 생성된 첨부파일이 있습니다."
-    },
-    {
-      "repo": "touhou-genso-wanderer-reloaded-kr-patch",
-      "type": "missing-facts",
-      "message": "개발사·장르·플레이타임 중 2개 이상이 비어 있습니다."
     }
   ],
   "ledger_started_at": "2026-10-04T13:21:03Z"
