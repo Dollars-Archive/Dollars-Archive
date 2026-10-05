@@ -16,7 +16,7 @@ import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.error import HTTPError, URLError
-from urllib.parse import urlparse
+from urllib.parse import quote, urlparse
 from urllib.request import Request, urlopen
 
 import yaml
@@ -101,6 +101,7 @@ def public_http_url(url: str) -> bool:
 class GitHubClient:
     def __init__(self, token: str | None = None):
         self.token = token or os.environ.get("GITHUB_TOKEN")
+        self.activity_exclusions = json.loads((Path(__file__).with_name("activity-exclusions.json")).read_text(encoding="utf-8"))
 
     def get(self, url: str, allow_404: bool = False) -> tuple[object, str | None]:
         if url.startswith("/"):
@@ -165,6 +166,17 @@ class GitHubClient:
     def tags(self, repo: str) -> list[dict]:
         return self.paginate(f"/repos/{OWNER}/{repo}/tags?per_page=100")
 
+    def activity_date(self, repo: dict) -> str:
+        """Exclude only a recorded maintenance push; subsequent pushes still count."""
+        record = self.activity_exclusions.get(repo["name"])
+        if not record or repo["pushed_at"] != record["ignored_pushed_at"]:
+            return repo["pushed_at"]
+        branch = quote(repo.get("default_branch") or "main", safe="")
+        commits, _ = self.get(f"/repos/{OWNER}/{repo['name']}/commits?sha={branch}&per_page=1")
+        if isinstance(commits, list) and commits and commits[0].get("sha") == record["commit"]:
+            return record["previous_activity_at"]
+        return repo["pushed_at"]
+
     def tag_date(self, repo: str, sha: str) -> str:
         data, _ = self.get(f"/repos/{OWNER}/{repo}/commits/{sha}", allow_404=True)
         return ((data or {}).get("commit", {}).get("committer", {}).get("date") or "")
@@ -200,7 +212,7 @@ def patch_warnings(patch: dict, readme: str, has_metadata: bool, now: datetime) 
     latest = patch["latest_release"]
     if latest and latest["asset_count"] == 0:
         result.append(warning(repo, "release-no-asset", f"{latest['tag']} 릴리스에 첨부파일이 없습니다."))
-    if patch["status"] == "wip" and now - iso_time(patch["pushed_at"]) > timedelta(days=30):
+    if patch["status"] == "wip" and now - iso_time(patch.get("activity_at") or patch["pushed_at"]) > timedelta(days=30):
         result.append(warning(repo, "wip-stale", "작업 중인 패치의 마지막 푸시가 30일을 넘었습니다."))
     if not has_metadata:
         result.append(warning(repo, "missing-metadata", "kr-patch topic은 있지만 patches.yml에 게임 정보가 없습니다."))
@@ -281,6 +293,9 @@ def collect(client, metadata: dict, now: datetime, check_guide=guide_status) -> 
             meta = {**meta, **readme_meta}
             warnings.extend(form_warnings)
             patch = build_patch(repo, meta, releases, check_guide)
+            activity = client.activity_date(repo) if hasattr(client, "activity_date") else repo["pushed_at"]
+            published = (patch["latest_release"] or {}).get("published_at")
+            patch["activity_at"] = max((value for value in (activity, published) if value), key=iso_time)
             tags = client.tags(name)
             release_keys = {version_key(r.get("tag_name")) for r in releases if not r.get("draft") and day(r.get("published_at"))}
             commit_dates = {}
@@ -308,7 +323,7 @@ def collect(client, metadata: dict, now: datetime, check_guide=guide_status) -> 
                 warnings.append(warning(name, "no-description", "관련 저장소 description이 비어 있습니다."))
     # Tie-breaking makes ordering reproducible even when API order changes.
     patches.sort(key=lambda p: p["repo"].lower())
-    patches.sort(key=lambda p: p["pushed_at"], reverse=True)
+    patches.sort(key=lambda p: p["activity_at"], reverse=True)
     warnings.sort(key=lambda w: (w["repo"].lower(), w["type"]))
     return {
         "generated_at": now.astimezone(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),

@@ -75,6 +75,16 @@ test('README status tooltips distinguish unstarted, not applicable and unknown s
   assert(out.includes('확인 필요&lt;script&gt;'));
   assert(!out.includes('<script>'));
 });
+test('recent work uses activity date, not the order of bulk README pushes',()=>{
+  const {context,node,data}=page(async()=>[]);
+  data.patches=data.patches.slice(0,2);
+  data.patches[0].activity_at='2026-10-04T00:00:00Z';data.patches[0].pushed_at='2026-10-05T00:00:00Z';
+  data.patches[1].activity_at='2026-09-30T00:00:00Z';data.patches[1].pushed_at='2026-10-05T00:01:00Z';
+  vm.runInContext('state.sort="최근 작업";applyData(data)',context);
+  const out=node('list').innerHTML;
+  assert(out.indexOf(`data-repo="${data.patches[0].repo}"`)<out.indexOf(`data-repo="${data.patches[1].repo}"`));
+  assert(out.includes('최근 작업 2026.10.04'));
+});
 test('download rerender preserves an expanded history for the same game',()=>{
   const {context,node,data}=page(async()=>[]);
   const repo=data.patches[0].repo;

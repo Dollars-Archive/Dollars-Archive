@@ -256,7 +256,7 @@ function render(){
   let rows=DATA.filter(d=>(state.plat==="전체"||d.platforms.includes(state.plat))&&(state.series==="전체"||d.series===state.series)&&(!q||[d.title,d.original,d.product_id,d.repo].join(" ").toLowerCase().includes(q)));
   if(state.sort==="다운로드")rows.sort((a,b)=>b.downloads-a.downloads||a.repo.localeCompare(b.repo));
   else if(state.sort==="발매일")rows.sort((a,b)=>(a.release_jp||"9999").localeCompare(b.release_jp||"9999")||a.repo.localeCompare(b.repo));
-  else rows.sort((a,b)=>b.pushed_at.localeCompare(a.pushed_at)||a.repo.localeCompare(b.repo));
+  else rows.sort((a,b)=>(b.activity_at||b.pushed_at).localeCompare(a.activity_at||a.pushed_at)||a.repo.localeCompare(b.repo));
   const L=document.getElementById("list");
   const openDetails=new Set([...L.querySelectorAll(".row details[open]")].map(el=>el.closest(".row").dataset.repo+"/"+el.dataset.section));
   if(!rows.length){L.innerHTML='<div class="empty">조건에 맞는 패치가 없습니다. 필터를 바꿔 보세요.</div>';return}
@@ -274,7 +274,7 @@ function render(){
     <div class="status">
       <span class="pill ${d.status==="released"?"ok":"wip"}">${labels[d.status]||esc(d.status)}</span>
       ${d.latest_release?`<span class="ver">${esc(d.latest_release.tag)}</span><span class="small">${date(d.latest_release.published_at)} 배포</span>`:`<span class="small">${d.status==="released"?"정식 패치 릴리스 없음":"릴리스 없음"}</span>`}
-      <span class="small">최근 푸시 ${date(d.pushed_at)}</span>
+      <span class="small">최근 작업 ${date(d.activity_at||d.pushed_at)}</span>
     </div>
     <div class="dl"><b>${fmt(d.downloads)}</b><span class="small">다운로드</span>
       ${d.assets.length?`<div class="assets small">${d.assets.map(a=>`<span>${link(a.name,a.url)} · ${fmt(a.downloads)}회 <span>(${esc(a.tag)})</span></span>`).join("")}</div>`:`<span class="small">${d.latest_release&&d.latest_release.asset_count===0?"첨부파일 없음":"—"}</span>`}

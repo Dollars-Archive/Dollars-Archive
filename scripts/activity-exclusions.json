@@ -1,0 +1,50 @@
+{
+  "eve-zero-kr-patch": {
+    "commit": "4ebd7acbd6309bd1ee745f3af2b05a7ccd800068",
+    "ignored_pushed_at": "2026-10-05T03:27:52Z",
+    "previous_activity_at": "2026-10-04T11:15:22Z",
+    "reason": "README 공통 양식 일괄 전환"
+  },
+  "eve-new-generation-kr-patch": {
+    "commit": "e8e4d4bffba25b9482804d4ada1f146d4f884ea9",
+    "ignored_pushed_at": "2026-10-05T03:27:57Z",
+    "previous_activity_at": "2026-10-04T10:53:38Z",
+    "reason": "README 공통 양식 일괄 전환"
+  },
+  "tears-to-tiara-2-kr-patch": {
+    "commit": "8337d44e09f98cafaab131ee69c401b23dd14560",
+    "ignored_pushed_at": "2026-10-05T03:28:01Z",
+    "previous_activity_at": "2026-10-04T05:31:04Z",
+    "reason": "README 공통 양식 일괄 전환"
+  },
+  "Guardian-Angel-Korean-Localization": {
+    "commit": "a6f5890e3f69aecbc2dc5a2d69610a043e6020aa",
+    "ignored_pushed_at": "2026-10-05T03:28:05Z",
+    "previous_activity_at": "2026-10-01T01:07:50Z",
+    "reason": "README 공통 양식 일괄 전환"
+  },
+  "eve-rebirth-terror-kr-patch": {
+    "commit": "b4ad1d5c180d5d37b8708b3c938f8b6be23ee9d0",
+    "ignored_pushed_at": "2026-10-05T03:28:10Z",
+    "previous_activity_at": "2026-09-30T14:22:09Z",
+    "reason": "README 공통 양식 일괄 전환"
+  },
+  "eve-ghost-enemies-kr-patch": {
+    "commit": "1a8b9deb0d32baaedcdff3a3441de1622257a146",
+    "ignored_pushed_at": "2026-10-05T03:28:14Z",
+    "previous_activity_at": "2026-09-30T14:21:23Z",
+    "reason": "README 공통 양식 일괄 전환"
+  },
+  "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch": {
+    "commit": "05b5fdb3ceeabcb6281aafb917f23aec8f50f57f",
+    "ignored_pushed_at": "2026-10-05T03:28:18Z",
+    "previous_activity_at": "2026-09-30T14:14:48Z",
+    "reason": "README 공통 양식 일괄 전환"
+  },
+  "touhou-genso-wanderer-reloaded-kr-patch": {
+    "commit": "6248e8b5e55c8931c0490663ba21fdf500557842",
+    "ignored_pushed_at": "2026-10-05T03:28:22Z",
+    "previous_activity_at": "2026-09-30T13:53:36Z",
+    "reason": "README 공통 양식 일괄 전환"
+  }
+}
