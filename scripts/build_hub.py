@@ -332,6 +332,10 @@ def collect(client, metadata: dict, now: datetime, check_guide=guide_status) -> 
             for key in release_additions(latest_release):
                 historical = next((e for e in reversed(patch['changelog']) if key in e['added']), None)
                 patch['scope'][key] = {'state': 'done', 'since': historical['v'] if historical and historical != patch['changelog'][-1] else None}
+            if meta.get('confirmed_image_status') == 'done':
+                previous = patch['scope']['image']
+                patch['scope']['image'] = {'state': 'done', 'status': '완료',
+                    'since': previous.get('since') if previous['state'] == 'done' else None}
             if readme_meta or readme_scope:
                 patch["metadata_source"] = f"{repo['html_url']}/blob/{repo.get('default_branch') or 'main'}/README.md"
             patches.append(patch)

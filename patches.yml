@@ -27,6 +27,8 @@ eve-zero-kr-patch:
   status: auto
 
 eve-new-generation-kr-patch:
+  confirmed_image_status: done
+  confirmed_image_source: 사용자 현재 이미지 완료 확인 (2026-10-05)
   developer: Kadokawa Shoten 계열 제작
   publisher: Kadokawa Shoten
   genre: 멀티사이트 ADV
@@ -54,6 +56,8 @@ eve-new-generation-kr-patch:
   status: auto
 
 tears-to-tiara-2-kr-patch:
+  confirmed_image_status: done
+  confirmed_image_source: 사용자 현재 이미지 완료 확인 (2026-10-05)
   developer: AQUAPLUS
   playtime: 77–80시간
   genre: RPG
@@ -178,6 +182,8 @@ eve-ghost-enemies-kr-patch:
   status: auto
 
 touhou-genso-wanderer-lotus-labyrinth-r-kr-patch:
+  confirmed_image_status: done
+  confirmed_image_source: 사용자 현재 이미지 완료 확인 (2026-10-05)
   developer: AQUASTYLE
   playtime: 약 46시간
   genre: 다인원 던전 RPG
@@ -208,6 +214,8 @@ touhou-genso-wanderer-lotus-labyrinth-r-kr-patch:
   status: auto
 
 touhou-genso-wanderer-reloaded-kr-patch:
+  confirmed_image_status: done
+  confirmed_image_source: 사용자 현재 이미지 완료 확인 (2026-10-05)
   developer: AQUASTYLE
   playtime: 8.5–69.5시간
   genre: 던전 RPG
