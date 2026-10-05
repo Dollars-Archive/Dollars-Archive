@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-05T08:52:34Z",
+  "generated_at": "2026-10-05T16:10:54Z",
   "summary": {
     "total": 8,
     "released": 7,
     "wip": 1,
-    "downloads": 1568
+    "downloads": 2202
   },
   "patches": [
     {
@@ -28,7 +28,7 @@
       "cover_caption": "",
       "status": "released",
       "description": "PS3용 『Tears to Tiara II』 비공식 한국어 패치",
-      "pushed_at": "2026-10-05T08:27:44Z",
+      "pushed_at": "2026-10-05T09:58:02Z",
       "stars": 1,
       "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch",
       "has_pages": false,
@@ -46,13 +46,13 @@
         "published_at": "2026-10-05T04:17:16Z",
         "asset_count": 1
       },
-      "downloads": 358,
+      "downloads": 488,
       "assets": [
         {
           "name": "TTT2_KR_Patcher_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/download/v1.1/TTT2_KR_Patcher_v1.1.zip",
-          "downloads": 35,
+          "downloads": 164,
           "asset_id": 611515859,
           "created_at": "2026-10-05T04:44:48Z",
           "release_published_at": "2026-10-05T04:17:16Z"
@@ -61,7 +61,7 @@
           "name": "TTT2_KR_Patcher_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/download/v1.0/TTT2_KR_Patcher_v1.0.zip",
-          "downloads": 323,
+          "downloads": 324,
           "asset_id": 609346501,
           "created_at": "2026-10-04T07:16:59Z",
           "release_published_at": "2026-09-27T00:38:38Z"
@@ -86,7 +86,7 @@
           "updated_at": "2026-10-05T17:25:37+09:00"
         }
       ],
-      "activity_at": "2026-10-05T08:27:44Z",
+      "activity_at": "2026-10-05T09:58:02Z",
       "activity_exclusion": {
         "ignored_pushed_at": "2026-10-05T06:26:37Z",
         "previous_activity_at": "2026-10-05T05:13:08Z"
@@ -155,7 +155,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/blob/main/README.md",
-      "downloads_current": 358,
+      "downloads_current": 488,
       "downloads_carried": 0,
       "download_ledger": {
         "tears-to-tiara-2-kr-patch/v1.0/TTT2_KR_Patcher_v1.0.zip": {
@@ -163,7 +163,7 @@
           "tag": "v1.0",
           "name": "TTT2_KR_Patcher_v1.0.zip",
           "asset_id": 609346501,
-          "last_count": 323,
+          "last_count": 324,
           "carried": 0,
           "removed": false
         },
@@ -172,7 +172,7 @@
           "tag": "v1.1",
           "name": "TTT2_KR_Patcher_v1.1.zip",
           "asset_id": 611515859,
-          "last_count": 35,
+          "last_count": 164,
           "carried": 0,
           "removed": false
         }
@@ -220,13 +220,13 @@
         "published_at": "2026-10-05T04:17:21Z",
         "asset_count": 1
       },
-      "downloads": 504,
+      "downloads": 696,
       "assets": [
         {
           "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.1/EVE_New_Generation_Korean_Patch_v1.1.zip",
-          "downloads": 43,
+          "downloads": 235,
           "asset_id": 611547873,
           "created_at": "2026-10-05T04:59:55Z",
           "release_published_at": "2026-10-05T04:17:21Z"
@@ -304,7 +304,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/blob/main/README.md",
-      "downloads_current": 504,
+      "downloads_current": 696,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-new-generation-kr-patch/v1.0/EVE_NG_v1.0.zip": {
@@ -321,7 +321,7 @@
           "tag": "v1.1",
           "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
           "asset_id": 611547873,
-          "last_count": 43,
+          "last_count": 235,
           "carried": 0,
           "removed": false
         }
@@ -369,13 +369,13 @@
         "published_at": "2026-10-05T04:17:18Z",
         "asset_count": 1
       },
-      "downloads": 447,
+      "downloads": 642,
       "assets": [
         {
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/download/v1.1/EVE_ZERO_Korean_Patch_v1.1.zip",
-          "downloads": 58,
+          "downloads": 253,
           "asset_id": 611513419,
           "created_at": "2026-10-05T04:43:41Z",
           "release_published_at": "2026-10-05T04:17:18Z"
@@ -451,7 +451,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-zero-kr-patch/blob/main/README.md",
-      "downloads_current": 447,
+      "downloads_current": 642,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-zero-kr-patch/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip": {
@@ -468,7 +468,7 @@
           "tag": "v1.1",
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "asset_id": 611513419,
-          "last_count": 58,
+          "last_count": 253,
           "carried": 0,
           "removed": false
         }
@@ -516,13 +516,13 @@
         "published_at": "2026-09-25T12:30:12Z",
         "asset_count": 1
       },
-      "downloads": 53,
+      "downloads": 72,
       "assets": [
         {
           "name": "_LLR_Switch_._v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/releases/download/v1.0/_LLR_Switch_._v1.0.zip",
-          "downloads": 53,
+          "downloads": 72,
           "asset_id": 609359818,
           "created_at": "2026-10-04T07:27:45Z",
           "release_published_at": "2026-09-25T12:30:12Z"
@@ -581,7 +581,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/blob/main/README.md",
-      "downloads_current": 53,
+      "downloads_current": 72,
       "downloads_carried": 0,
       "download_ledger": {
         "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/v1.0/_LLR_Switch_._v1.0.zip": {
@@ -589,7 +589,7 @@
           "tag": "v1.0",
           "name": "_LLR_Switch_._v1.0.zip",
           "asset_id": 609359818,
-          "last_count": 53,
+          "last_count": 72,
           "carried": 0,
           "removed": false
         }
@@ -639,13 +639,13 @@
         "published_at": "2026-09-25T10:23:29Z",
         "asset_count": 2
       },
-      "downloads": 77,
+      "downloads": 101,
       "assets": [
         {
           "name": "TODR_PC_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/download/v1.0/TODR_PC_v1.0.zip",
-          "downloads": 27,
+          "downloads": 35,
           "asset_id": 609378040,
           "created_at": "2026-10-04T07:40:11Z",
           "release_published_at": "2026-09-25T10:23:29Z"
@@ -654,7 +654,7 @@
           "name": "TODR_Switch_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/download/v1.0/TODR_Switch_v1.0.zip",
-          "downloads": 50,
+          "downloads": 66,
           "asset_id": 609356044,
           "created_at": "2026-10-04T07:24:53Z",
           "release_published_at": "2026-09-25T10:23:29Z"
@@ -712,7 +712,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/blob/main/README.md",
-      "downloads_current": 77,
+      "downloads_current": 101,
       "downloads_carried": 0,
       "download_ledger": {
         "touhou-genso-wanderer-reloaded-kr-patch/v1.0/TODR_PC_v1.0.zip": {
@@ -720,7 +720,7 @@
           "tag": "v1.0",
           "name": "TODR_PC_v1.0.zip",
           "asset_id": 609378040,
-          "last_count": 27,
+          "last_count": 35,
           "carried": 0,
           "removed": false
         },
@@ -729,7 +729,7 @@
           "tag": "v1.0",
           "name": "TODR_Switch_v1.0.zip",
           "asset_id": 609356044,
-          "last_count": 50,
+          "last_count": 66,
           "carried": 0,
           "removed": false
         }
@@ -852,13 +852,13 @@
         "published_at": "2026-09-11T08:15:29Z",
         "asset_count": 1
       },
-      "downloads": 61,
+      "downloads": 99,
       "assets": [
         {
           "name": "EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
           "tag": "v1.2.0",
           "url": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/releases/download/v1.2.0/EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
-          "downloads": 61,
+          "downloads": 99,
           "asset_id": 588172077,
           "created_at": "2026-09-25T10:59:39Z",
           "release_published_at": "2026-09-11T08:15:29Z"
@@ -920,7 +920,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/blob/main/README.md",
-      "downloads_current": 61,
+      "downloads_current": 99,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-ghost-enemies-kr-patch/v1.2.0/EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip": {
@@ -928,7 +928,7 @@
           "tag": "v1.2.0",
           "name": "EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
           "asset_id": 588172077,
-          "last_count": 61,
+          "last_count": 99,
           "carried": 0,
           "removed": false
         }
@@ -976,13 +976,13 @@
         "published_at": "2026-09-11T08:15:19Z",
         "asset_count": 1
       },
-      "downloads": 68,
+      "downloads": 104,
       "assets": [
         {
           "name": "EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
           "tag": "v1.4.0",
           "url": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/releases/download/v1.4.0/EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
-          "downloads": 68,
+          "downloads": 104,
           "asset_id": 588103948,
           "created_at": "2026-09-25T10:18:59Z",
           "release_published_at": "2026-09-11T08:15:19Z"
@@ -1068,7 +1068,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/blob/main/README.md",
-      "downloads_current": 68,
+      "downloads_current": 104,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-rebirth-terror-kr-patch/v1.4.0/EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip": {
@@ -1076,7 +1076,7 @@
           "tag": "v1.4.0",
           "name": "EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
           "asset_id": 588103948,
-          "last_count": 68,
+          "last_count": 104,
           "carried": 0,
           "removed": false
         }
