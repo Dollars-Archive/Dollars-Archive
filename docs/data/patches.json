@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T08:35:35Z",
+  "generated_at": "2026-10-06T08:42:03Z",
   "summary": {
     "total": 9,
     "released": 7,
@@ -77,9 +77,9 @@
       "downloads_current": 0,
       "downloads_carried": 0,
       "download_ledger": {},
-      "cover": null,
-      "cover_source": null,
-      "cover_revision": null
+      "cover": "covers/twelve-sengoku-fuushinden-kr-patch.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/82074-twelve-sengoku-fuushinden",
+      "cover_revision": "57fe23beb704"
     },
     {
       "repo": "tears-to-tiara-2-kr-patch",
@@ -1264,11 +1264,6 @@
       "repo": "touhou-genso-wanderer-reloaded-kr-patch",
       "type": "readme-form-invalid",
       "message": "동영상 자막: 제목이 누락되거나 중복되었습니다. 기존 범위를 유지합니다."
-    },
-    {
-      "repo": "twelve-sengoku-fuushinden-kr-patch",
-      "type": "missing-launchbox",
-      "message": "표지 출처가 없어 표지를 비워 둡니다."
     },
     {
       "repo": "twelve-sengoku-fuushinden-kr-patch",

@@ -1,4 +1,13 @@
 {
+  "twelve-sengoku-fuushinden-kr-patch": {
+    "input": "https://gamesdb.launchbox-app.com/games/details/82074-twelve-sengoku-fuushinden",
+    "source_page": "https://gamesdb.launchbox-app.com/games/details/82074-twelve-sengoku-fuushinden",
+    "discovery_page": null,
+    "source_image": "https://images.launchbox-app.com//de958172-f16c-4830-a174-8291c1d4b30a.jpg",
+    "image_type": "Box - Front",
+    "region": "Japan",
+    "fetched_at": "2026-10-06T08:42:03Z"
+  },
   "tears-to-tiara-2-kr-patch": {
     "input": "https://gamesdb.launchbox-app.com/games/details/25025-tears-to-tiara-ii-heir-of-the-overlord",
     "source_page": "https://gamesdb.launchbox-app.com/games/details/25025-tears-to-tiara-ii-heir-of-the-overlord",
