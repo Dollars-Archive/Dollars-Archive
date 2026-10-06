@@ -355,6 +355,7 @@ def collect(client, metadata: dict, now: datetime, check_guide=guide_status) -> 
             'url': 'https://dollars-archive.github.io/Game-Walkthrough-Archive/', 'desc': 'Dollars Archive가 직접 작성한 게임 공략집'})
     patches.sort(key=lambda p: p["repo"].lower())
     patches.sort(key=lambda p: p["activity_at"], reverse=True)
+    patches.sort(key=lambda p: not bool(p["latest_release"]))
     warnings.sort(key=lambda w: (w["repo"].lower(), w["type"]))
     return {
         "generated_at": now.astimezone(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),

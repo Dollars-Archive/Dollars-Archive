@@ -107,13 +107,43 @@ test('README status tooltips distinguish unstarted, not applicable and unknown s
 });
 test('recent work uses activity date, not the order of bulk README pushes',()=>{
   const {context,node,data}=page(async()=>[]);
+  const released=data.patches.find(p=>p.latest_release).latest_release;
   data.patches=data.patches.slice(0,2);
+  for(const p of data.patches)p.latest_release={...released};
   data.patches[0].activity_at='2026-10-04T00:00:00Z';data.patches[0].pushed_at='2026-10-05T00:00:00Z';
   data.patches[1].activity_at='2026-09-30T00:00:00Z';data.patches[1].pushed_at='2026-10-05T00:01:00Z';
   vm.runInContext('state.sort="최근 작업";applyData(data)',context);
   const out=node('list').innerHTML;
   assert(out.indexOf(`data-repo="${data.patches[0].repo}"`)<out.indexOf(`data-repo="${data.patches[1].repo}"`));
   assert(out.includes('최근 작업 2026.10.04'));
+});
+test('all sorts keep unreleased games last, including after platform filtering',()=>{
+  const {context,node,data}=page(async()=>[]);
+  const base=data.patches[0],release=data.patches.find(p=>p.latest_release).latest_release;
+  data.patches=['released-a','released-b','unreleased-a','unreleased-b'].map((repo,i)=>({...base,repo,platforms:['PSP'],latest_release:i<2?{...release}:null,
+    activity_at:['2001-01-01T00:00:00Z','2002-01-01T00:00:00Z','2099-01-01T00:00:00Z','2098-01-01T00:00:00Z'][i],
+    release_jp:['2001-01-01','2002-01-01','1900-01-01','1901-01-01'][i],downloads:[1,2,9999,9998][i]}));
+  vm.runInContext('applyData(data);state.plat="PSP"',context);
+  for(const sort of ['최근 작업','다운로드','발매일']){
+    context.selectedSort=sort;vm.runInContext('state.sort=selectedSort;render()',context);
+    const order=[...node('list').innerHTML.matchAll(/data-repo="([^"]+)"/g)].map(m=>m[1]);
+    assert.deepEqual(order,sort==='발매일'?['released-a','released-b','unreleased-a','unreleased-b']:['released-b','released-a','unreleased-a','unreleased-b']);
+  }
+});
+test('a newly discovered release joins the normal group on refresh',async()=>{
+  const {context,node,data}=page(async patches=>{
+    const game=patches.find(p=>p.repo==='new-release');
+    game.latest_release={tag:'v1.0',published_at:'2099-01-01T00:00:00Z'};
+    return patches.map(p=>({repo:p.repo,at:Date.now()}));
+  });
+  const base=data.patches.find(p=>p.latest_release);
+  data.patches=[{...base,repo:'old-release',activity_at:'2001-01-01T00:00:00Z'},
+    {...base,repo:'new-release',latest_release:null,activity_at:'2099-01-01T00:00:00Z'}];
+  vm.runInContext('state.sort="최근 작업";applyData(data)',context);
+  const order=()=>[...node('list').innerHTML.matchAll(/data-repo="([^"]+)"/g)].map(m=>m[1]);
+  assert.deepEqual(order(),['old-release','new-release']);
+  await vm.runInContext('refreshDownloads()',context);
+  assert.deepEqual(order(),['new-release','old-release']);
 });
 test('download rerender preserves an expanded history for the same game',()=>{
   const {context,node,data}=page(async()=>[]);

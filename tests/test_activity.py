@@ -7,6 +7,34 @@ from test_build_hub import FixtureClient, NOW, repo, release
 
 
 class ActivityTests(unittest.TestCase):
+    def test_unreleased_games_follow_released_games_despite_newer_work(self):
+        class Client(FixtureClient):
+            def releases(self,name):
+                return [release()] if name.startswith('released') else []
+            def tags(self,name):
+                return []
+        repos=[repo('unreleased-new',pushed_at='2026-10-04T00:00:00Z'),
+               repo('released-old',pushed_at='2026-10-01T00:00:00Z'),
+               repo('unreleased-old',pushed_at='2026-10-03T00:00:00Z'),
+               repo('released-new',pushed_at='2026-10-02T00:00:00Z')]
+        data=hub.collect(Client(repositories=repos),{},NOW,lambda u:404)
+        self.assertEqual([p['repo'] for p in data['patches']],
+                         ['released-new','released-old','unreleased-new','unreleased-old'])
+        section=hub.readme_section(data).decode('utf-8')
+        self.assertLess(section.index('released-old>'),section.index('unreleased-new>'))
+
+    def test_first_release_moves_a_game_out_of_the_unreleased_group(self):
+        class Client(FixtureClient):
+            def releases(self,name):
+                return [release()] if name=='old' or self.publish_new else []
+            def tags(self,name):
+                return []
+        client=Client(repositories=[repo('new',pushed_at='2026-10-04T00:00:00Z'),repo('old')])
+        client.publish_new=False
+        self.assertEqual([p['repo'] for p in hub.collect(client,{},NOW,lambda u:404)['patches']],['old','new'])
+        client.publish_new=True
+        self.assertEqual([p['repo'] for p in hub.collect(client,{},NOW,lambda u:404)['patches']],['new','old'])
+
     def client(self):
         client = hub.GitHubClient()
         client.activity_exclusions = {'sample-kr-patch':{

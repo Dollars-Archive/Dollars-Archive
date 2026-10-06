@@ -269,6 +269,8 @@ function render(){
   if(state.sort==="다운로드")rows.sort((a,b)=>b.downloads-a.downloads||a.repo.localeCompare(b.repo));
   else if(state.sort==="발매일")rows.sort((a,b)=>(a.release_jp||"9999").localeCompare(b.release_jp||"9999")||a.repo.localeCompare(b.repo));
   else rows.sort((a,b)=>(b.activity_at||b.pushed_at).localeCompare(a.activity_at||a.pushed_at)||a.repo.localeCompare(b.repo));
+  // Keep each selected sort within its group; games without a release always follow.
+  rows.sort((a,b)=>Number(!a.latest_release)-Number(!b.latest_release));
   const L=document.getElementById("list");
   const openDetails=new Set([...L.querySelectorAll(".row details[open]")].map(el=>el.closest(".row").dataset.repo+"/"+el.dataset.section));
   if(!rows.length){L.innerHTML='<div class="empty">조건에 맞는 패치가 없습니다. 필터를 바꿔 보세요.</div>';return}
