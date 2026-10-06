@@ -43,7 +43,7 @@ jobs:
       - name: Test collection and generation rules
         run: python -m unittest discover -s tests -v
       - name: Test live download refresh
-        run: node --test tests/test_downloads.cjs tests/test_hub_page.cjs
+        run: node --test tests/test_downloads.cjs tests/test_hub_page.cjs tests/test_archive_page.cjs
       - name: Collect and build
         env:
           GITHUB_TOKEN: ${{ github.token }}

@@ -3,6 +3,9 @@
 <title>Dollars Archive 한글패치</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;600;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap">
+<script>
+try{const t=localStorage.getItem('da-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}
+</script>
 <style>
 /* Layout: 요약 → 필터 → 표지·게임 정보·범위·변경 이력 → 관련 저장소 */
 :root{
@@ -141,6 +144,99 @@ h2{font-family:var(--f-display);font-weight:800;font-size:18px;margin:0}
 .side .card span{font-size:13px;color:var(--muted)}
 footer{font-size:12px;color:var(--muted)}
 @media (prefers-reduced-motion:no-preference){.chip,.side a.card{transition:background .15s,border-color .15s,color .15s}}
+
+/* Responsive archive and theme controls. */
+body{margin:0}
+.wrap{max-width:1360px;padding-inline:32px;gap:26px}
+.header-actions{display:flex;flex-direction:column;align-items:flex-end;gap:12px}
+.theme-control{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:12px}
+.theme-control select{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:7px;padding:6px 9px}
+.updates{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px 22px}
+.updates-header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px}
+.updates ol{list-style:none;padding:0;margin:0}
+.update-item{display:grid;grid-template-columns:4.8rem minmax(0,1fr);gap:12px;padding:7px 0;font-size:13px}
+.update-item+.update-item{border-top:1px solid var(--line)}
+.update-item time{font-family:var(--f-mono);color:var(--muted);font-size:12px}
+.update-item a{color:var(--ink);overflow-wrap:anywhere}
+.update-item a:hover{color:var(--accent)}
+.update-version{font-family:var(--f-mono);font-size:12px;color:var(--accent);margin-inline:8px}
+.update-text{color:var(--muted)}
+.row{grid-template-columns:92px minmax(0,1fr) 145px 130px;gap:24px;padding:26px;scroll-margin-top:20px}
+.row:target{box-shadow:inset 4px 0 var(--accent);background:var(--accent-soft)}
+.title{display:flex;align-items:baseline;justify-content:space-between;gap:12px;font-size:20px}
+.share-link{font-family:var(--f-body);font-size:11px;font-weight:400;white-space:nowrap;color:var(--muted)}
+.facts{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px 20px}
+.facts dt{white-space:nowrap}
+.facts dd{word-break:keep-all}
+.scope{max-width:none;gap:6px}
+.scope-chip{flex-wrap:nowrap;white-space:nowrap;padding:6px 5px}
+.history-latest{grid-template-columns:4.3rem 2.6rem minmax(0,1fr);gap:8px}
+.history-latest>span.history-summary:last-child{display:flex;align-items:baseline;gap:5px;white-space:normal;overflow:visible;min-width:0}
+.history-summary .history-text{min-width:0;overflow-wrap:anywhere;word-break:keep-all}
+.history-summary .history-more{flex-shrink:0;white-space:nowrap}
+.status-label{display:flex;align-items:center;flex-wrap:wrap;gap:6px}
+.fresh{font-family:var(--f-mono);font-size:10px;font-weight:500;padding:3px 6px;border-radius:5px;background:var(--accent-soft);color:var(--accent);letter-spacing:.03em}
+.assets{max-width:100%;gap:7px}
+.asset-link{white-space:nowrap;font-family:var(--f-mono);font-size:11px}
+.assets>span{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:5px;align-items:center}
+.asset-kind{font-size:10px;color:var(--muted)}
+@media(max-width:1100px){
+ .row{grid-template-columns:80px minmax(0,1fr) 128px 112px;gap:16px;padding:22px}
+ .facts{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 16px}
+ .scope{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:900px){
+ .row{grid-template-columns:80px minmax(0,1fr);gap:12px 20px}
+ .main{grid-column:2;grid-row:1}
+ .plat{grid-column:1;grid-row:1}
+ .status{grid-column:2;flex-direction:row;flex-wrap:wrap;align-items:center;gap:8px 12px}
+ .dl{grid-column:2;flex-direction:row;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:8px}
+ .dl b{font-size:19px}
+ .assets{margin-top:0;flex-direction:row;flex-wrap:wrap;gap:10px}
+ .bar{display:none}
+ .scope{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:600px){
+ .wrap{padding:24px 16px 40px;gap:20px}
+ header{align-items:flex-start}
+ .header-actions{width:100%;flex-direction:row-reverse;justify-content:space-between;align-items:center;gap:12px}
+ .snap{font-size:11px;max-width:55%}
+ h1{font-size:28px}
+ .stat{padding:14px 16px}
+ .stat b{font-size:25px}
+ .stat span{font-size:12px}
+ .updates{padding:14px 16px}
+ .updates-header .small{font-size:10px}
+ .update-item{grid-template-columns:3.3rem minmax(0,1fr);gap:8px;font-size:12px}
+ .update-text{display:block;margin-top:2px}
+ .update-version{margin-inline:5px}
+ .row{grid-template-columns:64px minmax(0,1fr);gap:8px 14px;padding:20px 16px}
+ .main{display:contents}
+ .plat{grid-column:1;grid-row:1 / span 2;gap:5px}
+ .cover{width:64px;height:82px}
+ .pbadge{font-size:10px;padding:2px 5px}
+ .cover-caption{display:none}
+ .title{grid-column:2;grid-row:1;align-self:end;font-size:18px;display:block}
+ .share-link{display:inline-block;margin-left:8px;font-size:10px}
+ .orig{grid-column:2;grid-row:2;align-self:start;font-size:11px;word-break:keep-all}
+ .main>.facts,.main>.scope,.main>.history,.main>.links,.main>.tools{grid-column:1 / -1}
+ .facts{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 16px;margin-top:12px}
+ .facts dd{font-size:13px}
+ .scope{grid-template-columns:repeat(3,minmax(0,1fr));margin:7px 0}
+ .scope-chip{font-size:11px;padding:6px}
+ .history-latest{grid-template-columns:3.3rem 2.3rem minmax(0,1fr);gap:6px}
+ .history-summary{flex-wrap:wrap}
+ .history-grid{grid-template-columns:3.3rem 2.3rem minmax(0,1fr)}
+ .status,.dl{grid-column:1 / -1}
+ .status{margin-top:8px;padding-top:12px;border-top:1px solid var(--line)}
+ .status .small{font-size:11px}
+ .dl{padding-top:4px}
+ .links{gap:6px 12px;font-size:12px}
+ .search{width:100%}
+ .controls>.group{width:100%}
+ .chip{font-size:12px;padding:5px 10px}
+}
+
 </style>
 </head><body>
 
@@ -151,7 +247,7 @@ footer{font-size:12px;color:var(--muted)}
       <h1>Dollars Archive 한글패치</h1>
       <div class="links"><a href="https://dollars-archive.github.io/Game-Walkthrough-Archive/">공략집 모음</a></div>
     </div>
-    <div class="snap" id="snap">목록을 불러오는 중…</div>
+    <div class="header-actions"><label class="theme-control" for="theme">화면 테마 <select id="theme"><option value="auto">시스템</option><option value="light">라이트</option><option value="dark">다크</option></select></label><div class="snap" id="snap">목록을 불러오는 중…</div></div>
   </header>
 
   <section class="stats" aria-label="요약">
@@ -162,6 +258,7 @@ footer{font-size:12px;color:var(--muted)}
   </section>
 
 
+  <section class="updates" aria-label="최근 업데이트"><div class="updates-header"><h2>최근 업데이트</h2><span class="small">릴리스 변경 기록 기준</span></div><ol id="updates"></ol></section>
   <section class="controls" aria-label="필터">
     <div class="group" id="f-plat"><span class="lbl">기종</span></div>
     <div class="group" id="f-series"><span class="lbl">시리즈</span></div>
@@ -204,7 +301,7 @@ function coverMarkup(d){
   const body=`<img src="${esc(d.cover+revision)}" alt="${esc(d.title)} 표지" loading="lazy" decoding="async" width="88" height="112"><span class="cover-fallback" aria-hidden="true">${esc(label)}</span>`;
   return source?`<a class="cover" href="${esc(source)}" target="_blank" rel="noopener" title="이미지 출처">${body}</a>`:`<div class="cover">${body}</div>`;
 }
-const SCOPE_NAMES={title:"타이틀",ui:"메뉴·UI",dialogue:"대사",image:"이미지",video:"동영상 자막"};
+const SCOPE_NAMES={title:"타이틀",ui:"메뉴·UI",dialogue:"대사",image:"이미지",video:"영상 자막"};
 const HISTORY_NAMES={added:"추가",partial:"일부",improved:"개선",fixed:"수정"};
 function factsMarkup(d){
   const developerTitle=d.developer&&d.publisher&&d.developer!==d.publisher?`개발 ${d.developer} / 발매 ${d.publisher}`:d.developer;
@@ -229,8 +326,13 @@ function walkthroughMarkup(d){
 }
 function releaseAssetsMarkup(d){
   const assets=d.assets.filter(a=>a.tag===d.latest_release?.tag);
-  return assets.length?`<div class="assets small">${assets.map(a=>`<span>${link(a.name,a.url)} · ${fmt(a.downloads)}회 <span>(${esc(a.tag)})</span></span>`).join("")}</div>`:`<span class="small">${d.latest_release?"첨부파일 준비 중":"—"}</span>`;
+  return assets.length?`<div class="assets small">${assets.map(a=>{
+    const url=safeUrl(a.url), label=`${a.tag} · ${fmt(a.downloads)}회`;
+    const kind=assets.length>1?`<span class="asset-kind">${esc(a.name.split('.').pop().toUpperCase())}</span>`:"";
+    return `<span>${url?`<a class="asset-link" href="${esc(url)}" target="_blank" rel="noopener" title="${esc(a.name)}" aria-label="${esc(a.name)} — ${esc(label)}">${esc(label)}</a>`:esc(label)}${kind}</span>`;
+  }).join("")}</div>`:`<span class="small">${d.latest_release?"첨부파일 준비 중":"—"}</span>`;
 }
+
 function historyGroups(entry){
   return Object.entries(HISTORY_NAMES).flatMap(([key,label])=>Array.isArray(entry[key])&&entry[key].length?[{key,label,text:entry[key].map(value=>SCOPE_NAMES[value]||value).join(" · ")+(key==="added"&&entry.note?` (${entry.note})`:"")}]:[]);
 }
@@ -241,7 +343,7 @@ function historyMarkup(d){
   const latest=entries[0],groups=historyGroups(latest);
   const first=groups[0]||{key:"fixed",label:"",text:"변경 내용 확인 필요"};
   const count=groups.slice(1).reduce((sum,group)=>sum+latest[group.key].length,0);
-  const preview=`<div class="history-latest">${historyVersion(latest)}<span class="history-tag ${first.key}">${first.label}</span><span title="${esc(first.text)}">${esc(first.text)}${count?` <span class="small">외 ${count}건</span>`:""}</span></div>`;
+  const preview=`<div class="history-latest">${historyVersion(latest)}<span class="history-tag ${first.key}">${first.label}</span><span class="history-summary"><span class="history-text">${esc(first.text)}</span>${count?`<span class="small history-more">외 ${count}건</span>`:""}</span></div>`;
   if(entries.length===1)return `<div class="history">${preview}</div>`;
   const rows=entries.map(entry=>{
     const groups=historyGroups(entry);
@@ -263,7 +365,64 @@ function chips(id,opts,key){
     b.addEventListener("click",()=>{state[key]=o;g.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",String(c.textContent===o)));save();render();});g.appendChild(b);
   }
 }
+
+const INTRODUCTIONS={
+  "eve-new-generation-kr-patch":"platforms/ps2/games/eve-new-generation.md",
+  "Guardian-Angel-Korean-Localization":"platforms/ps2/games/guardian-angel.md",
+  "twelve-sengoku-fuushinden-kr-patch":"platforms/psp/games/twelve-sengoku-fuushinden.md"
+};
+function gameId(d){return d.repo.replace(/-kr-patch$|-Korean-Localization$/i,"").toLowerCase().replace(/[^a-z0-9_.-]/g,"-")}
+function issueUrl(d){
+  const repo=safeUrl(d.url);if(!repo||new URL(repo).origin!=="https://github.com")return "";
+  const u=new URL(repo+"/issues/new");
+  u.searchParams.set("title",`[오류 제보] ${d.title}`);
+  u.searchParams.set("body",`### 게임 판본
+- 제품번호 / Title ID:
+- 게임 업데이트:
+- 패치 버전:
+
+### 실행 환경
+- 기종 / 에뮬레이터와 버전:
+
+### 발생 장면과 재현 방법
+- 장면 / 대사:
+- 조작 순서:
+
+### 기대 결과와 실제 결과
+
+### 스크린샷
+`);
+  return u.href;
+}
+function freshBadge(d,now=Date.now()){
+  const published=Date.parse(d.latest_release?.published_at),age=now-published;
+  if(!Number.isFinite(published)||age<0||age>=7*86400000)return "";
+  const history=d.changelog||[],hasOlder=history.length>1||d.assets.some(a=>a.tag!==d.latest_release.tag);
+  const isFirst=!hasOlder&&history.length===1&&String(history[0].v).replace(/^v/,"")===String(d.latest_release.tag).replace(/^v/,"");
+  return `<span class="fresh" title="최근 7일 안에 ${isFirst?"첫 배포":"릴리스 공개"}">${isFirst?"NEW":"UPDATE"}</span>`;
+}
+function updatesMarkup(data){
+  const updates=[];
+  for(const d of data.filter(p=>p.latest_release))for(const entry of d.changelog||[]){
+    const groups=historyGroups(entry);if(!groups.length||!entry.date||entry.date_source==="tag")continue;
+    const at=Date.parse(entry.date);if(!Number.isFinite(at)||at>Date.now())continue;
+    updates.push({d,entry,at,text:groups.map(g=>`${g.text} ${g.label}`).join(" · ")});
+  }
+  updates.sort((a,b)=>b.at-a.at||a.d.repo.localeCompare(b.d.repo));
+  return updates.slice(0,5).map(({d,entry,text})=>`<li class="update-item"><time datetime="${esc(entry.date)}">${esc(date(entry.date).slice(5))}</time><a href="#${gameId(d)}">${esc(d.title)}<span class="update-version">v${esc(entry.v)}</span><span class="update-text">${esc(text)}</span></a></li>`).join("")||'<li class="small">공개된 릴리스 변경 기록이 없습니다.</li>';
+}
+function revealGame(){
+  const id=location.hash.slice(1),d=DATA.find(p=>gameId(p)===id);if(!d)return;
+  if(state.plat!=="전체"||state.series!=="전체"||document.getElementById("q").value){
+    state.plat="전체";state.series="전체";document.getElementById("q").value="";
+    chips("f-plat",["전체",...new Set(DATA.flatMap(p=>p.platforms))],"plat");
+    chips("f-series",["전체",...new Set(DATA.map(p=>p.series))],"series");render();
+  }
+  document.getElementById(id)?.scrollIntoView({block:"start"});
+}
+
 function render(){
+  document.getElementById("updates").innerHTML=updatesMarkup(DATA);
   const q=document.getElementById("q").value.trim().toLowerCase();
   let rows=DATA.filter(d=>(state.plat==="전체"||d.platforms.includes(state.plat))&&(state.series==="전체"||d.series===state.series)&&(!q||[d.title,d.original,d.product_id,d.repo].join(" ").toLowerCase().includes(q)));
   if(state.sort==="다운로드")rows.sort((a,b)=>b.downloads-a.downloads||a.repo.localeCompare(b.repo));
@@ -276,17 +435,17 @@ function render(){
   if(!rows.length){L.innerHTML='<div class="empty">조건에 맞는 패치가 없습니다. 필터를 바꿔 보세요.</div>';return}
   const maxDl=Math.max(1,...DATA.map(d=>d.downloads));
   L.innerHTML=rows.map(d=>`
-  <article class="row" data-repo="${esc(d.repo)}">
+  <article class="row" id="${gameId(d)}" data-repo="${esc(d.repo)}">
     <div class="plat">${d.platforms.length?d.platforms.map(p=>`<span class="pbadge ${platformClass(p)}">${esc(p)}</span>`).join(""):'<span class="small">기종 미입력</span>'}${coverMarkup(d)}${d.cover_caption?`<span class="cover-caption">${esc(d.cover_caption)}</span>`:""}</div>
     <div class="main">
-      <div class="title">${esc(d.title)}</div>
+      <div class="title"><span>${esc(d.title)}</span><a class="share-link" href="#${gameId(d)}" aria-label="${esc(d.title)} 공유 주소">주소 ↗</a></div>
       ${d.original?`<div class="orig">${esc(d.original)}</div>`:""}
       ${factsMarkup(d)}${scopeMarkup(d)}${historyMarkup(d)}
-      <div class="links">${link("저장소",d.url)}${d.latest_release?link("릴리스",d.url+"/releases/latest"):d.status==="released"?link("릴리스",d.url+"/releases"):""}${d.guide_url?link("설치 가이드",d.guide_url):""}${editionMarkup(d)}</div>
+      <div class="links">${link("저장소",d.url)}${d.latest_release?link("릴리스",d.url+"/releases/latest"):d.status==="released"?link("릴리스",d.url+"/releases"):""}${d.guide_url?link("설치 가이드",d.guide_url):""}${link("오류 제보",issueUrl(d))}${INTRODUCTIONS[d.repo]?link("작품 소개","https://dollars-archive.github.io/Game-Localization-Discovery-Archive/game.html?file="+encodeURIComponent(INTRODUCTIONS[d.repo])):""}${editionMarkup(d)}</div>
       ${d.tools.length?`<div class="tools small"><span>부가 도구</span>${d.tools.map(t=>link(t.name+" ("+t.tag+")",t.url)).join("")}</div>`:""}
     </div>
     <div class="status">
-      <span class="pill ${d.status==="released"?"ok":"wip"}">${labels[d.status]||esc(d.status)}</span>
+      <span class="status-label"><span class="pill ${d.status==="released"?"ok":"wip"}">${labels[d.status]||esc(d.status)}</span>${freshBadge(d)}</span>
       ${d.latest_release?`<span class="ver">${esc(d.latest_release.tag)}</span><span class="small">${date(d.latest_release.published_at)} 배포</span>`:`<span class="small">${d.status==="released"?"정식 패치 릴리스 없음":"릴리스 없음"}</span>`}
       <span class="small">최근 작업 ${date(d.activity_at||d.pushed_at)}</span>
     </div>
@@ -314,7 +473,7 @@ function applyData(data){
   R.innerHTML=data.related.map(r=>{const u=safeUrl(r.url);return u?`<a class="card" href="${esc(u)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc(r.desc||r.repo)}</span></a>`:""}).join("");
   chips("f-plat",["전체",...new Set(DATA.flatMap(d=>d.platforms))],"plat");
   chips("f-series",["전체",...new Set(DATA.map(d=>d.series))],"series");
-  chips("f-sort",SORTS,"sort");render();
+  chips("f-sort",SORTS,"sort");render();revealGame();
 }
 async function load(){
   try{
@@ -355,6 +514,14 @@ async function refreshDownloads(){
   }catch(e){/* Download refresh must not affect filters or the collected catalogue. */}
 }
 document.getElementById("q").addEventListener("input",render);
+const themeControl=document.getElementById("theme");
+themeControl.value=document.documentElement.dataset.theme||"auto";
+themeControl.addEventListener("change",()=>{
+  const theme=themeControl.value;
+  if(theme==="auto")delete document.documentElement.dataset.theme;else document.documentElement.dataset.theme=theme;
+  try{if(theme==="auto")localStorage.removeItem("da-theme");else localStorage.setItem("da-theme",theme)}catch(e){}
+});
+window.addEventListener("hashchange",revealGame);
 load();
 </script>
 </body></html>

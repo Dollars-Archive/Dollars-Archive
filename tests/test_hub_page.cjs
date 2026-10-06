@@ -2,13 +2,13 @@ const test=require('node:test'),assert=require('node:assert/strict');
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 const root=path.resolve(__dirname,'..');
 const html=fs.readFileSync(path.join(root,'docs/index.html'),'utf8');
-const script=html.match(/<script>([\s\S]*?)<\/script>/)[1];
+const scripts=[...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(m=>m[1]);
 function page(refresh,navigationType="navigate"){
   const nodes=new Map();
   function node(id){if(!nodes.has(id))nodes.set(id,{value:'',innerHTML:'',textContent:'',parentElement:{},querySelectorAll:()=>[],addEventListener:()=>{},appendChild:()=>{}});return nodes.get(id)}
   const data=JSON.parse(fs.readFileSync(path.join(root,'docs/data/patches.json'),'utf8'));
-  const context={URL,console,performance:{getEntriesByType:()=>[{type:navigationType}]},sessionStorage:{},localStorage:{getItem:()=>null},document:{getElementById:node,querySelectorAll:()=>[],createElement:()=>({setAttribute:()=>{},addEventListener:()=>{}})},fetch:()=>new Promise(()=>{}),PatchDownloads:{refresh},data};
-  vm.createContext(context);vm.runInContext(script,context);vm.runInContext('applyData(data)',context);
+  const context={URL,console,performance:{getEntriesByType:()=>[{type:navigationType}]},sessionStorage:{},localStorage:{getItem:()=>null},location:{hash:""},window:{addEventListener:()=>{}},document:{documentElement:{dataset:{}},getElementById:node,querySelectorAll:()=>[],createElement:()=>({setAttribute:()=>{},addEventListener:()=>{}})},fetch:()=>new Promise(()=>{}),PatchDownloads:{refresh},data};
+  vm.createContext(context);for(const script of scripts)vm.runInContext(script,context);vm.runInContext('applyData(data)',context);
   return {context,node,data};
 }
 test('collected page renders all covers and filters before API replies',()=>{
@@ -84,7 +84,7 @@ test('multiple versions preview one category and expand all aligned rows',()=>{
   const out=vm.runInContext('historyMarkup({changelog:[{v:"1.1",date:"2026-10-05",added:["video"],fixed:["오류 A","오류 B"]},{v:"1.0",date:"2026-10-01",added:["ui"]}]})',context);
   assert(out.includes('변경 이력 (2)'));
   assert(out.includes('외 2건'));
-  assert(out.includes('동영상 자막'));
+  assert(out.includes('영상 자막'));
   assert(out.includes('오류 A · 오류 B'));
   assert(out.includes('2026.10.05'));
 });
@@ -93,7 +93,7 @@ test('scope chips show status without introduction versions',()=>{
   const out=vm.runInContext('scopeMarkup({scope:{title:{state:"done",since:null},video:{state:"done",since:"1.1"},image:{state:"partial",since:null}}})',context);
   assert(!out.includes('scope-since'));
   assert(!out.includes('1.1'));
-  assert(out.includes('동영상 자막 ✓'));
+  assert(out.includes('영상 자막 ✓'));
   assert(out.includes('이미지 ✓'));
   assert(!out.includes('이미지 일부'));
 });
