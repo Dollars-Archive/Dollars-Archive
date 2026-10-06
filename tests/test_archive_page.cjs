@@ -17,7 +17,8 @@ test('archive renders catalogue, compact current asset links, report and share l
   assert.equal((out.match(/class="row"/g)||[]).length,data.patches.length);
   for(const p of data.patches.filter(p=>p.latest_release))assert(out.includes(p.url+'/releases/latest'));
   assert(out.includes('영상 자막 ✓'));assert(!out.includes('동영상 자막 ✓'));
-  assert(out.includes('href="#eve-zero"'));assert(out.includes('id="eve-zero"'));
+  assert(out.includes('data-share="eve-zero"'));assert(out.includes('id="eve-zero"'));
+  assert(out.includes('>링크 복사</button>'));assert(!out.includes('주소 ↗'));
   assert(out.includes('aria-label="EVE_ZERO_Korean_Patch_v1.1.zip'));
   assert(!out.includes('>EVE_ZERO_Korean_Patch_v1.1.zip</a>'));
   assert.equal((out.match(/>오류 제보<\/a>/g)||[]).length,data.patches.length);
@@ -58,7 +59,51 @@ test('game address restores target even when saved filters hide it',()=>{
 test('report URL prefills a draft without sending it, and more counts remain separate',()=>{
   const {context}=page();const url=new URL(vm.runInContext('issueUrl(data.patches[0])',context));
   assert.equal(url.origin,'https://github.com');assert(url.pathname.endsWith('/issues/new'));
-  assert(url.searchParams.get('body').includes('게임 판본'));assert(url.searchParams.get('body').includes('스크린샷'));
+  assert.equal(url.searchParams.get('title'),null);
+  assert.equal(url.searchParams.get('body'),'### 실행 환경\n- 기종 : \n- 에뮬레이터 : \n\n### 이슈 내용\n\n\n### 스크린샷');
   const out=vm.runInContext('historyMarkup({changelog:[{v:"1.1",added:["video"],fixed:["오류"]}]})',context);
   assert(out.includes('class="small history-more">외 1건'));
+});
+test('all registered games and new games get the same short report form in their own repository',()=>{
+  const {context,data}=page();
+  const body='### 실행 환경\n- 기종 : \n- 에뮬레이터 : \n\n### 이슈 내용\n\n\n### 스크린샷';
+  for(const game of [...data.patches,{repo:'new-game-kr-patch',title:'새 게임',url:'https://github.com/Dollars-Archive/new-game-kr-patch'}]){
+    context.game=game;const url=new URL(vm.runInContext('issueUrl(game)',context));
+    assert.equal(url.origin,'https://github.com');
+    assert.equal(url.pathname,new URL(game.url).pathname+'/issues/new');
+    assert.equal(url.searchParams.get('body'),body);
+    assert.equal(url.searchParams.has('title'),false);
+  }
+});
+test('image history uses neutral translation wording while preserving other partial labels and source records',()=>{
+  const {context}=page();context.entry={v:'1.0',date:'2020-01-01',partial:['dialogue','image'],added:['ui']};
+  const before=JSON.stringify(context.entry);
+  const groups=vm.runInContext('historyGroups(entry)',context);
+  const image=groups.find(g=>g.text==='이미지 번역');assert(image);assert.equal(image.label,'');
+  assert.equal(groups.find(g=>g.text==='대사').label,'일부');
+  assert.equal(JSON.stringify(context.entry),before);
+  const imageOnly=vm.runInContext('historyMarkup({changelog:[{v:"1.0",partial:["image"]}]})',context);
+  assert(imageOnly.includes('이미지 번역'));assert(!imageOnly.includes('>일부<'));
+  const updates=vm.runInContext('updatesMarkup([{repo:"game",title:"Game",latest_release:{tag:"v1.0"},changelog:[entry]}])',context);
+  assert(updates.includes('이미지 번역'));assert(!updates.includes('이미지 일부'));assert(updates.includes('대사 일부'));
+});
+test('copy succeeds with a public game URL, then restores the button after the confirmation',async()=>{
+  const {context}=page();let copied='',resolveCopy;const timers=[];
+  context.navigator={clipboard:{writeText:url=>{copied=url;return new Promise(resolve=>resolveCopy=resolve)}}};
+  context.setTimeout=(fn,delay)=>timers.push({fn,delay});
+  context.button={dataset:{share:'eve-zero'},textContent:'링크 복사',disabled:false,nextElementSibling:{hidden:true}};
+  const promise=vm.runInContext('copyGameLink(button)',context);
+  assert.equal(context.button.disabled,true);assert.equal(context.button.textContent,'링크 복사');
+  assert.equal(copied,'https://dollars-archive.github.io/Dollars-Archive/#eve-zero');
+  resolveCopy();await promise;assert.equal(context.button.textContent,'복사됨');
+  assert.equal(timers[0].delay,1800);timers[0].fn();
+  assert.equal(context.button.textContent,'링크 복사');assert.equal(context.button.disabled,false);
+});
+test('copy rejection offers a selectable address without claiming success',async()=>{
+  const {context}=page();let selected=false,focused=false;
+  context.navigator={clipboard:{writeText:async()=>{throw new Error('denied')}}};
+  context.button={dataset:{share:'eve-zero'},textContent:'링크 복사',nextElementSibling:{hidden:true,focus:()=>focused=true,select:()=>selected=true}};
+  await vm.runInContext('copyGameLink(button)',context);
+  assert.equal(context.button.textContent,'직접 복사');assert.equal(context.button.disabled,false);
+  assert.equal(context.button.nextElementSibling.hidden,false);assert(selected&&focused);
 });

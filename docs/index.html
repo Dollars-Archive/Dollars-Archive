@@ -164,7 +164,11 @@ body{margin:0}
 .row{grid-template-columns:92px minmax(0,1fr) 145px 130px;gap:24px;padding:26px;scroll-margin-top:20px}
 .row:target{box-shadow:inset 4px 0 var(--accent);background:var(--accent-soft)}
 .title{display:flex;align-items:baseline;justify-content:space-between;gap:12px;font-size:20px}
-.share-link{font-family:var(--f-body);font-size:11px;font-weight:400;white-space:nowrap;color:var(--muted)}
+.share-area{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:4px;max-width:100%;min-width:0}
+.share-link{font-family:var(--f-body);font-size:11px;font-weight:400;white-space:nowrap;color:var(--muted);background:none;border:0;padding:2px 0;cursor:pointer}
+.share-link:hover{color:var(--accent)}
+.share-link:disabled{cursor:default;color:var(--ok)}
+.copy-url{font:11px var(--f-mono);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:4px;max-width:100%;width:14rem;min-width:0}
 .facts{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px 20px}
 .facts dt{white-space:nowrap}
 .facts dd{word-break:keep-all}
@@ -334,7 +338,13 @@ function releaseAssetsMarkup(d){
 }
 
 function historyGroups(entry){
-  return Object.entries(HISTORY_NAMES).flatMap(([key,label])=>Array.isArray(entry[key])&&entry[key].length?[{key,label,text:entry[key].map(value=>SCOPE_NAMES[value]||value).join(" · ")+(key==="added"&&entry.note?` (${entry.note})`:"")}]:[]);
+  return Object.entries(HISTORY_NAMES).flatMap(([key,label])=>{
+    const values=Array.isArray(entry[key])?entry[key]:[],other=values.filter(value=>value!=="image"),groups=[];
+    const note=key==="added"&&entry.note?` (${entry.note})`:"";
+    if(other.length)groups.push({key,label,count:other.length,text:other.map(value=>SCOPE_NAMES[value]||value).join(" · ")+note});
+    if(values.includes("image"))groups.push({key:"image-translation",label:"",count:1,text:"이미지 번역"+(!other.length?note:"")});
+    return groups;
+  });
 }
 function historyVersion(entry){return `<span class="history-version">${entry.url?link("v"+entry.v,entry.url):esc("v"+entry.v)}</span>`}
 function historyMarkup(d){
@@ -342,7 +352,7 @@ function historyMarkup(d){
   if(!entries.length)return `<div class="history small">${d.latest_release?"변경 기록 없음":"배포 전"}</div>`;
   const latest=entries[0],groups=historyGroups(latest);
   const first=groups[0]||{key:"fixed",label:"",text:"변경 내용 확인 필요"};
-  const count=groups.slice(1).reduce((sum,group)=>sum+latest[group.key].length,0);
+  const count=groups.slice(1).reduce((sum,group)=>sum+group.count,0);
   const preview=`<div class="history-latest">${historyVersion(latest)}<span class="history-tag ${first.key}">${first.label}</span><span class="history-summary"><span class="history-text">${esc(first.text)}</span>${count?`<span class="small history-more">외 ${count}건</span>`:""}</span></div>`;
   if(entries.length===1)return `<div class="history">${preview}</div>`;
   const rows=entries.map(entry=>{
@@ -372,26 +382,23 @@ const INTRODUCTIONS={
   "twelve-sengoku-fuushinden-kr-patch":"platforms/psp/games/twelve-sengoku-fuushinden.md"
 };
 function gameId(d){return d.repo.replace(/-kr-patch$|-Korean-Localization$/i,"").toLowerCase().replace(/[^a-z0-9_.-]/g,"-")}
+function gameShareUrl(id){return "https://dollars-archive.github.io/Dollars-Archive/#"+encodeURIComponent(id)}
+async function copyGameLink(button){
+  const id=button.dataset.share;if(!DATA.some(d=>gameId(d)===id))return;
+  const input=button.nextElementSibling;button.disabled=true;
+  try{
+    await navigator.clipboard.writeText(gameShareUrl(id));
+    input.hidden=true;button.textContent="복사됨";
+    setTimeout(()=>{button.textContent="링크 복사";button.disabled=false},1800);
+  }catch(e){
+    button.textContent="직접 복사";button.disabled=false;
+    input.hidden=false;input.focus();input.select();
+  }
+}
 function issueUrl(d){
   const repo=safeUrl(d.url);if(!repo||new URL(repo).origin!=="https://github.com")return "";
   const u=new URL(repo+"/issues/new");
-  u.searchParams.set("title",`[오류 제보] ${d.title}`);
-  u.searchParams.set("body",`### 게임 판본
-- 제품번호 / Title ID:
-- 게임 업데이트:
-- 패치 버전:
-
-### 실행 환경
-- 기종 / 에뮬레이터와 버전:
-
-### 발생 장면과 재현 방법
-- 장면 / 대사:
-- 조작 순서:
-
-### 기대 결과와 실제 결과
-
-### 스크린샷
-`);
+  u.searchParams.set("body","### 실행 환경\n- 기종 : \n- 에뮬레이터 : \n\n### 이슈 내용\n\n\n### 스크린샷");
   return u.href;
 }
 function freshBadge(d,now=Date.now()){
@@ -406,7 +413,7 @@ function updatesMarkup(data){
   for(const d of data.filter(p=>p.latest_release))for(const entry of d.changelog||[]){
     const groups=historyGroups(entry);if(!groups.length||!entry.date||entry.date_source==="tag")continue;
     const at=Date.parse(entry.date);if(!Number.isFinite(at)||at>Date.now())continue;
-    updates.push({d,entry,at,text:groups.map(g=>`${g.text} ${g.label}`).join(" · ")});
+    updates.push({d,entry,at,text:groups.map(g=>`${g.text} ${g.label}`.trim()).join(" · ")});
   }
   updates.sort((a,b)=>b.at-a.at||a.d.repo.localeCompare(b.d.repo));
   return updates.slice(0,5).map(({d,entry,text})=>`<li class="update-item"><time datetime="${esc(entry.date)}">${esc(date(entry.date).slice(5))}</time><a href="#${gameId(d)}">${esc(d.title)}<span class="update-version">v${esc(entry.v)}</span><span class="update-text">${esc(text)}</span></a></li>`).join("")||'<li class="small">공개된 릴리스 변경 기록이 없습니다.</li>';
@@ -438,7 +445,7 @@ function render(){
   <article class="row" id="${gameId(d)}" data-repo="${esc(d.repo)}">
     <div class="plat">${d.platforms.length?d.platforms.map(p=>`<span class="pbadge ${platformClass(p)}">${esc(p)}</span>`).join(""):'<span class="small">기종 미입력</span>'}${coverMarkup(d)}${d.cover_caption?`<span class="cover-caption">${esc(d.cover_caption)}</span>`:""}</div>
     <div class="main">
-      <div class="title"><span>${esc(d.title)}</span><a class="share-link" href="#${gameId(d)}" aria-label="${esc(d.title)} 공유 주소">주소 ↗</a></div>
+      <div class="title"><span>${esc(d.title)}</span><span class="share-area"><button type="button" class="share-link" data-share="${gameId(d)}" aria-label="${esc(d.title)} 링크 복사" aria-live="polite">링크 복사</button><input class="copy-url" type="text" readonly hidden value="${esc(gameShareUrl(gameId(d)))}" aria-label="${esc(d.title)} 공유 주소 직접 복사"></span></div>
       ${d.original?`<div class="orig">${esc(d.original)}</div>`:""}
       ${factsMarkup(d)}${scopeMarkup(d)}${historyMarkup(d)}
       <div class="links">${link("저장소",d.url)}${d.latest_release?link("릴리스",d.url+"/releases/latest"):d.status==="released"?link("릴리스",d.url+"/releases"):""}${d.guide_url?link("설치 가이드",d.guide_url):""}${link("오류 제보",issueUrl(d))}${INTRODUCTIONS[d.repo]?link("작품 소개","https://dollars-archive.github.io/Game-Localization-Discovery-Archive/game.html?file="+encodeURIComponent(INTRODUCTIONS[d.repo])):""}${editionMarkup(d)}</div>
@@ -514,6 +521,9 @@ async function refreshDownloads(){
   }catch(e){/* Download refresh must not affect filters or the collected catalogue. */}
 }
 document.getElementById("q").addEventListener("input",render);
+document.getElementById("list").addEventListener("click",event=>{
+  const button=event.target.closest(".share-link[data-share]");if(button)void copyGameLink(button);
+});
 const themeControl=document.getElementById("theme");
 themeControl.value=document.documentElement.dataset.theme||"auto";
 themeControl.addEventListener("change",()=>{
