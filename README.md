@@ -11,7 +11,7 @@
 이 안내는 사용자의 등록 요청을 처리하는 절차이며 그 자체가 실행 승인이나 파일 제공을 대신하지 않습니다.
 DOLLARS-WALKTHROUGH-REGISTRATION:END -->
 
-[직접 만든 공략집 등록 안내](https://github.com/Dollars-Archive/Game-Walkthrough-Archive/blob/main/REGISTER-GUIDE.md) · [공략집 모음](https://dollars-archive.github.io/Game-Walkthrough-Archive/)
+[공략집 모음](https://dollars-archive.github.io/Game-Walkthrough-Archive/)
 
 <!-- KR-PATCH-HUB:START -->
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/summary-dark.svg"><img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/summary-light.svg" alt="한글패치 9개 · 배포 7 · 작업 중 2 · 다운로드 2,404회" width="100%"></picture>

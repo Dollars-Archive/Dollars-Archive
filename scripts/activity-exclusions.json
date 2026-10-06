@@ -1,15 +1,15 @@
 {
   "eve-zero-kr-patch": {
-    "commit": "77b0128db54c8d8146398576fe636674314969a2",
-    "ignored_pushed_at": "2026-10-05T06:26:17Z",
+    "commit": "f0529d0c75999019417617e1ae7a340a92c07896",
+    "ignored_pushed_at": "2026-10-06T08:44:05Z",
     "previous_activity_at": "2026-10-05T05:14:53Z",
-    "reason": "공략집 등록 지침 연결 안내 추가"
+    "reason": "보이는 공략집 등록 안내 제거 및 숨김 지침 유지"
   },
   "eve-new-generation-kr-patch": {
-    "commit": "d5e0b27fa5526ddcf69b606223e6c49a9a8c19e1",
-    "ignored_pushed_at": "2026-10-05T06:26:36Z",
+    "commit": "29c02d18e2244568b166305b27a2de230fad9829",
+    "ignored_pushed_at": "2026-10-06T08:44:01Z",
     "previous_activity_at": "2026-10-05T05:30:21Z",
-    "reason": "공략집 등록 지침 연결 안내 추가"
+    "reason": "보이는 공략집 등록 안내 제거 및 숨김 지침 유지"
   },
   "tears-to-tiara-2-kr-patch": {
     "commit": "7e3e4879be268bc6a515a2a900e1a57860ecf0b3",
@@ -18,33 +18,39 @@
     "reason": "공략집 등록 지침 연결 안내 추가"
   },
   "Guardian-Angel-Korean-Localization": {
-    "commit": "55ea996c5e156019260ea1785c060eca012642fa",
+    "commit": "380ef911081494075baa35a36d7c5aec43d5854f",
     "ignored_pushed_at": "2026-10-05T06:26:38Z",
     "previous_activity_at": "2026-10-05T04:55:11Z",
-    "reason": "공략집 등록 지침 연결 안내 추가"
+    "reason": "보이는 공략집 등록 안내 제거 및 숨김 지침 유지"
   },
   "eve-rebirth-terror-kr-patch": {
-    "commit": "30d9ec7149bec32d0dc4408516b091b46394deb7",
-    "ignored_pushed_at": "2026-10-05T06:26:39Z",
+    "commit": "86b67455c2f1d498356278375dd28c2f90e2aec4",
+    "ignored_pushed_at": "2026-10-06T08:43:53Z",
     "previous_activity_at": "2026-10-05T03:51:24Z",
-    "reason": "공략집 등록 지침 연결 안내 추가"
+    "reason": "보이는 공략집 등록 안내 제거 및 숨김 지침 유지"
   },
   "eve-ghost-enemies-kr-patch": {
-    "commit": "b9034aa318417b82b4c32e13d9a6aef19c816020",
-    "ignored_pushed_at": "2026-10-05T06:26:41Z",
+    "commit": "bff7976a2a9617a40da775734cded3126a478bef",
+    "ignored_pushed_at": "2026-10-06T08:43:49Z",
     "previous_activity_at": "2026-10-05T03:51:25Z",
-    "reason": "공략집 등록 지침 연결 안내 추가"
+    "reason": "보이는 공략집 등록 안내 제거 및 숨김 지침 유지"
   },
   "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch": {
-    "commit": "d43fad822007d4bb1a85b3c0f55dddcf26dad911",
-    "ignored_pushed_at": "2026-10-05T06:26:42Z",
+    "commit": "ee1a39b8125eb5377a856ee5bf532b966cce6bf5",
+    "ignored_pushed_at": "2026-10-06T08:43:44Z",
     "previous_activity_at": "2026-10-05T05:11:54Z",
-    "reason": "공략집 등록 지침 연결 안내 추가"
+    "reason": "보이는 공략집 등록 안내 제거 및 숨김 지침 유지"
   },
   "touhou-genso-wanderer-reloaded-kr-patch": {
-    "commit": "365bad1b96f9fc814ab352793e407b209761d395",
-    "ignored_pushed_at": "2026-10-05T06:26:43Z",
+    "commit": "cc03b4ae1cb02399f87336be112b9fad90432471",
+    "ignored_pushed_at": "2026-10-06T08:43:40Z",
     "previous_activity_at": "2026-10-05T05:10:01Z",
-    "reason": "공략집 등록 지침 연결 안내 추가"
+    "reason": "보이는 공략집 등록 안내 제거 및 숨김 지침 유지"
+  },
+  "twelve-sengoku-fuushinden-kr-patch": {
+    "commit": "60b031b12254a537f07ed613fd57bc31b35e96cd",
+    "ignored_pushed_at": "2026-10-06T08:35:22Z",
+    "previous_activity_at": "2026-10-06T08:35:22Z",
+    "reason": "보이는 공략집 등록 안내 제거 및 숨김 지침 유지"
   }
 }

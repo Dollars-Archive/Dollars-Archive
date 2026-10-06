@@ -37,3 +37,27 @@ class GuideRegistrationTests(unittest.TestCase):
         self.assertEqual(result.count(link.START), 1)
         with self.assertRaises(ValueError):
             link.ensure_link(result, 'Dollars-Archive/another-game')
+
+    def test_registration_stays_hidden_and_actual_walkthrough_survives(self):
+        source = '# 게임\r\n\r\n![사진](images/a.png)\r\n'
+        source += '[직접 만든 공략집 등록 안내](' + link.URL + ') · [공략집 모음](https://example.com/guide)\r\n'
+        result = link.ensure_link(source, 'Dollars-Archive/sample-kr-patch')
+        visible = link.re.sub(r'<!--.*?-->', '', result, flags=link.re.S)
+        self.assertNotIn(link.URL, visible)
+        self.assertIn('[공략집 모음](https://example.com/guide)', visible)
+        self.assertIn('![사진](images/a.png)', visible)
+        self.assertIn(link.URL, result)
+        self.assertEqual(result, link.ensure_link(result, 'Dollars-Archive/sample-kr-patch'))
+        self.assertNotIn('\n', result.replace('\r\n',''))
+
+    def test_existing_hidden_marker_does_not_preserve_public_notice(self):
+        source = link.ensure_link('# 게임\n', 'Dollars-Archive/sample-kr-patch')
+        source += '[직접 만든 공략집 등록 안내](' + link.URL + ')\n'
+        result = link.ensure_link(source, 'Dollars-Archive/sample-kr-patch')
+        self.assertNotIn(link.URL, link.re.sub(r'<!--.*?-->', '', result, flags=link.re.S))
+        self.assertEqual(result, link.ensure_link(result, 'Dollars-Archive/sample-kr-patch'))
+
+    def test_html_registration_link_removed_without_changing_comment(self):
+        source = '<!-- instructions: ' + link.URL + ' -->\n<a href="' + link.URL + '">등록 안내</a>\n'
+        result = link.remove_visible_registration(source)
+        self.assertEqual(result, '<!-- instructions: ' + link.URL + ' -->\n')
