@@ -1,91 +1,12 @@
 {
-  "generated_at": "2026-10-06T21:43:30Z",
+  "generated_at": "2026-10-06T22:57:03Z",
   "summary": {
     "total": 9,
-    "released": 8,
-    "wip": 1,
-    "downloads": 2508
+    "released": 7,
+    "wip": 2,
+    "downloads": 2510
   },
   "patches": [
-    {
-      "repo": "Guardian-Angel-Korean-Localization",
-      "title": "가디언 엔젤",
-      "original": "ガーディアンエンジェル / Guardian Angel",
-      "series": "기타",
-      "platforms": [
-        "PS2"
-      ],
-      "genre": "SF 추리 ADV",
-      "genre_full": "시간축·다중시점 SF 미스터리 / 추리 어드벤처",
-      "developer": "Vridge",
-      "publisher": "Datam Polystar",
-      "playtime": "20–40시간",
-      "edition": "PlayStation 2 일본판",
-      "release_jp": "2003-02-27",
-      "product_id": "SLPS-25214",
-      "base_update": "",
-      "note": "",
-      "cover_caption": "",
-      "status": "released",
-      "description": "PlayStation 2용 미스터리 어드벤처 게임 『Guardian Angel』의 비공식 한국어화 프로젝트입니다. 사건으로 육체를 잃고 수호천사가 된 사립탐정 에릭이 딸 에스텔과 주변 인물들에게 영감을 주며, 시간과 공간을 넘나들어 사건의 진상을 추적하는 작품입니다. 게임 내 대사와 시스템 텍스트를 한국어로 번역하는 것을 목표로 합니다.",
-      "pushed_at": "2026-10-06T12:55:21Z",
-      "stars": 0,
-      "url": "https://github.com/Dollars-Archive/Guardian-Angel-Korean-Localization",
-      "has_pages": false,
-      "topics": [
-        "korean-translation",
-        "kr-patch",
-        "ps2"
-      ],
-      "guide_url": "",
-      "guide_status": null,
-      "latest_release": {
-        "tag": "v1.0",
-        "name": "Guardian Angel 한국어 패치 v1.0",
-        "url": "https://github.com/Dollars-Archive/Guardian-Angel-Korean-Localization/releases/tag/v1.0",
-        "published_at": "2026-10-06T12:55:21Z",
-        "asset_count": 0
-      },
-      "downloads": 0,
-      "assets": [],
-      "tools": [],
-      "walkthroughs": [],
-      "activity_at": "2026-10-06T12:55:21Z",
-      "activity_exclusion": {
-        "ignored_pushed_at": "2026-10-06T08:43:57Z",
-        "previous_activity_at": "2026-10-05T04:55:11Z"
-      },
-      "scope": {
-        "title": {
-          "state": "none",
-          "since": null
-        },
-        "ui": {
-          "state": "none",
-          "since": null
-        },
-        "dialogue": {
-          "state": "none",
-          "since": null
-        },
-        "image": {
-          "state": "none",
-          "since": null
-        },
-        "video": {
-          "state": "none",
-          "since": null
-        }
-      },
-      "changelog": [],
-      "metadata_source": "https://github.com/Dollars-Archive/Guardian-Angel-Korean-Localization/blob/main/README.md",
-      "downloads_current": 0,
-      "downloads_carried": 0,
-      "download_ledger": {},
-      "cover": "covers/Guardian-Angel-Korean-Localization.webp",
-      "cover_source": "https://gamesdb.launchbox-app.com/games/details/375952-guardian-angel",
-      "cover_revision": "e7bc3b2e946d"
-    },
     {
       "repo": "tears-to-tiara-2-kr-patch",
       "title": "티어즈 투 티아라 2",
@@ -303,13 +224,13 @@
         "published_at": "2026-10-05T04:17:21Z",
         "asset_count": 1
       },
-      "downloads": 791,
+      "downloads": 792,
       "assets": [
         {
           "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.1/EVE_New_Generation_Korean_Patch_v1.1.zip",
-          "downloads": 327,
+          "downloads": 328,
           "asset_id": 611547873,
           "created_at": "2026-10-05T04:59:55Z",
           "release_published_at": "2026-10-05T04:17:21Z"
@@ -387,7 +308,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/blob/main/README.md",
-      "downloads_current": 791,
+      "downloads_current": 792,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-new-generation-kr-patch/v1.0/EVE_NG_v1.0.zip": {
@@ -404,7 +325,7 @@
           "tag": "v1.1",
           "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
           "asset_id": 611547873,
-          "last_count": 327,
+          "last_count": 328,
           "carried": 0,
           "removed": false
         }
@@ -452,13 +373,13 @@
         "published_at": "2026-10-05T04:17:18Z",
         "asset_count": 1
       },
-      "downloads": 738,
+      "downloads": 739,
       "assets": [
         {
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/download/v1.1/EVE_ZERO_Korean_Patch_v1.1.zip",
-          "downloads": 348,
+          "downloads": 349,
           "asset_id": 611513419,
           "created_at": "2026-10-05T04:43:41Z",
           "release_published_at": "2026-10-05T04:17:18Z"
@@ -534,7 +455,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-zero-kr-patch/blob/main/README.md",
-      "downloads_current": 738,
+      "downloads_current": 739,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-zero-kr-patch/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip": {
@@ -551,7 +472,7 @@
           "tag": "v1.1",
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "asset_id": 611513419,
-          "last_count": 348,
+          "last_count": 349,
           "carried": 0,
           "removed": false
         }
@@ -1094,6 +1015,79 @@
       "cover_revision": "ca43be11d6df"
     },
     {
+      "repo": "Guardian-Angel-Korean-Localization",
+      "title": "가디언 엔젤",
+      "original": "ガーディアンエンジェル / Guardian Angel",
+      "series": "기타",
+      "platforms": [
+        "PS2"
+      ],
+      "genre": "SF 추리 ADV",
+      "genre_full": "시간축·다중시점 SF 미스터리 / 추리 어드벤처",
+      "developer": "Vridge",
+      "publisher": "Datam Polystar",
+      "playtime": "20–40시간",
+      "edition": "PlayStation 2 일본판",
+      "release_jp": "2003-02-27",
+      "product_id": "SLPS-25214",
+      "base_update": "",
+      "note": "",
+      "cover_caption": "",
+      "status": "wip",
+      "description": "PlayStation 2용 미스터리 어드벤처 게임 『Guardian Angel』의 비공식 한국어화 프로젝트입니다. 사건으로 육체를 잃고 수호천사가 된 사립탐정 에릭이 딸 에스텔과 주변 인물들에게 영감을 주며, 시간과 공간을 넘나들어 사건의 진상을 추적하는 작품입니다. 게임 내 대사와 시스템 텍스트를 한국어로 번역하는 것을 목표로 합니다.",
+      "pushed_at": "2026-10-06T12:55:21Z",
+      "stars": 0,
+      "url": "https://github.com/Dollars-Archive/Guardian-Angel-Korean-Localization",
+      "has_pages": false,
+      "topics": [
+        "korean-translation",
+        "kr-patch",
+        "ps2"
+      ],
+      "guide_url": "",
+      "guide_status": null,
+      "latest_release": null,
+      "downloads": 0,
+      "assets": [],
+      "tools": [],
+      "walkthroughs": [],
+      "activity_at": "2026-10-06T12:55:21Z",
+      "activity_exclusion": {
+        "ignored_pushed_at": "2026-10-06T08:43:57Z",
+        "previous_activity_at": "2026-10-05T04:55:11Z"
+      },
+      "scope": {
+        "title": {
+          "state": "none",
+          "since": null
+        },
+        "ui": {
+          "state": "none",
+          "since": null
+        },
+        "dialogue": {
+          "state": "none",
+          "since": null
+        },
+        "image": {
+          "state": "none",
+          "since": null
+        },
+        "video": {
+          "state": "none",
+          "since": null
+        }
+      },
+      "changelog": [],
+      "metadata_source": "https://github.com/Dollars-Archive/Guardian-Angel-Korean-Localization/blob/main/README.md",
+      "downloads_current": 0,
+      "downloads_carried": 0,
+      "download_ledger": {},
+      "cover": "covers/Guardian-Angel-Korean-Localization.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/375952-guardian-angel",
+      "cover_revision": "e7bc3b2e946d"
+    },
+    {
       "repo": "twelve-sengoku-fuushinden-kr-patch",
       "title": "트웰브 전국봉신전",
       "original": "Twelve ～戦国封神伝～",
@@ -1230,28 +1224,8 @@
     },
     {
       "repo": "Guardian-Angel-Korean-Localization",
-      "type": "changelog-missing",
-      "message": "v1.0: 최신 릴리스의 변경 기록이 없습니다."
-    },
-    {
-      "repo": "Guardian-Angel-Korean-Localization",
-      "type": "missing-scope",
-      "message": "릴리스의 버전별 변경 이력이 비어 있습니다."
-    },
-    {
-      "repo": "Guardian-Angel-Korean-Localization",
       "type": "readme-form-invalid",
       "message": "타이틀 한글화: 제목이 누락되거나 중복되었습니다. 기존 범위를 유지합니다."
-    },
-    {
-      "repo": "Guardian-Angel-Korean-Localization",
-      "type": "readme-no-release-link",
-      "message": "배포 상태인데 README에 /releases 링크가 없습니다."
-    },
-    {
-      "repo": "Guardian-Angel-Korean-Localization",
-      "type": "release-no-asset",
-      "message": "v1.0 릴리스에 첨부파일이 없습니다."
     },
     {
       "repo": "tears-to-tiara-2-kr-patch",
