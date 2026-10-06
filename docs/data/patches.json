@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T08:44:28Z",
+  "generated_at": "2026-10-06T08:45:34Z",
   "summary": {
     "total": 9,
     "released": 7,
@@ -7,81 +7,6 @@
     "downloads": 2404
   },
   "patches": [
-    {
-      "repo": "Guardian-Angel-Korean-Localization",
-      "title": "가디언 엔젤",
-      "original": "ガーディアンエンジェル / Guardian Angel",
-      "series": "기타",
-      "platforms": [
-        "PS2"
-      ],
-      "genre": "SF 추리 ADV",
-      "genre_full": "시간축·다중시점 SF 미스터리 / 추리 어드벤처",
-      "developer": "Vridge",
-      "publisher": "Datam Polystar",
-      "playtime": "20–40시간",
-      "edition": "PlayStation 2 일본판",
-      "release_jp": "2003-02-27",
-      "product_id": "SLPS-25214",
-      "base_update": "",
-      "note": "",
-      "cover_caption": "",
-      "status": "wip",
-      "description": "PlayStation 2용 미스터리 어드벤처 게임 『Guardian Angel』의 비공식 한국어화 프로젝트입니다. 사건으로 육체를 잃고 수호천사가 된 사립탐정 에릭이 딸 에스텔과 주변 인물들에게 영감을 주며, 시간과 공간을 넘나들어 사건의 진상을 추적하는 작품입니다. 게임 내 대사와 시스템 텍스트를 한국어로 번역하는 것을 목표로 합니다.",
-      "pushed_at": "2026-10-06T08:43:57Z",
-      "stars": 0,
-      "url": "https://github.com/Dollars-Archive/Guardian-Angel-Korean-Localization",
-      "has_pages": false,
-      "topics": [
-        "korean-translation",
-        "kr-patch",
-        "ps2"
-      ],
-      "guide_url": "",
-      "guide_status": null,
-      "latest_release": null,
-      "downloads": 0,
-      "assets": [],
-      "tools": [],
-      "walkthroughs": [],
-      "activity_at": "2026-10-06T08:43:57Z",
-      "activity_exclusion": {
-        "ignored_pushed_at": "2026-10-05T06:26:38Z",
-        "previous_activity_at": "2026-10-05T04:55:11Z"
-      },
-      "scope": {
-        "title": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "ui": {
-          "state": "none",
-          "since": null
-        },
-        "dialogue": {
-          "state": "none",
-          "since": null
-        },
-        "image": {
-          "state": "none",
-          "status": "미작업",
-          "since": null
-        },
-        "video": {
-          "state": "none",
-          "since": null
-        }
-      },
-      "changelog": [],
-      "metadata_source": "https://github.com/Dollars-Archive/Guardian-Angel-Korean-Localization/blob/main/README.md",
-      "downloads_current": 0,
-      "downloads_carried": 0,
-      "download_ledger": {},
-      "cover": "covers/Guardian-Angel-Korean-Localization.webp",
-      "cover_source": "https://gamesdb.launchbox-app.com/games/details/375952-guardian-angel",
-      "cover_revision": "e7bc3b2e946d"
-    },
     {
       "repo": "twelve-sengoku-fuushinden-kr-patch",
       "title": "트웰브 전국봉신전",
@@ -119,9 +44,9 @@
       "assets": [],
       "tools": [],
       "walkthroughs": [],
-      "activity_at": "2026-10-06T08:43:36Z",
+      "activity_at": "2026-10-06T08:35:22Z",
       "activity_exclusion": {
-        "ignored_pushed_at": "2026-10-06T08:35:22Z",
+        "ignored_pushed_at": "2026-10-06T08:43:36Z",
         "previous_activity_at": "2026-10-06T08:35:22Z"
       },
       "scope": {
@@ -894,6 +819,81 @@
       "cover": "covers/touhou-genso-wanderer-reloaded-kr-patch.webp",
       "cover_source": "https://gamesdb.launchbox-app.com/games/details/114795-touhou-genso-wanderer-reloaded",
       "cover_revision": "69db0bbc25e9"
+    },
+    {
+      "repo": "Guardian-Angel-Korean-Localization",
+      "title": "가디언 엔젤",
+      "original": "ガーディアンエンジェル / Guardian Angel",
+      "series": "기타",
+      "platforms": [
+        "PS2"
+      ],
+      "genre": "SF 추리 ADV",
+      "genre_full": "시간축·다중시점 SF 미스터리 / 추리 어드벤처",
+      "developer": "Vridge",
+      "publisher": "Datam Polystar",
+      "playtime": "20–40시간",
+      "edition": "PlayStation 2 일본판",
+      "release_jp": "2003-02-27",
+      "product_id": "SLPS-25214",
+      "base_update": "",
+      "note": "",
+      "cover_caption": "",
+      "status": "wip",
+      "description": "PlayStation 2용 미스터리 어드벤처 게임 『Guardian Angel』의 비공식 한국어화 프로젝트입니다. 사건으로 육체를 잃고 수호천사가 된 사립탐정 에릭이 딸 에스텔과 주변 인물들에게 영감을 주며, 시간과 공간을 넘나들어 사건의 진상을 추적하는 작품입니다. 게임 내 대사와 시스템 텍스트를 한국어로 번역하는 것을 목표로 합니다.",
+      "pushed_at": "2026-10-06T08:43:57Z",
+      "stars": 0,
+      "url": "https://github.com/Dollars-Archive/Guardian-Angel-Korean-Localization",
+      "has_pages": false,
+      "topics": [
+        "korean-translation",
+        "kr-patch",
+        "ps2"
+      ],
+      "guide_url": "",
+      "guide_status": null,
+      "latest_release": null,
+      "downloads": 0,
+      "assets": [],
+      "tools": [],
+      "walkthroughs": [],
+      "activity_at": "2026-10-05T04:55:11Z",
+      "activity_exclusion": {
+        "ignored_pushed_at": "2026-10-06T08:43:57Z",
+        "previous_activity_at": "2026-10-05T04:55:11Z"
+      },
+      "scope": {
+        "title": {
+          "state": "done",
+          "status": "완료",
+          "since": null
+        },
+        "ui": {
+          "state": "none",
+          "since": null
+        },
+        "dialogue": {
+          "state": "none",
+          "since": null
+        },
+        "image": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        },
+        "video": {
+          "state": "none",
+          "since": null
+        }
+      },
+      "changelog": [],
+      "metadata_source": "https://github.com/Dollars-Archive/Guardian-Angel-Korean-Localization/blob/main/README.md",
+      "downloads_current": 0,
+      "downloads_carried": 0,
+      "download_ledger": {},
+      "cover": "covers/Guardian-Angel-Korean-Localization.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/375952-guardian-angel",
+      "cover_revision": "e7bc3b2e946d"
     },
     {
       "repo": "eve-ghost-enemies-kr-patch",
