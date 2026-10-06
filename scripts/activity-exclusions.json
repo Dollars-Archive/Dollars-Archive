@@ -19,7 +19,7 @@
   },
   "Guardian-Angel-Korean-Localization": {
     "commit": "380ef911081494075baa35a36d7c5aec43d5854f",
-    "ignored_pushed_at": "2026-10-05T06:26:38Z",
+    "ignored_pushed_at": "2026-10-06T08:43:57Z",
     "previous_activity_at": "2026-10-05T04:55:11Z",
     "reason": "보이는 공략집 등록 안내 제거 및 숨김 지침 유지"
   },
@@ -49,7 +49,7 @@
   },
   "twelve-sengoku-fuushinden-kr-patch": {
     "commit": "60b031b12254a537f07ed613fd57bc31b35e96cd",
-    "ignored_pushed_at": "2026-10-06T08:35:22Z",
+    "ignored_pushed_at": "2026-10-06T08:43:36Z",
     "previous_activity_at": "2026-10-06T08:35:22Z",
     "reason": "보이는 공략집 등록 안내 제거 및 숨김 지침 유지"
   }
