@@ -1,12 +1,86 @@
 {
-  "generated_at": "2026-10-06T03:07:34Z",
+  "generated_at": "2026-10-06T08:35:35Z",
   "summary": {
-    "total": 8,
+    "total": 9,
     "released": 7,
-    "wip": 1,
-    "downloads": 2316
+    "wip": 2,
+    "downloads": 2404
   },
   "patches": [
+    {
+      "repo": "twelve-sengoku-fuushinden-kr-patch",
+      "title": "트웰브 전국봉신전",
+      "original": "Twelve ～戦国封神伝～",
+      "series": "기타",
+      "platforms": [
+        "PSP"
+      ],
+      "genre": "SRPG",
+      "genre_full": "전국 판타지 · 턴제 택티컬 RPG",
+      "developer": "Tenky",
+      "publisher": "Konami",
+      "playtime": "약 59.2시간 (GameFAQs 평균, 13표본)",
+      "edition": "PSP 일본판 일반판 (현재 작업 기준, 최종 지원 범위는 배포 시 안내)",
+      "release_jp": "2005-08-25",
+      "product_id": "ULJM05031",
+      "base_update": "원본 DISC_VERSION 1.01 (별도 공식 업데이트가 아님)",
+      "note": "",
+      "cover_caption": "",
+      "status": "wip",
+      "description": "PSP용 트웰브 전국봉신전 비공식 한국어 패치 제작 프로젝트",
+      "pushed_at": "2026-10-06T08:35:22Z",
+      "stars": 0,
+      "url": "https://github.com/Dollars-Archive/twelve-sengoku-fuushinden-kr-patch",
+      "has_pages": false,
+      "topics": [
+        "korean-localization",
+        "kr-patch",
+        "psp"
+      ],
+      "guide_url": "",
+      "guide_status": null,
+      "latest_release": null,
+      "downloads": 0,
+      "assets": [],
+      "tools": [],
+      "walkthroughs": [],
+      "activity_at": "2026-10-06T08:35:22Z",
+      "scope": {
+        "title": {
+          "state": "none",
+          "status": "확인 필요",
+          "since": null
+        },
+        "ui": {
+          "state": "none",
+          "status": "확인 필요",
+          "since": null
+        },
+        "dialogue": {
+          "state": "partial",
+          "status": "일부",
+          "since": null
+        },
+        "image": {
+          "state": "done",
+          "status": "완료",
+          "since": null
+        },
+        "video": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        }
+      },
+      "changelog": [],
+      "metadata_source": "https://github.com/Dollars-Archive/twelve-sengoku-fuushinden-kr-patch/blob/main/README.md",
+      "downloads_current": 0,
+      "downloads_carried": 0,
+      "download_ledger": {},
+      "cover": null,
+      "cover_source": null,
+      "cover_revision": null
+    },
     {
       "repo": "tears-to-tiara-2-kr-patch",
       "title": "티어즈 투 티아라 2",
@@ -46,13 +120,13 @@
         "published_at": "2026-10-05T04:17:16Z",
         "asset_count": 1
       },
-      "downloads": 519,
+      "downloads": 537,
       "assets": [
         {
           "name": "TTT2_KR_Patcher_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/download/v1.1/TTT2_KR_Patcher_v1.1.zip",
-          "downloads": 195,
+          "downloads": 212,
           "asset_id": 611515859,
           "created_at": "2026-10-05T04:44:48Z",
           "release_published_at": "2026-10-05T04:17:16Z"
@@ -61,7 +135,7 @@
           "name": "TTT2_KR_Patcher_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/download/v1.0/TTT2_KR_Patcher_v1.0.zip",
-          "downloads": 324,
+          "downloads": 325,
           "asset_id": 609346501,
           "created_at": "2026-10-04T07:16:59Z",
           "release_published_at": "2026-09-27T00:38:38Z"
@@ -159,7 +233,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/blob/main/README.md",
-      "downloads_current": 519,
+      "downloads_current": 537,
       "downloads_carried": 0,
       "download_ledger": {
         "tears-to-tiara-2-kr-patch/v1.0/TTT2_KR_Patcher_v1.0.zip": {
@@ -167,7 +241,7 @@
           "tag": "v1.0",
           "name": "TTT2_KR_Patcher_v1.0.zip",
           "asset_id": 609346501,
-          "last_count": 324,
+          "last_count": 325,
           "carried": 0,
           "removed": false
         },
@@ -176,7 +250,7 @@
           "tag": "v1.1",
           "name": "TTT2_KR_Patcher_v1.1.zip",
           "asset_id": 611515859,
-          "last_count": 195,
+          "last_count": 212,
           "carried": 0,
           "removed": false
         }
@@ -224,13 +298,13 @@
         "published_at": "2026-10-05T04:17:21Z",
         "asset_count": 1
       },
-      "downloads": 727,
+      "downloads": 754,
       "assets": [
         {
           "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.1/EVE_New_Generation_Korean_Patch_v1.1.zip",
-          "downloads": 266,
+          "downloads": 292,
           "asset_id": 611547873,
           "created_at": "2026-10-05T04:59:55Z",
           "release_published_at": "2026-10-05T04:17:21Z"
@@ -239,7 +313,7 @@
           "name": "EVE_NG_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.0/EVE_NG_v1.0.zip",
-          "downloads": 461,
+          "downloads": 462,
           "asset_id": 609571381,
           "created_at": "2026-10-04T09:55:30Z",
           "release_published_at": "2026-10-04T09:23:46Z"
@@ -308,7 +382,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/blob/main/README.md",
-      "downloads_current": 727,
+      "downloads_current": 754,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-new-generation-kr-patch/v1.0/EVE_NG_v1.0.zip": {
@@ -316,7 +390,7 @@
           "tag": "v1.0",
           "name": "EVE_NG_v1.0.zip",
           "asset_id": 609571381,
-          "last_count": 461,
+          "last_count": 462,
           "carried": 0,
           "removed": false
         },
@@ -325,7 +399,7 @@
           "tag": "v1.1",
           "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
           "asset_id": 611547873,
-          "last_count": 266,
+          "last_count": 292,
           "carried": 0,
           "removed": false
         }
@@ -373,13 +447,13 @@
         "published_at": "2026-10-05T04:17:18Z",
         "asset_count": 1
       },
-      "downloads": 673,
+      "downloads": 706,
       "assets": [
         {
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/download/v1.1/EVE_ZERO_Korean_Patch_v1.1.zip",
-          "downloads": 284,
+          "downloads": 316,
           "asset_id": 611513419,
           "created_at": "2026-10-05T04:43:41Z",
           "release_published_at": "2026-10-05T04:17:18Z"
@@ -388,7 +462,7 @@
           "name": "EVE_ZERO_Korean_Patch_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/download/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip",
-          "downloads": 389,
+          "downloads": 390,
           "asset_id": 609739492,
           "created_at": "2026-10-04T11:43:49Z",
           "release_published_at": "2026-10-04T09:52:01Z"
@@ -455,7 +529,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-zero-kr-patch/blob/main/README.md",
-      "downloads_current": 673,
+      "downloads_current": 706,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-zero-kr-patch/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip": {
@@ -463,7 +537,7 @@
           "tag": "v1.0",
           "name": "EVE_ZERO_Korean_Patch_v1.0.zip",
           "asset_id": 609739492,
-          "last_count": 389,
+          "last_count": 390,
           "carried": 0,
           "removed": false
         },
@@ -472,7 +546,7 @@
           "tag": "v1.1",
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "asset_id": 611513419,
-          "last_count": 284,
+          "last_count": 316,
           "carried": 0,
           "removed": false
         }
@@ -643,7 +717,7 @@
         "published_at": "2026-09-25T10:23:29Z",
         "asset_count": 2
       },
-      "downloads": 106,
+      "downloads": 107,
       "assets": [
         {
           "name": "TODR_PC_v1.0.zip",
@@ -658,7 +732,7 @@
           "name": "TODR_Switch_v1.0.zip",
           "tag": "v1.0",
           "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/releases/download/v1.0/TODR_Switch_v1.0.zip",
-          "downloads": 69,
+          "downloads": 70,
           "asset_id": 609356044,
           "created_at": "2026-10-04T07:24:53Z",
           "release_published_at": "2026-09-25T10:23:29Z"
@@ -716,7 +790,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch/blob/main/README.md",
-      "downloads_current": 106,
+      "downloads_current": 107,
       "downloads_carried": 0,
       "download_ledger": {
         "touhou-genso-wanderer-reloaded-kr-patch/v1.0/TODR_PC_v1.0.zip": {
@@ -733,7 +807,7 @@
           "tag": "v1.0",
           "name": "TODR_Switch_v1.0.zip",
           "asset_id": 609356044,
-          "last_count": 69,
+          "last_count": 70,
           "carried": 0,
           "removed": false
         }
@@ -856,13 +930,13 @@
         "published_at": "2026-09-11T08:15:29Z",
         "asset_count": 1
       },
-      "downloads": 106,
+      "downloads": 109,
       "assets": [
         {
           "name": "EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
           "tag": "v1.2.0",
           "url": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/releases/download/v1.2.0/EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
-          "downloads": 106,
+          "downloads": 109,
           "asset_id": 588172077,
           "created_at": "2026-09-25T10:59:39Z",
           "release_published_at": "2026-09-11T08:15:29Z"
@@ -924,7 +998,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/blob/main/README.md",
-      "downloads_current": 106,
+      "downloads_current": 109,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-ghost-enemies-kr-patch/v1.2.0/EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip": {
@@ -932,7 +1006,7 @@
           "tag": "v1.2.0",
           "name": "EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
           "asset_id": 588172077,
-          "last_count": 106,
+          "last_count": 109,
           "carried": 0,
           "removed": false
         }
@@ -980,13 +1054,13 @@
         "published_at": "2026-09-11T08:15:19Z",
         "asset_count": 1
       },
-      "downloads": 110,
+      "downloads": 116,
       "assets": [
         {
           "name": "EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
           "tag": "v1.4.0",
           "url": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/releases/download/v1.4.0/EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
-          "downloads": 110,
+          "downloads": 116,
           "asset_id": 588103948,
           "created_at": "2026-09-25T10:18:59Z",
           "release_published_at": "2026-09-11T08:15:19Z"
@@ -1072,7 +1146,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/blob/main/README.md",
-      "downloads_current": 110,
+      "downloads_current": 116,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-rebirth-terror-kr-patch/v1.4.0/EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip": {
@@ -1080,7 +1154,7 @@
           "tag": "v1.4.0",
           "name": "EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
           "asset_id": 588103948,
-          "last_count": 110,
+          "last_count": 116,
           "carried": 0,
           "removed": false
         }
@@ -1190,6 +1264,21 @@
       "repo": "touhou-genso-wanderer-reloaded-kr-patch",
       "type": "readme-form-invalid",
       "message": "동영상 자막: 제목이 누락되거나 중복되었습니다. 기존 범위를 유지합니다."
+    },
+    {
+      "repo": "twelve-sengoku-fuushinden-kr-patch",
+      "type": "missing-launchbox",
+      "message": "표지 출처가 없어 표지를 비워 둡니다."
+    },
+    {
+      "repo": "twelve-sengoku-fuushinden-kr-patch",
+      "type": "readme-form-invalid",
+      "message": "타이틀 한글화: 기존 자료만으로 완료 여부를 확인할 수 없습니다."
+    },
+    {
+      "repo": "twelve-sengoku-fuushinden-kr-patch",
+      "type": "readme-form-invalid",
+      "message": "메뉴·UI: 기존 자료만으로 완료 여부를 확인할 수 없습니다."
     }
   ],
   "ledger_started_at": "2026-10-04T13:21:03Z"
