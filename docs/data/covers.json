@@ -1,13 +1,4 @@
 {
-  "twelve-sengoku-fuushinden-kr-patch": {
-    "input": "https://gamesdb.launchbox-app.com/games/details/82074-twelve-sengoku-fuushinden",
-    "source_page": "https://gamesdb.launchbox-app.com/games/details/82074-twelve-sengoku-fuushinden",
-    "discovery_page": null,
-    "source_image": "https://images.launchbox-app.com//de958172-f16c-4830-a174-8291c1d4b30a.jpg",
-    "image_type": "Box - Front",
-    "region": "Japan",
-    "fetched_at": "2026-10-06T08:42:03Z"
-  },
   "tears-to-tiara-2-kr-patch": {
     "input": "https://gamesdb.launchbox-app.com/games/details/25025-tears-to-tiara-ii-heir-of-the-overlord",
     "source_page": "https://gamesdb.launchbox-app.com/games/details/25025-tears-to-tiara-ii-heir-of-the-overlord",
@@ -48,14 +39,6 @@
     "region": "North America",
     "fetched_at": "2026-10-04T13:03:00Z"
   },
-  "Guardian-Angel-Korean-Localization": {
-    "input": "https://gamesdb.launchbox-app.com/games/details/375952-guardian-angel",
-    "source_page": "https://gamesdb.launchbox-app.com/games/details/375952-guardian-angel",
-    "source_image": "https://images.launchbox-app.com//ec87ad33-2718-4e65-8be5-524c39735009.jpg",
-    "image_type": "Box - Front",
-    "region": "Japan",
-    "fetched_at": "2026-10-04T13:03:00Z"
-  },
   "eve-ghost-enemies-kr-patch": {
     "input": "https://gamesdb.launchbox-app.com/games/details/374995-eve-ghost-enemies",
     "source_page": "https://gamesdb.launchbox-app.com/games/details/374995-eve-ghost-enemies",
@@ -72,5 +55,22 @@
     "image_type": "Nintendo eShop artwork",
     "region": "Japan",
     "fetched_at": "2026-10-04T21:34:16Z"
+  },
+  "twelve-sengoku-fuushinden-kr-patch": {
+    "input": "https://gamesdb.launchbox-app.com/games/details/82074-twelve-sengoku-fuushinden",
+    "source_page": "https://gamesdb.launchbox-app.com/games/details/82074-twelve-sengoku-fuushinden",
+    "discovery_page": null,
+    "source_image": "https://images.launchbox-app.com//de958172-f16c-4830-a174-8291c1d4b30a.jpg",
+    "image_type": "Box - Front",
+    "region": "Japan",
+    "fetched_at": "2026-10-06T08:42:03Z"
+  },
+  "Guardian-Angel-Korean-Localization": {
+    "input": "https://gamesdb.launchbox-app.com/games/details/375952-guardian-angel",
+    "source_page": "https://gamesdb.launchbox-app.com/games/details/375952-guardian-angel",
+    "source_image": "https://images.launchbox-app.com//ec87ad33-2718-4e65-8be5-524c39735009.jpg",
+    "image_type": "Box - Front",
+    "region": "Japan",
+    "fetched_at": "2026-10-04T13:03:00Z"
   }
 }

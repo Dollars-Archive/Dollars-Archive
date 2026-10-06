@@ -1,90 +1,12 @@
 {
-  "generated_at": "2026-10-06T08:45:34Z",
+  "generated_at": "2026-10-06T09:15:22Z",
   "summary": {
     "total": 9,
     "released": 7,
     "wip": 2,
-    "downloads": 2404
+    "downloads": 2414
   },
   "patches": [
-    {
-      "repo": "twelve-sengoku-fuushinden-kr-patch",
-      "title": "트웰브 전국봉신전",
-      "original": "Twelve ～戦国封神伝～",
-      "series": "기타",
-      "platforms": [
-        "PSP"
-      ],
-      "genre": "SRPG",
-      "genre_full": "전국 판타지 · 턴제 택티컬 RPG",
-      "developer": "Tenky",
-      "publisher": "Konami",
-      "playtime": "약 59.2시간 (GameFAQs 평균, 13표본)",
-      "edition": "PSP 일본판 일반판 (현재 작업 기준, 최종 지원 범위는 배포 시 안내)",
-      "release_jp": "2005-08-25",
-      "product_id": "ULJM05031",
-      "base_update": "원본 DISC_VERSION 1.01 (별도 공식 업데이트가 아님)",
-      "note": "",
-      "cover_caption": "",
-      "status": "wip",
-      "description": "PSP용 트웰브 전국봉신전 비공식 한국어 패치 제작 프로젝트",
-      "pushed_at": "2026-10-06T08:43:36Z",
-      "stars": 0,
-      "url": "https://github.com/Dollars-Archive/twelve-sengoku-fuushinden-kr-patch",
-      "has_pages": false,
-      "topics": [
-        "korean-localization",
-        "kr-patch",
-        "psp"
-      ],
-      "guide_url": "",
-      "guide_status": null,
-      "latest_release": null,
-      "downloads": 0,
-      "assets": [],
-      "tools": [],
-      "walkthroughs": [],
-      "activity_at": "2026-10-06T08:35:22Z",
-      "activity_exclusion": {
-        "ignored_pushed_at": "2026-10-06T08:43:36Z",
-        "previous_activity_at": "2026-10-06T08:35:22Z"
-      },
-      "scope": {
-        "title": {
-          "state": "none",
-          "status": "확인 필요",
-          "since": null
-        },
-        "ui": {
-          "state": "none",
-          "status": "확인 필요",
-          "since": null
-        },
-        "dialogue": {
-          "state": "partial",
-          "status": "일부",
-          "since": null
-        },
-        "image": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "video": {
-          "state": "none",
-          "status": "미작업",
-          "since": null
-        }
-      },
-      "changelog": [],
-      "metadata_source": "https://github.com/Dollars-Archive/twelve-sengoku-fuushinden-kr-patch/blob/main/README.md",
-      "downloads_current": 0,
-      "downloads_carried": 0,
-      "download_ledger": {},
-      "cover": "covers/twelve-sengoku-fuushinden-kr-patch.webp",
-      "cover_source": "https://gamesdb.launchbox-app.com/games/details/82074-twelve-sengoku-fuushinden",
-      "cover_revision": "57fe23beb704"
-    },
     {
       "repo": "tears-to-tiara-2-kr-patch",
       "title": "티어즈 투 티아라 2",
@@ -124,13 +46,13 @@
         "published_at": "2026-10-05T04:17:16Z",
         "asset_count": 1
       },
-      "downloads": 537,
+      "downloads": 540,
       "assets": [
         {
           "name": "TTT2_KR_Patcher_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/download/v1.1/TTT2_KR_Patcher_v1.1.zip",
-          "downloads": 212,
+          "downloads": 215,
           "asset_id": 611515859,
           "created_at": "2026-10-05T04:44:48Z",
           "release_published_at": "2026-10-05T04:17:16Z"
@@ -237,7 +159,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/blob/main/README.md",
-      "downloads_current": 537,
+      "downloads_current": 540,
       "downloads_carried": 0,
       "download_ledger": {
         "tears-to-tiara-2-kr-patch/v1.0/TTT2_KR_Patcher_v1.0.zip": {
@@ -254,7 +176,7 @@
           "tag": "v1.1",
           "name": "TTT2_KR_Patcher_v1.1.zip",
           "asset_id": 611515859,
-          "last_count": 212,
+          "last_count": 215,
           "carried": 0,
           "removed": false
         }
@@ -302,13 +224,13 @@
         "published_at": "2026-10-05T04:17:21Z",
         "asset_count": 1
       },
-      "downloads": 754,
+      "downloads": 757,
       "assets": [
         {
           "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.1/EVE_New_Generation_Korean_Patch_v1.1.zip",
-          "downloads": 292,
+          "downloads": 295,
           "asset_id": 611547873,
           "created_at": "2026-10-05T04:59:55Z",
           "release_published_at": "2026-10-05T04:17:21Z"
@@ -386,7 +308,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/blob/main/README.md",
-      "downloads_current": 754,
+      "downloads_current": 757,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-new-generation-kr-patch/v1.0/EVE_NG_v1.0.zip": {
@@ -403,7 +325,7 @@
           "tag": "v1.1",
           "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
           "asset_id": 611547873,
-          "last_count": 292,
+          "last_count": 295,
           "carried": 0,
           "removed": false
         }
@@ -451,13 +373,13 @@
         "published_at": "2026-10-05T04:17:18Z",
         "asset_count": 1
       },
-      "downloads": 706,
+      "downloads": 710,
       "assets": [
         {
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/download/v1.1/EVE_ZERO_Korean_Patch_v1.1.zip",
-          "downloads": 316,
+          "downloads": 320,
           "asset_id": 611513419,
           "created_at": "2026-10-05T04:43:41Z",
           "release_published_at": "2026-10-05T04:17:18Z"
@@ -533,7 +455,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-zero-kr-patch/blob/main/README.md",
-      "downloads_current": 706,
+      "downloads_current": 710,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-zero-kr-patch/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip": {
@@ -550,7 +472,7 @@
           "tag": "v1.1",
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "asset_id": 611513419,
-          "last_count": 316,
+          "last_count": 320,
           "carried": 0,
           "removed": false
         }
@@ -819,81 +741,6 @@
       "cover": "covers/touhou-genso-wanderer-reloaded-kr-patch.webp",
       "cover_source": "https://gamesdb.launchbox-app.com/games/details/114795-touhou-genso-wanderer-reloaded",
       "cover_revision": "69db0bbc25e9"
-    },
-    {
-      "repo": "Guardian-Angel-Korean-Localization",
-      "title": "가디언 엔젤",
-      "original": "ガーディアンエンジェル / Guardian Angel",
-      "series": "기타",
-      "platforms": [
-        "PS2"
-      ],
-      "genre": "SF 추리 ADV",
-      "genre_full": "시간축·다중시점 SF 미스터리 / 추리 어드벤처",
-      "developer": "Vridge",
-      "publisher": "Datam Polystar",
-      "playtime": "20–40시간",
-      "edition": "PlayStation 2 일본판",
-      "release_jp": "2003-02-27",
-      "product_id": "SLPS-25214",
-      "base_update": "",
-      "note": "",
-      "cover_caption": "",
-      "status": "wip",
-      "description": "PlayStation 2용 미스터리 어드벤처 게임 『Guardian Angel』의 비공식 한국어화 프로젝트입니다. 사건으로 육체를 잃고 수호천사가 된 사립탐정 에릭이 딸 에스텔과 주변 인물들에게 영감을 주며, 시간과 공간을 넘나들어 사건의 진상을 추적하는 작품입니다. 게임 내 대사와 시스템 텍스트를 한국어로 번역하는 것을 목표로 합니다.",
-      "pushed_at": "2026-10-06T08:43:57Z",
-      "stars": 0,
-      "url": "https://github.com/Dollars-Archive/Guardian-Angel-Korean-Localization",
-      "has_pages": false,
-      "topics": [
-        "korean-translation",
-        "kr-patch",
-        "ps2"
-      ],
-      "guide_url": "",
-      "guide_status": null,
-      "latest_release": null,
-      "downloads": 0,
-      "assets": [],
-      "tools": [],
-      "walkthroughs": [],
-      "activity_at": "2026-10-05T04:55:11Z",
-      "activity_exclusion": {
-        "ignored_pushed_at": "2026-10-06T08:43:57Z",
-        "previous_activity_at": "2026-10-05T04:55:11Z"
-      },
-      "scope": {
-        "title": {
-          "state": "done",
-          "status": "완료",
-          "since": null
-        },
-        "ui": {
-          "state": "none",
-          "since": null
-        },
-        "dialogue": {
-          "state": "none",
-          "since": null
-        },
-        "image": {
-          "state": "none",
-          "status": "미작업",
-          "since": null
-        },
-        "video": {
-          "state": "none",
-          "since": null
-        }
-      },
-      "changelog": [],
-      "metadata_source": "https://github.com/Dollars-Archive/Guardian-Angel-Korean-Localization/blob/main/README.md",
-      "downloads_current": 0,
-      "downloads_carried": 0,
-      "download_ledger": {},
-      "cover": "covers/Guardian-Angel-Korean-Localization.webp",
-      "cover_source": "https://gamesdb.launchbox-app.com/games/details/375952-guardian-angel",
-      "cover_revision": "e7bc3b2e946d"
     },
     {
       "repo": "eve-ghost-enemies-kr-patch",
@@ -1166,6 +1013,159 @@
       "cover": "covers/eve-rebirth-terror-kr-patch.webp",
       "cover_source": "https://store-jp.nintendo.com/item/software/D70010000022322",
       "cover_revision": "ca43be11d6df"
+    },
+    {
+      "repo": "twelve-sengoku-fuushinden-kr-patch",
+      "title": "트웰브 전국봉신전",
+      "original": "Twelve ～戦国封神伝～",
+      "series": "기타",
+      "platforms": [
+        "PSP"
+      ],
+      "genre": "SRPG",
+      "genre_full": "전국 판타지 · 턴제 택티컬 RPG",
+      "developer": "Tenky",
+      "publisher": "Konami",
+      "playtime": "약 59.2시간 (GameFAQs 평균, 13표본)",
+      "edition": "PSP 일본판 일반판 (현재 작업 기준, 최종 지원 범위는 배포 시 안내)",
+      "release_jp": "2005-08-25",
+      "product_id": "ULJM05031",
+      "base_update": "원본 DISC_VERSION 1.01 (별도 공식 업데이트가 아님)",
+      "note": "",
+      "cover_caption": "",
+      "status": "wip",
+      "description": "PSP용 트웰브 전국봉신전 비공식 한국어 패치 제작 프로젝트",
+      "pushed_at": "2026-10-06T08:43:36Z",
+      "stars": 0,
+      "url": "https://github.com/Dollars-Archive/twelve-sengoku-fuushinden-kr-patch",
+      "has_pages": false,
+      "topics": [
+        "korean-localization",
+        "kr-patch",
+        "psp"
+      ],
+      "guide_url": "",
+      "guide_status": null,
+      "latest_release": null,
+      "downloads": 0,
+      "assets": [],
+      "tools": [],
+      "walkthroughs": [],
+      "activity_at": "2026-10-06T08:35:22Z",
+      "activity_exclusion": {
+        "ignored_pushed_at": "2026-10-06T08:43:36Z",
+        "previous_activity_at": "2026-10-06T08:35:22Z"
+      },
+      "scope": {
+        "title": {
+          "state": "none",
+          "status": "확인 필요",
+          "since": null
+        },
+        "ui": {
+          "state": "none",
+          "status": "확인 필요",
+          "since": null
+        },
+        "dialogue": {
+          "state": "partial",
+          "status": "일부",
+          "since": null
+        },
+        "image": {
+          "state": "done",
+          "status": "완료",
+          "since": null
+        },
+        "video": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        }
+      },
+      "changelog": [],
+      "metadata_source": "https://github.com/Dollars-Archive/twelve-sengoku-fuushinden-kr-patch/blob/main/README.md",
+      "downloads_current": 0,
+      "downloads_carried": 0,
+      "download_ledger": {},
+      "cover": "covers/twelve-sengoku-fuushinden-kr-patch.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/82074-twelve-sengoku-fuushinden",
+      "cover_revision": "57fe23beb704"
+    },
+    {
+      "repo": "Guardian-Angel-Korean-Localization",
+      "title": "가디언 엔젤",
+      "original": "ガーディアンエンジェル / Guardian Angel",
+      "series": "기타",
+      "platforms": [
+        "PS2"
+      ],
+      "genre": "SF 추리 ADV",
+      "genre_full": "시간축·다중시점 SF 미스터리 / 추리 어드벤처",
+      "developer": "Vridge",
+      "publisher": "Datam Polystar",
+      "playtime": "20–40시간",
+      "edition": "PlayStation 2 일본판",
+      "release_jp": "2003-02-27",
+      "product_id": "SLPS-25214",
+      "base_update": "",
+      "note": "",
+      "cover_caption": "",
+      "status": "wip",
+      "description": "PlayStation 2용 미스터리 어드벤처 게임 『Guardian Angel』의 비공식 한국어화 프로젝트입니다. 사건으로 육체를 잃고 수호천사가 된 사립탐정 에릭이 딸 에스텔과 주변 인물들에게 영감을 주며, 시간과 공간을 넘나들어 사건의 진상을 추적하는 작품입니다. 게임 내 대사와 시스템 텍스트를 한국어로 번역하는 것을 목표로 합니다.",
+      "pushed_at": "2026-10-06T08:43:57Z",
+      "stars": 0,
+      "url": "https://github.com/Dollars-Archive/Guardian-Angel-Korean-Localization",
+      "has_pages": false,
+      "topics": [
+        "korean-translation",
+        "kr-patch",
+        "ps2"
+      ],
+      "guide_url": "",
+      "guide_status": null,
+      "latest_release": null,
+      "downloads": 0,
+      "assets": [],
+      "tools": [],
+      "walkthroughs": [],
+      "activity_at": "2026-10-05T04:55:11Z",
+      "activity_exclusion": {
+        "ignored_pushed_at": "2026-10-06T08:43:57Z",
+        "previous_activity_at": "2026-10-05T04:55:11Z"
+      },
+      "scope": {
+        "title": {
+          "state": "done",
+          "status": "완료",
+          "since": null
+        },
+        "ui": {
+          "state": "none",
+          "since": null
+        },
+        "dialogue": {
+          "state": "none",
+          "since": null
+        },
+        "image": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        },
+        "video": {
+          "state": "none",
+          "since": null
+        }
+      },
+      "changelog": [],
+      "metadata_source": "https://github.com/Dollars-Archive/Guardian-Angel-Korean-Localization/blob/main/README.md",
+      "downloads_current": 0,
+      "downloads_carried": 0,
+      "download_ledger": {},
+      "cover": "covers/Guardian-Angel-Korean-Localization.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/375952-guardian-angel",
+      "cover_revision": "e7bc3b2e946d"
     }
   ],
   "related": [
