@@ -66,6 +66,12 @@ async function refresh(patches,{fetcher=root.fetch,storage=null,now=Date.now(),m
             const prior=patch.scope?.[key];patch.scope??={};
             patch.scope[key]={state:'done',since:prior?.state==='done'?prior.since:v};
           }
+        }else if(result.releases.every(r=>r.prerelease)){
+          // A successful complete lookup with no stable patch releases is authoritative.
+          // Keep historical scope/download totals, but stop advertising a deleted release.
+          patch.latest_release=null;
+          if(patch.status==='released')patch.status='wip';
+          patch.assets=result.assets;
         }else for(const asset of patch.assets){const live=result.assets.find(a=>a.tag===asset.tag&&a.name===asset.name);if(live)asset.downloads=live.downloads}
         results.push({repo:patch.repo,at:result.at});
       }catch(e){/* Retain the collected values on rate limits, timeouts and malformed responses. */}

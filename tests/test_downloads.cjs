@@ -123,3 +123,26 @@ test('blocked storage still refreshes and pagination cannot leave GitHub',async(
   await assert.rejects(live.fetchAssets('game',{fetcher:async()=>{requests++;return response([], '<https://other.example/releases>; rel="next"')}}));
   assert.equal(requests,1);
 });
+
+
+test('deleted final release clears collected release metadata without erasing history or totals',async()=>{
+  const p={...patch(),status:'released',latest_release:{tag:'v1.0',published_at:'2026-10-06T00:00:00Z'},activity_at:'2026-10-06T01:00:00Z',changelog:[{v:'1.0',added:['title']}],scope:{title:{state:'done',since:'1.0'}}};
+  const history=JSON.stringify(p.changelog),scope=JSON.stringify(p.scope);
+  assert.equal((await live.refresh([p],{fetcher:async()=>response([]),force:true})).length,1);
+  assert.equal(p.latest_release,null);assert.equal(p.status,'wip');assert.deepEqual(p.assets,[]);
+  assert.equal(p.downloads,10);assert.equal(p.downloads_current,0);assert.equal(p.downloads_carried,10);
+  assert.equal(p.activity_at,'2026-10-06T01:00:00Z');
+  assert.equal(JSON.stringify(p.changelog),history);assert.equal(JSON.stringify(p.scope),scope);
+});
+
+test('prerelease-only results clear stable version and preserve paused status',async()=>{
+  const p={...patch(),status:'paused',latest_release:{tag:'v1.0'}};
+  await live.refresh([p],{fetcher:async()=>response([{...release('v2.0-beta',2,2),prerelease:true}])});
+  assert.equal(p.latest_release,null);assert.equal(p.status,'paused');assert.equal(p.assets[0].tag,'v2.0-beta');
+});
+
+test('incomplete stable release metadata does not clear a collected release',async()=>{
+  const p={...patch(),status:'released',latest_release:{tag:'v1.0'}};
+  await live.refresh([p],{fetcher:async()=>response([release()])});
+  assert.equal(p.latest_release.tag,'v1.0');assert.equal(p.status,'released');
+});
