@@ -1,7 +1,17 @@
 {
   "version": 1,
-  "tree_sha": "57c6fff54a8aa6e92f8fe20c70f2ad62755b6457",
+  "tree_sha": "47f6758252d793476892eea3a6bef769135c0e8e",
   "games": [
+    {
+      "key": "platforms/dreamcast/games/tantei-shinshi-dash.md",
+      "source_sha": "98ee9453648b8ca882df57a1940d105c5eb2b77b",
+      "platform": "DREAMCAST",
+      "product_id": "",
+      "original": "探偵紳士DASH!",
+      "english_title": "Tantei Shinshi DASH!",
+      "title_ko": "탐정신사 대시",
+      "title": "Tantei Shinshi DASH! (탐정신사 대시)"
+    },
     {
       "key": "platforms/ps2/games/12riven-the-psycliminal-of-integral.md",
       "source_sha": "f9e87c427788d748bd3acd8c5bfb544be40b5bc5",
@@ -374,12 +384,12 @@
     },
     {
       "key": "platforms/ps2/games/jewels-ocean-star-of-sierra-leone.md",
-      "source_sha": "27eb296b86d9b46a5911a051757b9e40e14472bd",
+      "source_sha": "dcfabadc65cc7d57594b05e19920b9dbbc165309",
       "platform": "PS2",
       "product_id": "",
       "original": "ジュエルスオーシャン Star of Sierra Leone",
       "english_title": "Jewels Ocean: Star of Sierra Leone",
-      "title_ko": "주얼스 오션 ～Star of Sierra Leone～",
+      "title_ko": "주얼스 오션 ～Star of Sierra Leone～ / 정착된 공식 국내명 미확인",
       "title": "Jewels Ocean: Star of Sierra Leone (주얼스 오션 ～Star of Sierra Leone～)"
     },
     {
@@ -604,12 +614,12 @@
     },
     {
       "key": "platforms/ps2/games/missingparts-sideb-the-tantei-stories.md",
-      "source_sha": "fd39514d3b5fe491cd548edeb9b84cb537e7d338",
+      "source_sha": "bffd7f949f019b5636ce8997c08ba61c41b3bccc",
       "platform": "PS2",
       "product_id": "",
       "original": "MISSINGPARTS sideB the TANTEI stories",
       "english_title": "MISSINGPARTS sideB the TANTEI stories",
-      "title_ko": "미싱 파츠 sideB 더 탐정 스토리즈 (잠정 음역 / 공식 한국어 제목 아님)",
+      "title_ko": "미싱 파츠 sideB 더 탐정 스토리즈 (잠정 음역)",
       "title": "MISSINGPARTS sideB the TANTEI stories (미싱 파츠 sideB 더 탐정 스토리즈)"
     },
     {
@@ -624,12 +634,12 @@
     },
     {
       "key": "platforms/ps2/games/my-merry-may-with-be.md",
-      "source_sha": "6d29e3ed4895530dadfe58b171899ce90ddf79f0",
+      "source_sha": "74acf85872c6077dc740489aadd3e621bcdc69e4",
       "platform": "PS2",
       "product_id": "",
       "original": "My Merry May with be / マイ・メリー・メイ ウィズ ビー",
       "english_title": "My Merry May with be",
-      "title_ko": "마이 메리 메이 위드 비 (국내 공식 한국어 게임 제목은 확인되지 않음)",
+      "title_ko": "마이 메리 메이 위드 비 / 공식 한국어 게임 제목 확인 못함",
       "title": "My Merry May with be (마이 메리 메이 위드 비)"
     },
     {
@@ -894,12 +904,12 @@
     },
     {
       "key": "platforms/ps2/games/strawberry-panic-girls-school-in-fullbloom.md",
-      "source_sha": "92a407221d6fd64e7e69b165c772411efca0ee69",
+      "source_sha": "c38d9cb2c7014d6fe89d735186a2385273b2f56f",
       "platform": "PS2",
       "product_id": "",
       "original": "Strawberry Panic! GIRLS' SCHOOL IN FULLBLOOM / ストロベリー・パニック！",
       "english_title": "Strawberry Panic! Girls' School in Fullbloom",
-      "title_ko": "스트로베리 패닉! ～Girls' School in Fullbloom～ (작품명 스트로베리 패닉!은 국내 통용 표기 / 부제는 원문 병기)",
+      "title_ko": "스트로베리 패닉! ～Girls' School in Fullbloom～",
       "title": "Strawberry Panic! Girls' School in Fullbloom (스트로베리 패닉! ～Girls' School in Fullbloom～)"
     },
     {
@@ -924,12 +934,12 @@
     },
     {
       "key": "platforms/ps2/games/w-wish.md",
-      "source_sha": "81d4899bd3425d4898fd97eea905fa095daef400",
+      "source_sha": "4456962bd8dd694bdaf3288418566d310cdfbd5c",
       "platform": "PS2",
       "product_id": "",
       "original": "W ～ウィッシュ～",
       "english_title": "W: Wish",
-      "title_ko": "W ～위시～ (통상적으로 더블 위시라고 읽음)",
+      "title_ko": "W ～위시～ / 더블 위시",
       "title": "W: Wish (W ～위시～ / 더블 위시)"
     },
     {
@@ -944,7 +954,7 @@
     },
     {
       "key": "platforms/ps2/games/wizardry-xth-2-mugen-no-gakuto.md",
-      "source_sha": "822ede2b6c3ea814cfcd82a10f451ecf83a3b88a",
+      "source_sha": "b96e07296b818f588078311d7771bb02725d8b45",
       "platform": "PS2",
       "product_id": "",
       "original": "ウィザードリィエクス2 ～無限の学徒～",
