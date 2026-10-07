@@ -243,5 +243,62 @@ class HubTests(unittest.TestCase):
                 self.assertEqual({p: p.read_bytes() for p in root.rglob("*") if p.is_file()}, original)
 
 
+    def test_discovery_match_product_title_manual_and_ambiguity(self):
+        text = """# Guardian Angel (가디언 엔젤)
+
+## 한눈에 보기
+
+| 항목 | 내용 |
+|---|---|
+| 원제 | ガーディアンエンジェル / Guardian Angel |
+| 한글 제목 | 가디언 엔젤 |
+| 플랫폼 | PlayStation 2 |
+| 제품번호 | SLPS-25214 |
+"""
+        game = hub.parse_discovery_document("platforms/ps2/games/guardian-angel.md", text, "doc-sha")
+        index = {"games": [game]}
+        patch_data = {"product_id": "slps25214", "original": "wrong", "platforms": ["PS2"], "title": "x", "description": ""}
+        self.assertEqual(hub.match_discovery(patch_data, {}, index), (game["key"], "product_id"))
+
+        patch_data["product_id"] = ""
+        patch_data["original"] = "ガーディアンエンジェル / Guardian Angel"
+        self.assertEqual(hub.match_discovery(patch_data, {}, index), (game["key"], "title"))
+
+        self.assertEqual(hub.match_discovery(patch_data, {"discovery": game["key"]}, index), (game["key"], "manual"))
+        self.assertEqual(hub.match_discovery(patch_data, {"discovery": "platforms/ps2/games/missing.md"}, index), ("", "none"))
+
+        duplicate = {**game, "key": "platforms/ps2/games/guardian-angel-copy.md"}
+        patch_data["product_id"] = "SLPS-25214"
+        self.assertEqual(hub.match_discovery(patch_data, {}, {"games": [game, duplicate]}), ("", "none"))
+
+        patch_data["product_id"] = ""
+        patch_data["platforms"] = ["PS3"]
+        self.assertEqual(hub.match_discovery(patch_data, {}, index), ("", "none"))
+
+    def test_discovery_collect_warnings_and_fields(self):
+        key = "platforms/ps2/games/guardian-angel.md"
+        index = {"games": [{
+            "key": key, "source_sha": "x", "platform": "PS2",
+            "product_id": "SLPS-25214", "original": "Guardian Angel",
+            "english_title": "Guardian Angel", "title_ko": "가디언 엔젤", "title": "Guardian Angel"
+        }]}
+        client = FixtureClient(repositories=[repo("Guardian-Angel-Korean-Localization")], releases=[])
+        metadata = {"Guardian-Angel-Korean-Localization": {
+            "title": "가디언 엔젤", "original": "Guardian Angel",
+            "platforms": ["PS2"], "product_id": "SLPS-25214"
+        }}
+        data = hub.collect(client, metadata, NOW, lambda u: 404, index)
+        self.assertEqual(data["patches"][0]["discovery"], key)
+        self.assertEqual(data["patches"][0]["discovery_match"], "product_id")
+        self.assertNotIn("discovery-unmatched", self.types(data))
+
+        missing = hub.collect(FixtureClient(repositories=[repo("unknown-kr-patch")], releases=[]),
+                              {"unknown-kr-patch": {"platforms": ["PS2"], "title": "Unknown"}},
+                              NOW, lambda u: 404, index)
+        self.assertEqual(missing["patches"][0]["discovery_match"], "none")
+        self.assertIn("discovery-unmatched", self.types(missing))
+
+
+
 if __name__ == "__main__":
     unittest.main()
