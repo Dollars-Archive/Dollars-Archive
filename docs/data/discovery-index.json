@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "937cb89d26ef2e40c6a1dd33499fbdcbcb41e787",
+  "tree_sha": "57c6fff54a8aa6e92f8fe20c70f2ad62755b6457",
   "games": [
     {
       "key": "platforms/ps2/games/12riven-the-psycliminal-of-integral.md",
@@ -94,17 +94,17 @@
     },
     {
       "key": "platforms/ps2/games/castle-fantasia-erencia-senki-plus-stories.md",
-      "source_sha": "3bfcadf639aebca4108ef9657a258f23d04170d6",
+      "source_sha": "3bef70cb139e504c6f84e3547009207f3ebabd90",
       "platform": "PS2",
       "product_id": "",
       "original": "キャッスルファンタジア エレンシア戦記 プラスストーリーズ",
       "english_title": "Castle Fantasia: Erencia Senki: Plus Stories",
-      "title_ko": "캐슬 판타지아: 에렌시아 전기 플러스 스토리즈",
+      "title_ko": "캐슬 판타지아: 에렌시아 전기 플러스 스토리즈 / 국내 PC 정식판은 ‘캐슬판타지아 - 엘렌시아 전기’",
       "title": "Castle Fantasia: Erencia Senki: Plus Stories (캐슬 판타지아: 에렌시아 전기 플러스 스토리즈)"
     },
     {
       "key": "platforms/ps2/games/chobits-chiidake-no-hito.md",
-      "source_sha": "888ff92d65d28a214481aeaff194e8c760810743",
+      "source_sha": "34c97f19815bcdaeed8e352c6c46e3d5e38ae058",
       "platform": "PS2",
       "product_id": "",
       "original": "ちょびっツ ～ちぃだけのヒト～",
@@ -134,22 +134,22 @@
     },
     {
       "key": "platforms/ps2/games/dears.md",
-      "source_sha": "42e5b2befa66a74eafc508e1afc4922e8c8e7291",
+      "source_sha": "57fd51f0fb02f2a15ff7740690d6f2851c7625b1",
       "platform": "PS2",
       "product_id": "",
       "original": "DearS / ディアーズ",
       "english_title": "DearS",
-      "title_ko": "디어스 (국내 통용 음역 / 공식 한국어 게임 제목은 확인하지 못함)",
+      "title_ko": "디어스. 국내 정식 만화 제목의 표기이며 공식 한국어 게임 제목이라는 뜻은 아님",
       "title": "DearS (디어스)"
     },
     {
       "key": "platforms/ps2/games/dnangel-kurenai-no-tsubasa.md",
-      "source_sha": "9dd628c05953c19534b222000765db97ef317b9f",
+      "source_sha": "11401db723f03328e4cb894e6fd12af6c19e5199",
       "platform": "PS2",
       "product_id": "",
       "original": "D・N・ANGEL TV Animation Series ～紅の翼～",
       "english_title": "D.N.Angel: Kurenai no Tsubasa",
-      "title_ko": "D.N.ANGEL ～붉은 날개～. 국내 리브레 위키와 성우 출연작 자료에서 붉은 날개 표기 사용례가 확인되지만 공식 한국어 게임판 제목은 아님",
+      "title_ko": "D.N.ANGEL ～붉은 날개～. 국내 자료의 부제 표기를 사용하며 공식 한국어 게임판 제목이라는 뜻은 아님",
       "title": "D.N.Angel: Kurenai no Tsubasa (D.N.ANGEL ～붉은 날개～)"
     },
     {
@@ -224,12 +224,12 @@
     },
     {
       "key": "platforms/ps2/games/final-approach.md",
-      "source_sha": "be12f5a8da8c5065c6b1c458942759059698a262",
+      "source_sha": "431602caae7b24885b6e8c9153dee1c57d23ac26",
       "platform": "PS2",
       "product_id": "",
       "original": "Φなる・あぷろーち",
       "english_title": "Final Approach",
-      "title_ko": "파이널 어프로치 (국내 통용 표기 / 공식 한국어 게임 제목은 확인하지 못함)",
+      "title_ko": "파이널 어프로치 (통용 표기, 공식 한국어 게임명 미확인)",
       "title": "Final Approach (파이널 어프로치)"
     },
     {
@@ -254,22 +254,22 @@
     },
     {
       "key": "platforms/ps2/games/getbackers-dakkanya-dakkandayo-zenin-shuugou.md",
-      "source_sha": "c110589f4bfbbe6edfdf69513a65409e6f483e0a",
+      "source_sha": "7a1896964846e843b937bdbf76ac0b207acb57d7",
       "platform": "PS2",
       "product_id": "",
       "original": "GetBackers-奪還屋- ～奪還だヨ!全員集合!!～",
       "english_title": "GetBackers Dakkanya: Dakkandayo! Zenin Shuugou!!",
-      "title_ko": "겟 백커스 탈환대 ～탈환이다요! 전원집합!!～ (잠정 번역. 공식 한국어 게임 제목은 확인하지 못함)",
+      "title_ko": "겟 백커스 탈환대 ～탈환이다요! 전원집합!!～ / 부제는 잠정 표기이며 공식 한국어 게임명 미확인",
       "title": "GetBackers Dakkanya: Dakkandayo! Zenin Shuugou!! (겟 백커스 탈환대 ～탈환이다요! 전원집합!!～)"
     },
     {
       "key": "platforms/ps2/games/getsumento-heiki-mina-futatsu-no-project-m.md",
-      "source_sha": "19cf4424e0344cb1ba60120ee268190f7e9af500",
+      "source_sha": "dfc99b589d33317e37a0e416688d0cf80a1299bd",
       "platform": "PS2",
       "product_id": "",
       "original": "月面兎兵器ミーナ －ふたつのPROJECT M－",
       "english_title": "Getsumento Heiki Mina: Futatsu no Project M",
-      "title_ko": "월면토병기 미나 ～두 개의 PROJECT M～",
+      "title_ko": "월면토병기 미나 ～두 개의 PROJECT M～ (통용 비공식 표기)",
       "title": "Getsumento Heiki Mina: Futatsu no Project M (월면토병기 미나 ～두 개의 PROJECT M～)"
     },
     {
@@ -334,12 +334,12 @@
     },
     {
       "key": "platforms/ps2/games/itsuka-todoku-ano-sora-ni-yo-no-michi-to-hi-no-tasogare-to.md",
-      "source_sha": "946fdf4d711094d2fedb8457732075f54307f017",
+      "source_sha": "00abf79f3326b47f6ba2aa03e87d2d1afea87e07",
       "platform": "PS2",
       "product_id": "",
       "original": "いつか、届く、あの空に。 ～陽の道と緋の昏と～",
       "english_title": "Itsuka, Todoku, Ano Sora ni.: Yō no Michi to Hi no Tasogare to",
-      "title_ko": "이츠카, 토도쿠, 아노 소라니. ～요노 미치토 히노 타소가레토～",
+      "title_ko": "기존 아카이브 음역 유지 / PC 원작의 국내 사용례: 언젠가, 닿을, 저 하늘에.",
       "title": "Itsuka, Todoku, Ano Sora ni.: Yō no Michi to Hi no Tasogare to (이츠카, 토도쿠, 아노 소라니. ～요노 미치토 히노 타소가레토～)"
     },
     {
@@ -504,17 +504,17 @@
     },
     {
       "key": "platforms/ps2/games/lost-passage-ushinawareta-hitofushi.md",
-      "source_sha": "927b399d194a0c427b503091d4a6a34b8c335778",
+      "source_sha": "1f767cd50f45b7196878037f5b40bcb9e4c3a83a",
       "platform": "PS2",
       "product_id": "",
       "original": "Lost Passage ～失われた一節～",
       "english_title": "Lost Passage: Ushinawareta Hitofushi",
-      "title_ko": "로스트 패시지 ～잃어버린 한 구절～",
+      "title_ko": "로스트 패시지 ～잃어버린 한 구절～ / PC 국내 사용례: 로스트 패세지",
       "title": "Lost Passage: Ushinawareta Hitofushi (로스트 패시지 ～잃어버린 한 구절～)"
     },
     {
       "key": "platforms/ps2/games/lupin-sansei-lupin-ni-wa-shi-o-zenigata-ni-wa-koi-o.md",
-      "source_sha": "cf173bb31048c39a5921a686c1578834777b79da",
+      "source_sha": "e8dae839055772669b5b2f9f5262dbf98d072d1c",
       "platform": "PS2",
       "product_id": "",
       "original": "ルパン三世 ルパンには死を、銭形には恋を",
@@ -574,7 +574,7 @@
     },
     {
       "key": "platforms/ps2/games/men-at-work-3-ai-to-seishun-no-hunter-gakuen.md",
-      "source_sha": "a5c7bdd1c9b8c9b3817e4450efef036fb9f4d5fa",
+      "source_sha": "e2046c36409e530b6a7d0aa2550462e352126a54",
       "platform": "PS2",
       "product_id": "",
       "original": "メンアットワーク!3 ～愛と青春のハンター学園～",
@@ -584,7 +584,7 @@
     },
     {
       "key": "platforms/ps2/games/metal-wolf-rev.md",
-      "source_sha": "9591edaa50f1412754fc1ae764bdc03534ef8610",
+      "source_sha": "a6dcd8d2d2d44d664eafb5be40deb4a6ff4b388e",
       "platform": "PS2",
       "product_id": "",
       "original": "メタルウルフREV",
@@ -594,12 +594,12 @@
     },
     {
       "key": "platforms/ps2/games/missing-blue.md",
-      "source_sha": "3321db8f6f2f275ec748f4dd3a903ae27bf7201e",
+      "source_sha": "d1e2555ce28b0bdb4af7796af6d396fe5a840094",
       "platform": "PS2",
       "product_id": "",
-      "original": "Missing Blue",
+      "original": "",
       "english_title": "Missing Blue",
-      "title_ko": "미싱 블루. 국내 공식 한국어판 제목은 확인되지 않아 일본어 독음 ミッシングブルー의 자연스러운 음역을 사용",
+      "title_ko": "미싱 블루. 공식 한국어 제목이 확인되지 않아 음역 사용",
       "title": "Missing Blue (미싱 블루)"
     },
     {
@@ -644,7 +644,7 @@
     },
     {
       "key": "platforms/ps2/games/mystereet-yasogami-kaoru-no-jiken-file.md",
-      "source_sha": "16e1f1779b25bcb6c70e2987d12598dafa296b6a",
+      "source_sha": "b9f0e65ad269756797da8a3954ce845d80a407b0",
       "platform": "PS2",
       "product_id": "",
       "original": "ミステリート ～八十神かおるの事件ファイル～",
@@ -654,22 +654,22 @@
     },
     {
       "key": "platforms/ps2/games/nanatsuiro-drops-pure.md",
-      "source_sha": "11f9359d05d6ff0d1e824fc54441e79adb2115c8",
+      "source_sha": "2ccb7c6b1d8eee96740895b1658a636d17027f01",
       "platform": "PS2",
       "product_id": "",
       "original": "ななついろ★ドロップス Pure!!",
       "english_title": "Nanatsuiro Drops Pure!!",
-      "title_ko": "일곱빛깔★드롭스 Pure!!",
+      "title_ko": "일곱빛깔★드롭스 Pure!! / 나나츠이로★드롭스 Pure!! (국내 사용 표기, 공식 한국어 게임명 아님)",
       "title": "Nanatsuiro Drops Pure!! (일곱빛깔★드롭스 Pure!!)"
     },
     {
       "key": "platforms/ps2/games/natsu-iro-no-sunadokei.md",
-      "source_sha": "1ea2cd0564afe58ff57e6a1a9ce845809286e047",
+      "source_sha": "5d0f5c4b33cea3606eb37a422f6f23772956eef6",
       "platform": "PS2",
-      "product_id": "",
+      "product_id": "SLPM-65136 통상판 / SLPM-65125 초회한정판",
       "original": "夏色の砂時計",
       "english_title": "Natsu-iro no Sunadokei",
-      "title_ko": "여름빛 모래시계",
+      "title_ko": "여름빛 모래시계 — 아카이브 표기, 공식 한국어 제목 미확인",
       "title": "Natsu-iro no Sunadokei (여름빛 모래시계)"
     },
     {
@@ -724,12 +724,12 @@
     },
     {
       "key": "platforms/ps2/games/remember11-the-age-of-infinity.md",
-      "source_sha": "d46a20124d9e376c0717d9f24006619e45003b1b",
+      "source_sha": "9cddd25110afd0f53b734e01a534f972e76f90b3",
       "platform": "PS2",
-      "product_id": "",
-      "original": "Remember11 -the age of infinity-",
+      "product_id": "SLPM-65550 통상판 / SLPM-65549 한정판 / SLPM-65994 SuperLite 2000",
+      "original": "",
       "english_title": "Remember11 -the age of infinity-",
-      "title_ko": "리멤버11 -the age of infinity- *(공식 한국어 제목 아님. 국내에서 리멤버11 음역 사용 확인)*",
+      "title_ko": "리멤버11 -the age of infinity- / 공식 한국어 제목 미확인",
       "title": "Remember11 -the age of infinity- (리멤버11 -the age of infinity-)"
     },
     {
@@ -794,12 +794,12 @@
     },
     {
       "key": "platforms/ps2/games/school-rumble-ni-gakki.md",
-      "source_sha": "afce0e6e7d37bdd37f8cfbbcea79cc9b57f6bb08",
+      "source_sha": "cad8edfe50f83ad22278c74137712791a22abb5d",
       "platform": "PS2",
       "product_id": "",
       "original": "スクールランブル二学期 恐怖の（？）夏合宿！洋館に幽霊現る！？お宝を巡って真っ向勝負！！！の巻",
       "english_title": "School Rumble Ni-Gakki",
-      "title_ko": "스쿨럼블 2학기 ～공포의(?) 여름 합숙! 서양관에 유령 출현!? 보물을 둘러싼 정면승부!!!의 권～ (부제는 설명용 번역 / 공식 한국어 게임 제목 아님)",
+      "title_ko": "스쿨럼블 2학기 / 장문 부제의 공식 한국어 게임명은 확인 못함",
       "title": "School Rumble Ni-Gakki (스쿨럼블 2학기)"
     },
     {
@@ -983,6 +983,26 @@
       "title": "Acceleration of SUGURI X-Edition (액셀러레이션 오브 스구리 X-Edition)"
     },
     {
+      "key": "platforms/ps3/games/akatsuki-no-goei-trinity.md",
+      "source_sha": "5e0bfed22412ef1e3f3fb644f723a45658a9c46f",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "暁の護衛 トリニティ",
+      "english_title": "Akatsuki no Goei Trinity",
+      "title_ko": "새벽의 호위 트리니티",
+      "title": "Akatsuki no Goei Trinity (새벽의 호위 트리니티)"
+    },
+    {
+      "key": "platforms/ps3/games/and-sora-no-mukou-de-saki-masuyou-ni.md",
+      "source_sha": "f5dd7e95f2c03a206378969dffac31a26fa462ba",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "‘&’ -空の向こうで咲きますように-",
+      "english_title": "‘&’ -Sora no Mukou de Saki Masuyou ni-",
+      "title_ko": "‘&’ -하늘의 저편에서 피기를-",
+      "title": "‘&’ -Sora no Mukou de Saki Masuyou ni- (‘&’ -하늘의 저편에서 피기를-)"
+    },
+    {
       "key": "platforms/ps3/games/aquapazza-aquaplus-dream-match.md",
       "source_sha": "58a5e70559bf34347bcdad7910135b3bad373fd0",
       "platform": "PS3",
@@ -991,6 +1011,16 @@
       "english_title": "AquaPazza: AquaPlus Dream Match",
       "title_ko": "아쿠아파짜 -아쿠아플러스 드림 매치-",
       "title": "AquaPazza: AquaPlus Dream Match (아쿠아파짜 -아쿠아플러스 드림 매치-)"
+    },
+    {
+      "key": "platforms/ps3/games/ar-nosurge-umareizuru-hoshi-e-inoru-uta.md",
+      "source_sha": "51b2c38430c455ecaaed5ddb73af1aef31edba89",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "アルノサージュ ～生まれいずる星へ祈る詩～",
+      "english_title": "Ar nosurge: Umareizuru Hoshi e Inoru Uta",
+      "title_ko": "아르 노서지: 태어나지 않은 별에 바치는 노래",
+      "title": "Ar nosurge: Umareizuru Hoshi e Inoru Uta (아르 노서지: 태어나지 않은 별에 바치는 노래)"
     },
     {
       "key": "platforms/ps3/games/ar-tonelico-qoga-knell-of-ar-ciel.md",
@@ -1083,6 +1113,16 @@
       "title": "Dengeki Bunko: Fighting Climax (전격문고 FIGHTING CLIMAX)"
     },
     {
+      "key": "platforms/ps3/games/dunamis15.md",
+      "source_sha": "c99627c34c64d1c2814d0c5c14eeeaa00470f643",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "DUNAMIS15（デュナミス15 / デュナミス フィフティーン）",
+      "english_title": "DUNAMIS15",
+      "title_ko": "듀나미스15",
+      "title": "DUNAMIS15 (듀나미스15)"
+    },
+    {
       "key": "platforms/ps3/games/dungeons-dragons-chronicles-of-mystara.md",
       "source_sha": "1f66efc4b170e21555ac16af15991b646df8c9f4",
       "platform": "PS3",
@@ -1143,6 +1183,16 @@
       "title": ".hack: Sekai no Mukou ni + Versus Hybrid Pack (닷핵 세계의 저편으로 + Versus Hybrid Pack)"
     },
     {
+      "key": "platforms/ps3/games/himawari-no-kyoukai-to-nagai-natsuyasumi-extra-vacation.md",
+      "source_sha": "82ce0c6f4c6e64fe2ceeea97999140099961b8a4",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "向日葵の教会と長い夏休み -extra vacation-",
+      "english_title": "Himawari no Kyoukai to Nagai Natsuyasumi: extra vacation",
+      "title_ko": "해바라기 교회와 긴 여름방학 -extra vacation-",
+      "title": "Himawari no Kyoukai to Nagai Natsuyasumi: extra vacation (해바라기 교회와 긴 여름방학 -extra vacation-)"
+    },
+    {
       "key": "platforms/ps3/games/infinite-stratos-2-love-and-purge.md",
       "source_sha": "6ca850a5b17f2519f59da601ae3ae123ebaca652",
       "platform": "PS3",
@@ -1181,6 +1231,16 @@
       "english_title": "K-On! Houkago Live!! HD Ver.",
       "title_ko": "케이온! 방과 후 라이브!! HD Ver.",
       "title": "K-On! Houkago Live!! HD Ver. (케이온! 방과 후 라이브!! HD Ver.)"
+    },
+    {
+      "key": "platforms/ps3/games/kaihou-shoujo-liberation-maiden-sin.md",
+      "source_sha": "4ea9b922e0aa843f9cffd1c5368cda1c082db4bb",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "解放少女 SIN",
+      "english_title": "Kaihou Shoujo SIN",
+      "title_ko": "해방소녀 SIN",
+      "title": "Kaihou Shoujo SIN (해방소녀 SIN)"
     },
     {
       "key": "platforms/ps3/games/ketsui-kizuna-jigoku-tachi-extra.md",
@@ -1293,6 +1353,16 @@
       "title": "Oretachi ni Tsubasa wa Nai (우리들에게 날개는 없다)"
     },
     {
+      "key": "platforms/ps3/games/rui-wa-tomo-o-yobu.md",
+      "source_sha": "fd88c8d1ec7e6f4254e4972925e14733f536e977",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "るいは智を呼ぶ",
+      "english_title": "Rui wa Tomo o Yobu",
+      "title_ko": "루이는 토모를 부른다",
+      "title": "Rui wa Tomo o Yobu (루이는 토모를 부른다)"
+    },
+    {
       "key": "platforms/ps3/games/saint-seiya-soldiers-soul.md",
       "source_sha": "5d18938ad85b4eb8a4d59acf8de8aa9c0622bd34",
       "platform": "PS3",
@@ -1303,6 +1373,26 @@
       "title": "Saint Seiya: Soldiers' Soul (세인트 세이야 솔저스 소울)"
     },
     {
+      "key": "platforms/ps3/games/sengoku-hime-4-souha-hyakkei-hana-mamoru-chikai.md",
+      "source_sha": "fddd2e54b091368293417224189cb1cb5e1579e0",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "戦極姫4 ～争覇百計、花守る誓い～",
+      "english_title": "Sengoku Hime 4: Souha Hyakkei, Hana Mamoru Chikai",
+      "title_ko": "센고쿠히메 4: 쟁패백계, 꽃을 지키는 맹세",
+      "title": "Sengoku Hime 4: Souha Hyakkei, Hana Mamoru Chikai (센고쿠히메 4: 쟁패백계, 꽃을 지키는 맹세)"
+    },
+    {
+      "key": "platforms/ps3/games/sengoku-hime-5-senka-tatsu-haou-no-keifu.md",
+      "source_sha": "6f8c88c5ceb2bc4681364025860fe251eedf5243",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "戦極姫5 ～戦禍断つ覇王の系譜～",
+      "english_title": "Sengoku Hime 5: Senka Tatsu Haou no Keifu",
+      "title_ko": "센고쿠히메 5: 전화를 끊는 패왕의 계보",
+      "title": "Sengoku Hime 5: Senka Tatsu Haou no Keifu (센고쿠히메 5: 전화를 끊는 패왕의 계보)"
+    },
+    {
       "key": "platforms/ps3/games/shin-koihime-musou-otome-taisen-sangokushi-engi.md",
       "source_sha": "098d32d5ba886f581a9ed44a62d50a88c384a652",
       "platform": "PS3",
@@ -1311,6 +1401,16 @@
       "english_title": "Shin Koihime Musou: Otome Taisen * Sangokushi Engi",
       "title_ko": "진 연희몽상: 소녀대전★삼국지연의",
       "title": "Shin Koihime Musou: Otome Taisen * Sangokushi Engi (진 연희몽상: 소녀대전★삼국지연의)"
+    },
+    {
+      "key": "platforms/ps3/games/shutsugeki-otometachi-no-senjou-2-yuukoku-o-kakeru-koujo-no-tsubasa.md",
+      "source_sha": "5461db5a1c4dfe40f401a7f4c1968de8b428a49e",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "出撃!! 乙女たちの戦場2 ～憂国を翔ける皇女のツバサ～",
+      "english_title": "Shutsugeki!! Otometachi no Senjou 2: Yuukoku o Kakeru Koujo no Tsubasa",
+      "title_ko": "출격! 소녀들의 전장 2: 우국을 나는 황녀의 날개",
+      "title": "Shutsugeki!! Otometachi no Senjou 2: Yuukoku o Kakeru Koujo no Tsubasa (출격! 소녀들의 전장 2: 우국을 나는 황녀의 날개)"
     },
     {
       "key": "platforms/ps3/games/skullgirls-encore.md",
@@ -1331,6 +1431,16 @@
       "english_title": "The Super Dimension Fortress Macross: Do You Remember Love? Hybrid Pack",
       "title_ko": "초시공요새 마크로스: 사랑, 기억하고 있습니까? Hybrid Pack",
       "title": "The Super Dimension Fortress Macross: Do You Remember Love? Hybrid Pack (초시공요새 마크로스: 사랑, 기억하고 있습니까? Hybrid Pack)"
+    },
+    {
+      "key": "platforms/ps3/games/suzukaze-no-melt-days-in-the-sanctuary.md",
+      "source_sha": "e3ceccc4cb81b24cf7d9638532820892d1712092",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "涼風のメルト -days in the sanctuary-",
+      "english_title": "Suzukaze no Melt: Days in the Sanctuary",
+      "title_ko": "스즈카제노 멜트: 데이즈 인 더 생추어리",
+      "title": "Suzukaze no Melt: Days in the Sanctuary (스즈카제노 멜트: 데이즈 인 더 생추어리)"
     },
     {
       "key": "platforms/ps3/games/the-awakened-fate-ultimatum.md",
