@@ -51,7 +51,7 @@ jobs:
       - name: Commit changed data
         shell: bash
         run: |
-          git add README.md docs/data/patches.json docs/data/download-ledger.json docs/data/covers.json docs/covers assets/profile/summary-light.svg assets/profile/summary-dark.svg
+          git add README.md docs/data/patches.json docs/data/discovery-index.json docs/data/download-ledger.json docs/data/covers.json docs/covers assets/profile/summary-light.svg assets/profile/summary-dark.svg
           if git diff --cached --quiet; then
             echo "No data changes; no commit."
             exit 0
