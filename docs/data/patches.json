@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-07T02:54:12Z",
+  "generated_at": "2026-10-07T04:47:50Z",
   "summary": {
     "total": 9,
     "released": 7,
     "wip": 2,
-    "downloads": 2521
+    "downloads": 2531
   },
   "patches": [
     {
@@ -46,13 +46,13 @@
         "published_at": "2026-10-05T04:17:16Z",
         "asset_count": 1
       },
-      "downloads": 561,
+      "downloads": 562,
       "assets": [
         {
           "name": "TTT2_KR_Patcher_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/download/v1.1/TTT2_KR_Patcher_v1.1.zip",
-          "downloads": 236,
+          "downloads": 237,
           "asset_id": 611515859,
           "created_at": "2026-10-05T04:44:48Z",
           "release_published_at": "2026-10-05T04:17:16Z"
@@ -68,6 +68,8 @@
         }
       ],
       "tools": [],
+      "discovery": "",
+      "discovery_match": "none",
       "walkthroughs": [
         {
           "id": "tears-to-tiara-2-complete",
@@ -159,7 +161,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/blob/main/README.md",
-      "downloads_current": 561,
+      "downloads_current": 562,
       "downloads_carried": 0,
       "download_ledger": {
         "tears-to-tiara-2-kr-patch/v1.0/TTT2_KR_Patcher_v1.0.zip": {
@@ -176,7 +178,7 @@
           "tag": "v1.1",
           "name": "TTT2_KR_Patcher_v1.1.zip",
           "asset_id": 611515859,
-          "last_count": 236,
+          "last_count": 237,
           "carried": 0,
           "removed": false
         }
@@ -224,13 +226,13 @@
         "published_at": "2026-10-05T04:17:21Z",
         "asset_count": 1
       },
-      "downloads": 795,
+      "downloads": 799,
       "assets": [
         {
           "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.1/EVE_New_Generation_Korean_Patch_v1.1.zip",
-          "downloads": 331,
+          "downloads": 335,
           "asset_id": 611547873,
           "created_at": "2026-10-05T04:59:55Z",
           "release_published_at": "2026-10-05T04:17:21Z"
@@ -246,6 +248,8 @@
         }
       ],
       "tools": [],
+      "discovery": "platforms/ps2/games/eve-new-generation.md",
+      "discovery_match": "title",
       "walkthroughs": [],
       "activity_at": "2026-10-05T05:30:21Z",
       "activity_exclusion": {
@@ -308,7 +312,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/blob/main/README.md",
-      "downloads_current": 795,
+      "downloads_current": 799,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-new-generation-kr-patch/v1.0/EVE_NG_v1.0.zip": {
@@ -325,7 +329,7 @@
           "tag": "v1.1",
           "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
           "asset_id": 611547873,
-          "last_count": 331,
+          "last_count": 335,
           "carried": 0,
           "removed": false
         }
@@ -373,13 +377,13 @@
         "published_at": "2026-10-05T04:17:18Z",
         "asset_count": 1
       },
-      "downloads": 741,
+      "downloads": 746,
       "assets": [
         {
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/download/v1.1/EVE_ZERO_Korean_Patch_v1.1.zip",
-          "downloads": 351,
+          "downloads": 356,
           "asset_id": 611513419,
           "created_at": "2026-10-05T04:43:41Z",
           "release_published_at": "2026-10-05T04:17:18Z"
@@ -395,6 +399,8 @@
         }
       ],
       "tools": [],
+      "discovery": "",
+      "discovery_match": "none",
       "walkthroughs": [],
       "activity_at": "2026-10-05T05:14:53Z",
       "activity_exclusion": {
@@ -455,7 +461,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-zero-kr-patch/blob/main/README.md",
-      "downloads_current": 741,
+      "downloads_current": 746,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-zero-kr-patch/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip": {
@@ -472,7 +478,7 @@
           "tag": "v1.1",
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "asset_id": 611513419,
-          "last_count": 351,
+          "last_count": 356,
           "carried": 0,
           "removed": false
         }
@@ -533,6 +539,8 @@
         }
       ],
       "tools": [],
+      "discovery": "",
+      "discovery_match": "none",
       "walkthroughs": [],
       "activity_at": "2026-10-05T05:11:54Z",
       "activity_exclusion": {
@@ -665,6 +673,8 @@
         }
       ],
       "tools": [],
+      "discovery": "",
+      "discovery_match": "none",
       "walkthroughs": [],
       "activity_at": "2026-10-05T05:10:01Z",
       "activity_exclusion": {
@@ -794,6 +804,8 @@
         }
       ],
       "tools": [],
+      "discovery": "",
+      "discovery_match": "none",
       "walkthroughs": [],
       "activity_at": "2026-10-05T03:51:25Z",
       "activity_exclusion": {
@@ -918,6 +930,8 @@
         }
       ],
       "tools": [],
+      "discovery": "",
+      "discovery_match": "none",
       "walkthroughs": [],
       "activity_at": "2026-10-05T03:51:24Z",
       "activity_exclusion": {
@@ -1050,6 +1064,8 @@
       "downloads": 0,
       "assets": [],
       "tools": [],
+      "discovery": "platforms/psp/games/twelve-sengoku-fuushinden.md",
+      "discovery_match": "title",
       "walkthroughs": [],
       "activity_at": "2026-10-07T02:52:48Z",
       "activity_exclusion": {
@@ -1128,6 +1144,8 @@
       "downloads": 0,
       "assets": [],
       "tools": [],
+      "discovery": "platforms/ps2/games/guardian-angel.md",
+      "discovery_match": "product_id",
       "walkthroughs": [],
       "activity_at": "2026-10-07T02:52:45Z",
       "activity_exclusion": {
@@ -1203,6 +1221,11 @@
       "message": "릴리스 공개보다 하루 넘게 늦게 생성된 첨부파일이 있습니다."
     },
     {
+      "repo": "eve-ghost-enemies-kr-patch",
+      "type": "discovery-unmatched",
+      "message": "발굴 아카이브 자동 매칭에 실패했습니다."
+    },
+    {
       "repo": "eve-rebirth-terror-kr-patch",
       "type": "asset-reuploaded",
       "message": "릴리스 공개보다 하루 넘게 늦게 생성된 첨부파일이 있습니다."
@@ -1211,6 +1234,16 @@
       "repo": "eve-rebirth-terror-kr-patch",
       "type": "changelog-empty-entry",
       "message": "1.3.0: 변경 내용이 기록되어 있지 않습니다."
+    },
+    {
+      "repo": "eve-rebirth-terror-kr-patch",
+      "type": "discovery-unmatched",
+      "message": "발굴 아카이브 자동 매칭에 실패했습니다."
+    },
+    {
+      "repo": "eve-zero-kr-patch",
+      "type": "discovery-unmatched",
+      "message": "발굴 아카이브 자동 매칭에 실패했습니다."
     },
     {
       "repo": "eve-zero-kr-patch",
@@ -1233,9 +1266,19 @@
       "message": "릴리스 공개보다 하루 넘게 늦게 생성된 첨부파일이 있습니다."
     },
     {
+      "repo": "tears-to-tiara-2-kr-patch",
+      "type": "discovery-unmatched",
+      "message": "발굴 아카이브 자동 매칭에 실패했습니다."
+    },
+    {
       "repo": "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch",
       "type": "asset-reuploaded",
       "message": "릴리스 공개보다 하루 넘게 늦게 생성된 첨부파일이 있습니다."
+    },
+    {
+      "repo": "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch",
+      "type": "discovery-unmatched",
+      "message": "발굴 아카이브 자동 매칭에 실패했습니다."
     },
     {
       "repo": "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch",
@@ -1246,6 +1289,11 @@
       "repo": "touhou-genso-wanderer-reloaded-kr-patch",
       "type": "asset-reuploaded",
       "message": "릴리스 공개보다 하루 넘게 늦게 생성된 첨부파일이 있습니다."
+    },
+    {
+      "repo": "touhou-genso-wanderer-reloaded-kr-patch",
+      "type": "discovery-unmatched",
+      "message": "발굴 아카이브 자동 매칭에 실패했습니다."
     },
     {
       "repo": "touhou-genso-wanderer-reloaded-kr-patch",

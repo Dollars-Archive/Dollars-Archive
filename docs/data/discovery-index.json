@@ -1,0 +1,3676 @@
+{
+  "version": 1,
+  "tree_sha": "937cb89d26ef2e40c6a1dd33499fbdcbcb41e787",
+  "games": [
+    {
+      "key": "platforms/ps2/games/12riven-the-psycliminal-of-integral.md",
+      "source_sha": "f9e87c427788d748bd3acd8c5bfb544be40b5bc5",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "",
+      "english_title": "12RIVEN -the Ψcliminal of integral-",
+      "title_ko": "12 리븐",
+      "title": "12RIVEN -the Ψcliminal of integral- (12 리븐)"
+    },
+    {
+      "key": "platforms/ps2/games/3ldk-shiawase-ni-narouyo.md",
+      "source_sha": "bd6967b384d4b466db14eca6033429e3ae0d8a28",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "3LDK ～幸せになろうよ～",
+      "english_title": "3LDK: Shiawase ni Narouyo",
+      "title_ko": "3LDK ～시아와세니 나로요～. 공식 한국어 제목·널리 정착한 표기는 확인하지 못해 음역 유지",
+      "title": "3LDK: Shiawase ni Narouyo (3LDK ～시아와세니 나로요～)"
+    },
+    {
+      "key": "platforms/ps2/games/aikagi-nukumori-to-hidamari-no-naka-de.md",
+      "source_sha": "ac82784fd46bbd2f2981fccb35d223fd39dda6c2",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "あいかぎ ～ぬくもりとひだまりの中で～",
+      "english_title": "Aikagi: Nukumori to Hidamari no Naka de",
+      "title_ko": "아이카기 ～온기와 햇살 속에서～. 공식 한국어 제목·널리 정착한 표기는 확인 못한 잠정 표기",
+      "title": "Aikagi: Nukumori to Hidamari no Naka de (아이카기 ～온기와 햇살 속에서～)"
+    },
+    {
+      "key": "platforms/ps2/games/akane-iro-ni-somaru-saka-parallel.md",
+      "source_sha": "e174e7454c10b5d6b5c76034b57a47390bedc093",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "あかね色に染まる坂 ぱられる",
+      "english_title": "Akane Iro ni Somaru Saka: Parallel",
+      "title_ko": "노을빛으로 물드는 언덕 패러렐",
+      "title": "Akane Iro ni Somaru Saka: Parallel (노을빛으로 물드는 언덕 패러렐)"
+    },
+    {
+      "key": "platforms/ps2/games/aoi-sora-no-neosphere-nanoca-flanka-hatsumei-koubouki-2.md",
+      "source_sha": "2b17cdace7ab23684644ec56be51711982b4413a",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "蒼い空のネオスフィア ～ナノカ・フランカ発明工房記2～",
+      "english_title": "Aoi Sora no Neosphere: Nanoca Flanka Hatsumei Koubouki 2",
+      "title_ko": "창공의 네오스피아. 한국 PC판에서 사용된 제목. PS2판은 국내 정식 발매가 확인되지 않으며 푸른 하늘의 네오스피어라는 통용 표기도 존재",
+      "title": "Aoi Sora no Neosphere: Nanoca Flanka Hatsumei Koubouki 2 (창공의 네오스피아)"
+    },
+    {
+      "key": "platforms/ps2/games/aoishiro.md",
+      "source_sha": "8d941b8faa0bde9c9afc45f944e02c7d0d260548",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "アオイシロ",
+      "english_title": "Aoishiro",
+      "title_ko": "아오이시로. 국내 게임·백합 관련 자료에서 널리 쓰이는 음역이며 공식 한국어 게임판 제목은 아님",
+      "title": "Aoishiro (아오이시로)"
+    },
+    {
+      "key": "platforms/ps2/games/apocripha-0.md",
+      "source_sha": "f6eaf1c13f3c6dd72b9c9ef5fbe2c7cbf57d30bc",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "Apocripha/0 / アポクリファ・ゼロ",
+      "english_title": "Apocripha/0",
+      "title_ko": "아포크리파 제로. 국내 통용명이며 게임의 한국 정식 발매명은 아님",
+      "title": "Apocripha/0 (아포크리파 제로)"
+    },
+    {
+      "key": "platforms/ps2/games/baldr-force-exe.md",
+      "source_sha": "dcf7335a39a9a4d66eb78666a240ba7ab4fbfc1b",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "バルドフォース エグゼ / BALDR FORCE EXE",
+      "english_title": "Baldr Force EXE",
+      "title_ko": "발더 포스 EXE",
+      "title": "Baldr Force EXE (발더 포스 EXE)"
+    },
+    {
+      "key": "platforms/ps2/games/canvas-sepia-iro-no-motif.md",
+      "source_sha": "4da6181c42be58c4763c501d06e1c62dc7755d5f",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "Canvas ～セピア色のモチーフ～",
+      "english_title": "Canvas: Sepia-iro no Motif",
+      "title_ko": "캔버스 ～세피아색의 모티프～",
+      "title": "Canvas: Sepia-iro no Motif (캔버스 ～세피아색의 모티프～)"
+    },
+    {
+      "key": "platforms/ps2/games/castle-fantasia-erencia-senki-plus-stories.md",
+      "source_sha": "3bfcadf639aebca4108ef9657a258f23d04170d6",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "キャッスルファンタジア エレンシア戦記 プラスストーリーズ",
+      "english_title": "Castle Fantasia: Erencia Senki: Plus Stories",
+      "title_ko": "캐슬 판타지아: 에렌시아 전기 플러스 스토리즈",
+      "title": "Castle Fantasia: Erencia Senki: Plus Stories (캐슬 판타지아: 에렌시아 전기 플러스 스토리즈)"
+    },
+    {
+      "key": "platforms/ps2/games/chobits-chiidake-no-hito.md",
+      "source_sha": "888ff92d65d28a214481aeaff194e8c760810743",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "ちょびっツ ～ちぃだけのヒト～",
+      "english_title": "Chobits: Chiidake no Hito",
+      "title_ko": "쵸비츠 ～치이만의 사람～",
+      "title": "Chobits: Chiidake no Hito (쵸비츠 ～치이만의 사람～)"
+    },
+    {
+      "key": "platforms/ps2/games/croket-ban-king-no-kiki-o-sukue.md",
+      "source_sha": "46cef7851a22041fba1ed09e786dbe4a93c7c4d7",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "コロッケ! バン王の危機を救え",
+      "english_title": "Croket! Ban-King no Kiki o Sukue",
+      "title_ko": "코로케! 반왕의 위기를 구하라",
+      "title": "Croket! Ban-King no Kiki o Sukue (코로케! 반왕의 위기를 구하라)"
+    },
+    {
+      "key": "platforms/ps2/games/cross-channel-to-all-people.md",
+      "source_sha": "d0b7b03758d6adbe5bcbc632d93e5a7b90675df5",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "CROSS†CHANNEL ～To all people～",
+      "english_title": "Cross Channel: To All People",
+      "title_ko": "크로스 채널 ～To all people～",
+      "title": "Cross Channel: To All People (크로스 채널 ～To all people～)"
+    },
+    {
+      "key": "platforms/ps2/games/dears.md",
+      "source_sha": "42e5b2befa66a74eafc508e1afc4922e8c8e7291",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "DearS / ディアーズ",
+      "english_title": "DearS",
+      "title_ko": "디어스 (국내 통용 음역 / 공식 한국어 게임 제목은 확인하지 못함)",
+      "title": "DearS (디어스)"
+    },
+    {
+      "key": "platforms/ps2/games/dnangel-kurenai-no-tsubasa.md",
+      "source_sha": "9dd628c05953c19534b222000765db97ef317b9f",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "D・N・ANGEL TV Animation Series ～紅の翼～",
+      "english_title": "D.N.Angel: Kurenai no Tsubasa",
+      "title_ko": "D.N.ANGEL ～붉은 날개～. 국내 리브레 위키와 성우 출연작 자료에서 붉은 날개 표기 사용례가 확인되지만 공식 한국어 게임판 제목은 아님",
+      "title": "D.N.Angel: Kurenai no Tsubasa (D.N.ANGEL ～붉은 날개～)"
+    },
+    {
+      "key": "platforms/ps2/games/doko-e-iku-no-anohi-hikaru-ashita-e.md",
+      "source_sha": "c72d7c5e4948f7ab42d796ccbce8edd34f04ad3c",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "何処へ行くの、あの日 ～光る明日へ…～",
+      "english_title": "Doko e Iku no, Anohi: Hikaru Ashita e...",
+      "title_ko": "도코에 이쿠노, 아노히 ～히카루 아시타에…～",
+      "title": "Doko e Iku no, Anohi: Hikaru Ashita e... (도코에 이쿠노, 아노히 ～히카루 아시타에…～)"
+    },
+    {
+      "key": "platforms/ps2/games/ef-a-fairy-tale-of-the-two.md",
+      "source_sha": "aa4d5b81bc86fc102c2733aa9943f050718c41b9",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "ef - a fairy tale of the two.",
+      "english_title": "ef - a fairy tale of the two.",
+      "title_ko": "에프 - a fairy tale of the two. *(국내에서는 영문 원제를 그대로 쓰는 경우가 일반적이며 에프·이에프 발음 사용례가 있음)*",
+      "title": "ef - a fairy tale of the two. (에프)"
+    },
+    {
+      "key": "platforms/ps2/games/eien-no-aselia-kono-daichi-no-hate-de.md",
+      "source_sha": "0df842cb902b90950e868bdd0ede8cf48f4ccd89",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "永遠のアセリア ―この大地の果てで―",
+      "english_title": "Eien no Aselia: Kono Daichi no Hate de",
+      "title_ko": "영원의 아세리아 ～이 대지의 끝에서～",
+      "title": "Eien no Aselia: Kono Daichi no Hate de (영원의 아세리아 ～이 대지의 끝에서～)"
+    },
+    {
+      "key": "platforms/ps2/games/elysion-eien-no-sanctuary.md",
+      "source_sha": "95cab11060faeb0b8de7d60230776456619c1f11",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "ELYSION ～永遠のサンクチュアリ～",
+      "english_title": "Elysion: Eien no Sanctuary",
+      "title_ko": "엘리시온 ～영원의 생츄어리～",
+      "title": "Elysion: Eien no Sanctuary (엘리시온 ～영원의 생츄어리～)"
+    },
+    {
+      "key": "platforms/ps2/games/eve-new-generation.md",
+      "source_sha": "b9a15dfc17697f40c8790de0a65b109590d7ff01",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "EVE new generation / イブ・ニュージェネレーション",
+      "english_title": "EVE: New Generation",
+      "title_ko": "이브 뉴 제네레이션",
+      "title": "EVE: New Generation (이브 뉴 제네레이션)"
+    },
+    {
+      "key": "platforms/ps2/games/f-fanatic.md",
+      "source_sha": "729b69e611475829bcdd72dc41386e83cd860191",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "F ～ファナティック～",
+      "english_title": "F: Fanatic",
+      "title_ko": "F ～파나틱～. 국내 PS2 자료에서 F ~파나틱~ 표기 사용례가 확인되지만 공식 한국어판 제목은 아님",
+      "title": "F: Fanatic (F ～파나틱～)"
+    },
+    {
+      "key": "platforms/ps2/games/fantastic-fortune-2-triple-star.md",
+      "source_sha": "2ad3826c997c244f4e3f4de978cecafc97b12774",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "ファンタスティックフォーチュン2☆☆☆（トリプルスター）",
+      "english_title": "Fantastic Fortune 2 ☆☆☆ Triple Star",
+      "title_ko": "판타스틱 포츈2 ☆☆☆ 트리플 스타 (국내 통용 음역 / 공식 한국어 게임 제목은 확인하지 못함)",
+      "title": "Fantastic Fortune 2 ☆☆☆ Triple Star (판타스틱 포츈2 ☆☆☆ 트리플 스타)"
+    },
+    {
+      "key": "platforms/ps2/games/final-approach.md",
+      "source_sha": "be12f5a8da8c5065c6b1c458942759059698a262",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "Φなる・あぷろーち",
+      "english_title": "Final Approach",
+      "title_ko": "파이널 어프로치 (국내 통용 표기 / 공식 한국어 게임 제목은 확인하지 못함)",
+      "title": "Final Approach (파이널 어프로치)"
+    },
+    {
+      "key": "platforms/ps2/games/fragments-blue.md",
+      "source_sha": "da02998a020abc21f27814373558c2ebd669238d",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "FRAGMENTS BLUE / フラグメンツ・ブルー",
+      "english_title": "Fragments Blue",
+      "title_ko": "프래그먼츠 블루 (공식·통용 한국어 제목 확인 못함, 잠정 음역)",
+      "title": "Fragments Blue (프래그먼츠 블루)"
+    },
+    {
+      "key": "platforms/ps2/games/fukakutei-sekai-no-tantei-shinshi-agyou-souma-no-jiken-file.md",
+      "source_sha": "c007bb026e947c532d2f6fc6f516561aec660940",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "不確定世界の探偵紳士 ～悪行双麻の事件ファイル～",
+      "english_title": "Fukakutei Sekai no Tantei Shinshi: Agyou Souma no Jiken File",
+      "title_ko": "불확정세계의 탐정신사 ～아교 소우마의 사건파일～ (국내 사용례 기반 표기 / 공식 한국어 게임 제목은 확인하지 못함)",
+      "title": "Fukakutei Sekai no Tantei Shinshi: Agyou Souma no Jiken File (불확정세계의 탐정신사 ～아교 소우마의 사건파일～)"
+    },
+    {
+      "key": "platforms/ps2/games/getbackers-dakkanya-dakkandayo-zenin-shuugou.md",
+      "source_sha": "c110589f4bfbbe6edfdf69513a65409e6f483e0a",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "GetBackers-奪還屋- ～奪還だヨ!全員集合!!～",
+      "english_title": "GetBackers Dakkanya: Dakkandayo! Zenin Shuugou!!",
+      "title_ko": "겟 백커스 탈환대 ～탈환이다요! 전원집합!!～ (잠정 번역. 공식 한국어 게임 제목은 확인하지 못함)",
+      "title": "GetBackers Dakkanya: Dakkandayo! Zenin Shuugou!! (겟 백커스 탈환대 ～탈환이다요! 전원집합!!～)"
+    },
+    {
+      "key": "platforms/ps2/games/getsumento-heiki-mina-futatsu-no-project-m.md",
+      "source_sha": "19cf4424e0344cb1ba60120ee268190f7e9af500",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "月面兎兵器ミーナ －ふたつのPROJECT M－",
+      "english_title": "Getsumento Heiki Mina: Futatsu no Project M",
+      "title_ko": "월면토병기 미나 ～두 개의 PROJECT M～",
+      "title": "Getsumento Heiki Mina: Futatsu no Project M (월면토병기 미나 ～두 개의 PROJECT M～)"
+    },
+    {
+      "key": "platforms/ps2/games/girls-bravo-romance-15s.md",
+      "source_sha": "71abee52c719c98a24b1664655a099c0ae6573a2",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "GIRLSブラボー Romance15's",
+      "english_title": "Girls Bravo: Romance 15's",
+      "title_ko": "걸즈 브라보 Romance15's",
+      "title": "Girls Bravo: Romance 15's (걸즈 브라보 Romance15's)"
+    },
+    {
+      "key": "platforms/ps2/games/green-green-kane-no-oto-dynamic.md",
+      "source_sha": "68b6fd4c021501bcc0aa4cd45514f9c24b4d306a",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "グリーングリーン ～鐘ノ音ダイナミック～",
+      "english_title": "Green Green: Kane no Oto Dynamic",
+      "title_ko": "그린 그린 ～카네노네 다이내믹～",
+      "title": "Green Green: Kane no Oto Dynamic (그린 그린 ～카네노네 다이내믹～)"
+    },
+    {
+      "key": "platforms/ps2/games/green-green-kane-no-oto-romantic.md",
+      "source_sha": "983045480f4869e45703da0e58b95cac7a7a7d47",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "グリーングリーン ～鐘ノ音ロマンティック～",
+      "english_title": "Green Green: Kane no Oto Romantic",
+      "title_ko": "그린 그린 ～카네노네 로맨틱～ (잠정 음역 / 공식 한국어 게임 제목은 확인하지 못함)",
+      "title": "Green Green: Kane no Oto Romantic (그린 그린 ～카네노네 로맨틱～)"
+    },
+    {
+      "key": "platforms/ps2/games/guardian-angel.md",
+      "source_sha": "75a067db711a240c223273a075edb2462ecf9e07",
+      "platform": "PS2",
+      "product_id": "SLPS-25214",
+      "original": "ガーディアンエンジェル / Guardian Angel",
+      "english_title": "Guardian Angel",
+      "title_ko": "가디언 엔젤",
+      "title": "Guardian Angel (가디언 엔젤)"
+    },
+    {
+      "key": "platforms/ps2/games/h2o-plus-footprints-in-the-sand.md",
+      "source_sha": "4760f5a89eb5290ef76c06f12c1878a843fb0476",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "H2O+ -FOOTPRINTS IN THE SAND- / H2Oプラス",
+      "english_title": "H2O+: Footprints in the Sand",
+      "title_ko": "H2O 플러스 ～Footprints in the Sand～",
+      "title": "H2O+: Footprints in the Sand (H2O 플러스 ～Footprints in the Sand～)"
+    },
+    {
+      "key": "platforms/ps2/games/io.md",
+      "source_sha": "55195894a513e2811b92674c7f3fc0387b4e14e8",
+      "platform": "평가 대상: PLAYSTATION 2 / 비교 판본: WINDOWS REVISION II",
+      "product_id": "",
+      "original": "I/O（アイオー）",
+      "english_title": "I/O",
+      "title_ko": "아이오",
+      "title": "I/O (아이오)"
+    },
+    {
+      "key": "platforms/ps2/games/itsuka-todoku-ano-sora-ni-yo-no-michi-to-hi-no-tasogare-to.md",
+      "source_sha": "946fdf4d711094d2fedb8457732075f54307f017",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "いつか、届く、あの空に。 ～陽の道と緋の昏と～",
+      "english_title": "Itsuka, Todoku, Ano Sora ni.: Yō no Michi to Hi no Tasogare to",
+      "title_ko": "이츠카, 토도쿠, 아노 소라니. ～요노 미치토 히노 타소가레토～",
+      "title": "Itsuka, Todoku, Ano Sora ni.: Yō no Michi to Hi no Tasogare to (이츠카, 토도쿠, 아노 소라니. ～요노 미치토 히노 타소가레토～)"
+    },
+    {
+      "key": "platforms/ps2/games/izumo-complete.md",
+      "source_sha": "0156ac122b50979044b06e65dd2b6e6a44edde17",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "IZUMO コンプリート / Izumo Complete",
+      "english_title": "Izumo Complete",
+      "title_ko": "이즈모 컴플리트 (국내 통용 음역 / 공식 PS2 한국어 제목 아님)",
+      "title": "Izumo Complete (이즈모 컴플리트)"
+    },
+    {
+      "key": "platforms/ps2/games/izumo2-gakuen-kyousoukyoku-double-tact.md",
+      "source_sha": "7a30029b5ac34e04ada0b90888ab2b94612ba260",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "IZUMO2 -学園狂想曲- ダブルタクト",
+      "english_title": "Izumo 2: Gakuen Kyousoukyoku - Double Tact",
+      "title_ko": "이즈모2 학원광상곡 더블 택트",
+      "title": "Izumo 2: Gakuen Kyousoukyoku - Double Tact (이즈모2 학원광상곡 더블 택트)"
+    },
+    {
+      "key": "platforms/ps2/games/izumo2-takeki-tsurugi-no-senki.md",
+      "source_sha": "f8c6504281c7c4542938410388cbe3f6fac42623",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "IZUMO2 猛き剣の閃記",
+      "english_title": "Izumo 2: Takeki Tsurugi no Senki",
+      "title_ko": "이즈모2 ～용맹한 검의 섬기～",
+      "title": "Izumo 2: Takeki Tsurugi no Senki (이즈모2 ～용맹한 검의 섬기～)"
+    },
+    {
+      "key": "platforms/ps2/games/jewels-ocean-star-of-sierra-leone.md",
+      "source_sha": "27eb296b86d9b46a5911a051757b9e40e14472bd",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "ジュエルスオーシャン Star of Sierra Leone",
+      "english_title": "Jewels Ocean: Star of Sierra Leone",
+      "title_ko": "주얼스 오션 ～Star of Sierra Leone～",
+      "title": "Jewels Ocean: Star of Sierra Leone (주얼스 오션 ～Star of Sierra Leone～)"
+    },
+    {
+      "key": "platforms/ps2/games/juujigen-rippoutai-cipher-game-of-survival.md",
+      "source_sha": "786c7d981b8f93c4b92ac79d1ef04500550cb8da",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "十次元立方体サイファー ～ゲーム・オブ・サバイバル～",
+      "english_title": "Juujigen Rippoutai Cipher: Game of Survival",
+      "title_ko": "십차원 입방체 사이퍼: 게임 오브 서바이벌",
+      "title": "Juujigen Rippoutai Cipher: Game of Survival (십차원 입방체 사이퍼: 게임 오브 서바이벌)"
+    },
+    {
+      "key": "platforms/ps2/games/kanon.md",
+      "source_sha": "4d79be626a15eca1c87ffe088d65274cd50ff87f",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "Kanon / カノン",
+      "english_title": "Kanon",
+      "title_ko": "카논",
+      "title": "Kanon (카논)"
+    },
+    {
+      "key": "platforms/ps2/games/kazoku-keikaku-kokoro-no-kizuna.md",
+      "source_sha": "20fa695ca1a9ba76cb0270e473f558daf01b77bb",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "家族計画 ～心の絆～",
+      "english_title": "Kazoku Keikaku: Kokoro no Kizuna",
+      "title_ko": "가족계획 ～마음의 인연～",
+      "title": "Kazoku Keikaku: Kokoro no Kizuna (가족계획 ～마음의 인연～)"
+    },
+    {
+      "key": "platforms/ps2/games/kino-no-tabi-the-beautiful-world.md",
+      "source_sha": "5318319496f0986b306504ea8bfa3bd56e0ce509",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "キノの旅 -the Beautiful World-",
+      "english_title": "Kino no Tabi: The Beautiful World",
+      "title_ko": "키노의 여행 -the Beautiful World-",
+      "title": "Kino no Tabi: The Beautiful World (키노의 여행 -the Beautiful World-)"
+    },
+    {
+      "key": "platforms/ps2/games/kishin-houkou-demonbane.md",
+      "source_sha": "66e00fbfed9dc2beceff463f8454ff6b515850ff",
+      "platform": "PLAYSTATION 2 / WINDOWS",
+      "product_id": "",
+      "original": "機神咆吼デモンベイン",
+      "english_title": "Kishin Houkou Demonbane",
+      "title_ko": "기신포후 데몬베인",
+      "title": "Kishin Houkou Demonbane (기신포후 데몬베인)"
+    },
+    {
+      "key": "platforms/ps2/games/kita-e-diamond-dust.md",
+      "source_sha": "15c44ad3160b6d61d4e3959699486bf1f7917d27",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "北へ。～Diamond Dust～",
+      "english_title": "Kita e. Diamond Dust",
+      "title_ko": "북으로 ～Diamond Dust～ (국내 통용 번역 / 공식 한국어 게임 제목 아님)",
+      "title": "Kita e. Diamond Dust (북으로 ～Diamond Dust～)"
+    },
+    {
+      "key": "platforms/ps2/games/koisuru-otome-to-shugo-no-tate-the-shield-of-aigis.md",
+      "source_sha": "d784be1ff8e509f0ed2483ef37aeb6fb386f75ca",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "恋する乙女と守護の楯 -The shield of AIGIS-",
+      "english_title": "Koisuru Otome to Shugo no Tate: The Shield of AIGIS",
+      "title_ko": "사랑하는 소녀와 수호의 방패 -The shield of AIGIS-",
+      "title": "Koisuru Otome to Shugo no Tate: The Shield of AIGIS (사랑하는 소녀와 수호의 방패 -The shield of AIGIS-)"
+    },
+    {
+      "key": "platforms/ps2/games/konneko-keep-a-memory-green.md",
+      "source_sha": "25b0033538c85776f26b7824af3676e7e075e310",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "こねこねこねこ / Konneko: Keep a Memory Green",
+      "english_title": "Konneko: Keep a Memory Green",
+      "title_ko": "코네코: Keep a Memory Green",
+      "title": "Konneko: Keep a Memory Green (코네코: Keep a Memory Green)"
+    },
+    {
+      "key": "platforms/ps2/games/kuon-no-kizuna-sairinshou.md",
+      "source_sha": "84d562b8df58ed3aa1e5d42469412f548755cfbe",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "久遠の絆 再臨詔",
+      "english_title": "Kuon no Kizuna: Sairinshou",
+      "title_ko": "구원의 반 재림조",
+      "title": "Kuon no Kizuna: Sairinshou (구원의 반 재림조)"
+    },
+    {
+      "key": "platforms/ps2/games/kyuuketsu-hime-yui-senyasyo.md",
+      "source_sha": "fa83d8800b2adb0884694d03ce01c7ff54e13c59",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "吸血姫夕維 ～千夜抄～",
+      "english_title": "Kyuuketsu Hime Yui: Senyasyo",
+      "title_ko": "뱀파이어 유이 ～천야초～ / 흡혈희 유이",
+      "title": "Kyuuketsu Hime Yui: Senyasyo (뱀파이어 유이 ～천야초～)"
+    },
+    {
+      "key": "platforms/ps2/games/kyuuketsu-kitan-moonties.md",
+      "source_sha": "c5d4697edb73891b14bbd91c6be365db6dc4c79c",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "吸血奇譚 ムーンタイズ",
+      "english_title": "Kyuuketsu Kitan Moonties",
+      "title_ko": "흡혈기담 문타이즈",
+      "title": "Kyuuketsu Kitan Moonties (흡혈기담 문타이즈)"
+    },
+    {
+      "key": "platforms/ps2/games/little-busters-converted-edition.md",
+      "source_sha": "e15c2f6b9b288ff7d6c8337696a303ea4fb6b168",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "リトルバスターズ！Converted Edition",
+      "english_title": "Little Busters! Converted Edition",
+      "title_ko": "리틀 버스터즈! Converted Edition",
+      "title": "Little Busters! Converted Edition (리틀 버스터즈! Converted Edition)"
+    },
+    {
+      "key": "platforms/ps2/games/lost-passage-ushinawareta-hitofushi.md",
+      "source_sha": "927b399d194a0c427b503091d4a6a34b8c335778",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "Lost Passage ～失われた一節～",
+      "english_title": "Lost Passage: Ushinawareta Hitofushi",
+      "title_ko": "로스트 패시지 ～잃어버린 한 구절～",
+      "title": "Lost Passage: Ushinawareta Hitofushi (로스트 패시지 ～잃어버린 한 구절～)"
+    },
+    {
+      "key": "platforms/ps2/games/lupin-sansei-lupin-ni-wa-shi-o-zenigata-ni-wa-koi-o.md",
+      "source_sha": "cf173bb31048c39a5921a686c1578834777b79da",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "ルパン三世 ルパンには死を、銭形には恋を",
+      "english_title": "Lupin Sansei: Lupin ni wa Shi o, Zenigata ni wa Koi o",
+      "title_ko": "루팡 3세: 루팡에게 죽음을, 제니가타에게 사랑을",
+      "title": "Lupin Sansei: Lupin ni wa Shi o, Zenigata ni wa Koi o (루팡 3세: 루팡에게 죽음을, 제니가타에게 사랑을)"
+    },
+    {
+      "key": "platforms/ps2/games/ma-gi-marginal.md",
+      "source_sha": "b72c8ac570c253c89b493815479987b1a4b54330",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "マージ ～あの時の遠い約束を～",
+      "english_title": "Ma-Gi: Marginal",
+      "title_ko": "마지 ～그때의 먼 약속을～",
+      "title": "Ma-Gi: Marginal (마지 ～그때의 먼 약속을～)"
+    },
+    {
+      "key": "platforms/ps2/games/mahoromatic-moetto-kirakira-maid-san.md",
+      "source_sha": "6014e1ce7817d01e9e920c30d2b8b078eaec91ca",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "まほろまてぃっく 萌っと≠きらきらメイドさん。",
+      "english_title": "Mahoromatic: Moetto ≠ KiraKira Maid-San",
+      "title_ko": "마호로매틱 더 모에≠반짝반짝 메이드 씨.",
+      "title": "Mahoromatic: Moetto ≠ KiraKira Maid-San (마호로매틱 더 모에≠반짝반짝 메이드 씨.)"
+    },
+    {
+      "key": "platforms/ps2/games/mahou-sensei-negima-1-jikanme.md",
+      "source_sha": "ab9bd675f9d0b6a145cccfd1336baeed20974d41",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "魔法先生ネギま！ 1時間目 ～お子ちゃま先生は魔法使い！～",
+      "english_title": "Mahou Sensei Negima! 1-Jikanme ～Okochama Sensei wa Mahoutsukai!～",
+      "title_ko": "마법선생 네기마! 1교시 ～꼬마 선생님은 마법사!～",
+      "title": "Mahou Sensei Negima! 1-Jikanme ～Okochama Sensei wa Mahoutsukai!～ (마법선생 네기마! 1교시 ～꼬마 선생님은 마법사!～)"
+    },
+    {
+      "key": "platforms/ps2/games/mahou-sensei-negima-2-jikanme.md",
+      "source_sha": "d7efd2241e6dce5eaf6a3be1bc407cf3b98097f3",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "魔法先生ネギま！ 2時間目 戦う乙女たち！ 麻帆良大運動会SP！",
+      "english_title": "Mahou Sensei Negima! 2-Jikanme ～Tatakau Otometachi! Mahora Daiundokai SP!～",
+      "title_ko": "마법선생 네기마! 2교시 ～싸우는 소녀들! 마호라 대운동회 SP～",
+      "title": "Mahou Sensei Negima! 2-Jikanme ～Tatakau Otometachi! Mahora Daiundokai SP!～ (마법선생 네기마! 2교시 ～싸우는 소녀들! 마호라 대운동회 SP～)"
+    },
+    {
+      "key": "platforms/ps2/games/mai-hime-unmei-no-keitouju.md",
+      "source_sha": "537bc8ecdae370c7e4cdb22f8cd4e4291243f034",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "舞-HiME 運命の系統樹",
+      "english_title": "Mai-HiME: Unmei no Keitouju",
+      "title_ko": "마이히메 ～운명의 계통수～",
+      "title": "Mai-HiME: Unmei no Keitouju (마이히메 ～운명의 계통수～)"
+    },
+    {
+      "key": "platforms/ps2/games/men-at-work-3-ai-to-seishun-no-hunter-gakuen.md",
+      "source_sha": "a5c7bdd1c9b8c9b3817e4450efef036fb9f4d5fa",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "メンアットワーク!3 ～愛と青春のハンター学園～",
+      "english_title": "Men at Work! 3: Ai to Seishun no Hunter Gakuen",
+      "title_ko": "멘 앳 워크! 3 ～사랑과 청춘의 헌터 학원～",
+      "title": "Men at Work! 3: Ai to Seishun no Hunter Gakuen (멘 앳 워크! 3 ～사랑과 청춘의 헌터 학원～)"
+    },
+    {
+      "key": "platforms/ps2/games/metal-wolf-rev.md",
+      "source_sha": "9591edaa50f1412754fc1ae764bdc03534ef8610",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "メタルウルフREV",
+      "english_title": "Metal Wolf REV",
+      "title_ko": "메탈 울프 REV",
+      "title": "Metal Wolf REV (메탈 울프 REV)"
+    },
+    {
+      "key": "platforms/ps2/games/missing-blue.md",
+      "source_sha": "3321db8f6f2f275ec748f4dd3a903ae27bf7201e",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "Missing Blue",
+      "english_title": "Missing Blue",
+      "title_ko": "미싱 블루. 국내 공식 한국어판 제목은 확인되지 않아 일본어 독음 ミッシングブルー의 자연스러운 음역을 사용",
+      "title": "Missing Blue (미싱 블루)"
+    },
+    {
+      "key": "platforms/ps2/games/missingparts-sideb-the-tantei-stories.md",
+      "source_sha": "fd39514d3b5fe491cd548edeb9b84cb537e7d338",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "MISSINGPARTS sideB the TANTEI stories",
+      "english_title": "MISSINGPARTS sideB the TANTEI stories",
+      "title_ko": "미싱 파츠 sideB 더 탐정 스토리즈 (잠정 음역 / 공식 한국어 제목 아님)",
+      "title": "MISSINGPARTS sideB the TANTEI stories (미싱 파츠 sideB 더 탐정 스토리즈)"
+    },
+    {
+      "key": "platforms/ps2/games/monochrome.md",
+      "source_sha": "71fb847bac193986f02e67a9548781332d30f620",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "モノクローム / Monochrome",
+      "english_title": "Monochrome",
+      "title_ko": "모노크롬 (잠정 음역. 공식·통용 한국어 게임 제목은 확인하지 못함)",
+      "title": "Monochrome (모노크롬)"
+    },
+    {
+      "key": "platforms/ps2/games/my-merry-may-with-be.md",
+      "source_sha": "6d29e3ed4895530dadfe58b171899ce90ddf79f0",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "My Merry May with be / マイ・メリー・メイ ウィズ ビー",
+      "english_title": "My Merry May with be",
+      "title_ko": "마이 메리 메이 위드 비 (국내 공식 한국어 게임 제목은 확인되지 않음)",
+      "title": "My Merry May with be (마이 메리 메이 위드 비)"
+    },
+    {
+      "key": "platforms/ps2/games/my-merry-may.md",
+      "source_sha": "73c2bc86bc7dcbff2edc5f680dd12acc1f55a6db",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "My Merry May / マイ・メリー・メイ",
+      "english_title": "My Merry May",
+      "title_ko": "마이 메리 메이",
+      "title": "My Merry May (마이 메리 메이)"
+    },
+    {
+      "key": "platforms/ps2/games/mystereet-yasogami-kaoru-no-jiken-file.md",
+      "source_sha": "16e1f1779b25bcb6c70e2987d12598dafa296b6a",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "ミステリート ～八十神かおるの事件ファイル～",
+      "english_title": "Mystereet: Yasogami Kaoru no Jiken File",
+      "title_ko": "미스테리트 ～야소가미 카오루의 사건 파일～",
+      "title": "Mystereet: Yasogami Kaoru no Jiken File (미스테리트 ～야소가미 카오루의 사건 파일～)"
+    },
+    {
+      "key": "platforms/ps2/games/nanatsuiro-drops-pure.md",
+      "source_sha": "11f9359d05d6ff0d1e824fc54441e79adb2115c8",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "ななついろ★ドロップス Pure!!",
+      "english_title": "Nanatsuiro Drops Pure!!",
+      "title_ko": "일곱빛깔★드롭스 Pure!!",
+      "title": "Nanatsuiro Drops Pure!! (일곱빛깔★드롭스 Pure!!)"
+    },
+    {
+      "key": "platforms/ps2/games/natsu-iro-no-sunadokei.md",
+      "source_sha": "1ea2cd0564afe58ff57e6a1a9ce845809286e047",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "夏色の砂時計",
+      "english_title": "Natsu-iro no Sunadokei",
+      "title_ko": "여름빛 모래시계",
+      "title": "Natsu-iro no Sunadokei (여름빛 모래시계)"
+    },
+    {
+      "key": "platforms/ps2/games/nettai-teikiatsu-shoujo.md",
+      "source_sha": "1200bf5ef23c0003680867ecaea4f3e52df35d39",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "熱帯低気圧少女",
+      "english_title": "Nettai Teikiatsu Shoujo",
+      "title_ko": "열대저기압소녀",
+      "title": "Nettai Teikiatsu Shoujo (열대저기압소녀)"
+    },
+    {
+      "key": "platforms/ps2/games/only-you-liber-cross.md",
+      "source_sha": "23d8f92eaad5ed74165864aa488d16f6754aad28",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "Only you リベルクルス",
+      "english_title": "Only You: Liber Cross",
+      "title_ko": "온리 유 리베르크루스. 공식 한국어 발매명으로 확인된 표기는 아님",
+      "title": "Only You: Liber Cross (온리 유 리베르크루스)"
+    },
+    {
+      "key": "platforms/ps2/games/otome-wa-boku-ni-koishiteru.md",
+      "source_sha": "fa3f60da7db395eb640f07311d7ffb2ff7f94211",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "乙女はお姉さまに恋してる",
+      "english_title": "Otome wa Boku ni Koishiteru",
+      "title_ko": "소녀는 언니를 사랑한다",
+      "title": "Otome wa Boku ni Koishiteru (소녀는 언니를 사랑한다)"
+    },
+    {
+      "key": "platforms/ps2/games/quilt-anata-to-tsumugu-yume-to-koi-no-dress.md",
+      "source_sha": "fa99b024006c7771031889ad2e270ccb30d0582e",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "きると ～貴方と紡ぐ夢と恋のドレス～",
+      "english_title": "Quilt: Anata to Tsumugu Yume to Koi no Dress",
+      "title_ko": "키루토 ～당신과 엮어가는 꿈과 사랑의 드레스～",
+      "title": "Quilt: Anata to Tsumugu Yume to Koi no Dress (키루토 ～당신과 엮어가는 꿈과 사랑의 드레스～)"
+    },
+    {
+      "key": "platforms/ps2/games/ramune-glass-bin-ni-utsuru-umi.md",
+      "source_sha": "8e5f4c8bb6874232212f3bcf6984c43756b9ef40",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "ラムネ ～ガラスびんに映る海～",
+      "english_title": "Ramune: Glass Bin ni Utsuru Umi",
+      "title_ko": "라무네 ～유리병에 비치는 바다～",
+      "title": "Ramune: Glass Bin ni Utsuru Umi (라무네 ～유리병에 비치는 바다～)"
+    },
+    {
+      "key": "platforms/ps2/games/remember11-the-age-of-infinity.md",
+      "source_sha": "d46a20124d9e376c0717d9f24006619e45003b1b",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "Remember11 -the age of infinity-",
+      "english_title": "Remember11 -the age of infinity-",
+      "title_ko": "리멤버11 -the age of infinity- *(공식 한국어 제목 아님. 국내에서 리멤버11 음역 사용 확인)*",
+      "title": "Remember11 -the age of infinity- (리멤버11 -the age of infinity-)"
+    },
+    {
+      "key": "platforms/ps2/games/roommate-asami-okusama-wa-joshikousei.md",
+      "source_sha": "0954549d0f0a4043b6108e0313cde0dbeb46326c",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "ルームメイト・麻美 －おくさまは女子高生－",
+      "english_title": "Roommate Asami: Okusama wa Joshikousei",
+      "title_ko": "룸메이트 아사미 ～아내는 여고생～",
+      "title": "Roommate Asami: Okusama wa Joshikousei (룸메이트 아사미 ～아내는 여고생～)"
+    },
+    {
+      "key": "platforms/ps2/games/routes-pe.md",
+      "source_sha": "0d55027a7d62909e0c8b140e2f8e394903f7be43",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "Routes PE / ルーツ PE",
+      "english_title": "Routes PE",
+      "title_ko": "루츠 PE",
+      "title": "Routes PE (루츠 PE)"
+    },
+    {
+      "key": "platforms/ps2/games/rune-princess.md",
+      "source_sha": "6b933013b37471d9ffe049a33c4b28765b9a9242",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "ルーンプリンセス",
+      "english_title": "Rune Princess",
+      "title_ko": "룬 프린세스",
+      "title": "Rune Princess (룬 프린세스)"
+    },
+    {
+      "key": "platforms/ps2/games/sacred-blaze.md",
+      "source_sha": "1deadb0d311cc8af2181833c156e522aee1b1be1",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "SACRED BLAZE（セイクリッドブレイズ）",
+      "english_title": "Sacred Blaze",
+      "title_ko": "세이크리드 블레이즈",
+      "title": "Sacred Blaze (세이크리드 블레이즈)"
+    },
+    {
+      "key": "platforms/ps2/games/sanyo-pachinko-paradise-9-shin-umi-okawari.md",
+      "source_sha": "9b43de3e80d09c7e4417627f24e20428962157c7",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "三洋パチンコパラダイス9 ～新海おかわりっ!～",
+      "english_title": "Sanyo Pachinko Paradise 9: Shin Umi Okawari!",
+      "title_ko": "산요 파칭코 파라다이스 9 ～신 우미 오카와리!～. 공식 한국어 제목은 확인되지 않아 원제와 해외 DB 표기를 바탕으로 한 잠정 음역",
+      "title": "Sanyo Pachinko Paradise 9: Shin Umi Okawari! (산요 파칭코 파라다이스 9 ～신 우미 오카와리!～)"
+    },
+    {
+      "key": "platforms/ps2/games/scarlett-nichijou-no-kyoukaisen.md",
+      "source_sha": "fa9e540613293372e68ccc1270b2eabc6b2a0da7",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "スカーレット ～日常の境界線～",
+      "english_title": "Scarlett: Nichijou no Kyoukaisen",
+      "title_ko": "스칼렛 ～일상의 경계선～",
+      "title": "Scarlett: Nichijou no Kyoukaisen (스칼렛 ～일상의 경계선～)"
+    },
+    {
+      "key": "platforms/ps2/games/school-rumble-ni-gakki.md",
+      "source_sha": "afce0e6e7d37bdd37f8cfbbcea79cc9b57f6bb08",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "スクールランブル二学期 恐怖の（？）夏合宿！洋館に幽霊現る！？お宝を巡って真っ向勝負！！！の巻",
+      "english_title": "School Rumble Ni-Gakki",
+      "title_ko": "스쿨럼블 2학기 ～공포의(?) 여름 합숙! 서양관에 유령 출현!? 보물을 둘러싼 정면승부!!!의 권～ (부제는 설명용 번역 / 공식 한국어 게임 제목 아님)",
+      "title": "School Rumble Ni-Gakki (스쿨럼블 2학기)"
+    },
+    {
+      "key": "platforms/ps2/games/secret-game-killer-queen.md",
+      "source_sha": "8e07c0a08d5f6e70763bb1aca7fb98e610415df1",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "シークレットゲーム -KILLER QUEEN-",
+      "english_title": "Secret Game -KILLER QUEEN-",
+      "title_ko": "시크릿 게임 -킬러 퀸-",
+      "title": "Secret Game -KILLER QUEEN- (시크릿 게임 -킬러 퀸-)"
+    },
+    {
+      "key": "platforms/ps2/games/sekai-no-subete-two-of-us.md",
+      "source_sha": "f5f3156d04b6dcd129c27c739626bb1822d66386",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "世界ノ全テ ～two of us～",
+      "english_title": "Sekai no Subete: Two of Us",
+      "title_ko": "세계의 전부 ～two of us～",
+      "title": "Sekai no Subete: Two of Us (세계의 전부 ～two of us～)"
+    },
+    {
+      "key": "platforms/ps2/games/shikigami-no-shiro-nanayozuki-gensoukyoku.md",
+      "source_sha": "f2b281a6bbb7ecd64f76b546a8a3201a99e895f1",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "式神の城 七夜月幻想曲",
+      "english_title": "Shikigami no Shiro: Nanayozuki Gensoukyoku",
+      "title_ko": "식신의 성 칠야월환상곡. 국내 사용례가 있는 표기이며 공식 한국어 발매명은 확인하지 못함",
+      "title": "Shikigami no Shiro: Nanayozuki Gensoukyoku (식신의 성 칠야월환상곡)"
+    },
+    {
+      "key": "platforms/ps2/games/shin-koihime-musou-otome-ryouran-sangokushi-engi.md",
+      "source_sha": "d0c310976464892c885c8de9b69c000d5ab6703b",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "真・恋姫†夢想 ～乙女繚乱☆三国志演義～",
+      "english_title": "Shin Koihime Musou: Otome Ryouran Sangokushi Engi",
+      "title_ko": "진 연희몽상 ～을녀요란☆삼국지연의～",
+      "title": "Shin Koihime Musou: Otome Ryouran Sangokushi Engi (진 연희몽상 ～을녀요란☆삼국지연의～)"
+    },
+    {
+      "key": "platforms/ps2/games/shirogane-no-soleil-contract-to-the-future.md",
+      "source_sha": "70fa94e2f6f529d2a1bce2d00e083c9f9f2f742e",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "白銀のソレイユ -Contract to the Future- 未来への契約",
+      "english_title": "Shirogane no Soleil: Contract to the Future",
+      "title_ko": "백은의 솔레이유 -Contract to the Future- 미래로의 계약",
+      "title": "Shirogane no Soleil: Contract to the Future (백은의 솔레이유 -Contract to the Future- 미래로의 계약)"
+    },
+    {
+      "key": "platforms/ps2/games/shoujo-yoshitsune-den-ni-toki-o-koeru-chigiri.md",
+      "source_sha": "0d1010bc5a02a908716de310f2247d239c64faad",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "少女義経伝・弐 ～刻を超える契り～",
+      "english_title": "Shoujo Yoshitsune-den Ni: Toki o Koeru Chigiri",
+      "title_ko": "소녀 요시츠네전·이 ～시간을 초월한 인연～",
+      "title": "Shoujo Yoshitsune-den Ni: Toki o Koeru Chigiri (소녀 요시츠네전·이 ～시간을 초월한 인연～)"
+    },
+    {
+      "key": "platforms/ps2/games/shuffle-on-the-stage.md",
+      "source_sha": "824a03333e0969c7885ff586545c0b9aa5683744",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "シャッフル! オン・ザ・ステージ",
+      "english_title": "SHUFFLE! On the Stage",
+      "title_ko": "셔플! 온 더 스테이지",
+      "title": "SHUFFLE! On the Stage (셔플! 온 더 스테이지)"
+    },
+    {
+      "key": "platforms/ps2/games/sorairo-no-organ-remix.md",
+      "source_sha": "9106b3ef0f8649e8493ea27b4d7eda42aa688e94",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "空色の風琴 ～Remix～",
+      "english_title": "Sorairo no Organ Remix",
+      "title_ko": "하늘색 풍금 ～Remix～",
+      "title": "Sorairo no Organ Remix (하늘색 풍금 ～Remix～)"
+    },
+    {
+      "key": "platforms/ps2/games/soul-link-extension.md",
+      "source_sha": "ec80d50d09e95ded9a1e3c50d2c1a34905187b61",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "Soul Link EXTENSION",
+      "english_title": "Soul Link EXTENSION",
+      "title_ko": "소울 링크 익스텐션",
+      "title": "Soul Link EXTENSION (소울 링크 익스텐션)"
+    },
+    {
+      "key": "platforms/ps2/games/strawberry-panic-girls-school-in-fullbloom.md",
+      "source_sha": "92a407221d6fd64e7e69b165c772411efca0ee69",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "Strawberry Panic! GIRLS' SCHOOL IN FULLBLOOM / ストロベリー・パニック！",
+      "english_title": "Strawberry Panic! Girls' School in Fullbloom",
+      "title_ko": "스트로베리 패닉! ～Girls' School in Fullbloom～ (작품명 스트로베리 패닉!은 국내 통용 표기 / 부제는 원문 병기)",
+      "title": "Strawberry Panic! Girls' School in Fullbloom (스트로베리 패닉! ～Girls' School in Fullbloom～)"
+    },
+    {
+      "key": "platforms/ps2/games/suzunone-seven-rebirth-knot.md",
+      "source_sha": "5426e2f3145a11ef64354877b9388f00cd853393",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "スズノネセブン！ ～Rebirth knot～",
+      "english_title": "Suzunone Seven! Rebirth Knot",
+      "title_ko": "스즈노네 세븐! ～Rebirth knot～. 국내에서 스즈노네 세븐 표기가 사용되지만 PS2판의 공식 한국어 제목은 확인되지 않음",
+      "title": "Suzunone Seven! Rebirth Knot (스즈노네 세븐! ～Rebirth knot～)"
+    },
+    {
+      "key": "platforms/ps2/games/toheart.md",
+      "source_sha": "392be1eb4448a57b98efd006cc565c0c92f2ad2e",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "ToHeart / トゥハート",
+      "english_title": "ToHeart",
+      "title_ko": "투하트 (국내 통용 표기 / 게임 공식 한국어판 제목은 확인되지 않음)",
+      "title": "ToHeart (투하트)"
+    },
+    {
+      "key": "platforms/ps2/games/w-wish.md",
+      "source_sha": "81d4899bd3425d4898fd97eea905fa095daef400",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "W ～ウィッシュ～",
+      "english_title": "W: Wish",
+      "title_ko": "W ～위시～ (통상적으로 더블 위시라고 읽음)",
+      "title": "W: Wish (W ～위시～ / 더블 위시)"
+    },
+    {
+      "key": "platforms/ps2/games/wind-a-breath-of-heart.md",
+      "source_sha": "499de24e61fd358391daf597d1af6399b6e959af",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "Wind -a breath of heart-",
+      "english_title": "Wind -a breath of heart-",
+      "title_ko": "윈드 -a breath of heart-",
+      "title": "Wind -a breath of heart- (윈드 -a breath of heart-)"
+    },
+    {
+      "key": "platforms/ps2/games/wizardry-xth-2-mugen-no-gakuto.md",
+      "source_sha": "822ede2b6c3ea814cfcd82a10f451ecf83a3b88a",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "ウィザードリィエクス2 ～無限の学徒～",
+      "english_title": "Wizardry Xth 2: Mugen no Gakuto",
+      "title_ko": "위저드리 엑스 2 ～무한의 학도～",
+      "title": "Wizardry Xth 2: Mugen no Gakuto (위저드리 엑스 2 ～무한의 학도～)"
+    },
+    {
+      "key": "platforms/ps2/games/yatohime-zankikou-tsurugi-no-maki.md",
+      "source_sha": "2d0c8d91a0f34e3010068ae44acd435e83c51c1a",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "夜刀姫斬鬼行 -剣の巻-",
+      "english_title": "Yatohime Zankikou: Tsurugi no Maki",
+      "title_ko": "야도희참귀행 -검의 권-",
+      "title": "Yatohime Zankikou: Tsurugi no Maki (야도희참귀행 -검의 권-)"
+    },
+    {
+      "key": "platforms/ps2/games/yoake-mae-yori-ruriiro-na-brighter-than-dawning-blue.md",
+      "source_sha": "d96b6f1ed5f5bc014a936d03bbd3774d6210654a",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "夜明け前より瑠璃色な -Brighter than dawning blue-",
+      "english_title": "Yoake Mae yori Ruriiro na: Brighter than Dawning Blue",
+      "title_ko": "새벽녘보다 유리색인 ～Brighter than dawning blue～",
+      "title": "Yoake Mae yori Ruriiro na: Brighter than Dawning Blue (새벽녘보다 유리색인 ～Brighter than dawning blue～)"
+    },
+    {
+      "key": "platforms/ps3/games/acceleration-of-suguri-x-edition.md",
+      "source_sha": "142c91af495901ede3425614dba5e4e5295e389b",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "Acceleration of SUGURI X-Edition / アクセラレーション オブ スグリ X-Edition",
+      "english_title": "Acceleration of SUGURI X-Edition",
+      "title_ko": "액셀러레이션 오브 스구리 X-Edition",
+      "title": "Acceleration of SUGURI X-Edition (액셀러레이션 오브 스구리 X-Edition)"
+    },
+    {
+      "key": "platforms/ps3/games/aquapazza-aquaplus-dream-match.md",
+      "source_sha": "58a5e70559bf34347bcdad7910135b3bad373fd0",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "AQUAPAZZA -AQUAPLUS DREAM MATCH- / アクアパッツァ -アクアプラス ドリーム マッチ-",
+      "english_title": "AquaPazza: AquaPlus Dream Match",
+      "title_ko": "아쿠아파짜 -아쿠아플러스 드림 매치-",
+      "title": "AquaPazza: AquaPlus Dream Match (아쿠아파짜 -아쿠아플러스 드림 매치-)"
+    },
+    {
+      "key": "platforms/ps3/games/ar-tonelico-qoga-knell-of-ar-ciel.md",
+      "source_sha": "1943230c730bd6334b9661c46fc299756cc675fa",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "アルトネリコ3 世界終焉の引鉄は少女の詩が弾く",
+      "english_title": "Ar tonelico Qoga: Knell of Ar Ciel",
+      "title_ko": "알 토네리코 3: 세계종언의 방아쇠는 소녀의 노래가 당긴다",
+      "title": "Ar tonelico Qoga: Knell of Ar Ciel (알 토네리코 3: 세계종언의 방아쇠는 소녀의 노래가 당긴다)"
+    },
+    {
+      "key": "platforms/ps3/games/arcana-heart-3-love-max.md",
+      "source_sha": "7ca4a9af47d64a3b9b1a4bea423c8aa1fb334a88",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "アルカナハート3 LOVE MAX!!!!!",
+      "english_title": "Arcana Heart 3: LOVE MAX!!!!!",
+      "title_ko": "아르카나 하트 3 LOVE MAX!!!!!",
+      "title": "Arcana Heart 3: LOVE MAX!!!!! (아르카나 하트 3 LOVE MAX!!!!!)"
+    },
+    {
+      "key": "platforms/ps3/games/arslan-the-warriors-of-legend.md",
+      "source_sha": "3473a4026b25bd509d71a9ba3ecd87baf601cc78",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "アルスラーン戦記×無双",
+      "english_title": "Arslan: The Warriors of Legend",
+      "title_ko": "아르슬란 전기×무쌍",
+      "title": "Arslan: The Warriors of Legend (아르슬란 전기×무쌍)"
+    },
+    {
+      "key": "platforms/ps3/games/battle-fantasia.md",
+      "source_sha": "08468f2beeafea3d4f8c2ba779328ca517db5609",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "バトルファンタジア",
+      "english_title": "Battle Fantasia",
+      "title_ko": "배틀 판타지아",
+      "title": "Battle Fantasia (배틀 판타지아)"
+    },
+    {
+      "key": "platforms/ps3/games/battle-princess-of-arcadias.md",
+      "source_sha": "63f3efd25ec581592c493a6072fc74d96bd47122",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "アルカディアスの戦姫",
+      "english_title": "Battle Princess of Arcadias",
+      "title_ko": "아르카디아스의 전희",
+      "title": "Battle Princess of Arcadias (아르카디아스의 전희)"
+    },
+    {
+      "key": "platforms/ps3/games/class-of-heroes-2g.md",
+      "source_sha": "d57d48f9743531819a1de1d90a99d7a7685c3142",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "剣と魔法と学園モノ。2G",
+      "english_title": "Class of Heroes 2G",
+      "title_ko": "검과 마법과 학원물 2G",
+      "title": "Class of Heroes 2G (검과 마법과 학원물 2G)"
+    },
+    {
+      "key": "platforms/ps3/games/deception-iv-blood-ties.md",
+      "source_sha": "959b62a9e4bfcbe1c187b4c3c8db0181d45fe12b",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "影牢 ～ダークサイド プリンセス～",
+      "english_title": "Deception IV: Blood Ties",
+      "title_ko": "영뢰: 다크사이드 프린세스",
+      "title": "Deception IV: Blood Ties (영뢰: 다크사이드 프린세스)"
+    },
+    {
+      "key": "platforms/ps3/games/dengeki-bunko-fighting-climax-ignition.md",
+      "source_sha": "b5c0226ddc18e80c220593d7f7a9ea1a99d3a736",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "電撃文庫 FIGHTING CLIMAX IGNITION",
+      "english_title": "Dengeki Bunko: Fighting Climax Ignition",
+      "title_ko": "전격문고 FIGHTING CLIMAX IGNITION",
+      "title": "Dengeki Bunko: Fighting Climax Ignition (전격문고 FIGHTING CLIMAX IGNITION)"
+    },
+    {
+      "key": "platforms/ps3/games/dengeki-bunko-fighting-climax.md",
+      "source_sha": "a56385ba829f557e11cbaf7cd98092e473477afd",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "電撃文庫 FIGHTING CLIMAX",
+      "english_title": "Dengeki Bunko: Fighting Climax",
+      "title_ko": "전격문고 FIGHTING CLIMAX",
+      "title": "Dengeki Bunko: Fighting Climax (전격문고 FIGHTING CLIMAX)"
+    },
+    {
+      "key": "platforms/ps3/games/dungeons-dragons-chronicles-of-mystara.md",
+      "source_sha": "1f66efc4b170e21555ac16af15991b646df8c9f4",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "",
+      "english_title": "Dungeons & Dragons: Chronicles of Mystara",
+      "title_ko": "던전 앤 드래곤: 크로니클 오브 미스타라 / 미스타라 영웅전기",
+      "title": "Dungeons & Dragons: Chronicles of Mystara (던전 앤 드래곤: 크로니클 오브 미스타라)"
+    },
+    {
+      "key": "platforms/ps3/games/dynasty-warriors-gundam.md",
+      "source_sha": "2778ae8c4fc557e7c9f5dfeed7bc2ea941aaa418",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "ガンダム無双",
+      "english_title": "Dynasty Warriors: Gundam",
+      "title_ko": "건담무쌍",
+      "title": "Dynasty Warriors: Gundam (건담무쌍)"
+    },
+    {
+      "key": "platforms/ps3/games/eiyuu-senki-the-world-conquest.md",
+      "source_sha": "9a8fa638534fedf0aa17fcbc6a78019812305c73",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "英雄＊戦姫",
+      "english_title": "Eiyuu Senki: The World Conquest",
+      "title_ko": "영웅전희: 더 월드 컨퀘스트",
+      "title": "Eiyuu Senki: The World Conquest (영웅전희: 더 월드 컨퀘스트)"
+    },
+    {
+      "key": "platforms/ps3/games/ex-troopers.md",
+      "source_sha": "da8be5b6d33e4238301d6062c56213ba5089b2b9",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "エクストルーパーズ",
+      "english_title": "E.X. Troopers",
+      "title_ko": "엑스 트루퍼즈",
+      "title": "E.X. Troopers (엑스 트루퍼즈)"
+    },
+    {
+      "key": "platforms/ps3/games/gekijouban-macross-f-sayonara-no-tsubasa-hybrid-pack.md",
+      "source_sha": "63732140f4bfe7a794d77a61f330b5cd7b2bcb8e",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "劇場版マクロスF〜サヨナラノツバサ〜 Hybrid Pack",
+      "english_title": "Gekijouban Macross F: Sayonara no Tsubasa - Hybrid Pack",
+      "title_ko": "극장판 마크로스 F ~작별의 날개~ Hybrid Pack",
+      "title": "Gekijouban Macross F: Sayonara no Tsubasa - Hybrid Pack (극장판 마크로스 F ~작별의 날개~ Hybrid Pack)"
+    },
+    {
+      "key": "platforms/ps3/games/hack-sekai-no-mukou-ni-versus-hybrid-pack.md",
+      "source_sha": "2567dda720fed15805d44fadf727bbd59c8d042a",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "ドットハック セカイの向こうに＋Versus Hybrid Pack",
+      "english_title": ".hack: Sekai no Mukou ni + Versus Hybrid Pack",
+      "title_ko": "닷핵 세계의 저편으로 + Versus Hybrid Pack",
+      "title": ".hack: Sekai no Mukou ni + Versus Hybrid Pack (닷핵 세계의 저편으로 + Versus Hybrid Pack)"
+    },
+    {
+      "key": "platforms/ps3/games/infinite-stratos-2-love-and-purge.md",
+      "source_sha": "6ca850a5b17f2519f59da601ae3ae123ebaca652",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "IS＜インフィニット・ストラトス＞2 ラブ アンド パージ",
+      "english_title": "Infinite Stratos 2: Love and Purge",
+      "title_ko": "인피니트 스트라토스 2 러브 앤 퍼지",
+      "title": "Infinite Stratos 2: Love and Purge (인피니트 스트라토스 2 러브 앤 퍼지)"
+    },
+    {
+      "key": "platforms/ps3/games/jojos-bizarre-adventure-eyes-of-heaven.md",
+      "source_sha": "f1381b0a36960a5253582add5b0a02956fe599a5",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "ジョジョの奇妙な冒険 アイズオブヘブン",
+      "english_title": "JoJo's Bizarre Adventure: Eyes of Heaven",
+      "title_ko": "죠죠의 기묘한 모험 아이즈 오브 헤븐",
+      "title": "JoJo's Bizarre Adventure: Eyes of Heaven (죠죠의 기묘한 모험 아이즈 오브 헤븐)"
+    },
+    {
+      "key": "platforms/ps3/games/jojos-bizarre-adventure-hd-ver.md",
+      "source_sha": "d58f69db9a3ec17e1221c50973f389499a0d37dc",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "ジョジョの奇妙な冒険 未来への遺産 HD Ver.",
+      "english_title": "JoJo's Bizarre Adventure HD Ver.",
+      "title_ko": "죠죠의 기묘한 모험 미래로의 유산 HD Ver.",
+      "title": "JoJo's Bizarre Adventure HD Ver. (죠죠의 기묘한 모험 미래로의 유산 HD Ver.)"
+    },
+    {
+      "key": "platforms/ps3/games/k-on-houkago-live-hd-ver.md",
+      "source_sha": "90d7588bb2b0edcdb8638c33aaae23b5bd8fb51e",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "けいおん！ 放課後ライブ！！ HD Ver.",
+      "english_title": "K-On! Houkago Live!! HD Ver.",
+      "title_ko": "케이온! 방과 후 라이브!! HD Ver.",
+      "title": "K-On! Houkago Live!! HD Ver. (케이온! 방과 후 라이브!! HD Ver.)"
+    },
+    {
+      "key": "platforms/ps3/games/ketsui-kizuna-jigoku-tachi-extra.md",
+      "source_sha": "d0476f653301b2554b1d0bb5f528e91bcba7c18e",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "ケツイ ～絆地獄たち～ EXTRA",
+      "english_title": "Ketsui: Kizuna Jigoku Tachi Extra",
+      "title_ko": "케츠이: 키즈나 지고쿠타치 EXTRA",
+      "title": "Ketsui: Kizuna Jigoku Tachi Extra (케츠이: 키즈나 지고쿠타치 EXTRA)"
+    },
+    {
+      "key": "platforms/ps3/games/kidou-senshi-gundam-extreme-vs-full-boost.md",
+      "source_sha": "e50d7bc3da13b28614b3a11b9950931bd156aabd",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "機動戦士ガンダム エクストリームバーサス フルブースト",
+      "english_title": "Kidou Senshi Gundam: Extreme VS Full Boost",
+      "title_ko": "기동전사 건담 익스트림 버서스 풀부스트",
+      "title": "Kidou Senshi Gundam: Extreme VS Full Boost (기동전사 건담 익스트림 버서스 풀부스트)"
+    },
+    {
+      "key": "platforms/ps3/games/koihime-enbu.md",
+      "source_sha": "40229de8fc8854c7342d797e02987eb8983eefdc",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "恋姫†演武",
+      "english_title": "Koihime Enbu",
+      "title_ko": "연희연무",
+      "title": "Koihime Enbu (연희연무)"
+    },
+    {
+      "key": "platforms/ps3/games/legasista.md",
+      "source_sha": "d2276432bedc77606a42e326f878fbcbaeb7a14c",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "迷宮塔路レガシスタ",
+      "english_title": "Legasista",
+      "title_ko": "레가시스타",
+      "title": "Legasista (레가시스타)"
+    },
+    {
+      "key": "platforms/ps3/games/macross-30-ginga-o-tsunagu-utagoe.md",
+      "source_sha": "a07cbf83cca01b6788bec2f0fdf83b1724ed1bbc",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "マクロス30 銀河を繋ぐ歌声",
+      "english_title": "Macross 30: Ginga o Tsunagu Utagoe",
+      "title_ko": "마크로스 30: 은하를 잇는 노랫소리",
+      "title": "Macross 30: Ginga o Tsunagu Utagoe (마크로스 30: 은하를 잇는 노랫소리)"
+    },
+    {
+      "key": "platforms/ps3/games/maji-de-watashi-ni-koi-shinasai-r.md",
+      "source_sha": "c506c4376e90e2778eb99b5e459556f7f1f4c3fa",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "真剣で私に恋しなさい！R",
+      "english_title": "Maji de Watashi ni Koi Shinasai! R",
+      "title_ko": "진심으로 날 사랑해라! R / 국내에서는 마지코이 R로도 통용",
+      "title": "Maji de Watashi ni Koi Shinasai! R (진심으로 날 사랑해라! R)"
+    },
+    {
+      "key": "platforms/ps3/games/mobile-suit-gundam-battlefield-record-uc-0081.md",
+      "source_sha": "2243d8ab98e5d7149509859ff463e03d6dec949b",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "機動戦士ガンダム戦記 MOBILE SUIT GUNDAM BATTLEFIELD RECORD U.C.0081",
+      "english_title": "Mobile Suit Gundam: Battlefield Record U.C. 0081",
+      "title_ko": "기동전사 건담전기 Battlefield Record U.C.0081",
+      "title": "Mobile Suit Gundam: Battlefield Record U.C. 0081 (기동전사 건담전기 Battlefield Record U.C.0081)"
+    },
+    {
+      "key": "platforms/ps3/games/natsuiro-high-school-seishun-hakusho.md",
+      "source_sha": "c1d879036b452f80b8a567998346450996247b7b",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "夏色ハイスクル★青春白書 ～転校初日のオレが幼馴染と再会したら報道部員にされていて激写少年の日々はスクープ大連発でイガイとモテモテなのに何故かマイメモリーはパンツ写真ばっかりという現実と向き合いながら考えるひと夏の島の学園生活と赤裸々な恋の行方。～",
+      "english_title": "Natsuiro High School: Seishun Hakusho",
+      "title_ko": "여름색 하이스쿨★청춘백서",
+      "title": "Natsuiro High School: Seishun Hakusho (여름색 하이스쿨★청춘백서)"
+    },
+    {
+      "key": "platforms/ps3/games/nitroplus-blasterz-heroines-infinite-duel.md",
+      "source_sha": "05bbea75e61f8f03d492da7fd254423230eee670",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "ニトロプラス ブラスターズ -ヒロインズ インフィニット デュエル-",
+      "english_title": "Nitroplus Blasterz: Heroines Infinite Duel",
+      "title_ko": "니트로플러스 블래스터즈 -히로인즈 인피니트 듀얼-",
+      "title": "Nitroplus Blasterz: Heroines Infinite Duel (니트로플러스 블래스터즈 -히로인즈 인피니트 듀얼-)"
+    },
+    {
+      "key": "platforms/ps3/games/nurarihyon-no-mago-hyakki-ryouran-taisen.md",
+      "source_sha": "aac658456669200278e63c87e5d2ff4b1f94c68b",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "ぬらりひょんの孫 百鬼繚乱大戦",
+      "english_title": "Nurarihyon no Mago: Hyakki Ryouran Taisen",
+      "title_ko": "누라리횬의 손자: 백귀요란대전",
+      "title": "Nurarihyon no Mago: Hyakki Ryouran Taisen (누라리횬의 손자: 백귀요란대전)"
+    },
+    {
+      "key": "platforms/ps3/games/oretachi-ni-tsubasa-wa-nai.md",
+      "source_sha": "6ac0a10923f76e35aeefd905881ecba496eaf664",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "俺たちに翼はない",
+      "english_title": "Oretachi ni Tsubasa wa Nai",
+      "title_ko": "우리들에게 날개는 없다",
+      "title": "Oretachi ni Tsubasa wa Nai (우리들에게 날개는 없다)"
+    },
+    {
+      "key": "platforms/ps3/games/saint-seiya-soldiers-soul.md",
+      "source_sha": "5d18938ad85b4eb8a4d59acf8de8aa9c0622bd34",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "聖闘士星矢 ソルジャーズ・ソウル",
+      "english_title": "Saint Seiya: Soldiers' Soul",
+      "title_ko": "세인트 세이야 솔저스 소울",
+      "title": "Saint Seiya: Soldiers' Soul (세인트 세이야 솔저스 소울)"
+    },
+    {
+      "key": "platforms/ps3/games/shin-koihime-musou-otome-taisen-sangokushi-engi.md",
+      "source_sha": "098d32d5ba886f581a9ed44a62d50a88c384a652",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "真・恋姫†夢想 ～乙女対戦★三国志演義～",
+      "english_title": "Shin Koihime Musou: Otome Taisen * Sangokushi Engi",
+      "title_ko": "진 연희몽상: 소녀대전★삼국지연의",
+      "title": "Shin Koihime Musou: Otome Taisen * Sangokushi Engi (진 연희몽상: 소녀대전★삼국지연의)"
+    },
+    {
+      "key": "platforms/ps3/games/skullgirls-encore.md",
+      "source_sha": "01c1ceb6f0837aab0e53703b221491ba356559fd",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "",
+      "english_title": "Skullgirls Encore",
+      "title_ko": "스컬걸즈 앙코르",
+      "title": "Skullgirls Encore (스컬걸즈 앙코르)"
+    },
+    {
+      "key": "platforms/ps3/games/super-dimension-fortress-macross-do-you-remember-love-hybrid-pack.md",
+      "source_sha": "c49f273633c9224d897a44d3ce57dbc7ec8094f0",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "超時空要塞マクロス～愛・おぼえていますか～ Hybrid Pack",
+      "english_title": "The Super Dimension Fortress Macross: Do You Remember Love? Hybrid Pack",
+      "title_ko": "초시공요새 마크로스: 사랑, 기억하고 있습니까? Hybrid Pack",
+      "title": "The Super Dimension Fortress Macross: Do You Remember Love? Hybrid Pack (초시공요새 마크로스: 사랑, 기억하고 있습니까? Hybrid Pack)"
+    },
+    {
+      "key": "platforms/ps3/games/the-awakened-fate-ultimatum.md",
+      "source_sha": "5729de20a2b1c4e874843345fc22913ec8eb05c2",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "神様と運命覚醒のクロステーゼ",
+      "english_title": "The Awakened Fate Ultimatum",
+      "title_ko": "신과 운명각성의 크로스테제",
+      "title": "The Awakened Fate Ultimatum (신과 운명각성의 크로스테제)"
+    },
+    {
+      "key": "platforms/ps3/games/the-guided-fate-paradox.md",
+      "source_sha": "238c147dfa4ccb35052f1e2034943359eb23d40c",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "神様と運命革命のパラドクス",
+      "english_title": "The Guided Fate Paradox",
+      "title_ko": "신과 운명혁명의 패러독스",
+      "title": "The Guided Fate Paradox (신과 운명혁명의 패러독스)"
+    },
+    {
+      "key": "platforms/ps3/games/toheart2-dx-plus.md",
+      "source_sha": "0158394e59aff16ee4c35985c0d6c5acbf7e5f42",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "ToHeart2 DX PLUS",
+      "english_title": "ToHeart2 DX PLUS",
+      "title_ko": "투하트2 DX PLUS",
+      "title": "ToHeart2 DX PLUS (투하트2 DX PLUS)"
+    },
+    {
+      "key": "platforms/ps3/games/tokyo-twilight-ghost-hunters.md",
+      "source_sha": "4b810cfb8230296798a767fa87977923986f5e02",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "魔都紅色幽撃隊",
+      "english_title": "Tokyo Twilight Ghost Hunters",
+      "title_ko": "마도홍색유격대",
+      "title": "Tokyo Twilight Ghost Hunters (마도홍색유격대)"
+    },
+    {
+      "key": "platforms/ps3/games/touch-shot-love-application.md",
+      "source_sha": "8a3e6c835cf02642f08a357541f0f794a24b6608",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "たっち、しよっ！ ～Love Application～",
+      "english_title": "Touch, Shot! Love Application",
+      "title_ko": "터치, 하자! -Love Application-",
+      "title": "Touch, Shot! Love Application (터치, 하자! -Love Application-)"
+    },
+    {
+      "key": "platforms/ps3/games/wizardry-perfect-pack.md",
+      "source_sha": "9b2e37e4c300c436a5af243749134a0f71a69d3e",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "ウィザードリィ パーフェクトパック",
+      "english_title": "Wizardry Perfect Pack",
+      "title_ko": "위저드리 퍼펙트 팩",
+      "title": "Wizardry Perfect Pack (위저드리 퍼펙트 팩)"
+    },
+    {
+      "key": "platforms/ps3/games/xblaze-code-embryo.md",
+      "source_sha": "5d0ed560dae2754c40059d9315ea49553b780efa",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "XBLAZE CODE：EMBRYO / エクスブレイズ コード：エンブリオ",
+      "english_title": "XBLAZE Code: Embryo",
+      "title_ko": "엑스블레이즈 코드: 엠브리오",
+      "title": "XBLAZE Code: Embryo (엑스블레이즈 코드: 엠브리오)"
+    },
+    {
+      "key": "platforms/ps3/games/yu-gi-oh-millennium-duels.md",
+      "source_sha": "f08eaac6822a80030c0ad369de2a84471ec80efe",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "Yu-Gi-Oh! Millennium Duels",
+      "english_title": "Yu-Gi-Oh! Millennium Duels",
+      "title_ko": "유희왕 밀레니엄 듀얼즈",
+      "title": "Yu-Gi-Oh! Millennium Duels (유희왕 밀레니엄 듀얼즈)"
+    },
+    {
+      "key": "platforms/psp/games/1-2-summer-plus.md",
+      "source_sha": "ddafac87cc07610cde1965bc89d876a2a058577d",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "1/2 summer+（ワンサイド・サマー プラス）",
+      "english_title": "1/2 summer+",
+      "title_ko": "원사이드 서머 플러스",
+      "title": "1/2 summer+ (원사이드 서머 플러스)"
+    },
+    {
+      "key": "platforms/psp/games/12riven-the-psi-climinal-of-integral.md",
+      "source_sha": "04e4a279c024065e67443aed6c7ea6a05b340279",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "12RIVEN -the Ψcliminal of integral-",
+      "english_title": "12Riven: The ΨCliminal of Integral",
+      "title_ko": "12리븐: 더 사이클리미널 오브 인테그랄",
+      "title": "12Riven: The ΨCliminal of Integral (12리븐: 더 사이클리미널 오브 인테그랄)"
+    },
+    {
+      "key": "platforms/psp/games/77-beyond-the-milky-way.md",
+      "source_sha": "1da1789a123039f587c634607ad98edf03b6a387",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "77: Beyond the Milky Way",
+      "title_ko": "",
+      "title": "77: Beyond the Milky Way (77: 비욘드 더 밀키 웨이)"
+    },
+    {
+      "key": "platforms/psp/games/accel-world-kasoku-no-chouten.md",
+      "source_sha": "2410016ebcffaeb5e631d31e5e293ba8bed1f979",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "アクセル・ワールド -加速の頂点-",
+      "english_title": "Accel World: Kasoku no Chouten",
+      "title_ko": "액셀 월드: 가속의 정점",
+      "title": "Accel World: Kasoku no Chouten (액셀 월드: 가속의 정점)"
+    },
+    {
+      "key": "platforms/psp/games/akatsuki-no-goei-trinity.md",
+      "source_sha": "914e1ab69295dd787f67f9bd9e4b918a297aef45",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "暁の護衛 トリニティ",
+      "english_title": "Akatsuki no Goei Trinity",
+      "title_ko": "새벽의 호위 트리니티",
+      "title": "Akatsuki no Goei Trinity (새벽의 호위 트리니티)"
+    },
+    {
+      "key": "platforms/psp/games/amatsumi-sora-ni-kumo-no-hatate-ni.md",
+      "source_sha": "a4119586ce66cdb998382840051ae99ffe680922",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "あまつみそらに！ 雲のはたてに",
+      "english_title": "Amatsumi Sora ni! Kumo no Hatate ni",
+      "title_ko": "아마츠미소라니! 구름의 끝에",
+      "title": "Amatsumi Sora ni! Kumo no Hatate ni (아마츠미소라니! 구름의 끝에)"
+    },
+    {
+      "key": "platforms/psp/games/antiphona-no-seikahime-tenshi-no-gakufu-op-a.md",
+      "source_sha": "1396e8086390038934414785810870a7340b8280",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "アンティフォナの聖歌姫 ～天使の楽譜 Op.A～",
+      "english_title": "Antiphona no Seikahime: Tenshi no Gakufu Op.A",
+      "title_ko": "안티포나의 성가희: 천사의 악보 Op.A",
+      "title": "Antiphona no Seikahime: Tenshi no Gakufu Op.A (안티포나의 성가희: 천사의 악보 Op.A)"
+    },
+    {
+      "key": "platforms/psp/games/aoi-sora-no-neosphere-portable-nanoca-flanka-hatsumei-koubouki-2.md",
+      "source_sha": "1c5028c41d961c283139fe52311a99e672f4fff5",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "蒼い空のネオスフィア ポータブル ～ナノカ・フランカ発明工房記2～",
+      "english_title": "Aoi Sora no Neosphere Portable: Nanoca Flanka Hatsumei Koubouki 2",
+      "title_ko": "푸른 하늘의 네오스피어 포터블: 나노카 프랑카 발명공방기 2",
+      "title": "Aoi Sora no Neosphere Portable: Nanoca Flanka Hatsumei Koubouki 2 (푸른 하늘의 네오스피어 포터블: 나노카 프랑카 발명공방기 2)"
+    },
+    {
+      "key": "platforms/psp/games/aoi-umi-no-tristia-portable-nanoca-flanka-hatsumei-koubouki.md",
+      "source_sha": "1979897704bce8026ec6035ae7fb1b5644e3042c",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "蒼い海のトリスティア ポータブル ～ナノカ・フランカ発明工房記～",
+      "english_title": "Aoi Umi no Tristia Portable: Nanoca Flanka Hatsumei Koubouki",
+      "title_ko": "푸른 바다의 트리스티아 포터블: 나노카 프랑카 발명공방기",
+      "title": "Aoi Umi no Tristia Portable: Nanoca Flanka Hatsumei Koubouki (푸른 바다의 트리스티아 포터블: 나노카 프랑카 발명공방기)"
+    },
+    {
+      "key": "platforms/psp/games/arcana-famiglia-2.md",
+      "source_sha": "e331cc6b08127358cfc1269e208e93245263d0f8",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "アルカナ・ファミリア2",
+      "english_title": "Arcana Famiglia 2",
+      "title_ko": "아르카나 파밀리아 2",
+      "title": "Arcana Famiglia 2 (아르카나 파밀리아 2)"
+    },
+    {
+      "key": "platforms/psp/games/arcana-famiglia-la-storia-della-arcana-famiglia.md",
+      "source_sha": "c8650593aa5fbe19e587f3befbd3745cc191fa58",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "アルカナ・ファミリア -La storia della Arcana Famiglia-",
+      "english_title": "Arcana Famiglia: La storia della Arcana Famiglia",
+      "title_ko": "아르카나 파밀리아: La storia della Arcana Famiglia",
+      "title": "Arcana Famiglia: La storia della Arcana Famiglia (아르카나 파밀리아: La storia della Arcana Famiglia)"
+    },
+    {
+      "key": "platforms/psp/games/arcana-famiglia-vascello-phantasma-no-majutsushi.md",
+      "source_sha": "f95b0e1aab8c5707ec9de7c78c569da280a9aec0",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "アルカナ・ファミリア -幽霊船の魔術師-",
+      "english_title": "Arcana Famiglia: Vascello Phantasma no Majutsushi",
+      "title_ko": "아르카나 파밀리아 유령선의 마술사",
+      "title": "Arcana Famiglia: Vascello Phantasma no Majutsushi (아르카나 파밀리아 유령선의 마술사)"
+    },
+    {
+      "key": "platforms/psp/games/armen-noir-portable.md",
+      "source_sha": "476347a8d1eddf5b96e093c0128ecfa10041cc20",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "アーメン・ノワール ポータブル",
+      "english_title": "ARMEN NOIR portable",
+      "title_ko": "아멘 느와르 포터블",
+      "title": "ARMEN NOIR portable (아멘 느와르 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/ayakashibito-genyou-ibunroku-portable.md",
+      "source_sha": "27ae7392b49ed8d9ac015064a13f3527b61a27cf",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "あやかしびと -幻妖異聞録- PORTABLE",
+      "english_title": "Ayakashibito: Genyou Ibunroku Portable",
+      "title_ko": "아야카시비토 환요이문록 포터블",
+      "title": "Ayakashibito: Genyou Ibunroku Portable (아야카시비토 환요이문록 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/baka-to-test-to-shoukanjuu-portable.md",
+      "source_sha": "bc0fec323154b5755dc2f134a72f82191dfaa9d6",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "バカとテストと召喚獣 ポータブル",
+      "english_title": "Baka to Test to Shoukanjuu Portable",
+      "title_ko": "바보와 시험과 소환수 포터블",
+      "title": "Baka to Test to Shoukanjuu Portable (바보와 시험과 소환수 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/bamboo-blade-sorekara-no-chousen.md",
+      "source_sha": "86adc52544b134d7a619b8832140452a0f81bc9e",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "Bamboo Blade: Sorekara no Chousen",
+      "title_ko": "",
+      "title": "Bamboo Blade: Sorekara no Chousen (뱀부 블레이드 ~그 뒤의 도전~)"
+    },
+    {
+      "key": "platforms/psp/games/blood-the-last-vampire.md",
+      "source_sha": "e4963d7eff4480be72665f4160ad1fa91616fd95",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "やるドラ ポータブル BLOOD THE LAST VAMPIRE",
+      "english_title": "Blood: The Last Vampire",
+      "title_ko": "블러드 더 라스트 뱀파이어",
+      "title": "Blood: The Last Vampire (블러드 더 라스트 뱀파이어)"
+    },
+    {
+      "key": "platforms/psp/games/blue-roses-yousei-to-aoi-hitomi-no-senshitachi.md",
+      "source_sha": "e36b1226141c71a7ca4f592a26c313166f5e233c",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "BLUE ROSES ～妖精と青い瞳の戦士たち～",
+      "english_title": "Blue Roses: Yousei to Aoi Hitomi no Senshitachi",
+      "title_ko": "블루 로지스: 요정과 푸른 눈동자의 전사들",
+      "title": "Blue Roses: Yousei to Aoi Hitomi no Senshitachi (블루 로지스: 요정과 푸른 눈동자의 전사들)"
+    },
+    {
+      "key": "platforms/psp/games/boku-wa-kimi-dake-o-mitsumeru.md",
+      "source_sha": "1a978144b761ccb9c6690cd293850905bcf735ea",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "僕はキミだけを見つめる ～I gaze at only you～",
+      "english_title": "Boku wa Kimi Dake o Mitsumeru: I Gaze at Only You",
+      "title_ko": "나는 너만을 바라본다 ~I gaze at only you~",
+      "title": "Boku wa Kimi Dake o Mitsumeru: I Gaze at Only You (나는 너만을 바라본다)"
+    },
+    {
+      "key": "platforms/psp/games/boku-wa-tomodachi-ga-sukunai-portable.md",
+      "source_sha": "2ea7ca926b0931ae3253a777fb947a4a972cc6ab",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "僕は友達が少ない ぽーたぶる",
+      "english_title": "Boku wa Tomodachi ga Sukunai Portable",
+      "title_ko": "나는 친구가 적다 포터블",
+      "title": "Boku wa Tomodachi ga Sukunai Portable (나는 친구가 적다 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/bullet-butlers-juudan-no-kanata.md",
+      "source_sha": "80c4fbf85def9ca7e1321cb6dea4a121ebf57c8d",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "Bullet Butlers（バレットバトラーズ） -銃弾の彼方-",
+      "english_title": "Bullet Butlers: Juudan no Kanata",
+      "title_ko": "불릿 버틀러스 ～총탄의 저편～",
+      "title": "Bullet Butlers: Juudan no Kanata (불릿 버틀러스 ～총탄의 저편～)"
+    },
+    {
+      "key": "platforms/psp/games/busou-shinki-battle-masters.md",
+      "source_sha": "c5a728ac72e6ecfaee9134c993371ed1f60e8331",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "武装神姫BATTLE MASTERS",
+      "english_title": "Busou Shinki Battle Masters",
+      "title_ko": "무장신희 배틀 마스터즈",
+      "title": "Busou Shinki Battle Masters (무장신희 배틀 마스터즈)"
+    },
+    {
+      "key": "platforms/psp/games/canvas-3-nanairo-no-kiseki.md",
+      "source_sha": "8ebc2e1cfc6b094f7e403cb4027ba1bec1cd927b",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "Canvas 3: Nanairo no Kiseki",
+      "title_ko": "",
+      "title": "Canvas 3: Nanairo no Kiseki (캔버스3 ～칠색의 기적～)"
+    },
+    {
+      "key": "platforms/psp/games/chaos-head-love-chu-chu.md",
+      "source_sha": "a5184165e954eb942aa96c558ed454256fa138af",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "CHAOS;HEAD らぶChu☆Chu!",
+      "english_title": "CHAOS;HEAD Love Chu☆Chu!",
+      "title_ko": "카오스;헤드 러브 츄☆츄!",
+      "title": "CHAOS;HEAD Love Chu☆Chu! (카오스;헤드 러브 츄☆츄!)"
+    },
+    {
+      "key": "platforms/psp/games/chuumon-shiyouze-oretachi-no-sekai.md",
+      "source_sha": "d7ae3fbfb7949687bfd3e824eda3d36e67f0ef36",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "Chuumon Shiyouze! Oretachi no Sekai / Adventures to Go!",
+      "title_ko": "",
+      "title": "Chuumon Shiyouze! Oretachi no Sekai / Adventures to Go! (주문하자! 우리들의 세계)"
+    },
+    {
+      "key": "platforms/psp/games/class-of-heroes-2.md",
+      "source_sha": "c6ee47b2673f3641011ed588ed5e4c2c237c8519",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "剣と魔法と学園モノ。2",
+      "english_title": "Class of Heroes 2",
+      "title_ko": "검과 마법과 학원물 2",
+      "title": "Class of Heroes 2 (검과 마법과 학원물 2)"
+    },
+    {
+      "key": "platforms/psp/games/class-of-heroes.md",
+      "source_sha": "59071d4311a8f07a019a15b33518127d2b7814e7",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "剣と魔法と学園モノ。",
+      "english_title": "Class of Heroes",
+      "title_ko": "검과 마법과 학원물",
+      "title": "Class of Heroes (검과 마법과 학원물)"
+    },
+    {
+      "key": "platforms/psp/games/clock-zero-shuuen-no-ichibyou-portable.md",
+      "source_sha": "b7e56c3105df551f1edd024bd7623b5cca127a31",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "CLOCK ZERO ～終焉の一秒～ Portable",
+      "english_title": "Clock Zero: Shuuen no Ichibyou Portable",
+      "title_ko": "CLOCK ZERO ~종언의 1초~ Portable",
+      "title": "Clock Zero: Shuuen no Ichibyou Portable (CLOCK ZERO ~종언의 1초~ Portable)"
+    },
+    {
+      "key": "platforms/psp/games/comic-party-portable.md",
+      "source_sha": "0127239294cccf297cb8e584bd79b6b57ec735b5",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "こみっくパーティー PORTABLE",
+      "english_title": "Comic Party Portable",
+      "title_ko": "코믹파티 포터블",
+      "title": "Comic Party Portable (코믹파티 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/daiya-no-kuni-no-alice-wonderful-wonder-world.md",
+      "source_sha": "eedd054f56a20e4ab7194882728d3b7d2c3dcff2",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "ダイヤの国のアリス ～Wonderful Wonder World～",
+      "english_title": "Daiya no Kuni no Alice: Wonderful Wonder World",
+      "title_ko": "다이아 나라의 앨리스 ~Wonderful Wonder World~",
+      "title": "Daiya no Kuni no Alice: Wonderful Wonder World (다이아 나라의 앨리스 ~Wonderful Wonder World~)"
+    },
+    {
+      "key": "platforms/psp/games/dc-i-and-ii-psp-da-capo-i-and-ii-plus-situation-portable.md",
+      "source_sha": "33b7a4e7d55e67cd38605a15b610aff3e2e22782",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "D.C.I＆II P.S.P. ～ダ・カーポI＆II～ プラスシチュエーション ポータブル",
+      "english_title": "D.C. I & II P.S.P.: Da Capo I & II Plus Situation Portable",
+      "title_ko": "D.C. I & II P.S.P.: 다카포 I & II 플러스 시추에이션 포터블",
+      "title": "D.C. I & II P.S.P.: Da Capo I & II Plus Situation Portable (D.C. I & II P.S.P.: 다카포 I & II 플러스 시추에이션 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/dc-iii-plus-da-capo-iii.md",
+      "source_sha": "417ac6c334b99e73c868a1ca20ec0016c3041b0a",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "D.C.III Plus ～ダ・カーポIII～プラス",
+      "english_title": "D.C.III Plus ~Da Capo III~",
+      "title_ko": "D.C.III Plus ~다 카포 III~",
+      "title": "D.C.III Plus ~Da Capo III~ (D.C.III Plus ~다 카포 III~)"
+    },
+    {
+      "key": "platforms/psp/games/dead-end-orchestral-manoeuvres-in-the-dead-end.md",
+      "source_sha": "8d8275592e359c155c73a79374cd35215d79211a",
+      "platform": "PLAYSTATION PORTABLE (PSP)",
+      "product_id": "",
+      "original": "デッドエンド Orchestral Manoeuvres in the Dead End",
+      "english_title": "Dead End: Orchestral Manoeuvres in the Dead End",
+      "title_ko": "데드엔드: Orchestral Manoeuvres in the Dead End",
+      "title": "Dead End: Orchestral Manoeuvres in the Dead End (데드엔드: Orchestral Manoeuvres in the Dead End)"
+    },
+    {
+      "key": "platforms/psp/games/deardrops-distortion.md",
+      "source_sha": "f0a726f6b20040bd8243dca8fa1b534c92999517",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "DEARDROPS DISTORTION",
+      "english_title": "Deardrops Distortion",
+      "title_ko": "디어드롭스 디스토션",
+      "title": "Deardrops Distortion (디어드롭스 디스토션)"
+    },
+    {
+      "key": "platforms/psp/games/desert-kingdom-portable.md",
+      "source_sha": "a5ae5599165bf93f55a34fb0cd0f773994595ee3",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "デザート・キングダム ポータブル",
+      "english_title": "Desert Kingdom Portable",
+      "title_ko": "데저트 킹덤 포터블",
+      "title": "Desert Kingdom Portable (데저트 킹덤 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/dice-dice-fantasia.md",
+      "source_sha": "17c2e6f4111e164e917c84070f15fe18c2e60ef1",
+      "platform": "PLAYSTATION PORTABLE (PSP)",
+      "product_id": "",
+      "original": "ダイスダイス◆ファンタジア",
+      "english_title": "Dice Dice Fantasia",
+      "title_ko": "다이스 다이스 판타지아",
+      "title": "Dice Dice Fantasia (다이스 다이스 판타지아)"
+    },
+    {
+      "key": "platforms/psp/games/dies-irae-amantes-amentes.md",
+      "source_sha": "465064accfb72a07e213176abbddfefe25311d2b",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "Dies irae ～Amantes amentes～",
+      "english_title": "Dies irae ~Amantes amentes~",
+      "title_ko": "디에스 이레: 아만테스 아멘테스",
+      "title": "Dies irae ~Amantes amentes~ (디에스 이레: 아만테스 아멘테스)"
+    },
+    {
+      "key": "platforms/psp/games/dunamis15.md",
+      "source_sha": "876ea3d83bddf1872d147aa8a272fd607290d8f1",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "DUNAMIS15",
+      "english_title": "DUNAMIS15",
+      "title_ko": "듀나미스15",
+      "title": "DUNAMIS15 (듀나미스15)"
+    },
+    {
+      "key": "platforms/psp/games/dungeon-travelers-2-ouritsu-toshokan-to-mamono-no-fuuin.md",
+      "source_sha": "0e733d1962e90b804faa284e485d3f2f602ebabb",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "ダンジョントラベラーズ2 王立図書館とマモノの封印",
+      "english_title": "Dungeon Travelers 2: Ouritsu Toshokan to Mamono no Fuuin",
+      "title_ko": "던전 트래블러즈 2: 왕립도서관과 마물의 봉인",
+      "title": "Dungeon Travelers 2: Ouritsu Toshokan to Mamono no Fuuin (던전 트래블러즈 2: 왕립도서관과 마물의 봉인)"
+    },
+    {
+      "key": "platforms/psp/games/durarara-3way-standoff-alley.md",
+      "source_sha": "923e986de7196d2caa6f9994bb1b444a35a6022a",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "デュラララ!! 3way standoff -alley-",
+      "english_title": "Durarara!! 3way Standoff -alley-",
+      "title_ko": "듀라라라!! 3way standoff -alley-",
+      "title": "Durarara!! 3way Standoff -alley- (듀라라라!! 3way standoff -alley-)"
+    },
+    {
+      "key": "platforms/psp/games/eien-no-aselia-kono-daichi-no-hate-de.md",
+      "source_sha": "3bf4461c95db3d752deb24daebf7e0c7605267f8",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "永遠のアセリア -この大地の果てで-",
+      "english_title": "Eien no Aseria: Kono Daichi no Hate de",
+      "title_ko": "영원의 아세리아: 이 대지의 끝에서",
+      "title": "Eien no Aseria: Kono Daichi no Hate de (영원의 아세리아: 이 대지의 끝에서)"
+    },
+    {
+      "key": "platforms/psp/games/flowers-le-volume-sur-ete.md",
+      "source_sha": "70b100ab5a38635e222b4ad541212b5bcb74f498",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "FLOWERS -Le volume sur été- / FLOWERS 夏篇",
+      "english_title": "Flowers: Le Volume sur Été",
+      "title_ko": "플라워즈 -여름편-",
+      "title": "Flowers: Le Volume sur Été (플라워즈 -여름편-)"
+    },
+    {
+      "key": "platforms/psp/games/flowers-le-volume-sur-printemps.md",
+      "source_sha": "4f6e2226481602530eade1ba8681db0615e10fa9",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "FLOWERS -Le volume sur printemps- / FLOWERS 春篇",
+      "english_title": "Flowers: Le Volume sur Printemps",
+      "title_ko": "플라워즈 -봄편-",
+      "title": "Flowers: Le Volume sur Printemps (플라워즈 -봄편-)"
+    },
+    {
+      "key": "platforms/psp/games/gaku-ou-the-royal-seven-stars-plus-meteor.md",
+      "source_sha": "0b458fe73c6610f246866d18727901706f7b95f0",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "Gaku Ou: The Royal Seven Stars + Meteor",
+      "title_ko": "",
+      "title": "Gaku Ou: The Royal Seven Stars + Meteor (학☆왕 -THE ROYAL SEVEN STARS- +METEOR)"
+    },
+    {
+      "key": "platforms/psp/games/gakuen-k-wonderful-school-days.md",
+      "source_sha": "238fcd992b53a0a31b004a7dc2202cf120fc496a",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "Gakuen K: Wonderful School Days",
+      "title_ko": "",
+      "title": "Gakuen K: Wonderful School Days (학원 K -Wonderful School Days-)"
+    },
+    {
+      "key": "platforms/psp/games/gallery-fake.md",
+      "source_sha": "b5b5581f4c02ce2cf221dab8ae9f488f2fd09a16",
+      "platform": "PLAYSTATION PORTABLE (PSP)",
+      "product_id": "",
+      "original": "ギャラリーフェイク",
+      "english_title": "Gallery Fake",
+      "title_ko": "갤러리 페이크",
+      "title": "Gallery Fake (갤러리 페이크)"
+    },
+    {
+      "key": "platforms/psp/games/game-demo-papa-no-iukoto-o-kikinasai.md",
+      "source_sha": "7caf4ac883947f8849e74fbbbe3965e88ed58a8b",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "ゲームでも、パパのいうことを聞きなさい！",
+      "english_title": "Game demo, Papa no Iukoto o Kikinasai!",
+      "title_ko": "게임에서도, 아빠 말 좀 들어라!",
+      "title": "Game demo, Papa no Iukoto o Kikinasai! (게임에서도, 아빠 말 좀 들어라!)"
+    },
+    {
+      "key": "platforms/psp/games/hana-to-otome-ni-shukufuku-o-harukaze-no-okurimono-portable.md",
+      "source_sha": "e93ea0efd16b22203537dab1255c49e90b940df8",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "花と乙女に祝福を -春風の贈り物- portable",
+      "english_title": "Hana to Otome ni Shukufuku o – Harukaze no Okurimono Portable",
+      "title_ko": "꽃과 소녀에게 축복을 ~봄바람의 선물~ 포터블",
+      "title": "Hana to Otome ni Shukufuku o – Harukaze no Okurimono Portable (꽃과 소녀에게 축복을 ~봄바람의 선물~ 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/hayate-no-gotoku-nightmare-paradise.md",
+      "source_sha": "e514135a386fea44f66118c63d4e5f501ad7b95b",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "ハヤテのごとく!! ナイトメアパラダイス",
+      "english_title": "Hayate no Gotoku!! Nightmare Paradise",
+      "title_ko": "하야테처럼!! 나이트메어 파라다이스",
+      "title": "Hayate no Gotoku!! Nightmare Paradise (하야테처럼!! 나이트메어 파라다이스)"
+    },
+    {
+      "key": "platforms/psp/games/heart-no-kuni-no-alice-anniversary-ver-wonderful-wonder-world.md",
+      "source_sha": "6ac96ea21ae04cc87fbfbe64c3438dc19476fab9",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "ハートの国のアリス・アニバーサリーVer. ～Wonderful Wonder World～",
+      "english_title": "Heart no Kuni no Alice Anniversary Ver.: Wonderful Wonder World",
+      "title_ko": "하트 나라의 앨리스 ~애니버서리 Ver.~",
+      "title": "Heart no Kuni no Alice Anniversary Ver.: Wonderful Wonder World (하트 나라의 앨리스 ~애니버서리 Ver.~)"
+    },
+    {
+      "key": "platforms/psp/games/himawari-no-kyoukai-to-nagai-natsuyasumi-extra-vacation.md",
+      "source_sha": "a2ab80f38a997ddb3c79ef4c7353ea9f366aae06",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "向日葵の教会と長い夏休み -extra vacation-",
+      "english_title": "Himawari no Kyoukai to Nagai Natsuyasumi: Extra Vacation",
+      "title_ko": "해바라기의 교회와 긴 여름방학 -extra vacation-",
+      "title": "Himawari no Kyoukai to Nagai Natsuyasumi: Extra Vacation (해바라기의 교회와 긴 여름방학 -extra vacation-)"
+    },
+    {
+      "key": "platforms/psp/games/himawari-pebble-in-the-sky-portable.md",
+      "source_sha": "d0b8d597e67cad04c1c20bbbf747b0ce2f5f2256",
+      "platform": "PLAYSTATION PORTABLE (PSP)",
+      "product_id": "",
+      "original": "ひまわり -Pebble in the Sky- Portable",
+      "english_title": "Himawari: Pebble in the Sky Portable",
+      "title_ko": "히마와리 -Pebble in the Sky- Portable",
+      "title": "Himawari: Pebble in the Sky Portable (히마와리 -Pebble in the Sky- Portable)"
+    },
+    {
+      "key": "platforms/psp/games/hoshigari-empusa-portable.md",
+      "source_sha": "fe876fda472126f4470ae5cd6f9c654e33040034",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "ほしがりエンプーサ portable",
+      "english_title": "Hoshigari Empusa Portable",
+      "title_ko": "호시가리 엠푸사 포터블",
+      "title": "Hoshigari Empusa Portable (호시가리 엠푸사 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/hoshizora-planet-one-small-step-for.md",
+      "source_sha": "b3269d11e777d3ffa0f5e9b843d6246f24d98626",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "星空☆ぷらねっと one small step for...",
+      "english_title": "Hoshizora Planet: One Small Step For...",
+      "title_ko": "호시조라 플래닛: 원 스몰 스텝 포…",
+      "title": "Hoshizora Planet: One Small Step For... (호시조라 플래닛: 원 스몰 스텝 포…)"
+    },
+    {
+      "key": "platforms/psp/games/ikki-tousen-xross-impact.md",
+      "source_sha": "49d63b2a2f4267685144a79cc096002eeebd5ce3",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "一騎当千 XROSS IMPACT",
+      "english_title": "Ikki Tousen: Xross Impact",
+      "title_ko": "일기당천 크로스 임팩트",
+      "title": "Ikki Tousen: Xross Impact (일기당천 크로스 임팩트)"
+    },
+    {
+      "key": "platforms/psp/games/infinite-loop-kojou-ga-miseta-yume.md",
+      "source_sha": "b63c9142a02270c176e7ca63617da828b71e00d7",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "インフィニットループ ～古城が見せた夢～",
+      "english_title": "Infinite Loop: Kojou ga Miseta Yume",
+      "title_ko": "인피니트 루프: 고성이 보여준 꿈",
+      "title": "Infinite Loop: Kojou ga Miseta Yume (인피니트 루프: 고성이 보여준 꿈)"
+    },
+    {
+      "key": "platforms/psp/games/itsuka-tenma-no-kuro-usagi-portable.md",
+      "source_sha": "23aff9675d3a014ec4455d022d714f74d5dca5db",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "Itsuka Tenma no Kuro Usagi Portable",
+      "title_ko": "",
+      "title": "Itsuka Tenma no Kuro Usagi Portable (언젠가 천마의 검은 토끼 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/juujigen-rippoutai-cipher-portable.md",
+      "source_sha": "d220e84cf3955232aa1c27e6364b02ed2dbc6ac0",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "十次元立方体サイファーPORTABLE",
+      "english_title": "Juujigen Rippoutai Cipher Portable",
+      "title_ko": "십차원 입방체 사이퍼 포터블",
+      "title": "Juujigen Rippoutai Cipher Portable (십차원 입방체 사이퍼 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/kaitou-tenshi-twin-angel-toki-to-sekai-no-meikyuu.md",
+      "source_sha": "560a54f96f977483052e7857b30f7238893a4768",
+      "platform": "PLAYSTATION PORTABLE (PSP)",
+      "product_id": "",
+      "original": "快盗天使ツインエンジェル ～時とセカイの迷宮～",
+      "english_title": "Kaitou Tenshi Twin Angel: Toki to Sekai no Meikyuu",
+      "title_ko": "쾌도천사 트윈엔젤 시간과 세계의 미궁",
+      "title": "Kaitou Tenshi Twin Angel: Toki to Sekai no Meikyuu (쾌도천사 트윈엔젤 시간과 세계의 미궁)"
+    },
+    {
+      "key": "platforms/psp/games/kanon.md",
+      "source_sha": "c9cb94e2c10219aa9052a75dbb516fcf17a81c38",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "Kanon",
+      "english_title": "Kanon",
+      "title_ko": "카논",
+      "title": "Kanon (카논)"
+    },
+    {
+      "key": "platforms/psp/games/kazoku-keikaku.md",
+      "source_sha": "a64cd3c8468a364ed9b61bea5695e42618c05135",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "家族計画",
+      "english_title": "Kazoku Keikaku",
+      "title_ko": "가족계획",
+      "title": "Kazoku Keikaku (가족계획)"
+    },
+    {
+      "key": "platforms/psp/games/ken-to-mahou-to-gakuen-mono-3.md",
+      "source_sha": "ce0552172f4551c5b5ab7e568f375c2dbb60e2e7",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "剣と魔法と学園モノ。3",
+      "english_title": "Ken to Mahou to Gakuen Mono. 3",
+      "title_ko": "검과 마법과 학원물 3",
+      "title": "Ken to Mahou to Gakuen Mono. 3 (검과 마법과 학원물 3)"
+    },
+    {
+      "key": "platforms/psp/games/ken-to-mahou-to-gakuen-mono-final-shinnyusei-wa-ohimesama.md",
+      "source_sha": "6ee32f73447dfbe7a2a69a4e071cc4fdb2ac68ec",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "剣と魔法と学園モノ。Final ～新入生はお姫様！～",
+      "english_title": "Ken to Mahou to Gakuen Mono. Final: Shinnyusei wa Ohimesama!",
+      "title_ko": "검과 마법과 학원물 Final: 신입생은 공주님!",
+      "title": "Ken to Mahou to Gakuen Mono. Final: Shinnyusei wa Ohimesama! (검과 마법과 학원물 Final: 신입생은 공주님!)"
+    },
+    {
+      "key": "platforms/psp/games/kimi-ga-aruji-de-shitsuji-ga-ore-de-otsukae-nikki-portable.md",
+      "source_sha": "e721310c0342f176d44454d9ee701e49d0c26ea2",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "Kimi ga Aruji de Shitsuji ga Ore de: Otsukae Nikki Portable",
+      "title_ko": "",
+      "title": "Kimi ga Aruji de Shitsuji ga Ore de: Otsukae Nikki Portable (네가 주인이고 집사가 나 ~시중 일기~ 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/kisaragi-gold-star-nonstop-go-go.md",
+      "source_sha": "97cf4fdf209fee85977961aa48c80f12cff30b94",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "キサラギGOLD★STAR -NONSTOP GO GO!!-",
+      "english_title": "Kisaragi GOLD★STAR -NONSTOP GO GO!!-",
+      "title_ko": "키사라기 골드★스타 -NONSTOP GO GO!!-",
+      "title": "Kisaragi GOLD★STAR -NONSTOP GO GO!!- (키사라기 골드★스타 -NONSTOP GO GO!!-)"
+    },
+    {
+      "key": "platforms/psp/games/koi-to-senkyo-to-chocolate-portable.md",
+      "source_sha": "115ce505e59b3162528996fd83353e64dbd53b8d",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "恋と選挙とチョコレート ポータブル",
+      "english_title": "Koi to Senkyo to Chocolate Portable",
+      "title_ko": "사랑과 선거와 초콜릿 포터블",
+      "title": "Koi to Senkyo to Chocolate Portable (사랑과 선거와 초콜릿 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/koisuru-otome-to-shugo-no-tate-portable.md",
+      "source_sha": "15b82a4107acf28a7d7246312fea64d8f0d6cba1",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "恋する乙女と守護の楯 Portable",
+      "english_title": "Koisuru Otome to Shugo no Tate Portable",
+      "title_ko": "사랑하는 소녀와 수호의 방패 Portable",
+      "title": "Koisuru Otome to Shugo no Tate Portable (사랑하는 소녀와 수호의 방패 Portable)"
+    },
+    {
+      "key": "platforms/psp/games/kono-aozora-ni-yakusoku-o-tenohira-no-rakuen.md",
+      "source_sha": "06b3562be364b220a7521417199ce9a37a9a6052",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "この青空に約束を― てのひらのらくえん",
+      "english_title": "Kono Aozora ni Yakusoku o – Tenohira no Rakuen",
+      "title_ko": "이 푸른 하늘에 약속을 ~손 안의 낙원~",
+      "title": "Kono Aozora ni Yakusoku o – Tenohira no Rakuen (이 푸른 하늘에 약속을 ~손 안의 낙원~)"
+    },
+    {
+      "key": "platforms/psp/games/kono-bushitsu-wa-kitaku-shinai-bu-ga-senkyo-shimashita-portable-gakuen-dog-ear-hen.md",
+      "source_sha": "5cef5fd75ba06fe6ea7e02ee631bf0e583421ee7",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "Kono Bushitsu wa Kitaku Shinai Bu ga Senkyo Shimashita. Portable: Gakuen Dog Ear Hen",
+      "title_ko": "",
+      "title": "Kono Bushitsu wa Kitaku Shinai Bu ga Senkyo Shimashita. Portable: Gakuen Dog Ear Hen (코노 부시츠와 키타쿠시나이부가 센쿄시마시타. 포터블: 학원 도그 이어 편)"
+    },
+    {
+      "key": "platforms/psp/games/kuon-no-kizuna-sairin-mikotonori-portable.md",
+      "source_sha": "5e821d479e304fb4013b04bac8742b49447d5658",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "久遠の絆 再臨詔 -Portable-",
+      "english_title": "Kuon no Kizuna: Sairinsho -Portable-",
+      "title_ko": "구원의 반 재림조 포터블",
+      "title": "Kuon no Kizuna: Sairinsho -Portable- (구원의 반 재림조 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/l-no-kisetsu-double-pocket.md",
+      "source_sha": "706e15c260800345e96de9d157964c7d0ddd78b2",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "Lの季節 ダブルポケット",
+      "english_title": "L no Kisetsu: Double Pocket",
+      "title_ko": "L의 계절 더블 포켓",
+      "title": "L no Kisetsu: Double Pocket (L의 계절 더블 포켓)"
+    },
+    {
+      "key": "platforms/psp/games/like-life-every-hour.md",
+      "source_sha": "592ea176369f59d9cf19f866cbc34c33d174f30d",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "Like Life every hour",
+      "title_ko": "",
+      "title": "Like Life every hour (라이크 라이프 에브리 아워)"
+    },
+    {
+      "key": "platforms/psp/games/littlewitch-parfait-kuroneko-mahouten-monogatari.md",
+      "source_sha": "03da9f4d86c17534f2980eb06535d7ad0c5e41dd",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "リトルウィッチ パルフェ 黒猫魔法店物語",
+      "english_title": "Little Witch Parfait: Kuroneko Mahouten Monogatari",
+      "title_ko": "리틀 위치 파르페: 검은 고양이 마법 상점 이야기",
+      "title": "Little Witch Parfait: Kuroneko Mahouten Monogatari (리틀 위치 파르페: 검은 고양이 마법 상점 이야기)"
+    },
+    {
+      "key": "platforms/psp/games/love-once.md",
+      "source_sha": "258d4f6832c1f828b3f2b598b20b6b0937ea7d5d",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "L@ve once",
+      "english_title": "L@ve Once",
+      "title_ko": "러브 앳 원스",
+      "title": "L@ve Once (러브 앳 원스)"
+    },
+    {
+      "key": "platforms/psp/games/magustale-eternity-seikaiju-to-koisuru-mahou-tsukai.md",
+      "source_sha": "61133be4b7db7ca07f94a1c2ace88b2600e4b3ba",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "マギウステイル エタニティ ～世界樹と恋する魔法使い～",
+      "english_title": "MagusTale Eternity: Seikaiju to Koisuru Mahou Tsukai",
+      "title_ko": "마기우스테일 이터니티: 세계수와 사랑하는 마법사",
+      "title": "MagusTale Eternity: Seikaiju to Koisuru Mahou Tsukai (마기우스테일 이터니티: 세계수와 사랑하는 마법사)"
+    },
+    {
+      "key": "platforms/psp/games/mana-khemia-2-ochita-gakuen-to-renkinjutsushi-tachi-portable-plus.md",
+      "source_sha": "2a058bf6aab44f4f3006c4cbb13a8517686eeae8",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "マナケミア2 ～おちた学園と錬金術士たち～ PORTABLE+",
+      "english_title": "Mana Khemia 2: Ochita Gakuen to Renkinjutsushi Tachi Portable+",
+      "title_ko": "마나 케미아2: 타락한 학원과 연금술사들 포터블 플러스",
+      "title": "Mana Khemia 2: Ochita Gakuen to Renkinjutsushi Tachi Portable+ (마나 케미아2: 타락한 학원과 연금술사들 포터블 플러스)"
+    },
+    {
+      "key": "platforms/psp/games/marriage-royale-prism-story.md",
+      "source_sha": "1ddc31fc67a160167e526c2aee2f78c821efaa83",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "マリッジロワイヤル ～プリズムストーリー～",
+      "english_title": "Marriage Royale: Prism Story",
+      "title_ko": "마리지 로얄 ～프리즘 스토리～",
+      "title": "Marriage Royale: Prism Story (마리지 로얄 ～프리즘 스토리～)"
+    },
+    {
+      "key": "platforms/psp/games/mirai-nikki-13-ninme-no-nikki-shoyuusha-rewrite.md",
+      "source_sha": "4569de48eef231b1f918f219637f94a420304975",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "未来日記 13人目の日記所有者 RE：WRITE",
+      "english_title": "Mirai Nikki: 13 Ninme no Nikki Shoyuusha RE:WRITE",
+      "title_ko": "미래일기 13번째의 일기 소유자 RE:WRITE",
+      "title": "Mirai Nikki: 13 Ninme no Nikki Shoyuusha RE:WRITE (미래일기 13번째의 일기 소유자 RE:WRITE)"
+    },
+    {
+      "key": "platforms/psp/games/misshitsu-no-sacrifice.md",
+      "source_sha": "bfe3dc3266c7bcb3befa9877e22e1d76b7a35af9",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "密室のサクリファイス",
+      "english_title": "Misshitsu no Sacrifice",
+      "title_ko": "밀실의 새크리파이스",
+      "title": "Misshitsu no Sacrifice (밀실의 새크리파이스)"
+    },
+    {
+      "key": "platforms/psp/games/mizu-no-senritsu-portable-2-hi-no-kioku.md",
+      "source_sha": "3475e2bfaefe9e46eab1c29d54d73f66f9ae1098",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "水の旋律2 ～緋の記憶～",
+      "english_title": "Mizu no Senritsu Portable 2: Hi no Kioku",
+      "title_ko": "물의 선율 2 ~붉은 기억~ 포터블",
+      "title": "Mizu no Senritsu Portable 2: Hi no Kioku (물의 선율 2 ~붉은 기억~ 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/moe-moe-2-ji-daisenryaku-2.md",
+      "source_sha": "17064c34b35545020cf713d5a70b5e0590b16f46",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "萌え萌え2次大戦（略）2[chu～♪]",
+      "english_title": "Moe Moe 2-Ji Daisenryaku 2 [chu~♪]",
+      "title_ko": "모에모에 2차대전략 2 [chu~♪]",
+      "title": "Moe Moe 2-Ji Daisenryaku 2 [chu~♪] (모에모에 2차대전략 2 [chu~♪])"
+    },
+    {
+      "key": "platforms/psp/games/moe-moe-daisensou-gendaiban-plus.md",
+      "source_sha": "33d23d6fd05f72bcc3ae8a52313f21c18f30a861",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "萌え萌え大戦争☆げんだいばーん＋（ぷらす）",
+      "english_title": "Moe Moe Daisensou: Gendaiban+",
+      "title_ko": "모에모에 대전쟁 현대판+",
+      "title": "Moe Moe Daisensou: Gendaiban+ (모에모에 대전쟁 현대판+)"
+    },
+    {
+      "key": "platforms/psp/games/monochrome.md",
+      "source_sha": "fb412df607cab6004c10a566b009baf141610b2f",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "Monochrome（モノクローム）",
+      "english_title": "Monochrome",
+      "title_ko": "모노크롬",
+      "title": "Monochrome (모노크롬)"
+    },
+    {
+      "key": "platforms/psp/games/motto-nuga-cel.md",
+      "source_sha": "d657aa5404d5d4080571fc44727d55ef7ccc2807",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "もっと NUGA-CEL（ヌガ・セル）！",
+      "english_title": "Motto Nuga-Cel!",
+      "title_ko": "못토 누가셀!",
+      "title": "Motto Nuga-Cel! (못토 누가셀!)"
+    },
+    {
+      "key": "platforms/psp/games/mystereet-portable.md",
+      "source_sha": "f9574e3fd80481da5553aadc01d8430fce1bf4c2",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "ミステリートPORTABLE ～八十神かおるの挑戦！～",
+      "english_title": "Mystereet Portable: Yasogami Kaoru no Chousen!",
+      "title_ko": "미스테리트 PORTABLE: 야소가미 카오루의 도전!",
+      "title": "Mystereet Portable: Yasogami Kaoru no Chousen! (미스테리트 PORTABLE: 야소가미 카오루의 도전!)"
+    },
+    {
+      "key": "platforms/psp/games/narcissu-moshimo-ashita-ga-aru-nara-portable.md",
+      "source_sha": "cf558bcf6ca2e498412881bca4b39ad6a9e78e35",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "ナルキッソス ～もしも明日があるなら～ Portable",
+      "english_title": "Narcissu: Moshimo Ashita ga Aru Nara Portable",
+      "title_ko": "나르키소스 ～만약 내일이 있다면～ 포터블",
+      "title": "Narcissu: Moshimo Ashita ga Aru Nara Portable (나르키소스 ～만약 내일이 있다면～ 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/no-fate-only-the-power-of-will.md",
+      "source_sha": "bc4eed92243f210ac9791f937746ab56ea3f8c05",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "のーふぇいと！ -only the power of will-",
+      "english_title": "No Fate! - Only the Power of Will",
+      "title_ko": "노 페이트! -온리 더 파워 오브 윌-",
+      "title": "No Fate! - Only the Power of Will (노 페이트! -온리 더 파워 오브 윌-)"
+    },
+    {
+      "key": "platforms/psp/games/nogizaka-haruka-no-himitsu-doujinshi-hajimemashita.md",
+      "source_sha": "367a9059e865f351214bd937ff4064a42db0f198",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "Nogizaka Haruka no Himitsu: Doujinshi Hajimemashita",
+      "title_ko": "",
+      "title": "Nogizaka Haruka no Himitsu: Doujinshi Hajimemashita (노기자카 하루카의 비밀: 동인지, 시작했습니다♥)"
+    },
+    {
+      "key": "platforms/psp/games/omoi-no-kakera-close-to.md",
+      "source_sha": "7cd4e883a62673962bf840085dd8d27bc262bfe2",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "想いのかけら -Close to-",
+      "english_title": "Omoi no Kakera: Close to",
+      "title_ko": "오모이노 카케라 -Close to-",
+      "title": "Omoi no Kakera: Close to (오모이노 카케라 -Close to-)"
+    },
+    {
+      "key": "platforms/psp/games/onigokko-portable.md",
+      "source_sha": "681ae41e78c5e985f391ec4f97864c14581aa932",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "鬼ごっこ！ Portable",
+      "english_title": "Onigokko! Portable",
+      "title_ko": "오니곳코! 포터블",
+      "title": "Onigokko! Portable (오니곳코! 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/onore-no-shinzuru-michi-wo-yuke.md",
+      "source_sha": "999b91854161ea4f4afd74ca672d74be86a1ea82",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "己の信ずる道を征け",
+      "english_title": "Onore no Shinzuru Michi wo Yuke",
+      "title_ko": "오노레노 신즈루 미치오 유케",
+      "title": "Onore no Shinzuru Michi wo Yuke (오노레노 신즈루 미치오 유케)"
+    },
+    {
+      "key": "platforms/psp/games/ore-no-kanojo-no-uraomote-pure-sweet-heart.md",
+      "source_sha": "ad8f9a4fd2a3c28993657ba13e39095812862f9a",
+      "platform": "PLAYSTATION PORTABLE (PSP)",
+      "product_id": "",
+      "original": "俺の彼女のウラオモテ ～Pure Sweet Heart～",
+      "english_title": "Ore no Kanojo no Uraomote: Pure Sweet Heart",
+      "title_ko": "내 여자친구의 겉과 속 ~Pure Sweet Heart~",
+      "title": "Ore no Kanojo no Uraomote: Pure Sweet Heart (내 여자친구의 겉과 속 ~Pure Sweet Heart~)"
+    },
+    {
+      "key": "platforms/psp/games/ore-wa-shoujo-mangaka.md",
+      "source_sha": "68b72da8f049bb8f2961c7bfac4a7be558c2f176",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "オレは少女漫画家",
+      "english_title": "Ore wa Shoujo Mangaka",
+      "title_ko": "나는 소녀만화가",
+      "title": "Ore wa Shoujo Mangaka (나는 소녀만화가)"
+    },
+    {
+      "key": "platforms/psp/games/otome-wa-boku-ni-koishiteru-portable-futari-no-elder.md",
+      "source_sha": "f708f15f0d591c8ada1b39fcefb4d67552b570cc",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "乙女はお姉さまに恋してるPortable ～2人のエルダー～",
+      "english_title": "Otome wa Boku ni Koishiteru Portable: Futari no Elder",
+      "title_ko": "소녀는 언니를 사랑한다 Portable: 두 사람의 엘더",
+      "title": "Otome wa Boku ni Koishiteru Portable: Futari no Elder (소녀는 언니를 사랑한다 Portable: 두 사람의 엘더)"
+    },
+    {
+      "key": "platforms/psp/games/ouka-sengoku-portable.md",
+      "source_sha": "e14efe1f8326de8b8b9aa0659dc9f0ea2243628d",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "桜花センゴク Portable",
+      "english_title": "Ouka Sengoku Portable",
+      "title_ko": "오우카 센고쿠 포터블",
+      "title": "Ouka Sengoku Portable (오우카 센고쿠 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/pastel-chime-continue.md",
+      "source_sha": "78b328d38d773be5fc9103633aed548cc646d764",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "Pastel Chime Continue",
+      "title_ko": "",
+      "title": "Pastel Chime Continue (파스텔 차임 Continue)"
+    },
+    {
+      "key": "platforms/psp/games/pri-saga-portable.md",
+      "source_sha": "be775b521357413fbc30e8a9355fed5ff77ebc77",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "Pri-Saga! Portable",
+      "title_ko": "",
+      "title": "Pri-Saga! Portable (프리사가! 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/princess-evangile-portable.md",
+      "source_sha": "80308c8f21009113dd524aaac5bb8f12b5f51c6c",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "PrincessEvangile PORTABLE ～プリンセス エヴァンジール ポータブル～",
+      "english_title": "Princess Evangile Portable",
+      "title_ko": "프린세스 에반젤 포터블",
+      "title": "Princess Evangile Portable (프린세스 에반젤 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/princess-frontier-portable.md",
+      "source_sha": "624b0fa8cc1e2f9b60d778baaa565a24ca39156d",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "Princess Frontier Portable",
+      "english_title": "Princess Frontier Portable",
+      "title_ko": "프린세스 프론티어 포터블",
+      "title": "Princess Frontier Portable (프린세스 프론티어 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/ragnarok-tactics.md",
+      "source_sha": "cbdb0f4bd550c3e346ec8a78b407dc28470c49eb",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "Ragnarok Tactics",
+      "title_ko": "",
+      "title": "Ragnarok Tactics (라그나로크: 빛과 어둠의 황녀)"
+    },
+    {
+      "key": "platforms/psp/games/rebellions-secret-game-2nd-stage.md",
+      "source_sha": "de5c4981c084daf9cccc58f7daed57f8fe324699",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "リベリオンズ Secret Game 2nd Stage",
+      "english_title": "Rebellions: Secret Game 2nd Stage",
+      "title_ko": "리벨리온즈 Secret Game 2nd Stage / 국내 통칭 시크릿 게임 2",
+      "title": "Rebellions: Secret Game 2nd Stage (리벨리온즈 Secret Game 2nd Stage)"
+    },
+    {
+      "key": "platforms/psp/games/renai-0-kilometer-portable.md",
+      "source_sha": "115650a4cf4c0a118297388adfffe364243e8a52",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "恋愛0キロメートル Portable",
+      "english_title": "Ren'ai 0 Kilometer Portable",
+      "title_ko": "연애 0킬로미터 포터블",
+      "title": "Ren'ai 0 Kilometer Portable (연애 0킬로미터 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/ro-kyu-bu-himitsu-no-otoshimono.md",
+      "source_sha": "506c7beb5a517f92497f68770773fa433fda590f",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "ロウきゅーぶ！ ひみつのおとしもの",
+      "english_title": "Ro-Kyu-Bu! Himitsu no Otoshimono",
+      "title_ko": "로큐브! 비밀의 분실물",
+      "title": "Ro-Kyu-Bu! Himitsu no Otoshimono (로큐브! 비밀의 분실물)"
+    },
+    {
+      "key": "platforms/psp/games/ro-kyu-bu.md",
+      "source_sha": "f224a44fefee11a796f537afe9772db03cafbfac",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "ロウきゅーぶ！",
+      "english_title": "Ro-Kyu-Bu!",
+      "title_ko": "로큐브!",
+      "title": "Ro-Kyu-Bu! (로큐브!)"
+    },
+    {
+      "key": "platforms/psp/games/routes-portable.md",
+      "source_sha": "e8b43f5d7d0b913ffa9b473c1fc2ec2b2f0fdc47",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "Routes PORTABLE / ルーツ ポータブル",
+      "english_title": "Routes Portable",
+      "title_ko": "루츠 포터블",
+      "title": "Routes Portable (루츠 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/rurur-petit-prince.md",
+      "source_sha": "d8fee5063c1312e65b89fda22891a477db5f74bf",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "R.U.R.U.R ル・ル・ル・ル -petit prince-",
+      "english_title": "R.U.R.U.R.: Petit Prince",
+      "title_ko": "",
+      "title": "R.U.R.U.R.: Petit Prince (R.U.R.U.R: 쁘띠 프린스)"
+    },
+    {
+      "key": "platforms/psp/games/saihate-no-ima-portable.md",
+      "source_sha": "eaa4a2be42d941ab5233b0fc7651f1b73a968e72",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "最果てのイマ PORTABLE",
+      "english_title": "Saihate no Ima Portable",
+      "title_ko": "가장 끝자락의 이마 포터블",
+      "title": "Saihate no Ima Portable (가장 끝자락의 이마 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/sakura-sakura-haru-urara.md",
+      "source_sha": "dab6b02e101a5831efdc3b0bb3865ead8248629d",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "さくらさくら -HARU URARA-",
+      "english_title": "Sakura Sakura: Haru Urara",
+      "title_ko": "사쿠라 사쿠라 -하루 우라라-",
+      "title": "Sakura Sakura: Haru Urara (사쿠라 사쿠라 -하루 우라라-)"
+    },
+    {
+      "key": "platforms/psp/games/sakurasou-no-pet-na-kanojo.md",
+      "source_sha": "38eb64262d26d55fe55ee8fa5bdb54aeff02aca9",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "さくら荘のペットな彼女",
+      "english_title": "Sakurasou no Pet na Kanojo",
+      "title_ko": "사쿠라장의 애완그녀",
+      "title": "Sakurasou no Pet na Kanojo (사쿠라장의 애완그녀)"
+    },
+    {
+      "key": "platforms/psp/games/school-rumble-anesan-jiken-desu.md",
+      "source_sha": "e3dbdccd06d1dc6cc7ecaa7b13b38900672453c9",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "スクールランブル 姉さん事件です!",
+      "english_title": "School Rumble: Anesan Jiken Desu!",
+      "title_ko": "스쿨럼블 언니 사건이에요!",
+      "title": "School Rumble: Anesan Jiken Desu! (스쿨럼블 언니 사건이에요!)"
+    },
+    {
+      "key": "platforms/psp/games/secret-game-killer-queen-portable.md",
+      "source_sha": "9ef76b0f5557f3f2e93781af09e649b067b29d60",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "シークレットゲーム -KILLER QUEEN- PORTABLE",
+      "english_title": "Secret Game: Killer Queen Portable",
+      "title_ko": "시크릿 게임: 킬러 퀸 포터블",
+      "title": "Secret Game: Killer Queen Portable (시크릿 게임: 킬러 퀸 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/seinaru-kana-orichalcum-no-na-no-motoni.md",
+      "source_sha": "5e1b9f59e6ebbabe7b42e7d75ea0bdde20fbe84d",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "聖なるかな -オリハルコンの名の下に-",
+      "english_title": "Seinaru Kana: Orichalcum no Na no Motoni",
+      "title_ko": "성스러운 카나: 오리할콘의 이름 아래에",
+      "title": "Seinaru Kana: Orichalcum no Na no Motoni (성스러운 카나: 오리할콘의 이름 아래에)"
+    },
+    {
+      "key": "platforms/psp/games/seitokai-no-ichizon-lv2-portable.md",
+      "source_sha": "93369aef0b8e73c2b43177f9650eb2aadeeb10e3",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "生徒会の一存 Lv.2 PORTABLE",
+      "english_title": "Seitokai no Ichizon Lv.2 Portable",
+      "title_ko": "학생회의 일존 Lv.2 포터블",
+      "title": "Seitokai no Ichizon Lv.2 Portable (학생회의 일존 Lv.2 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/sekai-de-ichiban-ng-na-koi-full-house.md",
+      "source_sha": "a6766725d3f6f3a1e36644f52f3dc3c5e45a7d33",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "世界でいちばんNG（ダメ）な恋 ふるはうす",
+      "english_title": "Sekai de Ichiban NG na Koi: Full House",
+      "title_ko": "세상에서 가장 NG인 사랑 풀하우스",
+      "title": "Sekai de Ichiban NG na Koi: Full House (세상에서 가장 NG인 사랑 풀하우스)"
+    },
+    {
+      "key": "platforms/psp/games/sengoku-efuda-yuugi-hototogisu-tairan.md",
+      "source_sha": "ffa0ef936c8df21a2d877dab485dd612c21be007",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "戦国絵札遊戯 不如帰 大乱",
+      "english_title": "Sengoku Efuda Yuugi: Hototogisu Tairan",
+      "title_ko": "센고쿠 에후다 유기: 호토토기스 대란",
+      "title": "Sengoku Efuda Yuugi: Hototogisu Tairan (센고쿠 에후다 유기: 호토토기스 대란)"
+    },
+    {
+      "key": "platforms/psp/games/sengoku-hime-4-souha-hyakkei-hana-mamoru-chikai.md",
+      "source_sha": "d11c9bfe09773a8abaa3316e78a1008f933c6e0d",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "Sengoku Hime 4: Souha Hyakkei, Hana Mamoru Chikai",
+      "title_ko": "",
+      "title": "Sengoku Hime 4: Souha Hyakkei, Hana Mamoru Chikai (센고쿠히메 4 ~쟁패백계 꽃을 지키기 위해~)"
+    },
+    {
+      "key": "platforms/psp/games/senritsu-no-stratus.md",
+      "source_sha": "b12774e95194a63593156a73e94028421bbc0256",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "戦律のストラタス",
+      "english_title": "Senritsu no Stratus",
+      "title_ko": "전율의 스트라터스",
+      "title": "Senritsu no Stratus (전율의 스트라터스)"
+    },
+    {
+      "key": "platforms/psp/games/shiei-no-sona-nyl-refrain-what-a-beautiful-memories.md",
+      "source_sha": "48f0059017091281ee2712d30774f583e18e9410",
+      "platform": "PLAYSTATION PORTABLE (PSP)",
+      "product_id": "",
+      "original": "紫影のソナーニル Refrain -What a beautiful memories-",
+      "english_title": "Shiei no Sona-Nyl Refrain: What a Beautiful Memories",
+      "title_ko": "자영의 소나닐 Refrain ~What a beautiful memories~",
+      "title": "Shiei no Sona-Nyl Refrain: What a Beautiful Memories (자영의 소나닐 Refrain ~What a beautiful memories~)"
+    },
+    {
+      "key": "platforms/psp/games/shin-koihime-musou-otome-ryouran-sangokushi-engi-wei-hen.md",
+      "source_sha": "a38df2a44754c4bc86d5dd300e923abf16c8691b",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "真・恋姫†夢想 ～乙女繚乱☆三国志演義～ 魏編",
+      "english_title": "Shin Koihime Musou: Otome Ryouran Sangokushi Engi - Wei-Hen",
+      "title_ko": "진 연희몽상: 소녀요란 삼국지연의 위편",
+      "title": "Shin Koihime Musou: Otome Ryouran Sangokushi Engi - Wei-Hen (진 연희몽상: 소녀요란 삼국지연의 위편)"
+    },
+    {
+      "key": "platforms/psp/games/shin-koihime-musou-otome-ryouran-sangokushi-engi-wu-hen.md",
+      "source_sha": "16e244f7f7e022eab7a18e733c0c223498214ac1",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "真・恋姫†夢想 ～乙女繚乱☆三国志演義～ 呉編",
+      "english_title": "Shin Koihime Musou: Otome Ryouran Sangokushi Engi - Wu-Hen",
+      "title_ko": "진 연희몽상: 소녀요란 삼국지연의 오편",
+      "title": "Shin Koihime Musou: Otome Ryouran Sangokushi Engi - Wu-Hen (진 연희몽상: 소녀요란 삼국지연의 오편)"
+    },
+    {
+      "key": "platforms/psp/games/shin-master-of-monsters-final-ex.md",
+      "source_sha": "8f8e5f53a6b4ff57880e2798eb74c48b4110e4df",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "Shin Master of Monsters Final EX",
+      "title_ko": "",
+      "title": "Shin Master of Monsters Final EX (진 마스터 오브 몬스터즈 Final EX: 무구한 한탄, 천명의 재앙)"
+    },
+    {
+      "key": "platforms/psp/games/shinigami-to-shoujo.md",
+      "source_sha": "1f089cdd2fbf91c22075458ca51acc2a090fd70c",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "死神と少女",
+      "english_title": "Shinigami to Shoujo",
+      "title_ko": "사신과 소녀",
+      "title": "Shinigami to Shoujo (사신과 소녀)"
+    },
+    {
+      "key": "platforms/psp/games/shinkyoku-soukai-polyphonica-0-4-hanashi-full-pack.md",
+      "source_sha": "5859198261d8ccbf2ff1a85dc3ae4e568ee42896",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "Shinkyoku Soukai Polyphonica: 0-4 Hanashi Full Pack",
+      "title_ko": "",
+      "title": "Shinkyoku Soukai Polyphonica: 0-4 Hanashi Full Pack (신곡주계 폴리포니카 0~4화 풀 팩)"
+    },
+    {
+      "key": "platforms/psp/games/shinkyoku-soukai-polyphonica-after-school.md",
+      "source_sha": "8f5f393881c6fb374c60dabe953b4cfc13b7bae7",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "Shinkyoku Soukai Polyphonica: After School",
+      "title_ko": "",
+      "title": "Shinkyoku Soukai Polyphonica: After School (신곡주계 폴리포니카 애프터스쿨)"
+    },
+    {
+      "key": "platforms/psp/games/shirogane-no-cal-to-aoi-no-joou.md",
+      "source_sha": "99031306832328879ef060ef9e3f77f98acf424c",
+      "platform": "PLAYSTATION PORTABLE (PSP)",
+      "product_id": "",
+      "original": "白銀のカルと蒼空の女王",
+      "english_title": "Shirogane no Cal to Aoi no Joou",
+      "title_ko": "백은의 칼과 창공의 여왕",
+      "title": "Shirogane no Cal to Aoi no Joou (백은의 칼과 창공의 여왕)"
+    },
+    {
+      "key": "platforms/psp/games/shirokuma-belles-stars-happy-holidays.md",
+      "source_sha": "62bb749f768fec7045fa967a87e1098a6827e5b1",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "しろくまベルスターズ♪ ～ハッピーホリデーズ！～",
+      "english_title": "Shirokuma Belles Stars: Happy Holidays!",
+      "title_ko": "시로쿠마 벨스타즈♪ ~해피 홀리데이즈!~",
+      "title": "Shirokuma Belles Stars: Happy Holidays! (시로쿠마 벨스타즈♪ ~해피 홀리데이즈!~)"
+    },
+    {
+      "key": "platforms/psp/games/shutsugeki-otometachi-no-senjou-2-ikusabana-no-kizuna.md",
+      "source_sha": "533708b0dc1142bc32e9f94873aa297286bd40c3",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "Shutsugeki!! Otometachi no Senjou 2: Ikusabana no Kizuna",
+      "title_ko": "",
+      "title": "Shutsugeki!! Otometachi no Senjou 2: Ikusabana no Kizuna (출격!! 소녀들의 전장 2 ~하늘을 달리는 충격의 인연~)"
+    },
+    {
+      "key": "platforms/psp/games/snow-portable.md",
+      "source_sha": "9e10bc296080e8ee76853915112c3c047f957c3b",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "SNOW -Portable-",
+      "english_title": "SNOW Portable",
+      "title_ko": "스노우 포터블",
+      "title": "SNOW Portable (스노우 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/sol-trigger.md",
+      "source_sha": "5744ae9889dadd1a03a0c36ed7ca672f910b97cd",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "ソールトリガー",
+      "english_title": "Sol Trigger",
+      "title_ko": "솔 트리거",
+      "title": "Sol Trigger (솔 트리거)"
+    },
+    {
+      "key": "platforms/psp/games/solfege-sweet-harmony.md",
+      "source_sha": "24a792697795b4cb4cb1b52dd1b6455c0381a09c",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "ソルフェージュ ～Sweet harmony～",
+      "english_title": "Solfege: Sweet Harmony",
+      "title_ko": "솔페쥬 ~Sweet harmony~",
+      "title": "Solfege: Sweet Harmony (솔페쥬 ~Sweet harmony~)"
+    },
+    {
+      "key": "platforms/psp/games/sora-o-aogite-kumo-takaku-portable.md",
+      "source_sha": "dd4d84e6e0edd21b1522d75c0d3c69ee8b9a0ea4",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "空を仰ぎて雲たかく Portable",
+      "english_title": "Sora o Aogite Kumo Takaku Portable",
+      "title_ko": "소라오 아오기테 쿠모 타카쿠 Portable",
+      "title": "Sora o Aogite Kumo Takaku Portable (소라오 아오기테 쿠모 타카쿠 Portable)"
+    },
+    {
+      "key": "platforms/psp/games/sorairo-portable.md",
+      "source_sha": "924a9e5f5cae3c66f7e3532661787c7b83496d19",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "そらいろ Portable",
+      "english_title": "Sorairo Portable",
+      "title_ko": "소라이로 포터블",
+      "title": "Sorairo Portable (소라이로 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/soreyuke-burunyanman-portable.md",
+      "source_sha": "954e476cb4a050b3a1a8fe84e32d5d00ba543a34",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "それゆけ！ぶるにゃんマン Portable ～とりもどせ！あいとせいぎときぼうのつにゃ缶～",
+      "english_title": "Soreyuke! BurunyanMan Portable",
+      "title_ko": "가자! 부루냥맨 포터블 / 가라! 브루냥맨 포터블 등 복수 표기 사용. 공개 한글패치 기록은 가자! 부루냥맨 표기를 사용",
+      "title": "Soreyuke! BurunyanMan Portable (가자! 부루냥맨 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/soukyuu-no-fafner-dead-aggressor.md",
+      "source_sha": "f3df1c5d08b3bcfdd698d4fbf48cfdef09ca6d38",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "蒼穹のファフナー",
+      "english_title": "Soukyuu no Fafner: Dead Aggressor",
+      "title_ko": "창궁의 파프너",
+      "title": "Soukyuu no Fafner: Dead Aggressor (창궁의 파프너)"
+    },
+    {
+      "key": "platforms/psp/games/star-driver-kagayaki-no-takuto-ginga-bishounen-densetsu.md",
+      "source_sha": "5a6c94ad833d5886e06b91773e2d2637b8a58e6d",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "STAR DRIVER 輝きのタクト 銀河美少年伝説",
+      "english_title": "Star Driver: Kagayaki no Takuto - Ginga Bishounen Densetsu",
+      "title_ko": "STAR DRIVER 빛의 타쿠토: 은하미소년 전설",
+      "title": "Star Driver: Kagayaki no Takuto - Ginga Bishounen Densetsu (STAR DRIVER 빛의 타쿠토: 은하미소년 전설)"
+    },
+    {
+      "key": "platforms/psp/games/sucre-portable.md",
+      "source_sha": "18f4c6a440529157e160135463bd6b28eb4f932d",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "シュクレ PORTABLE",
+      "english_title": "Sucre Portable",
+      "title_ko": "슈크레 포터블",
+      "title": "Sucre Portable (슈크레 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/suigetsu-portable.md",
+      "source_sha": "dc1f4797f17053493f2e9904981cb106cbdcb59d",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "水月 ～Portable～",
+      "english_title": "Suigetsu Portable",
+      "title_ko": "수월 포터블 / 스이게츠 포터블",
+      "title": "Suigetsu Portable (수월 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/summon-night-3.md",
+      "source_sha": "732e9572a0e3fbf7d100c86059d0541fd8b4f81e",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "サモンナイト3",
+      "english_title": "Summon Night 3",
+      "title_ko": "서몬 나이트 3",
+      "title": "Summon Night 3 (서몬 나이트 3)"
+    },
+    {
+      "key": "platforms/psp/games/summon-night-4.md",
+      "source_sha": "112c992fddac22f955eb0a3705077948e96ca864",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "サモンナイト4",
+      "english_title": "Summon Night 4",
+      "title_ko": "서몬 나이트 4",
+      "title": "Summon Night 4 (서몬 나이트 4)"
+    },
+    {
+      "key": "platforms/psp/games/summon-night-5.md",
+      "source_sha": "c5a7ca293afbf5499620400ded95d62875c76777",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "サモンナイト5",
+      "english_title": "Summon Night 5",
+      "title_ko": "서몬 나이트 5",
+      "title": "Summon Night 5 (서몬 나이트 5)"
+    },
+    {
+      "key": "platforms/psp/games/suzukaze-no-melt-days-in-the-sanctuary.md",
+      "source_sha": "363547d46799745a9ae24ad2fa2f8af5b800e665",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "Suzukaze no Melt: Days in the Sanctuary",
+      "title_ko": "",
+      "title": "Suzukaze no Melt: Days in the Sanctuary (스즈카제노 멜트: Days in the Sanctuary)"
+    },
+    {
+      "key": "platforms/psp/games/suzumiya-haruhi-no-tsuisou.md",
+      "source_sha": "4226e9626ee78df4c4ddb0057b11d78ce33f6f86",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "涼宮ハルヒの追想",
+      "english_title": "Suzumiya Haruhi no Tsuisou",
+      "title_ko": "스즈미야 하루히의 추상",
+      "title": "Suzumiya Haruhi no Tsuisou (스즈미야 하루히의 추상)"
+    },
+    {
+      "key": "platforms/psp/games/suzunone-seven-portable.md",
+      "source_sha": "5de6a1bdca1060f01b906a5122c94e6d271d1d2e",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "スズノネセブン！ Portable",
+      "english_title": "Suzunone Seven! Portable",
+      "title_ko": "스즈노네 세븐! 포터블",
+      "title": "Suzunone Seven! Portable (스즈노네 세븐! 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/tantei-opera-milky-holmes.md",
+      "source_sha": "22cc3be67c6f7ed674c0273b4a2519631b9d83b4",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "探偵オペラ ミルキィホームズ",
+      "english_title": "Tantei Opera Milky Holmes",
+      "title_ko": "탐정 오페라 밀키 홈즈",
+      "title": "Tantei Opera Milky Holmes (탐정 오페라 밀키 홈즈)"
+    },
+    {
+      "key": "platforms/psp/games/tanteibu-the-detective-club-shissou-to-hangeki-to-daidanen.md",
+      "source_sha": "63ae64facc0d0f5b35f1f64303196b85363ca6ff",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "Tanteibu: The Detective Club - Shissou to Hangeki to Daidanen",
+      "title_ko": "",
+      "title": "Tanteibu: The Detective Club - Shissou to Hangeki to Daidanen (탄테이부 THE DETECTIVE CLUB: 실종과 반격과 대단원)"
+    },
+    {
+      "key": "platforms/psp/games/tasogare-no-sinsemilla-portable.md",
+      "source_sha": "ced8c3cbfb751366c0f7b5483781181d9b662548",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "黄昏のシンセミア portable",
+      "english_title": "Tasogare no Sinsemilla Portable",
+      "title_ko": "황혼의 신세미아 Portable",
+      "title": "Tasogare no Sinsemilla Portable (황혼의 신세미아 Portable)"
+    },
+    {
+      "key": "platforms/psp/games/te-to-te-try-on-tropical.md",
+      "source_sha": "93dad347cf8a368b60189fa372bed97b623f064c",
+      "platform": "PLAYSTATION PORTABLE (PSP)",
+      "product_id": "",
+      "original": "てとてトライオン！TROPICAL",
+      "english_title": "Te to Te Try On! Tropical",
+      "title_ko": "손에 손 트라이온! TROPICAL",
+      "title": "Te to Te Try On! Tropical (손에 손 트라이온! TROPICAL)"
+    },
+    {
+      "key": "platforms/psp/games/tears-to-tiara-gaiden-avalon-no-nazo-portable.md",
+      "source_sha": "244e20db51c9ab3a1dfd3f1b03c11a2a1796eac8",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "ティアーズ・トゥ・ティアラ 外伝 -アヴァロンの謎- PORTABLE",
+      "english_title": "Tears to Tiara Gaiden: Avalon no Nazo Portable",
+      "title_ko": "티어즈 투 티아라 외전: 아발론의 수수께끼 포터블",
+      "title": "Tears to Tiara Gaiden: Avalon no Nazo Portable (티어즈 투 티아라 외전: 아발론의 수수께끼 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/tears-to-tiara-kakan-no-daichi-portable.md",
+      "source_sha": "ea761a806c995ead237e01c6283777850104c672",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "ティアーズ・トゥ・ティアラ 花冠の大地 PORTABLE",
+      "english_title": "Tears to Tiara: Kakan no Daichi Portable",
+      "title_ko": "티어즈 투 티아라: 화관의 대지 포터블",
+      "title": "Tears to Tiara: Kakan no Daichi Portable (티어즈 투 티아라: 화관의 대지 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/tenshin-ranman-happy-go-lucky.md",
+      "source_sha": "25d69d301a924c5a26613fdea908742de099cd5e",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "天神乱漫 Happy Go Lucky!!",
+      "english_title": "Tenshin Ranman: Happy GO Lucky!!",
+      "title_ko": "천신란만 Happy GO Lucky!!",
+      "title": "Tenshin Ranman: Happy GO Lucky!! (천신란만 Happy GO Lucky!!)"
+    },
+    {
+      "key": "platforms/psp/games/tiger-and-bunny-on-air-jack.md",
+      "source_sha": "52f252b7a0579916aee5a7676d1a144242134e1f",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "TIGER & BUNNY: On-Air Jack!",
+      "title_ko": "",
+      "title": "TIGER & BUNNY: On-Air Jack! (타이거 앤 버니 온에어 잭!)"
+    },
+    {
+      "key": "platforms/psp/games/tiger-bunny-on-air-jack.md",
+      "source_sha": "d6ae634fd9c00daecac26c8e3c83dd2d0e323e17",
+      "platform": "PLAYSTATION PORTABLE (PSP)",
+      "product_id": "",
+      "original": "TIGER ＆ BUNNY オンエアジャック！",
+      "english_title": "Tiger & Bunny: On-Air Jack!",
+      "title_ko": "타이거 & 버니 온에어 잭!",
+      "title": "Tiger & Bunny: On-Air Jack! (타이거 & 버니 온에어 잭!)"
+    },
+    {
+      "key": "platforms/psp/games/toaru-kagaku-no-railgun.md",
+      "source_sha": "8694411fa2ae76ae0b1655aab03dee9ea8e01684",
+      "platform": "PLAYSTATION PORTABLE (PSP)",
+      "product_id": "",
+      "original": "とある科学の超電磁砲",
+      "english_title": "Toaru Kagaku no Railgun",
+      "title_ko": "어떤 과학의 초전자포",
+      "title": "Toaru Kagaku no Railgun (어떤 과학의 초전자포)"
+    },
+    {
+      "key": "platforms/psp/games/toaru-majutsu-to-kagaku-no-ensemble.md",
+      "source_sha": "1b61bed266681140d88ccf8b4910c0c539d5f4ad",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "とある魔術と科学の群奏活劇（アンサンブル）",
+      "english_title": "Toaru Majutsu to Kagaku no Ensemble",
+      "title_ko": "어떤 마술과 과학의 군주활극",
+      "title": "Toaru Majutsu to Kagaku no Ensemble (어떤 마술과 과학의 군주활극)"
+    },
+    {
+      "key": "platforms/psp/games/tobidase-trouble-hanafuda-douchuuki.md",
+      "source_sha": "b1808bc7659057a3769fe00ca7979a95445eab43",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "とびだせ！トラぶる花札道中記",
+      "english_title": "Tobidase! Trouble Hanafuda Douchuuki",
+      "title_ko": "뛰어나가라! 트러블 화투 여행기",
+      "title": "Tobidase! Trouble Hanafuda Douchuuki (뛰어나가라! 트러블 화투 여행기)"
+    },
+    {
+      "key": "platforms/psp/games/toheart-portable.md",
+      "source_sha": "3a34d8894234a45c758e10fcfcf2c0cd8b6e78d2",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "ToHeart PORTABLE / トゥハート ポータブル",
+      "english_title": "ToHeart Portable",
+      "title_ko": "투하트 포터블",
+      "title": "ToHeart Portable (투하트 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/toheart2-portable.md",
+      "source_sha": "a1b1ca1e1b8a2cb72523c803703d232cebcd578b",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "ToHeart2 PORTABLE",
+      "english_title": "ToHeart2 Portable",
+      "title_ko": "투하트2 포터블",
+      "title": "ToHeart2 Portable (투하트2 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/tsugi-no-giseisha-o-oshirase-shimasu-kimi-to-ko-no-hateru-kotonai-kurayami-o.md",
+      "source_sha": "fc6d35914e40a137dfa0ea8d4b2c3b2d33b1c8cb",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "Tsugi no Giseisha o Oshirase Shimasu: Kimi to Ko no Hateru Kotonai Kurayami o",
+      "title_ko": "",
+      "title": "Tsugi no Giseisha o Oshirase Shimasu: Kimi to Ko no Hateru Kotonai Kurayami o (츠기노 기세이샤오 오시라세시마스: 키미토 코노 하테루 코토나이 쿠라야미오)"
+    },
+    {
+      "key": "platforms/psp/games/tsuku-monogatari.md",
+      "source_sha": "2735d3e5f6a649cbefd92caafecfb8c3f9baff08",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "つくものがたり",
+      "english_title": "Tsuku Monogatari",
+      "title_ko": "츠쿠모노가타리",
+      "title": "Tsuku Monogatari (츠쿠모노가타리)"
+    },
+    {
+      "key": "platforms/psp/games/tsuyo-kiss-3-gakki-portable.md",
+      "source_sha": "9fa70f03aa4ff239fda602361add7818600a5161",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "つよきす3学期 Portable",
+      "english_title": "Tsuyo Kiss 3 Gakki Portable",
+      "title_ko": "츠요키스 3학기 Portable",
+      "title": "Tsuyo Kiss 3 Gakki Portable (츠요키스 3학기 Portable)"
+    },
+    {
+      "key": "platforms/psp/games/twelve-sengoku-fuushinden.md",
+      "source_sha": "4ac43e67400e9266cba2f894baf021a3091bddf2",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "Twelve ～戦国封神伝～",
+      "english_title": "Twelve: Sengoku Fuushinden",
+      "title_ko": "트웰브 전국봉신전",
+      "title": "Twelve: Sengoku Fuushinden (트웰브 전국봉신전)"
+    },
+    {
+      "key": "platforms/psp/games/twinkle-crusaders-gogo.md",
+      "source_sha": "0127b52b617d886bf9bfc9c5adf6ad69ca4b2003",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "ティンクル☆くるせいだーす GoGo!",
+      "english_title": "Twinkle Crusaders GoGo!",
+      "title_ko": "트윙클☆크루세이더스 GoGo!",
+      "title": "Twinkle Crusaders GoGo! (트윙클☆크루세이더스 GoGo!)"
+    },
+    {
+      "key": "platforms/psp/games/twinkle-crusaders-starlit-brave.md",
+      "source_sha": "6e0b96ea54f9162aa2445a4433f22696c84db59c",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "ティンクル☆くるせいだーす GoGo！ STARLIT BRAVE!!",
+      "english_title": "Twinkle Crusaders STARLIT BRAVE!!",
+      "title_ko": "트윙클☆크루세이더스 STARLIT BRAVE!!",
+      "title": "Twinkle Crusaders STARLIT BRAVE!! (트윙클☆크루세이더스 STARLIT BRAVE!!)"
+    },
+    {
+      "key": "platforms/psp/games/unchainblades-exxiv.md",
+      "source_sha": "6681f74dbe61e5248a99f6943851ea65bd8d0331",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "アンチェインブレイズ エクシヴ",
+      "english_title": "UnchainBlades EXXiV",
+      "title_ko": "언체인 블레이즈 엑시브",
+      "title": "UnchainBlades EXXiV (언체인 블레이즈 엑시브)"
+    },
+    {
+      "key": "platforms/psp/games/unchainblades-rexx.md",
+      "source_sha": "2b51ee4edbfbc673902669fcbed34b2006466732",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "アンチェインブレイズ レクス",
+      "english_title": "UnchainBlades ReXX",
+      "title_ko": "언체인 블레이즈 렉스",
+      "title": "UnchainBlades ReXX (언체인 블레이즈 렉스)"
+    },
+    {
+      "key": "platforms/psp/games/wand-of-fortune-mirai-e-no-prologue-portable.md",
+      "source_sha": "fd0fa1de2230c26e5d3ad214a73b6c67158888a7",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "ワンド オブ フォーチュン ～未来へのプロローグ～ ポータブル",
+      "english_title": "Wand of Fortune: Mirai e no Prologue Portable",
+      "title_ko": "완드 오브 포츈 ~미래로의 프롤로그~ 포터블",
+      "title": "Wand of Fortune: Mirai e no Prologue Portable (완드 오브 포츈 ~미래로의 프롤로그~ 포터블)"
+    },
+    {
+      "key": "platforms/psp/games/weiss-schwarz-portable-boost-schwarz.md",
+      "source_sha": "b1ecc29f8e727679126c374a20a695cafa4a003c",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "ヴァイスシュヴァルツ ポータブル ブーストシュヴァルツ",
+      "english_title": "Weiss Schwarz Portable: Boost Schwarz",
+      "title_ko": "바이스 슈바르츠 포터블: 부스트 슈바르츠",
+      "title": "Weiss Schwarz Portable: Boost Schwarz (바이스 슈바르츠 포터블: 부스트 슈바르츠)"
+    },
+    {
+      "key": "platforms/psp/games/wild-arms-xf.md",
+      "source_sha": "8f4a351d45d034e91808a3a8e66fb05114ee0131",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "ワイルドアームズ クロスファイア",
+      "english_title": "Wild ARMs XF",
+      "title_ko": "와일드 암즈 크로스 파이어",
+      "title": "Wild ARMs XF (와일드 암즈 크로스 파이어)"
+    },
+    {
+      "key": "platforms/psp/games/yoake-mae-yori-ruriiro-na-portable.md",
+      "source_sha": "09df3ce38973dd81794c690d356d793908858de1",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "夜明け前より瑠璃色な PORTABLE",
+      "english_title": "Yoake Mae Yori Ruriiro na Portable",
+      "title_ko": "새벽녘보다 유리색인 PORTABLE",
+      "title": "Yoake Mae Yori Ruriiro na Portable (새벽녘보다 유리색인 PORTABLE)"
+    },
+    {
+      "key": "platforms/psp/games/your-diary-plus.md",
+      "source_sha": "df144e44c626db318e1dd141f2834a48a19d3fff",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "ユアダイアリープラス",
+      "english_title": "your diary+",
+      "title_ko": "유어 다이어리+",
+      "title": "your diary+ (유어 다이어리+)"
+    },
+    {
+      "key": "platforms/psp/games/zettai-meikyuu-grimm-nanatsu-no-kagi-to-rakuen-no-otome.md",
+      "source_sha": "8b8502cfd9f983418508ff47b21ec2d37107191e",
+      "platform": "PLAYSTATION PORTABLE (PSP)",
+      "product_id": "",
+      "original": "絶対迷宮グリム ～七つの鍵と楽園の乙女～",
+      "english_title": "Zettai Meikyuu Grimm: Nanatsu no Kagi to Rakuen no Otome",
+      "title_ko": "절대미궁 그림 ~일곱 개의 열쇠와 낙원의 소녀~",
+      "title": "Zettai Meikyuu Grimm: Nanatsu no Kagi to Rakuen no Otome (절대미궁 그림 ~일곱 개의 열쇠와 낙원의 소녀~)"
+    },
+    {
+      "key": "platforms/psp/games/zhp-unlosing-ranger-vs-darkdeath-evilman.md",
+      "source_sha": "663e26e5efee5c20eef7de0f1b70a03ed23dfcbd",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "絶対ヒーロー改造計画",
+      "english_title": "Z.H.P. Unlosing Ranger vs. Darkdeath Evilman",
+      "title_ko": "절대 히어로 개조계획",
+      "title": "Z.H.P. Unlosing Ranger vs. Darkdeath Evilman (절대 히어로 개조계획)"
+    },
+    {
+      "key": "platforms/psvita/games/air.md",
+      "source_sha": "11cbae5f29207f15413fbe7fb0cfa765fe485586",
+      "platform": "PLAYSTATION VITA / PS VITA TV",
+      "product_id": "",
+      "original": "AIR",
+      "english_title": "AIR",
+      "title_ko": "에어",
+      "title": "AIR (에어)"
+    },
+    {
+      "key": "platforms/psvita/games/ar-nosurge-plus-ode-to-an-unborn-star.md",
+      "source_sha": "96b8c90c5d1e4d195313aa83585aa773f503acf9",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "アルノサージュ PLUS ～生まれいずる星へ祈る詩～",
+      "english_title": "Ar nosurge Plus: Ode to an Unborn Star",
+      "title_ko": "알 노서지 플러스: 태어나는 별에 기도하는 시. 국내 통용은 알노서지 / 아르 노서지 등 표기가 혼재해 원제를 함께 병기",
+      "title": "Ar nosurge Plus: Ode to an Unborn Star (알 노서지 플러스: 태어나는 별에 기도하는 시)"
+    },
+    {
+      "key": "platforms/psvita/games/arcana-heart-3-love-max.md",
+      "source_sha": "3ac5e8cd81644ba3e7c7322f80d85542be71f20a",
+      "platform": "이번 평가: PS VITA. PS3 동시 이식 및 후발 WINDOWS판 존재",
+      "product_id": "",
+      "original": "アルカナハート3 LOVE MAX!!!!!",
+      "english_title": "Arcana Heart 3: LOVE MAX!!!!!",
+      "title_ko": "알카나 하트 3 러브 맥스!!!!!. Arc System Works 한국어 제품 소개의 표기. 국내에는 아르카나 표기도 사용됨",
+      "title": "Arcana Heart 3: LOVE MAX!!!!! (알카나 하트 3 러브 맥스!!!!!)"
+    },
+    {
+      "key": "platforms/psvita/games/bloodstained-curse-of-the-moon.md",
+      "source_sha": "42b03805678037772589dfe30ed0d2b42a820ec8",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "Bloodstained: Curse of the Moon / ブラッドステインド カース・オブ・ザ・ムーン",
+      "english_title": "Bloodstained: Curse of the Moon",
+      "title_ko": "블러드스테인드: 커스 오브 더 문",
+      "title": "Bloodstained: Curse of the Moon (블러드스테인드: 커스 오브 더 문)"
+    },
+    {
+      "key": "platforms/psvita/games/charade-maniacs.md",
+      "source_sha": "c49d5d1d45edfba20cdabf41f09f06448ded6c7c",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "シャレードマニアクス",
+      "english_title": "Charade Maniacs",
+      "title_ko": "샤레이드 매니악스 (국내 통용 음역)",
+      "title": "Charade Maniacs (샤레이드 매니악스)"
+    },
+    {
+      "key": "platforms/psvita/games/chou-no-doku-hana-no-kusari.md",
+      "source_sha": "3e53f119bfce7adb7ee51f66b4b9e98adbcb4694",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "蝶の毒 華の鎖 ～大正艶恋異聞～",
+      "english_title": "Chō no Doku Hana no Kusari: Taishō Enren Ibun",
+      "title_ko": "나비의 독, 꽃의 사슬: 다이쇼 연연이문 (음역 표기)",
+      "title": "Chō no Doku Hana no Kusari: Taishō Enren Ibun (나비의 독, 꽃의 사슬: 다이쇼 연연이문)"
+    },
+    {
+      "key": "platforms/psvita/games/ciel-nosurge-offline.md",
+      "source_sha": "6b2390e3fed11490f4c1d1110db028d8e9d15e3c",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "シェルノサージュ OFFLINE ～失われた星へ捧ぐ詩～",
+      "english_title": "Ciel Nosurge Offline: Ushinawareta Hoshi e Sasagu Uta",
+      "title_ko": "시엘 노서지 오프라인: 잃어버린 별에 바치는 노래",
+      "title": "Ciel Nosurge Offline: Ushinawareta Hoshi e Sasagu Uta (시엘 노서지 오프라인: 잃어버린 별에 바치는 노래)"
+    },
+    {
+      "key": "platforms/psvita/games/clannad.md",
+      "source_sha": "6a09a157a4b82fb658f5626c1859b911a4f1f568",
+      "platform": "PLAYSTATION VITA / PS VITA TV",
+      "product_id": "",
+      "original": "CLANNAD / クラナド",
+      "english_title": "CLANNAD",
+      "title_ko": "클라나드",
+      "title": "CLANNAD (클라나드)"
+    },
+    {
+      "key": "platforms/psvita/games/code-realize-wintertide-miracles.md",
+      "source_sha": "42529d3501397657dc85e666ac1f732154fcbf9b",
+      "platform": "PLAYSTATION VITA / PS VITA TV",
+      "product_id": "",
+      "original": "Code：Realize ～白銀の奇跡～",
+      "english_title": "Code: Realize ~Wintertide Miracles~",
+      "title_ko": "코드: 리얼라이즈 ~백은의 기적~",
+      "title": "Code: Realize ~Wintertide Miracles~ (코드: 리얼라이즈 ~백은의 기적~)"
+    },
+    {
+      "key": "platforms/psvita/games/croixleur-sigma.md",
+      "source_sha": "9e1e30dd43688ba82626861a15e88cd02ab6aca9",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "クロワルール・シグマ",
+      "english_title": "Croixleur Sigma",
+      "title_ko": "크로와루르 시그마",
+      "title": "Croixleur Sigma (크로와루르 시그마)"
+    },
+    {
+      "key": "platforms/psvita/games/date-a-live-twin-edition-rio-reincarnation.md",
+      "source_sha": "0d334bc83c71a9e4cf9743815f13b948ec740a9d",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "デート・ア・ライブ Twin Edition 凜緒リンカーネイション",
+      "english_title": "Date A Live Twin Edition: Rio Reincarnation",
+      "title_ko": "데이트 어 라이브 트윈 에디션: 리오 리인카네이션",
+      "title": "Date A Live Twin Edition: Rio Reincarnation (데이트 어 라이브 트윈 에디션: 리오 리인카네이션)"
+    },
+    {
+      "key": "platforms/psvita/games/deception-iv-blood-ties.md",
+      "source_sha": "fa7e5be6c37744785a87fb38f574e643626e3fa0",
+      "platform": "이번 평가: PLAYSTATION VITA. PS3 동시 발매",
+      "product_id": "",
+      "original": "影牢 ～ダークサイド プリンセス～",
+      "english_title": "Deception IV: Blood Ties",
+      "title_ko": "영뢰: 다크사이드 프린세스. 2014년 국내 정식 발매 기사에서 사용된 제목",
+      "title": "Deception IV: Blood Ties (영뢰: 다크사이드 프린세스)"
+    },
+    {
+      "key": "platforms/psvita/games/demon-gaze-ii.md",
+      "source_sha": "73566fe4ae8a78635ffd19611c33213e463340ff",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "デモンゲイズ2",
+      "english_title": "Demon Gaze II",
+      "title_ko": "데몬 게이즈 2",
+      "title": "Demon Gaze II (데몬 게이즈 2)"
+    },
+    {
+      "key": "platforms/psvita/games/dungeon-travelers-2.md",
+      "source_sha": "00affd54016beebd101cd73a9c94db8d3ba54f1d",
+      "platform": "이번 평가: PS VITA. PSP 원작과 후발 WINDOWS판 존재",
+      "product_id": "",
+      "original": "ダンジョントラベラーズ2 王立図書館とマモノの封印",
+      "english_title": "Dungeon Travelers 2: The Royal Library & the Monster Seal",
+      "title_ko": "던전 트래블러즈 2: 왕립도서관과 마물의 봉인. 국내 사용례를 따른 표기이며 공식 한국어판 제목이라는 뜻은 아님",
+      "title": "Dungeon Travelers 2: The Royal Library & the Monster Seal (던전 트래블러즈 2: 왕립도서관과 마물의 봉인)"
+    },
+    {
+      "key": "platforms/psvita/games/fate-hollow-ataraxia.md",
+      "source_sha": "3aa198b4f5ba8ed5f87c298cfb1ecb3eac9cdd4c",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "Fate/hollow ataraxia / フェイト/ホロウ アタラクシア",
+      "english_title": "Fate/hollow ataraxia",
+      "title_ko": "페이트/할로우 아타락시아. 국내 팬덤의 장기 통용 표기를 사용",
+      "title": "Fate/hollow ataraxia (페이트/할로우 아타락시아)"
+    },
+    {
+      "key": "platforms/psvita/games/fernz-gate.md",
+      "source_sha": "6f6941ccda1fa99229001f6fc459ee59fb3e40ca",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "フェルンズゲート",
+      "english_title": "Fernz Gate",
+      "title_ko": "펀즈 게이트 (국내 통용 표기 확인이 뚜렷하지 않아 자연스러운 음역 사용)",
+      "title": "Fernz Gate (펀즈 게이트)"
+    },
+    {
+      "key": "platforms/psvita/games/genkai-tokki-seven-pirates.md",
+      "source_sha": "69b2bf4e67d9d5577cffaa7e18e3a4298695926a",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "限界凸旗 セブンパイレーツ",
+      "english_title": "Genkai Tokki: Seven Pirates",
+      "title_ko": "한계돌기 세븐 파이러츠",
+      "title": "Genkai Tokki: Seven Pirates (한계돌기 세븐 파이러츠)"
+    },
+    {
+      "key": "platforms/psvita/games/golden-time-vivid-memories.md",
+      "source_sha": "7449f825d609bbc5dede538c4a62383be4b57b4d",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "ゴールデンタイム Vivid Memories",
+      "english_title": "Golden Time: Vivid Memories",
+      "title_ko": "골든 타임 Vivid Memories / 골든 타임 비비드 메모리즈",
+      "title": "Golden Time: Vivid Memories (골든 타임 Vivid Memories)"
+    },
+    {
+      "key": "platforms/psvita/games/haiyore-nyaruko-san-meijoushigatai-game-no-you-na-mono.md",
+      "source_sha": "0ecbf6239afd29b4ca240d261792cb307f9afd26",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "這いよれ！ニャル子さん 名状しがたいゲームのようなもの",
+      "english_title": "Haiyore! Nyaruko-San: Meijoushigatai Game no You na Mono",
+      "title_ko": "기어와라! 냐루코 양: 이름 붙이기 힘든 게임 같은 것",
+      "title": "Haiyore! Nyaruko-San: Meijoushigatai Game no You na Mono (기어와라! 냐루코 양: 이름 붙이기 힘든 게임 같은 것)"
+    },
+    {
+      "key": "platforms/psvita/games/hyperdimension-neptunia-rebirth1.md",
+      "source_sha": "e9e5333f2aa8a6fb34d0b8b8f1bac04f59b74bc4",
+      "platform": "이번 평가: PS VITA. PS3 원작을 리메이크했으며 PC·PS4·PS5·SWITCH 계열 후발판이 있음",
+      "product_id": "",
+      "original": "超次次元ゲイム ネプテューヌRe;Birth1",
+      "english_title": "Hyperdimension Neptunia Re;Birth1",
+      "title_ko": "초차차원게임 넵튠 Re;Birth1. CFK 공식 한국어판 표기",
+      "title": "Hyperdimension Neptunia Re;Birth1 (초차차원게임 넵튠 Re;Birth1)"
+    },
+    {
+      "key": "platforms/psvita/games/hyperdimension-neptunia-rebirth2.md",
+      "source_sha": "7bd57cdf4cacd02b4cdbc7d870b10823ab7acf65",
+      "platform": "이번 평가: PLAYSTATION VITA / PLAYSTATION TV 대응",
+      "product_id": "",
+      "original": "超次次元ゲイム ネプテューヌRe;Birth2 SISTERS GENERATION",
+      "english_title": "Hyperdimension Neptunia Re;Birth2: Sisters Generation",
+      "title_ko": "초차차원게임 넵튠 Re;Birth2 SISTERS GENERATION. CFK 국내 정식 발매 표기",
+      "title": "Hyperdimension Neptunia Re;Birth2: Sisters Generation (초차차원게임 넵튠 Re;Birth2 SISTERS GENERATION)"
+    },
+    {
+      "key": "platforms/psvita/games/hyperdimension-neptunia-rebirth3.md",
+      "source_sha": "946b28e4286bf7ee6c28559d18e310c58c928655",
+      "platform": "이번 평가: PS VITA. PS3 《신차원게임 넵튠 V / HYPERDIMENSION NEPTUNIA VICTORY》의 리메이크이며 후발 PC·SWITCH·PS4판 존재",
+      "product_id": "",
+      "original": "神次次元ゲイム ネプテューヌRe;Birth3 V CENTURY",
+      "english_title": "Hyperdimension Neptunia Re;Birth3: V Generation",
+      "title_ko": "신차차원게임 넵튠 Re;Birth3 V CENTURY. 국내 정식 발매명",
+      "title": "Hyperdimension Neptunia Re;Birth3: V Generation (신차차원게임 넵튠 Re;Birth3 V CENTURY)"
+    },
+    {
+      "key": "platforms/psvita/games/ia-vt-colorful.md",
+      "source_sha": "b6d72ff505f33b3b16c249bf6413f08108b86ccc",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "IA/VT -COLORFUL-",
+      "english_title": "IA/VT Colorful",
+      "title_ko": "이아/VT 컬러풀. 국내 우세 표기를 확정하지 못해 음역 사용. 정식 한국어판 제목이라는 의미는 아님",
+      "title": "IA/VT Colorful (이아/VT 컬러풀)"
+    },
+    {
+      "key": "platforms/psvita/games/island.md",
+      "source_sha": "e50983013562994ed31597d87e9ca73af850baca",
+      "platform": "PLAYSTATION VITA / PS VITA TV",
+      "product_id": "",
+      "original": "ISLAND / アイランド",
+      "english_title": "ISLAND",
+      "title_ko": "아일랜드",
+      "title": "ISLAND (아일랜드)"
+    },
+    {
+      "key": "platforms/psvita/games/kantai-collection-kai.md",
+      "source_sha": "58d5e1935375b8ece429baa1c17b0b425b5db27c",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "艦これ改",
+      "english_title": "Kantai Collection Kai",
+      "title_ko": "칸코레 개",
+      "title": "Kantai Collection Kai (칸코레 개)"
+    },
+    {
+      "key": "platforms/psvita/games/lost-dimension.md",
+      "source_sha": "f6dab37481d0f69e7073b820686e43cad9e4388f",
+      "platform": "PS VITA. PS3 동시 발매작이며 WINDOWS 후발 이식이 있음",
+      "product_id": "",
+      "original": "ロストディメンション",
+      "english_title": "Lost Dimension",
+      "title_ko": "로스트 디멘션. 영문 제목의 음역이며 국내 통용 표기 우세는 확인하지 못함",
+      "title": "Lost Dimension (로스트 디멘션)"
+    },
+    {
+      "key": "platforms/psvita/games/malicious-rebirth.md",
+      "source_sha": "b28d603eb98def10847364f51e2b1d01836116f4",
+      "platform": "이번 평가: PLAYSTATION VITA / PS VITA TV 대응",
+      "product_id": "",
+      "original": "MALICIOUS REBIRTH / マリシアス リバース",
+      "english_title": "Malicious Rebirth",
+      "title_ko": "말리셔스 리버스",
+      "title": "Malicious Rebirth (말리셔스 리버스)"
+    },
+    {
+      "key": "platforms/psvita/games/miracle-girls-festival.md",
+      "source_sha": "ac0a8d364fbe07153c6966b31ec6783cdcdb5651",
+      "platform": "PLAYSTATION VITA / PS VITA TV 대응",
+      "product_id": "",
+      "original": "ミラクルガールズフェスティバル",
+      "english_title": "MIRACLE GIRLS FESTIVAL",
+      "title_ko": "미라클 걸즈 페스티벌. 국내 게임 DB·위키에서 확인되는 통용 표기",
+      "title": "MIRACLE GIRLS FESTIVAL (미라클 걸즈 페스티벌)"
+    },
+    {
+      "key": "platforms/psvita/games/mobile-suit-gundam-seed-battle-destiny.md",
+      "source_sha": "ef8709a10fcf66ea798a6ab414fe6dc4c9b8a264",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "機動戦士ガンダムSEED BATTLE DESTINY",
+      "english_title": "Mobile Suit Gundam SEED Battle Destiny",
+      "title_ko": "기동전사 건담 SEED BATTLE DESTINY",
+      "title": "Mobile Suit Gundam SEED Battle Destiny (기동전사 건담 SEED BATTLE DESTINY)"
+    },
+    {
+      "key": "platforms/psvita/games/muv-luv-alternative.md",
+      "source_sha": "addbce49c82df4e76f9a22dfb8e304d6c90f79a4",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "マブラヴ オルタネイティヴ",
+      "english_title": "Muv-Luv Alternative",
+      "title_ko": "마브러브 얼터너티브",
+      "title": "Muv-Luv Alternative (마브러브 얼터너티브)"
+    },
+    {
+      "key": "platforms/psvita/games/muv-luv.md",
+      "source_sha": "7a4958e73c49e41bf044e332783da99fa9336bf9",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "マブラヴ",
+      "english_title": "Muv-Luv",
+      "title_ko": "마브러브",
+      "title": "Muv-Luv (마브러브)"
+    },
+    {
+      "key": "platforms/psvita/games/mystery-chronicle-one-way-heroics.md",
+      "source_sha": "c9da52876bdec02cf18636009b836ddb905747c3",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "不思議のクロニクル 振リ返リマセン勝ツマデハ",
+      "english_title": "Mystery Chronicle: One Way Heroics",
+      "title_ko": "이상한 크로니클",
+      "title": "Mystery Chronicle: One Way Heroics (이상한 크로니클)"
+    },
+    {
+      "key": "platforms/psvita/games/net-high.md",
+      "source_sha": "f3b4d07b85e58fe797319050d1a87dfeab83a584",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "ネットハイ",
+      "english_title": "Net High",
+      "title_ko": "넷 하이 (음역)",
+      "title": "Net High (넷 하이)"
+    },
+    {
+      "key": "platforms/psvita/games/nurse-love-syndrome.md",
+      "source_sha": "350665b13bdc8901744c5d20083d6a8286e72486",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "白衣性恋愛症候群 RE:Therapy",
+      "english_title": "Nurse Love Syndrome",
+      "title_ko": "",
+      "title": "Nurse Love Syndrome (백의성 연애 증후군 RE:Therapy)"
+    },
+    {
+      "key": "platforms/psvita/games/ore-ni-hatarakette-iwaretemo-otsu-hd.md",
+      "source_sha": "1a8f199315d5d795acc098fff9a2c80f98a727fc",
+      "platform": "PLAYSTATION VITA / PS VITA TV 대응",
+      "product_id": "",
+      "original": "俺に働けって言われても 乙 HD",
+      "english_title": "Ore ni Hatarakette Iwaretemo Otsu HD",
+      "title_ko": "오레니 하타라켓테 이와레테모 오츠 HD",
+      "title": "Ore ni Hatarakette Iwaretemo Otsu HD (오레니 하타라켓테 이와레테모 오츠 HD)"
+    },
+    {
+      "key": "platforms/psvita/games/piofiore-no-banshou.md",
+      "source_sha": "9a70985280dad2961abf6e66f53b1e26f6c4efee",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "ピオフィオーレの晩鐘",
+      "english_title": "Piofiore no Banshou / Piofiore: Fated Memories",
+      "title_ko": "피오피오레의 만종",
+      "title": "Piofiore no Banshou / Piofiore: Fated Memories (피오피오레의 만종)"
+    },
+    {
+      "key": "platforms/psvita/games/psychedelica-of-the-ashen-hawk.md",
+      "source_sha": "f72af69fce05112f44cb8eb94b4d95401ef18fea",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "灰鷹のサイケデリカ",
+      "english_title": "Psychedelica of the Ashen Hawk",
+      "title_ko": "잿빛 매의 사이키델리카",
+      "title": "Psychedelica of the Ashen Hawk (잿빛 매의 사이키델리카)"
+    },
+    {
+      "key": "platforms/psvita/games/psychedelica-of-the-black-butterfly.md",
+      "source_sha": "d59954f28c06c14cde25d826aff68bde4ea8470c",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "黒蝶のサイケデリカ",
+      "english_title": "Psychedelica of the Black Butterfly",
+      "title_ko": "검은 나비의 사이키델리카",
+      "title": "Psychedelica of the Black Butterfly (검은 나비의 사이키델리카)"
+    },
+    {
+      "key": "platforms/psvita/games/psycho-pass-mandatory-happiness.md",
+      "source_sha": "ef483036430725a9b8f609be351a73e976308557",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "PSYCHO-PASS サイコパス 選択なき幸福",
+      "english_title": "Psycho-Pass: Mandatory Happiness",
+      "title_ko": "사이코패스: 선택 없는 행복",
+      "title": "Psycho-Pass: Mandatory Happiness (사이코패스: 선택 없는 행복)"
+    },
+    {
+      "key": "platforms/psvita/games/reine-des-fleurs.md",
+      "source_sha": "1368a7cb2cc62cc4c6ca60310e813a35e5a57f76",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "レンドフルール",
+      "english_title": "Reine des Fleurs",
+      "title_ko": "레느 데 플뢰르 (프랑스어 표기 음역)",
+      "title": "Reine des Fleurs (레느 데 플뢰르)"
+    },
+    {
+      "key": "platforms/psvita/games/sorcery-saga-curse-of-the-great-curry-god.md",
+      "source_sha": "24894a3d8982525f54df99eb3789db71d51ab779",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "～聖魔導物語～",
+      "english_title": "Sorcery Saga: Curse of the Great Curry God",
+      "title_ko": "성마도이야기",
+      "title": "Sorcery Saga: Curse of the Great Curry God (성마도이야기)"
+    },
+    {
+      "key": "platforms/psvita/games/summon-night-6-lost-borders.md",
+      "source_sha": "0f550e35bfead400386535107d63275a44c46b39",
+      "platform": "이번 평가: PS VITA. PS4와 동시 발매한 본편 6편",
+      "product_id": "",
+      "original": "サモンナイト6 失われた境界たち",
+      "english_title": "Summon Night 6: Lost Borders",
+      "title_ko": "서몬 나이트 6: 로스트 보더즈. 영문 부제를 음역한 표기이며 공식 한국어판의 존재를 뜻하지 않음",
+      "title": "Summon Night 6: Lost Borders (서몬 나이트 6: 로스트 보더즈)"
+    },
+    {
+      "key": "platforms/psvita/games/superdimension-neptune-vs-sega-hard-girls.md",
+      "source_sha": "9ff017f03372a171e79df77dffcd04f654590725",
+      "platform": "이번 평가: PS VITA / 후발 WINDOWS판 존재",
+      "product_id": "",
+      "original": "超次元大戦 ネプテューヌＶＳセガ・ハード・ガールズ 夢の合体スペシャル",
+      "english_title": "Superdimension Neptune VS Sega Hard Girls",
+      "title_ko": "초차원대전 넵튠 VS 세가 하드 걸즈 꿈의 합체 스페셜. CFK 국내 발매명",
+      "title": "Superdimension Neptune VS Sega Hard Girls (초차원대전 넵튠 VS 세가 하드 걸즈 꿈의 합체 스페셜)"
+    },
+    {
+      "key": "platforms/psvita/games/the-legend-of-dark-witch.md",
+      "source_sha": "12e80f4b52a248cd4b4f89cfed101b4a151da536",
+      "platform": "PLAYSTATION VITA / PS VITA TV",
+      "product_id": "",
+      "original": "魔神少女 -Chronicle 2D ACT-",
+      "english_title": "The Legend of Dark Witch",
+      "title_ko": "마신소녀",
+      "title": "The Legend of Dark Witch (마신소녀)"
+    },
+    {
+      "key": "platforms/psvita/games/the-lost-child.md",
+      "source_sha": "6bafd41e5634458a3b8d65f5de04fbc0066c7e0c",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "The Lost Child / ザ・ロストチャイルド",
+      "english_title": "The Lost Child",
+      "title_ko": "더 로스트 차일드",
+      "title": "The Lost Child (더 로스트 차일드)"
+    },
+    {
+      "key": "platforms/psvita/games/to-love-ru-darkness-true-princess.md",
+      "source_sha": "0bd673d123c58d67686b2d1b06e25bd02d94850c",
+      "platform": "PLAYSTATION VITA / PLAYSTATION VITA TV",
+      "product_id": "",
+      "original": "To LOVEる-とらぶる- ダークネス トゥループリンセス",
+      "english_title": "To Love-Ru Trouble Darkness: True Princess",
+      "title_ko": "투 러브 트러블 다크니스: 트루 프린세스. 원작 국내 표기인 ‘투 러브 트러블 다크니스’를 기준으로 부제를 음역",
+      "title": "To Love-Ru Trouble Darkness: True Princess (투 러브 트러블 다크니스: 트루 프린세스)"
+    },
+    {
+      "key": "platforms/psvita/games/tokushu-houdoubu.md",
+      "source_sha": "2a8182c5057f6917054fc571c1a5dff60a8d2308",
+      "platform": "PLAYSTATION VITA / PS VITA TV",
+      "product_id": "",
+      "original": "特殊報道部",
+      "english_title": "Tokushu Houdoubu",
+      "title_ko": "특수보도부",
+      "title": "Tokushu Houdoubu (특수보도부)"
+    },
+    {
+      "key": "platforms/psvita/games/tokyo-twilight-ghost-hunters.md",
+      "source_sha": "c904a45a24c7681d91810b427d2d8900cfbfaf15",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "魔都紅色幽撃隊",
+      "english_title": "Tokyo Twilight Ghost Hunters",
+      "title_ko": "마도홍색유격대",
+      "title": "Tokyo Twilight Ghost Hunters (마도홍색유격대)"
+    },
+    {
+      "key": "platforms/psvita/games/xblaze-code-embryo.md",
+      "source_sha": "1a84626cab308cd92c08b1d65e59e1703660a64b",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "エクスブレイズ コード：エンブリオ",
+      "english_title": "XBlaze Code: Embryo",
+      "title_ko": "엑스블레이즈 코드: 엠브리오",
+      "title": "XBlaze Code: Embryo (엑스블레이즈 코드: 엠브리오)"
+    },
+    {
+      "key": "platforms/psvita/games/xenon-valkyrie-plus.md",
+      "source_sha": "f80e03c9b59eaf492088e12e80fce2d5e986ac04",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "",
+      "english_title": "Xenon Valkyrie+",
+      "title_ko": "제논 발키리+",
+      "title": "Xenon Valkyrie+ (제논 발키리+)"
+    },
+    {
+      "key": "platforms/psvita/games/yahari-game-demo-ore-no-seishun-love-come-wa-machigatteiru-zoku.md",
+      "source_sha": "61c9749d893f0ae0934a244e7adfe79749c14c36",
+      "platform": "이번 평가: PLAYSTATION VITA / PS VITA TV 대응",
+      "product_id": "",
+      "original": "やはりゲームでも俺の青春ラブコメはまちがっている。続",
+      "english_title": "Yahari Game demo Ore no Seishun Love Come wa Machigatteiru. Zoku",
+      "title_ko": "역시 게임에서도 내 청춘 러브코메디는 잘못됐다. 속",
+      "title": "Yahari Game demo Ore no Seishun Love Come wa Machigatteiru. Zoku (역시 게임에서도 내 청춘 러브코메디는 잘못됐다. 속)"
+    },
+    {
+      "key": "platforms/psvita/games/yuuki-yuuna-wa-yuusha-de-aru-jukai-no-kioku.md",
+      "source_sha": "0cd3e8b42a51142e80ef523993b010441a092a8f",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "結城友奈は勇者である 樹海の記憶",
+      "english_title": "Yuuki Yuuna wa Yuusha de Aru: Jukai no Kioku",
+      "title_ko": "유우키 유우나는 용사다 수해의 기억",
+      "title": "Yuuki Yuuna wa Yuusha de Aru: Jukai no Kioku (유우키 유우나는 용사다 수해의 기억)"
+    },
+    {
+      "key": "platforms/psvita/games/zanki-zero.md",
+      "source_sha": "5c8604240dc3780729d145f1e403347073dc86b1",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "ザンキゼロ",
+      "english_title": "Zanki Zero: Last Beginning",
+      "title_ko": "잔키 제로",
+      "title": "Zanki Zero: Last Beginning (잔키 제로)"
+    },
+    {
+      "key": "platforms/psvita/games/zero-escape-the-nonary-games.md",
+      "source_sha": "b6d7b2c43d188dc8b648a46050b4691b640233a5",
+      "platform": "이번 평가: PLAYSTATION VITA / PS VITA TV",
+      "product_id": "",
+      "original": "",
+      "english_title": "Zero Escape: The Nonary Games",
+      "title_ko": "제로 이스케이프: 더 노나리 게임즈",
+      "title": "Zero Escape: The Nonary Games (제로 이스케이프: 더 노나리 게임즈)"
+    }
+  ]
+}
