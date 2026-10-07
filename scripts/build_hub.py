@@ -13,6 +13,7 @@ import re
 import sys
 import tempfile
 import time
+import unicodedata
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.error import HTTPError, URLError
@@ -33,6 +34,7 @@ else:
     from readme_metadata import parse_readme, merge_scope
 
 OWNER = "Dollars-Archive"
+DISCOVERY_REPO = "Game-Localization-Discovery-Archive"
 API = "https://api.github.com"
 PROFILE_URL = f"https://github.com/{OWNER}"
 HUB_URL = f"https://dollars-archive.github.io/{OWNER}/"
@@ -103,13 +105,13 @@ class GitHubClient:
         self.token = token or os.environ.get("GITHUB_TOKEN")
         self.activity_exclusions = json.loads((Path(__file__).with_name("activity-exclusions.json")).read_text(encoding="utf-8"))
 
-    def get(self, url: str, allow_404: bool = False) -> tuple[object, str | None]:
+    def get(self, url: str, allow_404: bool = False, authenticated: bool = True) -> tuple[object, str | None]:
         if url.startswith("/"):
             url = API + url
         if urlparse(url).netloc != "api.github.com" or urlparse(url).scheme != "https":
             raise BuildError("GitHub API 이외의 URL로 인증 요청을 보내지 않습니다.")
         headers = {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28", "User-Agent": "Dollars-Archive-patch-hub"}
-        if self.token:
+        if self.token and authenticated:
             headers["Authorization"] = "Bearer " + self.token
         for attempt in range(3):
             try:
@@ -177,6 +179,33 @@ class GitHubClient:
             raise BuildError('공략집 목록 형식이 잘못되었습니다.')
         return guides
 
+    def discovery_tree(self) -> dict:
+        data, _ = self.get(f"/repos/{OWNER}/{DISCOVERY_REPO}/git/trees/main?recursive=1", authenticated=False)
+        if not isinstance(data, dict) or not isinstance(data.get("tree"), list) or not isinstance(data.get("sha"), str):
+            raise BuildError("발굴 아카이브 트리 응답 형식이 잘못되었습니다.")
+        if data.get("truncated"):
+            raise BuildError("발굴 아카이브 트리가 잘려 있어 자동 매칭을 중단합니다.")
+        return data
+
+    def discovery_text(self, path: str) -> str:
+        url = f"https://raw.githubusercontent.com/{OWNER}/{DISCOVERY_REPO}/main/{quote(path, safe='/')}"
+        request = Request(url, headers={"User-Agent": "Dollars-Archive-patch-hub"})
+        for attempt in range(3):
+            try:
+                with urlopen(request, timeout=30) as response:
+                    return response.read().decode("utf-8-sig")
+            except HTTPError as exc:
+                if exc.code in {429, 500, 502, 503, 504} and attempt < 2:
+                    time.sleep(2 ** attempt)
+                    continue
+                raise BuildError(f"발굴 문서 요청 실패: HTTP {exc.code}, {path}") from exc
+            except (URLError, TimeoutError, UnicodeError) as exc:
+                if attempt < 2:
+                    time.sleep(2 ** attempt)
+                    continue
+                raise BuildError(f"발굴 문서 네트워크 오류: {path}") from exc
+        raise BuildError("발굴 문서 재시도 실패")
+
     def activity_date(self, repo: dict) -> str:
         """Exclude only a recorded maintenance push; subsequent pushes still count."""
         record = self.activity_exclusions.get(repo["name"])
@@ -242,6 +271,138 @@ def patch_warnings(patch: dict, readme: str, has_metadata: bool, now: datetime) 
     return result
 
 
+
+def _clean_discovery_cell(value: str) -> str:
+    value = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", str(value))
+    return html.unescape(re.sub(r"<[^>]+>", "", value).replace("**", "").replace(chr(96), "").replace(r"\|", "|")).strip()
+
+
+def _markdown_info_table(text: str) -> dict:
+    lines = text.splitlines()
+    for index, line in enumerate(lines):
+        if not line.strip().startswith("|"):
+            continue
+        cells = [part.strip() for part in re.split(r"(?<!\\)\|", line.strip().strip("|"))]
+        if cells != ["항목", "내용"]:
+            continue
+        result = {}
+        for row in lines[index + 2:]:
+            if not row.strip().startswith("|"):
+                break
+            parts = [part.strip() for part in re.split(r"(?<!\\)\|", row.strip().strip("|"))]
+            if len(parts) != 2:
+                continue
+            key, value = map(_clean_discovery_cell, parts)
+            if key and key not in result:
+                result[key] = value
+        return result
+    return {}
+
+
+def _platform_code(value: str) -> str:
+    normalized = re.sub(r"[^a-z0-9]+", "", unicodedata.normalize("NFKC", str(value)).lower())
+    aliases = {
+        "playstation2": "PS2", "ps2": "PS2",
+        "playstation3": "PS3", "ps3": "PS3",
+        "playstationportable": "PSP", "psp": "PSP",
+        "playstationvita": "PSVITA", "psvita": "PSVITA", "vita": "PSVITA",
+    }
+    return aliases.get(normalized, str(value).strip().upper())
+
+
+def _normalize_product(value: str) -> str:
+    return re.sub(r"[^A-Z0-9]+", "", unicodedata.normalize("NFKC", str(value)).upper())
+
+
+def _normalize_title(value: str) -> str:
+    return re.sub(r"[\W_]+", "", unicodedata.normalize("NFKC", str(value)).lower(), flags=re.UNICODE)
+
+
+def _title_variants(value: str) -> set[str]:
+    if not value:
+        return set()
+    pieces = [value, *re.split(r"\s*(?:/|／|\|)\s*", value)]
+    return {normalized for piece in pieces if (normalized := _normalize_title(piece))}
+
+
+def parse_discovery_document(path: str, text: str, source_sha: str) -> dict:
+    info = _markdown_info_table(text)
+    heading = re.search(r"^#\s+(.+?)\s*$", text, re.MULTILINE)
+    full_title = _clean_discovery_cell(heading.group(1)) if heading else ""
+    english_title = re.sub(r"\s*\([^)]*\)\s*$", "", full_title).strip()
+    platform_from_path = path.split("/")[1] if path.startswith("platforms/") else ""
+    platform = _platform_code(info.get("플랫폼") or platform_from_path)
+    return {
+        "key": path,
+        "source_sha": source_sha,
+        "platform": platform,
+        "product_id": info.get("제품번호") or info.get("제품 번호") or info.get("Title ID") or "",
+        "original": info.get("원제", ""),
+        "english_title": english_title,
+        "title_ko": info.get("한글 제목", ""),
+        "title": full_title,
+    }
+
+
+def load_discovery_index(root: Path, client) -> dict:
+    path = root / "docs/data/discovery-index.json"
+    old = {}
+    if path.exists():
+        try:
+            old = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, ValueError, TypeError):
+            old = {}
+    old_games = {
+        game.get("key"): game for game in old.get("games", [])
+        if isinstance(game, dict) and isinstance(game.get("key"), str)
+    }
+    tree = client.discovery_tree()
+    entries = [
+        item for item in tree["tree"]
+        if item.get("type") == "blob" and re.fullmatch(r"platforms/[^/]+/games/[^/]+\.md", item.get("path", ""))
+    ]
+    games = []
+    for entry in entries:
+        previous = old_games.get(entry["path"])
+        if previous and previous.get("source_sha") == entry.get("sha"):
+            games.append(previous)
+            continue
+        games.append(parse_discovery_document(entry["path"], client.discovery_text(entry["path"]), entry.get("sha", "")))
+    games.sort(key=lambda game: game["key"])
+    return {"version": 1, "tree_sha": tree["sha"], "games": games}
+
+
+def match_discovery(patch: dict, meta: dict, discovery_index: dict) -> tuple[str, str]:
+    games = [game for game in discovery_index.get("games", []) if isinstance(game, dict)]
+    by_key = {game.get("key"): game for game in games}
+    manual = meta.get("discovery", "").strip()
+    if manual:
+        return (manual, "manual") if manual in by_key else ("", "none")
+
+    product_id = _normalize_product(patch.get("product_id", ""))
+    if product_id:
+        matches = [game for game in games if _normalize_product(game.get("product_id", "")) == product_id]
+        if len(matches) == 1:
+            return matches[0]["key"], "product_id"
+        if len(matches) > 1:
+            return "", "none"
+
+    platforms = {_platform_code(value) for value in patch.get("platforms", []) if value}
+    if not platforms:
+        return "", "none"
+    source_title = patch.get("original") or patch.get("title") or patch.get("description") or ""
+    wanted = _title_variants(source_title)
+    if not wanted:
+        return "", "none"
+    matches = []
+    for game in games:
+        if _platform_code(game.get("platform", "")) not in platforms:
+            continue
+        candidates = _title_variants(game.get("original", "")) | _title_variants(game.get("english_title", ""))
+        if wanted & candidates:
+            matches.append(game)
+    return (matches[0]["key"], "title") if len(matches) == 1 else ("", "none")
+
 def build_patch(repo: dict, meta: dict, releases: list[dict], check_guide) -> dict:
     published = [r for r in releases if not r.get("draft")]
     patches = sorted([r for r in published if is_patch_release(r)], key=lambda r: (r.get("published_at") or r.get("created_at") or "", r["tag_name"]), reverse=True)
@@ -289,7 +450,7 @@ def build_patch(repo: dict, meta: dict, releases: list[dict], check_guide) -> di
     }
 
 
-def collect(client, metadata: dict, now: datetime, check_guide=guide_status) -> dict:
+def collect(client, metadata: dict, now: datetime, check_guide=guide_status, discovery_index: dict | None = None) -> dict:
     patches, related, warnings = [], [], []
     walkthroughs = client.walkthroughs() if hasattr(client, 'walkthroughs') else []
     repos = sorted(client.repositories(), key=lambda r: r["name"].lower())
@@ -307,6 +468,10 @@ def collect(client, metadata: dict, now: datetime, check_guide=guide_status) -> 
             meta = {**meta, **readme_meta}
             warnings.extend(form_warnings)
             patch = build_patch(repo, meta, releases, check_guide)
+            if discovery_index is not None:
+                patch["discovery"], patch["discovery_match"] = match_discovery(patch, meta, discovery_index)
+                if patch["discovery_match"] == "none":
+                    warnings.append(warning(name, "discovery-unmatched", "발굴 아카이브 자동 매칭에 실패했습니다."))
             patch['walkthroughs'] = [g for g in walkthroughs if g['patch_repo'] == name]
             activity = client.activity_date(repo) if hasattr(client, "activity_date") else repo["pushed_at"]
             published = (patch["latest_release"] or {}).get("published_at")
@@ -349,6 +514,17 @@ def collect(client, metadata: dict, now: datetime, check_guide=guide_status) -> 
             related.append({"repo": name, "title": RELATED_TITLES.get(name, name), "url": url, "desc": repo.get("description") or ""})
             if not repo.get("description"):
                 warnings.append(warning(name, "no-description", "관련 저장소 description이 비어 있습니다."))
+    if discovery_index is not None:
+        matched = {}
+        for patch in patches:
+            key = patch.get("discovery")
+            if key:
+                matched.setdefault(key, []).append(patch["repo"])
+        for key, names in matched.items():
+            if len(names) > 1:
+                for name in names:
+                    warnings.append(warning(name, "discovery-conflict", f"{key}에 여러 패치 저장소가 매칭되었습니다: {', '.join(names)}"))
+
     # Tie-breaking makes ordering reproducible even when API order changes.
     if any(repo['name'] == 'Game-Walkthrough-Archive' for repo in repos):
         related.append({'repo': 'Game-Walkthrough-Archive', 'title': '직접 제작한 공략집 모음',
@@ -509,11 +685,16 @@ def main(argv=None, client=None, now=None, check_guide=guide_status) -> int:
     try:
         root = args.root.resolve()
         metadata = load_metadata(root / "patches.yml")
-        data = collect(client or GitHubClient(), metadata, now or datetime.now(timezone.utc), check_guide)
+        gh = client or GitHubClient()
+        discovery_index = load_discovery_index(root, gh) if hasattr(gh, "discovery_tree") and hasattr(gh, "discovery_text") else None
+        data = collect(gh, metadata, now or datetime.now(timezone.utc), check_guide, discovery_index)
+        discovery_outputs = {}
+        if discovery_index is not None:
+            discovery_outputs[root / "docs/data/discovery-index.json"] = (json.dumps(discovery_index, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
         download_outputs = plan_downloads(root, data)
         cover_outputs = plan_covers(root, data, metadata, args.refresh_covers)
         # All API collection and generation must succeed before any output is touched.
-        outputs = {**download_outputs, **cover_outputs, **planned_outputs(root, data)}
+        outputs = {**download_outputs, **cover_outputs, **planned_outputs(root, data), **discovery_outputs}
         changed = [p for p, content in outputs.items() if not p.exists() or p.read_bytes() != content]
         print(json.dumps(data["summary"], ensure_ascii=False))
         for w in data["warnings"]:
