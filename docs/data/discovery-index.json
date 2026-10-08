@@ -1,7 +1,17 @@
 {
   "version": 1,
-  "tree_sha": "47f6758252d793476892eea3a6bef769135c0e8e",
+  "tree_sha": "41c608959ed3fa8b7ad0fafeedb4f0c7a3c7cc53",
   "games": [
+    {
+      "key": "platforms/dreamcast/games/sister-princess-premium-edition.md",
+      "source_sha": "6268c397f32efcb3ea3c653050b61ed4c13eac4f",
+      "platform": "DREAMCAST",
+      "product_id": "",
+      "original": "シスター・プリンセス プレミアム・エディション",
+      "english_title": "Sister Princess Premium Edition",
+      "title_ko": "시스터 프린세스 프리미엄 에디션",
+      "title": "Sister Princess Premium Edition (시스터 프린세스 프리미엄 에디션)"
+    },
     {
       "key": "platforms/dreamcast/games/tantei-shinshi-dash.md",
       "source_sha": "98ee9453648b8ca882df57a1940d105c5eb2b77b",
@@ -1644,17 +1654,17 @@
     },
     {
       "key": "platforms/psp/games/arcana-famiglia-vascello-phantasma-no-majutsushi.md",
-      "source_sha": "f95b0e1aab8c5707ec9de7c78c569da280a9aec0",
+      "source_sha": "b8ea325e0a505fdcb77637dd6db0cf7788ff7db5",
       "platform": "PSP",
       "product_id": "",
-      "original": "アルカナ・ファミリア -幽霊船の魔術師-",
+      "original": "アルカナ・ファミリア 幽霊船（ヴァスチェロ・ファンタズマ）の魔術師",
       "english_title": "Arcana Famiglia: Vascello Phantasma no Majutsushi",
-      "title_ko": "아르카나 파밀리아 유령선의 마술사",
+      "title_ko": "아르카나 파밀리아 유령선의 마술사. 국내 자료의 ‘아르카나 패밀리아’ 표기도 함께 검색",
       "title": "Arcana Famiglia: Vascello Phantasma no Majutsushi (아르카나 파밀리아 유령선의 마술사)"
     },
     {
       "key": "platforms/psp/games/armen-noir-portable.md",
-      "source_sha": "476347a8d1eddf5b96e093c0128ecfa10041cc20",
+      "source_sha": "22d3eadb83d84f75a2feb8243fa844d63b7c65f8",
       "platform": "PSP",
       "product_id": "",
       "original": "アーメン・ノワール ポータブル",
@@ -1674,12 +1684,12 @@
     },
     {
       "key": "platforms/psp/games/baka-to-test-to-shoukanjuu-portable.md",
-      "source_sha": "bc0fec323154b5755dc2f134a72f82191dfaa9d6",
+      "source_sha": "1f24bde1ff7f70ba59bda294858fc993ae471af2",
       "platform": "PSP",
       "product_id": "",
       "original": "バカとテストと召喚獣 ポータブル",
       "english_title": "Baka to Test to Shoukanjuu Portable",
-      "title_ko": "바보와 시험과 소환수 포터블",
+      "title_ko": "",
       "title": "Baka to Test to Shoukanjuu Portable (바보와 시험과 소환수 포터블)"
     },
     {
@@ -1704,12 +1714,12 @@
     },
     {
       "key": "platforms/psp/games/blue-roses-yousei-to-aoi-hitomi-no-senshitachi.md",
-      "source_sha": "e36b1226141c71a7ca4f592a26c313166f5e233c",
+      "source_sha": "9b8b05aa960ceb5ffa82ff26e2c89b969820b299",
       "platform": "PSP",
       "product_id": "",
       "original": "BLUE ROSES ～妖精と青い瞳の戦士たち～",
       "english_title": "Blue Roses: Yousei to Aoi Hitomi no Senshitachi",
-      "title_ko": "블루 로지스: 요정과 푸른 눈동자의 전사들",
+      "title_ko": "블루 로지스: 요정과 푸른 눈동자의 전사들 / 국내 지역 상품명 BLUE ROSES ~요정과 푸른 눈동자의 전사들~",
       "title": "Blue Roses: Yousei to Aoi Hitomi no Senshitachi (블루 로지스: 요정과 푸른 눈동자의 전사들)"
     },
     {
@@ -1724,7 +1734,7 @@
     },
     {
       "key": "platforms/psp/games/boku-wa-tomodachi-ga-sukunai-portable.md",
-      "source_sha": "2ea7ca926b0931ae3253a777fb947a4a972cc6ab",
+      "source_sha": "d5d3b4eb86cc2a99aaf26da185dc4cae97971e48",
       "platform": "PSP",
       "product_id": "",
       "original": "僕は友達が少ない ぽーたぶる",
@@ -1734,12 +1744,12 @@
     },
     {
       "key": "platforms/psp/games/bullet-butlers-juudan-no-kanata.md",
-      "source_sha": "80c4fbf85def9ca7e1321cb6dea4a121ebf57c8d",
+      "source_sha": "0f604089129eb92a0ae2c75acb7e29f20ae701da",
       "platform": "PSP",
       "product_id": "",
-      "original": "Bullet Butlers（バレットバトラーズ） -銃弾の彼方-",
+      "original": "Bullet Butlers -銃弾の彼方- / バレットバトラーズ",
       "english_title": "Bullet Butlers: Juudan no Kanata",
-      "title_ko": "불릿 버틀러스 ～총탄의 저편～",
+      "title_ko": "불릿 버틀러스 ～총탄의 저편～. 아카이브 기존 표기 유지; 국내 단일 통용 표기는 확정하지 못함",
       "title": "Bullet Butlers: Juudan no Kanata (불릿 버틀러스 ～총탄의 저편～)"
     },
     {
@@ -1804,12 +1814,12 @@
     },
     {
       "key": "platforms/psp/games/clock-zero-shuuen-no-ichibyou-portable.md",
-      "source_sha": "b7e56c3105df551f1edd024bd7623b5cca127a31",
+      "source_sha": "3c5d24b7525ff7acf418e0c654b37a8afa5a574f",
       "platform": "PSP",
       "product_id": "",
       "original": "CLOCK ZERO ～終焉の一秒～ Portable",
       "english_title": "Clock Zero: Shuuen no Ichibyou Portable",
-      "title_ko": "CLOCK ZERO ~종언의 1초~ Portable",
+      "title_ko": "CLOCK ZERO ~종언의 1초~ Portable — 국내 통용 표기이며 공식 한국어판 명칭이 아님",
       "title": "Clock Zero: Shuuen no Ichibyou Portable (CLOCK ZERO ~종언의 1초~ Portable)"
     },
     {
@@ -1854,17 +1864,17 @@
     },
     {
       "key": "platforms/psp/games/dead-end-orchestral-manoeuvres-in-the-dead-end.md",
-      "source_sha": "8d8275592e359c155c73a79374cd35215d79211a",
-      "platform": "PLAYSTATION PORTABLE (PSP)",
+      "source_sha": "dd9105b42d1d480a3d1d9a854d4c014cbb03c21d",
+      "platform": "PSP",
       "product_id": "",
       "original": "デッドエンド Orchestral Manoeuvres in the Dead End",
       "english_title": "Dead End: Orchestral Manoeuvres in the Dead End",
-      "title_ko": "데드엔드: Orchestral Manoeuvres in the Dead End",
-      "title": "Dead End: Orchestral Manoeuvres in the Dead End (데드엔드: Orchestral Manoeuvres in the Dead End)"
+      "title_ko": "",
+      "title": "Dead End: Orchestral Manoeuvres in the Dead End (데드엔드)"
     },
     {
       "key": "platforms/psp/games/deardrops-distortion.md",
-      "source_sha": "f0a726f6b20040bd8243dca8fa1b534c92999517",
+      "source_sha": "e733ddcdde97f83cd467c79d38eafdee5a081867",
       "platform": "PSP",
       "product_id": "",
       "original": "DEARDROPS DISTORTION",
@@ -1904,12 +1914,12 @@
     },
     {
       "key": "platforms/psp/games/dunamis15.md",
-      "source_sha": "876ea3d83bddf1872d147aa8a272fd607290d8f1",
+      "source_sha": "0c6d001de52ab9f3c7a90e8944582be407150193",
       "platform": "PSP",
       "product_id": "",
-      "original": "DUNAMIS15",
+      "original": "DUNAMIS15 / デュナミス フィフティーン",
       "english_title": "DUNAMIS15",
-      "title_ko": "듀나미스15",
+      "title_ko": "듀나미스15. 국내 게임매체 표기와 기존 아카이브 표기 유지",
       "title": "DUNAMIS15 (듀나미스15)"
     },
     {
@@ -1984,7 +1994,7 @@
     },
     {
       "key": "platforms/psp/games/gallery-fake.md",
-      "source_sha": "b5b5581f4c02ce2cf221dab8ae9f488f2fd09a16",
+      "source_sha": "fc61325af54d696eaa1c8ebbb94c30510f4cbfe2",
       "platform": "PLAYSTATION PORTABLE (PSP)",
       "product_id": "",
       "original": "ギャラリーフェイク",
@@ -2014,7 +2024,7 @@
     },
     {
       "key": "platforms/psp/games/hayate-no-gotoku-nightmare-paradise.md",
-      "source_sha": "e514135a386fea44f66118c63d4e5f501ad7b95b",
+      "source_sha": "f028b480782f7065f84e65026dc226332ac19458",
       "platform": "PSP",
       "product_id": "",
       "original": "ハヤテのごとく!! ナイトメアパラダイス",
@@ -2064,17 +2074,17 @@
     },
     {
       "key": "platforms/psp/games/hoshizora-planet-one-small-step-for.md",
-      "source_sha": "b3269d11e777d3ffa0f5e9b843d6246f24d98626",
+      "source_sha": "9e1a250d0e57caba1646dfc0583b80e141501047",
       "platform": "PSP",
       "product_id": "",
       "original": "星空☆ぷらねっと one small step for...",
       "english_title": "Hoshizora Planet: One Small Step For...",
-      "title_ko": "호시조라 플래닛: 원 스몰 스텝 포…",
-      "title": "Hoshizora Planet: One Small Step For... (호시조라 플래닛: 원 스몰 스텝 포…)"
+      "title_ko": "호시조라 플래닛. 공식 한국어 게임명 미확인",
+      "title": "Hoshizora Planet: One Small Step For... (호시조라 플래닛)"
     },
     {
       "key": "platforms/psp/games/ikki-tousen-xross-impact.md",
-      "source_sha": "49d63b2a2f4267685144a79cc096002eeebd5ce3",
+      "source_sha": "613526f23eeef206a85bcfc363641dd509698c7a",
       "platform": "PSP",
       "product_id": "",
       "original": "一騎当千 XROSS IMPACT",
@@ -2084,7 +2094,7 @@
     },
     {
       "key": "platforms/psp/games/infinite-loop-kojou-ga-miseta-yume.md",
-      "source_sha": "b63c9142a02270c176e7ca63617da828b71e00d7",
+      "source_sha": "104dcf7d2a88749c790b1f8188dba3b69cb52299",
       "platform": "PSP",
       "product_id": "",
       "original": "インフィニットループ ～古城が見せた夢～",
@@ -2104,7 +2114,7 @@
     },
     {
       "key": "platforms/psp/games/juujigen-rippoutai-cipher-portable.md",
-      "source_sha": "d220e84cf3955232aa1c27e6364b02ed2dbc6ac0",
+      "source_sha": "6a72b3e64f9041caa13d9d886514f1bfaf2ddec5",
       "platform": "PSP",
       "product_id": "",
       "original": "十次元立方体サイファーPORTABLE",
@@ -2184,12 +2194,12 @@
     },
     {
       "key": "platforms/psp/games/koi-to-senkyo-to-chocolate-portable.md",
-      "source_sha": "115ce505e59b3162528996fd83353e64dbd53b8d",
+      "source_sha": "ec38a86facab87b87e853152ff99bb5faa632ec5",
       "platform": "PSP",
       "product_id": "",
       "original": "恋と選挙とチョコレート ポータブル",
       "english_title": "Koi to Senkyo to Chocolate Portable",
-      "title_ko": "사랑과 선거와 초콜릿 포터블",
+      "title_ko": "사랑과 선거와 초콜릿 포터블 · 통용 번역명",
       "title": "Koi to Senkyo to Chocolate Portable (사랑과 선거와 초콜릿 포터블)"
     },
     {
@@ -2234,7 +2244,7 @@
     },
     {
       "key": "platforms/psp/games/l-no-kisetsu-double-pocket.md",
-      "source_sha": "706e15c260800345e96de9d157964c7d0ddd78b2",
+      "source_sha": "3dcaa1c95e7638b034d1a5f7bef3c722a6fe0530",
       "platform": "PSP",
       "product_id": "",
       "original": "Lの季節 ダブルポケット",
@@ -2304,7 +2314,7 @@
     },
     {
       "key": "platforms/psp/games/mirai-nikki-13-ninme-no-nikki-shoyuusha-rewrite.md",
-      "source_sha": "4569de48eef231b1f918f219637f94a420304975",
+      "source_sha": "714f48a159d0789dd0feab46e2d615e93a27420b",
       "platform": "PSP",
       "product_id": "",
       "original": "未来日記 13人目の日記所有者 RE：WRITE",
@@ -2434,12 +2444,12 @@
     },
     {
       "key": "platforms/psp/games/onore-no-shinzuru-michi-wo-yuke.md",
-      "source_sha": "999b91854161ea4f4afd74ca672d74be86a1ea82",
+      "source_sha": "6e45f0fb1b094935d728ceeab7d94da6802a1f7d",
       "platform": "PSP",
       "product_id": "",
       "original": "己の信ずる道を征け",
       "english_title": "Onore no Shinzuru Michi wo Yuke",
-      "title_ko": "오노레노 신즈루 미치오 유케",
+      "title_ko": "오노레노 신즈루 미치오 유케 · 널리 정착한 국내 표기는 확인되지 않아 기존 음역 유지",
       "title": "Onore no Shinzuru Michi wo Yuke (오노레노 신즈루 미치오 유케)"
     },
     {
@@ -2454,7 +2464,7 @@
     },
     {
       "key": "platforms/psp/games/ore-wa-shoujo-mangaka.md",
-      "source_sha": "68b72da8f049bb8f2961c7bfac4a7be558c2f176",
+      "source_sha": "754fca200ed6b686b25196d67494f73c23cdabe9",
       "platform": "PSP",
       "product_id": "",
       "original": "オレは少女漫画家",
@@ -2464,7 +2474,7 @@
     },
     {
       "key": "platforms/psp/games/otome-wa-boku-ni-koishiteru-portable-futari-no-elder.md",
-      "source_sha": "f708f15f0d591c8ada1b39fcefb4d67552b570cc",
+      "source_sha": "2840b4c7ce45f5886e6ce63e173997e46c06f0a1",
       "platform": "PSP",
       "product_id": "",
       "original": "乙女はお姉さまに恋してるPortable ～2人のエルダー～",
@@ -2514,10 +2524,10 @@
     },
     {
       "key": "platforms/psp/games/princess-frontier-portable.md",
-      "source_sha": "624b0fa8cc1e2f9b60d778baaa565a24ca39156d",
+      "source_sha": "d02d8563d8081754b6d126b32548da22a5597724",
       "platform": "PSP",
       "product_id": "",
-      "original": "Princess Frontier Portable",
+      "original": "Princess Frontier Portable / プリンセスフロンティアポータブル",
       "english_title": "Princess Frontier Portable",
       "title_ko": "프린세스 프론티어 포터블",
       "title": "Princess Frontier Portable (프린세스 프론티어 포터블)"
@@ -2534,12 +2544,12 @@
     },
     {
       "key": "platforms/psp/games/rebellions-secret-game-2nd-stage.md",
-      "source_sha": "de5c4981c084daf9cccc58f7daed57f8fe324699",
+      "source_sha": "527a87db96055deb7de951584d91a10fe70f3546",
       "platform": "PSP",
       "product_id": "",
       "original": "リベリオンズ Secret Game 2nd Stage",
       "english_title": "Rebellions: Secret Game 2nd Stage",
-      "title_ko": "리벨리온즈 Secret Game 2nd Stage / 국내 통칭 시크릿 게임 2",
+      "title_ko": "리벨리온즈 Secret Game 2nd Stage. 국내에서 ‘시크릿 게임 2’로도 지칭되지만 원작·확장판까지 묶이는 통칭이므로 판본 구분 필요",
       "title": "Rebellions: Secret Game 2nd Stage (리벨리온즈 Secret Game 2nd Stage)"
     },
     {
@@ -2584,7 +2594,7 @@
     },
     {
       "key": "platforms/psp/games/rurur-petit-prince.md",
-      "source_sha": "d8fee5063c1312e65b89fda22891a477db5f74bf",
+      "source_sha": "aa10503f2470726881eb391336106ce5621f3505",
       "platform": "PSP",
       "product_id": "",
       "original": "R.U.R.U.R ル・ル・ル・ル -petit prince-",
@@ -2664,10 +2674,10 @@
     },
     {
       "key": "platforms/psp/games/sekai-de-ichiban-ng-na-koi-full-house.md",
-      "source_sha": "a6766725d3f6f3a1e36644f52f3dc3c5e45a7d33",
+      "source_sha": "670af277e546097e4e8108f5059128939a80d0d8",
       "platform": "PSP",
       "product_id": "",
-      "original": "世界でいちばんNG（ダメ）な恋 ふるはうす",
+      "original": "世界でいちばんNG（だめ）な恋 ふるはうす",
       "english_title": "Sekai de Ichiban NG na Koi: Full House",
       "title_ko": "세상에서 가장 NG인 사랑 풀하우스",
       "title": "Sekai de Ichiban NG na Koi: Full House (세상에서 가장 NG인 사랑 풀하우스)"
@@ -2694,12 +2704,12 @@
     },
     {
       "key": "platforms/psp/games/senritsu-no-stratus.md",
-      "source_sha": "b12774e95194a63593156a73e94028421bbc0256",
+      "source_sha": "867c0e3a1a26798845853b6e45c62fdd649c945d",
       "platform": "PSP",
       "product_id": "",
       "original": "戦律のストラタス",
       "english_title": "Senritsu no Stratus",
-      "title_ko": "전율의 스트라터스",
+      "title_ko": "전율의 스트라터스. 국내 통용 표기이며 공식 한국어판 제목은 아님",
       "title": "Senritsu no Stratus (전율의 스트라터스)"
     },
     {
@@ -2744,12 +2754,12 @@
     },
     {
       "key": "platforms/psp/games/shinigami-to-shoujo.md",
-      "source_sha": "1f089cdd2fbf91c22075458ca51acc2a090fd70c",
+      "source_sha": "c334774618887f91df9e990eeaa23445fa93b273",
       "platform": "PSP",
       "product_id": "",
       "original": "死神と少女",
       "english_title": "Shinigami to Shoujo",
-      "title_ko": "사신과 소녀",
+      "title_ko": "사신과 소녀 — 국내 통용 표기, 공식 한국어판 명칭으로 간주하지 않음",
       "title": "Shinigami to Shoujo (사신과 소녀)"
     },
     {
@@ -2864,7 +2874,7 @@
     },
     {
       "key": "platforms/psp/games/soukyuu-no-fafner-dead-aggressor.md",
-      "source_sha": "f3df1c5d08b3bcfdd698d4fbf48cfdef09ca6d38",
+      "source_sha": "e5c71f38bade7b05f903fa289d3eb0036bc089e0",
       "platform": "PSP",
       "product_id": "",
       "original": "蒼穹のファフナー",
@@ -2874,12 +2884,12 @@
     },
     {
       "key": "platforms/psp/games/star-driver-kagayaki-no-takuto-ginga-bishounen-densetsu.md",
-      "source_sha": "5a6c94ad833d5886e06b91773e2d2637b8a58e6d",
+      "source_sha": "e74f4b9186ecb0b294f1e080b930c5c4c13435f2",
       "platform": "PSP",
       "product_id": "",
       "original": "STAR DRIVER 輝きのタクト 銀河美少年伝説",
       "english_title": "Star Driver: Kagayaki no Takuto - Ginga Bishounen Densetsu",
-      "title_ko": "STAR DRIVER 빛의 타쿠토: 은하미소년 전설",
+      "title_ko": "STAR DRIVER 빛의 타쿠토: 은하미소년 전설 / 국내 사용 표기",
       "title": "Star Driver: Kagayaki no Takuto - Ginga Bishounen Densetsu (STAR DRIVER 빛의 타쿠토: 은하미소년 전설)"
     },
     {
@@ -2904,7 +2914,7 @@
     },
     {
       "key": "platforms/psp/games/summon-night-3.md",
-      "source_sha": "732e9572a0e3fbf7d100c86059d0541fd8b4f81e",
+      "source_sha": "c717ee321e147bab2b5f9b6f92a885abaccee839",
       "platform": "PSP",
       "product_id": "",
       "original": "サモンナイト3",
@@ -2914,7 +2924,7 @@
     },
     {
       "key": "platforms/psp/games/summon-night-4.md",
-      "source_sha": "112c992fddac22f955eb0a3705077948e96ca864",
+      "source_sha": "4f078b289b91e81147b7642328c70146cfcabafc",
       "platform": "PSP",
       "product_id": "",
       "original": "サモンナイト4",
@@ -2944,12 +2954,12 @@
     },
     {
       "key": "platforms/psp/games/suzumiya-haruhi-no-tsuisou.md",
-      "source_sha": "4226e9626ee78df4c4ddb0057b11d78ce33f6f86",
-      "platform": "PSP",
+      "source_sha": "91a72d961a7a94a0b136c851481fc46fafdd9c47",
+      "platform": "PSP / PS3 동시 발매",
       "product_id": "",
       "original": "涼宮ハルヒの追想",
       "english_title": "Suzumiya Haruhi no Tsuisou",
-      "title_ko": "스즈미야 하루히의 추상",
+      "title_ko": "스즈미야 하루히의 추상 — 국내 상품명이며 공식 한국어판 명칭은 아님",
       "title": "Suzumiya Haruhi no Tsuisou (스즈미야 하루히의 추상)"
     },
     {
@@ -2964,7 +2974,7 @@
     },
     {
       "key": "platforms/psp/games/tantei-opera-milky-holmes.md",
-      "source_sha": "22cc3be67c6f7ed674c0273b4a2519631b9d83b4",
+      "source_sha": "16332928fbfd7b15721edc52a40da4d0f78f503e",
       "platform": "PSP",
       "product_id": "",
       "original": "探偵オペラ ミルキィホームズ",
@@ -3014,7 +3024,7 @@
     },
     {
       "key": "platforms/psp/games/tears-to-tiara-kakan-no-daichi-portable.md",
-      "source_sha": "ea761a806c995ead237e01c6283777850104c672",
+      "source_sha": "02f00e3f19956eff82e7cbba07c0a3868479b76c",
       "platform": "PSP",
       "product_id": "",
       "original": "ティアーズ・トゥ・ティアラ 花冠の大地 PORTABLE",
@@ -3054,8 +3064,8 @@
     },
     {
       "key": "platforms/psp/games/toaru-kagaku-no-railgun.md",
-      "source_sha": "8694411fa2ae76ae0b1655aab03dee9ea8e01684",
-      "platform": "PLAYSTATION PORTABLE (PSP)",
+      "source_sha": "70f5ba7ed130a4d57f2bafb6466bde6b5e0d1200",
+      "platform": "PSP",
       "product_id": "",
       "original": "とある科学の超電磁砲",
       "english_title": "Toaru Kagaku no Railgun",
@@ -3064,12 +3074,12 @@
     },
     {
       "key": "platforms/psp/games/toaru-majutsu-to-kagaku-no-ensemble.md",
-      "source_sha": "1b61bed266681140d88ccf8b4910c0c539d5f4ad",
+      "source_sha": "ab0c4377240c1be9123c783a12c9e95106917202",
       "platform": "PSP",
       "product_id": "",
       "original": "とある魔術と科学の群奏活劇（アンサンブル）",
       "english_title": "Toaru Majutsu to Kagaku no Ensemble",
-      "title_ko": "어떤 마술과 과학의 군주활극",
+      "title_ko": "어떤 마술과 과학의 군주활극 — 국내 통용 표기, 공식 한국어판 제목은 아님",
       "title": "Toaru Majutsu to Kagaku no Ensemble (어떤 마술과 과학의 군주활극)"
     },
     {
@@ -3134,7 +3144,7 @@
     },
     {
       "key": "platforms/psp/games/twelve-sengoku-fuushinden.md",
-      "source_sha": "4ac43e67400e9266cba2f894baf021a3091bddf2",
+      "source_sha": "f9186efcfd770af58f90ebe013f11f271a006325",
       "platform": "PSP",
       "product_id": "",
       "original": "Twelve ～戦国封神伝～",
@@ -3144,28 +3154,28 @@
     },
     {
       "key": "platforms/psp/games/twinkle-crusaders-gogo.md",
-      "source_sha": "0127b52b617d886bf9bfc9c5adf6ad69ca4b2003",
+      "source_sha": "de013c7141827d00f1c21fd54adc5836e1a75fb9",
       "platform": "PSP",
       "product_id": "",
       "original": "ティンクル☆くるせいだーす GoGo!",
       "english_title": "Twinkle Crusaders GoGo!",
-      "title_ko": "트윙클☆크루세이더스 GoGo!",
+      "title_ko": "트윙클☆크루세이더스 GoGo! — 국내 표기에는 ‘크루세이더즈’도 사용됨",
       "title": "Twinkle Crusaders GoGo! (트윙클☆크루세이더스 GoGo!)"
     },
     {
       "key": "platforms/psp/games/twinkle-crusaders-starlit-brave.md",
-      "source_sha": "6e0b96ea54f9162aa2445a4433f22696c84db59c",
+      "source_sha": "1c97e4b59b5496910971b7a35d5b0d6c7c42a3cb",
       "platform": "PSP",
       "product_id": "",
       "original": "ティンクル☆くるせいだーす GoGo！ STARLIT BRAVE!!",
       "english_title": "Twinkle Crusaders STARLIT BRAVE!!",
-      "title_ko": "트윙클☆크루세이더스 STARLIT BRAVE!!",
+      "title_ko": "트윙클☆크루세이더스 STARLIT BRAVE!! — ‘크루세이더즈’, ‘스타릿 브레이브’ 표기도 사용됨",
       "title": "Twinkle Crusaders STARLIT BRAVE!! (트윙클☆크루세이더스 STARLIT BRAVE!!)"
     },
     {
       "key": "platforms/psp/games/unchainblades-exxiv.md",
-      "source_sha": "6681f74dbe61e5248a99f6943851ea65bd8d0331",
-      "platform": "PSP",
+      "source_sha": "6efae614aa5969984d8c56864db79f52966beaba",
+      "platform": "PSP / NINTENDO 3DS",
       "product_id": "",
       "original": "アンチェインブレイズ エクシヴ",
       "english_title": "UnchainBlades EXXiV",
@@ -3204,12 +3214,12 @@
     },
     {
       "key": "platforms/psp/games/wild-arms-xf.md",
-      "source_sha": "8f4a351d45d034e91808a3a8e66fb05114ee0131",
+      "source_sha": "4199fa71b9b9d1bd709d77d78386bc3a6b3b60de",
       "platform": "PSP",
       "product_id": "",
       "original": "ワイルドアームズ クロスファイア",
       "english_title": "Wild ARMs XF",
-      "title_ko": "와일드 암즈 크로스 파이어",
+      "title_ko": "와일드 암즈 크로스 파이어 — 국내 통용 음역",
       "title": "Wild ARMs XF (와일드 암즈 크로스 파이어)"
     },
     {
@@ -3244,7 +3254,7 @@
     },
     {
       "key": "platforms/psp/games/zhp-unlosing-ranger-vs-darkdeath-evilman.md",
-      "source_sha": "663e26e5efee5c20eef7de0f1b70a03ed23dfcbd",
+      "source_sha": "857cf23ed92718f82d3a75102dd4f88dfafceb43",
       "platform": "PSP",
       "product_id": "",
       "original": "絶対ヒーロー改造計画",
@@ -3264,17 +3274,17 @@
     },
     {
       "key": "platforms/psvita/games/ar-nosurge-plus-ode-to-an-unborn-star.md",
-      "source_sha": "96b8c90c5d1e4d195313aa83585aa773f503acf9",
+      "source_sha": "f251f5a205408edfd4a7c9209e08a635252e7eb3",
       "platform": "PSVITA",
       "product_id": "",
       "original": "アルノサージュ PLUS ～生まれいずる星へ祈る詩～",
       "english_title": "Ar nosurge Plus: Ode to an Unborn Star",
-      "title_ko": "알 노서지 플러스: 태어나는 별에 기도하는 시. 국내 통용은 알노서지 / 아르 노서지 등 표기가 혼재해 원제를 함께 병기",
+      "title_ko": "알 노서지 플러스: 태어나는 별에 기도하는 시. 알노서지·아르 노서지 표기도 쓰임",
       "title": "Ar nosurge Plus: Ode to an Unborn Star (알 노서지 플러스: 태어나는 별에 기도하는 시)"
     },
     {
       "key": "platforms/psvita/games/arcana-heart-3-love-max.md",
-      "source_sha": "3ac5e8cd81644ba3e7c7322f80d85542be71f20a",
+      "source_sha": "91ce6a8dff222969b4649d43b8c0551fadefe849",
       "platform": "이번 평가: PS VITA. PS3 동시 이식 및 후발 WINDOWS판 존재",
       "product_id": "",
       "original": "アルカナハート3 LOVE MAX!!!!!",
@@ -3294,29 +3304,29 @@
     },
     {
       "key": "platforms/psvita/games/charade-maniacs.md",
-      "source_sha": "c49d5d1d45edfba20cdabf41f09f06448ded6c7c",
+      "source_sha": "050ee0efca2bd70c0fd0e5e54b5321d97a26b3bd",
       "platform": "PSVITA",
       "product_id": "",
-      "original": "シャレードマニアクス",
+      "original": "CharadeManiacs / シャレードマニアクス",
       "english_title": "Charade Maniacs",
-      "title_ko": "샤레이드 매니악스 (국내 통용 음역)",
+      "title_ko": "샤레이드 매니악스",
       "title": "Charade Maniacs (샤레이드 매니악스)"
     },
     {
       "key": "platforms/psvita/games/chou-no-doku-hana-no-kusari.md",
-      "source_sha": "3e53f119bfce7adb7ee51f66b4b9e98adbcb4694",
-      "platform": "PSVITA",
+      "source_sha": "0369d3925a3f375d020334b1fde4e02a43599098",
+      "platform": "PLAYSTATION VITA / VITA TV 대응",
       "product_id": "",
-      "original": "蝶の毒 華の鎖 ～大正艶恋異聞～",
-      "english_title": "Chō no Doku Hana no Kusari: Taishō Enren Ibun",
-      "title_ko": "나비의 독, 꽃의 사슬: 다이쇼 연연이문 (음역 표기)",
-      "title": "Chō no Doku Hana no Kusari: Taishō Enren Ibun (나비의 독, 꽃의 사슬: 다이쇼 연연이문)"
+      "original": "蝶の毒 華の鎖～大正艶恋異聞～",
+      "english_title": "Chou no Doku Hana no Kusari: Taishou Tsuyakoi Ibun",
+      "title_ko": "나비의 독 꽃의 쇠사슬: 다이쇼염련이문 / 국내 통용 제목 참고, 공식 한국어 상품명은 아님",
+      "title": "Chou no Doku Hana no Kusari: Taishou Tsuyakoi Ibun (나비의 독 꽃의 쇠사슬: 다이쇼염련이문)"
     },
     {
       "key": "platforms/psvita/games/ciel-nosurge-offline.md",
-      "source_sha": "6b2390e3fed11490f4c1d1110db028d8e9d15e3c",
+      "source_sha": "0e114db1b5ed194024e330ceaaa5aeeb2e71e084",
       "platform": "PSVITA",
-      "product_id": "",
+      "product_id": "PCSG-00454",
       "original": "シェルノサージュ OFFLINE ～失われた星へ捧ぐ詩～",
       "english_title": "Ciel Nosurge Offline: Ushinawareta Hoshi e Sasagu Uta",
       "title_ko": "시엘 노서지 오프라인: 잃어버린 별에 바치는 노래",
@@ -3334,8 +3344,8 @@
     },
     {
       "key": "platforms/psvita/games/code-realize-wintertide-miracles.md",
-      "source_sha": "42529d3501397657dc85e666ac1f732154fcbf9b",
-      "platform": "PLAYSTATION VITA / PS VITA TV",
+      "source_sha": "18a405c2689f1d57b5055df98d7a3a47b0f3b139",
+      "platform": "평가 대상 PS VITA. PS4판과 동시 개발된 두 번째 팬디스크",
       "product_id": "",
       "original": "Code：Realize ～白銀の奇跡～",
       "english_title": "Code: Realize ~Wintertide Miracles~",
@@ -3344,7 +3354,7 @@
     },
     {
       "key": "platforms/psvita/games/croixleur-sigma.md",
-      "source_sha": "9e1e30dd43688ba82626861a15e88cd02ab6aca9",
+      "source_sha": "6b94f16f253774eedd2df087d6876606bcf7c000",
       "platform": "PSVITA",
       "product_id": "",
       "original": "クロワルール・シグマ",
@@ -3364,17 +3374,17 @@
     },
     {
       "key": "platforms/psvita/games/deception-iv-blood-ties.md",
-      "source_sha": "fa7e5be6c37744785a87fb38f574e643626e3fa0",
-      "platform": "이번 평가: PLAYSTATION VITA. PS3 동시 발매",
+      "source_sha": "ab16cc17ea8c8b05d1ed607f4c6696d7b86bb4df",
+      "platform": "평가 대상 PS VITA. PS3 동시 발매",
       "product_id": "",
       "original": "影牢 ～ダークサイド プリンセス～",
       "english_title": "Deception IV: Blood Ties",
-      "title_ko": "영뢰: 다크사이드 프린세스. 2014년 국내 정식 발매 기사에서 사용된 제목",
+      "title_ko": "영뢰: 다크사이드 프린세스 / 카게로 ~다크사이드 프린세스~",
       "title": "Deception IV: Blood Ties (영뢰: 다크사이드 프린세스)"
     },
     {
       "key": "platforms/psvita/games/demon-gaze-ii.md",
-      "source_sha": "73566fe4ae8a78635ffd19611c33213e463340ff",
+      "source_sha": "49008b69130b8dd5342e4bb6ca3793ffd6f1c73a",
       "platform": "PSVITA",
       "product_id": "",
       "original": "デモンゲイズ2",
@@ -3404,27 +3414,27 @@
     },
     {
       "key": "platforms/psvita/games/fernz-gate.md",
-      "source_sha": "6f6941ccda1fa99229001f6fc459ee59fb3e40ca",
+      "source_sha": "d0e7599cdb016df900238bdec980e19d80d52c4b",
       "platform": "PSVITA",
       "product_id": "",
       "original": "フェルンズゲート",
       "english_title": "Fernz Gate",
-      "title_ko": "펀즈 게이트 (국내 통용 표기 확인이 뚜렷하지 않아 자연스러운 음역 사용)",
+      "title_ko": "펀즈 게이트. 정식 한국어 상품명은 확인되지 않아 음역 사용",
       "title": "Fernz Gate (펀즈 게이트)"
     },
     {
       "key": "platforms/psvita/games/genkai-tokki-seven-pirates.md",
-      "source_sha": "69b2bf4e67d9d5577cffaa7e18e3a4298695926a",
-      "platform": "PSVITA",
+      "source_sha": "c3656ae302cf0a6f8ada84b11b374b208a1c27d1",
+      "platform": "PLAYSTATION VITA 일본판 / 공식 VITA TV 비대응",
       "product_id": "",
       "original": "限界凸旗 セブンパイレーツ",
       "english_title": "Genkai Tokki: Seven Pirates",
-      "title_ko": "한계돌기 세븐 파이러츠",
+      "title_ko": "한계돌기 세븐 파이러츠. 국내 상품에는 세븐 파이레츠 표기도 사용",
       "title": "Genkai Tokki: Seven Pirates (한계돌기 세븐 파이러츠)"
     },
     {
       "key": "platforms/psvita/games/golden-time-vivid-memories.md",
-      "source_sha": "7449f825d609bbc5dede538c4a62383be4b57b4d",
+      "source_sha": "6bda18564b4499db99f8bd65cfa8f71fa054292a",
       "platform": "PSVITA",
       "product_id": "",
       "original": "ゴールデンタイム Vivid Memories",
@@ -3434,12 +3444,12 @@
     },
     {
       "key": "platforms/psvita/games/haiyore-nyaruko-san-meijoushigatai-game-no-you-na-mono.md",
-      "source_sha": "0ecbf6239afd29b4ca240d261792cb307f9afd26",
+      "source_sha": "dc725b0cc666a7629be43b04dcfa016df5a72405",
       "platform": "PSVITA",
       "product_id": "",
       "original": "這いよれ！ニャル子さん 名状しがたいゲームのようなもの",
       "english_title": "Haiyore! Nyaruko-San: Meijoushigatai Game no You na Mono",
-      "title_ko": "기어와라! 냐루코 양: 이름 붙이기 힘든 게임 같은 것",
+      "title_ko": "기어와라! 냐루코 양: 이름 붙이기 힘든 게임 같은 것 / 부제는 설명용 번역이며 공식 한국어 상품명 미확인",
       "title": "Haiyore! Nyaruko-San: Meijoushigatai Game no You na Mono (기어와라! 냐루코 양: 이름 붙이기 힘든 게임 같은 것)"
     },
     {
@@ -3474,7 +3484,7 @@
     },
     {
       "key": "platforms/psvita/games/ia-vt-colorful.md",
-      "source_sha": "b6d72ff505f33b3b16c249bf6413f08108b86ccc",
+      "source_sha": "6a161014a93aae0f871bc9d7225843a1ca97113a",
       "platform": "PSVITA",
       "product_id": "",
       "original": "IA/VT -COLORFUL-",
@@ -3504,12 +3514,12 @@
     },
     {
       "key": "platforms/psvita/games/lost-dimension.md",
-      "source_sha": "f6dab37481d0f69e7073b820686e43cad9e4388f",
-      "platform": "PS VITA. PS3 동시 발매작이며 WINDOWS 후발 이식이 있음",
+      "source_sha": "3f0afe8b2290e35a107968c3e5cf7c1073bda76f",
+      "platform": "PSVITA",
       "product_id": "",
       "original": "ロストディメンション",
       "english_title": "Lost Dimension",
-      "title_ko": "로스트 디멘션. 영문 제목의 음역이며 국내 통용 표기 우세는 확인하지 못함",
+      "title_ko": "로스트 디멘션",
       "title": "Lost Dimension (로스트 디멘션)"
     },
     {
@@ -3524,7 +3534,7 @@
     },
     {
       "key": "platforms/psvita/games/miracle-girls-festival.md",
-      "source_sha": "ac0a8d364fbe07153c6966b31ec6783cdcdb5651",
+      "source_sha": "fb4889690a91a41559dbd608edf8e9f6f8a0364a",
       "platform": "PLAYSTATION VITA / PS VITA TV 대응",
       "product_id": "",
       "original": "ミラクルガールズフェスティバル",
@@ -3534,7 +3544,7 @@
     },
     {
       "key": "platforms/psvita/games/mobile-suit-gundam-seed-battle-destiny.md",
-      "source_sha": "ef8709a10fcf66ea798a6ab414fe6dc4c9b8a264",
+      "source_sha": "c47f7e29c866f3cf767fb33af4cde1fc385fa9d6",
       "platform": "PSVITA",
       "product_id": "",
       "original": "機動戦士ガンダムSEED BATTLE DESTINY",
@@ -3564,7 +3574,7 @@
     },
     {
       "key": "platforms/psvita/games/mystery-chronicle-one-way-heroics.md",
-      "source_sha": "c9da52876bdec02cf18636009b836ddb905747c3",
+      "source_sha": "2e988bc93ed29792997b5fada186e688846eb058",
       "platform": "PSVITA",
       "product_id": "",
       "original": "不思議のクロニクル 振リ返リマセン勝ツマデハ",
@@ -3574,12 +3584,12 @@
     },
     {
       "key": "platforms/psvita/games/net-high.md",
-      "source_sha": "f3b4d07b85e58fe797319050d1a87dfeab83a584",
+      "source_sha": "bdb0191d0316351367022de184ae17433e0301b4",
       "platform": "PSVITA",
       "product_id": "",
       "original": "ネットハイ",
       "english_title": "Net High",
-      "title_ko": "넷 하이 (음역)",
+      "title_ko": "",
       "title": "Net High (넷 하이)"
     },
     {
@@ -3604,13 +3614,13 @@
     },
     {
       "key": "platforms/psvita/games/piofiore-no-banshou.md",
-      "source_sha": "9a70985280dad2961abf6e66f53b1e26f6c4efee",
+      "source_sha": "a6aa7a596fd313948ce67c287889dccbd8a1dcfa",
       "platform": "PSVITA",
       "product_id": "",
       "original": "ピオフィオーレの晩鐘",
-      "english_title": "Piofiore no Banshou / Piofiore: Fated Memories",
+      "english_title": "Piofiore no Banshou",
       "title_ko": "피오피오레의 만종",
-      "title": "Piofiore no Banshou / Piofiore: Fated Memories (피오피오레의 만종)"
+      "title": "Piofiore no Banshou (피오피오레의 만종)"
     },
     {
       "key": "platforms/psvita/games/psychedelica-of-the-ashen-hawk.md",
@@ -3634,23 +3644,23 @@
     },
     {
       "key": "platforms/psvita/games/psycho-pass-mandatory-happiness.md",
-      "source_sha": "ef483036430725a9b8f609be351a73e976308557",
+      "source_sha": "f5500c82d100c95ad8189ce60e10bf1b03b292c9",
       "platform": "PSVITA",
       "product_id": "",
       "original": "PSYCHO-PASS サイコパス 選択なき幸福",
       "english_title": "Psycho-Pass: Mandatory Happiness",
-      "title_ko": "사이코패스: 선택 없는 행복",
+      "title_ko": "",
       "title": "Psycho-Pass: Mandatory Happiness (사이코패스: 선택 없는 행복)"
     },
     {
       "key": "platforms/psvita/games/reine-des-fleurs.md",
-      "source_sha": "1368a7cb2cc62cc4c6ca60310e813a35e5a57f76",
+      "source_sha": "1367dcfdf24be67add21bed7debf9b0344dfe5ef",
       "platform": "PSVITA",
       "product_id": "",
       "original": "レンドフルール",
       "english_title": "Reine des Fleurs",
-      "title_ko": "레느 데 플뢰르 (프랑스어 표기 음역)",
-      "title": "Reine des Fleurs (레느 데 플뢰르)"
+      "title_ko": "레느 데 플뢰르 / 국내 ‘렌 드 플뢰르’ 표기도 사용",
+      "title": "Reine des Fleurs (레느 데 플뢰르 / 렌 드 플뢰르)"
     },
     {
       "key": "platforms/psvita/games/sorcery-saga-curse-of-the-great-curry-god.md",
@@ -3704,28 +3714,28 @@
     },
     {
       "key": "platforms/psvita/games/to-love-ru-darkness-true-princess.md",
-      "source_sha": "0bd673d123c58d67686b2d1b06e25bd02d94850c",
-      "platform": "PLAYSTATION VITA / PLAYSTATION VITA TV",
+      "source_sha": "a892272fb040ee7d08281be7f2a43812a66d0cb1",
+      "platform": "PS VITA / PS VITA TV 대응",
       "product_id": "",
       "original": "To LOVEる-とらぶる- ダークネス トゥループリンセス",
       "english_title": "To Love-Ru Trouble Darkness: True Princess",
-      "title_ko": "투 러브 트러블 다크니스: 트루 프린세스. 원작 국내 표기인 ‘투 러브 트러블 다크니스’를 기준으로 부제를 음역",
+      "title_ko": "",
       "title": "To Love-Ru Trouble Darkness: True Princess (투 러브 트러블 다크니스: 트루 프린세스)"
     },
     {
       "key": "platforms/psvita/games/tokushu-houdoubu.md",
-      "source_sha": "2a8182c5057f6917054fc571c1a5dff60a8d2308",
-      "platform": "PLAYSTATION VITA / PS VITA TV",
+      "source_sha": "8db2ad7581e02e661160964ef9e78eb1f6290e67",
+      "platform": "PSVITA",
       "product_id": "",
       "original": "特殊報道部",
       "english_title": "Tokushu Houdoubu",
-      "title_ko": "특수보도부",
+      "title_ko": "",
       "title": "Tokushu Houdoubu (특수보도부)"
     },
     {
       "key": "platforms/psvita/games/tokyo-twilight-ghost-hunters.md",
-      "source_sha": "c904a45a24c7681d91810b427d2d8900cfbfaf15",
-      "platform": "PSVITA",
+      "source_sha": "8749a0f5b69af1bc1fdcce6d1215ad4c4e733efa",
+      "platform": "PS VITA 원판. DAYBREAK SPECIAL GIGS는 별도 강화판",
       "product_id": "",
       "original": "魔都紅色幽撃隊",
       "english_title": "Tokyo Twilight Ghost Hunters",
@@ -3734,7 +3744,7 @@
     },
     {
       "key": "platforms/psvita/games/xblaze-code-embryo.md",
-      "source_sha": "1a84626cab308cd92c08b1d65e59e1703660a64b",
+      "source_sha": "593f198831447b0514d2be900457f3b0686ff999",
       "platform": "PSVITA",
       "product_id": "",
       "original": "エクスブレイズ コード：エンブリオ",
@@ -3744,27 +3754,27 @@
     },
     {
       "key": "platforms/psvita/games/xenon-valkyrie-plus.md",
-      "source_sha": "f80e03c9b59eaf492088e12e80fce2d5e986ac04",
-      "platform": "PSVITA",
+      "source_sha": "608b8e6955809113362dbc2ca445352fc8ad8497",
+      "platform": "평가 대상 PS VITA / PLAYSTATION TV 대응",
       "product_id": "",
-      "original": "",
+      "original": "Xenon Valkyrie+",
       "english_title": "Xenon Valkyrie+",
-      "title_ko": "제논 발키리+",
+      "title_ko": "제논 발키리+ / 국내 표기 정착은 확인되지 않아 음역 사용",
       "title": "Xenon Valkyrie+ (제논 발키리+)"
     },
     {
       "key": "platforms/psvita/games/yahari-game-demo-ore-no-seishun-love-come-wa-machigatteiru-zoku.md",
-      "source_sha": "61c9749d893f0ae0934a244e7adfe79749c14c36",
-      "platform": "이번 평가: PLAYSTATION VITA / PS VITA TV 대응",
+      "source_sha": "1e5bbf5ed66f83b7d104677789a53fe6f96926b0",
+      "platform": "평가 대상 PS VITA / PLAYSTATION TV 대응",
       "product_id": "",
       "original": "やはりゲームでも俺の青春ラブコメはまちがっている。続",
       "english_title": "Yahari Game demo Ore no Seishun Love Come wa Machigatteiru. Zoku",
-      "title_ko": "역시 게임에서도 내 청춘 러브코메디는 잘못됐다. 속",
+      "title_ko": "역시 게임에서도 내 청춘 러브코메디는 잘못됐다. 속 / 한국어 패치명은 ‘게임이라도 역시 … -속-’",
       "title": "Yahari Game demo Ore no Seishun Love Come wa Machigatteiru. Zoku (역시 게임에서도 내 청춘 러브코메디는 잘못됐다. 속)"
     },
     {
       "key": "platforms/psvita/games/yuuki-yuuna-wa-yuusha-de-aru-jukai-no-kioku.md",
-      "source_sha": "0cd3e8b42a51142e80ef523993b010441a092a8f",
+      "source_sha": "88e138c96d1f3c94bd1664d0e1b975cd3e8ad895",
       "platform": "PSVITA",
       "product_id": "",
       "original": "結城友奈は勇者である 樹海の記憶",
@@ -3774,12 +3784,12 @@
     },
     {
       "key": "platforms/psvita/games/zanki-zero.md",
-      "source_sha": "5c8604240dc3780729d145f1e403347073dc86b1",
+      "source_sha": "f8efb5a06cc679c2efc3ad6137889a2915b19734",
       "platform": "PSVITA",
       "product_id": "",
       "original": "ザンキゼロ",
       "english_title": "Zanki Zero: Last Beginning",
-      "title_ko": "잔키 제로",
+      "title_ko": "",
       "title": "Zanki Zero: Last Beginning (잔키 제로)"
     },
     {
