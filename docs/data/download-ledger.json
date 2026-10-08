@@ -21,7 +21,7 @@
     "eve-new-generation-kr-patch/v1.1/EVE_New_Generation_Korean_Patch_v1.1.zip": {
       "asset_id": 611547873,
       "carried": 0,
-      "last_count": 365,
+      "last_count": 370,
       "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
       "removed": false,
       "repo": "eve-new-generation-kr-patch",
@@ -48,7 +48,7 @@
     "eve-zero-kr-patch/v1.1/EVE_ZERO_Korean_Patch_v1.1.zip": {
       "asset_id": 611513419,
       "carried": 0,
-      "last_count": 391,
+      "last_count": 393,
       "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
       "removed": false,
       "repo": "eve-zero-kr-patch",
@@ -66,7 +66,7 @@
     "tears-to-tiara-2-kr-patch/v1.1/TTT2_KR_Patcher_v1.1.zip": {
       "asset_id": 611515859,
       "carried": 0,
-      "last_count": 257,
+      "last_count": 258,
       "name": "TTT2_KR_Patcher_v1.1.zip",
       "removed": false,
       "repo": "tears-to-tiara-2-kr-patch",
@@ -75,7 +75,7 @@
     "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch/v1.0/_LLR_Switch_._v1.0.zip": {
       "asset_id": 609359818,
       "carried": 0,
-      "last_count": 78,
+      "last_count": 79,
       "name": "_LLR_Switch_._v1.0.zip",
       "removed": false,
       "repo": "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch",
@@ -93,7 +93,7 @@
     "touhou-genso-wanderer-reloaded-kr-patch/v1.0/TODR_Switch_v1.0.zip": {
       "asset_id": 609356044,
       "carried": 0,
-      "last_count": 74,
+      "last_count": 75,
       "name": "TODR_Switch_v1.0.zip",
       "removed": false,
       "repo": "touhou-genso-wanderer-reloaded-kr-patch",
