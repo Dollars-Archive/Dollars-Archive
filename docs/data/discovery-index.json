@@ -1,7 +1,17 @@
 {
   "version": 1,
-  "tree_sha": "41c608959ed3fa8b7ad0fafeedb4f0c7a3c7cc53",
+  "tree_sha": "20e0f3b1796befd766370cd53b954d6300596654",
   "games": [
+    {
+      "key": "platforms/dreamcast/games/seireiki-rayblade.md",
+      "source_sha": "dd6016e4d957e3b388460697b5261865227a88dd",
+      "platform": "DREAMCAST",
+      "product_id": "",
+      "original": "聖霊機ライブレード",
+      "english_title": "Seireiki Rayblade",
+      "title_ko": "성령기 라이블레이드",
+      "title": "Seireiki Rayblade (성령기 라이블레이드)"
+    },
     {
       "key": "platforms/dreamcast/games/sister-princess-premium-edition.md",
       "source_sha": "6268c397f32efcb3ea3c653050b61ed4c13eac4f",
@@ -994,7 +1004,7 @@
     },
     {
       "key": "platforms/ps3/games/acceleration-of-suguri-x-edition.md",
-      "source_sha": "142c91af495901ede3425614dba5e4e5295e389b",
+      "source_sha": "a6242cde1e42e15aad54fc670a860d349e1fc967",
       "platform": "PS3",
       "product_id": "",
       "original": "Acceleration of SUGURI X-Edition / アクセラレーション オブ スグリ X-Edition",
@@ -1004,7 +1014,7 @@
     },
     {
       "key": "platforms/ps3/games/akatsuki-no-goei-trinity.md",
-      "source_sha": "5e0bfed22412ef1e3f3fb644f723a45658a9c46f",
+      "source_sha": "27194cd42c507ebc11f16edf7988e0d7cbe495a2",
       "platform": "PS3",
       "product_id": "",
       "original": "暁の護衛 トリニティ",
@@ -1014,7 +1024,7 @@
     },
     {
       "key": "platforms/ps3/games/and-sora-no-mukou-de-saki-masuyou-ni.md",
-      "source_sha": "f5dd7e95f2c03a206378969dffac31a26fa462ba",
+      "source_sha": "7acaadca9bebd143c06e98c6f98aff47c139dd7a",
       "platform": "PS3",
       "product_id": "",
       "original": "‘&’ -空の向こうで咲きますように-",
@@ -1024,7 +1034,7 @@
     },
     {
       "key": "platforms/ps3/games/aquapazza-aquaplus-dream-match.md",
-      "source_sha": "58a5e70559bf34347bcdad7910135b3bad373fd0",
+      "source_sha": "e18d7cc628019a452c3ceea90ea74af31c35086e",
       "platform": "PS3",
       "product_id": "",
       "original": "AQUAPAZZA -AQUAPLUS DREAM MATCH- / アクアパッツァ -アクアプラス ドリーム マッチ-",
@@ -1034,7 +1044,7 @@
     },
     {
       "key": "platforms/ps3/games/ar-nosurge-umareizuru-hoshi-e-inoru-uta.md",
-      "source_sha": "51b2c38430c455ecaaed5ddb73af1aef31edba89",
+      "source_sha": "cff3817d801517c2607a24d464ae9b7b4b81144f",
       "platform": "PS3",
       "product_id": "",
       "original": "アルノサージュ ～生まれいずる星へ祈る詩～",
@@ -1044,7 +1054,7 @@
     },
     {
       "key": "platforms/ps3/games/ar-tonelico-qoga-knell-of-ar-ciel.md",
-      "source_sha": "1943230c730bd6334b9661c46fc299756cc675fa",
+      "source_sha": "301f9b034e322d452ceeb2f252d9c2ed034457f2",
       "platform": "PS3",
       "product_id": "",
       "original": "アルトネリコ3 世界終焉の引鉄は少女の詩が弾く",
@@ -1054,7 +1064,7 @@
     },
     {
       "key": "platforms/ps3/games/arcana-heart-3-love-max.md",
-      "source_sha": "7ca4a9af47d64a3b9b1a4bea423c8aa1fb334a88",
+      "source_sha": "a0ab6186d9800392fb2c8bee5793a58a7fcb0bb5",
       "platform": "PS3",
       "product_id": "",
       "original": "アルカナハート3 LOVE MAX!!!!!",
@@ -1064,7 +1074,7 @@
     },
     {
       "key": "platforms/ps3/games/arslan-the-warriors-of-legend.md",
-      "source_sha": "3473a4026b25bd509d71a9ba3ecd87baf601cc78",
+      "source_sha": "9699ec599e07032868e9fdfd52939352c8c2a1cf",
       "platform": "PS3",
       "product_id": "",
       "original": "アルスラーン戦記×無双",
@@ -1074,7 +1084,7 @@
     },
     {
       "key": "platforms/ps3/games/battle-fantasia.md",
-      "source_sha": "08468f2beeafea3d4f8c2ba779328ca517db5609",
+      "source_sha": "70dd811e55b88a5dec0f36519017a4b55d1b49d2",
       "platform": "PS3",
       "product_id": "",
       "original": "バトルファンタジア",
@@ -1084,7 +1094,7 @@
     },
     {
       "key": "platforms/ps3/games/battle-princess-of-arcadias.md",
-      "source_sha": "63f3efd25ec581592c493a6072fc74d96bd47122",
+      "source_sha": "2fc02407dfdc16b2cb58515a7fac6864ef50042c",
       "platform": "PS3",
       "product_id": "",
       "original": "アルカディアスの戦姫",
@@ -1094,7 +1104,7 @@
     },
     {
       "key": "platforms/ps3/games/class-of-heroes-2g.md",
-      "source_sha": "d57d48f9743531819a1de1d90a99d7a7685c3142",
+      "source_sha": "ad4427509444bc197a7022ca669d1d10d3c7e9ce",
       "platform": "PS3",
       "product_id": "",
       "original": "剣と魔法と学園モノ。2G",
@@ -1104,7 +1114,7 @@
     },
     {
       "key": "platforms/ps3/games/deception-iv-blood-ties.md",
-      "source_sha": "959b62a9e4bfcbe1c187b4c3c8db0181d45fe12b",
+      "source_sha": "3e5243a48eeb62b8a75498ef6a142bc8526c71ff",
       "platform": "PS3",
       "product_id": "",
       "original": "影牢 ～ダークサイド プリンセス～",
@@ -1114,7 +1124,7 @@
     },
     {
       "key": "platforms/ps3/games/dengeki-bunko-fighting-climax-ignition.md",
-      "source_sha": "b5c0226ddc18e80c220593d7f7a9ea1a99d3a736",
+      "source_sha": "9451dda30b1e75bb5602a5cf0c9b0237f4ef1a15",
       "platform": "PS3",
       "product_id": "",
       "original": "電撃文庫 FIGHTING CLIMAX IGNITION",
@@ -1124,7 +1134,7 @@
     },
     {
       "key": "platforms/ps3/games/dengeki-bunko-fighting-climax.md",
-      "source_sha": "a56385ba829f557e11cbaf7cd98092e473477afd",
+      "source_sha": "096f914299ae7c1afd7db9fd7952773100c08549",
       "platform": "PS3",
       "product_id": "",
       "original": "電撃文庫 FIGHTING CLIMAX",
@@ -1134,7 +1144,7 @@
     },
     {
       "key": "platforms/ps3/games/dunamis15.md",
-      "source_sha": "c99627c34c64d1c2814d0c5c14eeeaa00470f643",
+      "source_sha": "a95769a4317d715ed76ab5a83b30fb1cd429c3b1",
       "platform": "PS3",
       "product_id": "",
       "original": "DUNAMIS15（デュナミス15 / デュナミス フィフティーン）",
@@ -1144,7 +1154,7 @@
     },
     {
       "key": "platforms/ps3/games/dungeons-dragons-chronicles-of-mystara.md",
-      "source_sha": "1f66efc4b170e21555ac16af15991b646df8c9f4",
+      "source_sha": "ae801f88b527d61b5e1c441aa531f374091bfa09",
       "platform": "PS3",
       "product_id": "",
       "original": "",
@@ -1154,7 +1164,7 @@
     },
     {
       "key": "platforms/ps3/games/dynasty-warriors-gundam.md",
-      "source_sha": "2778ae8c4fc557e7c9f5dfeed7bc2ea941aaa418",
+      "source_sha": "9f8b70123d2c4c72ae52a3c6b20f0e6cbbdbfa23",
       "platform": "PS3",
       "product_id": "",
       "original": "ガンダム無双",
@@ -1164,7 +1174,7 @@
     },
     {
       "key": "platforms/ps3/games/eiyuu-senki-the-world-conquest.md",
-      "source_sha": "9a8fa638534fedf0aa17fcbc6a78019812305c73",
+      "source_sha": "c3f3c498d3f907f48cb808f40413e844004b6023",
       "platform": "PS3",
       "product_id": "",
       "original": "英雄＊戦姫",
@@ -1174,7 +1184,7 @@
     },
     {
       "key": "platforms/ps3/games/ex-troopers.md",
-      "source_sha": "da8be5b6d33e4238301d6062c56213ba5089b2b9",
+      "source_sha": "655e8d45bcb77261916880ebebd434cbb3d3ba24",
       "platform": "PS3",
       "product_id": "",
       "original": "エクストルーパーズ",
@@ -1184,7 +1194,7 @@
     },
     {
       "key": "platforms/ps3/games/gekijouban-macross-f-sayonara-no-tsubasa-hybrid-pack.md",
-      "source_sha": "63732140f4bfe7a794d77a61f330b5cd7b2bcb8e",
+      "source_sha": "84b036a3918bd19af92c9edd78d2eb982a848335",
       "platform": "PS3",
       "product_id": "",
       "original": "劇場版マクロスF〜サヨナラノツバサ〜 Hybrid Pack",
@@ -1194,7 +1204,7 @@
     },
     {
       "key": "platforms/ps3/games/hack-sekai-no-mukou-ni-versus-hybrid-pack.md",
-      "source_sha": "2567dda720fed15805d44fadf727bbd59c8d042a",
+      "source_sha": "240ba870e3e0091f2d69f97ffbaf3f9aeb056ab7",
       "platform": "PS3",
       "product_id": "",
       "original": "ドットハック セカイの向こうに＋Versus Hybrid Pack",
@@ -1204,7 +1214,7 @@
     },
     {
       "key": "platforms/ps3/games/himawari-no-kyoukai-to-nagai-natsuyasumi-extra-vacation.md",
-      "source_sha": "82ce0c6f4c6e64fe2ceeea97999140099961b8a4",
+      "source_sha": "b18da127df9c5d48d55df73f11af53e6e5ebcfe5",
       "platform": "PS3",
       "product_id": "",
       "original": "向日葵の教会と長い夏休み -extra vacation-",
@@ -1214,7 +1224,7 @@
     },
     {
       "key": "platforms/ps3/games/infinite-stratos-2-love-and-purge.md",
-      "source_sha": "6ca850a5b17f2519f59da601ae3ae123ebaca652",
+      "source_sha": "ab62e3ec9fa2eabf855d20872da09f9f6b7c38f5",
       "platform": "PS3",
       "product_id": "",
       "original": "IS＜インフィニット・ストラトス＞2 ラブ アンド パージ",
@@ -1224,7 +1234,7 @@
     },
     {
       "key": "platforms/ps3/games/jojos-bizarre-adventure-eyes-of-heaven.md",
-      "source_sha": "f1381b0a36960a5253582add5b0a02956fe599a5",
+      "source_sha": "0dd406575e3eb68365c266f42f33a2a82ee241a9",
       "platform": "PS3",
       "product_id": "",
       "original": "ジョジョの奇妙な冒険 アイズオブヘブン",
@@ -1234,7 +1244,7 @@
     },
     {
       "key": "platforms/ps3/games/jojos-bizarre-adventure-hd-ver.md",
-      "source_sha": "d58f69db9a3ec17e1221c50973f389499a0d37dc",
+      "source_sha": "0c50aeeebdf36c7a70cb7820d841935de627d18a",
       "platform": "PS3",
       "product_id": "",
       "original": "ジョジョの奇妙な冒険 未来への遺産 HD Ver.",
@@ -1244,7 +1254,7 @@
     },
     {
       "key": "platforms/ps3/games/k-on-houkago-live-hd-ver.md",
-      "source_sha": "90d7588bb2b0edcdb8638c33aaae23b5bd8fb51e",
+      "source_sha": "3cf17f8105707584f0cc9d0d4b5cfa4d9de44173",
       "platform": "PS3",
       "product_id": "",
       "original": "けいおん！ 放課後ライブ！！ HD Ver.",
@@ -1254,7 +1264,7 @@
     },
     {
       "key": "platforms/ps3/games/kaihou-shoujo-liberation-maiden-sin.md",
-      "source_sha": "4ea9b922e0aa843f9cffd1c5368cda1c082db4bb",
+      "source_sha": "0a6299481ceb14017919d84819d9ce84249c4796",
       "platform": "PS3",
       "product_id": "",
       "original": "解放少女 SIN",
@@ -1264,7 +1274,7 @@
     },
     {
       "key": "platforms/ps3/games/ketsui-kizuna-jigoku-tachi-extra.md",
-      "source_sha": "d0476f653301b2554b1d0bb5f528e91bcba7c18e",
+      "source_sha": "2dd6c9bf702ec4171f9e200c3a76cbdcc5f953dd",
       "platform": "PS3",
       "product_id": "",
       "original": "ケツイ ～絆地獄たち～ EXTRA",
@@ -1274,7 +1284,7 @@
     },
     {
       "key": "platforms/ps3/games/kidou-senshi-gundam-extreme-vs-full-boost.md",
-      "source_sha": "e50d7bc3da13b28614b3a11b9950931bd156aabd",
+      "source_sha": "9307fda31923d2a91a9c433af7cc74e22fd8a28e",
       "platform": "PS3",
       "product_id": "",
       "original": "機動戦士ガンダム エクストリームバーサス フルブースト",
@@ -1284,7 +1294,7 @@
     },
     {
       "key": "platforms/ps3/games/koihime-enbu.md",
-      "source_sha": "40229de8fc8854c7342d797e02987eb8983eefdc",
+      "source_sha": "ba69375cd7597ffb1f9468609f915a585466e9a3",
       "platform": "PS3",
       "product_id": "",
       "original": "恋姫†演武",
@@ -1294,7 +1304,7 @@
     },
     {
       "key": "platforms/ps3/games/legasista.md",
-      "source_sha": "d2276432bedc77606a42e326f878fbcbaeb7a14c",
+      "source_sha": "5b179867c58e59e6d9761ed27eaec2b485a8c399",
       "platform": "PS3",
       "product_id": "",
       "original": "迷宮塔路レガシスタ",
@@ -1304,7 +1314,7 @@
     },
     {
       "key": "platforms/ps3/games/macross-30-ginga-o-tsunagu-utagoe.md",
-      "source_sha": "a07cbf83cca01b6788bec2f0fdf83b1724ed1bbc",
+      "source_sha": "ce6ef9a1c89e84479d125182c85f18387ab7d449",
       "platform": "PS3",
       "product_id": "",
       "original": "マクロス30 銀河を繋ぐ歌声",
@@ -1314,7 +1324,7 @@
     },
     {
       "key": "platforms/ps3/games/maji-de-watashi-ni-koi-shinasai-r.md",
-      "source_sha": "c506c4376e90e2778eb99b5e459556f7f1f4c3fa",
+      "source_sha": "6c7b547923fe81ea736a58a595968742d2defab4",
       "platform": "PS3",
       "product_id": "",
       "original": "真剣で私に恋しなさい！R",
@@ -1324,7 +1334,7 @@
     },
     {
       "key": "platforms/ps3/games/mobile-suit-gundam-battlefield-record-uc-0081.md",
-      "source_sha": "2243d8ab98e5d7149509859ff463e03d6dec949b",
+      "source_sha": "49a1e0901ce5d56e02ef44c813e76faf1645d00e",
       "platform": "PS3",
       "product_id": "",
       "original": "機動戦士ガンダム戦記 MOBILE SUIT GUNDAM BATTLEFIELD RECORD U.C.0081",
@@ -1334,7 +1344,7 @@
     },
     {
       "key": "platforms/ps3/games/natsuiro-high-school-seishun-hakusho.md",
-      "source_sha": "c1d879036b452f80b8a567998346450996247b7b",
+      "source_sha": "a752e2409eb29a20842115ba3900b15f3c62ba33",
       "platform": "PS3",
       "product_id": "",
       "original": "夏色ハイスクル★青春白書 ～転校初日のオレが幼馴染と再会したら報道部員にされていて激写少年の日々はスクープ大連発でイガイとモテモテなのに何故かマイメモリーはパンツ写真ばっかりという現実と向き合いながら考えるひと夏の島の学園生活と赤裸々な恋の行方。～",
@@ -1344,7 +1354,7 @@
     },
     {
       "key": "platforms/ps3/games/nitroplus-blasterz-heroines-infinite-duel.md",
-      "source_sha": "05bbea75e61f8f03d492da7fd254423230eee670",
+      "source_sha": "6a5029a63f6cd79f2f798c221de715d6e4e7e0b0",
       "platform": "PS3",
       "product_id": "",
       "original": "ニトロプラス ブラスターズ -ヒロインズ インフィニット デュエル-",
@@ -1354,7 +1364,7 @@
     },
     {
       "key": "platforms/ps3/games/nurarihyon-no-mago-hyakki-ryouran-taisen.md",
-      "source_sha": "aac658456669200278e63c87e5d2ff4b1f94c68b",
+      "source_sha": "b001a121aa89723b8328b96ef8b74b3522ed5c8e",
       "platform": "PS3",
       "product_id": "",
       "original": "ぬらりひょんの孫 百鬼繚乱大戦",
@@ -1364,7 +1374,7 @@
     },
     {
       "key": "platforms/ps3/games/oretachi-ni-tsubasa-wa-nai.md",
-      "source_sha": "6ac0a10923f76e35aeefd905881ecba496eaf664",
+      "source_sha": "d297dc0e68e98bc9824df59e04dfe5d671229754",
       "platform": "PS3",
       "product_id": "",
       "original": "俺たちに翼はない",
@@ -1374,7 +1384,7 @@
     },
     {
       "key": "platforms/ps3/games/rui-wa-tomo-o-yobu.md",
-      "source_sha": "fd88c8d1ec7e6f4254e4972925e14733f536e977",
+      "source_sha": "42a0d9092fd48b09eca6d2da4981e7b5ca3cf51e",
       "platform": "PS3",
       "product_id": "",
       "original": "るいは智を呼ぶ",
@@ -1384,7 +1394,7 @@
     },
     {
       "key": "platforms/ps3/games/saint-seiya-soldiers-soul.md",
-      "source_sha": "5d18938ad85b4eb8a4d59acf8de8aa9c0622bd34",
+      "source_sha": "cb3bdbf3bd6ba43ce3da7d6974765ae532308b64",
       "platform": "PS3",
       "product_id": "",
       "original": "聖闘士星矢 ソルジャーズ・ソウル",
@@ -1394,7 +1404,7 @@
     },
     {
       "key": "platforms/ps3/games/sengoku-hime-4-souha-hyakkei-hana-mamoru-chikai.md",
-      "source_sha": "fddd2e54b091368293417224189cb1cb5e1579e0",
+      "source_sha": "b86ee899eb1a4f006897b94e0a207817118e0f34",
       "platform": "PS3",
       "product_id": "",
       "original": "戦極姫4 ～争覇百計、花守る誓い～",
@@ -1404,7 +1414,7 @@
     },
     {
       "key": "platforms/ps3/games/sengoku-hime-5-senka-tatsu-haou-no-keifu.md",
-      "source_sha": "6f8c88c5ceb2bc4681364025860fe251eedf5243",
+      "source_sha": "1c9d602a66491964a1d4cc02e6f9f2aa1e6f0ad0",
       "platform": "PS3",
       "product_id": "",
       "original": "戦極姫5 ～戦禍断つ覇王の系譜～",
@@ -1414,7 +1424,7 @@
     },
     {
       "key": "platforms/ps3/games/shin-koihime-musou-otome-taisen-sangokushi-engi.md",
-      "source_sha": "098d32d5ba886f581a9ed44a62d50a88c384a652",
+      "source_sha": "dc7f6dfc9c470e17ba9a1c4f8aabdf2b49cadf89",
       "platform": "PS3",
       "product_id": "",
       "original": "真・恋姫†夢想 ～乙女対戦★三国志演義～",
@@ -1424,7 +1434,7 @@
     },
     {
       "key": "platforms/ps3/games/shutsugeki-otometachi-no-senjou-2-yuukoku-o-kakeru-koujo-no-tsubasa.md",
-      "source_sha": "5461db5a1c4dfe40f401a7f4c1968de8b428a49e",
+      "source_sha": "b4836e18618036b06c68ec8ec8c4868d0b357be1",
       "platform": "PS3",
       "product_id": "",
       "original": "出撃!! 乙女たちの戦場2 ～憂国を翔ける皇女のツバサ～",
@@ -1434,7 +1444,7 @@
     },
     {
       "key": "platforms/ps3/games/skullgirls-encore.md",
-      "source_sha": "01c1ceb6f0837aab0e53703b221491ba356559fd",
+      "source_sha": "650bbf5b7ef08dbb57b3ec2f3984023a9b9c45ad",
       "platform": "PS3",
       "product_id": "",
       "original": "",
@@ -1444,7 +1454,7 @@
     },
     {
       "key": "platforms/ps3/games/super-dimension-fortress-macross-do-you-remember-love-hybrid-pack.md",
-      "source_sha": "c49f273633c9224d897a44d3ce57dbc7ec8094f0",
+      "source_sha": "a1b27690a2219cefbf155b96c29ff08da0931aa5",
       "platform": "PS3",
       "product_id": "",
       "original": "超時空要塞マクロス～愛・おぼえていますか～ Hybrid Pack",
@@ -1454,7 +1464,7 @@
     },
     {
       "key": "platforms/ps3/games/suzukaze-no-melt-days-in-the-sanctuary.md",
-      "source_sha": "e3ceccc4cb81b24cf7d9638532820892d1712092",
+      "source_sha": "7f75b0bbf74c0e0422b864f1268181e313f8eea6",
       "platform": "PS3",
       "product_id": "",
       "original": "涼風のメルト -days in the sanctuary-",
@@ -1464,7 +1474,7 @@
     },
     {
       "key": "platforms/ps3/games/the-awakened-fate-ultimatum.md",
-      "source_sha": "5729de20a2b1c4e874843345fc22913ec8eb05c2",
+      "source_sha": "62f883561322f95c3ff82f8e6d857cc28cdeae7a",
       "platform": "PS3",
       "product_id": "",
       "original": "神様と運命覚醒のクロステーゼ",
@@ -1474,7 +1484,7 @@
     },
     {
       "key": "platforms/ps3/games/the-guided-fate-paradox.md",
-      "source_sha": "238c147dfa4ccb35052f1e2034943359eb23d40c",
+      "source_sha": "7d8c1dfb9e7eb0e40039d7f9c1ca164ada206785",
       "platform": "PS3",
       "product_id": "",
       "original": "神様と運命革命のパラドクス",
@@ -1484,7 +1494,7 @@
     },
     {
       "key": "platforms/ps3/games/toheart2-dx-plus.md",
-      "source_sha": "0158394e59aff16ee4c35985c0d6c5acbf7e5f42",
+      "source_sha": "56532433247f841392ff68ea6619eb50e7b09663",
       "platform": "PS3",
       "product_id": "",
       "original": "ToHeart2 DX PLUS",
@@ -1494,7 +1504,7 @@
     },
     {
       "key": "platforms/ps3/games/tokyo-twilight-ghost-hunters.md",
-      "source_sha": "4b810cfb8230296798a767fa87977923986f5e02",
+      "source_sha": "9cbe03c2e217e3326b7f8bc2e520a1f84cea11fe",
       "platform": "PS3",
       "product_id": "",
       "original": "魔都紅色幽撃隊",
@@ -1504,7 +1514,7 @@
     },
     {
       "key": "platforms/ps3/games/touch-shot-love-application.md",
-      "source_sha": "8a3e6c835cf02642f08a357541f0f794a24b6608",
+      "source_sha": "622e8f8c37d52450ea04869d649dd2583954d6ce",
       "platform": "PS3",
       "product_id": "",
       "original": "たっち、しよっ！ ～Love Application～",
@@ -1514,7 +1524,7 @@
     },
     {
       "key": "platforms/ps3/games/wizardry-perfect-pack.md",
-      "source_sha": "9b2e37e4c300c436a5af243749134a0f71a69d3e",
+      "source_sha": "35109a07c1dbe2e657a0a68e835b02aa44144b82",
       "platform": "PS3",
       "product_id": "",
       "original": "ウィザードリィ パーフェクトパック",
@@ -1524,7 +1534,7 @@
     },
     {
       "key": "platforms/ps3/games/xblaze-code-embryo.md",
-      "source_sha": "5d0ed560dae2754c40059d9315ea49553b780efa",
+      "source_sha": "17b67bf43b4784ddef9f7dabe276e379ff0df09a",
       "platform": "PS3",
       "product_id": "",
       "original": "XBLAZE CODE：EMBRYO / エクスブレイズ コード：エンブリオ",
@@ -1534,7 +1544,7 @@
     },
     {
       "key": "platforms/ps3/games/yu-gi-oh-millennium-duels.md",
-      "source_sha": "f08eaac6822a80030c0ad369de2a84471ec80efe",
+      "source_sha": "889b95ede8749b4f4aedd0d5b51153591c313ce0",
       "platform": "PS3",
       "product_id": "",
       "original": "Yu-Gi-Oh! Millennium Duels",
