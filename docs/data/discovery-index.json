@@ -1,7 +1,27 @@
 {
   "version": 1,
-  "tree_sha": "1921f3e743135e35158567fe6c455259f3b93422",
+  "tree_sha": "8ec8f3db2913da6c227bf3e48473e8a9b986f207",
   "games": [
+    {
+      "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
+      "source_sha": "86fc6bf12b4148bff10063ffc95ba14bc3406bb9",
+      "platform": "DREAMCAST 일본판",
+      "product_id": "",
+      "original": "僕と、僕らの夏",
+      "english_title": "Boku to, Bokura no Natsu",
+      "title_ko": "나와 우리의 여름 (자연스러운 번역 표기, 공식 한국어판 제목 아님)",
+      "title": "Boku to, Bokura no Natsu (나와 우리의 여름)"
+    },
+    {
+      "key": "platforms/dreamcast/games/chocolat-maid-cafe-curio.md",
+      "source_sha": "0ac1c85ffa4091911fa533107af29fa89e3ff6ac",
+      "platform": "DREAMCAST",
+      "product_id": "",
+      "original": "ショコラ ～maid cafe \"curio\"～",
+      "english_title": "Chocolat: Maid Cafe \"Curio\"",
+      "title_ko": "쇼콜라 -메이드 카페 큐리오-",
+      "title": "Chocolat: Maid Cafe \"Curio\" (쇼콜라 -메이드 카페 큐리오-)"
+    },
     {
       "key": "platforms/dreamcast/games/comic-party.md",
       "source_sha": "b3727f0ba5786734f5ddca98e4e19862309e708d",
@@ -11,6 +31,56 @@
       "english_title": "Comic Party",
       "title_ko": "코믹파티",
       "title": "Comic Party (코믹파티)"
+    },
+    {
+      "key": "platforms/dreamcast/games/d-vine-luv.md",
+      "source_sha": "cd66eee10e275b46ae3d096fc21a67e7273b4483",
+      "platform": "DREAMCAST",
+      "product_id": "",
+      "original": "D+VINE[LUV] / ディヴァイン ラヴ",
+      "english_title": "D+Vine [Luv]",
+      "title_ko": "디바인 러브",
+      "title": "D+Vine [Luv] (디바인 러브)"
+    },
+    {
+      "key": "platforms/dreamcast/games/dancing-blade-katte-ni-momotenshi-ii-tears-of-eden-kanzenban.md",
+      "source_sha": "0f6989a4e26c42ba9cd80f9ef6cce3250f760697",
+      "platform": "DREAMCAST",
+      "product_id": "",
+      "original": "dancing blade かってに桃天使II ～Tears of Eden～ 完全版",
+      "english_title": "Dancing Blade Katte ni Momotenshi II: Tears of Eden Kanzenban",
+      "title_ko": "댄싱 블레이드 천방지축 복숭아 천사 II ~Tears of Eden~ 완전판",
+      "title": "Dancing Blade Katte ni Momotenshi II: Tears of Eden Kanzenban (댄싱 블레이드 천방지축 복숭아 천사 II ~Tears of Eden~ 완전판)"
+    },
+    {
+      "key": "platforms/dreamcast/games/doki-doki-idol-star-seeker-remix.md",
+      "source_sha": "bc43ed86ade83cecea2f459d736b0df9556766e6",
+      "platform": "DREAMCAST",
+      "product_id": "",
+      "original": "どきどきアイドルスターシーカーRemix",
+      "english_title": "Doki Doki Idol Star Seeker Remix",
+      "title_ko": "도키도키 아이돌 스타 시커 리믹스",
+      "title": "Doki Doki Idol Star Seeker Remix (도키도키 아이돌 스타 시커 리믹스)"
+    },
+    {
+      "key": "platforms/dreamcast/games/dousoukai-2-again-refrain.md",
+      "source_sha": "e3f3d1f9047bd33526c5878bcbd5f8090a0e1527",
+      "platform": "DREAMCAST, 일본판",
+      "product_id": "",
+      "original": "同窓会2 again & refrain",
+      "english_title": "Dousoukai 2: Again & Refrain",
+      "title_ko": "동창회 2: 어게인 & 리프레인. 국내 게임 목록에는 동창회2 again&refrain 표기",
+      "title": "Dousoukai 2: Again & Refrain (동창회 2: 어게인 & 리프레인)"
+    },
+    {
+      "key": "platforms/dreamcast/games/elysion-eien-no-sanctuary.md",
+      "source_sha": "d2798a7529541840b781f4f474f6b5dddecdcc5e",
+      "platform": "DREAMCAST",
+      "product_id": "",
+      "original": "ELYSION ～永遠のサンクチュアリ～",
+      "english_title": "Elysion: Eien no Sanctuary",
+      "title_ko": "엘류시온 영원의 생츄어리",
+      "title": "Elysion: Eien no Sanctuary (엘류시온 영원의 생츄어리)"
     },
     {
       "key": "platforms/dreamcast/games/gaiamaster-kessen-seiki-ou-densetsu.md",
@@ -43,6 +113,56 @@
       "title": "Interlude (인터루드)"
     },
     {
+      "key": "platforms/dreamcast/games/missing-parts-3-the-tantei-stories.md",
+      "source_sha": "519244f2fdc9af4ce7811306544d0b26a4b0eb6c",
+      "platform": "DREAMCAST",
+      "product_id": "",
+      "original": "ミッシングパーツ3 ザ・探偵ストーリーズ",
+      "english_title": "Missing Parts 3: The Tantei Stories",
+      "title_ko": "미싱 파츠 3: 탐정 이야기",
+      "title": "Missing Parts 3: The Tantei Stories (미싱 파츠 3: 탐정 이야기)"
+    },
+    {
+      "key": "platforms/dreamcast/games/moekan.md",
+      "source_sha": "768a11d1c38300ac7c70edd4dcde201f5e74af73",
+      "platform": "DREAMCAST",
+      "product_id": "",
+      "original": "モエかん / MOEKKO COMPANY",
+      "english_title": "Moekan",
+      "title_ko": "모에캉",
+      "title": "Moekan (모에캉)"
+    },
+    {
+      "key": "platforms/dreamcast/games/orange-pocket-cornet.md",
+      "source_sha": "3dc8d4a08da01289d51cc112b1580e3edec7d2b7",
+      "platform": "DREAMCAST",
+      "product_id": "",
+      "original": "オレンジポケット -コルネット-",
+      "english_title": "Orange Pocket: Cornet",
+      "title_ko": "오렌지 포켓 -코넷-",
+      "title": "Orange Pocket: Cornet (오렌지 포켓 -코넷-)"
+    },
+    {
+      "key": "platforms/dreamcast/games/pandora-no-yume.md",
+      "source_sha": "2444f1030ed5fb2e866500b2c86772770d8db13c",
+      "platform": "DREAMCAST (일본판)",
+      "product_id": "",
+      "original": "パンドラの夢",
+      "english_title": "Pandora no Yume",
+      "title_ko": "판도라의 꿈 (원제의 자연스러운 번역 표기, 공식 한국어판 제목 아님)",
+      "title": "Pandora no Yume (판도라의 꿈)"
+    },
+    {
+      "key": "platforms/dreamcast/games/plus-plumb.md",
+      "source_sha": "8dcaacd551c3577268684eaca22cca8fdee0e9e1",
+      "platform": "DREAMCAST",
+      "product_id": "",
+      "original": "ぷらすぷらむ",
+      "english_title": "Plus Plumb",
+      "title_ko": "플러스 플럼",
+      "title": "Plus Plumb (플러스 플럼)"
+    },
+    {
       "key": "platforms/dreamcast/games/prism-heart.md",
       "source_sha": "306de853f80a6c47a7ab69d7ad897e377890662a",
       "platform": "DREAMCAST",
@@ -61,6 +181,16 @@
       "english_title": "Prismaticallization",
       "title_ko": "프리즈마티컬라이제이션",
       "title": "Prismaticallization (프리즈마티컬라이제이션)"
+    },
+    {
+      "key": "platforms/dreamcast/games/revive-sosei.md",
+      "source_sha": "84378273e096fcf5d82b757f53885688eaf49cbd",
+      "platform": "DREAMCAST (일본) / 후발 WINDOWS 이식",
+      "product_id": "",
+      "original": "REVIVE… ～蘇生～ (リバイヴ… ～蘇生～)",
+      "english_title": "Revive... Sosei",
+      "title_ko": "리바이브 ~소생~ (국내 나무위키·국내 위키의 실제 사용 표기, 공식 한국어판 제목 아님)",
+      "title": "Revive... Sosei (리바이브 ~소생~)"
     },
     {
       "key": "platforms/dreamcast/games/sakura-taisen-hanagumi-taisen-columns-2.md",
@@ -103,6 +233,26 @@
       "title": "Sister Princess Premium Edition (시스터 프린세스 프리미엄 에디션)"
     },
     {
+      "key": "platforms/dreamcast/games/snow.md",
+      "source_sha": "ea4ce3418c5c5189eb4e677af4ba7b416459ec71",
+      "platform": "DREAMCAST",
+      "product_id": "",
+      "original": "SNOW",
+      "english_title": "SNOW",
+      "title_ko": "스노우",
+      "title": "SNOW (스노우)"
+    },
+    {
+      "key": "platforms/dreamcast/games/suika.md",
+      "source_sha": "80fce3dd9e3b72b05ea9242d26cd9a49f5351628",
+      "platform": "DREAMCAST / 일본",
+      "product_id": "",
+      "original": "水夏 ～SUIKA～",
+      "english_title": "Suika",
+      "title_ko": "",
+      "title": "Suika (스이카)"
+    },
+    {
       "key": "platforms/dreamcast/games/tantei-shinshi-dash.md",
       "source_sha": "98ee9453648b8ca882df57a1940d105c5eb2b77b",
       "platform": "DREAMCAST",
@@ -121,6 +271,36 @@
       "english_title": "Tricolore Crise",
       "title_ko": "트리콜로르 크라이시스 (음역; 국내 통용 표기 확정 자료 부족)",
       "title": "Tricolore Crise (트리콜로르 크라이시스)"
+    },
+    {
+      "key": "platforms/dreamcast/games/tsuki-wa-higashi-ni-hi-wa-nishi-ni-operation-sanctuary.md",
+      "source_sha": "f4b3c36357505ba287516fde48c99f76de43dcba",
+      "platform": "DREAMCAST / 일본, PC 원작·PS2 후발판",
+      "product_id": "",
+      "original": "月は東に日は西に ～Operation Sanctuary～",
+      "english_title": "Tsuki wa Higashi ni Hi wa Nishi ni: Operation Sanctuary",
+      "title_ko": "",
+      "title": "Tsuki wa Higashi ni Hi wa Nishi ni: Operation Sanctuary (달은 동쪽으로 해는 서쪽으로)"
+    },
+    {
+      "key": "platforms/dreamcast/games/typing-of-the-date.md",
+      "source_sha": "bef05ebb75e795b056b287a1fc39b4e87e1c437f",
+      "platform": "DREAMCAST",
+      "product_id": "",
+      "original": "タイピング OF THE デート",
+      "english_title": "Typing of the Date",
+      "title_ko": "타이핑 오브 더 데이트",
+      "title": "Typing of the Date (타이핑 오브 더 데이트)"
+    },
+    {
+      "key": "platforms/dreamcast/games/yume-no-tsubasa-fate-of-heart.md",
+      "source_sha": "d15d2c9667089fd9252ed1b57ebbca84a1048cad",
+      "platform": "DREAMCAST",
+      "product_id": "",
+      "original": "夢のつばさ ～Fate of Heart～",
+      "english_title": "Yume no Tsubasa: Fate of Heart",
+      "title_ko": "꿈의 날개 -Fate of Heart-",
+      "title": "Yume no Tsubasa: Fate of Heart (꿈의 날개 -Fate of Heart-)"
     },
     {
       "key": "platforms/ps2/games/12riven-the-psycliminal-of-integral.md",
