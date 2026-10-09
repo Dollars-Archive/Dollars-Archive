@@ -1,7 +1,77 @@
 {
   "version": 1,
-  "tree_sha": "a0aba0510f548b31e9e7499820d9821edb23015a",
+  "tree_sha": "1921f3e743135e35158567fe6c455259f3b93422",
   "games": [
+    {
+      "key": "platforms/dreamcast/games/comic-party.md",
+      "source_sha": "b3727f0ba5786734f5ddca98e4e19862309e708d",
+      "platform": "DREAMCAST",
+      "product_id": "",
+      "original": "こみっくパーティー",
+      "english_title": "Comic Party",
+      "title_ko": "코믹파티",
+      "title": "Comic Party (코믹파티)"
+    },
+    {
+      "key": "platforms/dreamcast/games/gaiamaster-kessen-seiki-ou-densetsu.md",
+      "source_sha": "8e47cf54fcd689e9729aa500dd07c789a80cf4fe",
+      "platform": "DREAMCAST",
+      "product_id": "",
+      "original": "ガイアマスター 決戦！世紀王伝説",
+      "english_title": "GaiaMaster: Kessen! Seiki-ou Densetsu",
+      "title_ko": "가이아 마스터: 결전! 세기왕전설",
+      "title": "GaiaMaster: Kessen! Seiki-ou Densetsu (가이아 마스터: 결전! 세기왕전설)"
+    },
+    {
+      "key": "platforms/dreamcast/games/happy-lesson.md",
+      "source_sha": "84f7ac7f3f3f25cf2c144ed53d16bf5086567ff4",
+      "platform": "DREAMCAST",
+      "product_id": "",
+      "original": "HAPPY★LESSON / ハッピー★レッスン",
+      "english_title": "Happy Lesson",
+      "title_ko": "해피☆레슨",
+      "title": "Happy Lesson (해피☆레슨)"
+    },
+    {
+      "key": "platforms/dreamcast/games/interlude.md",
+      "source_sha": "2e5890333168ac1179271b066428cae4144c3865",
+      "platform": "DREAMCAST",
+      "product_id": "",
+      "original": "インタールード",
+      "english_title": "Interlude",
+      "title_ko": "인터루드",
+      "title": "Interlude (인터루드)"
+    },
+    {
+      "key": "platforms/dreamcast/games/prism-heart.md",
+      "source_sha": "306de853f80a6c47a7ab69d7ad897e377890662a",
+      "platform": "DREAMCAST",
+      "product_id": "",
+      "original": "プリズム・ハート",
+      "english_title": "Prism Heart",
+      "title_ko": "프리즘 하트",
+      "title": "Prism Heart (프리즘 하트)"
+    },
+    {
+      "key": "platforms/dreamcast/games/prismaticallization.md",
+      "source_sha": "83a7df3423b78eb58d37f1e6c73192e18e7b2487",
+      "platform": "DREAMCAST",
+      "product_id": "",
+      "original": "Prismaticallization / プリズマティカリゼーション",
+      "english_title": "Prismaticallization",
+      "title_ko": "프리즈마티컬라이제이션",
+      "title": "Prismaticallization (프리즈마티컬라이제이션)"
+    },
+    {
+      "key": "platforms/dreamcast/games/sakura-taisen-hanagumi-taisen-columns-2.md",
+      "source_sha": "cafc0dafe6a1b37deee652bd13169acf702679f6",
+      "platform": "DREAMCAST",
+      "product_id": "",
+      "original": "花組対戦コラムス2",
+      "english_title": "Sakura Taisen: Hanagumi Taisen Columns 2",
+      "title_ko": "사쿠라 대전: 화조대전 컬럼스 2",
+      "title": "Sakura Taisen: Hanagumi Taisen Columns 2 (사쿠라 대전: 화조대전 컬럼스 2)"
+    },
     {
       "key": "platforms/dreamcast/games/seireiki-rayblade.md",
       "source_sha": "dd6016e4d957e3b388460697b5261865227a88dd",
@@ -11,6 +81,16 @@
       "english_title": "Seireiki Rayblade",
       "title_ko": "성령기 라이블레이드",
       "title": "Seireiki Rayblade (성령기 라이블레이드)"
+    },
+    {
+      "key": "platforms/dreamcast/games/shirotsume-souwa-episode-of-the-clovers.md",
+      "source_sha": "4f52c66a63436eb31930293326787763693c4eb6",
+      "platform": "DREAMCAST",
+      "product_id": "",
+      "original": "白詰草話 -EPISODE OF THE CLOVERS-",
+      "english_title": "Shirotsume Souwa: Episode of the Clovers",
+      "title_ko": "백힐초화",
+      "title": "Shirotsume Souwa: Episode of the Clovers (백힐초화)"
     },
     {
       "key": "platforms/dreamcast/games/sister-princess-premium-edition.md",
@@ -31,6 +111,16 @@
       "english_title": "Tantei Shinshi DASH!",
       "title_ko": "탐정신사 대시",
       "title": "Tantei Shinshi DASH! (탐정신사 대시)"
+    },
+    {
+      "key": "platforms/dreamcast/games/tricolore-crise.md",
+      "source_sha": "4c0b20670ca3032ea0de8c571c117a1e2408e537",
+      "platform": "DREAMCAST, 일본 발매",
+      "product_id": "",
+      "original": "トリコロールクライシス",
+      "english_title": "Tricolore Crise",
+      "title_ko": "트리콜로르 크라이시스 (음역; 국내 통용 표기 확정 자료 부족)",
+      "title": "Tricolore Crise (트리콜로르 크라이시스)"
     },
     {
       "key": "platforms/ps2/games/12riven-the-psycliminal-of-integral.md",
