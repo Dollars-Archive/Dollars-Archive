@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "8ec8f3db2913da6c227bf3e48473e8a9b986f207",
+  "tree_sha": "74864d408ad93fde305a3d8c17f468ac6aa9a860",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -83,6 +83,16 @@
       "title": "Elysion: Eien no Sanctuary (엘류시온 영원의 생츄어리)"
     },
     {
+      "key": "platforms/dreamcast/games/erde-nezu-no-ki-no-shita-de.md",
+      "source_sha": "256604ef2ff7eb9d884f9ab963c415b04db9632c",
+      "platform": "DREAMCAST 일본판",
+      "product_id": "",
+      "original": "Erde ～ネズの樹の下で～",
+      "english_title": "Erde: Nezu no Ki no Shita de",
+      "title_ko": "에르데: 네즈나무 아래에서 (자연스러운 설명·음역 표기, 공식 한국어 제목 아님)",
+      "title": "Erde: Nezu no Ki no Shita de (에르데: 네즈나무 아래에서)"
+    },
+    {
       "key": "platforms/dreamcast/games/gaiamaster-kessen-seiki-ou-densetsu.md",
       "source_sha": "8e47cf54fcd689e9729aa500dd07c789a80cf4fe",
       "platform": "DREAMCAST",
@@ -163,6 +173,16 @@
       "title": "Plus Plumb (플러스 플럼)"
     },
     {
+      "key": "platforms/dreamcast/games/princess-holiday-korogaru-ringo-tei-senya-ichiya.md",
+      "source_sha": "d9b83dca146c5cd914e9c11757b9c815666a9241",
+      "platform": "DREAMCAST",
+      "product_id": "",
+      "original": "Princess Holiday ～転がるりんご亭千夜一夜～",
+      "english_title": "Princess Holiday: Korogaru Ringo Tei Senya Ichiya",
+      "title_ko": "프린세스 홀리데이 ~구르는 사과정 천일야화~ (자연스러운 음역 및 뜻풀이, 공식 한국어 제목 아님)",
+      "title": "Princess Holiday: Korogaru Ringo Tei Senya Ichiya (프린세스 홀리데이 ~구르는 사과정 천일야화~)"
+    },
+    {
       "key": "platforms/dreamcast/games/prism-heart.md",
       "source_sha": "306de853f80a6c47a7ab69d7ad897e377890662a",
       "platform": "DREAMCAST",
@@ -181,6 +201,16 @@
       "english_title": "Prismaticallization",
       "title_ko": "프리즈마티컬라이제이션",
       "title": "Prismaticallization (프리즈마티컬라이제이션)"
+    },
+    {
+      "key": "platforms/dreamcast/games/renai-chu-happy-perfect.md",
+      "source_sha": "bd0d708276ed3ac8a7992b36e059ee4fadfadbc5",
+      "platform": "DREAMCAST / 일본판",
+      "product_id": "",
+      "original": "恋愛CHU! ハッピーパーフェクト / 원작 부제 ～彼女のヒミツはオトコのコ?～",
+      "english_title": "Renai Chu! Happy Perfect",
+      "title_ko": "연애 CHU! 해피 퍼펙트 (자연스러운 음역, 공식 한국어 게임 제목 아님)",
+      "title": "Renai Chu! Happy Perfect (연애 CHU! 해피 퍼펙트)"
     },
     {
       "key": "platforms/dreamcast/games/revive-sosei.md",
