@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-10T07:16:35Z",
+  "generated_at": "2026-10-10T13:51:07Z",
   "summary": {
     "total": 9,
     "released": 7,
     "wip": 2,
-    "downloads": 2703
+    "downloads": 2712
   },
   "patches": [
     {
@@ -226,13 +226,13 @@
         "published_at": "2026-10-05T04:17:21Z",
         "asset_count": 1
       },
-      "downloads": 856,
+      "downloads": 859,
       "assets": [
         {
           "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.1/EVE_New_Generation_Korean_Patch_v1.1.zip",
-          "downloads": 392,
+          "downloads": 395,
           "asset_id": 611547873,
           "created_at": "2026-10-05T04:59:55Z",
           "release_published_at": "2026-10-05T04:17:21Z"
@@ -312,7 +312,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/blob/main/README.md",
-      "downloads_current": 856,
+      "downloads_current": 859,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-new-generation-kr-patch/v1.0/EVE_NG_v1.0.zip": {
@@ -329,7 +329,7 @@
           "tag": "v1.1",
           "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
           "asset_id": 611547873,
-          "last_count": 392,
+          "last_count": 395,
           "carried": 0,
           "removed": false
         }
@@ -377,13 +377,13 @@
         "published_at": "2026-10-05T04:17:18Z",
         "asset_count": 1
       },
-      "downloads": 800,
+      "downloads": 804,
       "assets": [
         {
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/download/v1.1/EVE_ZERO_Korean_Patch_v1.1.zip",
-          "downloads": 410,
+          "downloads": 414,
           "asset_id": 611513419,
           "created_at": "2026-10-05T04:43:41Z",
           "release_published_at": "2026-10-05T04:17:18Z"
@@ -461,7 +461,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-zero-kr-patch/blob/main/README.md",
-      "downloads_current": 800,
+      "downloads_current": 804,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-zero-kr-patch/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip": {
@@ -478,7 +478,7 @@
           "tag": "v1.1",
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "asset_id": 611513419,
-          "last_count": 410,
+          "last_count": 414,
           "carried": 0,
           "removed": false
         }
@@ -791,13 +791,13 @@
         "published_at": "2026-09-11T08:15:29Z",
         "asset_count": 1
       },
-      "downloads": 119,
+      "downloads": 120,
       "assets": [
         {
           "name": "EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
           "tag": "v1.2.0",
           "url": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/releases/download/v1.2.0/EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
-          "downloads": 119,
+          "downloads": 120,
           "asset_id": 588172077,
           "created_at": "2026-09-25T10:59:39Z",
           "release_published_at": "2026-09-11T08:15:29Z"
@@ -861,7 +861,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/blob/main/README.md",
-      "downloads_current": 119,
+      "downloads_current": 120,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-ghost-enemies-kr-patch/v1.2.0/EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip": {
@@ -869,7 +869,7 @@
           "tag": "v1.2.0",
           "name": "EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
           "asset_id": 588172077,
-          "last_count": 119,
+          "last_count": 120,
           "carried": 0,
           "removed": false
         }
@@ -917,13 +917,13 @@
         "published_at": "2026-09-11T08:15:19Z",
         "asset_count": 1
       },
-      "downloads": 130,
+      "downloads": 131,
       "assets": [
         {
           "name": "EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
           "tag": "v1.4.0",
           "url": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/releases/download/v1.4.0/EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
-          "downloads": 130,
+          "downloads": 131,
           "asset_id": 588103948,
           "created_at": "2026-09-25T10:18:59Z",
           "release_published_at": "2026-09-11T08:15:19Z"
@@ -1011,7 +1011,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/blob/main/README.md",
-      "downloads_current": 130,
+      "downloads_current": 131,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-rebirth-terror-kr-patch/v1.4.0/EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip": {
@@ -1019,7 +1019,7 @@
           "tag": "v1.4.0",
           "name": "EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
           "asset_id": 588103948,
-          "last_count": 130,
+          "last_count": 131,
           "carried": 0,
           "removed": false
         }
