@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T12:45:56Z",
+  "generated_at": "2026-10-11T13:21:46Z",
   "summary": {
     "total": 10,
     "released": 7,
@@ -1074,7 +1074,7 @@
       "discovery": "platforms/psp/games/twinkle-crusaders-starlit-brave.md",
       "discovery_match": "manual",
       "walkthroughs": [],
-      "walkthrough_available": false,
+      "walkthrough_available": true,
       "activity_at": "2026-10-11T12:35:30Z",
       "activity_exclusion": {
         "ignored_pushed_at": "2026-10-11T12:44:31Z",
@@ -1087,24 +1087,33 @@
           "since": null
         },
         "ui": {
-          "state": "none",
-          "status": "미작업",
-          "since": null
+          "state": "done",
+          "status": "완료",
+          "since": null,
+          "source": "사용자 표시 항목 올 그린 지시 (2026-10-11)"
         },
         "dialogue": {
-          "state": "none",
-          "status": "미작업",
-          "since": null
+          "state": "done",
+          "status": "완료",
+          "since": null,
+          "source": "사용자 표시 항목 올 그린 지시 (2026-10-11)"
         },
         "image": {
-          "state": "none",
-          "status": "미작업",
+          "state": "done",
+          "status": "완료",
           "since": null
         },
         "video": {
-          "state": "none",
-          "status": "미작업",
-          "since": null
+          "state": "done",
+          "status": "완료",
+          "since": null,
+          "source": "사용자 표시 항목 올 그린 지시 (2026-10-11)"
+        },
+        "hd_texture": {
+          "state": "done",
+          "status": "팩 있음",
+          "since": null,
+          "source": "사용자 표시 항목 올 그린 지시 (2026-10-11)"
         }
       },
       "changelog": [],
