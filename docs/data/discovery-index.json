@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "74864d408ad93fde305a3d8c17f468ac6aa9a860",
+  "tree_sha": "99d17b0c91fbebbdaa4cc15b308865b0f7dc0949",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -4001,6 +4001,16 @@
       "english_title": "ISLAND",
       "title_ko": "아일랜드",
       "title": "ISLAND (아일랜드)"
+    },
+    {
+      "key": "platforms/psvita/games/kadenz-fermata-akkord-fortissimo.md",
+      "source_sha": "b81b667b1700bb7cf5de3cef06a5d93361f3f3ac",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "カデンツァ フェルマータ アコルト：フォルテシモ",
+      "english_title": "Kadenz fermata//Akkord:fortissimo",
+      "title_ko": "카덴차 페르마타: 아코르드 포르티시모 (검색·표기를 위한 임시 음역)",
+      "title": "Kadenz fermata//Akkord:fortissimo (카덴차 페르마타: 아코르드 포르티시모)"
     },
     {
       "key": "platforms/psvita/games/kantai-collection-kai.md",
