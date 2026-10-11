@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-11T13:27:38Z",
+  "generated_at": "2026-10-11T14:33:30Z",
   "summary": {
-    "total": 10,
+    "total": 11,
     "released": 7,
-    "wip": 3,
-    "downloads": 2757
+    "wip": 4,
+    "downloads": 2764
   },
   "patches": [
     {
@@ -46,13 +46,13 @@
         "published_at": "2026-10-05T04:17:16Z",
         "asset_count": 1
       },
-      "downloads": 613,
+      "downloads": 616,
       "assets": [
         {
           "name": "TTT2_KR_Patcher_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/download/v1.1/TTT2_KR_Patcher_v1.1.zip",
-          "downloads": 288,
+          "downloads": 291,
           "asset_id": 611515859,
           "created_at": "2026-10-05T04:44:48Z",
           "release_published_at": "2026-10-05T04:17:16Z"
@@ -162,7 +162,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/blob/main/README.md",
-      "downloads_current": 613,
+      "downloads_current": 616,
       "downloads_carried": 0,
       "download_ledger": {
         "tears-to-tiara-2-kr-patch/v1.0/TTT2_KR_Patcher_v1.0.zip": {
@@ -179,7 +179,7 @@
           "tag": "v1.1",
           "name": "TTT2_KR_Patcher_v1.1.zip",
           "asset_id": 611515859,
-          "last_count": 288,
+          "last_count": 291,
           "carried": 0,
           "removed": false
         }
@@ -227,13 +227,13 @@
         "published_at": "2026-10-05T04:17:21Z",
         "asset_count": 1
       },
-      "downloads": 870,
+      "downloads": 872,
       "assets": [
         {
           "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.1/EVE_New_Generation_Korean_Patch_v1.1.zip",
-          "downloads": 406,
+          "downloads": 408,
           "asset_id": 611547873,
           "created_at": "2026-10-05T04:59:55Z",
           "release_published_at": "2026-10-05T04:17:21Z"
@@ -314,7 +314,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/blob/main/README.md",
-      "downloads_current": 870,
+      "downloads_current": 872,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-new-generation-kr-patch/v1.0/EVE_NG_v1.0.zip": {
@@ -331,7 +331,7 @@
           "tag": "v1.1",
           "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
           "asset_id": 611547873,
-          "last_count": 406,
+          "last_count": 408,
           "carried": 0,
           "removed": false
         }
@@ -379,13 +379,13 @@
         "published_at": "2026-10-05T04:17:18Z",
         "asset_count": 1
       },
-      "downloads": 817,
+      "downloads": 819,
       "assets": [
         {
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/download/v1.1/EVE_ZERO_Korean_Patch_v1.1.zip",
-          "downloads": 427,
+          "downloads": 429,
           "asset_id": 611513419,
           "created_at": "2026-10-05T04:43:41Z",
           "release_published_at": "2026-10-05T04:17:18Z"
@@ -464,7 +464,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-zero-kr-patch/blob/main/README.md",
-      "downloads_current": 817,
+      "downloads_current": 819,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-zero-kr-patch/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip": {
@@ -481,7 +481,7 @@
           "tag": "v1.1",
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "asset_id": 611513419,
-          "last_count": 427,
+          "last_count": 429,
           "carried": 0,
           "removed": false
         }
@@ -1036,6 +1036,83 @@
       "cover_revision": "ca43be11d6df"
     },
     {
+      "repo": "akatsuki-no-goei-trinity-kr-patch",
+      "title": "새벽의 호위 트리니티",
+      "original": "暁の護衛 トリニティ",
+      "series": "새벽의 호위",
+      "platforms": [
+        "PS3"
+      ],
+      "genre": "연애 ADV",
+      "genre_full": "비주얼 노벨 / 3부작 합본",
+      "developer": "M2 / 5pb.",
+      "publisher": "5pb. / MAGES.",
+      "playtime": "약 16시간",
+      "edition": "PS3 일본판 디스크",
+      "release_jp": "2012-09-20",
+      "product_id": "BLJM60521",
+      "base_update": "Ver.1.01",
+      "note": "",
+      "cover_caption": "",
+      "status": "wip",
+      "description": "PS3 새벽의 호위 트리니티 비공식 한국어 패치",
+      "pushed_at": "2026-10-11T14:32:43Z",
+      "stars": 0,
+      "url": "https://github.com/Dollars-Archive/akatsuki-no-goei-trinity-kr-patch",
+      "has_pages": false,
+      "topics": [
+        "korean-localization",
+        "kr-patch",
+        "ps3"
+      ],
+      "guide_url": "",
+      "guide_status": null,
+      "latest_release": null,
+      "downloads": 0,
+      "assets": [],
+      "tools": [],
+      "discovery": "platforms/ps3/games/akatsuki-no-goei-trinity.md",
+      "discovery_match": "manual",
+      "walkthroughs": [],
+      "walkthrough_available": true,
+      "activity_at": "2026-10-11T14:32:43Z",
+      "scope": {
+        "title": {
+          "state": "none",
+          "status": "확인 필요",
+          "since": null
+        },
+        "ui": {
+          "state": "done",
+          "status": "완료",
+          "since": null
+        },
+        "dialogue": {
+          "state": "done",
+          "status": "완료",
+          "since": null
+        },
+        "image": {
+          "state": "done",
+          "status": "완료",
+          "since": null
+        },
+        "video": {
+          "state": "done",
+          "status": "완료",
+          "since": null
+        }
+      },
+      "changelog": [],
+      "metadata_source": "https://github.com/Dollars-Archive/akatsuki-no-goei-trinity-kr-patch/blob/main/README.md",
+      "downloads_current": 0,
+      "downloads_carried": 0,
+      "download_ledger": {},
+      "cover": "covers/akatsuki-no-goei-trinity-kr-patch.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/118995-akatsuki-no-goei-trinity",
+      "cover_revision": "5a8708c9459c"
+    },
+    {
       "repo": "twinkle-crusaders-starlit-brave-kr-patch",
       "title": "트윙클☆크루세이더스 STARLIT BRAVE!!",
       "original": "ティンクル☆くるせいだーす GoGo！ STARLIT BRAVE!!",
@@ -1361,6 +1438,11 @@
     }
   ],
   "warnings": [
+    {
+      "repo": "akatsuki-no-goei-trinity-kr-patch",
+      "type": "readme-form-invalid",
+      "message": "타이틀 한글화: 기존 자료만으로 완료 여부를 확인할 수 없습니다."
+    },
     {
       "repo": "Dollars-Archive-kr-localization-archive",
       "type": "no-description",
