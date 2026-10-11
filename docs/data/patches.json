@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T14:33:30Z",
+  "generated_at": "2026-10-11T14:37:56Z",
   "summary": {
     "total": 11,
     "released": 7,
@@ -1073,7 +1073,27 @@
       "tools": [],
       "discovery": "platforms/ps3/games/akatsuki-no-goei-trinity.md",
       "discovery_match": "manual",
-      "walkthroughs": [],
+      "walkthroughs": [
+        {
+          "id": "akatsuki-no-goei-trinity-guide",
+          "patch_repo": "akatsuki-no-goei-trinity-kr-patch",
+          "game": "새벽의 호위 트리니티",
+          "platforms": [
+            "PS3"
+          ],
+          "title": "새벽의 호위 트리니티 공략집",
+          "category": "공략집",
+          "format": "파일 준비 중",
+          "pending": true,
+          "url": "https://dollars-archive.github.io/Game-Walkthrough-Archive/?game=akatsuki-no-goei-trinity-kr-patch",
+          "source_url": "",
+          "cover": "https://dollars-archive.github.io/Dollars-Archive/covers/akatsuki-no-goei-trinity-kr-patch.webp?v=5a8708c9459c",
+          "cover_source": "https://gamesdb.launchbox-app.com/games/details/118995-akatsuki-no-goei-trinity",
+          "updated_at": "2026-10-11",
+          "download_count": null,
+          "download_url": ""
+        }
+      ],
       "walkthrough_available": true,
       "activity_at": "2026-10-11T14:32:43Z",
       "scope": {
@@ -1150,7 +1170,27 @@
       "tools": [],
       "discovery": "platforms/psp/games/twinkle-crusaders-starlit-brave.md",
       "discovery_match": "manual",
-      "walkthroughs": [],
+      "walkthroughs": [
+        {
+          "id": "twinkle-crusaders-starlit-brave-guide",
+          "patch_repo": "twinkle-crusaders-starlit-brave-kr-patch",
+          "game": "트윙클☆크루세이더스 STARLIT BRAVE!!",
+          "platforms": [
+            "PSP"
+          ],
+          "title": "트윙클☆크루세이더스 STARLIT BRAVE!! 공략집",
+          "category": "공략집",
+          "format": "파일 준비 중",
+          "pending": true,
+          "url": "https://dollars-archive.github.io/Game-Walkthrough-Archive/?game=twinkle-crusaders-starlit-brave-kr-patch",
+          "source_url": "",
+          "cover": "https://dollars-archive.github.io/Dollars-Archive/covers/twinkle-crusaders-starlit-brave-kr-patch.webp?v=0eb52b6729c2",
+          "cover_source": "https://www.suruga-ya.jp/product/detail/177002724",
+          "updated_at": "2026-10-11",
+          "download_count": null,
+          "download_url": ""
+        }
+      ],
       "walkthrough_available": true,
       "activity_at": "2026-10-11T12:35:30Z",
       "activity_exclusion": {
