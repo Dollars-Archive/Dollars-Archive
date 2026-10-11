@@ -174,6 +174,7 @@ body{margin:0}
 .facts dd{word-break:keep-all}
 .scope{max-width:none;gap:6px}
 .scope-chip{flex-wrap:nowrap;white-space:nowrap;padding:6px 5px}
+.scope-chip.hd-texture{white-space:normal}
 .history-latest{grid-template-columns:4.3rem 2.6rem minmax(0,1fr);gap:8px}
 .history-latest>span.history-summary:last-child{display:flex;align-items:baseline;gap:5px;white-space:normal;overflow:visible;min-width:0}
 .history-summary .history-text{min-width:0;overflow-wrap:anywhere;word-break:keep-all}
@@ -320,7 +321,7 @@ function scopeChipMarkup(d,key){
     const item=d.scope?.[key]||{},status=key==="image"&&item.state==="partial"?"done":["done","partial"].includes(item.state)?item.state:"none";
     const label=status==="done"?"✓":status==="partial"?"일부":"—";
     const title=key==="image"&&status==="done"?`${name} ✓`:item.status?`${name} — ${item.status}`:status==="none"?`${name} — 기록 없음`:`${name} ${label}`;
-    return `<span class="scope-chip ${status}" title="${esc(title)}"><span>${name} ${label}</span></span>`;
+    return `<span class="scope-chip ${status}${key==="hd_texture"?" hd-texture":""}" title="${esc(title)}"><span>${name} ${label}</span></span>`;
 }
 const WALKTHROUGH_HOME="https://dollars-archive.github.io/Game-Walkthrough-Archive/";
 function walkthroughMarkup(d){
