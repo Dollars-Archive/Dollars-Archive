@@ -16,6 +16,10 @@ test('collected page renders all covers and filters before API replies',()=>{
   assert.equal((node('list').innerHTML.match(/class="row"/g)||[]).length,data.patches.length);
   assert.equal((node('list').innerHTML.match(/loading="lazy"/g)||[]).length,data.patches.filter(p=>p.cover).length);
   assert.equal((node('list').innerHTML.match(/class="scope-chip /g)||[]).length,data.patches.length*6);
+  const scope=vm.runInContext('scopeMarkup(data.patches[0])',context);
+  assert.deepEqual([...scope.replace(/<[^>]*>/g,'').matchAll(/(메뉴·UI|대사|이미지|영상 자막|공략집|HD texture pack) /g)].map(m=>m[1]),['메뉴·UI','대사','이미지','영상 자막','공략집','HD texture pack']);
+  assert(!scope.includes('타이틀'));
+  assert(scope.includes('HD texture pack —'));
   assert.equal((node('list').innerHTML.match(/class="facts"/g)||[]).length,data.patches.length);
   assert(!node('list').innerHTML.includes('patch-summary'));
   assert(!node('list').innerHTML.includes('<span class="small">EVE</span>'));
@@ -100,7 +104,7 @@ test('scope chips show status without introduction versions',()=>{
 test('README status tooltips distinguish unstarted, not applicable and unknown safely',()=>{
   const {context}=page(async()=>[]);
   const out=vm.runInContext('scopeMarkup({scope:{title:{state:"none",status:"미작업"},image:{state:"none",status:"해당 없음"},video:{state:"none",status:"확인 필요<script>"}}})',context);
-  assert(out.includes('타이틀 — 미작업'));
+  assert(!out.includes('타이틀'));
   assert(out.includes('이미지 — 해당 없음'));
   assert(out.includes('확인 필요&lt;script&gt;'));
   assert(!out.includes('<script>'));

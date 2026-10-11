@@ -305,7 +305,7 @@ function coverMarkup(d){
   const body=`<img src="${esc(d.cover+revision)}" alt="${esc(d.title)} 표지" loading="lazy" decoding="async" width="88" height="112"><span class="cover-fallback" aria-hidden="true">${esc(label)}</span>`;
   return source?`<a class="cover" href="${esc(source)}" target="_blank" rel="noopener" title="이미지 출처">${body}</a>`:`<div class="cover">${body}</div>`;
 }
-const SCOPE_NAMES={title:"타이틀",ui:"메뉴·UI",dialogue:"대사",image:"이미지",video:"영상 자막"};
+const SCOPE_NAMES={title:"타이틀",ui:"메뉴·UI",dialogue:"대사",image:"이미지",video:"영상 자막",hd_texture:"HD texture pack"};
 const HISTORY_NAMES={added:"추가",partial:"일부",improved:"개선",fixed:"수정"};
 function factsMarkup(d){
   const developerTitle=d.developer&&d.publisher&&d.developer!==d.publisher?`개발 ${d.developer} / 발매 ${d.publisher}`:d.developer;
@@ -313,12 +313,14 @@ function factsMarkup(d){
   return `<dl class="facts">${fields.map(([label,value,title,cls])=>`<div><dt>${label}</dt><dd class="${cls}" title="${esc(title||"—")}">${esc(value||"—")}</dd></div>`).join("")}</dl>`;
 }
 function scopeMarkup(d){
-  return `<div class="scope" aria-label="현재 한국어화 범위">${Object.entries(SCOPE_NAMES).map(([key,name])=>{
+  return `<div class="scope" aria-label="현재 한국어화 범위">${["ui","dialogue","image","video"].map(key=>scopeChipMarkup(d,key)).join("")}${walkthroughMarkup(d)}${scopeChipMarkup(d,"hd_texture")}</div>`;
+}
+function scopeChipMarkup(d,key){
+    const name=SCOPE_NAMES[key];
     const item=d.scope?.[key]||{},status=key==="image"&&item.state==="partial"?"done":["done","partial"].includes(item.state)?item.state:"none";
     const label=status==="done"?"✓":status==="partial"?"일부":"—";
     const title=key==="image"&&status==="done"?`${name} ✓`:item.status?`${name} — ${item.status}`:status==="none"?`${name} — 기록 없음`:`${name} ${label}`;
     return `<span class="scope-chip ${status}" title="${esc(title)}"><span>${name} ${label}</span></span>`;
-  }).join("")}${walkthroughMarkup(d)}</div>`;
 }
 const WALKTHROUGH_HOME="https://dollars-archive.github.io/Game-Walkthrough-Archive/";
 function walkthroughMarkup(d){
