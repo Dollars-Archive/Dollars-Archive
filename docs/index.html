@@ -317,25 +317,21 @@ function scopeMarkup(d){
   return `<div class="scope" aria-label="현재 한국어화 범위">${["ui","dialogue","image","video"].map(key=>scopeChipMarkup(d,key)).join("")}${walkthroughMarkup(d)}${hdTextureMarkup(d)}</div>`;
 }
 function hdTextureMarkup(d){
-  if(d.scope?.hd_texture?.state!=="done")return scopeChipMarkup(d,"hd_texture");
-  const url="https://dollars-archive.github.io/HD-Texture-Pack-Archive/?game="+encodeURIComponent(d.repo||"");
-  return `<a class="scope-chip done hd-texture" href="${esc(url)}" title="이 게임의 HD 팩 목록 열기" target="_blank" rel="noopener">HD texture pack ✓</a>`;
+  return scopeChipMarkup(d,"hd_texture","https://dollars-archive.github.io/HD-Texture-Pack-Archive/");
 }
-function scopeChipMarkup(d,key){
+function scopeChipMarkup(d,key,href=""){
     const name=SCOPE_NAMES[key];
     const item=d.scope?.[key]||{},status=key==="image"&&item.state==="partial"?"done":["done","partial"].includes(item.state)?item.state:"none";
     const label=status==="done"?"✓":status==="partial"?"일부":"—";
     const title=key==="image"&&status==="done"?`${name} ✓`:item.status?`${name} — ${item.status}`:status==="none"?`${name} — 기록 없음`:`${name} ${label}`;
-    return `<span class="scope-chip ${status}${key==="hd_texture"?" hd-texture":""}" title="${esc(title)}"><span>${name} ${label}</span></span>`;
+    const tag=href?"a":"span",attrs=href?` href="${esc(href)}" target="_blank" rel="noopener"`:"";
+    return `<${tag} class="scope-chip ${status}${key==="hd_texture"?" hd-texture":""}" title="${esc(title)}"${attrs}><span>${name} ${label}</span></${tag}>`;
 }
 const WALKTHROUGH_HOME="https://dollars-archive.github.io/Game-Walkthrough-Archive/";
 function walkthroughMarkup(d){
   const guides=(d.walkthroughs||[]).filter(g=>safeUrl(g.url));
-  if(!guides.length)return d.walkthrough_available===true?'<span class="scope-chip done walkthrough">공략집 ✓</span>':'<span class="scope-chip none walkthrough">공략집 —</span>';
-  const download=guides.length===1?safeUrl(guides[0].download_url):"";
-  if(download)return `<a class="scope-chip done walkthrough" href="${esc(download)}" download title="직접 제작한 공략집 ZIP 다운로드">공략집 ✓</a>`;
-  const url=WALKTHROUGH_HOME+"?game="+encodeURIComponent(d.repo);
-  return `<a class="scope-chip done walkthrough" href="${esc(url)}" target="_blank" rel="noopener" title="직접 제작한 공략집 목록 열기">공략집 ✓</a>`;
+  const done=guides.length>0||d.walkthrough_available===true;
+  return `<a class="scope-chip ${done?"done":"none"} walkthrough" href="${WALKTHROUGH_HOME}" target="_blank" rel="noopener" title="공략집 아카이브 열기">공략집 ${done?"✓":"—"}</a>`;
 }
 function releaseAssetsMarkup(d){
   const assets=d.assets.filter(a=>a.tag===d.latest_release?.tag);

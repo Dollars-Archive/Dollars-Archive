@@ -23,7 +23,8 @@ test('collected page renders all covers and filters before API replies',()=>{
   const hd=vm.runInContext('scopeMarkup({scope:{hd_texture:{state:"done",status:"팩 있음"}}})',context);
   assert(hd.includes('scope-chip done hd-texture'));
   assert(hd.includes('HD texture pack ✓'));
-  assert(hd.includes('HD-Texture-Pack-Archive/?game='));
+  assert(hd.includes('href="https://dollars-archive.github.io/HD-Texture-Pack-Archive/"'));
+  assert(scope.includes('href="https://dollars-archive.github.io/HD-Texture-Pack-Archive/"'));
   assert.equal((node('list').innerHTML.match(/class="facts"/g)||[]).length,data.patches.length);
   assert(!node('list').innerHTML.includes('patch-summary'));
   assert(!node('list').innerHTML.includes('<span class="small">EVE</span>'));
@@ -44,24 +45,30 @@ test('asset links show only the newest stable release and preserve accumulated d
   const pending=vm.runInContext('releaseAssetsMarkup({latest_release:{tag:"v1.2"},assets:[{tag:"v1.1",name:"OLD.zip",url:"https://github.com/old",downloads:300}]})',context);
   assert(pending.includes('첨부파일 준비 중'));assert(!pending.includes('OLD.zip'));
 });
-test('guide chip is blank without a guide, direct for one guide and a game list for many',()=>{
+test('all guide chips open the archive homepage and retain availability',()=>{
   const {context}=page(async()=>[]);
   assert(vm.runInContext('walkthroughMarkup({repo:"game"})',context).includes('공략집 —'));
   const confirmed=vm.runInContext('walkthroughMarkup({repo:"game",walkthrough_available:true})',context);
-  assert(confirmed.includes('scope-chip done walkthrough'));assert(confirmed.includes('공략집 ✓'));assert(!confirmed.includes('href='));
+  assert(confirmed.includes('scope-chip done walkthrough'));assert(confirmed.includes('공략집 ✓'));
   const single=vm.runInContext('walkthroughMarkup({repo:"game",walkthroughs:[{url:"https://dollars-archive.github.io/Game-Walkthrough-Archive/guides/a.html",download_url:"https://github.com/Dollars-Archive/Game-Walkthrough-Archive/releases/download/guide-a/a.zip"}]})',context);
-  assert(single.includes('공략집 ✓'));assert(single.includes('/releases/download/guide-a/a.zip'));assert(!single.includes('/guides/a.html'));assert(single.includes(' download '));assert(!single.includes('target="_blank"'));
+  assert(single.includes('공략집 ✓'));assert(!single.includes('/releases/download/'));assert(!single.includes('/guides/a.html'));
   const unavailable=vm.runInContext('walkthroughMarkup({repo:"game",walkthroughs:[{url:"https://example.com/a.html",download_url:"javascript:bad"}]})',context);
-  assert(unavailable.includes('?game=game'));assert(!unavailable.includes(' download '));assert(!unavailable.includes('javascript:'));
+  assert(!unavailable.includes('javascript:'));
   const many=vm.runInContext('walkthroughMarkup({repo:"game",walkthroughs:[{url:"https://example.com/a"},{url:"https://example.com/b"}]})',context);
-  assert(many.includes('?game=game'));assert(many.includes('target="_blank"'));
+  const empty=vm.runInContext('walkthroughMarkup({repo:"other"})',context);
+  for(const out of [empty,confirmed,single,unavailable,many]){
+    assert(out.includes('href="https://dollars-archive.github.io/Game-Walkthrough-Archive/"'));
+    assert(out.includes('target="_blank"'));assert(!out.includes('?game='));assert(!out.includes(' download '));
+  }
+  assert(empty.includes('scope-chip none walkthrough'));
 });
 test('new walkthrough catalogue updates the matching game chip on refresh',async()=>{
   const {context,node,data}=page(async()=>[]);
   const repo=data.patches[0].repo;
   context.fetch=async()=>({ok:true,json:async()=>({guides:[{patch_repo:repo,title:'공략',url:'https://dollars-archive.github.io/Game-Walkthrough-Archive/guides/a.html',download_url:'https://github.com/Dollars-Archive/Game-Walkthrough-Archive/releases/download/guide-a/a.zip'}]})});
   await vm.runInContext('refreshWalkthroughs()',context);
-  assert(node('list').innerHTML.includes('/releases/download/guide-a/a.zip'));
+  assert(node('list').innerHTML.includes('href="https://dollars-archive.github.io/Game-Walkthrough-Archive/"'));
+  assert(!node('list').innerHTML.includes('/releases/download/guide-a/a.zip'));
   assert.equal(data.patches[0].walkthroughs.length,1);
   assert.equal(data.patches[1].walkthroughs.length,0);
 });
