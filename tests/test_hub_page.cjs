@@ -38,6 +38,15 @@ test('release buttons resolve latest even before catalogue refresh',()=>{
   const {node,data}=page(async()=>[]);
   for(const p of data.patches.filter(p=>p.latest_release))assert(node('list').innerHTML.includes(`href="${p.url}/releases/latest"`));
 });
+test('playtime shows only duration for every game, including ranges and decimals',()=>{
+  const {context}=page(async()=>[]);
+  for(const [raw,duration] of [['약 12시간 (GameFAQs 1표본, 완료 범위 미확인)','약 12시간'],['약 59.2시간 (GameFAQs 평균)','약 59.2시간'],['77–80시간','77–80시간'],['8.5–69.5시간','8.5–69.5시간'],['','—']]){
+    context.playtimeInput=raw;
+    const out=vm.runInContext('factsMarkup({playtime:playtimeInput})',context);
+    assert(out.includes(`<dt>플레이타임</dt><dd class="number" title="${duration}">${duration}</dd>`));
+    assert(!out.includes('GameFAQs'));
+  }
+});
 test('asset links show only the newest stable release and preserve accumulated downloads',()=>{
   const {context}=page(async()=>[]);
   const out=vm.runInContext('releaseAssetsMarkup({latest_release:{tag:"v1.1"},downloads:300,assets:[{tag:"v1.0",name:"OLD.zip",url:"https://github.com/old",downloads:298},{tag:"v1.1",name:"NEW.zip",url:"https://github.com/new",downloads:2}]})',context);

@@ -310,7 +310,8 @@ const SCOPE_NAMES={title:"타이틀",ui:"메뉴·UI",dialogue:"대사",image:"�
 const HISTORY_NAMES={added:"추가",partial:"일부",improved:"개선",fixed:"수정"};
 function factsMarkup(d){
   const developerTitle=d.developer&&d.publisher&&d.developer!==d.publisher?`개발 ${d.developer} / 발매 ${d.publisher}`:d.developer;
-  const fields=[["발매",d.release_jp?date(d.release_jp):"—",d.release_jp?date(d.release_jp):"—","number"],["개발사",d.developer,developerTitle,""],["장르",d.genre,d.genre_full||d.genre,""],["플레이타임",d.playtime,d.playtime,"number"]];
+  const playtime=(d.playtime||"").match(/(?:약\s*)?\d+(?:\.\d+)?(?:\s*[–—~～-]\s*\d+(?:\.\d+)?)?\s*시간/)?.[0]||"—";
+  const fields=[["발매",d.release_jp?date(d.release_jp):"—",d.release_jp?date(d.release_jp):"—","number"],["개발사",d.developer,developerTitle,""],["장르",d.genre,d.genre_full||d.genre,""],["플레이타임",playtime,playtime,"number"]];
   return `<dl class="facts">${fields.map(([label,value,title,cls])=>`<div><dt>${label}</dt><dd class="${cls}" title="${esc(title||"—")}">${esc(value||"—")}</dd></div>`).join("")}</dl>`;
 }
 function scopeMarkup(d){

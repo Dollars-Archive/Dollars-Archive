@@ -3,6 +3,13 @@
 # 다운로드·배포일·최근 작업일은 GitHub에서 수집합니다.
 # 날짜와 제품번호는 문자열로 유지합니다. 플랫폼·시리즈는 자유롭게 추가할 수 있습니다.
 twinkle-crusaders-starlit-brave-kr-patch:
+  confirmed_scope_status: {ui: done, dialogue: done, video: done}
+  confirmed_scope_source: 사용자 표시 항목 올 그린 지시 (2026-10-11)
+  confirmed_image_status: done
+  confirmed_image_source: 사용자 표시 항목 올 그린 지시 (2026-10-11)
+  confirmed_walkthrough_status: done
+  confirmed_hd_texture_status: done
+  confirmed_hd_texture_source: 사용자 표시 항목 올 그린 지시 (2026-10-11)
   discovery: platforms/psp/games/twinkle-crusaders-starlit-brave.md
   cover: https://cdn.suruga-ya.jp/database/pics_webp/game/177002724.jpg.webp
   cover_source: https://www.suruga-ya.jp/product/detail/177002724
