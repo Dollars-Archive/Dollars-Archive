@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T11:18:07Z",
+  "generated_at": "2026-10-11T11:24:04Z",
   "summary": {
     "total": 9,
     "released": 7,
@@ -1177,6 +1177,12 @@
           "state": "done",
           "status": "완료",
           "since": null
+        },
+        "hd_texture": {
+          "state": "done",
+          "status": "팩 있음",
+          "since": null,
+          "source": "사용자 HD 팩 보유 확인 (2026-10-11)"
         }
       },
       "changelog": [],
