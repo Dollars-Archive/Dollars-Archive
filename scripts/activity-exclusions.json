@@ -58,5 +58,11 @@
     "ignored_pushed_at": "2026-10-11T13:27:05Z",
     "previous_activity_at": "2026-10-11T12:35:30Z",
     "reason": "사용자 요청에 따라 게임 정보 패키지 표지 제거"
+  },
+  "akatsuki-no-goei-trinity-kr-patch": {
+    "commit": "98d8e5ec83d225a21dfb1c978859b10abbc92c2a",
+    "ignored_pushed_at": "2026-10-11T18:22:33Z",
+    "previous_activity_at": "2026-10-11T14:32:43Z",
+    "reason": "3부작 플레이타임 자료 오류 정정; 실제 패치 작업일 보존"
   }
 }
