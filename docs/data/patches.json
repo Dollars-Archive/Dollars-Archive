@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T13:21:46Z",
+  "generated_at": "2026-10-11T13:27:38Z",
   "summary": {
     "total": 10,
     "released": 7,
@@ -28,7 +28,7 @@
       "cover_caption": "",
       "status": "released",
       "description": "PS3용 『Tears to Tiara II』 비공식 한국어 패치",
-      "pushed_at": "2026-10-11T12:44:04Z",
+      "pushed_at": "2026-10-11T13:26:27Z",
       "stars": 1,
       "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch",
       "has_pages": false,
@@ -95,7 +95,7 @@
       "walkthrough_available": false,
       "activity_at": "2026-10-05T09:58:02Z",
       "activity_exclusion": {
-        "ignored_pushed_at": "2026-10-11T12:44:04Z",
+        "ignored_pushed_at": "2026-10-11T13:26:27Z",
         "previous_activity_at": "2026-10-05T09:58:02Z"
       },
       "scope": {
@@ -209,7 +209,7 @@
       "cover_caption": "",
       "status": "released",
       "description": "EVE new generation (PlayStation 2) Korean Translation Patch / 한국어 패치",
-      "pushed_at": "2026-10-11T12:44:08Z",
+      "pushed_at": "2026-10-11T13:26:32Z",
       "stars": 1,
       "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch",
       "has_pages": false,
@@ -255,7 +255,7 @@
       "walkthrough_available": false,
       "activity_at": "2026-10-05T05:30:21Z",
       "activity_exclusion": {
-        "ignored_pushed_at": "2026-10-11T12:44:08Z",
+        "ignored_pushed_at": "2026-10-11T13:26:32Z",
         "previous_activity_at": "2026-10-05T05:30:21Z"
       },
       "scope": {
@@ -361,7 +361,7 @@
       "cover_caption": "",
       "status": "released",
       "description": "EVE ZERO (Dreamcast) Korean Translation Patch / 한국어 패치",
-      "pushed_at": "2026-10-11T12:44:12Z",
+      "pushed_at": "2026-10-11T13:26:38Z",
       "stars": 2,
       "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch",
       "has_pages": false,
@@ -407,7 +407,7 @@
       "walkthrough_available": false,
       "activity_at": "2026-10-05T05:14:53Z",
       "activity_exclusion": {
-        "ignored_pushed_at": "2026-10-11T12:44:12Z",
+        "ignored_pushed_at": "2026-10-11T13:26:38Z",
         "previous_activity_at": "2026-10-05T05:14:53Z"
       },
       "scope": {
@@ -511,7 +511,7 @@
       "cover_caption": "",
       "status": "released",
       "description": "이상한 환상향 -Lotus Labyrinth R- PC / Nintendo Switch 비공식 한국어 패치 프로젝트",
-      "pushed_at": "2026-10-11T12:44:16Z",
+      "pushed_at": "2026-10-11T13:26:43Z",
       "stars": 0,
       "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-lotus-labyrinth-r-kr-patch",
       "has_pages": true,
@@ -548,7 +548,7 @@
       "walkthrough_available": false,
       "activity_at": "2026-10-05T05:11:54Z",
       "activity_exclusion": {
-        "ignored_pushed_at": "2026-10-11T12:44:16Z",
+        "ignored_pushed_at": "2026-10-11T13:26:43Z",
         "previous_activity_at": "2026-10-05T05:11:54Z"
       },
       "scope": {
@@ -636,7 +636,7 @@
       "cover_caption": "",
       "status": "released",
       "description": "Touhou Genso Wanderer Reloaded 한국어 패치 제작 및 공개 작업일지",
-      "pushed_at": "2026-10-11T12:44:19Z",
+      "pushed_at": "2026-10-11T13:26:49Z",
       "stars": 0,
       "url": "https://github.com/Dollars-Archive/touhou-genso-wanderer-reloaded-kr-patch",
       "has_pages": true,
@@ -683,7 +683,7 @@
       "walkthrough_available": false,
       "activity_at": "2026-10-05T05:10:01Z",
       "activity_exclusion": {
-        "ignored_pushed_at": "2026-10-11T12:44:19Z",
+        "ignored_pushed_at": "2026-10-11T13:26:49Z",
         "previous_activity_at": "2026-10-05T05:10:01Z"
       },
       "scope": {
@@ -778,7 +778,7 @@
       "cover_caption": "",
       "status": "released",
       "description": "EVE ghost enemies 한국어 패치",
-      "pushed_at": "2026-10-11T12:44:23Z",
+      "pushed_at": "2026-10-11T13:26:54Z",
       "stars": 0,
       "url": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch",
       "has_pages": true,
@@ -815,7 +815,7 @@
       "walkthrough_available": false,
       "activity_at": "2026-10-05T03:51:25Z",
       "activity_exclusion": {
-        "ignored_pushed_at": "2026-10-11T12:44:23Z",
+        "ignored_pushed_at": "2026-10-11T13:26:54Z",
         "previous_activity_at": "2026-10-05T03:51:25Z"
       },
       "scope": {
@@ -905,7 +905,7 @@
       "cover_caption": "Switch eShop",
       "status": "released",
       "description": "EVE rebirth terror Korean Translation Patch",
-      "pushed_at": "2026-10-11T12:44:27Z",
+      "pushed_at": "2026-10-11T13:27:00Z",
       "stars": 0,
       "url": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch",
       "has_pages": true,
@@ -942,7 +942,7 @@
       "walkthrough_available": false,
       "activity_at": "2026-10-05T03:51:24Z",
       "activity_exclusion": {
-        "ignored_pushed_at": "2026-10-11T12:44:27Z",
+        "ignored_pushed_at": "2026-10-11T13:27:00Z",
         "previous_activity_at": "2026-10-05T03:51:24Z"
       },
       "scope": {
@@ -1056,7 +1056,7 @@
       "cover_caption": "",
       "status": "wip",
       "description": "PSP 트윙클☆크루세이더스 STARLIT BRAVE!! 비공식 한국어 패치",
-      "pushed_at": "2026-10-11T12:44:31Z",
+      "pushed_at": "2026-10-11T13:27:05Z",
       "stars": 0,
       "url": "https://github.com/Dollars-Archive/twinkle-crusaders-starlit-brave-kr-patch",
       "has_pages": false,
@@ -1077,7 +1077,7 @@
       "walkthrough_available": true,
       "activity_at": "2026-10-11T12:35:30Z",
       "activity_exclusion": {
-        "ignored_pushed_at": "2026-10-11T12:44:31Z",
+        "ignored_pushed_at": "2026-10-11T13:27:05Z",
         "previous_activity_at": "2026-10-11T12:35:30Z"
       },
       "scope": {
@@ -1146,7 +1146,7 @@
       "cover_caption": "",
       "status": "wip",
       "description": "PSP용 트웰브 전국봉신전 비공식 한국어 패치 제작 프로젝트",
-      "pushed_at": "2026-10-11T12:44:35Z",
+      "pushed_at": "2026-10-11T13:27:10Z",
       "stars": 0,
       "url": "https://github.com/Dollars-Archive/twelve-sengoku-fuushinden-kr-patch",
       "has_pages": false,
@@ -1187,7 +1187,7 @@
       "walkthrough_available": true,
       "activity_at": "2026-10-07T02:52:48Z",
       "activity_exclusion": {
-        "ignored_pushed_at": "2026-10-11T12:44:35Z",
+        "ignored_pushed_at": "2026-10-11T13:27:10Z",
         "previous_activity_at": "2026-10-07T02:52:48Z"
       },
       "scope": {
@@ -1247,7 +1247,7 @@
       "cover_caption": "",
       "status": "wip",
       "description": "PlayStation 2용 미스터리 어드벤처 게임 『Guardian Angel』의 비공식 한국어화 프로젝트입니다. 사건으로 육체를 잃고 수호천사가 된 사립탐정 에릭이 딸 에스텔과 주변 인물들에게 영감을 주며, 시간과 공간을 넘나들어 사건의 진상을 추적하는 작품입니다. 게임 내 대사와 시스템 텍스트를 한국어로 번역하는 것을 목표로 합니다.",
-      "pushed_at": "2026-10-11T12:44:38Z",
+      "pushed_at": "2026-10-11T13:27:16Z",
       "stars": 0,
       "url": "https://github.com/Dollars-Archive/Guardian-Angel-Korean-Localization",
       "has_pages": false,
@@ -1288,7 +1288,7 @@
       "walkthrough_available": true,
       "activity_at": "2026-10-07T02:52:45Z",
       "activity_exclusion": {
-        "ignored_pushed_at": "2026-10-11T12:44:38Z",
+        "ignored_pushed_at": "2026-10-11T13:27:16Z",
         "previous_activity_at": "2026-10-07T02:52:45Z"
       },
       "scope": {
