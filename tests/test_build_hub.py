@@ -285,11 +285,15 @@ class HubTests(unittest.TestCase):
         client = FixtureClient(repositories=[repo("Guardian-Angel-Korean-Localization")], releases=[])
         metadata = {"Guardian-Angel-Korean-Localization": {
             "title": "가디언 엔젤", "original": "Guardian Angel",
-            "platforms": ["PS2"], "product_id": "SLPS-25214"
+            "platforms": ["PS2"], "product_id": "SLPS-25214",
+            "confirmed_hd_texture_status": "done",
+            "confirmed_hd_texture_source": "사용자 확인"
         }}
         data = hub.collect(client, metadata, NOW, lambda u: 404, index)
         self.assertEqual(data["patches"][0]["discovery"], key)
         self.assertEqual(data["patches"][0]["discovery_match"], "product_id")
+        self.assertEqual(data["patches"][0]["scope"]["hd_texture"]["state"], "done")
+        self.assertEqual(data["patches"][0]["scope"]["hd_texture"]["source"], "사용자 확인")
         self.assertNotIn("discovery-unmatched", self.types(data))
 
         missing = hub.collect(FixtureClient(repositories=[repo("unknown-kr-patch")], releases=[]),

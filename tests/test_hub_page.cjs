@@ -16,10 +16,13 @@ test('collected page renders all covers and filters before API replies',()=>{
   assert.equal((node('list').innerHTML.match(/class="row"/g)||[]).length,data.patches.length);
   assert.equal((node('list').innerHTML.match(/loading="lazy"/g)||[]).length,data.patches.filter(p=>p.cover).length);
   assert.equal((node('list').innerHTML.match(/class="scope-chip /g)||[]).length,data.patches.length*6);
-  const scope=vm.runInContext('scopeMarkup(data.patches[0])',context);
+  const scope=vm.runInContext('scopeMarkup({})',context);
   assert.deepEqual([...scope.replace(/<[^>]*>/g,'').matchAll(/(메뉴·UI|대사|이미지|영상 자막|공략집|HD texture pack) /g)].map(m=>m[1]),['메뉴·UI','대사','이미지','영상 자막','공략집','HD texture pack']);
   assert(!scope.includes('타이틀'));
   assert(scope.includes('HD texture pack —'));
+  const hd=vm.runInContext('scopeMarkup({scope:{hd_texture:{state:"done",status:"팩 있음"}}})',context);
+  assert(hd.includes('scope-chip done hd-texture'));
+  assert(hd.includes('HD texture pack ✓'));
   assert.equal((node('list').innerHTML.match(/class="facts"/g)||[]).length,data.patches.length);
   assert(!node('list').innerHTML.includes('patch-summary'));
   assert(!node('list').innerHTML.includes('<span class="small">EVE</span>'));
