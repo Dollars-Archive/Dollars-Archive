@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T11:24:04Z",
+  "generated_at": "2026-10-11T11:48:41Z",
   "summary": {
     "total": 9,
     "released": 7,
@@ -92,6 +92,7 @@
           "download_url": "https://github.com/Dollars-Archive/Game-Walkthrough-Archive/releases/download/guide-tears-to-tiara-2-complete/tears-to-tiara-2-complete-6b49380ec9c3c1ce.zip"
         }
       ],
+      "walkthrough_available": false,
       "activity_at": "2026-10-05T09:58:02Z",
       "activity_exclusion": {
         "ignored_pushed_at": "2026-10-05T06:26:37Z",
@@ -251,6 +252,7 @@
       "discovery": "platforms/ps2/games/eve-new-generation.md",
       "discovery_match": "title",
       "walkthroughs": [],
+      "walkthrough_available": false,
       "activity_at": "2026-10-05T05:30:21Z",
       "activity_exclusion": {
         "ignored_pushed_at": "2026-10-06T08:44:01Z",
@@ -402,6 +404,7 @@
       "discovery": "",
       "discovery_match": "none",
       "walkthroughs": [],
+      "walkthrough_available": false,
       "activity_at": "2026-10-05T05:14:53Z",
       "activity_exclusion": {
         "ignored_pushed_at": "2026-10-06T08:44:05Z",
@@ -542,6 +545,7 @@
       "discovery": "",
       "discovery_match": "none",
       "walkthroughs": [],
+      "walkthrough_available": false,
       "activity_at": "2026-10-05T05:11:54Z",
       "activity_exclusion": {
         "ignored_pushed_at": "2026-10-06T08:43:44Z",
@@ -676,6 +680,7 @@
       "discovery": "",
       "discovery_match": "none",
       "walkthroughs": [],
+      "walkthrough_available": false,
       "activity_at": "2026-10-05T05:10:01Z",
       "activity_exclusion": {
         "ignored_pushed_at": "2026-10-06T08:43:40Z",
@@ -807,6 +812,7 @@
       "discovery": "",
       "discovery_match": "none",
       "walkthroughs": [],
+      "walkthrough_available": false,
       "activity_at": "2026-10-05T03:51:25Z",
       "activity_exclusion": {
         "ignored_pushed_at": "2026-10-06T08:43:49Z",
@@ -933,6 +939,7 @@
       "discovery": "",
       "discovery_match": "none",
       "walkthroughs": [],
+      "walkthrough_available": false,
       "activity_at": "2026-10-05T03:51:24Z",
       "activity_exclusion": {
         "ignored_pushed_at": "2026-10-06T08:43:53Z",
@@ -1067,6 +1074,7 @@
       "discovery": "platforms/psp/games/twelve-sengoku-fuushinden.md",
       "discovery_match": "title",
       "walkthroughs": [],
+      "walkthrough_available": true,
       "activity_at": "2026-10-07T02:52:48Z",
       "activity_exclusion": {
         "ignored_pushed_at": "2026-10-06T08:43:36Z",
@@ -1147,6 +1155,7 @@
       "discovery": "platforms/ps2/games/guardian-angel.md",
       "discovery_match": "product_id",
       "walkthroughs": [],
+      "walkthrough_available": true,
       "activity_at": "2026-10-07T02:52:45Z",
       "activity_exclusion": {
         "ignored_pushed_at": "2026-10-06T08:43:57Z",
