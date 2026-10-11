@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-11T12:17:33Z",
+  "generated_at": "2026-10-11T12:35:49Z",
   "summary": {
-    "total": 9,
+    "total": 10,
     "released": 7,
-    "wip": 2,
-    "downloads": 2753
+    "wip": 3,
+    "downloads": 2754
   },
   "patches": [
     {
@@ -379,13 +379,13 @@
         "published_at": "2026-10-05T04:17:18Z",
         "asset_count": 1
       },
-      "downloads": 815,
+      "downloads": 816,
       "assets": [
         {
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/download/v1.1/EVE_ZERO_Korean_Patch_v1.1.zip",
-          "downloads": 425,
+          "downloads": 426,
           "asset_id": 611513419,
           "created_at": "2026-10-05T04:43:41Z",
           "release_published_at": "2026-10-05T04:17:18Z"
@@ -464,7 +464,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-zero-kr-patch/blob/main/README.md",
-      "downloads_current": 815,
+      "downloads_current": 816,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-zero-kr-patch/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip": {
@@ -481,7 +481,7 @@
           "tag": "v1.1",
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "asset_id": 611513419,
-          "last_count": 425,
+          "last_count": 426,
           "carried": 0,
           "removed": false
         }
@@ -1036,6 +1036,83 @@
       "cover_revision": "ca43be11d6df"
     },
     {
+      "repo": "twinkle-crusaders-starlit-brave-kr-patch",
+      "title": "트윙클☆크루세이더스 STARLIT BRAVE!!",
+      "original": "ティンクル☆くるせいだーす GoGo！ STARLIT BRAVE!!",
+      "series": "트윙클☆크루세이더스",
+      "platforms": [
+        "PSP"
+      ],
+      "genre": "배틀 ADV",
+      "genre_full": "크로스오버 배틀 어드벤처 / 타임라인 전술 배틀",
+      "developer": "PENCIL / Lillian",
+      "publisher": "ASCII Media Works",
+      "playtime": "약 12시간 (GameFAQs 1표본, 완료 범위 미확인)",
+      "edition": "PSP 일본판 STARLIT BRAVE!! 특전 UMD",
+      "release_jp": "2010-09-30",
+      "product_id": "ULJS-00313",
+      "base_update": "",
+      "note": "",
+      "cover_caption": "",
+      "status": "wip",
+      "description": "PSP 트윙클☆크루세이더스 STARLIT BRAVE!! 비공식 한국어 패치",
+      "pushed_at": "2026-10-11T12:35:30Z",
+      "stars": 0,
+      "url": "https://github.com/Dollars-Archive/twinkle-crusaders-starlit-brave-kr-patch",
+      "has_pages": false,
+      "topics": [
+        "korean-localization",
+        "kr-patch",
+        "psp"
+      ],
+      "guide_url": "",
+      "guide_status": null,
+      "latest_release": null,
+      "downloads": 0,
+      "assets": [],
+      "tools": [],
+      "discovery": "platforms/psp/games/twinkle-crusaders-starlit-brave.md",
+      "discovery_match": "manual",
+      "walkthroughs": [],
+      "walkthrough_available": false,
+      "activity_at": "2026-10-11T12:35:30Z",
+      "scope": {
+        "title": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        },
+        "ui": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        },
+        "dialogue": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        },
+        "image": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        },
+        "video": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        }
+      },
+      "changelog": [],
+      "metadata_source": "https://github.com/Dollars-Archive/twinkle-crusaders-starlit-brave-kr-patch/blob/main/README.md",
+      "downloads_current": 0,
+      "downloads_carried": 0,
+      "download_ledger": {},
+      "cover": "covers/twinkle-crusaders-starlit-brave-kr-patch.webp",
+      "cover_source": "https://www.suruga-ya.jp/product/detail/177002724",
+      "cover_revision": "0eb52b6729c2"
+    },
+    {
       "repo": "twelve-sengoku-fuushinden-kr-patch",
       "title": "트웰브 전국봉신전",
       "original": "Twelve ～戦国封神伝～",
@@ -1073,7 +1150,27 @@
       "tools": [],
       "discovery": "platforms/psp/games/twelve-sengoku-fuushinden.md",
       "discovery_match": "title",
-      "walkthroughs": [],
+      "walkthroughs": [
+        {
+          "id": "twelve-sengoku-fuushinden-guide",
+          "patch_repo": "twelve-sengoku-fuushinden-kr-patch",
+          "game": "트웰브 전국봉신전",
+          "platforms": [
+            "PSP"
+          ],
+          "title": "트웰브 전국봉신전 공략집",
+          "category": "공략집",
+          "format": "파일 준비 중",
+          "pending": true,
+          "url": "https://dollars-archive.github.io/Game-Walkthrough-Archive/?game=twelve-sengoku-fuushinden-kr-patch",
+          "source_url": "",
+          "cover": "https://dollars-archive.github.io/Dollars-Archive/covers/twelve-sengoku-fuushinden-kr-patch.webp?v=57fe23beb704",
+          "cover_source": "https://gamesdb.launchbox-app.com/games/details/82074-twelve-sengoku-fuushinden",
+          "updated_at": "2026-10-11",
+          "download_count": null,
+          "download_url": ""
+        }
+      ],
       "walkthrough_available": true,
       "activity_at": "2026-10-07T02:52:48Z",
       "activity_exclusion": {
@@ -1154,7 +1251,27 @@
       "tools": [],
       "discovery": "platforms/ps2/games/guardian-angel.md",
       "discovery_match": "product_id",
-      "walkthroughs": [],
+      "walkthroughs": [
+        {
+          "id": "guardian-angel-guide",
+          "patch_repo": "Guardian-Angel-Korean-Localization",
+          "game": "가디언 엔젤",
+          "platforms": [
+            "PS2"
+          ],
+          "title": "가디언 엔젤 공략집",
+          "category": "공략집",
+          "format": "파일 준비 중",
+          "pending": true,
+          "url": "https://dollars-archive.github.io/Game-Walkthrough-Archive/?game=Guardian-Angel-Korean-Localization",
+          "source_url": "",
+          "cover": "https://dollars-archive.github.io/Dollars-Archive/covers/Guardian-Angel-Korean-Localization.webp?v=e7bc3b2e946d",
+          "cover_source": "https://gamesdb.launchbox-app.com/games/details/375952-guardian-angel",
+          "updated_at": "2026-10-11",
+          "download_count": null,
+          "download_url": ""
+        }
+      ],
       "walkthrough_available": true,
       "activity_at": "2026-10-07T02:52:45Z",
       "activity_exclusion": {
