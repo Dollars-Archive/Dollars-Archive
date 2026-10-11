@@ -473,6 +473,7 @@ def collect(client, metadata: dict, now: datetime, check_guide=guide_status, dis
                 if patch["discovery_match"] == "none":
                     warnings.append(warning(name, "discovery-unmatched", "발굴 아카이브 자동 매칭에 실패했습니다."))
             patch['walkthroughs'] = [g for g in walkthroughs if g['patch_repo'] == name]
+            patch['walkthrough_available'] = meta.get('confirmed_walkthrough_status') == 'done'
             activity = client.activity_date(repo) if hasattr(client, "activity_date") else repo["pushed_at"]
             published = (patch["latest_release"] or {}).get("published_at")
             patch["activity_at"] = max((value for value in (activity, published) if value), key=iso_time)

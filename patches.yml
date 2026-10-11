@@ -92,6 +92,7 @@ tears-to-tiara-2-kr-patch:
   status: auto
 
 Guardian-Angel-Korean-Localization:
+  confirmed_walkthrough_status: done
   confirmed_hd_texture_status: done
   confirmed_hd_texture_source: 사용자 HD 팩 보유 확인 (2026-10-11)
   developer: Vridge
@@ -247,4 +248,5 @@ touhou-genso-wanderer-reloaded-kr-patch:
   status: auto
 
 twelve-sengoku-fuushinden-kr-patch:
+  confirmed_walkthrough_status: done
   launchbox_url: https://gamesdb.launchbox-app.com/games/details/82074-twelve-sengoku-fuushinden

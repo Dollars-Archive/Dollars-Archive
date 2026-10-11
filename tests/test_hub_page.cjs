@@ -46,6 +46,8 @@ test('asset links show only the newest stable release and preserve accumulated d
 test('guide chip is blank without a guide, direct for one guide and a game list for many',()=>{
   const {context}=page(async()=>[]);
   assert(vm.runInContext('walkthroughMarkup({repo:"game"})',context).includes('공략집 —'));
+  const confirmed=vm.runInContext('walkthroughMarkup({repo:"game",walkthrough_available:true})',context);
+  assert(confirmed.includes('scope-chip done walkthrough'));assert(confirmed.includes('공략집 ✓'));assert(!confirmed.includes('href='));
   const single=vm.runInContext('walkthroughMarkup({repo:"game",walkthroughs:[{url:"https://dollars-archive.github.io/Game-Walkthrough-Archive/guides/a.html"}]})',context);
   assert(single.includes('공략집 ✓'));assert(single.includes('/guides/a.html'));assert(single.includes(' download '));assert(!single.includes('target="_blank"'));
   const many=vm.runInContext('walkthroughMarkup({repo:"game",walkthroughs:[{url:"https://example.com/a"},{url:"https://example.com/b"}]})',context);

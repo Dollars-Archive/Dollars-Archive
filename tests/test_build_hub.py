@@ -287,12 +287,14 @@ class HubTests(unittest.TestCase):
             "title": "가디언 엔젤", "original": "Guardian Angel",
             "platforms": ["PS2"], "product_id": "SLPS-25214",
             "confirmed_hd_texture_status": "done",
+            "confirmed_walkthrough_status": "done",
             "confirmed_hd_texture_source": "사용자 확인"
         }}
         data = hub.collect(client, metadata, NOW, lambda u: 404, index)
         self.assertEqual(data["patches"][0]["discovery"], key)
         self.assertEqual(data["patches"][0]["discovery_match"], "product_id")
         self.assertEqual(data["patches"][0]["scope"]["hd_texture"]["state"], "done")
+        self.assertTrue(data["patches"][0]["walkthrough_available"])
         self.assertEqual(data["patches"][0]["scope"]["hd_texture"]["source"], "사용자 확인")
         self.assertNotIn("discovery-unmatched", self.types(data))
 
