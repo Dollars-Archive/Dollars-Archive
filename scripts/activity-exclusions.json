@@ -1,62 +1,62 @@
 {
   "eve-zero-kr-patch": {
-    "commit": "8435649ce3e0dab7124036601b7537b4cb3f76c3",
+    "commit": "0e64ec7ba4a753fd9ca644a9673e5b5efb3e3aee",
+    "ignored_pushed_at": "2026-10-11T13:26:38Z",
     "previous_activity_at": "2026-10-05T05:14:53Z",
-    "ignored_pushed_at": "2026-10-11T12:44:12Z",
-    "reason": "게임 정보 우측 패키지 표지 배치 및 표지 출처 문구 제거"
+    "reason": "사용자 요청에 따라 게임 정보 패키지 표지 제거"
   },
   "eve-new-generation-kr-patch": {
-    "commit": "fe8adb6d4b1d548dc766be85f0d40e527afc180d",
+    "commit": "a301dc06e49b82a92c3ab75930aec2589cfe5a8b",
+    "ignored_pushed_at": "2026-10-11T13:26:32Z",
     "previous_activity_at": "2026-10-05T05:30:21Z",
-    "ignored_pushed_at": "2026-10-11T12:44:08Z",
-    "reason": "게임 정보 우측 패키지 표지 배치 및 표지 출처 문구 제거"
+    "reason": "사용자 요청에 따라 게임 정보 패키지 표지 제거"
   },
   "tears-to-tiara-2-kr-patch": {
-    "commit": "a16799b8e0ba5480764995c380e2e567abd7dd48",
+    "commit": "3f53068b78276136d2285bfd68953bfc88dcc73c",
+    "ignored_pushed_at": "2026-10-11T13:26:27Z",
     "previous_activity_at": "2026-10-05T09:58:02Z",
-    "ignored_pushed_at": "2026-10-11T12:44:04Z",
-    "reason": "게임 정보 우측 패키지 표지 배치 및 표지 출처 문구 제거"
+    "reason": "사용자 요청에 따라 게임 정보 패키지 표지 제거"
   },
   "Guardian-Angel-Korean-Localization": {
-    "commit": "859fb311d38ce6c8810fd085e6945ddc80b5a6ac",
+    "commit": "88c316e20f16b9085aeed7285762555024a71461",
+    "ignored_pushed_at": "2026-10-11T13:27:16Z",
     "previous_activity_at": "2026-10-07T02:52:45Z",
-    "ignored_pushed_at": "2026-10-11T12:44:38Z",
-    "reason": "게임 정보 우측 패키지 표지 배치 및 표지 출처 문구 제거"
+    "reason": "사용자 요청에 따라 게임 정보 패키지 표지 제거"
   },
   "eve-rebirth-terror-kr-patch": {
-    "commit": "c119cde4d23db8f5f00d384a337491ec588d9d99",
+    "commit": "2334966b6bdc4377b42ae2fa193a2483d9d64dc9",
+    "ignored_pushed_at": "2026-10-11T13:27:00Z",
     "previous_activity_at": "2026-10-05T03:51:24Z",
-    "ignored_pushed_at": "2026-10-11T12:44:27Z",
-    "reason": "게임 정보 우측 패키지 표지 배치 및 표지 출처 문구 제거"
+    "reason": "사용자 요청에 따라 게임 정보 패키지 표지 제거"
   },
   "eve-ghost-enemies-kr-patch": {
-    "commit": "a5bf0ef274e9ee979677886fdd5512b0067e391f",
+    "commit": "3698eee85b83660a6a7fd21b12a11c0154204482",
+    "ignored_pushed_at": "2026-10-11T13:26:54Z",
     "previous_activity_at": "2026-10-05T03:51:25Z",
-    "ignored_pushed_at": "2026-10-11T12:44:23Z",
-    "reason": "게임 정보 우측 패키지 표지 배치 및 표지 출처 문구 제거"
+    "reason": "사용자 요청에 따라 게임 정보 패키지 표지 제거"
   },
   "touhou-genso-wanderer-lotus-labyrinth-r-kr-patch": {
-    "commit": "afabf083a2d92e14696f0ca0d88087e72fdd3e77",
+    "commit": "991b34ee23e012cba05c14ce538df2c293d751f3",
+    "ignored_pushed_at": "2026-10-11T13:26:43Z",
     "previous_activity_at": "2026-10-05T05:11:54Z",
-    "ignored_pushed_at": "2026-10-11T12:44:16Z",
-    "reason": "게임 정보 우측 패키지 표지 배치 및 표지 출처 문구 제거"
+    "reason": "사용자 요청에 따라 게임 정보 패키지 표지 제거"
   },
   "touhou-genso-wanderer-reloaded-kr-patch": {
-    "commit": "520675beec0930a00cb40593ecd780ae7c852a11",
+    "commit": "d5f4f43804a517b6603b1791977c0f8f3c4b4f58",
+    "ignored_pushed_at": "2026-10-11T13:26:49Z",
     "previous_activity_at": "2026-10-05T05:10:01Z",
-    "ignored_pushed_at": "2026-10-11T12:44:19Z",
-    "reason": "게임 정보 우측 패키지 표지 배치 및 표지 출처 문구 제거"
+    "reason": "사용자 요청에 따라 게임 정보 패키지 표지 제거"
   },
   "twelve-sengoku-fuushinden-kr-patch": {
-    "commit": "5d1a4dd8218945177ba48a230cb53b78de5392cf",
+    "commit": "9cfba630b9874a9ce272939d688a553d716f6fbc",
+    "ignored_pushed_at": "2026-10-11T13:27:10Z",
     "previous_activity_at": "2026-10-07T02:52:48Z",
-    "ignored_pushed_at": "2026-10-11T12:44:35Z",
-    "reason": "게임 정보 우측 패키지 표지 배치 및 표지 출처 문구 제거"
+    "reason": "사용자 요청에 따라 게임 정보 패키지 표지 제거"
   },
   "twinkle-crusaders-starlit-brave-kr-patch": {
-    "commit": "9f250a9334936c6b9052b64488247fa87c21baf1",
+    "commit": "5f9bacbb68d83a499bd0f9b99bb6b0b2559ffb20",
+    "ignored_pushed_at": "2026-10-11T13:27:05Z",
     "previous_activity_at": "2026-10-11T12:35:30Z",
-    "ignored_pushed_at": "2026-10-11T12:44:31Z",
-    "reason": "게임 정보 우측 패키지 표지 배치 및 표지 출처 문구 제거"
+    "reason": "사용자 요청에 따라 게임 정보 패키지 표지 제거"
   }
 }
