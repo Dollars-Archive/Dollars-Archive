@@ -23,6 +23,7 @@ test('collected page renders all covers and filters before API replies',()=>{
   const hd=vm.runInContext('scopeMarkup({scope:{hd_texture:{state:"done",status:"팩 있음"}}})',context);
   assert(hd.includes('scope-chip done hd-texture'));
   assert(hd.includes('HD texture pack ✓'));
+  assert(hd.includes('HD-Texture-Pack-Archive/?game='));
   assert.equal((node('list').innerHTML.match(/class="facts"/g)||[]).length,data.patches.length);
   assert(!node('list').innerHTML.includes('patch-summary'));
   assert(!node('list').innerHTML.includes('<span class="small">EVE</span>'));

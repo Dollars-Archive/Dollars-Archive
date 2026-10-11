@@ -314,7 +314,12 @@ function factsMarkup(d){
   return `<dl class="facts">${fields.map(([label,value,title,cls])=>`<div><dt>${label}</dt><dd class="${cls}" title="${esc(title||"—")}">${esc(value||"—")}</dd></div>`).join("")}</dl>`;
 }
 function scopeMarkup(d){
-  return `<div class="scope" aria-label="현재 한국어화 범위">${["ui","dialogue","image","video"].map(key=>scopeChipMarkup(d,key)).join("")}${walkthroughMarkup(d)}${scopeChipMarkup(d,"hd_texture")}</div>`;
+  return `<div class="scope" aria-label="현재 한국어화 범위">${["ui","dialogue","image","video"].map(key=>scopeChipMarkup(d,key)).join("")}${walkthroughMarkup(d)}${hdTextureMarkup(d)}</div>`;
+}
+function hdTextureMarkup(d){
+  if(d.scope?.hd_texture?.state!=="done")return scopeChipMarkup(d,"hd_texture");
+  const url="https://dollars-archive.github.io/HD-Texture-Pack-Archive/?game="+encodeURIComponent(d.repo||"");
+  return `<a class="scope-chip done hd-texture" href="${esc(url)}" title="이 게임의 HD 팩 목록 열기" target="_blank" rel="noopener">HD texture pack ✓</a>`;
 }
 function scopeChipMarkup(d,key){
     const name=SCOPE_NAMES[key];

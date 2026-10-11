@@ -100,6 +100,12 @@ class HubTests(unittest.TestCase):
         self.assertEqual(len(data["related"]), 1)
         self.assertEqual(data["related"][0]["url"], "https://dollars-archive.github.io/archive/")
         self.assertIn("no-description", self.types(data))
+        archives = [repo(name, topics=['kr-localization-archive'], has_pages=True) for name in
+                    ('Dollars-Archive-kr-localization-archive', 'Game-Localization-Discovery-Archive')]
+        archives += [repo(name, topics=[]) for name in ('HD-Texture-Pack-Archive', 'Game-Walkthrough-Archive')]
+        related = self.catalogue(FixtureClient(repositories=archives))['related']
+        self.assertEqual([item['repo'] for item in related], ['Dollars-Archive-kr-localization-archive',
+                         'Game-Localization-Discovery-Archive', 'Game-Walkthrough-Archive', 'HD-Texture-Pack-Archive'])
 
     def test_auto_and_explicit_status(self):
         self.assertEqual(hub.resolve_status({}, []), "wip")

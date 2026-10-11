@@ -533,6 +533,9 @@ def collect(client, metadata: dict, now: datetime, check_guide=guide_status, dis
     if any(repo['name'] == 'Game-Walkthrough-Archive' for repo in repos):
         related.append({'repo': 'Game-Walkthrough-Archive', 'title': '직접 제작한 공략집 모음',
             'url': 'https://dollars-archive.github.io/Game-Walkthrough-Archive/', 'desc': 'Dollars Archive가 직접 작성한 게임 공략집'})
+    if any(repo['name'] == 'HD-Texture-Pack-Archive' for repo in repos):
+        related.append({'repo': 'HD-Texture-Pack-Archive', 'title': 'HD texture pack 모음',
+            'url': 'https://dollars-archive.github.io/HD-Texture-Pack-Archive/', 'desc': '게임별 HD 텍스처 팩 아카이브'})
     patches.sort(key=lambda p: p["repo"].lower())
     patches.sort(key=lambda p: p["activity_at"], reverse=True)
     patches.sort(key=lambda p: not bool(p["latest_release"]))
