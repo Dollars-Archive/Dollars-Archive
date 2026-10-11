@@ -604,7 +604,7 @@ def readme_section(data: dict) -> bytes:
             links.append(md_link("설치 가이드", p["guide_url"]))
         guides = p.get('walkthroughs', [])
         if guides:
-            url = guides[0]['url'] if len(guides) == 1 else 'https://dollars-archive.github.io/Game-Walkthrough-Archive/?game=' + quote(p['repo'])
+            url = (guides[0].get('download_url') if len(guides) == 1 else '') or 'https://dollars-archive.github.io/Game-Walkthrough-Archive/?game=' + quote(p['repo'])
             links.append(md_link('공략집', url))
         platform_kinds = {"Dreamcast": "dc", "PS2": "ps2", "PS3": "ps3", "PSP": "psp", "Vita": "vita", "PS Vita": "vita", "Switch": "switch", "PC": "pc"}
         platforms = " ".join(badge(platform_kinds[plat], plat) if plat in platform_kinds else md(plat) for plat in p["platforms"]) or "미입력"

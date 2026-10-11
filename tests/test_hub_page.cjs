@@ -49,17 +49,19 @@ test('guide chip is blank without a guide, direct for one guide and a game list 
   assert(vm.runInContext('walkthroughMarkup({repo:"game"})',context).includes('공략집 —'));
   const confirmed=vm.runInContext('walkthroughMarkup({repo:"game",walkthrough_available:true})',context);
   assert(confirmed.includes('scope-chip done walkthrough'));assert(confirmed.includes('공략집 ✓'));assert(!confirmed.includes('href='));
-  const single=vm.runInContext('walkthroughMarkup({repo:"game",walkthroughs:[{url:"https://dollars-archive.github.io/Game-Walkthrough-Archive/guides/a.html"}]})',context);
-  assert(single.includes('공략집 ✓'));assert(single.includes('/guides/a.html'));assert(single.includes(' download '));assert(!single.includes('target="_blank"'));
+  const single=vm.runInContext('walkthroughMarkup({repo:"game",walkthroughs:[{url:"https://dollars-archive.github.io/Game-Walkthrough-Archive/guides/a.html",download_url:"https://github.com/Dollars-Archive/Game-Walkthrough-Archive/releases/download/guide-a/a.zip"}]})',context);
+  assert(single.includes('공략집 ✓'));assert(single.includes('/releases/download/guide-a/a.zip'));assert(!single.includes('/guides/a.html'));assert(single.includes(' download '));assert(!single.includes('target="_blank"'));
+  const unavailable=vm.runInContext('walkthroughMarkup({repo:"game",walkthroughs:[{url:"https://example.com/a.html",download_url:"javascript:bad"}]})',context);
+  assert(unavailable.includes('?game=game'));assert(!unavailable.includes(' download '));assert(!unavailable.includes('javascript:'));
   const many=vm.runInContext('walkthroughMarkup({repo:"game",walkthroughs:[{url:"https://example.com/a"},{url:"https://example.com/b"}]})',context);
   assert(many.includes('?game=game'));assert(many.includes('target="_blank"'));
 });
 test('new walkthrough catalogue updates the matching game chip on refresh',async()=>{
   const {context,node,data}=page(async()=>[]);
   const repo=data.patches[0].repo;
-  context.fetch=async()=>({ok:true,json:async()=>({guides:[{patch_repo:repo,title:'공략',url:'https://dollars-archive.github.io/Game-Walkthrough-Archive/guides/a.html'}]})});
+  context.fetch=async()=>({ok:true,json:async()=>({guides:[{patch_repo:repo,title:'공략',url:'https://dollars-archive.github.io/Game-Walkthrough-Archive/guides/a.html',download_url:'https://github.com/Dollars-Archive/Game-Walkthrough-Archive/releases/download/guide-a/a.zip'}]})});
   await vm.runInContext('refreshWalkthroughs()',context);
-  assert(node('list').innerHTML.includes('/guides/a.html'));
+  assert(node('list').innerHTML.includes('/releases/download/guide-a/a.zip'));
   assert.equal(data.patches[0].walkthroughs.length,1);
   assert.equal(data.patches[1].walkthroughs.length,0);
 });
