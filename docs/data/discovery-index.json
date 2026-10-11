@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "99d17b0c91fbebbdaa4cc15b308865b0f7dc0949",
+  "tree_sha": "be1285f42a89e1c2e4f3382614ee0fae3090bcc9",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -4191,6 +4191,16 @@
       "english_title": "Reine des Fleurs",
       "title_ko": "레느 데 플뢰르 / 국내 ‘렌 드 플뢰르’ 표기도 사용",
       "title": "Reine des Fleurs (레느 데 플뢰르 / 렌 드 플뢰르)"
+    },
+    {
+      "key": "platforms/psvita/games/sengoku-hime-5-senka-tatsu-haou-no-keifu.md",
+      "source_sha": "abfa1dd9bf3fb338b8ed8733cb50f1fa48739076",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "戦極姫5 ～戦禍断つ覇王の系譜～",
+      "english_title": "Sengoku Hime 5: Senka Tatsu Haou no Keifu",
+      "title_ko": "센고쿠히메 5: 전화를 끊는 패왕의 계보 (전화는 戦禍, '전쟁으로 인한 재앙'의 의미)",
+      "title": "Sengoku Hime 5: Senka Tatsu Haou no Keifu (센고쿠히메 5: 전화를 끊는 패왕의 계보)"
     },
     {
       "key": "platforms/psvita/games/sorcery-saga-curse-of-the-great-curry-god.md",

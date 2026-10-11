@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-11T15:48:36Z",
+  "generated_at": "2026-10-11T18:23:06Z",
   "summary": {
     "total": 11,
     "released": 7,
     "wip": 4,
-    "downloads": 2765
+    "downloads": 2769
   },
   "patches": [
     {
@@ -46,13 +46,13 @@
         "published_at": "2026-10-05T04:17:16Z",
         "asset_count": 1
       },
-      "downloads": 616,
+      "downloads": 617,
       "assets": [
         {
           "name": "TTT2_KR_Patcher_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/download/v1.1/TTT2_KR_Patcher_v1.1.zip",
-          "downloads": 291,
+          "downloads": 292,
           "asset_id": 611515859,
           "created_at": "2026-10-05T04:44:48Z",
           "release_published_at": "2026-10-05T04:17:16Z"
@@ -162,7 +162,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/blob/main/README.md",
-      "downloads_current": 616,
+      "downloads_current": 617,
       "downloads_carried": 0,
       "download_ledger": {
         "tears-to-tiara-2-kr-patch/v1.0/TTT2_KR_Patcher_v1.0.zip": {
@@ -179,7 +179,7 @@
           "tag": "v1.1",
           "name": "TTT2_KR_Patcher_v1.1.zip",
           "asset_id": 611515859,
-          "last_count": 291,
+          "last_count": 292,
           "carried": 0,
           "removed": false
         }
@@ -227,13 +227,13 @@
         "published_at": "2026-10-05T04:17:21Z",
         "asset_count": 1
       },
-      "downloads": 872,
+      "downloads": 874,
       "assets": [
         {
           "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.1/EVE_New_Generation_Korean_Patch_v1.1.zip",
-          "downloads": 408,
+          "downloads": 410,
           "asset_id": 611547873,
           "created_at": "2026-10-05T04:59:55Z",
           "release_published_at": "2026-10-05T04:17:21Z"
@@ -314,7 +314,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/blob/main/README.md",
-      "downloads_current": 872,
+      "downloads_current": 874,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-new-generation-kr-patch/v1.0/EVE_NG_v1.0.zip": {
@@ -331,7 +331,7 @@
           "tag": "v1.1",
           "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
           "asset_id": 611547873,
-          "last_count": 408,
+          "last_count": 410,
           "carried": 0,
           "removed": false
         }
@@ -379,13 +379,13 @@
         "published_at": "2026-10-05T04:17:18Z",
         "asset_count": 1
       },
-      "downloads": 820,
+      "downloads": 821,
       "assets": [
         {
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/download/v1.1/EVE_ZERO_Korean_Patch_v1.1.zip",
-          "downloads": 430,
+          "downloads": 431,
           "asset_id": 611513419,
           "created_at": "2026-10-05T04:43:41Z",
           "release_published_at": "2026-10-05T04:17:18Z"
@@ -464,7 +464,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-zero-kr-patch/blob/main/README.md",
-      "downloads_current": 820,
+      "downloads_current": 821,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-zero-kr-patch/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip": {
@@ -481,7 +481,7 @@
           "tag": "v1.1",
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "asset_id": 611513419,
-          "last_count": 430,
+          "last_count": 431,
           "carried": 0,
           "removed": false
         }
@@ -1047,7 +1047,7 @@
       "genre_full": "비주얼 노벨 / 3부작 합본",
       "developer": "M2 / 5pb.",
       "publisher": "5pb. / MAGES.",
-      "playtime": "약 16시간",
+      "playtime": "약 60–120시간",
       "edition": "PS3 일본판 디스크",
       "release_jp": "2012-09-20",
       "product_id": "BLJM60521",
@@ -1056,7 +1056,7 @@
       "cover_caption": "",
       "status": "wip",
       "description": "PS3 새벽의 호위 트리니티 비공식 한국어 패치",
-      "pushed_at": "2026-10-11T14:32:43Z",
+      "pushed_at": "2026-10-11T18:22:33Z",
       "stars": 0,
       "url": "https://github.com/Dollars-Archive/akatsuki-no-goei-trinity-kr-patch",
       "has_pages": false,
@@ -1096,6 +1096,10 @@
       ],
       "walkthrough_available": true,
       "activity_at": "2026-10-11T14:32:43Z",
+      "activity_exclusion": {
+        "ignored_pushed_at": "2026-10-11T18:22:33Z",
+        "previous_activity_at": "2026-10-11T14:32:43Z"
+      },
       "scope": {
         "title": {
           "state": "none",
