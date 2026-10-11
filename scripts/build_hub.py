@@ -500,8 +500,8 @@ def collect(client, metadata: dict, now: datetime, check_guide=guide_status, dis
             for key in release_additions(latest_release):
                 historical = next((e for e in reversed(patch['changelog']) if key in e['added']), None)
                 patch['scope'][key] = {'state': 'done', 'since': historical['v'] if historical and historical != patch['changelog'][-1] else None}
-            for key, state in meta.get('confirmed_scope_status', {}).items():
-                if key in ('ui', 'dialogue', 'video') and state == 'done':
+            if meta.get('confirmed_scope_status') == 'done':
+                for key in ('ui', 'dialogue', 'video'):
                     previous = patch['scope'][key]
                     patch['scope'][key] = {'state': 'done', 'status': '완료',
                         'since': previous.get('since') if previous['state'] == 'done' else None,
