@@ -39,6 +39,7 @@ DOLLARS-WALKTHROUGH-REGISTRATION:END -->
 - [제작 기술 노트 아카이브](<https://dollars-archive.github.io/Dollars-Archive-kr-localization-archive/>)
 - [한글화 후보 발굴 아카이브](<https://dollars-archive.github.io/Game-Localization-Discovery-Archive/>)
 - [직접 제작한 공략집 모음](<https://dollars-archive.github.io/Game-Walkthrough-Archive/>) — Dollars Archive가 직접 작성한 게임 공략집
+- [HD texture pack 모음](<https://dollars-archive.github.io/HD-Texture-Pack-Archive/>) — 게임별 HD 텍스처 팩 아카이브
 
 <sub>자동 갱신: 2026-10-11 (KST) · 다운로드는 패치 첨부파일 기준</sub>
 

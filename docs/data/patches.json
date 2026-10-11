@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T11:48:41Z",
+  "generated_at": "2026-10-11T12:10:06Z",
   "summary": {
     "total": 9,
     "released": 7,
@@ -1222,6 +1222,12 @@
       "title": "직접 제작한 공략집 모음",
       "url": "https://dollars-archive.github.io/Game-Walkthrough-Archive/",
       "desc": "Dollars Archive가 직접 작성한 게임 공략집"
+    },
+    {
+      "repo": "HD-Texture-Pack-Archive",
+      "title": "HD texture pack 모음",
+      "url": "https://dollars-archive.github.io/HD-Texture-Pack-Archive/",
+      "desc": "게임별 HD 텍스처 팩 아카이브"
     }
   ],
   "warnings": [
