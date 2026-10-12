@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "384aa1a02429abc0c71e5343227126b82a4fc2e3",
+  "tree_sha": "0098a1ed8ce9fc385912feb6e4aab35f22dbdf73",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -1831,6 +1831,16 @@
       "english_title": "Touch, Shot! Love Application",
       "title_ko": "터치, 하자! -Love Application-",
       "title": "Touch, Shot! Love Application (터치, 하자! -Love Application-)"
+    },
+    {
+      "key": "platforms/ps3/games/white-album-2-shiawase-no-mukougawa.md",
+      "source_sha": "1082f29691d2651bb0b1753f321a3e57d1637a3d",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "WHITE ALBUM2 幸せの向こう側",
+      "english_title": "WHITE ALBUM2: Shiawase no Mukougawa (화이트 앨범 2: 행복의 저편) | PlayStation 3",
+      "title_ko": "",
+      "title": "WHITE ALBUM2: Shiawase no Mukougawa (화이트 앨범 2: 행복의 저편) | PlayStation 3"
     },
     {
       "key": "platforms/ps3/games/wizardry-perfect-pack.md",
@@ -4043,6 +4053,16 @@
       "title": "Ken ga Kimi: Momoyo Tsuzuri"
     },
     {
+      "key": "platforms/psvita/games/konosuba-kono-yokubukai-game-ni-shinpan-wo.md",
+      "source_sha": "2fc808ae0e32a31dc7c9112926af40f34d145a2a",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "",
+      "english_title": "KonoSuba: Kono Yokubukai Game ni Shinpan wo! (이 멋진 세계에 축복을! 이 욕심 많은 게임에 심판을!) | PS Vita",
+      "title_ko": "",
+      "title": "KonoSuba: Kono Yokubukai Game ni Shinpan wo! (이 멋진 세계에 축복을! 이 욕심 많은 게임에 심판을!) | PS Vita"
+    },
+    {
       "key": "platforms/psvita/games/kurenai-no-homura-sanada-ninpocho.md",
       "source_sha": "5e28f91d5931a6e4914e3d776693a37e68907eb9",
       "platform": "PSVITA",
@@ -4303,6 +4323,16 @@
       "title": "Tokyo Twilight Ghost Hunters (마도홍색유격대)"
     },
     {
+      "key": "platforms/psvita/games/white-album-2-shiawase-no-mukougawa.md",
+      "source_sha": "0c50cd464ac607970a50f1f31c06bc4b5464ebab",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "",
+      "english_title": "WHITE ALBUM2: Shiawase no Mukougawa (화이트 앨범 2: 행복의 저편) | PlayStation Vita",
+      "title_ko": "",
+      "title": "WHITE ALBUM2: Shiawase no Mukougawa (화이트 앨범 2: 행복의 저편) | PlayStation Vita"
+    },
+    {
       "key": "platforms/psvita/games/xblaze-code-embryo.md",
       "source_sha": "971730e84a38eb41e4bc87a51bd5c634bcf3248d",
       "platform": "PSVITA",
@@ -4324,7 +4354,7 @@
     },
     {
       "key": "platforms/psvita/games/yahari-game-demo-ore-no-seishun-love-come-wa-machigatteiru-zoku.md",
-      "source_sha": "0ac48c5078d35c1322e48d47f9cec7a9a723530a",
+      "source_sha": "a76b09c42ec7b63213d2369027ad9b4fe89a8a39",
       "platform": "평가 대상 PS VITA / PLAYSTATION TV 대응",
       "product_id": "",
       "original": "やはりゲームでも俺の青春ラブコメはまちがっている。続",
@@ -4363,6 +4393,36 @@
       "title": "Zero Escape: The Nonary Games (제로 이스케이프: 더 노나리 게임즈)"
     },
     {
+      "key": "platforms/switch/games/9-nine.md",
+      "source_sha": "1dc853310a7edb966038fbd73831c121e8b0ba38",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "9-nine- (나인) | Nintendo Switch 작품성·이식 품질·한국어화 평가",
+      "title_ko": "",
+      "title": "9-nine- (나인) | Nintendo Switch 작품성·이식 품질·한국어화 평가"
+    },
+    {
+      "key": "platforms/switch/games/aiyoku-no-eustia.md",
+      "source_sha": "c3ad39c5e6eb31fadf9082021f93fe486a85b6c3",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Aiyoku no Eustia (예익의 유스티아) | Nintendo Switch 작품성 4.0 · PC 한국어 패치 존재·Switch 예외 활성 후보",
+      "title_ko": "",
+      "title": "Aiyoku no Eustia (예익의 유스티아) | Nintendo Switch 작품성 4.0 · PC 한국어 패치 존재·Switch 예외 활성 후보"
+    },
+    {
+      "key": "platforms/switch/games/alice-gear-aegis-cs-concerto-of-simulatrix.md",
+      "source_sha": "0ac4776a9a0bc81555768350cf68db2710df90b3",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Alice Gear Aegis CS: Concerto of Simulatrix (앨리스 기어 아이기스 CS ~콘체르토 오브 시뮬라트릭스~) | Switch 작품성·한국어판·업데이트 조사",
+      "title_ko": "",
+      "title": "Alice Gear Aegis CS: Concerto of Simulatrix (앨리스 기어 아이기스 CS ~콘체르토 오브 시뮬라트릭스~) | Switch 작품성·한국어판·업데이트 조사"
+    },
+    {
       "key": "platforms/switch/games/astral-takers.md",
       "source_sha": "3da7a79b487e0f8afbfaeb2e155ba253d69b89b5",
       "platform": "SWITCH",
@@ -4371,6 +4431,16 @@
       "english_title": "Astral Takers (애스트럴 테이커스) | Nintendo Switch",
       "title_ko": "",
       "title": "Astral Takers (애스트럴 테이커스) | Nintendo Switch"
+    },
+    {
+      "key": "platforms/switch/games/ayakashi-gohan-oomori-for-s.md",
+      "source_sha": "50650a11c5a83963d205d760b0a5cbf270d497e3",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Ayakashi Gohan ~Oomori!~ for S",
+      "title_ko": "",
+      "title": "Ayakashi Gohan ~Oomori!~ for S (아야카시 고항: 오오모리!)"
     },
     {
       "key": "platforms/switch/games/beyblade-x-evobattle.md",
@@ -4383,6 +4453,86 @@
       "title": "BEYBLADE X EVOBATTLE (베이블레이드 X: 에보배틀)"
     },
     {
+      "key": "platforms/switch/games/class-of-heroes-1-and-2-complete-edition.md",
+      "source_sha": "c55fb17058d80b4eb0be00c232ef57d04791884e",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Class of Heroes 1 & 2: Complete Edition",
+      "title_ko": "",
+      "title": "Class of Heroes 1 & 2: Complete Edition (검과 마법과 학원물 1·2 컴플리트 에디션)"
+    },
+    {
+      "key": "platforms/switch/games/class-of-heroes-3-remaster.md",
+      "source_sha": "b8f959f1707d9c1103613c6b7637fe102fa796cc",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Class of Heroes 3 Remaster",
+      "title_ko": "",
+      "title": "Class of Heroes 3 Remaster (검과 마법과 학원물 3 리마스터)"
+    },
+    {
+      "key": "platforms/switch/games/digimon-world-next-order.md",
+      "source_sha": "3bc40a1ca0eebe2688652ad580eceb2c671facca",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Digimon World: Next Order (디지몬 월드 넥스트 오더) | Nintendo Switch 작품성·정식 한국어판 확인",
+      "title_ko": "",
+      "title": "Digimon World: Next Order (디지몬 월드 넥스트 오더) | Nintendo Switch 작품성·정식 한국어판 확인"
+    },
+    {
+      "key": "platforms/switch/games/fairy-tail-2.md",
+      "source_sha": "c5a80acb79f0b26d6b17187530736e251404efc3",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "FAIRY TAIL 2 (페어리 테일 2) | Nintendo Switch 심층 작품성·한글화 평가",
+      "title_ko": "",
+      "title": "FAIRY TAIL 2 (페어리 테일 2) | Nintendo Switch 심층 작품성·한글화 평가"
+    },
+    {
+      "key": "platforms/switch/games/hakkenden.md",
+      "source_sha": "497471d63318479a3168531d4a23f025b29912db",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Hakkenden",
+      "title_ko": "",
+      "title": "Hakkenden (팔검전 / 八剱伝)"
+    },
+    {
+      "key": "platforms/switch/games/island.md",
+      "source_sha": "1ed4e21a1213b9f648fb82c55444bf3ff3a696f7",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "ISLAND (아일랜드) | Nintendo Switch 작품성·스토리·이식·한국어화 종합 평가",
+      "title_ko": "",
+      "title": "ISLAND (아일랜드) | Nintendo Switch 작품성·스토리·이식·한국어화 종합 평가"
+    },
+    {
+      "key": "platforms/switch/games/ken-to-mahou-to-gakuen-mono-anniversary-edition.md",
+      "source_sha": "da6415b0e870d8d76947b398f7688998f7ee419f",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Ken to Mahou to Gakuen Mono. Anniversary Edition",
+      "title_ko": "",
+      "title": "Ken to Mahou to Gakuen Mono. Anniversary Edition (검과 마법과 학원물 애니버서리 에디션)"
+    },
+    {
+      "key": "platforms/switch/games/labyrinth-of-touhou-gensokyo-and-the-heaven-piercing-tree.md",
+      "source_sha": "19e2e4d01dcd3a1405968069156de7ef2130d400",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Labyrinth of Touhou: Gensokyo and the Heaven-Piercing Tree (동방의 미궁: 환상향과 천관의 대수) | Switch 작품성 평가",
+      "title_ko": "",
+      "title": "Labyrinth of Touhou: Gensokyo and the Heaven-Piercing Tree (동방의 미궁: 환상향과 천관의 대수) | Switch 작품성 평가"
+    },
+    {
       "key": "platforms/switch/games/mamiya-a-shared-illusion-of-the-worlds-end.md",
       "source_sha": "aeb7957edba4ba277cd243e357047d289bfe31f2",
       "platform": "NINTENDO SWITCH / SWITCH LITE, SWITCH 2의 SWITCH 소프트웨어 호환 실행",
@@ -4391,6 +4541,56 @@
       "english_title": "MAMIYA - A Shared Illusion of the World's End -",
       "title_ko": "",
       "title": "MAMIYA - A Shared Illusion of the World's End - (마미야)"
+    },
+    {
+      "key": "platforms/switch/games/never7-the-end-of-infinity.md",
+      "source_sha": "c0d87736a4af472deaf252197d336ebfa0fd7634",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Never 7 - The End of Infinity (네버 7: 디 엔드 오브 인피니티) | Nintendo Switch",
+      "title_ko": "",
+      "title": "Never 7 - The End of Infinity (네버 7: 디 엔드 오브 인피니티) | Nintendo Switch"
+    },
+    {
+      "key": "platforms/switch/games/nonetensemble-magicwork-labyrinth.md",
+      "source_sha": "ec28bbf189e0ec109f2c54e8b32c632af74efb0f",
+      "platform": "NINTENDO SWITCH (일본 다운로드판), WINDOWS PC (STEAM, 원판)",
+      "product_id": "",
+      "original": "",
+      "english_title": "NonetEnsemble: Magicwork Labyrinth",
+      "title_ko": "",
+      "title": "NonetEnsemble: Magicwork Labyrinth (노넷 앙상블: 마법 장치의 미궁)"
+    },
+    {
+      "key": "platforms/switch/games/prinny-presents-nis-classics-volume-2-makai-kingdom-zhp.md",
+      "source_sha": "974f3dc7c6c7192eba1ab2d2f5392ccfac75fe37",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Prinny Presents NIS Classics Volume 2: Makai Kingdom: Reclaimed and Rebound / ZHP: Unlosing Ranger vs. Darkdeath Evilman",
+      "title_ko": "",
+      "title": "Prinny Presents NIS Classics Volume 2: Makai Kingdom: Reclaimed and Rebound / ZHP: Unlosing Ranger vs. Darkdeath Evilman (프리니 프레젠츠 NIS 클래식스 Vol.2)"
+    },
+    {
+      "key": "platforms/switch/games/progress-orders.md",
+      "source_sha": "54f4af1f0d287c740acf2e3209109a2a52ab8f68",
+      "platform": "NINTENDO SWITCH 원판, WINDOWS STEAM 동시 계열",
+      "product_id": "",
+      "original": "PROGRESS ORDERS / プログレスオーダーズ",
+      "english_title": "PROGRESS ORDERS",
+      "title_ko": "프로그레스 오더즈 (공식 한국어 정발명 확인 못함)",
+      "title": "PROGRESS ORDERS (프로그레스 오더즈)"
+    },
+    {
+      "key": "platforms/switch/games/rhapsody-25th-anniversary-collection.md",
+      "source_sha": "a8d12b8080010187df3dd434e8ebd9976357cbb9",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Rhapsody: 25th Anniversary Collection (마알 왕국의 인형공주 25주년 컬렉션) | Nintendo Switch",
+      "title_ko": "",
+      "title": "Rhapsody: 25th Anniversary Collection (마알 왕국의 인형공주 25주년 컬렉션) | Nintendo Switch"
     },
     {
       "key": "platforms/switch/games/road59-a-yakuzas-last-stand.md",
@@ -4413,6 +4613,46 @@
       "title": "Soul Cradle: World Eaters / Soul Nomad & the World Eaters (소울 크레이들: 세계를 먹는 자)"
     },
     {
+      "key": "platforms/switch/games/souls-of-chronos.md",
+      "source_sha": "1cf0d1947764b624cbabaedf405a1eabcf987465",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Souls of Chronos (소울즈 오브 크로노스) | Nintendo Switch 작품성 3.0점·기준 미달 평가 기록",
+      "title_ko": "",
+      "title": "Souls of Chronos (소울즈 오브 크로노스) | Nintendo Switch 작품성 3.0점·기준 미달 평가 기록"
+    },
+    {
+      "key": "platforms/switch/games/summer-time-rendering-another-horizon.md",
+      "source_sha": "50958ce4a23c37ace3d1c3ef7866730a949f0a28",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Summer Time Rendering: Another Horizon",
+      "title_ko": "",
+      "title": "Summer Time Rendering: Another Horizon (서머타임 렌더: 어나더 호라이즌)"
+    },
+    {
+      "key": "platforms/switch/games/tantei-bokumetsu.md",
+      "source_sha": "c38a412125e26f27570b48fd23c76deac042cefc",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Tantei Bokumetsu / Process of Elimination (탐정박멸) | Nintendo Switch 게임성·한글화 가치 평가",
+      "title_ko": "",
+      "title": "Tantei Bokumetsu / Process of Elimination (탐정박멸) | Nintendo Switch 게임성·한글화 가치 평가"
+    },
+    {
+      "key": "platforms/switch/games/the-grisaia-trilogy.md",
+      "source_sha": "99ed06303c632774e7cc65521d4a1671f8cbf10d",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "The Grisaia Trilogy (그리자이아 트릴로지) | Nintendo Switch 작품성 4.0 · 사용자 지정 예외 활성 후보",
+      "title_ko": "",
+      "title": "The Grisaia Trilogy (그리자이아 트릴로지) | Nintendo Switch 작품성 4.0 · 사용자 지정 예외 활성 후보"
+    },
+    {
       "key": "platforms/switch/games/tokeijikake-no-ley-line-kagerou-ni-samayou-majo.md",
       "source_sha": "4cad65976e465b2ce6d3d33f86f6e13693c10527",
       "platform": "NINTENDO SWITCH (일본판 2021; 번체중문 별도 판본 2026)",
@@ -4421,6 +4661,26 @@
       "english_title": "Tokeijikake no Ley Line: Kagerou ni Samayou Majo",
       "title_ko": "시계장치의 레이라인: 아지랑이에 방황하는 마녀",
       "title": "Tokeijikake no Ley Line: Kagerou ni Samayou Majo (시계장치의 레이라인: 아지랑이에 방황하는 마녀)"
+    },
+    {
+      "key": "platforms/switch/games/touhou-genso-maroku-w-the-devil-of-decline.md",
+      "source_sha": "ccbd2bad8292d94ef51793d725778cc851b1d608",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Touhou Genso Maroku W: The Devil of Decline (동방환상마록 W) | Nintendo Switch",
+      "title_ko": "",
+      "title": "Touhou Genso Maroku W: The Devil of Decline (동방환상마록 W) | Nintendo Switch"
+    },
+    {
+      "key": "platforms/switch/games/touhou-genso-wanderer-foresight.md",
+      "source_sha": "2bf7a45ef05813dddfd5efd5f62a0ba0a4e13310",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Touhou Genso Wanderer -FORESIGHT- (이상한 환상향 -포사이트-) | Nintendo Switch",
+      "title_ko": "",
+      "title": "Touhou Genso Wanderer -FORESIGHT- (이상한 환상향 -포사이트-) | Nintendo Switch"
     },
     {
       "key": "platforms/switch/games/touhou-sky-arena-matsuri-climax.md",
@@ -4433,6 +4693,16 @@
       "title": "Touhou Sky Arena -Matsuri- Climax (동방 스카이 아레나: 마츠리 클라이맥스)"
     },
     {
+      "key": "platforms/switch/games/varlet.md",
+      "source_sha": "7a88a911b1c364fe3504f91e07410b1d1402db51",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "VARLET (ヴァレット) | Nintendo Switch 작품성 평가·정식 한국어판 확인",
+      "title_ko": "",
+      "title": "VARLET (ヴァレット) | Nintendo Switch 작품성 평가·정식 한국어판 확인"
+    },
+    {
       "key": "platforms/switch/games/wizards-symphony.md",
       "source_sha": "bddc8e8576a267835894916ddd0a16f0c696715b",
       "platform": "NINTENDO SWITCH, PLAYSTATION 4 (2019 일본 동시 발매)",
@@ -4441,6 +4711,36 @@
       "english_title": "Wizard's Symphony",
       "title_ko": "위저즈 심포니 (가칭·음역)",
       "title": "Wizard's Symphony (위저즈 심포니)"
+    },
+    {
+      "key": "platforms/switch/games/yahari-game-demo-ore-no-seishun-love-come-wa-machigatteiru-and-zoku-omatome-set.md",
+      "source_sha": "7af4efdadf7e293d20ad4e264d6b079fa5ff262a",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Yahari Game demo Ore no Seishun Love Come wa Machigatteiru. & Zoku Omatome Set | Nintendo Switch",
+      "title_ko": "",
+      "title": "Yahari Game demo Ore no Seishun Love Come wa Machigatteiru. & Zoku Omatome Set | Nintendo Switch"
+    },
+    {
+      "key": "platforms/switch/games/yahari-game-demo-ore-no-seishun-love-come-wa-machigatteiru-kan.md",
+      "source_sha": "e7ca132e3998683aacac590679a0802ab456cd63",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Yahari Game demo Ore no Seishun Love Come wa Machigatteiru. Kan",
+      "title_ko": "",
+      "title": "Yahari Game demo Ore no Seishun Love Come wa Machigatteiru. Kan (역시 게임에서도 내 청춘 러브코메디는 잘못됐다. 완)"
+    },
+    {
+      "key": "platforms/switch/games/yuuna-and-the-haunted-hot-springs-the-thrilling-steamy-maze-kiwami.md",
+      "source_sha": "86aebf8bad980bfb4d292322f2d8c6da9b7d72e0",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Yuuna and the Haunted Hot Springs: The Thrilling Steamy Maze Kiwami | Nintendo Switch",
+      "title_ko": "",
+      "title": "Yuuna and the Haunted Hot Springs: The Thrilling Steamy Maze Kiwami | Nintendo Switch"
     }
   ]
 }
