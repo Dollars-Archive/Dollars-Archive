@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "23cb3b7ee60c152dca085cdde66de87a1a1a1a75",
+  "tree_sha": "384aa1a02429abc0c71e5343227126b82a4fc2e3",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -4373,6 +4373,16 @@
       "title": "Astral Takers (애스트럴 테이커스) | Nintendo Switch"
     },
     {
+      "key": "platforms/switch/games/beyblade-x-evobattle.md",
+      "source_sha": "07cbc8836443a168034d488905f6622cfa0f3c71",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "BEYBLADE X EVOBATTLE",
+      "title_ko": "",
+      "title": "BEYBLADE X EVOBATTLE (베이블레이드 X: 에보배틀)"
+    },
+    {
       "key": "platforms/switch/games/mamiya-a-shared-illusion-of-the-worlds-end.md",
       "source_sha": "aeb7957edba4ba277cd243e357047d289bfe31f2",
       "platform": "NINTENDO SWITCH / SWITCH LITE, SWITCH 2의 SWITCH 소프트웨어 호환 실행",
@@ -4383,6 +4393,26 @@
       "title": "MAMIYA - A Shared Illusion of the World's End - (마미야)"
     },
     {
+      "key": "platforms/switch/games/road59-a-yakuzas-last-stand.md",
+      "source_sha": "61625b8771452d73911062cc36d55cc7194a39ce",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "ROAD59 -A Yakuza’s Last Stand-",
+      "title_ko": "",
+      "title": "ROAD59 -A Yakuza’s Last Stand- (ROAD59: 신시대 임협특구 마천루 흑백 항쟁)"
+    },
+    {
+      "key": "platforms/switch/games/soul-cradle-world-eaters.md",
+      "source_sha": "8ebdb042439cf31fb48f920211d2371959c0cee8",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Soul Cradle: World Eaters / Soul Nomad & the World Eaters",
+      "title_ko": "",
+      "title": "Soul Cradle: World Eaters / Soul Nomad & the World Eaters (소울 크레이들: 세계를 먹는 자)"
+    },
+    {
       "key": "platforms/switch/games/tokeijikake-no-ley-line-kagerou-ni-samayou-majo.md",
       "source_sha": "4cad65976e465b2ce6d3d33f86f6e13693c10527",
       "platform": "NINTENDO SWITCH (일본판 2021; 번체중문 별도 판본 2026)",
@@ -4391,6 +4421,16 @@
       "english_title": "Tokeijikake no Ley Line: Kagerou ni Samayou Majo",
       "title_ko": "시계장치의 레이라인: 아지랑이에 방황하는 마녀",
       "title": "Tokeijikake no Ley Line: Kagerou ni Samayou Majo (시계장치의 레이라인: 아지랑이에 방황하는 마녀)"
+    },
+    {
+      "key": "platforms/switch/games/touhou-sky-arena-matsuri-climax.md",
+      "source_sha": "ff06ab05cdd4d98df681a9bfc220e3aba66c6baa",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Touhou Sky Arena -Matsuri- Climax",
+      "title_ko": "",
+      "title": "Touhou Sky Arena -Matsuri- Climax (동방 스카이 아레나: 마츠리 클라이맥스)"
     },
     {
       "key": "platforms/switch/games/wizards-symphony.md",
