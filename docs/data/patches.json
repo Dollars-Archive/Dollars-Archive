@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-12T00:37:49Z",
+  "generated_at": "2026-10-12T06:53:58Z",
   "summary": {
-    "total": 11,
+    "total": 12,
     "released": 7,
-    "wip": 4,
-    "downloads": 2778
+    "wip": 5,
+    "downloads": 2793
   },
   "patches": [
     {
@@ -46,13 +46,13 @@
         "published_at": "2026-10-05T04:17:16Z",
         "asset_count": 1
       },
-      "downloads": 619,
+      "downloads": 622,
       "assets": [
         {
           "name": "TTT2_KR_Patcher_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/download/v1.1/TTT2_KR_Patcher_v1.1.zip",
-          "downloads": 294,
+          "downloads": 297,
           "asset_id": 611515859,
           "created_at": "2026-10-05T04:44:48Z",
           "release_published_at": "2026-10-05T04:17:16Z"
@@ -162,7 +162,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/blob/main/README.md",
-      "downloads_current": 619,
+      "downloads_current": 622,
       "downloads_carried": 0,
       "download_ledger": {
         "tears-to-tiara-2-kr-patch/v1.0/TTT2_KR_Patcher_v1.0.zip": {
@@ -179,7 +179,7 @@
           "tag": "v1.1",
           "name": "TTT2_KR_Patcher_v1.1.zip",
           "asset_id": 611515859,
-          "last_count": 294,
+          "last_count": 297,
           "carried": 0,
           "removed": false
         }
@@ -227,13 +227,13 @@
         "published_at": "2026-10-05T04:17:21Z",
         "asset_count": 1
       },
-      "downloads": 876,
+      "downloads": 880,
       "assets": [
         {
           "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/releases/download/v1.1/EVE_New_Generation_Korean_Patch_v1.1.zip",
-          "downloads": 412,
+          "downloads": 416,
           "asset_id": 611547873,
           "created_at": "2026-10-05T04:59:55Z",
           "release_published_at": "2026-10-05T04:17:21Z"
@@ -314,7 +314,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-new-generation-kr-patch/blob/main/README.md",
-      "downloads_current": 876,
+      "downloads_current": 880,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-new-generation-kr-patch/v1.0/EVE_NG_v1.0.zip": {
@@ -331,7 +331,7 @@
           "tag": "v1.1",
           "name": "EVE_New_Generation_Korean_Patch_v1.1.zip",
           "asset_id": 611547873,
-          "last_count": 412,
+          "last_count": 416,
           "carried": 0,
           "removed": false
         }
@@ -379,13 +379,13 @@
         "published_at": "2026-10-05T04:17:18Z",
         "asset_count": 1
       },
-      "downloads": 822,
+      "downloads": 826,
       "assets": [
         {
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/eve-zero-kr-patch/releases/download/v1.1/EVE_ZERO_Korean_Patch_v1.1.zip",
-          "downloads": 432,
+          "downloads": 436,
           "asset_id": 611513419,
           "created_at": "2026-10-05T04:43:41Z",
           "release_published_at": "2026-10-05T04:17:18Z"
@@ -464,7 +464,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-zero-kr-patch/blob/main/README.md",
-      "downloads_current": 822,
+      "downloads_current": 826,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-zero-kr-patch/v1.0/EVE_ZERO_Korean_Patch_v1.0.zip": {
@@ -481,7 +481,7 @@
           "tag": "v1.1",
           "name": "EVE_ZERO_Korean_Patch_v1.1.zip",
           "asset_id": 611513419,
-          "last_count": 432,
+          "last_count": 436,
           "carried": 0,
           "removed": false
         }
@@ -796,13 +796,13 @@
         "published_at": "2026-09-11T08:15:29Z",
         "asset_count": 1
       },
-      "downloads": 125,
+      "downloads": 127,
       "assets": [
         {
           "name": "EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
           "tag": "v1.2.0",
           "url": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/releases/download/v1.2.0/EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
-          "downloads": 125,
+          "downloads": 127,
           "asset_id": 588172077,
           "created_at": "2026-09-25T10:59:39Z",
           "release_published_at": "2026-09-11T08:15:29Z"
@@ -867,7 +867,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-ghost-enemies-kr-patch/blob/main/README.md",
-      "downloads_current": 125,
+      "downloads_current": 127,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-ghost-enemies-kr-patch/v1.2.0/EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip": {
@@ -875,7 +875,7 @@
           "tag": "v1.2.0",
           "name": "EVE-Ghost-Enemies-KR-v1.2.0-Switch-Patcher.zip",
           "asset_id": 588172077,
-          "last_count": 125,
+          "last_count": 127,
           "carried": 0,
           "removed": false
         }
@@ -923,13 +923,13 @@
         "published_at": "2026-09-11T08:15:19Z",
         "asset_count": 1
       },
-      "downloads": 136,
+      "downloads": 138,
       "assets": [
         {
           "name": "EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
           "tag": "v1.4.0",
           "url": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/releases/download/v1.4.0/EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
-          "downloads": 136,
+          "downloads": 138,
           "asset_id": 588103948,
           "created_at": "2026-09-25T10:18:59Z",
           "release_published_at": "2026-09-11T08:15:19Z"
@@ -1018,7 +1018,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/eve-rebirth-terror-kr-patch/blob/main/README.md",
-      "downloads_current": 136,
+      "downloads_current": 138,
       "downloads_carried": 0,
       "download_ledger": {
         "eve-rebirth-terror-kr-patch/v1.4.0/EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip": {
@@ -1026,7 +1026,7 @@
           "tag": "v1.4.0",
           "name": "EVE-Rebirth-Terror-KR-v1.4.0-Switch-Patcher.zip",
           "asset_id": 588103948,
-          "last_count": 136,
+          "last_count": 138,
           "carried": 0,
           "removed": false
         }
@@ -1034,6 +1034,83 @@
       "cover": "covers/eve-rebirth-terror-kr-patch.webp",
       "cover_source": "https://store-jp.nintendo.com/item/software/D70010000022322",
       "cover_revision": "ca43be11d6df"
+    },
+    {
+      "repo": "seinaru-kana-orichalcum-no-na-no-motoni-kr-patch",
+      "title": "성스러운 카나: 오리할콘의 이름 아래에",
+      "original": "聖なるかな -オリハルコンの名の下に-",
+      "series": "영원신검",
+      "platforms": [
+        "PSP"
+      ],
+      "genre": "SRPG·ADV",
+      "genre_full": "SRPG·ADV",
+      "developer": "Xuse",
+      "publisher": "CyberFront",
+      "playtime": "약 52시간",
+      "edition": "PSP 일본판 (최종 지원 판본은 분석 후 확정)",
+      "release_jp": "2012-04-19",
+      "product_id": "ULJM-06035",
+      "base_update": "미확정",
+      "note": "2026-10-12 작업 시작 · 모든 항목 미작업",
+      "cover_caption": "",
+      "status": "wip",
+      "description": "성스러운 카나: 오리할콘의 이름 아래에 PSP 한국어 패치",
+      "pushed_at": "2026-10-12T06:53:25Z",
+      "stars": 0,
+      "url": "https://github.com/Dollars-Archive/seinaru-kana-orichalcum-no-na-no-motoni-kr-patch",
+      "has_pages": false,
+      "topics": [
+        "korean-translation",
+        "kr-patch",
+        "psp"
+      ],
+      "guide_url": "",
+      "guide_status": null,
+      "latest_release": null,
+      "downloads": 0,
+      "assets": [],
+      "tools": [],
+      "discovery": "platforms/psp/games/seinaru-kana-orichalcum-no-na-no-motoni.md",
+      "discovery_match": "manual",
+      "walkthroughs": [],
+      "walkthrough_available": false,
+      "activity_at": "2026-10-12T06:53:25Z",
+      "scope": {
+        "title": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        },
+        "ui": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        },
+        "dialogue": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        },
+        "image": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        },
+        "video": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        }
+      },
+      "changelog": [],
+      "metadata_source": "https://github.com/Dollars-Archive/seinaru-kana-orichalcum-no-na-no-motoni-kr-patch/blob/main/README.md",
+      "downloads_current": 0,
+      "downloads_carried": 0,
+      "download_ledger": {},
+      "cover": "covers/seinaru-kana-orichalcum-no-na-no-motoni-kr-patch.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/121484-seinaru-kana-orichalcum-no-na-no-motoni",
+      "cover_revision": "c02f659c8abe"
     },
     {
       "repo": "akatsuki-no-goei-trinity-kr-patch",

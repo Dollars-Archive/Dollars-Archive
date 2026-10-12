@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "e105b3c986db748c5d81e300ff4135cf797d8564",
+  "tree_sha": "23cb3b7ee60c152dca085cdde66de87a1a1a1a75",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -284,7 +284,7 @@
     },
     {
       "key": "platforms/dreamcast/games/tantei-shinshi-dash.md",
-      "source_sha": "1ec6f27f0f8d478a452bc5a24692f6bb036ff20c",
+      "source_sha": "0cc2ac026946d00b8ad8e07d54d2df9d55e6ebca",
       "platform": "DREAMCAST",
       "product_id": "",
       "original": "探偵紳士DASH!",
@@ -514,7 +514,7 @@
     },
     {
       "key": "platforms/ps2/games/elysion-eien-no-sanctuary.md",
-      "source_sha": "4f6c146986e8daadda2660ecbe4b0a4c5a6c94d1",
+      "source_sha": "5e1b2336d1637de39656408b66bede0760811e33",
       "platform": "PS2",
       "product_id": "",
       "original": "ELYSION ～永遠のサンクチュアリ～",
@@ -574,7 +574,7 @@
     },
     {
       "key": "platforms/ps2/games/fukakutei-sekai-no-tantei-shinshi-agyou-souma-no-jiken-file.md",
-      "source_sha": "4c0b11a3069382aa9176d95f91880c2aeabd032f",
+      "source_sha": "d991bd9860dbd6c238f3ac1fd67f561c94abd0fe",
       "platform": "PS2",
       "product_id": "",
       "original": "不確定世界の探偵紳士 ～悪行双麻の事件ファイル～",
@@ -654,7 +654,7 @@
     },
     {
       "key": "platforms/ps2/games/io.md",
-      "source_sha": "bfde6f0ae65d42d5fff1f8352561b21d4050f0bd",
+      "source_sha": "84020b050ce1d82e3b8387ec0b780dc03be5d8d2",
       "platform": "평가 대상: PLAYSTATION 2 / 비교 판본: WINDOWS REVISION II",
       "product_id": "",
       "original": "I/O（アイオー）",
@@ -704,7 +704,7 @@
     },
     {
       "key": "platforms/ps2/games/jewels-ocean-star-of-sierra-leone.md",
-      "source_sha": "2c578e3cc43f13667062a124d1325f626ebad66a",
+      "source_sha": "7024e69b1802b9e7c3d2919fc19ceddab7d55376",
       "platform": "PS2",
       "product_id": "",
       "original": "ジュエルスオーシャン Star of Sierra Leone",
@@ -814,7 +814,7 @@
     },
     {
       "key": "platforms/ps2/games/kyuuketsu-kitan-moonties.md",
-      "source_sha": "42e70e510e0e0ec4fdae296796d7b037abd1d7cf",
+      "source_sha": "5013e53e1ed06d93b03cac125dd1d54f2bc25c5d",
       "platform": "PS2",
       "product_id": "",
       "original": "吸血奇譚 ムーンタイズ",
@@ -854,7 +854,7 @@
     },
     {
       "key": "platforms/ps2/games/ma-gi-marginal.md",
-      "source_sha": "cd0ebc6f0efc9111ac2037eeae17ec5224e3c487",
+      "source_sha": "b8db42ef90bea141e57ef2c72c78297fb35f0662",
       "platform": "PS2",
       "product_id": "",
       "original": "マージ ～あの時の遠い約束を～",
@@ -901,6 +901,16 @@
       "english_title": "Mai-HiME: Unmei no Keitouju",
       "title_ko": "마이히메 ～운명의 계통수～",
       "title": "Mai-HiME: Unmei no Keitouju (마이히메 ～운명의 계통수～)"
+    },
+    {
+      "key": "platforms/ps2/games/mana-khemia-gakuen-no-renkinjutsushitachi.md",
+      "source_sha": "cfbed672b2228832483bdfc3333b0d8575d99839",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "",
+      "english_title": "Mana Khemia: Alchemists of Al-Revis",
+      "title_ko": "",
+      "title": "Mana Khemia: Alchemists of Al-Revis (마나케미아: 학원의 연금술사들)"
     },
     {
       "key": "platforms/ps2/games/men-at-work-3-ai-to-seishun-no-hunter-gakuen.md",
@@ -2014,7 +2024,7 @@
     },
     {
       "key": "platforms/psp/games/blood-the-last-vampire.md",
-      "source_sha": "1111a065b71626e0518dca0efb805c9056eae139",
+      "source_sha": "c654c94b7205536b9dfebedacb372015dc3ead95",
       "platform": "PSP",
       "product_id": "",
       "original": "やるドラ ポータブル BLOOD THE LAST VAMPIRE",
@@ -2034,7 +2044,7 @@
     },
     {
       "key": "platforms/psp/games/boku-wa-kimi-dake-o-mitsumeru.md",
-      "source_sha": "e190602d7f1cab211813ef492cdd7ed42d1e1be1",
+      "source_sha": "8e2fc8b1f96e06cbb38bff47dd8073afefc9c3b3",
       "platform": "PSP",
       "product_id": "",
       "original": "僕はキミだけを見つめる ～I gaze at only you～",
@@ -2134,7 +2144,7 @@
     },
     {
       "key": "platforms/psp/games/comic-party-portable.md",
-      "source_sha": "85a0978c170727e3a1e65340264bd8f8394d73d3",
+      "source_sha": "ec55d333203a21d157d78e8391a137ac1392f33b",
       "platform": "PSP",
       "product_id": "",
       "original": "こみっくパーティー PORTABLE",
@@ -2174,7 +2184,7 @@
     },
     {
       "key": "platforms/psp/games/dead-end-orchestral-manoeuvres-in-the-dead-end.md",
-      "source_sha": "7fcb3f98e5800487baaa075a8fd8268f37ed1636",
+      "source_sha": "8cae4ff52ffbabfb5b9f978a4763c1e5fd41853b",
       "platform": "PSP",
       "product_id": "",
       "original": "デッドエンド Orchestral Manoeuvres in the Dead End",
@@ -2224,7 +2234,7 @@
     },
     {
       "key": "platforms/psp/games/dunamis15.md",
-      "source_sha": "18cb8bc0241ee8e9e5fb952f9ff63addcf28d8b6",
+      "source_sha": "71ec3f7afa198f7cb22e7bef2b1c07ee25eb3336",
       "platform": "PSP",
       "product_id": "",
       "original": "DUNAMIS15 / デュナミス フィフティーン",
@@ -2244,7 +2254,7 @@
     },
     {
       "key": "platforms/psp/games/durarara-3way-standoff-alley.md",
-      "source_sha": "546ee22025ef9ac71986586abb10fb3a2b3e23db",
+      "source_sha": "c600dfbdf8079a884bf14c93ccfe33effbe9c2d5",
       "platform": "PSP",
       "product_id": "",
       "original": "デュラララ!! 3way standoff -alley-",
@@ -2254,13 +2264,13 @@
     },
     {
       "key": "platforms/psp/games/eien-no-aselia-kono-daichi-no-hate-de.md",
-      "source_sha": "cf5e8a256e711e52db1ec4e8f3c5aec33d9df10e",
+      "source_sha": "7a8db5c653cf6d8d963f4e44b779977320e72528",
       "platform": "PSP",
       "product_id": "",
       "original": "永遠のアセリア -この大地の果てで-",
-      "english_title": "Eien no Aseria: Kono Daichi no Hate de",
+      "english_title": "Eien no Aselia: Kono Daichi no Hate de",
       "title_ko": "영원의 아세리아: 이 대지의 끝에서",
-      "title": "Eien no Aseria: Kono Daichi no Hate de (영원의 아세리아: 이 대지의 끝에서)"
+      "title": "Eien no Aselia: Kono Daichi no Hate de (영원의 아세리아: 이 대지의 끝에서)"
     },
     {
       "key": "platforms/psp/games/flowers-le-volume-sur-ete.md",
@@ -2374,7 +2384,7 @@
     },
     {
       "key": "platforms/psp/games/hoshigari-empusa-portable.md",
-      "source_sha": "2d5f4198697f31f4c843c0de82d7ce8050f125a7",
+      "source_sha": "cf7e0113689e3217f5aa9d2d05a8598404aa5d58",
       "platform": "PSP",
       "product_id": "",
       "original": "ほしがりエンプーサ portable",
@@ -2643,6 +2653,16 @@
       "title": "Misshitsu no Sacrifice (밀실의 새크리파이스)"
     },
     {
+      "key": "platforms/psp/games/missingparts-the-tantei-stories-complete.md",
+      "source_sha": "e53511ad9aefdeef69cce713530ca617139296d6",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "MISSINGPARTS the TANTEI stories Complete / ミッシングパーツ ザ・探偵ストーリーズ コンプリート",
+      "english_title": "MISSINGPARTS the TANTEI stories Complete",
+      "title_ko": "미싱 파츠: 탐정 이야기 컴플리트. 국내 자료에서 ‘미싱 파츠: 탐정 이야기’ 사용을 확인했으며 ‘컴플리트’는 PSP 합본 식별용",
+      "title": "MISSINGPARTS the TANTEI stories Complete (미싱 파츠: 탐정 이야기 컴플리트)"
+    },
+    {
       "key": "platforms/psp/games/mizu-no-senritsu-portable-2-hi-no-kioku.md",
       "source_sha": "326fee8d0f20b1b509337760b2d7cc6e6ef07ad0",
       "platform": "PSP",
@@ -2674,7 +2694,7 @@
     },
     {
       "key": "platforms/psp/games/monochrome.md",
-      "source_sha": "d957b838a3bdf178019c970898fc97df20f4cdd0",
+      "source_sha": "eed8dc18fbf25ea6d0dc37e40612cb08b8b98d39",
       "platform": "PSP",
       "product_id": "",
       "original": "Monochrome（モノクローム）",
@@ -2684,7 +2704,7 @@
     },
     {
       "key": "platforms/psp/games/motto-nuga-cel.md",
-      "source_sha": "09f4f9ea1d7f7135a8b2bcfca509e65571621d58",
+      "source_sha": "388325fae4d521f838406e274ffd140375cd69b9",
       "platform": "PSP",
       "product_id": "",
       "original": "もっと NUGA-CEL（ヌガ・セル）！",
@@ -2773,16 +2793,6 @@
       "title": "Ore no Kanojo no Uraomote: Pure Sweet Heart (내 여자친구의 겉과 속 ~Pure Sweet Heart~)"
     },
     {
-      "key": "platforms/psp/games/ore-wa-shoujo-mangaka.md",
-      "source_sha": "78ffd0a7b64e9aa5222d23977971e4d2f839c250",
-      "platform": "PSP",
-      "product_id": "",
-      "original": "オレは少女漫画家",
-      "english_title": "Ore wa Shoujo Mangaka",
-      "title_ko": "나는 소녀만화가",
-      "title": "Ore wa Shoujo Mangaka (나는 소녀만화가)"
-    },
-    {
       "key": "platforms/psp/games/otome-wa-boku-ni-koishiteru-portable-futari-no-elder.md",
       "source_sha": "0ec830a606c2868ff85e5710f900062471cfbd4a",
       "platform": "PSP",
@@ -2794,7 +2804,7 @@
     },
     {
       "key": "platforms/psp/games/ouka-sengoku-portable.md",
-      "source_sha": "da04c29fe2519ba905a3c1fe845196ea3cd3cc3e",
+      "source_sha": "1aac9f03f6eee7eea2708a6ddcc5d3df7871bab6",
       "platform": "PSP",
       "product_id": "",
       "original": "桜花センゴク Portable",
@@ -2854,7 +2864,7 @@
     },
     {
       "key": "platforms/psp/games/rebellions-secret-game-2nd-stage.md",
-      "source_sha": "9cd9e715d4d087419faaf965f81fb34aed4d68bd",
+      "source_sha": "58af54502cfe89290e350822e095d6c1f66bb16f",
       "platform": "PSP",
       "product_id": "",
       "original": "リベリオンズ Secret Game 2nd Stage",
@@ -2884,7 +2894,7 @@
     },
     {
       "key": "platforms/psp/games/ro-kyu-bu.md",
-      "source_sha": "0b50fbd1b968b87ba810b57c34d97975b8e71220",
+      "source_sha": "bb2615e2972eb9854e2a3cbc24a50f570cb1661f",
       "platform": "PSP",
       "product_id": "",
       "original": "ロウきゅーぶ！",
@@ -2964,8 +2974,8 @@
     },
     {
       "key": "platforms/psp/games/seinaru-kana-orichalcum-no-na-no-motoni.md",
-      "source_sha": "3678c99dcc152d86aa2d159a8247c2586619a770",
-      "platform": "PSP",
+      "source_sha": "901fdb42a65958e19d5fc9ccc36b45ef6c59db64",
+      "platform": "PLAYSTATION PORTABLE. PS2판 발매 내역 없음. PS2판이 있는 것은 시리즈 전작 《영원의 아세리아》",
       "product_id": "",
       "original": "聖なるかな -オリハルコンの名の下に-",
       "english_title": "Seinaru Kana: Orichalcum no Na no Motoni",
@@ -2994,7 +3004,7 @@
     },
     {
       "key": "platforms/psp/games/sengoku-efuda-yuugi-hototogisu-tairan.md",
-      "source_sha": "21347c7355e368b391b81d7fcb583caf1dacec68",
+      "source_sha": "a10d0bd6e13ff0c21525fa63eb933c9fff92167c",
       "platform": "PSP",
       "product_id": "",
       "original": "戦国絵札遊戯 不如帰 大乱",
@@ -3494,7 +3504,7 @@
     },
     {
       "key": "platforms/psp/games/unchainblades-rexx.md",
-      "source_sha": "cd77a3b722a800ffe14c3c56dd051c792090d34e",
+      "source_sha": "3b1d42f0a772e0467828e58307cc7ee28a38f015",
       "platform": "PSP",
       "product_id": "",
       "original": "アンチェインブレイズ レクス",
@@ -3764,13 +3774,13 @@
     },
     {
       "key": "platforms/psvita/games/dance-with-devils.md",
-      "source_sha": "810cdfd640fe414273e256754c1536f90417525b",
+      "source_sha": "ca898d6187f1c15eb4e42a8f99c8551ccc3fbcf5",
       "platform": "PSVITA",
       "product_id": "",
       "original": "",
       "english_title": "Dance with Devils",
       "title_ko": "",
-      "title": "Dance with Devils"
+      "title": "Dance with Devils (댄스 위드 데빌스)"
     },
     {
       "key": "platforms/psvita/games/date-a-live-twin-edition-rio-reincarnation.md",
@@ -4143,6 +4153,16 @@
       "title": "Ore ni Hatarakette Iwaretemo Otsu HD (오레니 하타라켓테 이와레테모 오츠 HD)"
     },
     {
+      "key": "platforms/psvita/games/ore-wa-shoujo-mangaka.md",
+      "source_sha": "ed8ea9dd213a5c41bdd54f15c94f611bc0d344dc",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "オレは少女漫画家",
+      "english_title": "Ore wa Shoujo Mangaka (나는 소녀만화가) · PS Vita 호환",
+      "title_ko": "나는 소녀만화가",
+      "title": "Ore wa Shoujo Mangaka (나는 소녀만화가) · PS Vita 호환"
+    },
+    {
       "key": "platforms/psvita/games/piofiore-no-banshou.md",
       "source_sha": "de728c932a0e293900ed4709c0d8f0daa20158c6",
       "platform": "PSVITA",
@@ -4341,6 +4361,46 @@
       "english_title": "Zero Escape: The Nonary Games",
       "title_ko": "제로 이스케이프: 더 노나리 게임즈",
       "title": "Zero Escape: The Nonary Games (제로 이스케이프: 더 노나리 게임즈)"
+    },
+    {
+      "key": "platforms/switch/games/astral-takers.md",
+      "source_sha": "3da7a79b487e0f8afbfaeb2e155ba253d69b89b5",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Astral Takers (애스트럴 테이커스) | Nintendo Switch",
+      "title_ko": "",
+      "title": "Astral Takers (애스트럴 테이커스) | Nintendo Switch"
+    },
+    {
+      "key": "platforms/switch/games/mamiya-a-shared-illusion-of-the-worlds-end.md",
+      "source_sha": "aeb7957edba4ba277cd243e357047d289bfe31f2",
+      "platform": "NINTENDO SWITCH / SWITCH LITE, SWITCH 2의 SWITCH 소프트웨어 호환 실행",
+      "product_id": "",
+      "original": "",
+      "english_title": "MAMIYA - A Shared Illusion of the World's End -",
+      "title_ko": "",
+      "title": "MAMIYA - A Shared Illusion of the World's End - (마미야)"
+    },
+    {
+      "key": "platforms/switch/games/tokeijikake-no-ley-line-kagerou-ni-samayou-majo.md",
+      "source_sha": "4cad65976e465b2ce6d3d33f86f6e13693c10527",
+      "platform": "NINTENDO SWITCH (일본판 2021; 번체중문 별도 판본 2026)",
+      "product_id": "",
+      "original": "時計仕掛けのレイライン -陽炎に彷徨う魔女-",
+      "english_title": "Tokeijikake no Ley Line: Kagerou ni Samayou Majo",
+      "title_ko": "시계장치의 레이라인: 아지랑이에 방황하는 마녀",
+      "title": "Tokeijikake no Ley Line: Kagerou ni Samayou Majo (시계장치의 레이라인: 아지랑이에 방황하는 마녀)"
+    },
+    {
+      "key": "platforms/switch/games/wizards-symphony.md",
+      "source_sha": "bddc8e8576a267835894916ddd0a16f0c696715b",
+      "platform": "NINTENDO SWITCH, PLAYSTATION 4 (2019 일본 동시 발매)",
+      "product_id": "",
+      "original": "ウィザーズ シンフォニー (Wizard's Symphony)",
+      "english_title": "Wizard's Symphony",
+      "title_ko": "위저즈 심포니 (가칭·음역)",
+      "title": "Wizard's Symphony (위저즈 심포니)"
     }
   ]
 }

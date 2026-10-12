@@ -1,3 +1,9 @@
+seinaru-kana-orichalcum-no-na-no-motoni-kr-patch:
+  discovery: platforms/psp/games/seinaru-kana-orichalcum-no-na-no-motoni.md
+  launchbox_url: https://gamesdb.launchbox-app.com/games/details/121484-seinaru-kana-orichalcum-no-na-no-motoni
+  status: wip
+  note: 2026-10-12 작업 시작 · 모든 항목 미작업
+
 # 현재 게임 정보·한글화 범위는 각 저장소의 공통 README 양식에서 우선 읽습니다.
 # 이 파일에는 기존 정보의 호환용 값, 표지 출처, 버전별 변경 내역을 유지합니다.
 # 다운로드·배포일·최근 작업일은 GitHub에서 수집합니다.
