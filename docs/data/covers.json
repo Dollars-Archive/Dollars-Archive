@@ -56,6 +56,15 @@
     "region": "Japan",
     "fetched_at": "2026-10-04T21:34:16Z"
   },
+  "amatsutsumi-kr-patch": {
+    "input": "https://zettairenai.wordpress.com/wp-content/uploads/2019/01/amatsutsumi-cover.jpg",
+    "source_page": "https://zettairenai.wordpress.com/2019/02/01/ps-vita-amatsutsumi-review/",
+    "discovery_page": null,
+    "source_image": "https://zettairenai.wordpress.com/wp-content/uploads/2019/01/amatsutsumi-cover.jpg",
+    "image_type": "Box - Front",
+    "region": "Japan",
+    "fetched_at": "2026-10-13T11:53:58Z"
+  },
   "seinaru-kana-orichalcum-no-na-no-motoni-kr-patch": {
     "input": "https://gamesdb.launchbox-app.com/games/details/121484-seinaru-kana-orichalcum-no-na-no-motoni",
     "source_page": "https://gamesdb.launchbox-app.com/games/details/121484-seinaru-kana-orichalcum-no-na-no-motoni",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "bef53da25d6b95c2e3b823d371ca1859f253cda7",
+  "tree_sha": "0496d99fc08911fb6acb7234c5f78cb70d5a1d95",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -3631,6 +3631,16 @@
       "english_title": "Alone with You",
       "title_ko": "",
       "title": "Alone with You"
+    },
+    {
+      "key": "platforms/psvita/games/amatsutsumi.md",
+      "source_sha": "005a17611fc0e9cbf5e2e1128ce6b8e0a4d5d929",
+      "platform": "PLAYSTATION VITA 네이티브 일본판 / PS VITA TV 대응",
+      "product_id": "VLJM-38096 패키지 / PCSG-01198 다운로드",
+      "original": "アマツツミ",
+      "english_title": "Amatsutsumi",
+      "title_ko": "아마츠츠미",
+      "title": "Amatsutsumi (아마츠츠미)"
     },
     {
       "key": "platforms/psvita/games/amnesia-world.md",
