@@ -44,6 +44,7 @@ END = b"<!-- KR-PATCH-HUB:END -->"
 STATUSES = {"auto", "wip", "released", "paused"}
 STATUS_LABELS = {"released": "배포", "wip": "작업 중", "paused": "중단"}
 RELATED_TITLES = {
+    "Game-Story-Library": "스토리 게임 서재",
     "Game-Localization-Discovery-Archive": "한글화 후보 발굴 아카이브",
     "Dollars-Archive-kr-localization-archive": "제작 기술 노트 아카이브",
 }

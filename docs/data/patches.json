@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-13T00:50:24Z",
+  "generated_at": "2026-10-13T02:48:03Z",
   "summary": {
     "total": 12,
     "released": 7,
     "wip": 5,
-    "downloads": 2812
+    "downloads": 2813
   },
   "patches": [
     {
@@ -46,13 +46,13 @@
         "published_at": "2026-10-05T04:17:16Z",
         "asset_count": 1
       },
-      "downloads": 628,
+      "downloads": 629,
       "assets": [
         {
           "name": "TTT2_KR_Patcher_v1.1.zip",
           "tag": "v1.1",
           "url": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/releases/download/v1.1/TTT2_KR_Patcher_v1.1.zip",
-          "downloads": 303,
+          "downloads": 304,
           "asset_id": 611515859,
           "created_at": "2026-10-05T04:44:48Z",
           "release_published_at": "2026-10-05T04:17:16Z"
@@ -162,7 +162,7 @@
         }
       ],
       "metadata_source": "https://github.com/Dollars-Archive/tears-to-tiara-2-kr-patch/blob/main/README.md",
-      "downloads_current": 628,
+      "downloads_current": 629,
       "downloads_carried": 0,
       "download_ledger": {
         "tears-to-tiara-2-kr-patch/v1.0/TTT2_KR_Patcher_v1.0.zip": {
@@ -179,7 +179,7 @@
           "tag": "v1.1",
           "name": "TTT2_KR_Patcher_v1.1.zip",
           "asset_id": 611515859,
-          "last_count": 303,
+          "last_count": 304,
           "carried": 0,
           "removed": false
         }
@@ -1544,6 +1544,12 @@
       "title": "한글화 후보 발굴 아카이브",
       "url": "https://dollars-archive.github.io/Game-Localization-Discovery-Archive/",
       "desc": ""
+    },
+    {
+      "repo": "Game-Story-Library",
+      "title": "스토리 게임 서재",
+      "url": "https://dollars-archive.github.io/Game-Story-Library/",
+      "desc": "레트로 스토리 게임과 Switch·Vita 비주얼 노벨을 살펴보는 서재"
     },
     {
       "repo": "Game-Walkthrough-Archive",
