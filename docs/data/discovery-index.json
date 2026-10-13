@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "0098a1ed8ce9fc385912feb6e4aab35f22dbdf73",
+  "tree_sha": "bef53da25d6b95c2e3b823d371ca1859f253cda7",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -4423,6 +4423,16 @@
       "title": "Alice Gear Aegis CS: Concerto of Simulatrix (앨리스 기어 아이기스 CS ~콘체르토 오브 시뮬라트릭스~) | Switch 작품성·한국어판·업데이트 조사"
     },
     {
+      "key": "platforms/switch/games/archetype-arcadia.md",
+      "source_sha": "b4dbd386390a21a1c848412ec29518b6be085465",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Archetype Arcadia (아키타입 아르카디아) | Nintendo Switch 한글화 가치·스토리·이식 종합 평가",
+      "title_ko": "",
+      "title": "Archetype Arcadia (아키타입 아르카디아) | Nintendo Switch 한글화 가치·스토리·이식 종합 평가"
+    },
+    {
       "key": "platforms/switch/games/astral-takers.md",
       "source_sha": "3da7a79b487e0f8afbfaeb2e155ba253d69b89b5",
       "platform": "SWITCH",
@@ -4511,6 +4521,16 @@
       "english_title": "ISLAND (아일랜드) | Nintendo Switch 작품성·스토리·이식·한국어화 종합 평가",
       "title_ko": "",
       "title": "ISLAND (아일랜드) | Nintendo Switch 작품성·스토리·이식·한국어화 종합 평가"
+    },
+    {
+      "key": "platforms/switch/games/judgement-7-oretachi-no-sekai-wa-owatteiru.md",
+      "source_sha": "7874f3598fb624ad7b19a5842cf4438d4a30ef1e",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "JUDGEMENT 7: Oretachi no Sekai wa Owatteiru. (저지먼트 7: 우리들의 세계는 끝나 있다) | Switch 작품성 3.5점",
+      "title_ko": "",
+      "title": "JUDGEMENT 7: Oretachi no Sekai wa Owatteiru. (저지먼트 7: 우리들의 세계는 끝나 있다) | Switch 작품성 3.5점"
     },
     {
       "key": "platforms/switch/games/ken-to-mahou-to-gakuen-mono-anniversary-edition.md",
