@@ -35,8 +35,11 @@ test('collected page renders all covers and filters before API replies',()=>{
   assert(node('footer').textContent.includes('수집값'));
 });
 test('release buttons resolve latest even before catalogue refresh',()=>{
-  const {node,data}=page(async()=>[]);
-  for(const p of data.patches.filter(p=>p.latest_release))assert(node('list').innerHTML.includes(`href="${p.url}/releases/latest"`));
+  const {context,node,data}=page(async()=>[]);
+  for(const p of data.patches.filter(p=>p.latest_release&&!p.distribution_stopped))assert(node('list').innerHTML.includes(`href="${p.url}/releases/latest"`));
+  context.publicRelease={...data.patches.find(p=>p.latest_release),distribution_stopped:false};
+  vm.runInContext('DATA=[publicRelease];render()',context);
+  assert(node('list').innerHTML.includes(`href="${context.publicRelease.url}/releases/latest"`));
 });
 test('playtime shows only duration for every game, including ranges and decimals',()=>{
   const {context}=page(async()=>[]);
@@ -211,4 +214,31 @@ test('partial refresh identifies mixed data instead of claiming all live',async(
   const {context,node}=page(async patches=>[{repo:patches[0].repo,at:Date.now()}]);
   await vm.runInContext('refreshDownloads()',context);
   assert(node('footer').textContent.includes('일부 최신·일부 수집값'));
+});
+
+test('stopped library cards retain facts and scopes but hide repository, asset and historical release links',()=>{
+  const {context,node,data}=page(async()=>[]);const original=data.patches.find(p=>p.latest_release);
+  context.stopped={...original,distribution_stopped:true};
+  const history=vm.runInContext('historyMarkup(stopped)',context);
+  assert(!history.includes('href="https://github.com/'));assert(history.includes('history'));
+  assert(vm.runInContext('releaseAssetsMarkup(stopped)',context).includes('배포 중지'));
+  assert.equal(vm.runInContext('freshBadge(stopped)',context),'');
+  vm.runInContext('DATA=[stopped];render()',context);
+  const out=node('list').innerHTML;
+  assert(out.includes('개인 소장'));assert(out.includes('scope-chip'));
+  assert(!out.includes('/releases/'));assert(!out.includes('/issues/new'));
+  assert(!out.includes('href="'+original.url+'"'));
+});
+
+test('prepared catalogue keeps all thirteen cards and seven stopped cards without asset links',()=>{
+  const {node,data}=page(async()=>[]);const html=node('list').innerHTML;
+  assert.equal((html.match(/class="row"/g)||[]).length,data.patches.length);
+  assert.equal(data.patches.filter(p=>p.distribution_stopped).length,data.library_count);
+  assert.equal((html.match(/>개인 소장</g)||[]).length,data.library_count);
+  assert.equal(node('s-rel').textContent,String(data.library_count));
+  for(const p of data.patches.filter(p=>p.distribution_stopped)){
+    assert(html.includes('data-repo="'+p.repo+'"'));
+    assert(!html.includes('href="'+p.url+'/releases/'));
+    for(const asset of p.assets)assert(!html.includes('href="'+asset.url+'"'));
+  }
 });

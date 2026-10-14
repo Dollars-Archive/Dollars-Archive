@@ -44,6 +44,7 @@ async function refresh(patches,{fetcher=root.fetch,storage=null,now=Date.now(),m
   async function worker(){
     while(cursor<patches.length){
       const patch=patches[cursor++];
+      if(patch.distribution_stopped)continue;
       try{
         const result=await fetchAssets(patch.repo,{fetcher,storage,now,minAt,force});
         patch.downloads=ledgerTotal(patch.repo,result.assets,patch.download_ledger||{});
@@ -91,6 +92,7 @@ function releaseAdditions(release){
   return Object.entries(labels).filter(([key,re])=>lines.some(l=>re.test(l))).map(([key])=>key);
 }
 async function refreshActivity(patches,{fetcher=root.fetch,storage=null,now=Date.now(),minAt=0,force=false}={}){
+  if(patches.every(p=>p.distribution_stopped))return [];
   try{
     const key='da-activity:v1',path='/users/Dollars-Archive/repos';
     let cached=null;try{cached=JSON.parse(storage?.getItem(key)||'null')}catch(e){}
@@ -113,6 +115,7 @@ async function refreshActivity(patches,{fetcher=root.fetch,storage=null,now=Date
     }
     const results=[];
     for(const patch of patches){
+      if(patch.distribution_stopped)continue;
       const repo=repos.find(r=>r.name===patch.repo);if(!repo)continue;
       const exclusion=patch.activity_exclusion;
       const activity=exclusion?.ignored_pushed_at===repo.pushed_at?exclusion.previous_activity_at:repo.pushed_at;

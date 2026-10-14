@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import base64
+import copy
 import difflib
 import html
 import json
@@ -451,8 +452,16 @@ def build_patch(repo: dict, meta: dict, releases: list[dict], check_guide) -> di
     }
 
 
-def collect(client, metadata: dict, now: datetime, check_guide=guide_status, discovery_index: dict | None = None) -> dict:
+def collect(client, metadata: dict, now: datetime, check_guide=guide_status, discovery_index: dict | None = None, library_records: list[dict] | None = None) -> dict:
     patches, related, warnings = [], [], []
+    stopped = {name for name, meta in metadata.items() if meta.get("distribution") == "stopped"}
+    stored = {record["repo"]: record for record in (library_records or [])}
+    if stopped - stored.keys():
+        raise BuildError("배포 중지 작품의 라이브러리 보존 기록이 없습니다: " + ", ".join(sorted(stopped - stored.keys())))
+    for name in sorted(stopped):
+        record = copy.deepcopy(stored[name])
+        record["distribution_stopped"] = True
+        patches.append(record)
     walkthroughs = client.walkthroughs() if hasattr(client, 'walkthroughs') else []
     repos = sorted(client.repositories(), key=lambda r: r["name"].lower())
     for repo in repos:
@@ -460,6 +469,8 @@ def collect(client, metadata: dict, now: datetime, check_guide=guide_status, dis
         if repo.get("fork") or repo.get("archived") or repo.get("private"):
             continue
         name, topics = repo["name"], repo.get("topics", [])
+        if name in stopped:
+            continue
         if "kr-patch" in topics:
             meta = metadata.get(name, {})
             releases, readme = client.releases(name), client.readme(name)
@@ -549,7 +560,8 @@ def collect(client, metadata: dict, now: datetime, check_guide=guide_status, dis
     warnings.sort(key=lambda w: (w["repo"].lower(), w["type"]))
     return {
         "generated_at": now.astimezone(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
-        "summary": {"total": len(patches), "released": sum(p["status"] == "released" for p in patches), "wip": sum(p["status"] == "wip" for p in patches), "downloads": sum(p["downloads"] for p in patches)},
+        "summary": {"total": len(patches), "released": sum(p["status"] == "released" and not p.get("distribution_stopped") for p in patches), "wip": sum(p["status"] == "wip" for p in patches), "downloads": sum(p["downloads"] for p in patches)},
+        **({"library_count": len(stopped)} if stopped else {}),
         "patches": patches,
         "related": related,
         "warnings": warnings,
@@ -585,7 +597,7 @@ def badge(kind: str, label: str) -> str:
 def summary_svg(summary: dict, dark: bool = False) -> bytes:
     bg, ink, muted, line = ("#171C27", "#E6E9F0", "#98A0B0", "#2A3140") if dark else ("#FFFFFF", "#18202E", "#5E6676", "#DADDE5")
     colors = ["#7C98FF", "#5CCB91", "#F0B45A", "#A8B0BE"] if dark else ["#2648D8", "#1E7F4F", "#9A5B00", "#5B6472"]
-    fields = [("total", "한글패치"), ("released", "배포 중"), ("wip", "작업 중"), ("downloads", "다운로드")]
+    fields = [("total", "라이브러리"), ("library", "개인 소장"), ("wip", "작업 중"), ("downloads", "과거 다운로드")] if "library" in summary else [("total", "한글패치"), ("released", "배포 중"), ("wip", "작업 중"), ("downloads", "다운로드")]
     parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="960" height="118" viewBox="0 0 960 118" role="img" aria-label="한글패치 현황"><rect x="1" y="1" width="958" height="116" rx="14" fill="{bg}" stroke="{line}"/>']
     for index, (key, label) in enumerate(fields):
         x = 26 + index * 240
@@ -599,15 +611,18 @@ def summary_svg(summary: dict, dark: bool = False) -> bytes:
 def readme_section(data: dict) -> bytes:
     s = data["summary"]
     summary_label = f"한글패치 {s['total']}개 · 배포 {s['released']} · 작업 중 {s['wip']} · 다운로드 {s['downloads']:,}회"
-    lines = ["", themed_image("summary", summary_label), "", "## 한글패치 컬렉션", "", f"{summary_label} · {md_link('검색·기종 필터로 찾아보기 →', HUB_URL)}", "", "| 표지 | 게임 | 기종 | 장르 | 상태 | 버전 | 다운로드 | 바로가기 |", "| :---: | :--- | :---: | :--- | :---: | :---: | ---: | :--- |"]
+    if data.get("library_count"):
+        summary_label = f"라이브러리 {s['total']}개 · 개인 소장 {data['library_count']} · 작업 중 {s['wip']} · 과거 다운로드 {s['downloads']:,}회"
+    lines = ["", themed_image("summary", summary_label), "", "## 게임 라이브러리", "", f"{summary_label} · {md_link('검색·기종 필터로 찾아보기 →', HUB_URL)}", "", "| 표지 | 게임 | 기종 | 장르 | 상태 | 버전 | 다운로드 | 바로가기 |", "| :---: | :--- | :---: | :--- | :---: | :---: | ---: | :--- |"]
     for p in data["patches"]:
         latest = p["latest_release"]
-        links = [md_link("저장소", p["url"])]
-        if latest:
+        stopped = p.get("distribution_stopped")
+        links = [] if stopped else [md_link("저장소", p["url"])]
+        if latest and not stopped:
             links.append(md_link("릴리스", p["url"] + "/releases/latest"))
-        elif p["status"] == "released":
+        elif p["status"] == "released" and not stopped:
             links.append(md_link("릴리스", p["url"] + "/releases"))
-        if p["guide_url"]:
+        if p["guide_url"] and not stopped:
             links.append(md_link("설치 가이드", p["guide_url"]))
         guides = p.get('walkthroughs', [])
         if guides or p.get('walkthrough_available'):
@@ -615,7 +630,7 @@ def readme_section(data: dict) -> bytes:
             links.append(md_link('공략집', url))
         platform_kinds = {"Dreamcast": "dc", "PS2": "ps2", "PS3": "ps3", "PSP": "psp", "Vita": "vita", "PS Vita": "vita", "Switch": "switch", "PC": "pc"}
         platforms = " ".join(badge(platform_kinds[plat], plat) if plat in platform_kinds else md(plat) for plat in p["platforms"]) or "미입력"
-        version = md_link(latest["tag"], latest["url"]) if latest else "—"
+        version = md(latest["tag"]) if latest and stopped else md_link(latest["tag"], latest["url"]) if latest else "—"
         cover = ""
         if p.get("cover"):
             image_url = f"https://raw.githubusercontent.com/{OWNER}/{OWNER}/main/docs/{p['cover']}"
@@ -627,7 +642,7 @@ def readme_section(data: dict) -> bytes:
             if p.get("cover_caption"):
                 cover += f'<br><sub>{html.escape(p["cover_caption"])}</sub>'
         title = f"**{md(p['title'])}**"
-        lines.append(f"| {cover} | {title} | {platforms} | {md(p.get('genre') or '—')} | {badge(p['status'], STATUS_LABELS[p['status']])} | {version} | **{p['downloads']:,}** | {' · '.join(links)} |")
+        lines.append(f"| {cover} | {title} | {platforms} | {md(p.get('genre') or '—')} | {'개인 소장' if stopped else badge(p['status'], STATUS_LABELS[p['status']])} | {version} | {'배포 중지' if stopped else '**' + format(p['downloads'], ',') + '**'} | {' · '.join(links)} |")
     if any(p.get("cover_source") for p in data["patches"]):
         lines.extend(["", "<sub>앞표지 출처: LaunchBox Games Database · 駿河屋 · 이미지를 누르면 출처 페이지가 열립니다.</sub>"])
     if data["related"]:
@@ -666,8 +681,8 @@ def planned_outputs(root: Path, data: dict) -> dict[Path, bytes]:
     return {
         json_path: (json.dumps(data, ensure_ascii=False, indent=2) + "\n").encode("utf-8"),
         readme_path: update_readme(original, data),
-        root / "assets/profile/summary-light.svg": summary_svg(data["summary"]),
-        root / "assets/profile/summary-dark.svg": summary_svg(data["summary"], dark=True),
+        root / "assets/profile/summary-light.svg": summary_svg({**data["summary"], **({"library": data["library_count"]} if data.get("library_count") else {})}),
+        root / "assets/profile/summary-dark.svg": summary_svg({**data["summary"], **({"library": data["library_count"]} if data.get("library_count") else {})}, dark=True),
     }
 
 
@@ -701,7 +716,9 @@ def main(argv=None, client=None, now=None, check_guide=guide_status) -> int:
         metadata = load_metadata(root / "patches.yml")
         gh = client or GitHubClient()
         discovery_index = load_discovery_index(root, gh) if hasattr(gh, "discovery_tree") and hasattr(gh, "discovery_text") else None
-        data = collect(gh, metadata, now or datetime.now(timezone.utc), check_guide, discovery_index)
+        library_path = root / "docs/data/library-records.json"
+        library_records = json.loads(library_path.read_text(encoding="utf-8")).get("records", []) if library_path.exists() else []
+        data = collect(gh, metadata, now or datetime.now(timezone.utc), check_guide, discovery_index, library_records)
         discovery_outputs = {}
         if discovery_index is not None:
             discovery_outputs[root / "docs/data/discovery-index.json"] = (json.dumps(discovery_index, ensure_ascii=False, indent=2) + "\n").encode("utf-8")

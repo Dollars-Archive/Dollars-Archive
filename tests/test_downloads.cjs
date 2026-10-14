@@ -146,3 +146,12 @@ test('incomplete stable release metadata does not clear a collected release',asy
   await live.refresh([p],{fetcher:async()=>response([release()])});
   assert.equal(p.latest_release.tag,'v1.0');assert.equal(p.status,'released');
 });
+
+test('stopped distributions never fetch releases or activity, even on forced refresh',async()=>{
+  const patch={repo:'private-kr-patch',distribution_stopped:true,status:'released',downloads:20,latest_release:{tag:'v1.0'},assets:[]};
+  const before=JSON.stringify(patch);let requests=0;
+  const fetcher=async()=>{requests++;throw new Error('Private data must not be fetched')};
+  assert.deepEqual(await live.refresh([patch],{fetcher,force:true}),[]);
+  assert.deepEqual(await live.refreshActivity([patch],{fetcher,force:true}),[]);
+  assert.equal(requests,0);assert.equal(JSON.stringify(patch),before);
+});
