@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-10-14T14:16:43Z",
+  "generated_at": "2026-10-14T14:39:32Z",
   "summary": {
     "total": 13,
     "released": 0,
-    "wip": 6,
+    "wip": 5,
+    "completed": 8,
     "downloads": 2850
   },
   "library_count": 7,
@@ -1060,9 +1061,9 @@
       "release_jp": "2018-05-17",
       "product_id": "PCSG-01198",
       "base_update": "미확정",
-      "note": "2026-10-13 작업 시작 · 모든 항목 미작업",
+      "note": "2026-10-14 작업 완료 · 공략집·HD 팩 제외",
       "cover_caption": "",
-      "status": "wip",
+      "status": "completed",
       "description": "아마츠츠미 PS Vita 한국어 패치",
       "pushed_at": "2026-10-13T12:12:44Z",
       "stars": 0,
@@ -1091,24 +1092,27 @@
           "since": null
         },
         "ui": {
-          "state": "none",
-          "status": "미작업",
-          "since": null
+          "state": "done",
+          "status": "완료",
+          "since": null,
+          "source": "사용자 메뉴·UI/대사/영상 자막 완료 확인 (2026-10-14)"
         },
         "dialogue": {
-          "state": "none",
-          "status": "미작업",
-          "since": null
+          "state": "done",
+          "status": "완료",
+          "since": null,
+          "source": "사용자 메뉴·UI/대사/영상 자막 완료 확인 (2026-10-14)"
         },
         "image": {
-          "state": "none",
-          "status": "미작업",
+          "state": "done",
+          "status": "완료",
           "since": null
         },
         "video": {
-          "state": "none",
-          "status": "미작업",
-          "since": null
+          "state": "done",
+          "status": "완료",
+          "since": null,
+          "source": "사용자 메뉴·UI/대사/영상 자막 완료 확인 (2026-10-14)"
         }
       },
       "changelog": [],

@@ -50,6 +50,22 @@ class HubTests(unittest.TestCase):
     def types(self, data):
         return {w["type"] for w in data["warnings"]}
 
+    def test_completed_without_release_preserves_explicit_scope_and_zero_downloads(self):
+        data = self.catalogue(FixtureClient(releases=[], readme=""), metadata={"sample-kr-patch": {
+            "title": "게임", "platforms": ["PS Vita"], "status": "completed",
+            "confirmed_scope_status": "done", "confirmed_image_status": "done"}})
+        p = data["patches"][0]
+        self.assertEqual(p["status"], "completed")
+        self.assertIsNone(p["latest_release"])
+        self.assertEqual(p["downloads"], 0)
+        self.assertEqual(data["summary"]["completed"], 1)
+        self.assertEqual(data["summary"]["wip"], 0)
+        self.assertEqual(data["summary"]["released"], 0)
+        for key in ("ui", "dialogue", "image", "video"):
+            self.assertEqual(p["scope"][key]["state"], "done")
+        self.assertFalse(p["walkthrough_available"])
+        self.assertNotEqual(p["scope"].get("hd_texture", {}).get("state"), "done")
+
     def test_patch_and_tool_tags(self):
         for tag in ["v1.4.0", "v1.0", "v2.0-beta"]:
             self.assertTrue(hub.is_patch_release(release(tag)))

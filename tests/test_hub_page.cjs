@@ -225,7 +225,7 @@ test('stopped library cards retain facts and scopes but hide repository, asset a
   assert.equal(vm.runInContext('freshBadge(stopped)',context),'');
   vm.runInContext('DATA=[stopped];render()',context);
   const out=node('list').innerHTML;
-  assert(out.includes('작업 기록'));assert(out.includes('scope-chip'));assert(out.includes('배포 종료'));assert(!out.includes('>소장</'));assert(!out.includes('파일 비공개 보관'));
+  assert(out.includes('작업 완료'));assert(out.includes('scope-chip'));assert(!out.includes('배포 종료'));assert(!out.includes('>소장</'));assert(!out.includes('파일 비공개 보관'));
   assert(!out.includes('/releases/'));assert(!out.includes('/issues/new'));
   assert(!out.includes('href="'+original.url+'"'));
 });
@@ -234,11 +234,23 @@ test('prepared catalogue keeps all thirteen cards and seven stopped cards withou
   const {node,data}=page(async()=>[]);const html=node('list').innerHTML;
   assert.equal((html.match(/class="row"/g)||[]).length,data.patches.length);
   assert.equal(data.patches.filter(p=>p.distribution_stopped).length,data.library_count);
-  assert.equal((html.match(/>작업 기록</g)||[]).length,data.library_count);
-  assert.equal(node('s-rel').textContent,String(data.library_count));
+  assert.equal((html.match(/>작업 완료</g)||[]).length,data.summary.completed??data.library_count);
+  assert.equal(node('s-rel').textContent,String(data.summary.completed??data.library_count));
   for(const p of data.patches.filter(p=>p.distribution_stopped)){
     assert(html.includes('data-repo="'+p.repo+'"'));
     assert(!html.includes('href="'+p.url+'/releases/'));
     for(const asset of p.assets)assert(!html.includes('href="'+asset.url+'"'));
   }
+});
+
+test('Amatsutsumi is completed with exactly four done chips and no invented release',()=>{
+  const {context,node,data}=page(async()=>[]);
+  const p=data.patches.find(p=>p.repo==='amatsutsumi-kr-patch');
+  assert.equal(p.status,'completed');assert.equal(p.latest_release,null);assert.equal(p.downloads,0);
+  assert(!p.walkthrough_available);assert.notEqual(p.scope.hd_texture?.state,'done');
+  context.completed=p;vm.runInContext('DATA=[completed];render()',context);
+  const out=node('list').innerHTML;
+  assert(out.includes('class="pill ok">작업 완료'));
+  const chips=vm.runInContext('scopeMarkup(completed)',context);
+  assert.equal((chips.match(/scope-chip done/g)||[]).length,4);
 });
