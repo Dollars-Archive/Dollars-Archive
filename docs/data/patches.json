@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-14T14:39:32Z",
+  "generated_at": "2026-10-14T14:55:02Z",
   "summary": {
     "total": 13,
     "released": 0,
-    "wip": 5,
-    "completed": 8,
+    "wip": 0,
+    "completed": 13,
     "downloads": 2850
   },
   "library_count": 7,
@@ -1141,9 +1141,9 @@
       "release_jp": "2012-04-19",
       "product_id": "ULJM-06035",
       "base_update": "미확정",
-      "note": "2026-10-12 작업 시작 · 모든 항목 미작업",
+      "note": "2026-10-14 작업 완료 · HD 팩 제외",
       "cover_caption": "",
-      "status": "wip",
+      "status": "completed",
       "description": "성스러운 카나: 오리할콘의 이름 아래에 PSP 한국어 패치",
       "pushed_at": "2026-10-12T06:53:25Z",
       "stars": 0,
@@ -1163,7 +1163,7 @@
       "discovery": "platforms/psp/games/seinaru-kana-orichalcum-no-na-no-motoni.md",
       "discovery_match": "manual",
       "walkthroughs": [],
-      "walkthrough_available": false,
+      "walkthrough_available": true,
       "activity_at": "2026-10-12T06:53:25Z",
       "scope": {
         "title": {
@@ -1172,24 +1172,27 @@
           "since": null
         },
         "ui": {
-          "state": "none",
-          "status": "미작업",
-          "since": null
+          "state": "done",
+          "status": "완료",
+          "since": null,
+          "source": "사용자 HD 팩 제외 올 그린 확인 (2026-10-14)"
         },
         "dialogue": {
-          "state": "none",
-          "status": "미작업",
-          "since": null
+          "state": "done",
+          "status": "완료",
+          "since": null,
+          "source": "사용자 HD 팩 제외 올 그린 확인 (2026-10-14)"
         },
         "image": {
-          "state": "none",
-          "status": "미작업",
+          "state": "done",
+          "status": "완료",
           "since": null
         },
         "video": {
-          "state": "none",
-          "status": "미작업",
-          "since": null
+          "state": "done",
+          "status": "완료",
+          "since": null,
+          "source": "사용자 HD 팩 제외 올 그린 확인 (2026-10-14)"
         }
       },
       "changelog": [],
@@ -1220,7 +1223,7 @@
       "base_update": "Ver.1.01",
       "note": "",
       "cover_caption": "",
-      "status": "wip",
+      "status": "completed",
       "description": "PS3 새벽의 호위 트리니티 비공식 한국어 패치",
       "pushed_at": "2026-10-11T18:22:33Z",
       "stars": 0,
@@ -1321,7 +1324,7 @@
       "base_update": "",
       "note": "",
       "cover_caption": "",
-      "status": "wip",
+      "status": "completed",
       "description": "PSP 트윙클☆크루세이더스 STARLIT BRAVE!! 비공식 한국어 패치",
       "pushed_at": "2026-10-11T13:27:05Z",
       "stars": 0,
@@ -1431,7 +1434,7 @@
       "base_update": "원본 DISC_VERSION 1.01 (별도 공식 업데이트가 아님)",
       "note": "",
       "cover_caption": "",
-      "status": "wip",
+      "status": "completed",
       "description": "PSP용 트웰브 전국봉신전 비공식 한국어 패치 제작 프로젝트",
       "pushed_at": "2026-10-11T13:27:10Z",
       "stars": 0,
@@ -1532,7 +1535,7 @@
       "base_update": "",
       "note": "",
       "cover_caption": "",
-      "status": "wip",
+      "status": "completed",
       "description": "PlayStation 2용 미스터리 어드벤처 게임 『Guardian Angel』의 비공식 한국어화 프로젝트입니다. 사건으로 육체를 잃고 수호천사가 된 사립탐정 에릭이 딸 에스텔과 주변 인물들에게 영감을 주며, 시간과 공간을 넘나들어 사건의 진상을 추적하는 작품입니다. 게임 내 대사와 시스템 텍스트를 한국어로 번역하는 것을 목표로 합니다.",
       "pushed_at": "2026-10-11T13:27:16Z",
       "stars": 0,

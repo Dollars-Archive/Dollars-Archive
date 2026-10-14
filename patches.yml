@@ -12,21 +12,28 @@ amatsutsumi-kr-patch:
   note: 2026-10-14 작업 완료 · 공략집·HD 팩 제외
 
 seinaru-kana-orichalcum-no-na-no-motoni-kr-patch:
+  confirmed_scope_status: done
+  confirmed_scope_source: 사용자 HD 팩 제외 올 그린 확인 (2026-10-14)
+  confirmed_image_status: done
+  confirmed_image_source: 사용자 HD 팩 제외 올 그린 확인 (2026-10-14)
+  confirmed_walkthrough_status: done
   discovery: platforms/psp/games/seinaru-kana-orichalcum-no-na-no-motoni.md
   launchbox_url: https://gamesdb.launchbox-app.com/games/details/121484-seinaru-kana-orichalcum-no-na-no-motoni
-  status: wip
-  note: 2026-10-12 작업 시작 · 모든 항목 미작업
+  status: completed
+  note: 2026-10-14 작업 완료 · HD 팩 제외
 
 # 현재 게임 정보·한글화 범위는 각 저장소의 공통 README 양식에서 우선 읽습니다.
 # 이 파일에는 기존 정보의 호환용 값, 표지 출처, 버전별 변경 내역을 유지합니다.
 # 다운로드·배포일·최근 작업일은 GitHub에서 수집합니다.
 # 날짜와 제품번호는 문자열로 유지합니다. 플랫폼·시리즈는 자유롭게 추가할 수 있습니다.
 akatsuki-no-goei-trinity-kr-patch:
+  status: completed
   discovery: platforms/ps3/games/akatsuki-no-goei-trinity.md
   launchbox_url: https://gamesdb.launchbox-app.com/games/details/118995-akatsuki-no-goei-trinity
   confirmed_walkthrough_status: done
 
 twinkle-crusaders-starlit-brave-kr-patch:
+  status: completed
   confirmed_scope_status: done
   confirmed_scope_source: 사용자 표시 항목 올 그린 지시 (2026-10-11)
   confirmed_image_status: done
@@ -150,7 +157,7 @@ Guardian-Angel-Korean-Localization:
   platforms: [PS2]
   release_jp: "2003-02-27"
   product_id: "SLPS-25214"
-  status: auto
+  status: completed
 
 eve-rebirth-terror-kr-patch:
   distribution: stopped
@@ -293,5 +300,6 @@ touhou-genso-wanderer-reloaded-kr-patch:
   status: auto
 
 twelve-sengoku-fuushinden-kr-patch:
+  status: completed
   confirmed_walkthrough_status: done
   launchbox_url: https://gamesdb.launchbox-app.com/games/details/82074-twelve-sengoku-fuushinden
