@@ -597,7 +597,7 @@ def badge(kind: str, label: str) -> str:
 def summary_svg(summary: dict, dark: bool = False) -> bytes:
     bg, ink, muted, line = ("#171C27", "#E6E9F0", "#98A0B0", "#2A3140") if dark else ("#FFFFFF", "#18202E", "#5E6676", "#DADDE5")
     colors = ["#7C98FF", "#5CCB91", "#F0B45A", "#A8B0BE"] if dark else ["#2648D8", "#1E7F4F", "#9A5B00", "#5B6472"]
-    fields = [("total", "라이브러리"), ("library", "개인 소장"), ("wip", "작업 중"), ("downloads", "과거 다운로드")] if "library" in summary else [("total", "한글패치"), ("released", "배포 중"), ("wip", "작업 중"), ("downloads", "다운로드")]
+    fields = [("total", "라이브러리"), ("library", "작업 기록"), ("wip", "작업 중"), ("downloads", "과거 다운로드")] if "library" in summary else [("total", "한글패치"), ("released", "배포 중"), ("wip", "작업 중"), ("downloads", "다운로드")]
     parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="960" height="118" viewBox="0 0 960 118" role="img" aria-label="한글패치 현황"><rect x="1" y="1" width="958" height="116" rx="14" fill="{bg}" stroke="{line}"/>']
     for index, (key, label) in enumerate(fields):
         x = 26 + index * 240
@@ -612,7 +612,7 @@ def readme_section(data: dict) -> bytes:
     s = data["summary"]
     summary_label = f"한글패치 {s['total']}개 · 배포 {s['released']} · 작업 중 {s['wip']} · 다운로드 {s['downloads']:,}회"
     if data.get("library_count"):
-        summary_label = f"라이브러리 {s['total']}개 · 개인 소장 {data['library_count']} · 작업 중 {s['wip']} · 과거 다운로드 {s['downloads']:,}회"
+        summary_label = f"라이브러리 {s['total']}개 · 작업 기록 {data['library_count']} · 작업 중 {s['wip']} · 과거 다운로드 {s['downloads']:,}회"
     lines = ["", themed_image("summary", summary_label), "", "## 게임 라이브러리", "", f"{summary_label} · {md_link('검색·기종 필터로 찾아보기 →', HUB_URL)}", "", "| 표지 | 게임 | 기종 | 장르 | 상태 | 버전 | 다운로드 | 바로가기 |", "| :---: | :--- | :---: | :--- | :---: | :---: | ---: | :--- |"]
     for p in data["patches"]:
         latest = p["latest_release"]
@@ -642,7 +642,7 @@ def readme_section(data: dict) -> bytes:
             if p.get("cover_caption"):
                 cover += f'<br><sub>{html.escape(p["cover_caption"])}</sub>'
         title = f"**{md(p['title'])}**"
-        lines.append(f"| {cover} | {title} | {platforms} | {md(p.get('genre') or '—')} | {'개인 소장' if stopped else badge(p['status'], STATUS_LABELS[p['status']])} | {version} | {'배포 중지' if stopped else '**' + format(p['downloads'], ',') + '**'} | {' · '.join(links)} |")
+        lines.append(f"| {cover} | {title} | {platforms} | {md(p.get('genre') or '—')} | {'작업 기록' if stopped else badge(p['status'], STATUS_LABELS[p['status']])} | {version} | {'배포 종료' if stopped else '**' + format(p['downloads'], ',') + '**'} | {' · '.join(links)} |")
     if any(p.get("cover_source") for p in data["patches"]):
         lines.extend(["", "<sub>앞표지 출처: LaunchBox Games Database · 駿河屋 · 이미지를 누르면 출처 페이지가 열립니다.</sub>"])
     if data["related"]:

@@ -40,7 +40,7 @@ class LibraryTests(unittest.TestCase):
     def test_profile_has_no_private_repository_or_download_links(self):
         data = hub.collect(LibraryClient([], True), self.meta, datetime.now(timezone.utc), library_records=self.records)
         section = hub.readme_section(data).decode("utf-8")
-        self.assertIn("개인 소장", section)
+        self.assertIn("작업 기록", section)
         for record in self.records:
             self.assertNotIn("]( <" + record["url"], section)
             self.assertNotIn("](<" + record["url"], section)

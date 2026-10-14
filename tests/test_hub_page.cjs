@@ -221,11 +221,11 @@ test('stopped library cards retain facts and scopes but hide repository, asset a
   context.stopped={...original,distribution_stopped:true};
   const history=vm.runInContext('historyMarkup(stopped)',context);
   assert(!history.includes('href="https://github.com/'));assert(history.includes('history'));
-  assert(vm.runInContext('releaseAssetsMarkup(stopped)',context).includes('배포 중지'));
+  assert.equal(vm.runInContext('releaseAssetsMarkup(stopped)',context),'');
   assert.equal(vm.runInContext('freshBadge(stopped)',context),'');
   vm.runInContext('DATA=[stopped];render()',context);
   const out=node('list').innerHTML;
-  assert(out.includes('개인 소장'));assert(out.includes('scope-chip'));
+  assert(out.includes('작업 기록'));assert(out.includes('scope-chip'));assert(out.includes('배포 종료'));assert(!out.includes('>소장</'));assert(!out.includes('파일 비공개 보관'));
   assert(!out.includes('/releases/'));assert(!out.includes('/issues/new'));
   assert(!out.includes('href="'+original.url+'"'));
 });
@@ -234,7 +234,7 @@ test('prepared catalogue keeps all thirteen cards and seven stopped cards withou
   const {node,data}=page(async()=>[]);const html=node('list').innerHTML;
   assert.equal((html.match(/class="row"/g)||[]).length,data.patches.length);
   assert.equal(data.patches.filter(p=>p.distribution_stopped).length,data.library_count);
-  assert.equal((html.match(/>개인 소장</g)||[]).length,data.library_count);
+  assert.equal((html.match(/>작업 기록</g)||[]).length,data.library_count);
   assert.equal(node('s-rel').textContent,String(data.library_count));
   for(const p of data.patches.filter(p=>p.distribution_stopped)){
     assert(html.includes('data-repo="'+p.repo+'"'));

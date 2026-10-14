@@ -335,7 +335,7 @@ function walkthroughMarkup(d){
   return `<a class="scope-chip ${done?"done":"none"} walkthrough" href="${WALKTHROUGH_HOME}" target="_blank" rel="noopener" title="공략집 아카이브 열기">공략집 ${done?"✓":"—"}</a>`;
 }
 function releaseAssetsMarkup(d){
-  if(d.distribution_stopped)return `<span class="small">배포 중지 · 파일 비공개 보관</span>`;
+  if(d.distribution_stopped)return "";
   const assets=d.assets.filter(a=>a.tag===d.latest_release?.tag);
   return assets.length?`<div class="assets small">${assets.map(a=>{
     const url=safeUrl(a.url), label=`${a.tag} · ${fmt(a.downloads)}회`;
@@ -461,11 +461,11 @@ function render(){
       ${!d.distribution_stopped&&d.tools.length?`<div class="tools small"><span>부가 도구</span>${d.tools.map(t=>link(t.name+" ("+t.tag+")",t.url)).join("")}</div>`:""}
     </div>
     <div class="status">
-      <span class="status-label"><span class="pill ${d.status==="released"?"ok":"wip"}">${d.distribution_stopped?"개인 소장":labels[d.status]||esc(d.status)}</span>${freshBadge(d)}</span>
-      ${d.latest_release?`<span class="ver">${esc(d.latest_release.tag)}</span><span class="small">${date(d.latest_release.published_at)} ${d.distribution_stopped?"마지막 배포 기록":"배포"}</span>`:`<span class="small">${d.status==="released"?"정식 패치 릴리스 없음":"릴리스 없음"}</span>`}
+      <span class="status-label"><span class="pill ${d.status==="released"?"ok":"wip"}">${d.distribution_stopped?"작업 기록":labels[d.status]||esc(d.status)}</span>${freshBadge(d)}</span>
+      ${d.latest_release?`<span class="ver">${esc(d.latest_release.tag)}</span><span class="small">${date(d.latest_release.published_at)} ${d.distribution_stopped?"배포 기록":"배포"}</span>`:`<span class="small">${d.status==="released"?"정식 패치 릴리스 없음":"릴리스 없음"}</span>`}
       <span class="small">최근 작업 ${date(d.activity_at||d.pushed_at)}</span>
     </div>
-    <div class="dl"><b>${d.distribution_stopped?"소장":fmt(d.downloads)}</b><span class="small">${d.distribution_stopped?"배포 중지":"다운로드"}</span>
+    <div class="dl">${d.distribution_stopped?'<span class="small">배포 종료</span>':`<b>${fmt(d.downloads)}</b><span class="small">다운로드</span>`}
       ${releaseAssetsMarkup(d)}
       <div class="bar" ${d.distribution_stopped?"hidden":""} aria-hidden="true"><i style="width:${Math.min(100,d.downloads/maxDl*100).toFixed(0)}%"></i></div>
     </div>
@@ -480,11 +480,11 @@ function applyData(data){
   DATA=data.patches;
   DOWNLOAD_SNAPSHOT_AT=generated.getTime();
   for(const [id,key] of [["s-total","total"],["s-rel","released"],["s-wip","wip"],["s-dl","downloads"]])document.getElementById(id).textContent=fmt(data.summary[key]);
-  if(data.library_count){document.getElementById("s-rel").textContent=fmt(data.library_count);document.getElementById("s-rel-label").textContent="개인 소장";}
+  if(data.library_count){document.getElementById("s-rel").textContent=fmt(data.library_count);document.getElementById("s-rel-label").textContent="작업 기록";}
   const kst=generated.toLocaleString("ko-KR",{timeZone:"Asia/Seoul",hour12:false});
-  document.getElementById("snap").textContent=data.library_count?`라이브러리 ${fmt(data.summary.total)}개 · 개인 소장 ${fmt(data.library_count)}개`:`한글패치 ${fmt(data.summary.total)}개 · GitHub 공개 저장소 기준`;
+  document.getElementById("snap").textContent=data.library_count?`라이브러리 ${fmt(data.summary.total)}개 · 작업 기록 ${fmt(data.library_count)}개`:`한글패치 ${fmt(data.summary.total)}개 · GitHub 공개 저장소 기준`;
   const started=data.ledger_started_at?new Date(data.ledger_started_at).toLocaleDateString("ko-KR",{timeZone:"Asia/Seoul"}):"";
-  FOOTER=`누적 집계 시작일: ${started||"미기록"} · 패치 첨부파일 기준(부가 도구 제외)${data.library_count?" · 소장 작품은 배포 중지 이전 기록":""}`;
+  FOOTER=`누적 집계 시작일: ${started||"미기록"} · 패치 첨부파일 기준(부가 도구 제외)${data.library_count?" · 작업 기록의 다운로드 수는 배포 종료 이전 기록":""}`;
   document.getElementById("footer").textContent=`다운로드 수: ${kst} (KST) 수집값 · ${FOOTER}`;
   const R=document.getElementById("related");R.parentElement.hidden=!data.related.length;
   R.innerHTML=data.related.map(r=>{const u=safeUrl(r.url);return u?`<a class="card" href="${esc(u)}" target="_blank" rel="noopener"><b>${esc(r.title)}</b><span>${esc(r.desc||r.repo)}</span></a>`:""}).join("");
