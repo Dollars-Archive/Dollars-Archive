@@ -12,7 +12,7 @@ function page(theme=null){
   vm.createContext(context);for(const script of scripts)vm.runInContext(script,context);vm.runInContext('applyData(data)',context);
   return {context,node,data,store,events};
 }
-test('archive renders catalogue, compact current asset links, report and share links',()=>{
+test('archive renders catalogue, compact current asset links and share links without repository, report or introduction links',()=>{
   const {node,data}=page();const out=node('list').innerHTML;
   assert.equal((out.match(/class="row"/g)||[]).length,data.patches.length);
   for(const p of data.patches.filter(p=>p.latest_release&&!p.distribution_stopped))assert(out.includes(p.url+'/releases/latest'));
@@ -21,7 +21,8 @@ test('archive renders catalogue, compact current asset links, report and share l
   assert(out.includes('>링크 복사</button>'));assert(!out.includes('주소 ↗'));
   assert(!out.includes('aria-label="EVE_ZERO_Korean_Patch_v1.1.zip')); // Stopped releases have no file links.
   assert(!out.includes('>EVE_ZERO_Korean_Patch_v1.1.zip</a>'));
-  assert.equal((out.match(/>오류 제보<\/a>/g)||[]).length,data.patches.filter(p=>!p.distribution_stopped).length);
+  assert(!out.includes('>저장소</a>'));
+  assert(!out.includes('>오류 제보</a>'));
   assert(!out.includes('>작품 소개</a>'));
 });
 test('file tooltips retain full names, old release files stay hidden and URL injection is rejected',()=>{
