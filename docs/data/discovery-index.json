@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "0496d99fc08911fb6acb7234c5f78cb70d5a1d95",
+  "tree_sha": "111b6836da4497e92107ead0ecddd0fd3aa7a3aa",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -2054,7 +2054,7 @@
     },
     {
       "key": "platforms/psp/games/boku-wa-kimi-dake-o-mitsumeru.md",
-      "source_sha": "8e2fc8b1f96e06cbb38bff47dd8073afefc9c3b3",
+      "source_sha": "1485003262ca76dd2007c387aebb8962d1a48180",
       "platform": "PSP",
       "product_id": "",
       "original": "僕はキミだけを見つめる ～I gaze at only you～",
@@ -3741,6 +3741,16 @@
       "english_title": "Chou no Doku Hana no Kusari: Taishou Tsuyakoi Ibun",
       "title_ko": "나비의 독 꽃의 쇠사슬: 다이쇼염련이문 / 국내 통용 제목 참고, 공식 한국어 상품명은 아님",
       "title": "Chou no Doku Hana no Kusari: Taishou Tsuyakoi Ibun (나비의 독 꽃의 쇠사슬: 다이쇼염련이문)"
+    },
+    {
+      "key": "platforms/psvita/games/chusingura46-plus-1-v.md",
+      "source_sha": "18dfeed4e935a1dddc86adc22895d0967f12097c",
+      "platform": "PLAYSTATION VITA 네이티브 일본판 / PS VITA TV 대응",
+      "product_id": "VLJM-35186 (패키지판)",
+      "original": "ChuSingura46+1 -忠臣蔵46+1- V",
+      "english_title": "ChuSingura46+1 V",
+      "title_ko": "충신장 46+1 V (검색 표기: 츄신구라 / 추신구라 46+1)",
+      "title": "ChuSingura46+1 V (충신장 46+1 V)"
     },
     {
       "key": "platforms/psvita/games/ciel-nosurge-offline.md",
