@@ -22,7 +22,7 @@ test('archive renders catalogue, compact current asset links, report and share l
   assert(!out.includes('aria-label="EVE_ZERO_Korean_Patch_v1.1.zip')); // Stopped releases have no file links.
   assert(!out.includes('>EVE_ZERO_Korean_Patch_v1.1.zip</a>'));
   assert.equal((out.match(/>오류 제보<\/a>/g)||[]).length,data.patches.filter(p=>!p.distribution_stopped).length);
-  assert.equal((out.match(/>작품 소개<\/a>/g)||[]).length,3);
+  assert(!out.includes('>작품 소개</a>'));
 });
 test('file tooltips retain full names, old release files stay hidden and URL injection is rejected',()=>{
   const {context}=page();const out=vm.runInContext('releaseAssetsMarkup({latest_release:{tag:"v1.1"},assets:[{tag:"v1.0",name:"OLD.zip",url:"https://example.com/old",downloads:99},{tag:"v1.1",name:"LONG<&.zip",url:"https://example.com/new",downloads:2}]})',context);

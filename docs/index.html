@@ -384,11 +384,6 @@ function chips(id,opts,key){
   }
 }
 
-const INTRODUCTIONS={
-  "eve-new-generation-kr-patch":"platforms/ps2/games/eve-new-generation.md",
-  "Guardian-Angel-Korean-Localization":"platforms/ps2/games/guardian-angel.md",
-  "twelve-sengoku-fuushinden-kr-patch":"platforms/psp/games/twelve-sengoku-fuushinden.md"
-};
 function gameId(d){return d.repo.replace(/-kr-patch$|-Korean-Localization$/i,"").toLowerCase().replace(/[^a-z0-9_.-]/g,"-")}
 function gameShareUrl(id){return "https://dollars-archive.github.io/Dollars-Archive/#"+encodeURIComponent(id)}
 async function copyGameLink(button){
@@ -457,7 +452,7 @@ function render(){
       <div class="title"><span>${esc(d.title)}</span><span class="share-area"><button type="button" class="share-link" data-share="${gameId(d)}" aria-label="${esc(d.title)} 링크 복사" aria-live="polite">링크 복사</button><input class="copy-url" type="text" readonly hidden value="${esc(gameShareUrl(gameId(d)))}" aria-label="${esc(d.title)} 공유 주소 직접 복사"></span></div>
       ${d.original?`<div class="orig">${esc(d.original)}</div>`:""}
       ${factsMarkup(d)}${scopeMarkup(d)}${historyMarkup(d)}
-      <div class="links">${d.distribution_stopped?"":link("저장소",d.url)}${d.distribution_stopped?"":d.latest_release?link("릴리스",d.url+"/releases/latest"):d.status==="released"?link("릴리스",d.url+"/releases"):""}${!d.distribution_stopped&&d.guide_url?link("설치 가이드",d.guide_url):""}${d.distribution_stopped?"":link("오류 제보",issueUrl(d))}${INTRODUCTIONS[d.repo]?link("작품 소개","https://dollars-archive.github.io/Game-Localization-Discovery-Archive/game.html?file="+encodeURIComponent(INTRODUCTIONS[d.repo])):""}${editionMarkup(d)}</div>
+      <div class="links">${d.distribution_stopped?"":link("저장소",d.url)}${d.distribution_stopped?"":d.latest_release?link("릴리스",d.url+"/releases/latest"):d.status==="released"?link("릴리스",d.url+"/releases"):""}${!d.distribution_stopped&&d.guide_url?link("설치 가이드",d.guide_url):""}${d.distribution_stopped?"":link("오류 제보",issueUrl(d))}${editionMarkup(d)}</div>
       ${!d.distribution_stopped&&d.tools.length?`<div class="tools small"><span>부가 도구</span>${d.tools.map(t=>link(t.name+" ("+t.tag+")",t.url)).join("")}</div>`:""}
     </div>
     <div class="status">
