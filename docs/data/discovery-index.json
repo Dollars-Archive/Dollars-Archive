@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "28d491669f81cf8e43ac2de2039d21aa2b467ed2",
+  "tree_sha": "496665afa2a4195e98045cfd3c71164d20ec5363",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -903,6 +903,16 @@
       "title": "Mai-HiME: Unmei no Keitouju (마이히메 ～운명의 계통수～)"
     },
     {
+      "key": "platforms/ps2/games/mana-khemia-2-ochita-gakuen-to-renkinjutsushi-tachi.md",
+      "source_sha": "1e2defbbf503070e1e887c7defd4a7127ffdca5e",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "",
+      "english_title": "Mana Khemia 2: Fall of Alchemy",
+      "title_ko": "",
+      "title": "Mana Khemia 2: Fall of Alchemy (마나케미아 2: 타락한 학원과 연금술사들)"
+    },
+    {
       "key": "platforms/ps2/games/mana-khemia-gakuen-no-renkinjutsushitachi.md",
       "source_sha": "cfbed672b2228832483bdfc3333b0d8575d99839",
       "platform": "PS2",
@@ -1464,7 +1474,7 @@
     },
     {
       "key": "platforms/ps3/games/dungeons-dragons-chronicles-of-mystara.md",
-      "source_sha": "ae801f88b527d61b5e1c441aa531f374091bfa09",
+      "source_sha": "686f3b0b98b0109ae9ac180c40356e3a2a8368f1",
       "platform": "PS3",
       "product_id": "",
       "original": "",
@@ -1733,6 +1743,16 @@
       "title": "Sengoku Hime 5: Senka Tatsu Haou no Keifu (센고쿠히메 5: 전화를 끊는 패왕의 계보)"
     },
     {
+      "key": "platforms/ps3/games/sharin-no-kuni-himawari-no-shoujo.md",
+      "source_sha": "d7a2b417cfeaa34097e26fd50fb0d666be54146a",
+      "platform": "PLAYSTATION 3 (PS3)",
+      "product_id": "",
+      "original": "車輪の国、向日葵の少女",
+      "english_title": "Sharin no Kuni, Himawari no Shoujo (차륜의 나라, 해바라기의 소녀) · PS3",
+      "title_ko": "차륜의 나라, 해바라기의 소녀",
+      "title": "Sharin no Kuni, Himawari no Shoujo (차륜의 나라, 해바라기의 소녀) · PS3"
+    },
+    {
       "key": "platforms/ps3/games/shin-koihime-musou-otome-taisen-sangokushi-engi.md",
       "source_sha": "dc7f6dfc9c470e17ba9a1c4f8aabdf2b49cadf89",
       "platform": "PS3",
@@ -1761,6 +1781,16 @@
       "english_title": "Skullgirls Encore",
       "title_ko": "스컬걸즈 앙코르",
       "title": "Skullgirls Encore (스컬걸즈 앙코르)"
+    },
+    {
+      "key": "platforms/ps3/games/soul-nomad-the-world-eaters-ps2-classics.md",
+      "source_sha": "fce815ff6ebe649372edaefc6ef924579f1c4761",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "",
+      "english_title": "Soul Nomad & the World Eaters (소울 크레이들: 세계를 먹는 자) · PS3 PS2 Classics",
+      "title_ko": "",
+      "title": "Soul Nomad & the World Eaters (소울 크레이들: 세계를 먹는 자) · PS3 PS2 Classics"
     },
     {
       "key": "platforms/ps3/games/super-dimension-fortress-macross-do-you-remember-love-hybrid-pack.md",
@@ -1854,7 +1884,7 @@
     },
     {
       "key": "platforms/ps3/games/xblaze-code-embryo.md",
-      "source_sha": "17b67bf43b4784ddef9f7dabe276e379ff0df09a",
+      "source_sha": "338c82535857d8624b4a1b41cca872beea15187c",
       "platform": "PS3",
       "product_id": "",
       "original": "XBLAZE CODE：EMBRYO / エクスブレイズ コード：エンブリオ",
@@ -3041,6 +3071,16 @@
       "english_title": "Senritsu no Stratus",
       "title_ko": "전율의 스트라터스. 국내 통용 표기이며 공식 한국어판 제목은 아님",
       "title": "Senritsu no Stratus (전율의 스트라터스)"
+    },
+    {
+      "key": "platforms/psp/games/sharin-no-kuni-himawari-no-shoujo.md",
+      "source_sha": "253a3e244621bdc7b7f2d16bc51bc7e8ca634038",
+      "platform": "PLAYSTATION PORTABLE (PSP)",
+      "product_id": "",
+      "original": "車輪の国、向日葵の少女",
+      "english_title": "Sharin no Kuni, Himawari no Shoujo (차륜의 나라, 해바라기의 소녀) · PSP",
+      "title_ko": "차륜의 나라, 해바라기의 소녀",
+      "title": "Sharin no Kuni, Himawari no Shoujo (차륜의 나라, 해바라기의 소녀) · PSP"
     },
     {
       "key": "platforms/psp/games/shiei-no-sona-nyl-refrain-what-a-beautiful-memories.md",
