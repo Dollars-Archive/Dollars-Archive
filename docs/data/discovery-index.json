@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "111b6836da4497e92107ead0ecddd0fd3aa7a3aa",
+  "tree_sha": "28d491669f81cf8e43ac2de2039d21aa2b467ed2",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -2914,7 +2914,7 @@
     },
     {
       "key": "platforms/psp/games/routes-portable.md",
-      "source_sha": "e8b43f5d7d0b913ffa9b473c1fc2ec2b2f0fdc47",
+      "source_sha": "6ccc556de8dd2dcac3cbb5aa259e49187974f77c",
       "platform": "PSP",
       "product_id": "",
       "original": "Routes PORTABLE / ルーツ ポータブル",
