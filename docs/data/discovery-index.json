@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "89ecf1aa8a5e2b3dd75dbd381d8f6572c7bd00c1",
+  "tree_sha": "e24fa49e033385ce08fac63e327e1fa70d88433b",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -1154,7 +1154,7 @@
     },
     {
       "key": "platforms/ps2/games/sacred-blaze.md",
-      "source_sha": "e72954a50d818b0b063bb240658e9cf964f8333e",
+      "source_sha": "743d8e7a198fc3c0f2b79fde55873569a1440ae7",
       "platform": "PS2",
       "product_id": "",
       "original": "SACRED BLAZE（セイクリッドブレイズ）",
@@ -1301,6 +1301,16 @@
       "english_title": "Strawberry Panic! Girls' School in Fullbloom",
       "title_ko": "스트로베리 패닉! ～Girls' School in Fullbloom～",
       "title": "Strawberry Panic! Girls' School in Fullbloom (스트로베리 패닉! ～Girls' School in Fullbloom～)"
+    },
+    {
+      "key": "platforms/ps2/games/suigetsu-mayoigokoro.md",
+      "source_sha": "6d04fcf54461ba56bd5005530ede82254b0dbdf5",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "",
+      "english_title": "Suigetsu: Mayoigokoro (수월: 미심) · PS2",
+      "title_ko": "",
+      "title": "Suigetsu: Mayoigokoro (수월: 미심) · PS2"
     },
     {
       "key": "platforms/ps2/games/suzunone-seven-rebirth-knot.md",
@@ -1733,6 +1743,16 @@
       "title": "Muv-Luv Alternative: Total Eclipse (마브러브 얼터너티브: 토탈 이클립스) · PlayStation 3"
     },
     {
+      "key": "platforms/ps3/games/muv-luv-photonflowers.md",
+      "source_sha": "1a63c023ffaf6178bdaebe99b50c814231dcc4cc",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "",
+      "english_title": "Muv-Luv photonflowers*",
+      "title_ko": "",
+      "title": "Muv-Luv photonflowers* (마브러브 포톤플라워즈)"
+    },
+    {
       "key": "platforms/ps3/games/muv-luv-photonmelodies.md",
       "source_sha": "b0a6fc1361c2c6a55ebc44343c9c2e51abeb72f5",
       "platform": "PS3",
@@ -1754,7 +1774,7 @@
     },
     {
       "key": "platforms/ps3/games/nitroplus-blasterz-heroines-infinite-duel.md",
-      "source_sha": "6a5029a63f6cd79f2f798c221de715d6e4e7e0b0",
+      "source_sha": "4b916223d8ee808603e76676e7f3ea3d49370965",
       "platform": "PS3",
       "product_id": "",
       "original": "ニトロプラス ブラスターズ -ヒロインズ インフィニット デュエル-",
@@ -2183,8 +2203,18 @@
       "title": "Boku wa Tomodachi ga Sukunai Portable (나는 친구가 적다 포터블)"
     },
     {
+      "key": "platforms/psp/games/brave-story-new-traveler.md",
+      "source_sha": "ef6b440a158d6147cf3efa02c3c7cfd3796ce846",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "Brave Story: New Traveler",
+      "title_ko": "",
+      "title": "Brave Story: New Traveler (브레이브 스토리: 새로운 여행자)"
+    },
+    {
       "key": "platforms/psp/games/bullet-butlers-juudan-no-kanata.md",
-      "source_sha": "d4c1f06c799e2887394af96e2694662e1af78cce",
+      "source_sha": "645c5eb5b86e724e3dc0dfc187ae00f2bf5b8645",
       "platform": "PSP",
       "product_id": "",
       "original": "Bullet Butlers -銃弾の彼方- / バレットバトラーズ",
@@ -2751,6 +2781,16 @@
       "english_title": "Marriage Royale: Prism Story",
       "title_ko": "마리지 로얄 ～프리즘 스토리～",
       "title": "Marriage Royale: Prism Story (마리지 로얄 ～프리즘 스토리～)"
+    },
+    {
+      "key": "platforms/psp/games/mashiroiro-symphony-mutsu-no-hana.md",
+      "source_sha": "7cb55bb70992027e99c35b6afc8f903b8bb4f537",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "ましろ色シンフォニー *mutsu-no-hana",
+      "english_title": "Mashiroiro Symphony: *mutsu-no-hana",
+      "title_ko": "",
+      "title": "Mashiroiro Symphony: *mutsu-no-hana (새하얀 색 심포니: 무츠노하나)"
     },
     {
       "key": "platforms/psp/games/mirai-nikki-13-ninme-no-nikki-shoyuusha-rewrite.md",
@@ -3354,7 +3394,7 @@
     },
     {
       "key": "platforms/psp/games/suigetsu-portable.md",
-      "source_sha": "7c98664e0d133e732b81e8ddc51968a79a59da86",
+      "source_sha": "107a5a5b7eddbe41bb0d9a7529b83b0eacdf1986",
       "platform": "PSP",
       "product_id": "",
       "original": "水月 ～Portable～",
