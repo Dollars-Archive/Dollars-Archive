@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "e24fa49e033385ce08fac63e327e1fa70d88433b",
+  "tree_sha": "b0352055b88a89933ee197cc23baad5ee61f6845",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -333,6 +333,46 @@
       "title": "Yume no Tsubasa: Fate of Heart (꿈의 날개 -Fate of Heart-)"
     },
     {
+      "key": "platforms/ds/games/akagawa-jirou-mystery-yasoukyoku-hon-ni-manekareta-satsujin.md",
+      "source_sha": "dc3bd908e29a93ff6fcbdef9cc52bfa3bc79df76",
+      "platform": "닌텐도 DS 일본판, 네이티브 DS 발매",
+      "product_id": "",
+      "original": "赤川次郎ミステリー 夜想曲－本に招かれた殺人－",
+      "english_title": "Akagawa Jirō Mystery: Yasōkyoku - Hon ni Manekareta Satsujin",
+      "title_ko": "아카가와 지로 미스터리 야상곡: 책에 초대된 살인",
+      "title": "Akagawa Jirō Mystery: Yasōkyoku - Hon ni Manekareta Satsujin (야상곡: 책에 초대된 살인)"
+    },
+    {
+      "key": "platforms/ds/games/another-time-another-leaf-kagami-no-naka-no-tantei.md",
+      "source_sha": "b1c2edee552505bb34a3ad8f184ca5ab92ecd3ef",
+      "platform": "닌텐도 DS / NINTENDO DS 일본 정식판",
+      "product_id": "",
+      "original": "Another Time Another Leaf ～鏡の中の探偵～",
+      "english_title": "Another Time Another Leaf: Kagami no Naka no Tantei",
+      "title_ko": "어나더 타임 어나더 리프: 거울 속의 탐정",
+      "title": "Another Time Another Leaf: Kagami no Naka no Tantei (어나더 타임 어나더 리프: 거울 속의 탐정)"
+    },
+    {
+      "key": "platforms/ds/games/golden-sun-dark-dawn.md",
+      "source_sha": "0db79d969610b9140e81b5ccb685687d2ee4c040",
+      "platform": "DS",
+      "product_id": "",
+      "original": "黄金の太陽 漆黒なる夜明け",
+      "english_title": "Golden Sun: Dark Dawn",
+      "title_ko": "황금의 태양: 칠흑의 새벽",
+      "title": "Golden Sun: Dark Dawn (황금의 태양: 칠흑의 새벽)"
+    },
+    {
+      "key": "platforms/ds/games/time-hollow-ubawareta-kako-o-motomete.md",
+      "source_sha": "14f4353aae0b97418bb80cd33f92f5b50ebb9fcc",
+      "platform": "DS",
+      "product_id": "",
+      "original": "TIME HOLLOW ～奪われた過去を求めて～",
+      "english_title": "Time Hollow: Ubawareta Kako o Motomete",
+      "title_ko": "타임 할로우: 빼앗긴 과거를 찾아서",
+      "title": "Time Hollow: Ubawareta Kako o Motomete (타임 할로우: 빼앗긴 과거를 찾아서)"
+    },
+    {
       "key": "platforms/ds/games/tsuki-no-hikari-shizumeru-kane-no-satsujin.md",
       "source_sha": "05ee027699919e8f8381e8dbc47227678d2cc49a",
       "platform": "DS",
@@ -341,6 +381,36 @@
       "english_title": "Akagawa Jirō Mystery: Tsuki no Hikari - Shizumeru Kane no Satsujin (달의 빛: 가라앉은 종의 살인) · Nintendo DS",
       "title_ko": "",
       "title": "Akagawa Jirō Mystery: Tsuki no Hikari - Shizumeru Kane no Satsujin (달의 빛: 가라앉은 종의 살인) · Nintendo DS"
+    },
+    {
+      "key": "platforms/ds/games/yatsu-hakamura.md",
+      "source_sha": "cd3275096bd24acd32aa916638e3eec799fd0dae",
+      "platform": "DS",
+      "product_id": "",
+      "original": "八つ墓村 (야츠하카무라), 요코미조 세이시(金田一耕助 시리즈) 원작 소설의 제목",
+      "english_title": "Yatsu Hakamura",
+      "title_ko": "팔묘촌 / 여덟 개의 무덤 마을",
+      "title": "Yatsu Hakamura (팔묘촌: 여덟 개의 무덤 마을)"
+    },
+    {
+      "key": "platforms/ps1/games/akagawa-jirou-yasoukyoku.md",
+      "source_sha": "429b4ddf34fb20b68255babc4d8111a3cc458cfc",
+      "platform": "PS1",
+      "product_id": "",
+      "original": "",
+      "english_title": "Akagawa Jirō: Yasōkyoku",
+      "title_ko": "",
+      "title": "Akagawa Jirō: Yasōkyoku (아카가와 지로 야상곡 / 야상곡 1편)"
+    },
+    {
+      "key": "platforms/ps1/games/serial-experiments-lain.md",
+      "source_sha": "7b312f2bc46151182ddf767999fb1066863efa50",
+      "platform": "PS1",
+      "product_id": "",
+      "original": "",
+      "english_title": "serial experiments lain",
+      "title_ko": "",
+      "title": "serial experiments lain (시리얼 익스페리먼츠 레인)"
     },
     {
       "key": "platforms/ps1/games/toheart.md",
@@ -594,7 +664,7 @@
     },
     {
       "key": "platforms/ps2/games/final-approach.md",
-      "source_sha": "6af907a81e6cd016b3e3d46d5d0f9511cecd860c",
+      "source_sha": "ed47a567fc26482f1593dff6540f86adf97bb593",
       "platform": "PS2",
       "product_id": "",
       "original": "Φなる・あぷろーち",
@@ -1963,6 +2033,16 @@
       "title": "WHITE ALBUM2: Shiawase no Mukougawa (화이트 앨범 2: 행복의 저편) | PlayStation 3"
     },
     {
+      "key": "platforms/ps3/games/white-album-tsuzurareru-fuyu-no-omoide.md",
+      "source_sha": "4420a261d3e3fbbbfef270a8b910b912d4d4b8ab",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "WHITE ALBUM －綴られる冬の想い出－",
+      "english_title": "WHITE ALBUM: Tsuzurareru Fuyu no Omoide",
+      "title_ko": "화이트 앨범: 엮어 가는 겨울의 추억 / '쌓여가는 겨울의 추억'이라는 통용 별칭",
+      "title": "WHITE ALBUM: Tsuzurareru Fuyu no Omoide (화이트 앨범: 엮어 가는 겨울의 추억)"
+    },
+    {
       "key": "platforms/ps3/games/wizardry-perfect-pack.md",
       "source_sha": "35109a07c1dbe2e657a0a68e835b02aa44144b82",
       "platform": "PS3",
@@ -2994,13 +3074,13 @@
     },
     {
       "key": "platforms/psp/games/princess-evangile-portable.md",
-      "source_sha": "80308c8f21009113dd524aaac5bb8f12b5f51c6c",
+      "source_sha": "8c81adb3b08e19c90ea6fbb4c4db9497fa51a160",
       "platform": "PSP",
       "product_id": "",
       "original": "PrincessEvangile PORTABLE ～プリンセス エヴァンジール ポータブル～",
-      "english_title": "Princess Evangile Portable",
-      "title_ko": "프린세스 에반젤 포터블",
-      "title": "Princess Evangile Portable (프린세스 에반젤 포터블)"
+      "english_title": "Princess Evangile PORTABLE",
+      "title_ko": "프린세스 에반젤 포터블(한국 공식 모바일판의 프린세스 에반젤 표기를 따름) / 사용자 표기 「프린세스 에반질 Portable」 검색 병기",
+      "title": "Princess Evangile PORTABLE (프린세스 에반젤 포터블 / 프린세스 에반질 Portable)"
     },
     {
       "key": "platforms/psp/games/princess-frontier-portable.md",
@@ -3034,7 +3114,7 @@
     },
     {
       "key": "platforms/psp/games/renai-0-kilometer-portable.md",
-      "source_sha": "9ab40f733f740f81ed77b5e18aef2dba8f3b1dd8",
+      "source_sha": "ad9dec05e0b7f35a93d506538abb951faf5b32d8",
       "platform": "PSP",
       "product_id": "",
       "original": "恋愛0キロメートル Portable",
@@ -3284,7 +3364,7 @@
     },
     {
       "key": "platforms/psp/games/shirokuma-belles-stars-happy-holidays.md",
-      "source_sha": "26a4a0f27fbb0c3fd1e23a7c97b72478995af49a",
+      "source_sha": "dfc29bc8be642a0685c6b3e68234447624a59df3",
       "platform": "PSP",
       "product_id": "",
       "original": "しろくまベルスターズ♪ ～ハッピーホリデーズ！～",
