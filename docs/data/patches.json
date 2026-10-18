@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-14T14:55:02Z",
+  "generated_at": "2026-10-18T07:22:26Z",
   "summary": {
-    "total": 13,
+    "total": 14,
     "released": 0,
     "wip": 0,
-    "completed": 13,
+    "completed": 14,
     "downloads": 2850
   },
   "library_count": 7,
@@ -1043,6 +1043,86 @@
         }
       },
       "distribution_stopped": true
+    },
+    {
+      "repo": "9-nine-switch-kr-patch",
+      "title": "9 -nine-",
+      "original": "9-nine-",
+      "series": "9-nine-",
+      "platforms": [
+        "Switch"
+      ],
+      "genre": "이능·미스터리 ADV",
+      "genre_full": "이능·미스터리 ADV",
+      "developer": "PALETTE",
+      "publisher": "",
+      "playtime": "약 21시간",
+      "edition": "Nintendo Switch 일본판 (본편 4장 + 신장 합본)",
+      "release_jp": "2022-06-23",
+      "product_id": "미확정",
+      "base_update": "미확정",
+      "note": "2026-10-18 작업 완료 · 공략집·HD 팩 미확인 · 공개 배포 파일 없음",
+      "cover_caption": "Switch・PS4 공통 공식 타이틀 아트",
+      "status": "completed",
+      "description": "9 -nine- Nintendo Switch 한국어화 작업 기록",
+      "pushed_at": "2026-10-18T07:22:19Z",
+      "stars": 0,
+      "url": "https://github.com/Dollars-Archive/9-nine-switch-kr-patch",
+      "has_pages": false,
+      "topics": [
+        "korean-translation",
+        "kr-patch",
+        "switch"
+      ],
+      "guide_url": "",
+      "guide_status": null,
+      "latest_release": null,
+      "downloads": 0,
+      "assets": [],
+      "tools": [],
+      "discovery": "platforms/switch/games/9-nine.md",
+      "discovery_match": "manual",
+      "walkthroughs": [],
+      "walkthrough_available": false,
+      "activity_at": "2026-10-18T07:22:19Z",
+      "scope": {
+        "title": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        },
+        "ui": {
+          "state": "done",
+          "status": "완료",
+          "since": null,
+          "source": "사용자 메뉴·UI/대사/영상 자막 완료 확인 (2026-10-18)"
+        },
+        "dialogue": {
+          "state": "done",
+          "status": "완료",
+          "since": null,
+          "source": "사용자 메뉴·UI/대사/영상 자막 완료 확인 (2026-10-18)"
+        },
+        "image": {
+          "state": "done",
+          "status": "완료",
+          "since": null
+        },
+        "video": {
+          "state": "done",
+          "status": "완료",
+          "since": null,
+          "source": "사용자 메뉴·UI/대사/영상 자막 완료 확인 (2026-10-18)"
+        }
+      },
+      "changelog": [],
+      "metadata_source": "https://github.com/Dollars-Archive/9-nine-switch-kr-patch/blob/main/README.md",
+      "downloads_current": 0,
+      "downloads_carried": 0,
+      "download_ledger": {},
+      "cover": "covers/9-nine-switch-kr-patch.webp",
+      "cover_source": "https://9-nine-project.com/game/consumer/",
+      "cover_revision": "bdb304d917a0"
     },
     {
       "repo": "amatsutsumi-kr-patch",

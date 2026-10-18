@@ -56,6 +56,15 @@
     "region": "Japan",
     "fetched_at": "2026-10-04T21:34:16Z"
   },
+  "9-nine-switch-kr-patch": {
+    "input": "https://9-nine-project.com/wp/wp-content/themes/nine-project/assets/images/common/game/consumer/img_package.png",
+    "source_page": "https://9-nine-project.com/game/consumer/",
+    "discovery_page": null,
+    "source_image": "https://9-nine-project.com/wp/wp-content/themes/nine-project/assets/images/common/game/consumer/img_package.png",
+    "image_type": "Official title art",
+    "region": "Japan",
+    "fetched_at": "2026-10-18T07:15:18Z"
+  },
   "amatsutsumi-kr-patch": {
     "input": "https://zettairenai.wordpress.com/wp-content/uploads/2019/01/amatsutsumi-cover.jpg",
     "source_page": "https://zettairenai.wordpress.com/2019/02/01/ps-vita-amatsutsumi-review/",

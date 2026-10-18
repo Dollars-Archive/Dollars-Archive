@@ -1,3 +1,17 @@
+9-nine-switch-kr-patch:
+  discovery: platforms/switch/games/9-nine.md
+  cover: https://9-nine-project.com/wp/wp-content/themes/nine-project/assets/images/common/game/consumer/img_package.png
+  cover_source: https://9-nine-project.com/game/consumer/
+  cover_type: Official title art
+  cover_region: Japan
+  cover_caption: Switch・PS4 공통 공식 타이틀 아트
+  status: completed
+  confirmed_scope_status: done
+  confirmed_scope_source: 사용자 메뉴·UI/대사/영상 자막 완료 확인 (2026-10-18)
+  confirmed_image_status: done
+  confirmed_image_source: 사용자 이미지 완료 확인 (2026-10-18)
+  note: 2026-10-18 작업 완료 · 공략집·HD 팩 미확인 · 공개 배포 파일 없음
+
 amatsutsumi-kr-patch:
   discovery: platforms/psvita/games/amatsutsumi.md
   cover: https://zettairenai.wordpress.com/wp-content/uploads/2019/01/amatsutsumi-cover.jpg
