@@ -1,3 +1,24 @@
+chusingura46-plus-1-v-kr-patch:
+  title: 충신장 46+1 V
+  original: ChuSingura46+1 -忠臣蔵46+1- V
+  series: 충신장
+  platforms: [PS Vita]
+  developer: Inre / HuneX
+  publisher: dramatic create
+  genre: 시대극·타임루프 ADV
+  playtime: 약 50시간
+  release_jp: "2015-05-28"
+  product_id: PCSG00540
+  edition: PS Vita 일본판
+  status: wip
+  discovery: platforms/psvita/games/chusingura46-plus-1-v.md
+  cover: https://cdn.suruga-ya.jp/database/pics_webp/game/105000817.jpg.webp
+  cover_source: https://www.suruga-ya.jp/product/detail/105000817
+  cover_type: Box - Front
+  cover_region: Japan
+  facts_source: https://dramaticcreate.com/chusingura/product.html
+  note: 한글화 작업 중 · 대사 적용 시험 및 이미지·영상 분류 진행 · 완료 항목 확인 대기
+
 9-nine-switch-kr-patch:
   discovery: platforms/switch/games/9-nine.md
   cover: https://9-nine-project.com/wp/wp-content/themes/nine-project/assets/images/common/game/consumer/img_package.png

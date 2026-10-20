@@ -117,5 +117,14 @@
     "image_type": "Box - Front",
     "region": "Japan",
     "fetched_at": "2026-10-04T13:03:00Z"
+  },
+  "chusingura46-plus-1-v-kr-patch": {
+    "input": "https://cdn.suruga-ya.jp/database/pics_webp/game/105000817.jpg.webp",
+    "source_page": "https://www.suruga-ya.jp/product/detail/105000817",
+    "discovery_page": null,
+    "source_image": "https://cdn.suruga-ya.jp/database/pics_webp/game/105000817.jpg.webp",
+    "image_type": "Box - Front",
+    "region": "Japan",
+    "fetched_at": "2026-10-20T14:30:13.148500+00:00"
   }
 }
