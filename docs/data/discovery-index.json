@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "b0352055b88a89933ee197cc23baad5ee61f6845",
+  "tree_sha": "c1585b5493a003561b841da10a51a8f1607b8bca",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -2884,7 +2884,7 @@
     },
     {
       "key": "platforms/psp/games/misshitsu-no-sacrifice.md",
-      "source_sha": "f6e9b3bad765933b126f4ce6905772e8f141de09",
+      "source_sha": "f0bb6e4bc52e500891d4021179da48f88141ce36",
       "platform": "PSP",
       "product_id": "",
       "original": "密室のサクリファイス",
@@ -3354,7 +3354,7 @@
     },
     {
       "key": "platforms/psp/games/shirogane-no-cal-to-aoi-no-joou.md",
-      "source_sha": "341646d0ab77e823552e922aff06da97d7fbc3fe",
+      "source_sha": "31445289c61d244706395fbcd8dee1e15741fce3",
       "platform": "PLAYSTATION PORTABLE (PSP)",
       "product_id": "",
       "original": "白銀のカルと蒼空の女王",
