@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "645c471562dcdfc4e50f6fa54f873c75d3aeeeb5",
+  "tree_sha": "2e27caaba44e375a6033532124dbe17c2e84b7d9",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -1274,7 +1274,7 @@
     },
     {
       "key": "platforms/ps2/games/sekai-no-subete-two-of-us.md",
-      "source_sha": "dd37ed0fc1a12fe62413f803bbd0032e1ce1cc83",
+      "source_sha": "c39e78f5a55039c2783b6aded33a66b9bed0224a",
       "platform": "PS2",
       "product_id": "",
       "original": "世界ノ全テ ～two of us～",
