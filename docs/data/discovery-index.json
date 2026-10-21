@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "0b7c35d40100040278f63bf546d38582b384a0ec",
+  "tree_sha": "174e8516ea006258d6511cc14f271f4028cd1efd",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -401,6 +401,16 @@
       "english_title": "Akagawa Jirō: Yasōkyoku",
       "title_ko": "",
       "title": "Akagawa Jirō: Yasōkyoku (아카가와 지로 야상곡 / 야상곡 1편)"
+    },
+    {
+      "key": "platforms/ps1/games/otogirisou-sosei-hen.md",
+      "source_sha": "44f9ca4855a62c0db0f3f5965678cc68b746850c",
+      "platform": "PS1",
+      "product_id": "",
+      "original": "",
+      "english_title": "Otogirisō: Sosei-hen",
+      "title_ko": "",
+      "title": "Otogirisō: Sosei-hen (제절초: 소생편 / 오토기리소 소생편)"
     },
     {
       "key": "platforms/ps1/games/serial-experiments-lain.md",
@@ -1124,7 +1134,7 @@
     },
     {
       "key": "platforms/ps2/games/natsu-iro-no-sunadokei.md",
-      "source_sha": "a03f3332534dc941295c76f4b0fcd92c8c43ccb4",
+      "source_sha": "6f512876e83b856fb89d753c356d58033124949c",
       "platform": "PS2",
       "product_id": "SLPM-65136 통상판 / SLPM-65125 초회한정판",
       "original": "夏色の砂時計",
@@ -2674,7 +2684,7 @@
     },
     {
       "key": "platforms/psp/games/kaitou-tenshi-twin-angel-toki-to-sekai-no-meikyuu.md",
-      "source_sha": "84936abf9edaaa36cf14bdff98a15dbe84cd9b6c",
+      "source_sha": "13054f15c3c099cacfcc94ab86ca0b9f0237799f",
       "platform": "PLAYSTATION PORTABLE (PSP)",
       "product_id": "",
       "original": "快盗天使ツインエンジェル ～時とセカイの迷宮～",
@@ -2994,7 +3004,7 @@
     },
     {
       "key": "platforms/psp/games/omoi-no-kakera-close-to.md",
-      "source_sha": "5b7ea4a17dd47525464c8f701b70bc067bca1736",
+      "source_sha": "86c5c1e08f520775405ab1a7f253825346ddc682",
       "platform": "PSP",
       "product_id": "",
       "original": "想いのかけら -Close to-",
@@ -3044,7 +3054,7 @@
     },
     {
       "key": "platforms/psp/games/ouka-sengoku-portable.md",
-      "source_sha": "1aac9f03f6eee7eea2708a6ddcc5d3df7871bab6",
+      "source_sha": "565c31230b2abde9b14569b20124c6ec69df6399",
       "platform": "PSP",
       "product_id": "",
       "original": "桜花センゴク Portable",
@@ -3604,7 +3614,7 @@
     },
     {
       "key": "platforms/psp/games/tenshin-ranman-happy-go-lucky.md",
-      "source_sha": "d75335374bb77dccf6c9129e3cac134ad2425688",
+      "source_sha": "09a2571a928da34ce74e28e38d8d168e5ba39608",
       "platform": "PSP",
       "product_id": "",
       "original": "天神乱漫 Happy Go Lucky!!",
@@ -3804,7 +3814,7 @@
     },
     {
       "key": "platforms/psp/games/your-diary-plus.md",
-      "source_sha": "9aa0ff277a972d0222fc39b5c4306b5be47bbdcb",
+      "source_sha": "ac6df668630e0ca774ca4219896ecc1a26db5cc7",
       "platform": "PSP",
       "product_id": "",
       "original": "ユアダイアリープラス",
@@ -3871,6 +3881,16 @@
       "english_title": "Alone with You",
       "title_ko": "",
       "title": "Alone with You"
+    },
+    {
+      "key": "platforms/psvita/games/amatsumi-sora-ni-kumo-no-hatate-ni.md",
+      "source_sha": "08af22cfb51e568e982d6db9df3c7b7a118ebfa1",
+      "platform": "PSVITA",
+      "product_id": "",
+      "original": "あまつみそらに！ 雲のはたてに",
+      "english_title": "Amatsumi Sora ni! Kumo no Hatate ni",
+      "title_ko": "",
+      "title": "Amatsumi Sora ni! Kumo no Hatate ni (아마츠미소라니! 구름의 저편에)"
     },
     {
       "key": "platforms/psvita/games/amatsutsumi.md",
