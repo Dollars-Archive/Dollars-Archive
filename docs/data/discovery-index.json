@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "1e264f0b57884a7f1ee520c81cd20b97d4f8c5aa",
+  "tree_sha": "0b7c35d40100040278f63bf546d38582b384a0ec",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -774,7 +774,7 @@
     },
     {
       "key": "platforms/ps2/games/itsuka-todoku-ano-sora-ni-yo-no-michi-to-hi-no-tasogare-to.md",
-      "source_sha": "44ced6dc6634514074dc407d4d7b77d99a799d0d",
+      "source_sha": "20362fcd55ab78e5e87060d7601805b60b17dcb4",
       "platform": "PS2",
       "product_id": "",
       "original": "いつか、届く、あの空に。 ～陽の道と緋の昏と～",
@@ -2134,13 +2134,13 @@
     },
     {
       "key": "platforms/psp/games/amatsumi-sora-ni-kumo-no-hatate-ni.md",
-      "source_sha": "a4119586ce66cdb998382840051ae99ffe680922",
+      "source_sha": "810feac2ec420b589c9ca71304f30444d55746b7",
       "platform": "PSP",
       "product_id": "",
       "original": "あまつみそらに！ 雲のはたてに",
       "english_title": "Amatsumi Sora ni! Kumo no Hatate ni",
-      "title_ko": "아마츠미소라니! 구름의 끝에",
-      "title": "Amatsumi Sora ni! Kumo no Hatate ni (아마츠미소라니! 구름의 끝에)"
+      "title_ko": "아마츠미소라니! 구름의 저편에 / 통용 별칭: 구름의 끝에",
+      "title": "Amatsumi Sora ni! Kumo no Hatate ni (아마츠미소라니! 구름의 저편에)"
     },
     {
       "key": "platforms/psp/games/antiphona-no-seikahime-tenshi-no-gakufu-op-a.md",
