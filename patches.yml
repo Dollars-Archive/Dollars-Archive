@@ -342,3 +342,10 @@ twelve-sengoku-fuushinden-kr-patch:
   status: completed
   confirmed_walkthrough_status: done
   launchbox_url: https://gamesdb.launchbox-app.com/games/details/82074-twelve-sengoku-fuushinden
+
+secret-game-killer-queen-portable-kr-patch:
+  status: wip
+  discovery: platforms/psp/games/secret-game-killer-queen-portable.md
+  launchbox_url: https://gamesdb.launchbox-app.com/games/details/121482-secret-game-killer-queen-portable
+  facts_source: https://regista.co.jp/products/secret-game-psp/
+  note: PSP 일본판 한글화 작업 준비 · 실기 확인 및 전체 번역·검수 대기 · 공개 배포판 준비 중
