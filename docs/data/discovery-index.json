@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "1b67118f6ebf98e48f6a077cea64deeb680a5eb8",
+  "tree_sha": "1e264f0b57884a7f1ee520c81cd20b97d4f8c5aa",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -1364,7 +1364,7 @@
     },
     {
       "key": "platforms/ps2/games/strawberry-panic-girls-school-in-fullbloom.md",
-      "source_sha": "d63e33ece87d8f77c12b287d4a1691694dbb392c",
+      "source_sha": "eb27a636e77b603687249f324d45bb1f0277a663",
       "platform": "PS2",
       "product_id": "",
       "original": "Strawberry Panic! GIRLS' SCHOOL IN FULLBLOOM / ストロベリー・パニック！",
@@ -1964,7 +1964,7 @@
     },
     {
       "key": "platforms/ps3/games/suzukaze-no-melt-days-in-the-sanctuary.md",
-      "source_sha": "7f75b0bbf74c0e0422b864f1268181e313f8eea6",
+      "source_sha": "c9db96e109f5389fba7036d3a90e9b57793cc369",
       "platform": "PS3",
       "product_id": "",
       "original": "涼風のメルト -days in the sanctuary-",
@@ -3464,7 +3464,7 @@
     },
     {
       "key": "platforms/psp/games/sucre-portable.md",
-      "source_sha": "c2b30e2c0f17f00c642c795875a4e8cc1f84d8cb",
+      "source_sha": "45279d1d56204b71f5f6ec117c9050878be8de21",
       "platform": "PSP",
       "product_id": "",
       "original": "シュクレ PORTABLE",
@@ -3474,7 +3474,7 @@
     },
     {
       "key": "platforms/psp/games/suigetsu-portable.md",
-      "source_sha": "107a5a5b7eddbe41bb0d9a7529b83b0eacdf1986",
+      "source_sha": "de338e37c91cb1c35ab6892c8af6ffc92560973f",
       "platform": "PSP",
       "product_id": "",
       "original": "水月 ～Portable～",

@@ -56,6 +56,15 @@
     "region": "Japan",
     "fetched_at": "2026-10-04T21:34:16Z"
   },
+  "secret-game-killer-queen-portable-kr-patch": {
+    "input": "https://gamesdb.launchbox-app.com/games/details/121482-secret-game-killer-queen-portable",
+    "source_page": "https://gamesdb.launchbox-app.com/games/details/121482-secret-game-killer-queen-portable",
+    "discovery_page": null,
+    "source_image": "https://images.launchbox-app.com//acb622ed-9c8f-4f7d-bafa-417200a05ccb.jpg",
+    "image_type": "Box - Front",
+    "region": "Japan",
+    "fetched_at": "2026-10-21T14:10:38Z"
+  },
   "chusingura46-plus-1-v-kr-patch": {
     "input": "https://cdn.suruga-ya.jp/database/pics_webp/game/105000817.jpg.webp",
     "source_page": "https://www.suruga-ya.jp/product/detail/105000817",

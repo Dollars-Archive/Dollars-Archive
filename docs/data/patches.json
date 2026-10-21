@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-20T14:40:44Z",
+  "generated_at": "2026-10-21T14:10:38Z",
   "summary": {
-    "total": 15,
+    "total": 16,
     "released": 0,
-    "wip": 1,
+    "wip": 2,
     "completed": 14,
     "downloads": 2850
   },
@@ -1043,6 +1043,83 @@
         }
       },
       "distribution_stopped": true
+    },
+    {
+      "repo": "secret-game-killer-queen-portable-kr-patch",
+      "title": "시크릿 게임: 킬러 퀸 포터블",
+      "original": "シークレットゲーム -KILLER QUEEN- PORTABLE",
+      "series": "시크릿 게임",
+      "platforms": [
+        "PSP"
+      ],
+      "genre": "서스펜스 ADV",
+      "genre_full": "서스펜스 ADV",
+      "developer": "Regista / FLAT",
+      "publisher": "Yeti",
+      "playtime": "약 10~30시간",
+      "edition": "",
+      "release_jp": "2010-05-27",
+      "product_id": "ULJM-05675",
+      "base_update": "",
+      "note": "PSP 일본판 한글화 작업 준비 · 실기 확인 및 전체 번역·검수 대기 · 공개 배포판 준비 중",
+      "cover_caption": "",
+      "status": "wip",
+      "description": "PSP 시크릿 게임: 킬러 퀸 포터블 한국어 패치 제작 프로젝트",
+      "pushed_at": "2026-10-21T14:10:10Z",
+      "stars": 0,
+      "url": "https://github.com/Dollars-Archive/secret-game-killer-queen-portable-kr-patch",
+      "has_pages": false,
+      "topics": [
+        "korean-localization",
+        "kr-patch",
+        "psp"
+      ],
+      "guide_url": "",
+      "guide_status": null,
+      "latest_release": null,
+      "downloads": 0,
+      "assets": [],
+      "tools": [],
+      "discovery": "platforms/psp/games/secret-game-killer-queen-portable.md",
+      "discovery_match": "manual",
+      "walkthroughs": [],
+      "walkthrough_available": false,
+      "activity_at": "2026-10-21T14:10:10Z",
+      "scope": {
+        "title": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        },
+        "ui": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        },
+        "dialogue": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        },
+        "image": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        },
+        "video": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        }
+      },
+      "changelog": [],
+      "metadata_source": "https://github.com/Dollars-Archive/secret-game-killer-queen-portable-kr-patch/blob/main/README.md",
+      "downloads_current": 0,
+      "downloads_carried": 0,
+      "download_ledger": {},
+      "cover": "covers/secret-game-killer-queen-portable-kr-patch.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/121482-secret-game-killer-queen-portable",
+      "cover_revision": "a823c56c351f"
     },
     {
       "repo": "chusingura46-plus-1-v-kr-patch",

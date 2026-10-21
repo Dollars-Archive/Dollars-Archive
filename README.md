@@ -14,11 +14,11 @@ DOLLARS-WALKTHROUGH-REGISTRATION:END -->
 [공략집 모음](https://dollars-archive.github.io/Game-Walkthrough-Archive/)
 
 <!-- KR-PATCH-HUB:START -->
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/summary-dark.svg"><img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/summary-light.svg" alt="라이브러리 15개 · 작업 완료 14 · 작업 중 1 · 과거 다운로드 2,850회" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/summary-dark.svg"><img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/summary-light.svg" alt="라이브러리 16개 · 작업 완료 14 · 작업 중 2 · 과거 다운로드 2,850회" width="100%"></picture>
 
 ## 게임 라이브러리
 
-라이브러리 15개 · 작업 완료 14 · 작업 중 1 · 과거 다운로드 2,850회 · [검색·기종 필터로 찾아보기 →](<https://dollars-archive.github.io/Dollars-Archive/>)
+라이브러리 16개 · 작업 완료 14 · 작업 중 2 · 과거 다운로드 2,850회 · [검색·기종 필터로 찾아보기 →](<https://dollars-archive.github.io/Dollars-Archive/>)
 
 | 표지 | 게임 | 기종 | 장르 | 상태 | 버전 | 다운로드 | 바로가기 |
 | :---: | :--- | :---: | :--- | :---: | :---: | ---: | :--- |
@@ -29,6 +29,7 @@ DOLLARS-WALKTHROUGH-REGISTRATION:END -->
 | <a href="https://gamesdb.launchbox-app.com/games/details/114795-touhou-genso-wanderer-reloaded"><img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/docs/covers/touhou-genso-wanderer-reloaded-kr-patch.webp?v=69db0bbc25e9" width="48" alt="이상한 환상향 TOD -RELOADED- 표지"></a> | **이상한 환상향 TOD -RELOADED-** | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-pc.svg" alt="PC" height="22"> <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-switch.svg" alt="Switch" height="22"> | 던전 RPG | 작업 완료 | v1.0 | — |  |
 | <a href="https://gamesdb.launchbox-app.com/games/details/374995-eve-ghost-enemies"><img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/docs/covers/eve-ghost-enemies-kr-patch.webp?v=b1ec897bac8d" width="48" alt="EVE ghost enemies 표지"></a> | **EVE ghost enemies** | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-switch.svg" alt="Switch" height="22"> | 커맨드 선택식 ADV | 작업 완료 | v1.2.0 | — |  |
 | <a href="https://store-jp.nintendo.com/item/software/D70010000022322"><img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/docs/covers/eve-rebirth-terror-kr-patch.webp?v=ca43be11d6df" width="48" alt="EVE rebirth terror 표지"></a><br><sub>Switch eShop</sub> | **EVE rebirth terror** | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-switch.svg" alt="Switch" height="22"> | 커맨드 선택식 ADV | 작업 완료 | v1.4.0 | — |  |
+| <a href="https://gamesdb.launchbox-app.com/games/details/121482-secret-game-killer-queen-portable"><img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/docs/covers/secret-game-killer-queen-portable-kr-patch.webp?v=a823c56c351f" width="48" alt="시크릿 게임: 킬러 퀸 포터블 표지"></a> | **시크릿 게임: 킬러 퀸 포터블** | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-psp.svg" alt="PSP" height="22"> | 서스펜스 ADV | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-wip.svg" alt="작업 중" height="22"> | — | **0** | [저장소](<https://github.com/Dollars-Archive/secret-game-killer-queen-portable-kr-patch>) |
 | <a href="https://www.suruga-ya.jp/product/detail/105000817"><img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/docs/covers/chusingura46-plus-1-v-kr-patch.webp?v=dd9bbeced783" width="48" alt="충신장 46+1 V 표지"></a> | **충신장 46+1 V** | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-vita.svg" alt="PS Vita" height="22"> | 시대극·타임루프 ADV | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-wip.svg" alt="작업 중" height="22"> | — | **0** | [저장소](<https://github.com/Dollars-Archive/chusingura46-plus-1-v-kr-patch>) |
 | <a href="https://9-nine-project.com/game/consumer/"><img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/docs/covers/9-nine-switch-kr-patch.webp?v=bdb304d917a0" width="48" alt="9 -nine- 표지"></a><br><sub>Switch・PS4 공통 공식 타이틀 아트</sub> | **9 -nine-** | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-switch.svg" alt="Switch" height="22"> | 이능·미스터리 ADV | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-completed.svg" alt="작업 완료" height="22"> | — | **0** | [저장소](<https://github.com/Dollars-Archive/9-nine-switch-kr-patch>) |
 | <a href="https://zettairenai.wordpress.com/2019/02/01/ps-vita-amatsutsumi-review/"><img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/docs/covers/amatsutsumi-kr-patch.webp?v=644a42046b61" width="48" alt="아마츠츠미 표지"></a> | **아마츠츠미** | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-vita.svg" alt="PS Vita" height="22"> | 판타지·연애 ADV | <img src="https://raw.githubusercontent.com/Dollars-Archive/Dollars-Archive/main/assets/profile/badge-completed.svg" alt="작업 완료" height="22"> | — | **0** | [저장소](<https://github.com/Dollars-Archive/amatsutsumi-kr-patch>) |
@@ -48,7 +49,7 @@ DOLLARS-WALKTHROUGH-REGISTRATION:END -->
 - [직접 제작한 공략집 모음](<https://dollars-archive.github.io/Game-Walkthrough-Archive/>) — Dollars Archive가 직접 작성한 게임 공략집
 - [HD texture pack 모음](<https://dollars-archive.github.io/HD-Texture-Pack-Archive/>) — 게임별 HD 텍스처 팩 아카이브
 
-<sub>자동 갱신: 2026-10-20 (KST) · 다운로드는 패치 첨부파일 기준</sub>
+<sub>자동 갱신: 2026-10-21 (KST) · 다운로드는 패치 첨부파일 기준</sub>
 
 <sub>누적 집계 시작일: 2026-10-04 (KST) · 매시간 갱신 · 집계 시작 전 삭제된 다운로드는 포함하지 않습니다.</sub>
 <!-- KR-PATCH-HUB:END -->
