@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "2e27caaba44e375a6033532124dbe17c2e84b7d9",
+  "tree_sha": "1b67118f6ebf98e48f6a077cea64deeb680a5eb8",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -1324,7 +1324,7 @@
     },
     {
       "key": "platforms/ps2/games/shuffle-on-the-stage.md",
-      "source_sha": "c0196a3159d9f0afd0adf214a7670c7958555051",
+      "source_sha": "db9cee3651d22db1aeeda63b61f2b6a4ed8567d2",
       "platform": "PS2",
       "product_id": "",
       "original": "シャッフル! オン・ザ・ステージ",
@@ -3424,7 +3424,7 @@
     },
     {
       "key": "platforms/psp/games/sorairo-portable.md",
-      "source_sha": "743790da76d471225da4d1304f7b2f399033d3fc",
+      "source_sha": "878e4843e7f6ca4553c3436be24e1e9856b234e9",
       "platform": "PSP",
       "product_id": "",
       "original": "そらいろ Portable",
@@ -4771,6 +4771,16 @@
       "english_title": "Hakkenden",
       "title_ko": "",
       "title": "Hakkenden (팔검전 / 八剱伝)"
+    },
+    {
+      "key": "platforms/switch/games/hyper-highspeed-genius.md",
+      "source_sha": "45f9f011b1bb7f82ba5bfb1a584cbd81e7caf43d",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "Hyper→Highspeed→Genius",
+      "title_ko": "",
+      "title": "Hyper→Highspeed→Genius (하이퍼 하이스피드 지니어스)"
     },
     {
       "key": "platforms/switch/games/island.md",
