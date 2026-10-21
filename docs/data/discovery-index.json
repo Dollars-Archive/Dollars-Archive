@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "174e8516ea006258d6511cc14f271f4028cd1efd",
+  "tree_sha": "c73bfd79b86fa9336a56193bc8afa310b16e80e4",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -4791,6 +4791,16 @@
       "english_title": "Hakkenden",
       "title_ko": "",
       "title": "Hakkenden (팔검전 / 八剱伝)"
+    },
+    {
+      "key": "platforms/switch/games/hhg-megami-no-shuuen.md",
+      "source_sha": "8ef2fd24190666d2fc9331b2378acb79b3be647e",
+      "platform": "SWITCH",
+      "product_id": "",
+      "original": "",
+      "english_title": "HHG Megami no Shuuen",
+      "title_ko": "",
+      "title": "HHG Megami no Shuuen (HHG: 여신의 종언)"
     },
     {
       "key": "platforms/switch/games/hyper-highspeed-genius.md",
