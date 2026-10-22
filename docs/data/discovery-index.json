@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "ba88ee6f4543138ff64e5a6fb13cd71b9a045cdc",
+  "tree_sha": "ce48bc50dd58f1aa8a4a1110724e659f57209b91",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -353,6 +353,16 @@
       "title": "Another Time Another Leaf: Kagami no Naka no Tantei (어나더 타임 어나더 리프: 거울 속의 탐정)"
     },
     {
+      "key": "platforms/ds/games/flower-sun-and-rain.md",
+      "source_sha": "2e3ee163c971ddfbcf6c1fc7a406a531f435eae3",
+      "platform": "DS",
+      "product_id": "",
+      "original": "",
+      "english_title": "Flower, Sun, and Rain: Owaranai Rakuen (꽃과 태양과 비 · 끝나지 않는 낙원) · Nintendo DS",
+      "title_ko": "꽃과 태양과 비 · 끝나지 않는 낙원",
+      "title": "Flower, Sun, and Rain: Owaranai Rakuen (꽃과 태양과 비 · 끝나지 않는 낙원) · Nintendo DS"
+    },
+    {
       "key": "platforms/ds/games/golden-sun-dark-dawn.md",
       "source_sha": "0db79d969610b9140e81b5ccb685687d2ee4c040",
       "platform": "DS",
@@ -361,6 +371,26 @@
       "english_title": "Golden Sun: Dark Dawn",
       "title_ko": "황금의 태양: 칠흑의 새벽",
       "title": "Golden Sun: Dark Dawn (황금의 태양: 칠흑의 새벽)"
+    },
+    {
+      "key": "platforms/ds/games/nostalgia-nostalgeo-no-kaze.md",
+      "source_sha": "a3d9c2217e95c867d9dc297a86918f0d0702201e",
+      "platform": "NINTENDO DS (2008년 일본 / 2009년 북미 영어판)",
+      "product_id": "",
+      "original": "ノスタルジオの風",
+      "english_title": "Nostalgia / Nostalgeo no Kaze (노스탤지오의 바람) · Nintendo DS",
+      "title_ko": "",
+      "title": "Nostalgia / Nostalgeo no Kaze (노스탤지오의 바람) · Nintendo DS"
+    },
+    {
+      "key": "platforms/ds/games/rondo-of-swords-itsuwari-no-rondo.md",
+      "source_sha": "b9f750977560f728a491277fd419ef0f3fbd7d2c",
+      "platform": "NINTENDO DS (일본·한국·북미 모두 같은 게임의 지역판)",
+      "product_id": "",
+      "original": "",
+      "english_title": "Rondo of Swords / Itsuwari no Rondo",
+      "title_ko": "",
+      "title": "Rondo of Swords / Itsuwari no Rondo (거짓의 윤무곡 / 이츠와리노 론도)"
     },
     {
       "key": "platforms/ds/games/time-hollow-ubawareta-kako-o-motomete.md",
@@ -401,6 +431,16 @@
       "english_title": "Akagawa Jirō: Yasōkyoku",
       "title_ko": "",
       "title": "Akagawa Jirō: Yasōkyoku (아카가와 지로 야상곡 / 야상곡 1편)"
+    },
+    {
+      "key": "platforms/ps1/games/l-no-kisetsu-a-piece-of-memories.md",
+      "source_sha": "11b1b1a06f39d694673cb8afb4670146ed045990",
+      "platform": "PS1",
+      "product_id": "",
+      "original": "Lの季節 ～A piece of memories～",
+      "english_title": "L no Kisetsu: A piece of memories",
+      "title_ko": "",
+      "title": "L no Kisetsu: A piece of memories (L의 계절: 기억의 조각)"
     },
     {
       "key": "platforms/ps1/games/otogirisou-sosei-hen.md",
@@ -681,6 +721,16 @@
       "english_title": "Final Approach",
       "title_ko": "파이널 어프로치 (통용 표기, 공식 한국어 게임명 미확인)",
       "title": "Final Approach (파이널 어프로치)"
+    },
+    {
+      "key": "platforms/ps2/games/flower-sun-and-rain.md",
+      "source_sha": "81245f0eb84d029b0efa14888d8355940c2a0ada",
+      "platform": "PS2",
+      "product_id": "",
+      "original": "花と太陽と雨と",
+      "english_title": "Flower, Sun, and Rain (꽃과 태양과 비) · PlayStation 2",
+      "title_ko": "",
+      "title": "Flower, Sun, and Rain (꽃과 태양과 비) · PlayStation 2"
     },
     {
       "key": "platforms/ps2/games/fragments-blue.md",
@@ -1264,13 +1314,13 @@
     },
     {
       "key": "platforms/ps2/games/school-rumble-ni-gakki.md",
-      "source_sha": "b09d41d155d321f24afb7e25aa6194e38c4d5727",
+      "source_sha": "2a1eecc62690f3ea797a45fdb87f309b7c4fa270",
       "platform": "PS2",
       "product_id": "",
       "original": "スクールランブル二学期 恐怖の（？）夏合宿！洋館に幽霊現る！？お宝を巡って真っ向勝負！！！の巻",
-      "english_title": "School Rumble Ni-Gakki",
-      "title_ko": "스쿨럼블 2학기 / 장문 부제의 공식 한국어 게임명은 확인 못함",
-      "title": "School Rumble Ni-Gakki (스쿨럼블 2학기)"
+      "english_title": "School Rumble Ni-Gakki (스쿨럼블 2학기: 공포의(?) 여름 합숙!)",
+      "title_ko": "스쿨럼블 2학기: 공포의(?) 여름 합숙! (게임 정식 한국어판 미확인, 제목의 짧은 번역 표기)",
+      "title": "School Rumble Ni-Gakki (스쿨럼블 2학기: 공포의(?) 여름 합숙!)"
     },
     {
       "key": "platforms/ps2/games/secret-game-killer-queen.md",
@@ -1424,7 +1474,7 @@
     },
     {
       "key": "platforms/ps2/games/w-wish.md",
-      "source_sha": "fc09589f9c705de91afeb43b1fc78730467a7e11",
+      "source_sha": "cf54cd5cb0cb2c1e49b8d13ffa81025b2ce418ca",
       "platform": "PS2",
       "product_id": "",
       "original": "W ～ウィッシュ～",
@@ -1961,6 +2011,16 @@
       "english_title": "Skullgirls Encore",
       "title_ko": "스컬걸즈 앙코르",
       "title": "Skullgirls Encore (스컬걸즈 앙코르)"
+    },
+    {
+      "key": "platforms/ps3/games/suigetsu-ni.md",
+      "source_sha": "dbde96e733e3336c57c1b5069fd2d9ebd1b2f070",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "",
+      "english_title": "Suigetsu Ni (수월 2 / 水月 弐) · PlayStation 3",
+      "title_ko": "",
+      "title": "Suigetsu Ni (수월 2 / 水月 弐) · PlayStation 3"
     },
     {
       "key": "platforms/ps3/games/super-dimension-fortress-macross-do-you-remember-love-hybrid-pack.md",
@@ -2554,7 +2614,7 @@
     },
     {
       "key": "platforms/psp/games/gallery-fake.md",
-      "source_sha": "e8505417fc56840f9a0b5ea9ca1a7ccc06794c49",
+      "source_sha": "42e975cc8e29e653d0de50b7e0ea185a6b55001d",
       "platform": "PLAYSTATION PORTABLE (PSP)",
       "product_id": "",
       "original": "ギャラリーフェイク",
@@ -2804,7 +2864,7 @@
     },
     {
       "key": "platforms/psp/games/l-no-kisetsu-double-pocket.md",
-      "source_sha": "52c0d265c123665b04cc288f12fc86372993e97d",
+      "source_sha": "845d8bf472102f53864ba9c37911c46a942a36bf",
       "platform": "PSP",
       "product_id": "",
       "original": "Lの季節 ダブルポケット",
@@ -2864,7 +2924,7 @@
     },
     {
       "key": "platforms/psp/games/marriage-royale-prism-story.md",
-      "source_sha": "6e333bb2d0608b20079ec00560851013a7600ce2",
+      "source_sha": "a33eecb489a81f41f4e785bacbb237eb0d4673bd",
       "platform": "PSP",
       "product_id": "",
       "original": "マリッジロワイヤル ～プリズムストーリー～",
@@ -2984,7 +3044,7 @@
     },
     {
       "key": "platforms/psp/games/no-fate-only-the-power-of-will.md",
-      "source_sha": "89ffe94ae4bb87f7bf310876b210f337d3837522",
+      "source_sha": "c06ab6588fa76bc8b8d8f4f6b541c7da350fafe9",
       "platform": "PSP",
       "product_id": "",
       "original": "のーふぇいと！ -only the power of will-",
@@ -3204,7 +3264,7 @@
     },
     {
       "key": "platforms/psp/games/school-rumble-anesan-jiken-desu.md",
-      "source_sha": "d69661dbcf0fb9518ce067d300f2347dd80ec340",
+      "source_sha": "5743c19291ca1d65bf6478be9d63f0fcf3e2ab26",
       "platform": "PSP",
       "product_id": "",
       "original": "スクールランブル 姉さん事件です!",
@@ -3483,6 +3543,16 @@
       "title": "Sucre Portable (슈크레 포터블)"
     },
     {
+      "key": "platforms/psp/games/suigetsu-ni-portable.md",
+      "source_sha": "14643fe3b6a877d2a78c14869cdacb3e784ad9ef",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "",
+      "english_title": "Suigetsu Ni: Portable (수월 2 포터블 / 水月 弐 ～Portable～) · PSP",
+      "title_ko": "",
+      "title": "Suigetsu Ni: Portable (수월 2 포터블 / 水月 弐 ～Portable～) · PSP"
+    },
+    {
       "key": "platforms/psp/games/suigetsu-portable.md",
       "source_sha": "de338e37c91cb1c35ab6892c8af6ffc92560973f",
       "platform": "PSP",
@@ -3541,6 +3611,16 @@
       "english_title": "Suzumiya Haruhi no Tsuisou",
       "title_ko": "스즈미야 하루히의 추상 — 국내 상품명이며 공식 한국어판 명칭은 아님",
       "title": "Suzumiya Haruhi no Tsuisou (스즈미야 하루히의 추상)"
+    },
+    {
+      "key": "platforms/psp/games/suzumiya-haruhi-no-yakusoku.md",
+      "source_sha": "0f485211cc77ada2c4bd4f6cd7274f168119db5a",
+      "platform": "PSP",
+      "product_id": "",
+      "original": "涼宮ハルヒの約束",
+      "english_title": "Suzumiya Haruhi no Yakusoku (스즈미야 하루히의 약속) · PSP",
+      "title_ko": "",
+      "title": "Suzumiya Haruhi no Yakusoku (스즈미야 하루히의 약속) · PSP"
     },
     {
       "key": "platforms/psp/games/suzunone-seven-portable.md",
@@ -3654,13 +3734,13 @@
     },
     {
       "key": "platforms/psp/games/toaru-majutsu-to-kagaku-no-ensemble.md",
-      "source_sha": "f902a7c17f9f8db8ef076913fc30f3dcecc6fd36",
+      "source_sha": "182bd2202d99afe52c42df579c0174ffb8db6227",
       "platform": "PSP",
       "product_id": "",
       "original": "とある魔術と科学の群奏活劇（アンサンブル）",
       "english_title": "Toaru Majutsu to Kagaku no Ensemble",
-      "title_ko": "어떤 마술과 과학의 군주활극 — 국내 통용 표기, 공식 한국어판 제목은 아님",
-      "title": "Toaru Majutsu to Kagaku no Ensemble (어떤 마술과 과학의 군주활극)"
+      "title_ko": "어떤 마술과 과학의 군주활극 (앙상블) — 국내 통용 표기, 공식 한국어판 제목은 아님",
+      "title": "Toaru Majutsu to Kagaku no Ensemble (어떤 마술과 과학의 군주활극 / 앙상블)"
     },
     {
       "key": "platforms/psp/games/tobidase-trouble-hanafuda-douchuuki.md",
