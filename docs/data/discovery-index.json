@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "c73bfd79b86fa9336a56193bc8afa310b16e80e4",
+  "tree_sha": "ba88ee6f4543138ff64e5a6fb13cd71b9a045cdc",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -1684,13 +1684,13 @@
     },
     {
       "key": "platforms/ps3/games/himawari-no-kyoukai-to-nagai-natsuyasumi-extra-vacation.md",
-      "source_sha": "b18da127df9c5d48d55df73f11af53e6e5ebcfe5",
+      "source_sha": "d59105232d03860991e2b70e5027873fc7ebc2fe",
       "platform": "PS3",
       "product_id": "",
       "original": "向日葵の教会と長い夏休み -extra vacation-",
       "english_title": "Himawari no Kyoukai to Nagai Natsuyasumi: extra vacation",
-      "title_ko": "해바라기 교회와 긴 여름방학 -extra vacation-",
-      "title": "Himawari no Kyoukai to Nagai Natsuyasumi: extra vacation (해바라기 교회와 긴 여름방학 -extra vacation-)"
+      "title_ko": "해바라기의 교회와 긴 여름방학 -extra vacation-",
+      "title": "Himawari no Kyoukai to Nagai Natsuyasumi: extra vacation (해바라기의 교회와 긴 여름방학 -extra vacation-)"
     },
     {
       "key": "platforms/ps3/games/infinite-stratos-2-love-and-purge.md",
@@ -2534,12 +2534,12 @@
     },
     {
       "key": "platforms/psp/games/gaku-ou-the-royal-seven-stars-plus-meteor.md",
-      "source_sha": "0b458fe73c6610f246866d18727901706f7b95f0",
+      "source_sha": "d65f4cb9feae56085bf26e99f6e5ed03c7802fa9",
       "platform": "PSP",
       "product_id": "",
-      "original": "",
+      "original": "学☆王 -THE ROYAL SEVEN STARS- ＋METEOR",
       "english_title": "Gaku Ou: The Royal Seven Stars + Meteor",
-      "title_ko": "",
+      "title_ko": "학☆왕 -THE ROYAL SEVEN STARS- +METEOR",
       "title": "Gaku Ou: The Royal Seven Stars + Meteor (학☆왕 -THE ROYAL SEVEN STARS- +METEOR)"
     },
     {
@@ -2604,7 +2604,7 @@
     },
     {
       "key": "platforms/psp/games/himawari-no-kyoukai-to-nagai-natsuyasumi-extra-vacation.md",
-      "source_sha": "58fd3a44095dbe6ee208230cbb6f931277dece78",
+      "source_sha": "5a88671a859135d315b2d56f9255c8a744830e27",
       "platform": "PSP",
       "product_id": "",
       "original": "向日葵の教会と長い夏休み -extra vacation-",
@@ -2624,7 +2624,7 @@
     },
     {
       "key": "platforms/psp/games/hoshigari-empusa-portable.md",
-      "source_sha": "cf7e0113689e3217f5aa9d2d05a8598404aa5d58",
+      "source_sha": "5d8f522aafa49abdf8a03c3c91609368422ca88c",
       "platform": "PSP",
       "product_id": "",
       "original": "ほしがりエンプーサ portable",
@@ -2634,7 +2634,7 @@
     },
     {
       "key": "platforms/psp/games/hoshizora-planet-one-small-step-for.md",
-      "source_sha": "3335e7c0cbbc75ab45f9642da1c8ba8e33532f70",
+      "source_sha": "34fd931755bf43976f6c82b205e119d1e91fdc46",
       "platform": "PSP",
       "product_id": "",
       "original": "星空☆ぷらねっと one small step for...",
@@ -2744,7 +2744,7 @@
     },
     {
       "key": "platforms/psp/games/kisaragi-gold-star-nonstop-go-go.md",
-      "source_sha": "1fb2db59228f61b4fa95e5000d6c26501341c410",
+      "source_sha": "ad93c08f9042050fa46f96470c79124d6f67819a",
       "platform": "PSP",
       "product_id": "",
       "original": "キサラギGOLD★STAR -NONSTOP GO GO!!-",
@@ -3234,7 +3234,7 @@
     },
     {
       "key": "platforms/psp/games/seitokai-no-ichizon-lv2-portable.md",
-      "source_sha": "392f896a4dc626b626866ac515750fcfabf76792",
+      "source_sha": "9e6860b20c8ed49bd06a1cd3aedb6f0ff006bef6",
       "platform": "PSP",
       "product_id": "",
       "original": "生徒会の一存 Lv.2 PORTABLE",
