@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "7700e474d8b9e5bd209ca80fe1c46da12d488679",
+  "tree_sha": "f52a5c9d579b007d128152f4eb3f73c849fe43da",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -1424,13 +1424,13 @@
     },
     {
       "key": "platforms/ps2/games/sorairo-no-organ-remix.md",
-      "source_sha": "096ef5459ba40b839fbd35f1801bca962534b3ad",
+      "source_sha": "e4a91c23a0e41b2cde57b59971b8a1327d5a061d",
       "platform": "PS2",
       "product_id": "",
-      "original": "空色の風琴 ～Remix～",
-      "english_title": "Sorairo no Organ Remix",
-      "title_ko": "하늘색 풍금 ～Remix～",
-      "title": "Sorairo no Organ Remix (하늘색 풍금 ～Remix～)"
+      "original": "",
+      "english_title": "Sorairo no Organ: Remix",
+      "title_ko": "",
+      "title": "Sorairo no Organ: Remix (하늘색 풍금 ～Remix～ / 하늘색 오르간)"
     },
     {
       "key": "platforms/ps2/games/soul-link-extension.md",
@@ -2093,6 +2093,16 @@
       "title": "The Guided Fate Paradox (신과 운명혁명의 패러독스)"
     },
     {
+      "key": "platforms/ps3/games/time-leap.md",
+      "source_sha": "c4b11b8ad084a3fb6329cf9ba5ee4fa53d936bc5",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "",
+      "english_title": "Time Leap (타임 리프) · PlayStation 3",
+      "title_ko": "",
+      "title": "Time Leap (타임 리프) · PlayStation 3"
+    },
+    {
       "key": "platforms/ps3/games/toheart2-dx-plus.md",
       "source_sha": "56532433247f841392ff68ea6619eb50e7b09663",
       "platform": "PS3",
@@ -2114,7 +2124,7 @@
     },
     {
       "key": "platforms/ps3/games/touch-shot-love-application.md",
-      "source_sha": "622e8f8c37d52450ea04869d649dd2583954d6ce",
+      "source_sha": "a5e5af132523c553b1ff43c07e27d68c3d96b16c",
       "platform": "PS3",
       "product_id": "",
       "original": "たっち、しよっ！ ～Love Application～",
