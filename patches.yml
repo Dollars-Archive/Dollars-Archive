@@ -10,18 +10,18 @@ chusingura46-plus-1-v-kr-patch:
   release_jp: "2015-05-28"
   product_id: PCSG00540
   edition: PS Vita 일본판
-  status: wip
+  status: completed
   confirmed_scope_status: done
-  confirmed_scope_source: 사용자 메뉴·UI/대사/영상 자막 체크 지시 (2026-10-20)
+  confirmed_scope_source: 사용자 메뉴·UI·대사·영상 자막 완료 확인 (2026-10-24)
   confirmed_image_status: done
-  confirmed_image_source: 사용자 이미지 체크 지시 (2026-10-20)
+  confirmed_image_source: 사용자 이미지 완료 확인 (2026-10-24)
   discovery: platforms/psvita/games/chusingura46-plus-1-v.md
   cover: https://cdn.suruga-ya.jp/database/pics_webp/game/105000817.jpg.webp
   cover_source: https://www.suruga-ya.jp/product/detail/105000817
   cover_type: Box - Front
   cover_region: Japan
   facts_source: https://dramaticcreate.com/chusingura/product.html
-  note: 사용자 메뉴·UI·대사·이미지·영상 자막 완료 확인 (2026-10-20) · 공략집·HD 팩 미체크
+  note: 사용자 메뉴·UI·대사·이미지·영상 자막 작업 완료 확인 (2026-10-24) · 공략집·HD 팩 미체크 · 공개 배포 파일 없음
 
 9-nine-switch-kr-patch:
   discovery: platforms/switch/games/9-nine.md
@@ -344,11 +344,15 @@ twelve-sengoku-fuushinden-kr-patch:
   launchbox_url: https://gamesdb.launchbox-app.com/games/details/82074-twelve-sengoku-fuushinden
 
 secret-game-killer-queen-portable-kr-patch:
-  status: wip
+  status: completed
+  confirmed_scope_status: done
+  confirmed_scope_source: 사용자 메뉴·UI·대사·영상 자막 완료 확인 (2026-10-24)
+  confirmed_image_status: done
+  confirmed_image_source: 사용자 이미지 완료 확인 (2026-10-24)
   discovery: platforms/psp/games/secret-game-killer-queen-portable.md
   launchbox_url: https://gamesdb.launchbox-app.com/games/details/121482-secret-game-killer-queen-portable
   facts_source: https://regista.co.jp/products/secret-game-psp/
-  note: PSP 일본판 한글화 작업 준비 · 실기 확인 및 전체 번역·검수 대기 · 공개 배포판 준비 중
+  note: 사용자 메뉴·UI·대사·이미지·영상 자막 작업 완료 확인 (2026-10-24) · 공략집·HD 팩 미체크 · 공개 배포 파일 없음
 
 rebellions-secret-game-2nd-stage-kr-patch:
   title: "Rebellions: Secret Game 2nd Stage"
