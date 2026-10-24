@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-21T14:10:38Z",
+  "generated_at": "2026-10-24T07:17:45Z",
   "summary": {
-    "total": 16,
+    "total": 17,
     "released": 0,
     "wip": 2,
-    "completed": 14,
+    "completed": 15,
     "downloads": 2850
   },
   "library_count": 7,
@@ -1043,6 +1043,86 @@
         }
       },
       "distribution_stopped": true
+    },
+    {
+      "repo": "rebellions-secret-game-2nd-stage-kr-patch",
+      "title": "Rebellions: Secret Game 2nd Stage",
+      "original": "リベリオンズ Secret Game 2nd Stage",
+      "series": "시크릿 게임",
+      "platforms": [
+        "PSP"
+      ],
+      "genre": "서스펜스 ADV",
+      "genre_full": "서스펜스 ADV",
+      "developer": "Regista / FLAT",
+      "publisher": "Yeti",
+      "playtime": "20–22시간",
+      "edition": "PSP 일본판",
+      "release_jp": "2013-03-28",
+      "product_id": "ULJM-06253",
+      "base_update": "미확인",
+      "note": "사용자 확인 기준 네 범위 작업 완료 (2026-10-24) · 공개 배포 파일 없음 · 공략집·HD 팩 미확인 · 플레이타임은 PSP 클리어 후기 기준",
+      "cover_caption": "",
+      "status": "completed",
+      "description": "Rebellions: Secret Game 2nd Stage PSP 한국어화 작업 기록",
+      "pushed_at": "2026-10-24T07:17:19Z",
+      "stars": 0,
+      "url": "https://github.com/Dollars-Archive/rebellions-secret-game-2nd-stage-kr-patch",
+      "has_pages": false,
+      "topics": [
+        "korean-translation",
+        "kr-patch",
+        "psp"
+      ],
+      "guide_url": "",
+      "guide_status": null,
+      "latest_release": null,
+      "downloads": 0,
+      "assets": [],
+      "tools": [],
+      "discovery": "platforms/psp/games/rebellions-secret-game-2nd-stage.md",
+      "discovery_match": "manual",
+      "walkthroughs": [],
+      "walkthrough_available": false,
+      "activity_at": "2026-10-24T07:17:19Z",
+      "scope": {
+        "title": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        },
+        "ui": {
+          "state": "done",
+          "status": "완료",
+          "since": null,
+          "source": "사용자 메뉴·UI·대사·이미지·영상 자막 완료 확인 (2026-10-24)"
+        },
+        "dialogue": {
+          "state": "done",
+          "status": "완료",
+          "since": null,
+          "source": "사용자 메뉴·UI·대사·이미지·영상 자막 완료 확인 (2026-10-24)"
+        },
+        "image": {
+          "state": "done",
+          "status": "완료",
+          "since": null
+        },
+        "video": {
+          "state": "done",
+          "status": "완료",
+          "since": null,
+          "source": "사용자 메뉴·UI·대사·이미지·영상 자막 완료 확인 (2026-10-24)"
+        }
+      },
+      "changelog": [],
+      "metadata_source": "https://github.com/Dollars-Archive/rebellions-secret-game-2nd-stage-kr-patch/blob/main/README.md",
+      "downloads_current": 0,
+      "downloads_carried": 0,
+      "download_ledger": {},
+      "cover": "covers/rebellions-secret-game-2nd-stage-kr-patch.webp",
+      "cover_source": "https://gamesdb.launchbox-app.com/games/details/165526-rebellions-secret-game-2nd-stage",
+      "cover_revision": "e1b06950727a"
     },
     {
       "repo": "secret-game-killer-queen-portable-kr-patch",
