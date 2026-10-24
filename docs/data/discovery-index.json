@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "f52a5c9d579b007d128152f4eb3f73c849fe43da",
+  "tree_sha": "6ae6336e7560a5c598187ba3fcd22ea8efdee1c2",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -371,6 +371,16 @@
       "english_title": "Golden Sun: Dark Dawn",
       "title_ko": "황금의 태양: 칠흑의 새벽",
       "title": "Golden Sun: Dark Dawn (황금의 태양: 칠흑의 새벽)"
+    },
+    {
+      "key": "platforms/ds/games/keiji-jb-harold-no-jikenbo-murder-club.md",
+      "source_sha": "de24604d96e56e0fbaa67c0dc43c661147efd3be",
+      "platform": "DS",
+      "product_id": "",
+      "original": "刑事J.B.ハロルドの事件簿 ～殺人倶楽部～",
+      "english_title": "Keiji J.B. Harold no Jikenbo: Murder Club",
+      "title_ko": "형사 J.B. 해롤드의 사건부: 머더 클럽 (사용자 표기·공식 정식 한국어 제품명 아님)",
+      "title": "Keiji J.B. Harold no Jikenbo: Murder Club (형사 J.B. 해롤드의 사건부: 머더 클럽)"
     },
     {
       "key": "platforms/ds/games/nostalgia-nostalgeo-no-kaze.md",
@@ -1761,6 +1771,16 @@
       "english_title": ".hack: Sekai no Mukou ni + Versus Hybrid Pack",
       "title_ko": "닷핵 세계의 저편으로 + Versus Hybrid Pack",
       "title": ".hack: Sekai no Mukou ni + Versus Hybrid Pack (닷핵 세계의 저편으로 + Versus Hybrid Pack)"
+    },
+    {
+      "key": "platforms/ps3/games/harem-tengoku-da-to-omottara-yandere-jigoku-datta.md",
+      "source_sha": "f09cfaed361dc933f4513692faecb04754f8df33",
+      "platform": "PS3",
+      "product_id": "",
+      "original": "",
+      "english_title": "Harem Tengoku da to Omottara Yandere Jigoku Datta. (하렘 천국이라고 생각했더니 얀데레 지옥이었다) · PlayStation 3",
+      "title_ko": "",
+      "title": "Harem Tengoku da to Omottara Yandere Jigoku Datta. (하렘 천국이라고 생각했더니 얀데레 지옥이었다) · PlayStation 3"
     },
     {
       "key": "platforms/ps3/games/himawari-no-kyoukai-to-nagai-natsuyasumi-extra-vacation.md",
