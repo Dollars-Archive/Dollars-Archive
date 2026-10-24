@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T07:21:44Z",
+  "generated_at": "2026-10-24T15:07:59Z",
   "summary": {
     "total": 17,
     "released": 0,
@@ -1962,6 +1962,12 @@
       "title": "스토리 게임 서재",
       "url": "https://dollars-archive.github.io/Game-Story-Library/",
       "desc": "레트로 스토리 게임과 Switch·Vita 비주얼 노벨을 살펴보는 서재"
+    },
+    {
+      "repo": "Korean-Patch-Review-Archive",
+      "title": "한글패치, 다운받을까? 말까?",
+      "url": "https://dollars-archive.github.io/Korean-Patch-Review-Archive/",
+      "desc": "한글패치, 다운받을까? 말까? · 기종별 10점 평가·장단점·찜 목록"
     },
     {
       "repo": "Game-Walkthrough-Archive",
