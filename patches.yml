@@ -1,3 +1,11 @@
+twinkle-crusaders-gogo-kr-patch:
+  status: wip
+  discovery: platforms/psp/games/twinkle-crusaders-gogo.md
+  cover: https://raw.githubusercontent.com/Dollars-Archive/twinkle-crusaders-gogo-kr-patch/main/assets/cover.webp
+  cover_source: https://gamesdb.launchbox-app.com/games/details/122056-twinkle-crusaders-gogo
+  cover_type: Box - Front
+  cover_region: Japan
+
 chusingura46-plus-1-v-kr-patch:
   title: 충신장 46+1 V
   original: ChuSingura46+1 -忠臣蔵46+1- V
