@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T19:45:35Z",
+  "generated_at": "2026-11-04T15:09:25Z",
   "summary": {
     "total": 18,
     "released": 0,
@@ -1092,24 +1092,33 @@
           "since": null
         },
         "ui": {
-          "state": "none",
-          "status": "미작업",
-          "since": null
+          "state": "done",
+          "status": "완료",
+          "since": null,
+          "source": "사용자 공략집 제외 전체 체크 확인 (2026-11-05)"
         },
         "dialogue": {
-          "state": "none",
-          "status": "미작업",
-          "since": null
+          "state": "done",
+          "status": "완료",
+          "since": null,
+          "source": "사용자 공략집 제외 전체 체크 확인 (2026-11-05)"
         },
         "image": {
-          "state": "none",
-          "status": "미작업",
+          "state": "done",
+          "status": "완료",
           "since": null
         },
         "video": {
-          "state": "none",
-          "status": "미작업",
-          "since": null
+          "state": "done",
+          "status": "완료",
+          "since": null,
+          "source": "사용자 공략집 제외 전체 체크 확인 (2026-11-05)"
+        },
+        "hd_texture": {
+          "state": "done",
+          "status": "팩 있음",
+          "since": null,
+          "source": "사용자 HD 팩 완료 확인 (2026-11-05)"
         }
       },
       "changelog": [],

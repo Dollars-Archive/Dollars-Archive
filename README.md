@@ -52,7 +52,7 @@ DOLLARS-WALKTHROUGH-REGISTRATION:END -->
 - [직접 제작한 공략집 모음](<https://dollars-archive.github.io/Game-Walkthrough-Archive/>) — Dollars Archive가 직접 작성한 게임 공략집
 - [HD texture pack 모음](<https://dollars-archive.github.io/HD-Texture-Pack-Archive/>) — 게임별 HD 텍스처 팩 아카이브
 
-<sub>자동 갱신: 2026-10-26 (KST) · 다운로드는 패치 첨부파일 기준</sub>
+<sub>자동 갱신: 2026-11-05 (KST) · 다운로드는 패치 첨부파일 기준</sub>
 
 <sub>누적 집계 시작일: 2026-10-04 (KST) · 매시간 갱신 · 집계 시작 전 삭제된 다운로드는 포함하지 않습니다.</sub>
 <!-- KR-PATCH-HUB:END -->
