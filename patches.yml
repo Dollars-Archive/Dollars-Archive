@@ -1,5 +1,11 @@
 twinkle-crusaders-gogo-kr-patch:
   status: wip
+  confirmed_scope_status: done
+  confirmed_scope_source: 사용자 공략집 제외 전체 체크 확인 (2026-11-05)
+  confirmed_image_status: done
+  confirmed_image_source: 사용자 이미지 완료 확인 (2026-11-05)
+  confirmed_hd_texture_status: done
+  confirmed_hd_texture_source: 사용자 HD 팩 완료 확인 (2026-11-05)
   discovery: platforms/psp/games/twinkle-crusaders-gogo.md
   cover: https://raw.githubusercontent.com/Dollars-Archive/twinkle-crusaders-gogo-kr-patch/main/assets/cover.webp
   cover_source: https://gamesdb.launchbox-app.com/games/details/122056-twinkle-crusaders-gogo
