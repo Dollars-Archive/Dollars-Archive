@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-04T15:09:25Z",
+  "generated_at": "2026-11-09T14:16:10Z",
   "summary": {
-    "total": 18,
+    "total": 19,
     "released": 0,
-    "wip": 1,
+    "wip": 2,
     "completed": 17,
     "downloads": 2850
   },
@@ -1045,6 +1045,84 @@
       "distribution_stopped": true
     },
     {
+      "repo": "g-senjou-no-maou-steam-kr-patch",
+      "title": "G선상의 마왕",
+      "original": "G線上の魔王",
+      "series": "G선상의 마왕",
+      "platforms": [
+        "PC"
+      ],
+      "genre": "휴먼 드라마 ADV",
+      "genre_full": "휴먼 드라마 ADV",
+      "developer": "AKABEiSOFT2",
+      "publisher": "Sekai Project (Steam 영어판)",
+      "playtime": "약 30~40시간",
+      "edition": "Steam 판 (App 377670, 제작 대상)",
+      "release_jp": "2008-05-29",
+      "product_id": "",
+      "base_update": "",
+      "note": "",
+      "cover_caption": "",
+      "status": "wip",
+      "description": "G선상의 마왕 (Steam) 비공식 한국어 패치 — 작업 중",
+      "pushed_at": "2026-11-09T14:15:55Z",
+      "stars": 0,
+      "url": "https://github.com/Dollars-Archive/g-senjou-no-maou-steam-kr-patch",
+      "has_pages": false,
+      "topics": [
+        "korean-localization",
+        "kr-patch",
+        "pc",
+        "steam"
+      ],
+      "guide_url": "",
+      "guide_status": null,
+      "latest_release": null,
+      "downloads": 0,
+      "assets": [],
+      "tools": [],
+      "discovery": "",
+      "discovery_match": "none",
+      "walkthroughs": [],
+      "walkthrough_available": false,
+      "activity_at": "2026-11-09T14:15:55Z",
+      "scope": {
+        "title": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        },
+        "ui": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        },
+        "dialogue": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        },
+        "image": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        },
+        "video": {
+          "state": "none",
+          "status": "미작업",
+          "since": null
+        }
+      },
+      "changelog": [],
+      "metadata_source": "https://github.com/Dollars-Archive/g-senjou-no-maou-steam-kr-patch/blob/main/README.md",
+      "downloads_current": 0,
+      "downloads_carried": 0,
+      "download_ledger": {},
+      "cover": "covers/g-senjou-no-maou-steam-kr-patch.webp",
+      "cover_source": "https://store.steampowered.com/app/377670/",
+      "cover_revision": "b6c5f6881790"
+    },
+    {
       "repo": "twinkle-crusaders-gogo-kr-patch",
       "title": "트윙클☆크루세이더스 GoGo!",
       "original": "ティンクル☆くるせいだーす GoGo!",
@@ -2083,6 +2161,11 @@
       "repo": "Dollars-Archive-kr-localization-archive",
       "type": "no-description",
       "message": "관련 저장소 description이 비어 있습니다."
+    },
+    {
+      "repo": "g-senjou-no-maou-steam-kr-patch",
+      "type": "discovery-unmatched",
+      "message": "발굴 아카이브 자동 매칭에 실패했습니다."
     },
     {
       "repo": "Game-Localization-Discovery-Archive",
