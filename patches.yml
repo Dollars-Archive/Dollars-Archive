@@ -1,3 +1,10 @@
+g-senjou-no-maou-steam-kr-patch:
+  status: wip
+  cover: https://raw.githubusercontent.com/Dollars-Archive/g-senjou-no-maou-steam-kr-patch/main/assets/cover.webp
+  cover_source: https://store.steampowered.com/app/377670/
+  cover_type: Steam library capsule
+  cover_region: Worldwide (English)
+
 twinkle-crusaders-gogo-kr-patch:
   status: wip
   confirmed_scope_status: done
