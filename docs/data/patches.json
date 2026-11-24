@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T17:39:27Z",
+  "generated_at": "2026-11-24T23:06:12Z",
   "summary": {
     "total": 19,
     "released": 0,
@@ -2171,6 +2171,11 @@
       "repo": "Game-Localization-Discovery-Archive",
       "type": "no-description",
       "message": "관련 저장소 description이 비어 있습니다."
+    },
+    {
+      "repo": "twinkle-crusaders-gogo-kr-patch",
+      "type": "wip-stale",
+      "message": "작업 중인 패치의 마지막 푸시가 30일을 넘었습니다."
     }
   ],
   "ledger_started_at": "2026-10-04T13:21:03Z"
