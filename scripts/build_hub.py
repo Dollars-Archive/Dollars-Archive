@@ -45,7 +45,7 @@ END = b"<!-- KR-PATCH-HUB:END -->"
 STATUSES = {"auto", "wip", "released", "paused", "completed"}
 STATUS_LABELS = {"released": "배포", "wip": "작업 중", "paused": "중단", "completed": "작업 완료"}
 RELATED_TITLES = {
-    "Game-Story-Library": "스토리 게임 서재",
+    "Light-Novel-Discovery-Archive": "라노벨 발굴 아카이브",
     "Korean-Patch-Review-Archive": "한글패치, 다운받을까? 말까?",
     "Game-Localization-Discovery-Archive": "한글화 후보 발굴 아카이브",
     "Dollars-Archive-kr-localization-archive": "제작 기술 노트 아카이브",
@@ -532,7 +532,7 @@ def collect(client, metadata: dict, now: datetime, check_guide=guide_status, dis
             warnings.extend(patch_warnings(patch, readme, name in metadata or bool(readme_meta), now))
         elif name.lower().endswith("-kr-patch") or "korean-localization" in name.lower():
             warnings.append(warning(name, "missing-topic", "패치 저장소로 보이지만 kr-patch topic이 없어 목록에서 제외했습니다."))
-        if "kr-localization-archive" in topics and "kr-patch" not in topics:
+        if "kr-localization-archive" in topics and "kr-patch" not in topics and name != "Game-Story-Library":
             url = f"https://dollars-archive.github.io/{name}/" if repo.get("has_pages") else repo["html_url"]
             related.append({"repo": name, "title": RELATED_TITLES.get(name, name), "url": url, "desc": repo.get("description") or ""})
             if not repo.get("description"):
