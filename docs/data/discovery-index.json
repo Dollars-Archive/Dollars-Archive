@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "tree_sha": "6ae6336e7560a5c598187ba3fcd22ea8efdee1c2",
+  "tree_sha": "f2a275afa058ff05ad5aaf7052b8994b0e126a0e",
   "games": [
     {
       "key": "platforms/dreamcast/games/boku-to-bokura-no-natsu.md",
@@ -353,6 +353,16 @@
       "title": "Another Time Another Leaf: Kagami no Naka no Tantei (어나더 타임 어나더 리프: 거울 속의 탐정)"
     },
     {
+      "key": "platforms/ds/games/bleach-the-3rd-phantom.md",
+      "source_sha": "3541069613795c13078d5e77c806db1ef37faa62",
+      "platform": "DS",
+      "product_id": "",
+      "original": "",
+      "english_title": "BLEACH: The 3rd Phantom",
+      "title_ko": "",
+      "title": "BLEACH: The 3rd Phantom (블리치: 더 서드 팬텀)"
+    },
+    {
       "key": "platforms/ds/games/flower-sun-and-rain.md",
       "source_sha": "2e3ee163c971ddfbcf6c1fc7a406a531f435eae3",
       "platform": "DS",
@@ -361,6 +371,16 @@
       "english_title": "Flower, Sun, and Rain: Owaranai Rakuen (꽃과 태양과 비 · 끝나지 않는 낙원) · Nintendo DS",
       "title_ko": "꽃과 태양과 비 · 끝나지 않는 낙원",
       "title": "Flower, Sun, and Rain: Owaranai Rakuen (꽃과 태양과 비 · 끝나지 않는 낙원) · Nintendo DS"
+    },
+    {
+      "key": "platforms/ds/games/glory-of-heracles.md",
+      "source_sha": "efb00fdc44d1892abc11049d7e15920181141f54",
+      "platform": "DS",
+      "product_id": "",
+      "original": "",
+      "english_title": "Glory of Heracles",
+      "title_ko": "",
+      "title": "Glory of Heracles (헤라클레스의 영광: 영혼의 증명)"
     },
     {
       "key": "platforms/ds/games/golden-sun-dark-dawn.md",
@@ -383,6 +403,26 @@
       "title": "Keiji J.B. Harold no Jikenbo: Murder Club (형사 J.B. 해롤드의 사건부: 머더 클럽)"
     },
     {
+      "key": "platforms/ds/games/lux-pain.md",
+      "source_sha": "02ebfa3afc45d7cdd4e34523f774512967ab3b62",
+      "platform": "DS",
+      "product_id": "",
+      "original": "",
+      "english_title": "Lux-Pain",
+      "title_ko": "",
+      "title": "Lux-Pain (럭스 페인)"
+    },
+    {
+      "key": "platforms/ds/games/magical-starsign.md",
+      "source_sha": "760f15952ea699ac267db3af3490a3b864f69819",
+      "platform": "DS",
+      "product_id": "",
+      "original": "",
+      "english_title": "Magical Starsign",
+      "title_ko": "",
+      "title": "Magical Starsign (매지컬 스타사인)"
+    },
+    {
       "key": "platforms/ds/games/nostalgia-nostalgeo-no-kaze.md",
       "source_sha": "a3d9c2217e95c867d9dc297a86918f0d0702201e",
       "platform": "NINTENDO DS (2008년 일본 / 2009년 북미 영어판)",
@@ -401,6 +441,16 @@
       "english_title": "Rondo of Swords / Itsuwari no Rondo",
       "title_ko": "",
       "title": "Rondo of Swords / Itsuwari no Rondo (거짓의 윤무곡 / 이츠와리노 론도)"
+    },
+    {
+      "key": "platforms/ds/games/sigma-harmonics.md",
+      "source_sha": "de1e5d904f478c3d0eddd5b841815d215c59e583",
+      "platform": "DS",
+      "product_id": "",
+      "original": "",
+      "english_title": "Sigma Harmonics",
+      "title_ko": "",
+      "title": "Sigma Harmonics (시그마 하모닉스)"
     },
     {
       "key": "platforms/ds/games/time-hollow-ubawareta-kako-o-motomete.md",
